@@ -1,10 +1,22 @@
 "use client"
 
-import { useEffect, useRef } from "react"
+import { useEffect, useRef, useState } from "react"
+import { motion, useScroll, useTransform } from "framer-motion"
 
 export default function Hero() {
   const circleRef = useRef<HTMLDivElement>(null)
   const heroRef = useRef<HTMLDivElement>(null)
+  
+  // Scroll tracking for dissolve effect
+  const { scrollYProgress } = useScroll({
+    target: heroRef,
+    offset: ["start start", "end start"]
+  })
+  
+  // Transform scroll progress to opacity and scale
+  const textOpacity = useTransform(scrollYProgress, [0, 0.3], [1, 0])
+  const textScale = useTransform(scrollYProgress, [0, 0.3], [1, 0.8])
+  const textY = useTransform(scrollYProgress, [0, 0.3], [0, -50])
 
   useEffect(() => {
     const circle = circleRef.current
@@ -78,21 +90,38 @@ export default function Hero() {
   return (
     <section
       ref={heroRef}
-      className="relative h-screen bg-junglegreen flex items-center justify-center overflow-hidden cursor-none"
+      className="relative h-[70vh] md:h-screen bg-darkbeige flex items-center justify-center overflow-hidden cursor-none"
     >
       {/* Mouse following circle */}
-      <div ref={circleRef} className="cursor-circle opacity-0 bg-darkbeige" />
+      <div ref={circleRef} className="cursor-circle opacity-0 bg-yellow" />
 
       {/* Hero content */}
-      <div className="relative z-20 max-w-4xl mx-auto px-6 text-center">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight text-balance text-bone">
+      <motion.div 
+        className="relative z-20 max-w-4xl mx-auto px-6 text-center"
+        style={{
+          opacity: textOpacity,
+          scale: textScale,
+          y: textY
+        }}
+      >
+        <motion.h1 
+          className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight text-balance text-blackbrown"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+        >
           Borderless Marketing
-        </h1>
-        <p className="mt-8 text-lg md:text-xl lg:text-4xl leading-tight text-pretty max-w-7xl mx-auto text-bone/90">
+        </motion.h1>
+        <motion.p 
+          className="mt-8 text-lg md:text-xl lg:text-4xl leading-tight text-pretty max-w-7xl mx-auto text-blackbrown/90"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+        >
           Transform your business into a Digital Success story with <span className="italic">Digital Neighbour's</span> data driven Digital Marketing
           Services in New Zealand.
-        </p>
-      </div>
+        </motion.p>
+      </motion.div>
     </section>
   )
 }

@@ -7,9 +7,9 @@ export default function Blogs() {
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-12 gap-4">
           <div>
-            <p className="text-blackbrown text-sm font-light tracking-wider mb-4">BLOG</p>
-            <h2 className="text-4xl lg:text-5xl font-light text-blackbrown">
-              Insights to help your brand grow
+            {/* <p className="text-blackbrown text-sm font-light tracking-wider mb-4">BLOG</p> */}
+            <h2 className="text-4xl lg:text-6xl font-light text-blackbrown">
+              Blogs
             </h2>
             {/* Mobile-only More Insights button below the heading */}
             <div className="mt-4 md:hidden">

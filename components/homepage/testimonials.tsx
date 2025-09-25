@@ -1,6 +1,7 @@
 "use client"
 
 import Marquee from "react-fast-marquee"
+import Image from "next/image"
 
 const testimonials = [
   {
@@ -9,6 +10,7 @@ const testimonials = [
     author: "Lucas Bennett",
     position: "Product Manager, Hexa Studio",
     number: "01/05",
+    image: "https://images.pexels.com/photos/34014652/pexels-photo-34014652.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     id: 2,
@@ -16,6 +18,7 @@ const testimonials = [
     author: "Sarah Chen",
     position: "Marketing Director, TechFlow",
     number: "02/05",
+    image: "https://images.pexels.com/photos/34013983/pexels-photo-34013983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     id: 3,
@@ -23,6 +26,7 @@ const testimonials = [
     author: "Michael Rodriguez",
     position: "CEO, GrowthLab",
     number: "03/05",
+    image: "https://images.pexels.com/photos/7432338/pexels-photo-7432338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     id: 4,
@@ -30,6 +34,7 @@ const testimonials = [
     author: "Emma Thompson",
     position: "Brand Manager, Innovate Co",
     number: "04/05",
+    image: "https://images.pexels.com/photos/34006459/pexels-photo-34006459.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     id: 5,
@@ -37,6 +42,7 @@ const testimonials = [
     author: "David Park",
     position: "Founder, StartupHub",
     number: "05/05",
+    image: "https://images.pexels.com/photos/34006447/pexels-photo-34006447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
 ]
 
@@ -76,8 +82,15 @@ export default function Testimonials() {
                 {/* Content Area */}
                 <div className="flex-1 flex items-center justify-center">
                   <div className="text-center">
-                    {/* Placeholder Image Area */}
-                    <div className="w-32 h-20 bg-gray-600 rounded-lg mx-auto mb-6"></div>
+                    {/* Client Portrait */}
+                    <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 relative">
+                      <Image
+                        src={testimonial.image}
+                        alt={`${testimonial.author} portrait`}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
 
                     {/* Quote */}
                     <blockquote className="text-white text-lg font-medium mb-6 leading-relaxed">

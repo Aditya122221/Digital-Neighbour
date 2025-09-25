@@ -11,6 +11,9 @@ const Navbar: React.FC = () => {
   const [isMegaMenuOpen, setIsMegaMenuOpen] = useState(false);
   const [megaMenuTimeout, setMegaMenuTimeout] = useState<NodeJS.Timeout | null>(null);
   const [activeCategory, setActiveCategory] = useState('Marketing');
+  const [expandedMobileServices, setExpandedMobileServices] = useState(false);
+  const [expandedMobileCategory, setExpandedMobileCategory] = useState<string | null>(null);
+  const [expandedMobileColumn, setExpandedMobileColumn] = useState<string | null>(null);
 
   const navigationLinks = [
     { name: 'Home', href: '/' },
@@ -248,6 +251,21 @@ const Navbar: React.FC = () => {
     setActiveCategory(categoryName);
   };
 
+  const handleMobileServicesToggle = () => {
+    setExpandedMobileServices(!expandedMobileServices);
+    setExpandedMobileCategory(null); // Reset category expansion
+    setExpandedMobileColumn(null); // Reset column expansion
+  };
+
+  const handleMobileCategoryToggle = (categoryName: string) => {
+    setExpandedMobileCategory(expandedMobileCategory === categoryName ? null : categoryName);
+    setExpandedMobileColumn(null); // Reset column expansion when category changes
+  };
+
+  const handleMobileColumnToggle = (columnTitle: string) => {
+    setExpandedMobileColumn(expandedMobileColumn === columnTitle ? null : columnTitle);
+  };
+
   // Cleanup timeout on unmount
   useEffect(() => {
     return () => {
@@ -258,18 +276,18 @@ const Navbar: React.FC = () => {
   }, [megaMenuTimeout]);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-transparent backdrop-blur-sm border-b border-white/10">
+    <nav className="absolute top-0 left-0 right-0 z-50 bg-transparent backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo - Left Side */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
               <Image
-                src="/placeholder-logo.png"
+                src="/main-logo.png"
                 alt="Digital Neighbour Logo"
                 width={40}
                 height={40}
-                className="h-8 w-auto lg:h-10"
+                className="h-12 w-auto lg:h-14"
                 priority
               />
             </Link>
@@ -287,11 +305,14 @@ const Navbar: React.FC = () => {
                 <Link
                   href={link.href}
                   className={cn(
-                    "text-white hover:text-yellow transition-colors duration-200 font-medium text-sm lg:text-base flex items-center gap-1",
+                    "text-black hover:text-black transition-all duration-200 font-medium text-sm lg:text-base flex items-center gap-1 relative group",
                     link.hasMegaMenu && isMegaMenuOpen && "text-yellow"
                   )}
                 >
+                  <span className="relative">
                   {link.name}
+                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow transition-all duration-200 group-hover:w-full"></span>
+                  </span>
                   {link.hasMegaMenu && (
                     <svg
                       className="w-4 h-4 transition-transform duration-200"
@@ -312,15 +333,42 @@ const Navbar: React.FC = () => {
             ))}
           </div>
 
-          {/* Start a Project Button - Right Side */}
+          {/* Right Side - Desktop Button & Mobile Menu */}
+          <div className="flex items-center">
+            {/* Start a Project Button - Desktop */}
           <div className="hidden lg:flex lg:items-center">
             <CustomButton
               text="Start a Project"
               href="/contact"
-              textColor="white"
-              borderColor="white"
-              className="text-sm"
-            />
+              textColor="black"
+              borderColor="black"
+              />
+            </div>
+
+            {/* Mobile menu button */}
+            <div className="lg:hidden">
+              <button
+                onClick={toggleMenu}
+                className="text-black hover:text-yellow transition-colors duration-200 p-2"
+                aria-label="Toggle menu"
+              >
+                <svg
+                  className="h-6 w-6"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  {isMenuOpen ? (
+                    <path d="M6 18L18 6M6 6l12 12" />
+                  ) : (
+                    <path d="M4 6h16M4 12h16M4 18h16" />
+                  )}
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
 
@@ -343,7 +391,7 @@ const Navbar: React.FC = () => {
                         className={cn(
                           "flex items-center justify-between px-4 py-3 rounded-lg cursor-pointer transition-colors duration-200",
                           category.isActive
-                            ? "bg-junglegreen text-white"
+                            ? "bg-bone text-black"
                             : "hover:bg-gray-100 text-gray-700"
                         )}
                       >
@@ -377,7 +425,7 @@ const Navbar: React.FC = () => {
                     "grid-cols-1"
                   )}>
                     {megaMenuData[activeCategory as keyof typeof megaMenuData].columns.map((column, columnIndex) => (
-                      <div key={column.title} className="space-y-4">
+                      <div key={column.title} className="space-y-4 relative">
                         <h3 className="text-lg font-semibold text-gray-900 mb-4">
                           {column.title}
                         </h3>
@@ -396,7 +444,7 @@ const Navbar: React.FC = () => {
                           ))}
                         </div>
                         {columnIndex < (megaMenuData[activeCategory as keyof typeof megaMenuData]?.columns?.length || 0) - 1 && (
-                          <div className="border-r border-gray-200 h-full" />
+                          <div className="absolute right-0 top-0 bottom-0 w-px bg-gray-200" />
                         )}
                       </div>
                     ))}
@@ -407,66 +455,119 @@ const Navbar: React.FC = () => {
           </div>
         )}
 
-        {/* Mobile menu button */}
-        <div className="lg:hidden">
-            <button
-              onClick={toggleMenu}
-              className="text-white hover:text-yellow transition-colors duration-200 p-2"
-              aria-label="Toggle menu"
-            >
-              <svg
-                className="h-6 w-6"
-                fill="none"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                {isMenuOpen ? (
-                  <path d="M6 18L18 6M6 6l12 12" />
-                ) : (
-                  <path d="M4 6h16M4 12h16M4 18h16" />
-                )}
-              </svg>
-            </button>
-          </div>
-
         {/* Mobile Navigation Menu */}
         {isMenuOpen && (
           <div className="lg:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-black/90 backdrop-blur-sm rounded-lg mt-2 border border-white/10">
               {navigationLinks.map((link) => (
                 <div key={link.name}>
-                  <Link
-                    href={link.href}
-                    className="block px-3 py-2 text-white hover:text-yellow hover:bg-white/5 transition-colors duration-200 rounded-md font-medium"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    {link.name}
-                  </Link>
-                  {link.hasMegaMenu && (
+                  {link.hasMegaMenu ? (
+                    <div>
+                      <button
+                        onClick={() => handleMobileServicesToggle()}
+                        className="w-full flex items-center justify-between px-3 py-2 text-white hover:text-yellow transition-colors duration-200 rounded-md font-medium"
+                      >
+                        <span>{link.name}</span>
+                        <svg
+                          className={cn(
+                            "w-4 h-4 transition-transform duration-200",
+                            expandedMobileServices && "rotate-180"
+                          )}
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M19 9l-7 7-7-7"
+                          />
+                        </svg>
+                      </button>
+                      {expandedMobileServices && (
                     <div className="ml-4 mt-2 space-y-2">
-                      {megaMenuData[activeCategory as keyof typeof megaMenuData].columns.map((column) => (
+                          {Object.keys(megaMenuData).map((categoryKey) => (
+                            <div key={categoryKey}>
+                              <button
+                                onClick={() => handleMobileCategoryToggle(categoryKey)}
+                                className="w-full flex items-center justify-between px-2 py-2 text-yellow hover:text-white transition-colors duration-200 rounded-md font-semibold text-sm uppercase"
+                              >
+                                <span>{categoryKey}</span>
+                                <svg
+                                  className={cn(
+                                    "w-3 h-3 transition-transform duration-200",
+                                    expandedMobileCategory === categoryKey && "rotate-180"
+                                  )}
+                                  fill="none"
+                                  stroke="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
+                                    d="M19 9l-7 7-7-7"
+                                  />
+                                </svg>
+                              </button>
+                              {expandedMobileCategory === categoryKey && (
+                                <div className="ml-4 space-y-2">
+                                  {megaMenuData[categoryKey as keyof typeof megaMenuData].columns.map((column) => (
                         <div key={column.title}>
-                          <h4 className="text-sm font-semibold text-yellow mb-1">
-                            {column.title}
-                          </h4>
-                          <div className="space-y-1">
-                            {column.services.slice(0, 4).map((service) => (
+                                      <button
+                                        onClick={() => handleMobileColumnToggle(column.title)}
+                                        className="w-full flex items-center justify-between px-2 py-2 text-gray-300 hover:text-white transition-colors duration-200 rounded-md font-medium text-xs"
+                                      >
+                                        <span>{column.title}</span>
+                                        <svg
+                                          className={cn(
+                                            "w-3 h-3 transition-transform duration-200",
+                                            expandedMobileColumn === column.title && "rotate-180"
+                                          )}
+                                          fill="none"
+                                          stroke="currentColor"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth="2"
+                                            d="M19 9l-7 7-7-7"
+                                          />
+                                        </svg>
+                                      </button>
+                                      {expandedMobileColumn === column.title && (
+                                        <div className="ml-4 space-y-1">
+                                          {column.services.map((service) => (
                               <Link
                                 key={service.name}
                                 href={`/services/${service.name.toLowerCase().replace(/\s+/g, '-')}`}
-                                className="block px-2 py-1 text-gray-300 hover:text-white text-sm"
+                                              className="block px-2 py-1 text-gray-400 hover:text-white text-xs"
                                 onClick={() => setIsMenuOpen(false)}
                               >
                                 {service.icon} {service.name}
                               </Link>
                             ))}
                           </div>
+                                      )}
                         </div>
                       ))}
                     </div>
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  ) : (
+                    <Link
+                      href={link.href}
+                      className="block px-3 py-2 text-white hover:text-yellow transition-colors duration-200 rounded-md font-medium"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      {link.name}
+                    </Link>
                   )}
                 </div>
               ))}

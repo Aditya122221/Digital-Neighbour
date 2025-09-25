@@ -1,3 +1,5 @@
+import Marquee from "react-fast-marquee"
+
 export default function BrandsMarquee() {
   const logos = [
     { name: "A1", path: "/topbrands/A1-Logo.png" },
@@ -16,39 +18,30 @@ export default function BrandsMarquee() {
 
   return (
     <section className="py-16 bg-gray-100 overflow-hidden">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-6 lg:px-32">
         <h2 className="text-4xl md:text-5xl font-light text-center text-blackbrown mb-20 text-balance">
           Trusted by top brands
         </h2>
 
-        <div className="relative">
-          <div className="flex items-center animate-marquee">
-            {logos.map((logo, index) => (
-              <div
-                key={`first-${index}`}
-                className="flex-shrink-0 mx-8"
-              >
-                <img
-                  src={logo.path}
-                  alt={logo.name}
-                  className="h-12 md:h-16 w-auto object-contain"
-                />
-              </div>
-            ))}
-            {logos.map((logo, index) => (
-              <div
-                key={`second-${index}`}
-                className="flex-shrink-0 mx-8"
-              >
-                <img
-                  src={logo.path}
-                  alt={logo.name}
-                  className="h-12 md:h-16 w-auto object-contain"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
+        <Marquee
+          speed={50}
+          gradient={false}
+          pauseOnHover={false}
+          className="py-4"
+        >
+          {logos.map((logo, index) => (
+            <div
+              key={index}
+              className="flex-shrink-0 mx-8"
+            >
+              <img
+                src={logo.path}
+                alt={logo.name}
+                className="h-12 md:h-16 w-auto object-contain"
+              />
+            </div>
+          ))}
+        </Marquee>
       </div>
     </section>
   )
