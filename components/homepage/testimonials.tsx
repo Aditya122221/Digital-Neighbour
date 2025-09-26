@@ -50,17 +50,17 @@ export default function Testimonials() {
   return (
     <section className="relative bg-gray-100 py-20 overflow-hidden">
       {/* Background Text */}
-      <div className="absolute inset-0 flex items-start justify-center pointer-events-none">
-        <h2 className="text-[12rem] md:text-[16rem] font-bold text-gray-300 select-none">
+      <div className="absolute inset-0 flex items-start justify-center pointer-events-none overflow-hidden">
+        <h2 className="text-[4rem] sm:text-[6rem] md:text-[12rem] lg:text-[14rem] xl:text-[16rem] font-bold text-gray-300 select-none whitespace-nowrap -ml-2 sm:-ml-4 md:-ml-6 lg:-ml-8 xl:-ml-10">
           Testimonials
         </h2>
       </div>
 
-      <div className="relative z-10 max-w-full px-6">
+      <div className="relative z-10 max-w-full px-0 md:px-6 -mt-8 md:mt-28">
         {/* Header */}
-        <div className="text-center mb-16">
+        {/* <div className="text-center mb-16">
           <p className="text-gray-600 text-lg mb-4">(Why clients love Digital Neighbour)</p>
-        </div>
+        </div> */}
 
         {/* Testimonials Marquee */}
         <div className="relative">

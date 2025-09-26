@@ -3,9 +3,29 @@ import CustomButton from './button';
 
 const Footer: React.FC = () => {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white relative overflow-hidden min-h-[500px]">
+      {/* Background Video */}
+      <div className="absolute inset-0 z-0 flex items-center justify-center">
+        <div className="relative">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="max-w-xl max-h-100 object-contain"
+          >
+            <source src="/footer-vid.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+            {/* Gradient overlay from edges to center */}
+            <div className="absolute inset-0 bg-gradient-to-r from-black via-black/70  to-black opacity-100"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-black via-black/20  to-black opacity-100"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-transparent to-black/80 opacity-60"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-transparent to-black/80 opacity-60"></div>
+        </div>
+      </div>
       {/* Main Content Area */}
-      <div className="px-8 py-16">
+      <div className="px-8 py-16 relative z-10">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             {/* Left Side - Logo and Main Content */}
@@ -35,7 +55,7 @@ const Footer: React.FC = () => {
             </div>
 
             {/* Right Side - Navigation and Social Links */}
-            <div className="grid grid-cols-2 gap-16">
+            <div className="grid grid-cols-2 gap-16 ml-0 md:ml-auto">
               {/* Company Links */}
               <div className="space-y-4">
                 <h3 className="text-white text-lg font-bold font-serif">Company</h3>
@@ -66,7 +86,7 @@ const Footer: React.FC = () => {
       </div>
 
       {/* Footer Section */}
-      <footer className="py-8 px-8">
+      <footer className="py-8 px-8 relative z-10">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           {/* Left side - Contact Information */}
           <div className="flex flex-col sm:flex-row space-x-4">

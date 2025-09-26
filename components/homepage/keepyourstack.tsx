@@ -24,8 +24,11 @@ export default function KeepYourStack() {
       <div className="container mx-auto px-6">
         {/* Header Content */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-6xl font-light text-blackbrown mb-6 text-balance">
-            Keep your existing tech stack
+          <h2 className="text-4xl md:text-6xl font-bold text-blackbrown mb-6 text-balance">
+            Keep your existing <span className="relative inline-block">
+              <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
+              <span className="relative z-10 font-semibold italic">tech stack</span>
+            </span>
           </h2>
           <p className="text-lg md:text-xl font-light text-blackbrown/80 max-w-2xl mx-auto text-pretty">
             We work with your platforms, meaning we seamlessly slot into your team

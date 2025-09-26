@@ -11,6 +11,7 @@ import Footer from "@/components/core/footer"
 import Navbar from "@/components/core/navbar"
 import Process from "@/components/homepage/process"
 import Apart from "@/components/homepage/apart"
+// import RevealCursor from "@/components/homepage/revealcursor"
 
 export default function HomePage() {
   return (
@@ -21,6 +22,7 @@ export default function HomePage() {
       </div>
       <Banner />
       <BrandsMarquee />
+      {/* <RevealCursor /> */}
       <Services />
       <Process />
       <KeepYourStack />

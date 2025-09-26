@@ -1,126 +1,311 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useState, useRef } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
 
 export default function Hero() {
-  const circleRef = useRef<HTMLDivElement>(null)
   const heroRef = useRef<HTMLDivElement>(null)
-  
+  const [cursorPos, setCursorPos] = useState({ x: -9999, y: -9999 }) // hidden initially
+
   // Scroll tracking for dissolve effect
   const { scrollYProgress } = useScroll({
     target: heroRef,
-    offset: ["start start", "end start"]
+    offset: ["start start", "end start"],
   })
-  
+
   // Transform scroll progress to opacity and scale
   const textOpacity = useTransform(scrollYProgress, [0, 0.3], [1, 0])
   const textScale = useTransform(scrollYProgress, [0, 0.3], [1, 0.8])
   const textY = useTransform(scrollYProgress, [0, 0.3], [0, -50])
 
   useEffect(() => {
-    const circle = circleRef.current
     const hero = heroRef.current
-    if (!circle || !hero) return
-
-    let rafId: number | null = null
-    let latestX = 0
-    let latestY = 0
-    let needsUpdate = false
-    let lastTextCheck = 0
-
-    const update = () => {
-      needsUpdate = false
-      const heroRect = hero.getBoundingClientRect()
-      const relativeX = latestX - heroRect.left
-      const relativeY = latestY - heroRect.top
-
-      circle.style.left = `${relativeX}px`
-      circle.style.top = `${relativeY}px`
-
-      // Throttle elementFromPoint checks (~ every 60ms)
-      const now = performance.now()
-      if (now - lastTextCheck > 60) {
-        lastTextCheck = now
-        const elementUnderCursor = document.elementFromPoint(latestX, latestY)
-        const isOverTextElement =
-          elementUnderCursor?.tagName === "H1" ||
-          elementUnderCursor?.tagName === "P" ||
-          elementUnderCursor?.closest("h1") ||
-          elementUnderCursor?.closest("p")
-        if (isOverTextElement) {
-          circle.classList.add("behind-text")
-        } else {
-          circle.classList.remove("behind-text")
-        }
-      }
-
-      rafId = null
-    }
+    if (!hero) return
 
     const handleMouseMove = (e: MouseEvent) => {
-      latestX = e.clientX
-      latestY = e.clientY
-      if (!needsUpdate) {
-        needsUpdate = true
-        rafId = requestAnimationFrame(update)
-      }
-    }
-
-    const handleMouseEnter = () => {
-      circle.style.opacity = "1"
+      const rect = hero.getBoundingClientRect()
+      setCursorPos({
+        x: e.clientX - rect.left,
+        y: e.clientY - rect.top,
+      })
     }
 
     const handleMouseLeave = () => {
-      circle.style.opacity = "0"
+      setCursorPos({ x: -9999, y: -9999 }) // hide hole when leaving
     }
 
-    hero.addEventListener("mousemove", handleMouseMove, { passive: true })
-    hero.addEventListener("mouseenter", handleMouseEnter, { passive: true })
-    hero.addEventListener("mouseleave", handleMouseLeave, { passive: true })
+    hero.addEventListener("mousemove", handleMouseMove)
+    hero.addEventListener("mouseleave", handleMouseLeave)
 
     return () => {
       hero.removeEventListener("mousemove", handleMouseMove)
-      hero.removeEventListener("mouseenter", handleMouseEnter)
       hero.removeEventListener("mouseleave", handleMouseLeave)
-      if (rafId !== null) cancelAnimationFrame(rafId)
     }
   }, [])
 
   return (
     <section
       ref={heroRef}
-      className="relative h-[70vh] md:h-screen bg-darkbeige flex items-center justify-center overflow-hidden cursor-none"
+      className="relative h-[70vh] md:h-screen flex items-center justify-center overflow-hidden cursor-none"
     >
-      {/* Mouse following circle */}
-      <div ref={circleRef} className="cursor-circle opacity-0 bg-yellow" />
+      {/* Background image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage: `url('/homepage/hero-bg3.jpg')`,
+        }}
+      />
+
+      {/* Solid overlay with reveal mask */}
+      <div
+        className="absolute inset-0 bg-darkbeige"
+        style={{
+          WebkitMaskImage: `radial-gradient(circle 120px at ${cursorPos.x}px ${cursorPos.y}px, transparent 99px, black 100px)`,
+          WebkitMaskRepeat: "no-repeat",
+          maskImage: `radial-gradient(circle 120px at ${cursorPos.x}px ${cursorPos.y}px, transparent 99px, black 100px)`,
+          maskRepeat: "no-repeat",
+        }}
+      />
 
       {/* Hero content */}
-      <motion.div 
-        className="relative z-20 max-w-4xl mx-auto px-6 text-center"
+      <motion.div
+        className="relative z-20 max-w-5xl mx-auto px-6 text-center"
         style={{
           opacity: textOpacity,
           scale: textScale,
-          y: textY
+          y: textY,
         }}
       >
-        <motion.h1 
-          className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight text-balance text-blackbrown"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+        <motion.h1
+          className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight text-balance text-blackbrown text-center"
         >
-          Borderless Marketing
+          {"Borderless ".split("").map((char, index) => (
+            <motion.span
+              key={index}
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ 
+                duration: 0.3, 
+                delay: 0.2 + index * 0.1,
+                ease: "easeOut"
+              }}
+              className={char === ' ' ? 'inline' : 'inline-block'}
+            >
+              {char}
+            </motion.span>
+          ))}
+          <motion.span 
+            className="inline-block w-8 h-10 md:w-12 md:h-12 lg:w-16 lg:h-18 -mb-1 md:-mb-2 rounded-full overflow-hidden bg-white/20 backdrop-blur-sm border-2 border-white/30 mx-2"
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ 
+              opacity: 1, 
+              scale: 1,
+              x: [0, 3, -2, 1, 0],
+              y: [0, -2, 1, -1, 0],
+            }}
+            transition={{ 
+              opacity: { duration: 0.5, delay: 1.2, ease: "easeOut" },
+              scale: { duration: 0.5, delay: 1.2, ease: "easeOut" },
+              x: { duration: 4, repeat: Infinity, ease: "easeInOut", delay: 2 },
+              y: { duration: 4, repeat: Infinity, ease: "easeInOut", delay: 2 }
+            }}
+          >
+            <img 
+              src="/homepage/hero/1.webp" 
+              alt="Hero image 1" 
+              className="w-full h-full object-cover"
+            />
+          </motion.span>
+          {"Marketing".split("").map((char, index) => (
+            <motion.span
+              key={index}
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ 
+                duration: 0.3, 
+                delay: 1.7 + index * 0.1,
+                ease: "easeOut"
+              }}
+              className={char === ' ' ? 'inline' : 'inline-block'}
+            >
+              {char}
+            </motion.span>
+          ))}
         </motion.h1>
-        <motion.p 
-          className="mt-8 text-lg md:text-xl lg:text-4xl leading-tight text-pretty max-w-7xl mx-auto text-blackbrown/90"
+        <motion.p
+          className="mt-8 text-lg md:text-xl lg:text-4xl leading-tight text-pretty max-w-7xl mx-auto text-blackbrown/90 text-center"
+        >
+          {"Transform your business into a ".split("").map((char, index) => (
+            <motion.span
+              key={index}
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ 
+                duration: 0.2, 
+                delay: 2.5 + index * 0.05,
+                ease: "easeOut"
+              }}
+              className={char === ' ' ? 'inline' : 'inline-block'}
+            >
+              {char}
+            </motion.span>
+          ))}
+          <motion.span 
+            className="inline-block w-6 h-7 md:w-8 md:h-8 lg:w-12 lg:h-14 -mb-1 md:-mb-2 rounded-full overflow-hidden bg-white/20 backdrop-blur-sm border-2 border-white/30 mx-1"
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ 
+              opacity: 1, 
+              scale: 1,
+              x: [0, -2, 1, -1, 0],
+              y: [0, 1, -2, 1, 0],
+            }}
+            transition={{ 
+              opacity: { duration: 0.5, delay: 2.5, ease: "easeOut" },
+              scale: { duration: 0.5, delay: 2.5, ease: "easeOut" },
+              x: { duration: 3.5, repeat: Infinity, ease: "easeInOut", delay: 3.5 },
+              y: { duration: 3.5, repeat: Infinity, ease: "easeInOut", delay: 3.5 }
+            }}
+          >
+            <img 
+              src="/homepage/hero/2.webp" 
+              alt="Hero image 2" 
+              className="w-full h-full object-cover"
+            />
+          </motion.span>
+          {"Digital Success story with ".split("").map((char, index) => (
+            <motion.span
+              key={index}
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ 
+                duration: 0.2, 
+                delay: 2.5 + index * 0.05,
+                ease: "easeOut"
+              }}
+              className={char === ' ' ? 'inline' : 'inline-block'}
+            >
+              {char}
+            </motion.span>
+          ))}
+          <motion.span 
+            className="inline-block w-6 h-7 md:w-8 md:h-8 lg:w-12 lg:h-14 -mb-1 md:-mb-2 rounded-full overflow-hidden bg-white/20 backdrop-blur-sm border-2 border-white/30 mx-1"
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ 
+              opacity: 1, 
+              scale: 1,
+              x: [0, 2, -1, 1, 0],
+              y: [0, -1, 2, -1, 0],
+            }}
+            transition={{ 
+              opacity: { duration: 0.5, delay: 2.5, ease: "easeOut" },
+              scale: { duration: 0.5, delay: 2.5, ease: "easeOut" },
+              x: { duration: 4.2, repeat: Infinity, ease: "easeInOut", delay: 3.5 },
+              y: { duration: 4.2, repeat: Infinity, ease: "easeInOut", delay: 3.5 }
+            }}
+          >
+            <img 
+              src="/homepage/hero/3.webp" 
+              alt="Hero image 3" 
+              className="w-full h-full object-cover"
+            />
+          </motion.span>
+          {"Digital ".split("").map((char, index) => (
+            <motion.span
+              key={index}
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ 
+                duration: 0.2, 
+                delay: 2.5 + index * 0.05,
+                ease: "easeOut"
+              }}
+              className={char === ' ' ? 'inline' : 'inline-block'}
+            >
+              {char}
+            </motion.span>
+          ))}
+          <span className="italic">
+            {"Neighbour's ".split("").map((char, index) => (
+              <motion.span
+                key={index}
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ 
+                  duration: 0.2, 
+                  delay: 2.5 + index * 0.05,
+                  ease: "easeOut"
+                }}
+                className={char === ' ' ? 'inline' : 'inline-block'}
+              >
+                {char}
+              </motion.span>
+            ))}
+          </span>
+          {" data driven Digital Marketing Services in New Zealand.".split("").map((char, index) => (
+            <motion.span
+              key={index}
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ 
+                duration: 0.2, 
+                delay: 2.5 + index * 0.05,
+                ease: "easeOut"
+              }}
+              className={char === ' ' ? 'inline' : 'inline-block'}
+            >
+              {char}
+            </motion.span>
+          ))}
+          <motion.span 
+            className="inline-block w-6 h-7 md:w-8 md:h-8 lg:w-12 lg:h-14 -mb-1 md:-mb-2 rounded-full overflow-hidden bg-white/20 backdrop-blur-sm border-2 border-white/30 mx-1"
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ 
+              opacity: 1, 
+              scale: 1,
+              x: [0, 1, -3, 2, 0],
+              y: [0, 2, -1, -1, 0],
+            }}
+            transition={{ 
+              opacity: { duration: 0.5, delay: 2.5, ease: "easeOut" },
+              scale: { duration: 0.5, delay: 2.5, ease: "easeOut" },
+              x: { duration: 3.8, repeat: Infinity, ease: "easeInOut", delay: 3.5 },
+              y: { duration: 3.8, repeat: Infinity, ease: "easeInOut", delay: 3.5 }
+            }}
+          >
+            <img 
+              src="/homepage/hero/4.webp" 
+              alt="Hero image 4" 
+              className="w-full h-full object-cover"
+            />
+          </motion.span>
+          <motion.span
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ 
+              duration: 0.2, 
+              delay: 2.5,
+              ease: "easeOut"
+            }}
+            className="inline-block"
+          >
+          </motion.span>
+        </motion.p>
+        
+        {/* CTA Button */}
+        <motion.div
+          className="mt-12 flex justify-center"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
+          transition={{ duration: 0.8, delay: 3.5 }}
         >
-          Transform your business into a Digital Success story with <span className="italic">Digital Neighbour's</span> data driven Digital Marketing
-          Services in New Zealand.
-        </motion.p>
+          <motion.button
+            className="px-8 py-4 bg-blackbrown text-md md:text-xl text-white font-semibold rounded-3xl hover:bg-blackbrown/90 transition-colors duration-300 shadow-lg hover:shadow-xl"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            Get Started Today
+          </motion.button>
+        </motion.div>
       </motion.div>
     </section>
   )

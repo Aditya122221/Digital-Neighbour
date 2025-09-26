@@ -16,6 +16,11 @@ const caseStudies = [
     textColor: "text-white",
     services: ["Website", "Brand Identity"],
     isNew: false,
+    metrics: [
+      { number: "44+", text: "users increased" },
+      { number: "20%", text: "engagement increased" },
+      { number: "3x", text: "conversion rate" }
+    ]
   },
   {
     id: 2,
@@ -28,6 +33,11 @@ const caseStudies = [
     textColor: "text-black",
     services: ["Website", "Brand Identity", "Brand Implementation"],
     isNew: false,
+    metrics: [
+      { number: "67%", text: "accessibility improved" },
+      { number: "150+", text: "new members" },
+      { number: "85%", text: "user satisfaction" }
+    ]
   },
   {
     id: 3,
@@ -41,6 +51,11 @@ const caseStudies = [
     textColor: "text-white",
     services: ["Website", "Brand Identity", "Brand Implementation"],
     isNew: true,
+    metrics: [
+      { number: "2.5x", text: "brand recognition" },
+      { number: "90%", text: "lead generation" },
+      { number: "35%", text: "cost reduction" }
+    ]
   },
   {
     id: 4,
@@ -53,6 +68,11 @@ const caseStudies = [
     textColor: "text-white",
     services: ["Website", "Brand Identity"],
     isNew: false,
+    metrics: [
+      { number: "78%", text: "portfolio views" },
+      { number: "45+", text: "new clients" },
+      { number: "60%", text: "social engagement" }
+    ]
   },
 ]
 
@@ -120,7 +140,7 @@ export default function CaseStudy() {
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-6xl font-light text-blackbrown mb-6 text-balance">
+          <h2 className="text-4xl md:text-6xl font-bold text-blackbrown mb-6 text-balance">
             Latest work
           </h2>
         </div>
@@ -154,10 +174,26 @@ export default function CaseStudy() {
                 </div>
               </div>
 
-              
+              {/* Hover Overlay with Metrics */}
+              <div className="absolute inset-0 bg-black/70 backdrop-blur-sm rounded-4xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out z-10">
+                <div className="text-center px-6">
+                  <div className="grid grid-cols-1 gap-8">
+                    {study.metrics.map((metric, index) => (
+                      <div key={index} className="text-center">
+                        <div className="text-4xl md:text-5xl font-bold text-white mb-2">
+                          {metric.number}
+                        </div>
+                        <div className="text-lg md:text-xl text-white/80 font-light capitalize">
+                          {metric.text}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
 
               {/* Services Tags - Bottom of card */}
-              <div className="mt-auto">
+              <div className="mt-auto relative z-5">
                 <div className="flex flex-wrap gap-2">
                   {study.isNew && (
                     <span className="px-3 py-1 bg-yellow-400 text-blackbrown text-xl rounded-full font-medium">New</span>

@@ -35,20 +35,21 @@ const Navbar: React.FC = () => {
         {
           title: 'Search Engine Optimisation',
           services: [
+            { name: 'Search Engine Optimisation', icon: '📍' },
             { name: 'Local SEO', icon: '📍' },
             { name: 'WordPress SEO', icon: '🔧' },
             { name: 'E-commerce SEO', icon: '🛒' },
             { name: 'Shopify SEO', icon: '🏪' },
             { name: 'AI SEO', icon: '🤖' },
-            { name: 'ORM', icon: '⭐' },
-            { name: 'SEO Migration', icon: '🔄' },
-            { name: 'Lead Generation', icon: '🎯' },
-            { name: 'Link Building Services', icon: '🔗' },
-            { name: 'International SEO', icon: '🌍' },
-            { name: 'Mobile SEO', icon: '📱' },
-            { name: 'Voice Search Optimisation', icon: '🎤' },
-            { name: 'Video SEO', icon: '🎥' },
-            { name: 'YouTube SEO', icon: '📺' },
+            // { name: 'ORM', icon: '⭐' },
+            // { name: 'SEO Migration', icon: '🔄' },
+            // { name: 'Lead Generation', icon: '🎯' },
+            // { name: 'Link Building Services', icon: '🔗' },
+            // { name: 'International SEO', icon: '🌍' },
+            // { name: 'Mobile SEO', icon: '📱' },
+            // { name: 'Voice Search Optimisation', icon: '🎤' },
+            // { name: 'Video SEO', icon: '🎥' },
+            // { name: 'YouTube SEO', icon: '📺' },
           ],
         },
         {
@@ -60,7 +61,7 @@ const Navbar: React.FC = () => {
             { name: 'Google Shopping', icon: '🛍️' },
             { name: 'Paid Social', icon: '👥' },
             { name: 'YouTube Ads', icon: '📺' },
-            { name: 'Bing Ads Campaigns', icon: '🔍' },
+            // { name: 'Bing Ads Campaigns', icon: '🔍' },
           ],
         },
         {
@@ -71,8 +72,8 @@ const Navbar: React.FC = () => {
             { name: 'Instagram Marketing', icon: '📷' },
             { name: 'LinkedIn Marketing', icon: '💼' },
             { name: 'TikTok Marketing', icon: '🎵' },
-            { name: 'Snapchat Marketing', icon: '👻' },
-            { name: 'Reddit Marketing', icon: '🔴' },
+            // { name: 'Snapchat Marketing', icon: '👻' },
+            // { name: 'Reddit Marketing', icon: '🔴' },
           ],
         },
         {
@@ -84,8 +85,8 @@ const Navbar: React.FC = () => {
             { name: 'Video Editing', icon: '🎬' },
             { name: 'Photo Shoot', icon: '📸' },
             { name: 'Video Shoot', icon: '🎥' },
-            { name: 'Content Strategy', icon: '📋' },
-            { name: 'Infographics', icon: '📊' },
+            // { name: 'Content Strategy', icon: '📋' },
+            // { name: 'Infographics', icon: '📊' },
           ],
         },
         {
@@ -116,10 +117,10 @@ const Navbar: React.FC = () => {
             { name: 'Back-End Development', icon: '⚙️' },
             { name: 'CMS Integration', icon: '🔧' },
             { name: 'Custom Web Development', icon: '💻' },
-            { name: 'UI/UX Design', icon: '🎯' },
-            { name: 'Landing Page Design', icon: '📄' },
-            { name: 'Wix Website Design', icon: '🏗️' },
-            { name: 'React JS Website Design', icon: '⚛️' },
+            // { name: 'UI/UX Design', icon: '🎯' },
+            // { name: 'Landing Page Design', icon: '📄' },
+            // { name: 'Wix Website Design', icon: '🏗️' },
+            // { name: 'React JS Website Design', icon: '⚛️' },
           ],
         },
         {
@@ -140,10 +141,10 @@ const Navbar: React.FC = () => {
             { name: 'WordPress Hosting', icon: '📝' },
             { name: 'Reseller Hosting', icon: '🔄' },
             { name: 'Email Hosting', icon: '📧' },
-            { name: 'E-commerce Hosting', icon: '🛒' },
-            { name: 'Dedicated Servers', icon: '🖥️' },
-            { name: 'Windows Virtual Servers', icon: '🪟' },
-            { name: 'Linux Servers', icon: '🐧' },
+            // { name: 'E-commerce Hosting', icon: '🛒' },
+            // { name: 'Dedicated Servers', icon: '🖥️' },
+            // { name: 'Windows Virtual Servers', icon: '🪟' },
+            // { name: 'Linux Servers', icon: '🐧' },
           ],
         },
       ],
@@ -165,10 +166,10 @@ const Navbar: React.FC = () => {
             { name: 'Marketing & Social Media Automation', icon: '📱' },
             { name: 'Workflow Automation (Zapier, Make, Custom)', icon: '⚙️' },
             { name: 'ERP Systems', icon: '📊' },
-            { name: 'Lead Follow-Up Agent', icon: '🎯' },
-            { name: 'Customer Feedback Collector', icon: '📝' },
-            { name: 'Full Automation Blogging', icon: '📝' },
-            { name: 'Product Assistant Chatbot', icon: '🤖' },
+            // { name: 'Lead Follow-Up Agent', icon: '🎯' },
+            // { name: 'Customer Feedback Collector', icon: '📝' },
+            // { name: 'Full Automation Blogging', icon: '📝' },
+            // { name: 'Product Assistant Chatbot', icon: '🤖' },
           ],
         },
       ],
@@ -184,30 +185,30 @@ const Navbar: React.FC = () => {
         {
           title: 'Industries',
           services: [
-            { name: 'Healthcare Marketing Agency', icon: '🏥' },
+            // { name: 'Healthcare Marketing Agency', icon: '🏥' },
             { name: 'Car Removal & Wreckers Marketing Agency', icon: '🚗' },
             { name: 'Automotive Repair & Servicing Marketing Agency', icon: '🔧' },
-            { name: 'Construction Marketing Agency', icon: '🏗️' },
-            { name: 'Florist Marketing Agency', icon: '🌸' },
-            { name: 'Carpenters Marketing Agency', icon: '🔨' },
-            { name: 'Handymen Marketing Agency', icon: '🛠️' },
-            { name: 'Daycare Marketing Agency', icon: '👶' },
-            { name: 'Caravan & Motorhome Repairs Marketing Agency', icon: '🚐' },
-            { name: 'Mobile Repair Marketing Agency', icon: '📱' },
-            { name: 'Supermarket Marketing Agency', icon: '🛒' },
-            { name: 'Window Tinting Services Marketing Agency', icon: '🪟' },
-            { name: 'Fencing Solutions Marketing Agency', icon: '🚧' },
+            // { name: 'Construction Marketing Agency', icon: '🏗️' },
+            // { name: 'Florist Marketing Agency', icon: '🌸' },
+            // { name: 'Carpenters Marketing Agency', icon: '🔨' },
+            // { name: 'Handymen Marketing Agency', icon: '🛠️' },
+            // { name: 'Daycare Marketing Agency', icon: '👶' },
+            // { name: 'Caravan & Motorhome Repairs Marketing Agency', icon: '🚐' },
+            // { name: 'Mobile Repair Marketing Agency', icon: '📱' },
+            // { name: 'Supermarket Marketing Agency', icon: '🛒' },
+            // { name: 'Window Tinting Services Marketing Agency', icon: '🪟' },
+            // { name: 'Fencing Solutions Marketing Agency', icon: '🚧' },
             { name: 'Movers & Relocation Services Marketing Agency', icon: '📦' },
             { name: 'Plumbing Marketing Agency', icon: '🚿' },
-            { name: 'Roofing Marketing Agency', icon: '🏠' },
-            { name: 'HVAC Marketing Agency', icon: '❄️' },
-            { name: 'Electrical Services Marketing Agency', icon: '⚡' },
-            { name: 'Landscaping & Gardening Marketing Agency', icon: '🌱' },
-            { name: 'Pest Control Marketing Agency', icon: '🐛' },
+            // { name: 'Roofing Marketing Agency', icon: '🏠' },
+            // { name: 'HVAC Marketing Agency', icon: '❄️' },
+            // { name: 'Electrical Services Marketing Agency', icon: '⚡' },
+            // { name: 'Landscaping & Gardening Marketing Agency', icon: '🌱' },
+            // { name: 'Pest Control Marketing Agency', icon: '🐛' },
             { name: 'Small Business Marketing Agency', icon: '🏪' },
             { name: 'Medium Business Marketing Agency', icon: '🏢' },
             { name: 'Enterprise Business Marketing Agency', icon: '🏭' },
-            { name: 'Local Business Marketing Agency', icon: '📍' },
+            // { name: 'Local Business Marketing Agency', icon: '📍' },
           ],
         },
         {
@@ -218,10 +219,10 @@ const Navbar: React.FC = () => {
             { name: 'Physiotherapists Marketing Agency', icon: '🏥' },
             { name: 'Coaches Marketing Agency', icon: '🎯' },
             { name: 'Law Firm Marketing Agency', icon: '⚖️' },
-            { name: 'Accountant / CPA Marketing Agency', icon: '📊' },
-            { name: 'Financial Advisor Marketing Agency', icon: '💼' },
-            { name: 'Insurance Broker Marketing Agency', icon: '🛡️' },
-            { name: 'Dentist Marketing Agency', icon: '🦷' },
+            // { name: 'Accountant / CPA Marketing Agency', icon: '📊' },
+            // { name: 'Financial Advisor Marketing Agency', icon: '💼' },
+            // { name: 'Insurance Broker Marketing Agency', icon: '🛡️' },
+            // { name: 'Dentist Marketing Agency', icon: '🦷' },
           ],
         },
       ],
@@ -383,7 +384,7 @@ const Navbar: React.FC = () => {
               <div className="grid grid-cols-12 gap-8">
                 {/* Left Column - Categories */}
                 <div className="col-span-3">
-                  <div className="space-y-1 max-h-96 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 pr-2">
+                  <div className="space-y-1 max-h-96 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 pr-1">
                     {megaMenuData[activeCategory as keyof typeof megaMenuData].categories.map((category, index) => (
                       <div
                         key={category.name}
@@ -429,16 +430,17 @@ const Navbar: React.FC = () => {
                         <h3 className="text-lg font-semibold text-gray-900 mb-4">
                           {column.title}
                         </h3>
-                        <div className="space-y-3 max-h-80 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 pr-2">
+                        <div className="space-y-3 max-h-80 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 pr-1">
                           {column.services.map((service, serviceIndex) => (
                             <Link
                               key={service.name}
                               href={`/services/${service.name.toLowerCase().replace(/\s+/g, '-')}`}
                               className="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 transition-colors duration-200 group"
                             >
-                              <span className="text-xl">{service.icon}</span>
-                              <span className="text-gray-700 group-hover:text-junglegreen transition-colors duration-200">
+                              <span className="text-xl hidden">{service.icon}</span>
+                              <span className="text-gray-700 group-hover:text-junglegreen transition-colors duration-200 relative">
                                 {service.name}
+                                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-junglegreen transition-all duration-200 group-hover:w-full"></span>
                               </span>
                             </Link>
                           ))}

@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 import { useIsMobile } from "@/hooks/use-mobile";
 
 export default function Apart() {
@@ -12,17 +12,25 @@ export default function Apart() {
     offset: ["start start", "end end"],
   });
 
-  // Split text animations
-  const leftX = useTransform(scrollYProgress, [0.4, 0.7], ["0%", "-130%"]);
-  const rightX = useTransform(scrollYProgress, [0.4, 0.7], ["0%", "130%"]);
+  // Split text animations (wider range + spring smoothing)
+  const rawLeftX = useTransform(scrollYProgress, [0.25, 0.8], ["0%", "-130%"]);
+  const rawRightX = useTransform(scrollYProgress, [0.25, 0.8], ["0%", "130%"]);
 
-  // First card animation
-  const cardY = useTransform(scrollYProgress, [0.3, 0.7], ["100%", "0%"]);
-  const cardOpacity = useTransform(scrollYProgress, [0.5, 0.7], [0, 1]);
+  const springConfig = { stiffness: 120, damping: 24, mass: 0.35 };
+  const leftX = useSpring(rawLeftX, springConfig);
+  const rightX = useSpring(rawRightX, springConfig);
 
-  // Second card animation (slides out to the right)
-  const secondCardX = useTransform(scrollYProgress, [0.7, 0.9], ["100%", "0%"]);
-  const secondCardOpacity = useTransform(scrollYProgress, [0.7, 0.9], [0, 1]);
+  // First card animation (enter earlier, settle smoother)
+  const rawCardY = useTransform(scrollYProgress, [0.2, 0.75], ["100%", "0%"]);
+  const rawCardOpacity = useTransform(scrollYProgress, [0.35, 0.7], [0, 1]);
+  const cardY = useSpring(rawCardY, springConfig);
+  const cardOpacity = useSpring(rawCardOpacity, { ...springConfig, damping: 22 });
+
+  // Second card animation (slides in with more runway and easing)
+  const rawSecondCardX = useTransform(scrollYProgress, [0.55, 0.95], ["100%", "0%"]);
+  const rawSecondCardOpacity = useTransform(scrollYProgress, [0.6, 0.95], [0, 1]);
+  const secondCardX = useSpring(rawSecondCardX, springConfig);
+  const secondCardOpacity = useSpring(rawSecondCardOpacity, { ...springConfig, damping: 22 });
 
   if (isMobile) {
     return (
@@ -30,7 +38,10 @@ export default function Apart() {
         {/* Title row */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 text-3xl sm:text-4xl font-regular mb-8 px-2">
           <span className="text-center">
-            What sets us <span className="italic underline decoration-yellow decoration-2">apart</span>
+            What sets us <span className="relative inline-block">
+              <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
+              <span className="relative z-10 font-semibold italic">apart</span>
+            </span>
           </span>
           <span className="text-center">
             from others
@@ -132,7 +143,10 @@ export default function Apart() {
         {/* Title row */}
         <div className="flex items-center justify-center gap-3 text-4xl md:text-5xl font-regular">
           <motion.span style={{ x: leftX }} className="whitespace-nowrap">
-            What sets us <span className="italic underline decoration-yellow decoration-2">apart</span>
+            What sets us <span className="relative inline-block">
+              <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
+              <span className="relative z-10 font-semibold italic">apart</span>
+            </span>
           </motion.span>
           <motion.span style={{ x: rightX }} className="whitespace-nowrap">
             from others

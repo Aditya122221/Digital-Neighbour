@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react'
 
 export default function Process() {
   const [activeStep, setActiveStep] = useState(0)
+  const [progress, setProgress] = useState(0)
   const containerRef = useRef<HTMLDivElement>(null)
 
   const steps = [
@@ -56,6 +57,25 @@ export default function Process() {
       })
 
       setActiveStep(closestStep)
+
+      // Calculate progress based on actual dot positions
+      if (containerRef.current) {
+        const containerRect = containerRef.current.getBoundingClientRect()
+        const containerHeight = containerRect.height
+        
+        // Get the active step's dot position
+        const activeDotElement = document.querySelector(`[data-dot="${closestStep}"]`) as HTMLElement
+        if (activeDotElement) {
+          const dotRect = activeDotElement.getBoundingClientRect()
+          const containerTop = containerRect.top
+          const dotRelativePosition = dotRect.top - containerTop
+          
+          // Calculate progress percentage based on dot's position within container
+          const progressPercentage = Math.min(100, Math.max(0, (dotRelativePosition / containerHeight) * 100))
+          
+          setProgress(progressPercentage)
+        }
+      }
     }
 
     window.addEventListener('scroll', handleScroll)
@@ -69,8 +89,11 @@ export default function Process() {
       <div className="container mx-auto px-6 mt-20">
         {/* Header */}
         <div className="text-center max-w-4xl mx-auto mb-20">
-          <h2 className="text-4xl md:text-6xl font-light text-black mb-4">
-            An <span className="text-yellow">agile process</span> built to scale with your needs.
+          <h2 className="text-4xl md:text-6xl font-bold text-black mb-4">
+            Our <span className="relative inline-block">
+              <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
+              <span className="relative z-10 font-semibold italic">agile process</span>
+            </span>
           </h2>
         </div>
 
@@ -82,6 +105,14 @@ export default function Process() {
             <div className="hidden lg:block">
               {/* Central Timeline Line */}
               <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-white transform -translate-x-1/2"></div>
+              
+              {/* Progress Bar */}
+              <div 
+                className="absolute left-1/2 top-0 w-0.5 bg-yellow transform -translate-x-1/2 transition-all duration-500 ease-out"
+                style={{ 
+                  height: `${progress}%`
+                }}
+              ></div>
 
               {/* Steps */}
               <div className="relative z-10">
