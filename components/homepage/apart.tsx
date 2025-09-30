@@ -136,7 +136,7 @@ export default function Apart() {
   return (
     <section
       ref={sectionRef}
-      className="relative h-[200vh] w-full bg-bone/20 flex flex-col items-center justify-center"
+      className="relative h-[200vh] w-full bg-gradient-to-b from-bone/20 to-white flex flex-col items-center justify-center"
     >
       {/* Sticky container for animations */}
       <div className="sticky top-0 h-screen flex flex-col items-center justify-center overflow-hidden">

@@ -14,6 +14,9 @@ const Navbar: React.FC = () => {
   const [expandedMobileServices, setExpandedMobileServices] = useState(false);
   const [expandedMobileCategory, setExpandedMobileCategory] = useState<string | null>(null);
   const [expandedMobileColumn, setExpandedMobileColumn] = useState<string | null>(null);
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+  const [hasScrolledPast80vh, setHasScrolledPast80vh] = useState(false);
 
   const navigationLinks = [
     { name: 'Home', href: '/' },
@@ -339,8 +342,42 @@ const Navbar: React.FC = () => {
     };
   }, [megaMenuTimeout]);
 
+  // Handle scroll for navbar visibility
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      const viewportHeight80 = window.innerHeight * 0.8;
+
+      // Check if scrolled past 80vh
+      setHasScrolledPast80vh(currentScrollY > viewportHeight80);
+
+      if (currentScrollY < 10) {
+        // Always show navbar at the top
+        setIsVisible(true);
+      } else if (currentScrollY > lastScrollY) {
+        // Scrolling down
+        setIsVisible(false);
+      } else if (currentScrollY < lastScrollY) {
+        // Scrolling up
+        setIsVisible(true);
+      }
+
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [lastScrollY]);
+
   return (
-    <nav className="absolute top-0 left-0 right-0 z-50 bg-transparent backdrop-blur-sm">
+    <nav className={cn(
+      "fixed top-0 left-0 right-0 z-50 backdrop-blur-sm shadow-md transition-all duration-300 ease-in-out",
+      isVisible ? "translate-y-0" : "-translate-y-full",
+      hasScrolledPast80vh ? "bg-black/70" : "bg-black/10"
+    )}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo - Left Side */}
@@ -351,7 +388,10 @@ const Navbar: React.FC = () => {
                 alt="Digital Neighbour Logo"
                 width={40}
                 height={40}
-                className="h-12 w-auto lg:h-14"
+                className={cn(
+                  "h-12 w-auto lg:h-14 transition-all duration-300",
+                  hasScrolledPast80vh ? "brightness-20 invert" : "brightness-10"
+                )}
                 priority
               />
             </Link>
@@ -369,7 +409,7 @@ const Navbar: React.FC = () => {
                 <Link
                   href={link.href}
                   className={cn(
-                    "text-black hover:text-black transition-all duration-200 font-medium text-sm lg:text-base flex items-center gap-1 relative group",
+                    "text-bone/80 hover:text-bone transition-all duration-200 font-medium text-sm lg:text-base flex items-center gap-1 relative group",
                     link.hasMegaMenu && isMegaMenuOpen && "text-yellow"
                   )}
                 >
@@ -533,7 +573,7 @@ const Navbar: React.FC = () => {
         {/* Mobile Navigation Menu */}
         {isMenuOpen && (
           <div className="lg:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 bg-black/90 backdrop-blur-sm rounded-lg mt-2 border border-white/10">
+            <div className="px-2 pt-2 pb-3 mb-3 space-y-1 bg-black/90 backdrop-blur-sm rounded-lg mt-2 border border-white/10">
               {navigationLinks.map((link) => (
                 <div key={link.name}>
                   {link.hasMegaMenu ? (
@@ -661,9 +701,9 @@ const Navbar: React.FC = () => {
                 <CustomButton
                   text="Start a Project"
                   href="/contact"
-                  textColor="white"
+                  textColor="black"
                   borderColor="white"
-                  className="w-full justify-center"
+                  className="justify-center"
                 />
               </div>
             </div>

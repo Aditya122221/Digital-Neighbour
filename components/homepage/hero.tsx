@@ -46,7 +46,7 @@ export default function Hero() {
   return (
     <section
       ref={heroRef}
-      className="relative h-[70vh] md:h-screen flex items-center justify-center overflow-hidden cursor-none"
+      className="relative h-[70vh] md:h-[80vh] flex items-center justify-center overflow-hidden cursor-none"
     >
       {/* Background image */}
       <div
@@ -58,7 +58,7 @@ export default function Hero() {
 
       {/* Solid overlay with reveal mask */}
       <div
-        className="absolute inset-0 bg-darkbeige"
+        className="absolute inset-0 bg-junglegreen"
         style={{
           WebkitMaskImage: `radial-gradient(circle 120px at ${cursorPos.x}px ${cursorPos.y}px, transparent 99px, black 100px)`,
           WebkitMaskRepeat: "no-repeat",
@@ -76,7 +76,7 @@ export default function Hero() {
           y: textY,
         }}
       >
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight text-balance text-blackbrown text-center">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-semibold leading-tight text-balance text-bone text-center font-cal-sans tracking-wide">
           {"Borderless ".split("").map((char, index) => (
             <motion.span
               key={index}
@@ -128,7 +128,7 @@ export default function Hero() {
             </motion.span>
           ))}
         </h1>
-        <p className="mt-8 text-lg md:text-xl lg:text-3xl font-semibold leading-tight text-pretty max-w-3xl mx-auto text-blackbrown/90 text-center">
+        <p className="mt-8 text-lg md:text-xl lg:text-3xl font-semibold leading-tight text-pretty max-w-3xl mx-auto text-bone/90 text-center">
           {"Transform your business into a ".split("").map((char, index) => (
             <motion.span
               key={index}
@@ -248,7 +248,7 @@ export default function Hero() {
           }}
         >
           <motion.button
-            className="px-8 py-4 bg-blackbrown text-md text-white font-semibold rounded-3xl hover:bg-black transition-colors duration-300 shadow-lg hover:shadow-xl"
+            className="px-8 py-4 bg-black text-md text-white font-semibold rounded-full hover:bg-black transition-colors duration-300 shadow-lg hover:shadow-xl"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >

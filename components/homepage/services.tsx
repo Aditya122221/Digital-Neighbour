@@ -2,13 +2,13 @@
 
 export default function Services() {
   return (
-    <section className="bg-bone/20">
+    <section className="bg-gradient-to-b from-bone/20 to-white">
       <div className="flex flex-col lg:flex-row min-h-screen">
         {/* Left side - Sticky text */}
         <div className="w-full lg:w-1/2 p-6 lg:p-16">
           <div className="lg:sticky lg:top-0 lg:h-screen lg:flex lg:items-center lg:justify-center">
             <div>
-              <h2 className="md:text-6xl text-4xl font-bold text-blackbrown mb-8 leading-tight">Services</h2>
+              <h2 className="md:text-6xl text-4xl font-regular text-blackbrown mb-8 leading-tight font-cal-sans tracking-wide">Services</h2>
               <p className="md:text-xl text-lg text-blackbrown font-light leading-relaxed max-w-lg">
                 We offer big agency services at <span></span>small agency prices. Focused on three core disciplines we use our
                 expertise to help you uncover your business needs, create traction and accelerate growth.
@@ -36,7 +36,7 @@ export default function Services() {
               </div>
               {/* Bottom part - Content */}
               <div className="md:h-1/3 h-1/2 p-8 flex flex-col justify-end">
-                <h3 className="text-3xl md:text-5xl font-semibold text-blackbrown md:mb-8 mb-4">Marketing</h3>
+                <h3 className="text-3xl md:text-5xl font-medium text-blackbrown md:mb-8 mb-4">Marketing</h3>
                 <div className="space-y-2">
                   <h4 className="text-md md:text-lg font-semibold text-gray-700">Digital Strategy</h4>
                   <h4 className="text-md md:text-lg font-semibold text-gray-700">Content Creation</h4>
@@ -78,7 +78,7 @@ export default function Services() {
               </div>
               {/* Bottom part - Content */}
               <div className="md:h-1/3 h-1/2 p-8 flex flex-col justify-end">
-                <h3 className="text-3xl md:text-5xl font-semibold text-blackbrown md:mb-8 mb-4">Development</h3>
+                <h3 className="text-3xl md:text-5xl font-medium text-blackbrown md:mb-8 mb-4">Development</h3>
                 <div className="space-y-2">
                   <h4 className="text-md md:text-lg font-semibold text-gray-700">Web Development</h4>
                   <h4 className="text-md md:text-lg font-semibold text-gray-700">Mobile Apps</h4>
@@ -120,7 +120,7 @@ export default function Services() {
               </div>
               {/* Bottom part - Content */}
               <div className="md:h-1/3 h-1/2 p-8 flex flex-col justify-end">
-                <h3 className="text-3xl md:text-5xl font-semibold text-blackbrown md:mb-8 mb-4">Automation</h3>
+                <h3 className="text-3xl md:text-5xl font-medium text-blackbrown md:mb-8 mb-4">Automation</h3>
                 <div className="space-y-2">
                   <h4 className="text-md md:text-lg font-semibold text-gray-700">Workflow Automation</h4>
                   <h4 className="text-md md:text-lg font-semibold text-gray-700">Process Optimization</h4>

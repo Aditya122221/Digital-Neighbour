@@ -232,13 +232,13 @@ const Process2 = () => {
   }, [cardHeights, cardPositions]);
 
   return (
-    <div className="py-20 bg-bone/20">
+    <div className="py-20 bg-gradient-to-b from-bone/20 to-white">
       <div className="container mx-auto px-6 mt-20">
         <div className="text-center max-w-4xl mx-auto mb-20">
-          <h2 className="text-4xl md:text-6xl font-bold text-black mb-4">
+          <h2 className="text-4xl md:text-6xl font-regular text-black mb-4 font-cal-sans tracking-wide">
             Our <span className="relative inline-block">
               <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
-              <span className="relative z-10 font-semibold italic">agile process</span>
+              <span className="relative z-10 font-medium italic">agile process</span>
             </span>
           </h2>
         </div>

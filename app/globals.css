@@ -144,6 +144,11 @@
   }
 }
 
+/* Cal Sans font utility class */
+.font-cal-sans {
+  font-family: "Cal Sans", sans-serif;
+}
+
 /* Adding cursor circle styles */
 .cursor-circle {
   position: absolute;

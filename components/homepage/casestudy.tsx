@@ -140,7 +140,7 @@ export default function CaseStudy() {
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-6xl font-bold text-blackbrown mb-6 text-balance">
+          <h2 className="text-4xl md:text-6xl font-regular text-blackbrown mb-6 text-balance font-cal-sans tracking-wide">
             Latest work
           </h2>
         </div>
@@ -169,7 +169,7 @@ export default function CaseStudy() {
               {/* Header */}
               <div className="mb-6 w-full">
                 <div className="backdrop-blur-md bg-white/20 rounded-full px-4 py-3 flex items-center justify-between w-full border border-white/30">
-                  <h3 className="text-2xl md:text-2xl font-medium">{study.title}</h3>
+                  <h3 className="text-2xl md:text-2xl font-medium">{study.title}</ h3>
                   <ArrowUpRight className="w-10 h-10 transition-transform duration-300 ease-in-out group-hover:rotate-45" />
                 </div>
               </div>

@@ -51,7 +51,7 @@ const Footer: React.FC = () => {
               </div>
 
               {/* CTA Button */}
-              <CustomButton text="Start a Project" href="/contact" textColor="white" borderColor="white" />
+              <CustomButton text="Start a Project" href="/contact" textColor="black" borderColor="black" />
             </div>
 
             {/* Right Side - Navigation and Social Links */}

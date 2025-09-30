@@ -20,14 +20,14 @@ export default function KeepYourStack() {
   ]
 
   return (
-    <section className="bg-bone/20 py-20">
-      <div className="container mx-auto px-6">
+    <section className="bg-bone/20 py-20 px-6">
+      <div className="container max-w-7xl mx-auto">
         {/* Header Content */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-6xl font-bold text-blackbrown mb-6 text-balance">
+          <h2 className="text-4xl md:text-6xl font-regular text-blackbrown mb-6 text-balance font-cal-sans tracking-wide">
             Keep your existing <span className="relative inline-block">
               <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
-              <span className="relative z-10 font-semibold italic">tech stack</span>
+              <span className="relative z-10 font-medium italic">tech stack</span>
             </span>
           </h2>
           <p className="text-lg md:text-xl font-light text-blackbrown/80 max-w-2xl mx-auto text-pretty">
@@ -46,7 +46,7 @@ export default function KeepYourStack() {
             {techLogos.map((tech, index) => (
               <div
                 key={index}
-                className="inline-flex items-center gap-3 bg-white rounded-full px-6 py-3 mx-3 shadow-sm border border-gray-200 flex-shrink-0"
+                className="inline-flex items-center gap-3 bg-yellow/20 rounded-full px-6 py-3 mx-3 shadow-sm border border-gray-200 flex-shrink-0"
               >
                 <Image
                   src={tech.svg}

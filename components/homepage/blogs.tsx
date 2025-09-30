@@ -2,13 +2,13 @@ import CustomButton from '../core/button';
 
 export default function Blogs() {
   return (
-    <section className="min-h-screen bg-bone/20 px-6 py-16 flex flex-col">
+    <section className="min-h-screen bg-gradient-to-b from-bone/20 to-white px-6 py-16 flex flex-col">
       <div className="max-w-7xl mx-auto w-full flex-1 flex flex-col">
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-12 gap-4">
           <div>
             {/* <p className="text-blackbrown text-sm font-light tracking-wider mb-4">BLOG</p> */}
-            <h2 className="text-4xl lg:text-6xl font-bold text-blackbrown">
+            <h2 className="text-4xl lg:text-6xl font-regular text-blackbrown font-cal-sans tracking-wide">
               Blogs
             </h2>
             {/* Mobile-only More Insights button below the heading */}

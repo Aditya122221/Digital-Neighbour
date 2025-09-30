@@ -37,20 +37,32 @@ export const CustomButton: React.FC<CustomButtonProps> = ({
   borderColor = 'white',
 }) => {
   const buttonContent = (
-    <div className={cn(
-      "group relative overflow-hidden rounded-full border bg-transparent px-4 py-2 transition-all duration-300 ease-out hover:bg-yellow",
-      borderColor === 'white' ? 'border-white' : 'border-black'
-    )}>
-      {/* Background transition effect */}
-      <div className="absolute inset-0 bg-yellow transition-transform duration-300 ease-out group-hover:translate-y-0 translate-y-full" />
-      
+    <div
+      className={cn(
+        "group relative overflow-hidden rounded-full border-2 bg-yellow px-4 py-2 transition-all duration-300 ease-out group-hover:border-[3px]",
+        borderColor === "white" ? "border-white" : "border-black"
+      )}
+    >
+      {/* Default 3D gradient effect */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-black/5 to-transparent" />
+
+      {/* Enhanced 3D gradient effect on hover */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent opacity-0 transition-opacity duration-300 ease-out group-hover:opacity-100" />
+
       {/* Content */}
-      <div className={cn("relative flex items-center gap-3", textColor === 'white' ? 'text-white' : 'text-black')}>
-        <span className="font-light text-md group-hover:text-black">{text}</span>
-        
+      <div
+        className={cn(
+          "relative flex items-center gap-3",
+          textColor === "white" ? "text-white" : "text-black"
+        )}
+      >
+        <span className="text-md transition-all duration-300 font-medium">
+          {text}
+        </span>
+
         {/* Arrow circle */}
-        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-yellow transition-colors duration-300 group-hover:bg-black">
-          <ArrowIcon className="text-black transition-colors duration-300 group-hover:text-yellow" />
+        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-black transition-all duration-300 group-hover:shadow-lg">
+          <ArrowIcon className="text-yellow transition-transform duration-300 -rotate-45 group-hover:rotate-0 ease-out" />
         </div>
       </div>
     </div>
