@@ -35,12 +35,12 @@ export default function BrandsMarquee() {
           {logos.map((logo, index) => (
             <div
               key={index}
-              className="flex-shrink-0 mx-8"
+              className="inline-flex items-center justify-center bg-yellow/20 rounded-full px-8 py-4 mx-3 shadow-sm border border-gray-200 flex-shrink-0"
             >
               <img
                 src={logo.path}
                 alt={logo.name}
-                className="h-12 md:h-16 w-auto object-contain"
+                className="h-10 md:h-12 w-auto object-contain"
               />
             </div>
           ))}

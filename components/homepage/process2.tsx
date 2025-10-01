@@ -234,14 +234,20 @@ const Process2 = () => {
   return (
     <div className="py-20 bg-gradient-to-b from-bone/20 to-white">
       <div className="container mx-auto px-6 mt-20">
-        <div className="text-center max-w-4xl mx-auto mb-20">
+        <motion.div 
+          className="text-center max-w-4xl mx-auto mb-20"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
           <h2 className="text-4xl md:text-6xl font-regular text-black mb-4 font-cal-sans tracking-wide">
             Our <span className="relative inline-block">
               <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
               <span className="relative z-10 font-medium italic">agile process</span>
             </span>
           </h2>
-        </div>
+        </motion.div>
 
         {/* Black Container */}
         <div className="bg-black py-10 pr-5 md:pr-0 rounded-3xl md:mx-6 mx-0 relative overflow-hidden">

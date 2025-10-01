@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useRef } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
+import { CustomButton } from "@/components/core/button"
 
 export default function Hero() {
   const heroRef = useRef<HTMLDivElement>(null)
@@ -76,7 +77,7 @@ export default function Hero() {
           y: textY,
         }}
       >
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-semibold leading-tight text-balance text-bone text-center font-cal-sans tracking-wide">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-semibold leading-tight text-balance text-white text-center font-cal-sans tracking-wide">
           {"Borderless ".split("").map((char, index) => (
             <motion.span
               key={index}
@@ -128,7 +129,7 @@ export default function Hero() {
             </motion.span>
           ))}
         </h1>
-        <p className="mt-8 text-lg md:text-xl lg:text-3xl font-semibold leading-tight text-pretty max-w-3xl mx-auto text-bone/90 text-center">
+        <p className="mt-8 text-lg md:text-xl lg:text-3xl font-semibold leading-tight text-pretty max-w-3xl mx-auto text-white/90 text-center">
           {"Transform your business into a ".split("").map((char, index) => (
             <motion.span
               key={index}
@@ -247,13 +248,12 @@ export default function Hero() {
             ease: [0.25, 0.1, 0.25, 1]
           }}
         >
-          <motion.button
-            className="px-8 py-4 bg-black text-md text-white font-semibold rounded-full hover:bg-black transition-colors duration-300 shadow-lg hover:shadow-xl"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Get Started Today
-          </motion.button>
+          <CustomButton
+            text="Get Started Today"
+            href="#contact"
+            textColor="black"
+            borderColor="white"
+          />
         </motion.div>
       </motion.div>
     </section>

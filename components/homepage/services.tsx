@@ -1,5 +1,7 @@
 "use client"
 
+import { motion } from "framer-motion"
+
 export default function Services() {
   return (
     <section className="bg-gradient-to-b from-bone/20 to-white">
@@ -8,11 +10,25 @@ export default function Services() {
         <div className="w-full lg:w-1/2 p-6 lg:p-16">
           <div className="lg:sticky lg:top-0 lg:h-screen lg:flex lg:items-center lg:justify-center">
             <div>
-              <h2 className="md:text-6xl text-4xl font-regular text-blackbrown mb-8 leading-tight font-cal-sans tracking-wide">Services</h2>
-              <p className="md:text-xl text-lg text-blackbrown font-light leading-relaxed max-w-lg">
+              <motion.h2 
+                className="md:text-6xl text-4xl font-regular text-blackbrown mb-8 leading-tight font-cal-sans tracking-wide"
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-100px" }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
+              >
+                Services
+              </motion.h2>
+              <motion.p 
+                className="md:text-xl text-lg text-blackbrown font-light leading-relaxed max-w-lg"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-100px" }}
+                transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+              >
                 We offer big agency services at <span></span>small agency prices. Focused on three core disciplines we use our
                 expertise to help you uncover your business needs, create traction and accelerate growth.
-              </p>
+              </motion.p>
             </div>
           </div>
         </div>

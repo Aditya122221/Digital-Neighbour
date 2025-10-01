@@ -1,4 +1,7 @@
+"use client";
+
 import CustomButton from '../core/button';
+import { motion } from "framer-motion";
 
 export default function Blogs() {
   return (
@@ -6,19 +9,36 @@ export default function Blogs() {
       <div className="max-w-7xl mx-auto w-full flex-1 flex flex-col">
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-12 gap-4">
-          <div>
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          >
             {/* <p className="text-blackbrown text-sm font-light tracking-wider mb-4">BLOG</p> */}
             <h2 className="text-4xl lg:text-6xl font-regular text-blackbrown font-cal-sans tracking-wide">
               Blogs
             </h2>
             {/* Mobile-only More Insights button below the heading */}
-            <div className="mt-4 md:hidden">
+            <motion.div 
+              className="mt-4 md:hidden"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+            >
               <CustomButton text="More Insights" textColor="black" borderColor="black" />
-            </div>
-          </div>
-          <div className="hidden md:block">
+            </motion.div>
+          </motion.div>
+          <motion.div 
+            className="hidden md:block"
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+          >
             <CustomButton text="More Insights" textColor="black" borderColor="black" />
-          </div>
+          </motion.div>
         </div>
 
         {/* Blog Grid */}

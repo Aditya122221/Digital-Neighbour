@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { ChevronLeft, ChevronRight, ArrowUpRight } from "lucide-react"
+import { motion } from "framer-motion"
 
 const caseStudies = [
   {
@@ -139,11 +140,17 @@ export default function CaseStudy() {
     <section className="py-20 min-h-screen px-6 bg-bone/20">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
-        <div className="text-center mb-16">
+        <motion.div 
+          className="text-center mb-16"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
           <h2 className="text-4xl md:text-6xl font-regular text-blackbrown mb-6 text-balance font-cal-sans tracking-wide">
             Latest work
           </h2>
-        </div>
+        </motion.div>
 
         {/* Cards Container */}
         <div className="flex gap-6 mb-8 overflow-hidden">

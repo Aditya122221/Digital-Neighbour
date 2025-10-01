@@ -3,10 +3,12 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 import { CustomButton } from './button';
 import { cn } from '@/lib/utils';
 
 const Navbar: React.FC = () => {
+  const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMegaMenuOpen, setIsMegaMenuOpen] = useState(false);
   const [megaMenuTimeout, setMegaMenuTimeout] = useState<NodeJS.Timeout | null>(null);
@@ -17,6 +19,9 @@ const Navbar: React.FC = () => {
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [hasScrolledPast80vh, setHasScrolledPast80vh] = useState(false);
+
+  // Check if we're on a SEO route
+  const isSeoRoute = pathname?.startsWith('/seo/');
 
   const navigationLinks = [
     { name: 'Home', href: '/' },
@@ -155,16 +160,6 @@ const Navbar: React.FC = () => {
             // { name: 'Infographics', icon: '📊' },
           ],
         },
-        {
-          title: 'Data & Analytics',
-          services: [
-            { name: 'Conversion Rate Optimisation', icon: '📈' },
-            { name: 'Call Tracking', icon: '📞' },
-            { name: 'Reporting and Dashboards', icon: '📊' },
-            { name: 'Google Analytics', icon: '📈' },
-            { name: 'Google Tag Manager', icon: '🏷️' },
-          ],
-        },
       ],
     },
     'Web & App Development': {
@@ -236,6 +231,16 @@ const Navbar: React.FC = () => {
             // { name: 'Customer Feedback Collector', icon: '📝' },
             // { name: 'Full Automation Blogging', icon: '📝' },
             // { name: 'Product Assistant Chatbot', icon: '🤖' },
+          ],
+        },
+        {
+          title: 'Data & Analytics',
+          services: [
+            { name: 'Conversion Rate Optimisation', icon: '📈' },
+            { name: 'Call Tracking', icon: '📞' },
+            { name: 'Reporting and Dashboards', icon: '📊' },
+            { name: 'Google Analytics', icon: '📈' },
+            { name: 'Google Tag Manager', icon: '🏷️' },
           ],
         },
       ],
@@ -390,7 +395,7 @@ const Navbar: React.FC = () => {
                 height={40}
                 className={cn(
                   "h-12 w-auto lg:h-14 transition-all duration-300",
-                  hasScrolledPast80vh ? "brightness-20 invert" : "brightness-10"
+                  isSeoRoute && !hasScrolledPast80vh ? "brightness-0" : "brightness-0 invert"
                 )}
                 priority
               />
@@ -409,7 +414,10 @@ const Navbar: React.FC = () => {
                 <Link
                   href={link.href}
                   className={cn(
-                    "text-bone/80 hover:text-bone transition-all duration-200 font-medium text-sm lg:text-base flex items-center gap-1 relative group",
+                    "uppercase transition-all duration-200 font-medium text-sm lg:text-base flex items-center gap-1 relative group",
+                    isSeoRoute && !hasScrolledPast80vh 
+                      ? "text-black/80 hover:text-black" 
+                      : "text-white/80 hover:text-white",
                     link.hasMegaMenu && isMegaMenuOpen && "text-yellow"
                   )}
                 >
@@ -453,7 +461,12 @@ const Navbar: React.FC = () => {
             <div className="lg:hidden">
               <button
                 onClick={toggleMenu}
-                className="text-black hover:text-yellow transition-colors duration-200 p-2"
+                className={cn(
+                  "transition-colors duration-200 p-2",
+                  isSeoRoute && !hasScrolledPast80vh 
+                    ? "text-black hover:text-yellow" 
+                    : "text-black hover:text-yellow"
+                )}
                 aria-label="Toggle menu"
               >
                 <svg
@@ -537,7 +550,26 @@ const Navbar: React.FC = () => {
                           {column.services.map((service, serviceIndex) => (
                             <Link
                               key={service.name}
-                              href={`/services/${service.name.toLowerCase().replace(/\s+/g, '-')}`}
+                              href={(() => {
+                                const name = service.name.toLowerCase().replace(/\s+/g, '-');
+                                const seoSlugs = new Set([
+                                  'search-engine-optimisation',
+                                  'local-seo',
+                                  'wordpress-seo',
+                                  'e-commerce-seo',
+                                  'ai-seo',
+                                ]);
+                                if (seoSlugs.has(name)) {
+                                  // Map naming differences
+                                  const slugMap: Record<string, string> = {
+                                    'search-engine-optimisation': 'search-engine-optimization',
+                                    'e-commerce-seo': 'ecom-seo',
+                                  };
+                                  const slug = slugMap[name] || name;
+                                  return `/seo/${slug}`;
+                                }
+                                return `/services/${name}`;
+                              })()}
                               className="flex items-center gap-2 p-1.5 rounded-lg hover:bg-gray-50 transition-colors duration-200 group"
                             >
                               {iconMapping[service.name] ? (
@@ -580,7 +612,12 @@ const Navbar: React.FC = () => {
                     <div>
                       <button
                         onClick={() => handleMobileServicesToggle()}
-                        className="w-full flex items-center justify-between px-3 py-2 text-white hover:text-yellow transition-colors duration-200 rounded-md font-medium"
+                        className={cn(
+                          "w-full flex items-center justify-between px-3 py-2 transition-colors duration-200 rounded-md font-medium",
+                          isSeoRoute && !hasScrolledPast80vh 
+                            ? "text-black hover:text-yellow" 
+                            : "text-white hover:text-yellow"
+                        )}
                       >
                         <span>{link.name}</span>
                         <svg
@@ -689,7 +726,12 @@ const Navbar: React.FC = () => {
                   ) : (
                     <Link
                       href={link.href}
-                      className="block px-3 py-2 text-white hover:text-yellow transition-colors duration-200 rounded-md font-medium"
+                      className={cn(
+                        "block px-3 py-2 transition-colors duration-200 rounded-md font-medium",
+                        isSeoRoute && !hasScrolledPast80vh 
+                          ? "text-black hover:text-yellow" 
+                          : "text-white hover:text-yellow"
+                      )}
                       onClick={() => setIsMenuOpen(false)}
                     >
                       {link.name}

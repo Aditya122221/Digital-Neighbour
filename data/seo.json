@@ -1,0 +1,112 @@
+{
+  "search-engine-optimization": {
+    "hero": {
+      "heading": "Award-Winning SEO Marketing Agency",
+      "subheading": "We've helped leading and emerging brands scale their traffic and revenue organically for over a decade with our experience in seo consulting."
+    },
+    "form": {
+      "heading": "Does Google love you?",
+      "content": "How well are you ranking in Google? We can tell you now, it's probably not as well as you think. We use state-of-the-art technology and NZ SEO insights to discover the keywords that you're already ranking for, and can do the same with your competitors. This is valuable information that some of your competitors already have, thanks to their focus on SEO, and this is what's giving them the edge over everyone in Google.",
+      "subContent": "There are likely HUNDREDS, if not THOUSANDS of SEO-targeted keywords that your business could be targeting in Google, and it's likely that you don't know what these are.",
+      "cta": "We would love to help your business realise its full potential on Google by giving you a free Google ranking report and website audit.",
+      "formHeading": "Boost Your Website's Performance with a Comprehensive Site Audit",
+      "buttonText": "Get My Audit"
+    },
+    "content": {
+      "heading": "Helping you stay competitive.",
+      "text1": "This requires a very different approach than what you'd find in global SEO campaigns. The key point to remember is this:",
+      "text2": "You don't need hundreds of people from New York or London admiring your mouth-watering burger website and wishing they could visit New Zealand someday. You need to be found by people in NZ – people who are hungry, who want a quick bite near their tennis club, or who are looking for the perfect birthday venue.",
+      "text3": "The same is true no matter what type of local business you run. Dental clinics, accounting firms, flower shops, and cafés all rely on the same SEO techniques to stay competitive and attract new customers.",
+      "image": "seo.png",
+      "alt": "SEO Marketing illustration"
+    }
+  },
+  "local-seo": {
+    "hero": {
+      "heading": "Local SEO Services That Drive Foot Traffic",
+      "subheading": "Dominate local search results and attract customers in your area with our proven local SEO strategies that boost your visibility on Google Maps and local search."
+    },
+    "form": {
+      "heading": "Ready to dominate local search?",
+      "content": "Are customers finding your business when they search locally? Most businesses are missing out on valuable local customers because they're not optimized for local search. Our NZ local SEO experts use advanced techniques to ensure your business appears when customers search for services in your area.",
+      "subContent": "Local SEO is different from traditional SEO - it requires specific strategies for Google My Business optimization, local citations, and location-based keywords that your competitors might already be using.",
+      "cta": "Let us analyze your local search presence and show you exactly how to capture more local customers with our comprehensive local SEO audit.",
+      "formHeading": "Get Your Local Search Visibility Report",
+      "buttonText": "Get My Local Audit"
+    },
+    "content": {
+      "heading": "Dominate your local market.",
+      "text1": "Local SEO isn't just about ranking well globally – it's about being the first business customers see when they search for services in your area. This requires a targeted approach that focuses on local search signals.",
+      "text2": "When someone searches for 'best restaurant near me' or 'dentist in NZ', they're not looking for businesses halfway around the world. They want to find you – the local business that can serve them today.",
+      "text3": "Our local SEO strategies help you capture these high-intent local searches by optimizing your Google My Business profile, building local citations, and creating location-specific content that resonates with your community.",
+      "image": "local-seo.jpg",
+      "alt": "Local SEO illustration"
+    }
+  },
+  "wordpress-seo": {
+    "hero": {
+      "heading": "WordPress SEO Optimization Experts",
+      "subheading": "Transform your WordPress site into a search engine magnet with our technical SEO expertise, plugin optimization, and content strategy tailored for WordPress."
+    },
+    "form": {
+      "heading": "Is your WordPress site SEO-ready?",
+      "content": "WordPress sites have unique SEO challenges that many businesses overlook. From plugin conflicts to slow loading times and poor mobile optimization, these issues can severely impact your search rankings. Our NZ WordPress SEO specialists know exactly what to look for.",
+      "subContent": "Most WordPress sites have technical SEO issues that are costing them valuable organic traffic. These problems are often invisible to business owners but are clear signals to search engines that your site needs improvement.",
+      "cta": "We'll analyze your WordPress site's SEO health and provide a detailed report showing exactly what's holding you back from better rankings.",
+      "formHeading": "WordPress SEO Health Check & Optimization Report",
+      "buttonText": "Analyze My WordPress Site"
+    },
+    "content": {
+      "heading": "Optimize your WordPress site for success.",
+      "text1": "WordPress is powerful, but it can also be complex when it comes to SEO. Many site owners struggle with technical issues that prevent their content from ranking well in search results.",
+      "text2": "From slow page speeds caused by poorly optimized plugins to mobile responsiveness issues and duplicate content problems, WordPress sites face unique challenges that require specialized expertise to overcome.",
+      "text3": "Our WordPress SEO experts understand the platform inside and out. We'll audit your site's technical health, optimize your plugins and themes, and ensure your content is structured for maximum search visibility.",
+      "image": "wordpress-seo.jpg",
+      "alt": "WordPress SEO illustration"
+    }
+  },
+  "ecom-seo": {
+    "hero": {
+      "heading": "E-commerce SEO That Converts Visitors to Customers",
+      "subheading": "Increase your online store's visibility and drive qualified traffic with our specialized e-commerce SEO services designed to boost product rankings and sales."
+    },
+    "form": {
+      "heading": "Are your products getting found online?",
+      "content": "E-commerce SEO is complex - it's not just about ranking your homepage, but ensuring every product page, category page, and collection is optimized for search. Most online stores are missing thousands of potential customers because their products aren't properly optimized for search engines.",
+      "subContent": "Your competitors are likely capturing customers who should be buying from you, simply because their product pages rank better in search results. This is costing you sales every single day.",
+      "cta": "Let us audit your e-commerce site and show you exactly how to optimize your product pages, category structure, and technical setup to capture more organic traffic and sales.",
+      "formHeading": "E-commerce SEO Audit & Sales Optimization Report",
+      "buttonText": "Audit My Online Store"
+    },
+    "content": {
+      "heading": "Turn browsers into buyers.",
+      "text1": "E-commerce SEO is fundamentally different from traditional website SEO. Your online store needs to rank for thousands of product-specific keywords while maintaining technical excellence across every page.",
+      "text2": "Every product page is a potential landing page for organic traffic. If your product descriptions, category pages, and site structure aren't optimized for search, you're losing customers to competitors who have invested in e-commerce SEO.",
+      "text3": "Our e-commerce SEO strategies focus on product page optimization, category structure, site speed, mobile experience, and conversion optimization to help you capture more organic traffic and turn visitors into customers.",
+      "image": "ecom-seo.jpg",
+      "alt": "E-commerce SEO illustration"
+    }
+  },
+  "ai-seo": {
+    "hero": {
+      "heading": "AI-Powered SEO Solutions for Modern Businesses",
+      "subheading": "Leverage cutting-edge AI technology to supercharge your SEO strategy with automated content optimization, intelligent keyword research, and data-driven insights."
+    },
+    "form": {
+      "heading": "Ready to supercharge your SEO with AI?",
+      "content": "The SEO landscape is evolving rapidly with AI technology. While your competitors might still be using outdated SEO tactics, AI-powered SEO strategies can give you a massive competitive advantage. Our NZ AI SEO experts use cutting-edge tools and techniques to identify opportunities your competitors can't see.",
+      "subContent": "AI can analyze thousands of data points in seconds, revealing keyword opportunities, content gaps, and optimization strategies that traditional SEO methods would take months to discover.",
+      "cta": "Let us show you how AI can revolutionize your SEO strategy with a comprehensive AI-powered audit that reveals opportunities your competitors are missing.",
+      "formHeading": "AI-Powered SEO Analysis & Strategy Report",
+      "buttonText": "Get My AI SEO Audit"
+    },
+    "content": {
+      "heading": "Harness the power of AI for SEO.",
+      "text1": "The future of SEO is here, and it's powered by artificial intelligence. While traditional SEO methods are still effective, AI can accelerate and enhance every aspect of your search optimization strategy.",
+      "text2": "AI tools can analyze your competitors' strategies, identify content gaps, optimize your existing content, and even predict search trends before they become mainstream. This gives you a significant advantage in the ever-evolving search landscape.",
+      "text3": "Our AI-powered SEO approach combines cutting-edge technology with human expertise to deliver results faster and more efficiently than ever before. We use AI to identify opportunities, create content strategies, and optimize your site for maximum search visibility.",
+      "image": "ai-seo.jpg",
+      "alt": "AI SEO illustration"
+    }
+  }
+}
