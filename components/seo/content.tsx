@@ -17,7 +17,7 @@ interface SeoContentProps {
 
 export default function SeoContent({ data }: SeoContentProps) {
   return (
-    <section className="py-20 px-6 bg-gradient-to-b from-bone/20 to-white">
+    <section className="py-20 px-6 bg-gradient-to-b from-pink/20 to-white">
       <div className="container max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Image */}

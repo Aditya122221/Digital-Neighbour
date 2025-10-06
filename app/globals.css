@@ -11,6 +11,13 @@
   --bone: #e8dcc8;
   --yellow: #ffe031;
   --black: #1a1a1a;
+  --green1: #02444e;
+  --green2: #025864;
+  --green3: #00b67a;
+  --green4: #93e85f;
+  --green5: #bef19f;
+  --pink: #fcf0e7;
+
 
   /* Semantic Design Tokens */
   --background: oklch(1 0 0);
@@ -133,6 +140,12 @@
   --color-bone: var(--bone);
   --color-yellow: var(--yellow);
   --color-black: var(--black);
+  --color-green1: var(--green1);
+  --color-green2: var(--green2);
+  --color-green3: var(--green3);
+  --color-green4: var(--green4);
+  --color-green5: var(--green5);
+  --color-pink: var(--pink);
 }
 
 @layer base {

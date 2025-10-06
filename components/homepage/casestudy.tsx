@@ -203,7 +203,7 @@ export default function CaseStudy() {
               <div className="mt-auto relative z-5">
                 <div className="flex flex-wrap gap-2">
                   {study.isNew && (
-                    <span className="px-3 py-1 bg-yellow-400 text-blackbrown text-xl rounded-full font-medium">New</span>
+                    <span className="px-3 py-1 bg-green4 text-blackbrown text-xl rounded-full font-medium">New</span>
                   )}
                   {study.services.map((service) => (
                     <span
@@ -224,13 +224,13 @@ export default function CaseStudy() {
         <div className="flex gap-4">
           <button
             onClick={prevSlide}
-            className="w-12 h-12 bg-blackbrown text-bone rounded-full flex items-center justify-center hover:bg-blackbrown/80 transition-colors"
+            className="w-12 h-12 bg-green1 text-pink rounded-full flex items-center justify-center hover:bg-blackbrown/80 transition-colors"
           >
             <ChevronLeft className="w-6 h-6" />
           </button>
           <button
             onClick={nextSlide}
-            className="w-12 h-12 bg-blackbrown text-bone rounded-full flex items-center justify-center hover:bg-blackbrown/80 transition-colors"
+            className="w-12 h-12 bg-green1 text-pink rounded-full flex items-center justify-center hover:bg-blackbrown/80 transition-colors"
           >
             <ChevronRight className="w-6 h-6" />
           </button>

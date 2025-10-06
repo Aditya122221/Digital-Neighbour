@@ -78,7 +78,7 @@ const iconMapping: Record<string, string> = {
 
 export default function OtherServices() {
   return (
-    <section className="py-20 px-6 bg-gradient-to-b from-bone/20 to-white">
+    <section className="py-20 px-6 bg-gradient-to-b from-pink/20 to-white">
       <div className="container max-w-7xl mx-auto">
         {/* Heading */}
         <motion.h2
@@ -89,7 +89,7 @@ export default function OtherServices() {
           className="text-center text-3xl md:text-6xl font-regular text-blackbrown font-cal-sans tracking-wide mb-12"
         >
           Our Other SEO <span className="relative inline-block">
-              <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
+              <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-green5"></span>
               <span className="relative z-10 font-medium italic">Services & Solutions</span>
             </span>
         </motion.h2>

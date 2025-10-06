@@ -13,6 +13,7 @@ import Navbar from "@/components/core/navbar"
 import Apart from "@/components/homepage/apart"
 import Process2 from "@/components/homepage/process2"
 // import RevealCursor from "@/components/homepage/revealcursor"
+import Form from "@/components/seo/form"
 
 export default function HomePage() {
   return (
@@ -21,7 +22,8 @@ export default function HomePage() {
         <Navbar />
         <Hero />
       </div>
-      <Banner />
+      {/* <Banner /> */}
+      <Form />
       <BrandsMarquee />
       {/* <RevealCursor /> */}
       <Services />

@@ -70,7 +70,7 @@ export default function SeoForm({ data }: SeoFormProps) {
               Either fill out the form or give us a call now on{" "}
               <a
                 href="tel:0800032248"
-                className="text-yellow-600 hover:text-yellow-700 font-semibold"
+                className="text-green4 hover:text-green3 font-semibold"
               >
                 0800 032 248
               </a>{" "}
@@ -85,7 +85,7 @@ export default function SeoForm({ data }: SeoFormProps) {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-            className="bg-bone/20 p-8 rounded-2xl shadow-xl"
+            className="bg-pink p-8 rounded-2xl shadow-xl"
           >
             <h3 className="text-2xl md:text-3xl font-semibold text-center text-blackbrown mb-8 leading-tight">
               {data?.formHeading || "Boost Your Website's Performance with a Comprehensive Site Audit"}
@@ -103,7 +103,7 @@ export default function SeoForm({ data }: SeoFormProps) {
                   onChange={handleChange}
                   placeholder="Website"
                   required
-                  className="w-full px-4 py-4 border-b-2 border-gray-300 focus:border-yellow-600 outline-none transition-colors text-lg bg-transparent"
+                  className="w-full px-4 py-4 border-b-2 border-gray-300 focus:border-green4 outline-none transition-colors text-lg bg-transparent"
                 />
               </div>
               <div>
@@ -118,7 +118,7 @@ export default function SeoForm({ data }: SeoFormProps) {
                   onChange={handleChange}
                   placeholder="Email"
                   required
-                  className="w-full px-4 py-4 border-b-2 border-gray-300 focus:border-yellow-600 outline-none transition-colors text-lg bg-transparent"
+                  className="w-full px-4 py-4 border-b-2 border-gray-300 focus:border-green4 outline-none transition-colors text-lg bg-transparent"
                 />
               </div>
               <div>
@@ -133,7 +133,7 @@ export default function SeoForm({ data }: SeoFormProps) {
                   onChange={handleChange}
                   placeholder="Phone"
                   required
-                  className="w-full px-4 py-4 border-b-2 border-gray-300 focus:border-yellow-600 outline-none transition-colors text-lg bg-transparent"
+                  className="w-full px-4 py-4 border-b-2 border-gray-300 focus:border-green4 outline-none transition-colors text-lg bg-transparent"
                 />
               </div>
               <div className="flex justify-center">

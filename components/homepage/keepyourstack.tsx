@@ -21,7 +21,7 @@ export default function KeepYourStack() {
   ]
 
   return (
-    <section className="bg-bone/20 py-20 px-6 overflow-hidden">
+    <section className="bg-pink/20 py-20 px-6 overflow-hidden">
       <div className="container max-w-7xl mx-auto">
         {/* Header Content */}
         <motion.div 
@@ -33,7 +33,7 @@ export default function KeepYourStack() {
         >
           <h2 className="text-4xl md:text-6xl font-regular text-blackbrown mb-6 text-balance font-cal-sans tracking-wide">
             Keep your existing <span className="relative inline-block">
-              <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
+              <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-green5"></span>
               <span className="relative z-10 font-medium italic">tech stack</span>
             </span>
           </h2>
@@ -48,7 +48,7 @@ export default function KeepYourStack() {
             {techLogos.map((tech, index) => (
               <motion.div
                 key={index}
-                className="flex items-center gap-3 bg-yellow/20 rounded-full px-6 py-3 shadow-sm border border-gray-200 justify-center"
+                className="flex items-center gap-3 bg-green4/20 rounded-full px-6 py-3 shadow-sm border border-gray-200 justify-center"
                 initial={{ opacity: 0, x: 100 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, margin: "-50px" }}

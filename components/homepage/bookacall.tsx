@@ -22,9 +22,9 @@ export default function BookACall() {
   );
 
   return (
-    <div className="bg-bone/20 py-16 px-0 lg:px-0 relative z-20" ref={sectionRef}>
+    <div className="bg-pink/20 py-16 px-0 lg:px-0 relative z-20" ref={sectionRef}>
     <motion.section 
-      className="bg-black py-6 px-6 rounded-3xl shadow-2xl relative"
+      className="bg-green2 py-6 px-6 rounded-3xl shadow-2xl relative"
       style={{ y }}
       transition={{ type: "spring", stiffness: 100, damping: 30 }}
     >

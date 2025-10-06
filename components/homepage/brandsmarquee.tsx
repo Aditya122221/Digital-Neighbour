@@ -17,11 +17,11 @@ export default function BrandsMarquee() {
   ]
 
   return (
-    <section className="py-16 bg-bone/20 overflow-hidden">
+    <section className="py-16 bg-pink/20 overflow-hidden">
       <div className="px-6 lg:px-32">
         <h2 className="text-4xl md:text-5xl font-regular text-center text-blackbrown mb-20 text-balance font-cal-sans tracking-wide">
           Trusted by <span className="relative inline-block">
-            <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
+            <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-green5"></span>
             <span className="relative z-10 font-medium italic">top brands</span>
           </span>
         </h2>
@@ -35,7 +35,7 @@ export default function BrandsMarquee() {
           {logos.map((logo, index) => (
             <div
               key={index}
-              className="inline-flex items-center justify-center bg-yellow/20 rounded-full px-8 py-4 mx-3 shadow-sm border border-gray-200 flex-shrink-0"
+              className="inline-flex items-center justify-center bg-green4/20 rounded-full px-8 py-4 mx-3 shadow-sm border border-gray-200 flex-shrink-0"
             >
               <img
                 src={logo.path}

@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 export default function Services() {
   return (
-    <section className="bg-gradient-to-b from-bone/20 to-white">
+    <section className="bg-gradient-to-b from-pink/20 to-white">
       <div className="flex flex-col lg:flex-row min-h-screen">
         {/* Left side - Sticky text */}
         <div className="w-full lg:w-1/2 p-6 lg:p-16">
@@ -37,7 +37,7 @@ export default function Services() {
         <div className="w-full lg:w-1/2">
           <div className="md:py-16 py-8 px-8 space-y-8">
             {/* Marketing Card */}
-            <div className="bg-gray-100 rounded-3xl shadow-2xl md:h-180 h-100 overflow-hidden group relative">
+            <div className="bg-pink rounded-3xl shadow-2xl md:h-180 h-100 overflow-hidden group relative">
               {/* Top part - Video */}
               <div className="md:h-2/3 h-1/2">
                 <video 
@@ -79,7 +79,7 @@ export default function Services() {
             </div>
 
             {/* Development Card */}
-            <div className="bg-gray-100 rounded-3xl shadow-2xl md:h-180 h-100 overflow-hidden group relative">
+            <div className="bg-pink rounded-3xl shadow-2xl md:h-180 h-100 overflow-hidden group relative">
               {/* Top part - Video */}
               <div className="md:h-2/3 h-1/2">
                 <video 
@@ -121,7 +121,7 @@ export default function Services() {
             </div>
 
             {/* Automation Card */}
-            <div className="bg-gray-100 rounded-3xl shadow-2xl md:h-180 h-100 overflow-hidden group relative">
+            <div className="bg-pink rounded-3xl shadow-2xl md:h-180 h-100 overflow-hidden group relative">
               {/* Top part - Video */}
               <div className="md:h-2/3 h-1/2">
                 <video 

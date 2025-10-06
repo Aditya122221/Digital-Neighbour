@@ -232,7 +232,7 @@ const Process2 = () => {
   }, [cardHeights, cardPositions]);
 
   return (
-    <div className="py-20 bg-gradient-to-b from-bone/20 to-white">
+    <div className="py-20 bg-gradient-to-b from-pink/20 to-white">
       <div className="container mx-auto px-6 mt-20">
         <motion.div 
           className="text-center max-w-4xl mx-auto mb-20"
@@ -243,7 +243,7 @@ const Process2 = () => {
         >
           <h2 className="text-4xl md:text-6xl font-regular text-black mb-4 font-cal-sans tracking-wide">
             Our <span className="relative inline-block">
-              <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
+              <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-green5"></span>
               <span className="relative z-10 font-medium italic">agile process</span>
             </span>
           </h2>
@@ -393,7 +393,7 @@ const Process2 = () => {
                   
                   {/* Animated progress bar */}
                   <motion.div
-                    className="absolute top-0 left-1/2 transform -translate-x-1/2 w-0.5 bg-yellow rounded-full"
+                    className="absolute top-0 left-1/2 transform -translate-x-1/2 w-0.5 bg-green4 rounded-full"
                     style={{
                       height: useTransform(progressValue, (value) => {
                         const totalHeight = steps.length * 600; // Use consistent height
@@ -410,7 +410,7 @@ const Process2 = () => {
                     return (
                       <motion.div
                         key={index}
-                        className="absolute w-5 h-5 bg-yellow border-4 border-yellow rounded-full transform -translate-x-1/2"
+                        className="absolute w-5 h-5 bg-green4 border-4 border-green4 rounded-full transform -translate-x-1/2"
                         style={{
                           top: `${dotPosition.top}px`,
                           left: '50%',
@@ -437,7 +437,7 @@ const Process2 = () => {
                         ? 'bg-black text-white'
                         : 'bg-black text-white opacity-30'
                     }`}>
-                      <div className="text-xl font-bold text-start mb-1 text-yellow">
+                      <div className="text-xl font-bold text-start mb-1 text-green4">
                         {index + 1}
                       </div>
                       <div className="text-2xl font-medium leading-tight">
@@ -448,8 +448,8 @@ const Process2 = () => {
                     {/* Card */}
                     <div className={`p-6 rounded-2xl shadow-lg transition-all duration-500 ${
                       activeStep === index
-                        ? 'bg-white text-black transform scale-105'
-                        : 'bg-black text-white/80 opacity-30 border border-white/20'
+                        ? 'bg-pink text-black transform scale-105'
+                        : 'bg-green2 text-white/80 opacity-30 border border-white/20'
                     }`}>
                       <p className="text-lg leading-normal font-light" dangerouslySetInnerHTML={{ __html: cardContent[index] }}></p>
                     </div>

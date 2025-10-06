@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Blogs() {
   return (
-    <section className="min-h-screen bg-gradient-to-b from-bone/20 to-white px-6 py-16 flex flex-col">
+    <section className="min-h-screen bg-gradient-to-b from-pink/20 to-white px-6 py-16 flex flex-col">
       <div className="max-w-7xl mx-auto w-full flex-1 flex flex-col">
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-12 gap-4">

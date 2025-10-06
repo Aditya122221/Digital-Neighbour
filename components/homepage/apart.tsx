@@ -34,7 +34,7 @@ export default function Apart() {
 
   if (isMobile) {
     return (
-      <section className="relative w-full bg-bone/20 flex flex-col items-center justify-center py-16 px-4">
+      <section className="relative w-full bg-pink/20 flex flex-col items-center justify-center py-16 px-4">
         {/* Title row */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 text-3xl sm:text-4xl font-regular mb-8 px-2">
           <span className="text-center">
@@ -144,7 +144,7 @@ export default function Apart() {
         <div className="flex items-center justify-center gap-3 text-4xl md:text-5xl font-regular">
           <motion.span style={{ x: leftX }} className="whitespace-nowrap">
             What sets us <span className="relative inline-block">
-              <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
+              <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-green5"></span>
               <span className="relative z-10 font-semibold italic">apart</span>
             </span>
           </motion.span>
@@ -166,7 +166,7 @@ export default function Apart() {
           {/* First Card */}
           <motion.div
             style={{ y: cardY, opacity: cardOpacity }}
-            className="w-96 bg-black rounded-2xl shadow-xl p-8 z-10"
+            className="w-96 bg-green2 rounded-2xl shadow-xl p-8 z-10"
           >
             <h3 className="text-2xl font-semibold mb-6 text-white">Digital Neighbour</h3>
              <ul className="space-y-4 text-base text-white">

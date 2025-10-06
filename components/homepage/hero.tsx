@@ -59,7 +59,7 @@ export default function Hero() {
 
       {/* Solid overlay with reveal mask */}
       <div
-        className="absolute inset-0 bg-junglegreen"
+        className="absolute inset-0 bg-green1"
         style={{
           WebkitMaskImage: `radial-gradient(circle 120px at ${cursorPos.x}px ${cursorPos.y}px, transparent 99px, black 100px)`,
           WebkitMaskRepeat: "no-repeat",
