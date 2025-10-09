@@ -74,7 +74,7 @@ export default function Testimonials() {
             {testimonials.map((testimonial) => (
               <div
                 key={testimonial.id}
-                className="flex-shrink-0 md:w-[400px] md:h-[400px] w-[300px] h-[400px] bg-green2 rounded-3xl p-6 flex flex-col justify-between mx-4"
+                className="flex-shrink-0 md:w-[400px] md:h-[400px] w-[300px] h-[400px] bg-pink rounded-3xl p-6 flex flex-col justify-between mx-4"
               >
                 {/* Card Number */}
                 <div className="text-gray-400 text-sm font-mono">{testimonial.number}</div>
@@ -93,7 +93,7 @@ export default function Testimonials() {
                     </div>
 
                     {/* Quote */}
-                    <blockquote className="text-white text-lg font-medium mb-6 leading-relaxed">
+                    <blockquote className="text-green1 text-lg font-medium mb-6 leading-relaxed">
                       "{testimonial.quote}"
                     </blockquote>
                   </div>
@@ -101,8 +101,8 @@ export default function Testimonials() {
 
                 {/* Author Info */}
                 <div className="text-gray-300">
-                  <p className="font-semibold text-white">{testimonial.author}</p>
-                  <p className="text-sm">{testimonial.position}</p>
+                  <p className="font-semibold text-green1">{testimonial.author}</p>
+                  <p className="text-sm text-gray-400">{testimonial.position}</p>
                 </div>
               </div>
             ))}

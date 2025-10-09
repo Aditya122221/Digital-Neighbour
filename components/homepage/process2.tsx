@@ -83,7 +83,7 @@ const Process2 = () => {
           const stepElement = document.querySelector(`[data-mobile-step="${index}"]`) as HTMLElement;
           if (stepElement) {
             const rect = stepElement.getBoundingClientRect();
-            const containerElement = stepElement.closest('.bg-black') as HTMLElement;
+            const containerElement = stepElement.closest('.bg-green2') as HTMLElement;
             
             if (containerElement) {
               const containerRect = containerElement.getBoundingClientRect();
@@ -133,7 +133,7 @@ const Process2 = () => {
           
           if (stepElement) {
             const rect = stepElement.getBoundingClientRect();
-            const containerElement = stepElement.closest('.bg-black') as HTMLElement;
+            const containerElement = stepElement.closest('.bg-green2') as HTMLElement;
             
             if (containerElement) {
               const containerRect = containerElement.getBoundingClientRect();
@@ -434,8 +434,8 @@ const Process2 = () => {
                     {/* Step Name */}
                     <div className={`mb-4 p-4 rounded-lg transition-all duration-300 ${
                       activeStep === index
-                        ? 'bg-black text-white'
-                        : 'bg-black text-white opacity-30'
+                        ? 'bg-green2 text-white'
+                        : 'bg-green2 text-white opacity-30'
                     }`}>
                       <div className="text-xl font-bold text-start mb-1 text-green4">
                         {index + 1}
