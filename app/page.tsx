@@ -1,5 +1,5 @@
-import Hero from "@/components/homepage/hero"
-import Banner from "@/components/homepage/banner"
+// import Hero from "@/components/homepage/hero"
+// import Banner from "@/components/homepage/banner"
 import BrandsMarquee from "@/components/homepage/brandsmarquee"
 import Services from "@/components/homepage/services"
 import KeepYourStack from "@/components/homepage/keepyourstack"
@@ -14,24 +14,15 @@ import Apart from "@/components/homepage/apart"
 import Process2 from "@/components/homepage/process2"
 // import RevealCursor from "@/components/homepage/revealcursor"
 import Form from "@/components/seo/form"
-import Hero2 from "@/components/homepage/hero2"
-import Hero3 from "@/components/homepage/hero3"
 import Hero4 from "@/components/homepage/hero4"
-import Hero5 from "@/components/homepage/hero5"
-import Hero2_1 from "@/components/homepage/hero2-1"
 
 export default function HomePage() {
   return (
     <main>
       <div className="relative">
         <Navbar />
-        <Hero />
+        <Hero4 />
       </div>
-      <Hero2 />
-      <Hero2_1 />
-      <Hero3 />
-      <Hero4 />
-      <Hero5 />
       {/* <Banner /> */}
       <Form />
       <BrandsMarquee />
