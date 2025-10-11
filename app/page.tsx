@@ -15,15 +15,15 @@ import Process2 from "@/components/homepage/process2"
 // import RevealCursor from "@/components/homepage/revealcursor"
 import Form from "@/components/seo/form"
 import HeroSix from "@/components/homepage/herosix"
-import Hero5 from "@/components/homepage/hero4"
+//mport Hero5 from "@/components/homepage/hero4"
 
 export default function HomePage() {
   return (
     <main>
       <div className="relative">
         <Navbar />
-  < HeroSix />
-    <Hero5 />
+        < HeroSix />
+    {/* <Hero5 /> */}
       </div>
       {/* <Banner /> */}
       <Form />

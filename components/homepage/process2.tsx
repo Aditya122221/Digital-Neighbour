@@ -87,7 +87,7 @@ const Process2 = ({ data }: Process2Props) => {
           const stepElement = document.querySelector(`[data-mobile-step="${index}"]`) as HTMLElement;
           if (stepElement) {
             const rect = stepElement.getBoundingClientRect();
-            const containerElement = stepElement.closest('.bg-green2') as HTMLElement;
+            const containerElement = stepElement.closest('.bg-black') as HTMLElement;
             
             if (containerElement) {
               const containerRect = containerElement.getBoundingClientRect();
@@ -137,7 +137,7 @@ const Process2 = ({ data }: Process2Props) => {
           
           if (stepElement) {
             const rect = stepElement.getBoundingClientRect();
-            const containerElement = stepElement.closest('.bg-green2') as HTMLElement;
+            const containerElement = stepElement.closest('.bg-black') as HTMLElement;
             
             if (containerElement) {
               const containerRect = containerElement.getBoundingClientRect();
