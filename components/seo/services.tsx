@@ -24,7 +24,7 @@ export default function SeoServices() {
       title: "On-Page SEO",
       description:
         "Improve rankings and attract qualified visitors with strategic optimizations customized to your industry and audience.",
-      image: "/seo/services/on-page.png",
+      image: "/seo/services/on-page.webp",
       link: "/services/on-page-seo",
     },
     {
@@ -33,7 +33,7 @@ export default function SeoServices() {
       title: "Keyword Research",
       description:
         "Discover high-value keywords that your target audience is searching for and create content strategies that drive qualified traffic to your website.",
-      image: "/seo/services/seo.png",
+      image: "/seo/services/seo.webp",
       link: "/services/keyword-research",
     },
     {
@@ -42,7 +42,7 @@ export default function SeoServices() {
       title: "Technical SEO",
       description:
         "Optimize your website's technical infrastructure to ensure search engines can crawl, index, and rank your pages effectively for maximum visibility.",
-      image: "/seo/services/technical.png",
+      image: "/seo/services/technical.webp",
       link: "/services/technical-seo",
     },
     {
@@ -51,7 +51,7 @@ export default function SeoServices() {
       title: "Off-Page SEO",
       description:
         "Build your website's authority and credibility through strategic external optimization techniques that improve your search engine rankings.",
-      image: "/seo/services/off-page.png",
+      image: "/seo/services/off-page.webp",
       link: "/services/off-page-seo",
     },
     {

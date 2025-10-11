@@ -57,7 +57,7 @@ export default function Apart() {
         <div className="flex flex-col items-center justify-center gap-8 w-full max-w-7xl px-4">
           {/* First Card */}
           <div className="w-full max-w-sm bg-black rounded-2xl shadow-xl p-8">
-            <h3 className="text-2xl font-semibold mb-6 text-bone">Digital Neighbour</h3>
+            <h3 className="text-2xl font-semibold mb-6 text-yellow">Digital Neighbour</h3>
             <ul className="space-y-4 text-base text-bone">
               <li className="flex items-center gap-3 whitespace-nowrap border-b border-white/50 pb-2">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
@@ -94,7 +94,7 @@ export default function Apart() {
 
           {/* Second Card */}
           <div className="w-full max-w-sm bg-gray-50 rounded-2xl shadow-xl p-8">
-            <h3 className="text-2xl font-semibold mb-6">Other Agencies</h3>
+            <h3 className="text-2xl font-semibold mb-6 text-yellow">Other Agencies</h3>
             <ul className="space-y-4 text-base text-gray-700">
               <li className="flex items-center gap-3 whitespace-nowrap border-b border-gray-300 pb-2">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6 rotate-45">
@@ -168,7 +168,7 @@ export default function Apart() {
             style={{ y: cardY, opacity: cardOpacity }}
             className="w-96 bg-black rounded-2xl shadow-xl p-8 z-10"
           >
-            <h3 className="text-2xl font-semibold mb-6 text-white">Digital Neighbour</h3>
+            <h3 className="text-2xl font-semibold mb-6 text-yellow">Digital Neighbour</h3>
              <ul className="space-y-4 text-base text-white">
                <li className="flex items-center gap-3 whitespace-nowrap border-b border-white/50 pb-2">
                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">

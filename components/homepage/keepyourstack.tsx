@@ -48,7 +48,7 @@ export default function KeepYourStack() {
             {techLogos.map((tech, index) => (
               <motion.div
                 key={index}
-                className="flex items-center gap-3 bg-yellow/80 rounded-full px-6 py-3 shadow-sm border border-gray-200 justify-center"
+                className="flex items-center gap-3 bg-yellow/30 rounded-full px-6 py-3 shadow-sm border border-gray-200 justify-center"
                 initial={{ opacity: 0, x: 100 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, margin: "-50px" }}

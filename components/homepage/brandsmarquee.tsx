@@ -35,7 +35,7 @@ export default function BrandsMarquee() {
           {logos.map((logo, index) => (
             <div
               key={index}
-              className="inline-flex items-center justify-center bg-yellow/80 rounded-full px-8 py-4 mx-3 shadow-sm border border-gray-200 flex-shrink-0"
+              className="inline-flex items-center justify-center bg-yellow/30 rounded-full px-8 py-4 mx-3 shadow-sm border border-gray-200 flex-shrink-0"
             >
               <img
                 src={logo.path}
