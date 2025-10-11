@@ -60,7 +60,7 @@ export default function SeoServices() {
       title: "Link Building",
       description:
         "Acquire high-quality backlinks from authoritative websites to boost your domain authority and improve your search engine rankings.",
-      image: "/seo/services/link-building.svg",
+      image: "/seo/services/link-building.png",
       link: "/services/link-building",
     },
     {
