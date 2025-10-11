@@ -9,9 +9,21 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const faqs = [
+interface FaqItem {
+  q: string;
+  a: string;
+}
+
+interface SeoFaqProps {
+  data?: {
+    serviceName?: string;
+    faqs?: FaqItem[];
+  };
+}
+
+const defaultFaqs: FaqItem[] = [
   {
-    q: "What’s an SEO audit?",
+    q: "What's an SEO audit?",
     a:
       "An SEO audit is a crucial step in our methodology. Our team conducts a comprehensive review of your entire SEO setup—both on and off‑site—to develop a deep understanding of your current strategy. We evaluate metadata, backlinks, content, technical setup, and keywords, then use those findings to develop a robust plan that increases rankings and drives more traffic to your website.",
   },
@@ -20,10 +32,12 @@ const faqs = [
   { q: "What are SEO backlinks?", a: "Backlinks are links from other websites to yours. Authoritative, relevant links act as votes of confidence and can significantly improve rankings when earned naturally." },
   { q: "What SEO tools do you use?", a: "We use a modern tool stack including Google Search Console, GA4, Ahrefs, Screaming Frog, and programmatic dashboards for reporting and QA." },
   { q: "How much does SEO cost?", a: "Pricing depends on scope, competitiveness, and speed required. After an audit we provide a clear roadmap and fixed monthly investment options." },
-  { q: "What is local SEO?", a: "Local SEO helps you show up for searches in your area (e.g., ‘dentist near me’). It focuses on Google Business Profiles, reviews, citations, and location‑targeted pages." },
+  { q: "What is local SEO?", a: "Local SEO helps you show up for searches in your area (e.g., 'dentist near me'). It focuses on Google Business Profiles, reviews, citations, and location‑targeted pages." },
 ];
 
-export default function SeoFaq() {
+export default function SeoFaq({ data }: SeoFaqProps) {
+  const faqs = data?.faqs || defaultFaqs;
+  const serviceName = data?.serviceName || "SEO";
   return (
     <section className="py-20 px-6 bg-white">
       <div className="container max-w-7xl mx-auto">
@@ -38,7 +52,7 @@ export default function SeoFaq() {
           >
             <CustomButton text="Learn more" href="#resources" textColor="black" borderColor="black" />
             <h2 className="text-4xl md:text-6xl font-regular text-blackbrown font-cal-sans leading-tight">
-              Learn more about <span className="relative inline-block"><span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span><span className="relative z-10 font-medium italic">SEO.</span></span>
+              Learn more about <span className="relative inline-block"><span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span><span className="relative z-10 font-medium italic">{serviceName}.</span></span>
             </h2>
             <p className="text-lg text-blackbrown/80 max-w-xl">
               A quick intro to a complex, ever‑changing topic.

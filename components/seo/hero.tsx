@@ -43,7 +43,7 @@ export default function SeoHero({ data }: SeoHeroProps) {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-            className="relative w-3/4 aspect-[4/4] overflow-hidden mx-auto"
+            className="relative w-3/4 aspect-[4/4] overflow-hidden mx-auto rounded-3xl"
           >
             <Image
               src="/seo/hero.webp"

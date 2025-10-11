@@ -40,14 +40,14 @@ export default function SeoSlugPage({ params }: { params: { slug: string } }) {
       </div>
       <SeoForm data={currentSeoData?.form} />
       <BrandsMarquee />
-      <SeoServices />
-      <Process2 />
+      <SeoServices data={currentSeoData?.services} serviceCards={currentSeoData?.serviceCards} />
+      <Process2 data={currentSeoData?.services} />
       <SeoContent data={currentSeoData?.content} />
-      <SeoCta />
+      <SeoCta data={currentSeoData?.services} />
       <Apart />
       <OtherServices />
       <CaseStudy />
-      <SeoFaq />
+      <SeoFaq data={currentSeoData?.faq} />
       <Blogs />
       <Testimonials />
       <BookACall />
