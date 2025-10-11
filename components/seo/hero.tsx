@@ -41,15 +41,23 @@ export default function SeoHero({ data }: SeoHeroProps) {
           {/* Right side - Image */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-            className="relative w-3/4 aspect-[4/4] overflow-hidden mx-auto rounded-3xl"
+            animate={{ 
+              opacity: 1, 
+              x: 0,
+              y: [0, -20, 0]
+            }}
+            transition={{ 
+              opacity: { duration: 0.8, ease: "easeOut", delay: 0.2 },
+              x: { duration: 0.8, ease: "easeOut", delay: 0.2 },
+              y: { duration: 3, repeat: Infinity, ease: "easeInOut", delay: 1 }
+            }}
+            className="relative w-4/4 h-4/4 overflow-hidden mx-auto rounded-3xl"
           >
             <Image
               src="/seo/hero.webp"
               alt="SEO Marketing"
-              fill
-              className="object-cover"
+className = "object-cover"
+fill
               priority
             />
           </motion.div>
