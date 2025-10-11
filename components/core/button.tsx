@@ -39,7 +39,7 @@ export const CustomButton: React.FC<CustomButtonProps> = ({
   const buttonContent = (
     <div
       className={cn(
-        "group relative overflow-hidden rounded-full border-2 bg-green4 px-4 py-2 transition-all duration-300 ease-out group-hover:border-[3px]",
+        "group relative overflow-hidden rounded-full border-2 bg-yellow px-4 py-2 transition-all duration-300 ease-out group-hover:border-[3px]",
         borderColor === "white" ? "border-white" : "border-black"
       )}
     >
@@ -62,7 +62,7 @@ export const CustomButton: React.FC<CustomButtonProps> = ({
 
         {/* Arrow circle */}
         <div className="flex h-8 w-8 items-center justify-center rounded-full bg-black transition-all duration-300 group-hover:shadow-lg">
-          <ArrowIcon className="text-green4 transition-transform duration-300 -rotate-45 group-hover:rotate-0 ease-out" />
+          <ArrowIcon className="text-yellow transition-transform duration-300 -rotate-45 group-hover:rotate-0 ease-out" />
         </div>
       </div>
     </div>

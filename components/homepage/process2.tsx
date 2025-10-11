@@ -243,14 +243,14 @@ const Process2 = () => {
         >
           <h2 className="text-4xl md:text-6xl font-regular text-black mb-4 font-cal-sans tracking-wide">
             Our <span className="relative inline-block">
-              <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-green5"></span>
+              <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
               <span className="relative z-10 font-medium italic">agile process</span>
             </span>
           </h2>
         </motion.div>
 
         {/* Black Container */}
-        <div className="bg-green2 py-10 pr-5 md:pr-0 rounded-3xl md:mx-6 mx-0 relative overflow-hidden">
+        <div className="bg-black py-10 pr-5 md:pr-0 rounded-3xl md:mx-6 mx-0 relative overflow-hidden">
           {/* Desktop Layout */}
           <div className="hidden lg:block">
             <div 
@@ -285,11 +285,11 @@ const Process2 = () => {
                       <div
                         className={`px-4 py-3 rounded-lg transition-all duration-300 ${
                           activeStep === index
-                            ? 'bg-green2 text-pink'
-                            : 'bg-green2 text-pink opacity-30'
+                            ? 'bg-black text-white'
+                            : 'bg-black text-white opacity-30'
                         }`}
                       >
-                        <div className="text-xl font-bold text-start mb-1 text-green4">
+                        <div className="text-xl font-bold text-start mb-1 text-yellow">
                           {index + 1}
                         </div>
                         <div className="text-3xl font-medium leading-tight">
@@ -310,7 +310,7 @@ const Process2 = () => {
                   {/* Animated progress bar */}
                   <motion.div
                     ref={progressBarRef}
-                    className="absolute top-0 left-1/2 transform -translate-x-1/2 w-0.5 bg-green5 rounded-full"
+                    className="absolute top-0 left-1/2 transform -translate-x-1/2 w-0.5 bg-yellow rounded-full"
                     style={{
                       height: useTransform(progressValue, (value) => 
                         cardPositions.length > 0 
@@ -341,7 +341,7 @@ const Process2 = () => {
                     return (
                       <motion.div
                         key={index}
-                        className="absolute w-5 h-5 bg-green4 border-4 border-green4 rounded-full transform -translate-x-1/2"
+                        className="absolute w-5 h-5 bg-yellow border-4 border-yellow rounded-full transform -translate-x-1/2"
                         style={{
                           top: `${dotTop}px`,
                           left: '50%',
@@ -367,7 +367,7 @@ const Process2 = () => {
                     className={`absolute p-8 rounded-2xl shadow-lg transition-all duration-500 ${
                       activeStep === index
                         ? 'bg-pink text-black transform scale-105'
-                        : 'bg-green1 text-white/80 opacity-30 border border-white/20'
+                        : 'bg-black text-white/80 opacity-30 border border-white/20'
                     }`}
                     style={{ 
                       top: cardPositions[index] ? `${cardPositions[index]}px` : `${index * 500}px`,
@@ -393,7 +393,7 @@ const Process2 = () => {
                   
                   {/* Animated progress bar */}
                   <motion.div
-                    className="absolute top-0 left-1/2 transform -translate-x-1/2 w-0.5 bg-green4 rounded-full"
+                    className="absolute top-0 left-1/2 transform -translate-x-1/2 w-0.5 bg-yellow rounded-full"
                     style={{
                       height: useTransform(progressValue, (value) => {
                         const totalHeight = steps.length * 600; // Use consistent height
@@ -410,7 +410,7 @@ const Process2 = () => {
                     return (
                       <motion.div
                         key={index}
-                        className="absolute w-5 h-5 bg-green4 border-4 border-green4 rounded-full transform -translate-x-1/2"
+                        className="absolute w-5 h-5 bg-yellow border-4 border-yellow rounded-full transform -translate-x-1/2"
                         style={{
                           top: `${dotPosition.top}px`,
                           left: '50%',
@@ -434,10 +434,10 @@ const Process2 = () => {
                     {/* Step Name */}
                     <div className={`mb-4 p-4 rounded-lg transition-all duration-300 ${
                       activeStep === index
-                        ? 'bg-green2 text-white'
-                        : 'bg-green2 text-white opacity-30'
+                        ? 'bg-black text-white'
+                        : 'bg-black text-white opacity-30'
                     }`}>
-                      <div className="text-xl font-bold text-start mb-1 text-green4">
+                      <div className="text-xl font-bold text-start mb-1 text-yellow">
                         {index + 1}
                       </div>
                       <div className="text-2xl font-medium leading-tight">
@@ -449,7 +449,7 @@ const Process2 = () => {
                     <div className={`p-6 rounded-2xl shadow-lg transition-all duration-500 ${
                       activeStep === index
                         ? 'bg-pink text-black transform scale-105'
-                        : 'bg-green2 text-white/80 opacity-30 border border-white/20'
+                        : 'bg-black text-white/80 opacity-30 border border-white/20'
                     }`}>
                       <p className="text-lg leading-normal font-light" dangerouslySetInnerHTML={{ __html: cardContent[index] }}></p>
                     </div>

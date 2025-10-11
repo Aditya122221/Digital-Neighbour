@@ -51,7 +51,7 @@ export default function Testimonials() {
     <section className="relative bg-gradient-to-b from-pink/20 to-white py-20 overflow-hidden">
       {/* Background Text */}
       <div className="absolute inset-0 flex items-start justify-center pointer-events-none overflow-hidden">
-        <h2 className="text-[4rem] sm:text-[6rem] md:text-[10rem] lg:text-[13rem] font-regular text-green1/60 select-none whitespace-nowrap font-cal-sans tracking-wide">
+        <h2 className="text-[4rem] sm:text-[6rem] md:text-[10rem] lg:text-[13rem] font-regular text-yellow select-none whitespace-nowrap font-cal-sans tracking-wide">
           Testimonials
         </h2>
       </div>
@@ -93,7 +93,7 @@ export default function Testimonials() {
                     </div>
 
                     {/* Quote */}
-                    <blockquote className="text-green1 text-lg font-medium mb-6 leading-relaxed">
+                    <blockquote className="text-black text-lg font-medium mb-6 leading-relaxed">
                       "{testimonial.quote}"
                     </blockquote>
                   </div>
@@ -101,7 +101,7 @@ export default function Testimonials() {
 
                 {/* Author Info */}
                 <div className="text-gray-300">
-                  <p className="font-semibold text-green1">{testimonial.author}</p>
+                  <p className="font-semibold text-black">{testimonial.author}</p>
                   <p className="text-sm text-gray-400">{testimonial.position}</p>
                 </div>
               </div>

@@ -13,7 +13,7 @@ interface SeoHeroProps {
 
 export default function SeoHero({ data }: SeoHeroProps) {
   return (
-    <section className="bg-green1 py-16 md:py-24 lg:py-32">
+    <section className="bg-gradient-to-br from-black via-black to-yellow pt-24 md:pt-32 lg:pt-40 pb-16 md:pb-24 lg:pb-32">
       <div className="container mx-auto py-6 md:py-0 px-6 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Text content */}

@@ -89,7 +89,7 @@ export default function SeoServices() {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           What We <span className="relative inline-block">
-              <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-green5"></span>
+              <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
               <span className="relative z-10 font-medium italic">Offer</span>
             </span>
         </motion.h2>
@@ -109,7 +109,7 @@ export default function SeoServices() {
                 onClick={() => setActiveTab(service.id)}
                 className={`flex-1 px-4 py-4 text-base md:text-lg font-medium transition-all duration-300 whitespace-nowrap ${
                   activeTab === service.id
-                    ? "bg-green2 text-white rounded-t-3xl"
+                    ? "bg-black text-white rounded-t-3xl"
                     : "bg-transparent text-blackbrown hover:border-b hover:border-blackbrown/50"
                 } ${index === 0 ? "rounded-tl-3xl" : ""} ${
                   index === services.length - 1 ? "rounded-tr-3xl" : ""
@@ -125,7 +125,7 @@ export default function SeoServices() {
         {activeService && (
           <motion.div
             key={activeTab}
-            className={`bg-green2 p-8 md:p-12 ${
+            className={`bg-black p-8 md:p-12 ${
               activeIndex === 0
                 ? "rounded-b-3xl rounded-tr-3xl"
                 : activeIndex === services.length - 1
@@ -156,7 +156,7 @@ export default function SeoServices() {
               </div>
 
               {/* Right side - Image */}
-              <div className="relative w-full h-[300px] md:h-[400px] rounded-2xl overflow-hidden bg-green2 p-4 flex items-center justify-center">
+              <div className="relative w-full h-[300px] md:h-[400px] rounded-2xl overflow-hidden bg-black p-4 flex items-center justify-center">
                 <Image
                   src={activeService.image}
                   alt={activeService.title}

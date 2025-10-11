@@ -70,7 +70,7 @@ export default function SeoForm({ data }: SeoFormProps) {
               Either fill out the form or give us a call now on{" "}
               <a
                 href="tel:0800032248"
-                className="text-green4 hover:text-green3 font-semibold"
+                className="text-yellow hover:text-yellow/80 font-semibold"
               >
                 0800 032 248
               </a>{" "}
@@ -103,7 +103,7 @@ export default function SeoForm({ data }: SeoFormProps) {
                   onChange={handleChange}
                   placeholder="Website"
                   required
-                  className="w-full px-4 py-4 border-b-2 border-gray-300 focus:border-green4 outline-none transition-colors text-lg bg-transparent"
+                  className="w-full px-4 py-4 border-b-2 border-gray-300 focus:border-yellow outline-none transition-colors text-lg bg-transparent"
                 />
               </div>
               <div>
@@ -118,7 +118,7 @@ export default function SeoForm({ data }: SeoFormProps) {
                   onChange={handleChange}
                   placeholder="Email"
                   required
-                  className="w-full px-4 py-4 border-b-2 border-gray-300 focus:border-green4 outline-none transition-colors text-lg bg-transparent"
+                  className="w-full px-4 py-4 border-b-2 border-gray-300 focus:border-yellow outline-none transition-colors text-lg bg-transparent"
                 />
               </div>
               <div>
@@ -133,7 +133,7 @@ export default function SeoForm({ data }: SeoFormProps) {
                   onChange={handleChange}
                   placeholder="Phone"
                   required
-                  className="w-full px-4 py-4 border-b-2 border-gray-300 focus:border-green4 outline-none transition-colors text-lg bg-transparent"
+                  className="w-full px-4 py-4 border-b-2 border-gray-300 focus:border-yellow outline-none transition-colors text-lg bg-transparent"
                 />
               </div>
               <div className="flex justify-center">

@@ -38,7 +38,7 @@ export default function SeoFaq() {
           >
             <CustomButton text="Learn more" href="#resources" textColor="black" borderColor="black" />
             <h2 className="text-4xl md:text-6xl font-regular text-blackbrown font-cal-sans leading-tight">
-              Learn more about <span className="relative inline-block"><span className="absolute bottom-1 left-0 right-0 h-2/4 bg-green5"></span><span className="relative z-10 font-medium italic">SEO.</span></span>
+              Learn more about <span className="relative inline-block"><span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span><span className="relative z-10 font-medium italic">SEO.</span></span>
             </h2>
             <p className="text-lg text-blackbrown/80 max-w-xl">
               A quick intro to a complex, ever‑changing topic.

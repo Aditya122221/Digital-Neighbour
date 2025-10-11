@@ -123,7 +123,7 @@ export default function OtherServices() {
         >
           Our Other SEO{" "}
           <span className="relative inline-block">
-            <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-green5"></span>
+            <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
             <span className="relative z-10 font-medium italic">
               Services & Solutions
             </span>
@@ -145,7 +145,7 @@ export default function OtherServices() {
                   key={service}
                   className="flex items-center gap-3 text-blackbrown/90"
                 >
-                  <span className="w-2 h-2 rounded-full bg-green4 inline-block flex-shrink-0" />
+                  <span className="w-2 h-2 rounded-full bg-yellow inline-block flex-shrink-0" />
                   <span className="text-lg">{service}</span>
                 </li>
               ))}
@@ -166,7 +166,7 @@ export default function OtherServices() {
                   key={service}
                   className="flex items-center gap-3 text-blackbrown/90"
                 >
-                  <span className="w-2 h-2 rounded-full bg-green4 inline-block flex-shrink-0" />
+                  <span className="w-2 h-2 rounded-full bg-yellow inline-block flex-shrink-0" />
                   <span className="text-lg">{service}</span>
                 </li>
               ))}
@@ -187,7 +187,7 @@ export default function OtherServices() {
                   key={service}
                   className="flex items-center gap-3 text-blackbrown/90"
                 >
-                  <span className="w-2 h-2 rounded-full bg-green4 inline-block flex-shrink-0" />
+                  <span className="w-2 h-2 rounded-full bg-yellow inline-block flex-shrink-0" />
                   <span className="text-lg">{service}</span>
                 </li>
               ))}

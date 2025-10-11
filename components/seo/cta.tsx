@@ -11,12 +11,12 @@ export default function SeoCta() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="max-w-7xl mx-auto rounded-3xl bg-green2 text-white p-8 md:p-12 lg:p-16"
+        className="max-w-7xl mx-auto rounded-3xl bg-black text-white p-8 md:p-12 lg:p-16"
       >
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           {/* Left copy */}
           <div className="lg:col-span-8 space-y-5">
-            <p className="text-green5 text-sm md:text-base tracking-wide">
+            <p className="text-yellow text-sm md:text-base tracking-wide">
               No empty promises, just Real SEO Results
             </p>
             <h2 className="text-3xl md:text-5xl lg:text-6xl font-cal-sans font-regular leading-tight">

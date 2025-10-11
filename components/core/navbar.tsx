@@ -395,7 +395,7 @@ const Navbar: React.FC = () => {
                 height={40}
                 className={cn(
                   "h-12 w-auto lg:h-14 transition-all duration-300",
-                  isSeoRoute && !hasScrolledPast80vh ? "brightness-0" : "brightness-0 invert"
+                  "brightness-0 invert"
                 )}
                 priority
               />
@@ -415,9 +415,7 @@ const Navbar: React.FC = () => {
                   href={link.href}
                   className={cn(
                     "uppercase transition-all duration-200 font-medium text-sm lg:text-base flex items-center gap-1 relative group",
-                    isSeoRoute && !hasScrolledPast80vh 
-                      ? "text-black/80 hover:text-black" 
-                      : "text-white/80 hover:text-white",
+                    "text-white/80 hover:text-white",
                     link.hasMegaMenu && isMegaMenuOpen && "text-yellow"
                   )}
                 >
@@ -463,9 +461,7 @@ const Navbar: React.FC = () => {
                 onClick={toggleMenu}
                 className={cn(
                   "transition-colors duration-200 p-2",
-                  isSeoRoute && !hasScrolledPast80vh 
-                    ? "text-black hover:text-yellow" 
-                    : "text-black hover:text-yellow"
+                  "text-white hover:text-yellow"
                 )}
                 aria-label="Toggle menu"
               >
@@ -728,9 +724,7 @@ const Navbar: React.FC = () => {
                       href={link.href}
                       className={cn(
                         "block px-3 py-2 transition-colors duration-200 rounded-md font-medium",
-                        isSeoRoute && !hasScrolledPast80vh 
-                          ? "text-black hover:text-yellow" 
-                          : "text-white hover:text-yellow"
+                        "text-white hover:text-yellow"
                       )}
                       onClick={() => setIsMenuOpen(false)}
                     >
