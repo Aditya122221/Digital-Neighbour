@@ -557,8 +557,9 @@ const Navbar: React.FC = () => {
                                 ]);
                                 const paidAdsSlugs = new Set([
                                   'google-ads',
-                                  'meta-ads',
-                                  'linkedin-ads',
+                                  'google-remarketing',
+                                  'google-shopping',
+                                  'paid-social',
                                   'youtube-ads',
                                   'paid-advertisement',
                                 ]);
@@ -711,8 +712,9 @@ const Navbar: React.FC = () => {
                                   ]);
                                   const paidAdsSlugs = new Set([
                                     'google-ads',
-                                    'meta-ads',
-                                    'linkedin-ads',
+                                    'google-remarketing',
+                                    'google-shopping',
+                                    'paid-social',
                                     'youtube-ads',
                                     'paid-advertisement',
                                   ]);

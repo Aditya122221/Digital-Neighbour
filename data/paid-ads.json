@@ -2,13 +2,13 @@
   "paid-advertisement": {
     "hero": {
       "heading": "Performance-Driven Paid Advertising Agency",
-      "subheading": "Launch, scale, and optimise profitable ad campaigns across Google, Meta, LinkedIn, and YouTube with transparent performance and clear ROI."
+      "subheading": "Dominate paid search results and drive explosive growth with our proven paid advertising strategies that capture high-intent traffic, maximize conversions, and deliver measurable ROI across Google, Meta, LinkedIn, and YouTube."
     },
     "form": {
       "heading": "Ready to scale with Paid Ads?",
-      "content": "We plan and manage paid media with a testing mindset: fast iterations, clean tracking, and rigorous creative experimentation.",
-      "subContent": "We uncover high-intent audiences and optimise funnels end-to-end for conversion.",
-      "cta": "Get a free ad account and landing page audit to find immediate wins.",
+      "content": "We plan and manage paid media with a testing mindset: fast iterations, clean tracking, and rigorous creative experimentation. Our comprehensive approach includes detailed campaign analysis, audience research, creative testing frameworks, and conversion optimization strategies that deliver measurable results and sustainable growth for your business.",
+      "subContent": "We uncover high-intent audiences and optimise funnels end-to-end for conversion. Our team specializes in identifying your most valuable customer segments, creating compelling ad creatives that resonate with your target audience, and implementing sophisticated tracking systems to ensure every dollar spent delivers maximum return on investment.",
+      "cta": "Get a free ad account and landing page audit to find immediate wins. Our comprehensive audit covers campaign structure, audience targeting, creative performance, conversion tracking, and landing page optimization to identify quick wins and long-term growth opportunities.",
       "formHeading": "Request your free paid media audit",
       "buttonText": "Get My Audit"
     },
@@ -18,7 +18,7 @@
         "id": "google-ads",
         "name": "Google Ads",
         "title": "Google Search & Performance Max",
-        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability.",
+        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability. Our Google Ads expertise includes keyword research, ad copy optimization, landing page testing, conversion tracking setup, and ongoing campaign management to maximize your search advertising ROI.",
         "image": "/seo/services/seo.webp",
         "link": "/paid-advertisement/google-ads"
       },
@@ -26,7 +26,7 @@
         "id": "meta-ads",
         "name": "Meta Ads",
         "title": "Meta (Facebook/Instagram) Campaigns",
-        "description": "Scale attention with creative-led prospecting and conversion-focused retargeting on Meta.",
+        "description": "Scale attention with creative-led prospecting and conversion-focused retargeting on Meta. We develop compelling visual and video content, implement advanced audience targeting strategies, optimize for various campaign objectives, and create sophisticated retargeting sequences to maximize engagement and conversions.",
         "image": "/seo/services/off-page.webp",
         "link": "/paid-advertisement/meta-ads"
       },
@@ -34,7 +34,7 @@
         "id": "linkedin-ads",
         "name": "LinkedIn Ads",
         "title": "B2B LinkedIn Lead Gen",
-        "description": "Precisely target decision-makers with tailored messaging, offers, and high-signal lead flows.",
+        "description": "Precisely target decision-makers with tailored messaging, offers, and high-signal lead flows. Our LinkedIn advertising strategies focus on B2B lead generation, account-based marketing, professional audience targeting, and creating compelling offers that resonate with business decision-makers and drive qualified leads.",
         "image": "/seo/services/technical.webp",
         "link": "/paid-advertisement/linkedin-ads"
       },
@@ -42,38 +42,38 @@
         "id": "youtube-ads",
         "name": "YouTube Ads",
         "title": "YouTube Awareness & Direct Response",
-        "description": "Build demand and conversions with creative testing and audience layering on YouTube.",
+        "description": "Build demand and conversions with creative testing and audience layering on YouTube. We create engaging video content, implement strategic audience targeting, optimize for both brand awareness and direct response objectives, and leverage YouTube's powerful advertising platform to drive meaningful business results.",
         "image": "/seo/services/on-page.webp",
         "link": "/paid-advertisement/youtube-ads"
       }
     ],
     "content": {
       "heading": "Creative + Data = Scalable Paid Media",
-      "text1": "We combine rapid creative testing with structured account architecture for durable learnings and efficient spend.",
-      "text2": "Our measurement stack ensures clean attribution, so we can make confident decisions about budget allocation.",
-      "text3": "From search to social to video, we design funnels that convert—then compound that performance with iteration.",
+      "text1": "We combine rapid creative testing with structured account architecture for durable learnings and efficient spend. Our systematic approach to creative testing involves developing multiple ad variations, implementing A/B testing frameworks, and analyzing performance data to identify winning creative elements that drive engagement and conversions.",
+      "text2": "Our measurement stack ensures clean attribution, so we can make confident decisions about budget allocation. We implement comprehensive tracking systems, conversion attribution models, and detailed reporting dashboards that provide clear insights into campaign performance, customer journey mapping, and ROI optimization opportunities.",
+      "text3": "From search to social to video, we design funnels that convert—then compound that performance with iteration. Our full-funnel approach includes awareness campaigns, consideration-stage nurturing, conversion optimization, and post-purchase retention strategies that maximize customer lifetime value and business growth.",
       "image": "hero.png",
       "alt": "Paid advertising growth illustration"
     },
     "faq": {
       "serviceName": "Paid Advertising",
       "faqs": [
-        { "q": "How fast can we see results?", "a": "Paid channels can deliver results within days. We typically run a structured 2–4 week testing sprint to validate audiences, offers, and creatives." },
-        { "q": "Do you manage landing pages and tracking?", "a": "Yes. We audit pixels, events, and conversions, and we optimise landing pages and forms to improve conversion rates." },
-        { "q": "What budgets do you work with?", "a": "We work with a range of budgets. The key is matching budget to the channel mix and the competitiveness of your market." }
+        { "q": "How fast can we see results?", "a": "Paid channels can deliver results within days. We typically run a structured 2–4 week testing sprint to validate audiences, offers, and creatives. Our rapid testing methodology allows us to identify winning strategies quickly, optimize campaigns for maximum performance, and scale successful approaches across multiple channels and audiences." },
+        { "q": "Do you manage landing pages and tracking?", "a": "Yes. We audit pixels, events, and conversions, and we optimise landing pages and forms to improve conversion rates. Our comprehensive approach includes landing page design optimization, conversion tracking setup, A/B testing of landing page elements, and continuous optimization based on performance data to maximize your conversion rates." },
+        { "q": "What budgets do you work with?", "a": "We work with a range of budgets. The key is matching budget to the channel mix and the competitiveness of your market. Our flexible approach allows us to work with businesses of all sizes, from startups with limited budgets to enterprise companies with substantial advertising spend, ensuring optimal budget allocation across all channels." }
       ]
     }
   },
   "google-ads": {
-    "hero": { "heading": "Google Ads Management", "subheading": "Search, Shopping, and PMax campaigns engineered for profitable growth." },
-    "form": { "heading": "Scale with Google Ads", "content": "We structure accounts for clarity, control, and speed of iteration.", "subContent": "From query-level control to creative testing, we optimise for intent.", "cta": "Request a free audit of your Google Ads account.", "formHeading": "Free Google Ads Audit", "buttonText": "Get My Audit" },
+    "hero": { "heading": "Google Ads Management", "subheading": "Dominate Google search results and capture high-intent customers with our proven Google Ads strategies that drive qualified traffic, boost conversions, and maximize your search advertising ROI across Search, Shopping, and Performance Max campaigns." },
+    "form": { "heading": "Scale with Google Ads", "content": "We structure accounts for clarity, control, and speed of iteration. Our Google Ads management includes comprehensive account audits, campaign structure optimization, keyword research and expansion, ad copy testing, and ongoing performance monitoring to ensure maximum ROI from your search advertising investment.", "subContent": "From query-level control to creative testing, we optimise for intent. We implement advanced bidding strategies, negative keyword management, landing page optimization, and conversion tracking to capture high-intent search traffic and maximize your conversion rates.", "cta": "Request a free audit of your Google Ads account. Our comprehensive audit covers account structure, keyword performance, ad copy effectiveness, landing page optimization, and conversion tracking to identify immediate improvement opportunities.", "formHeading": "Free Google Ads Audit", "buttonText": "Get My Audit" },
     "services": "Google Ads",
     "serviceCards": [
       {
         "id": "google-ads",
         "name": "Google Ads",
         "title": "Google Search & Performance Max",
-        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability.",
+        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability. Our Google Ads expertise includes keyword research, ad copy optimization, landing page testing, conversion tracking setup, and ongoing campaign management to maximize your search advertising ROI.",
         "image": "/seo/services/seo.webp",
         "link": "/paid-advertisement/google-ads"
       },
@@ -81,7 +81,7 @@
         "id": "meta-ads",
         "name": "Meta Ads",
         "title": "Meta (Facebook/Instagram) Campaigns",
-        "description": "Scale attention with creative-led prospecting and conversion-focused retargeting on Meta.",
+        "description": "Scale attention with creative-led prospecting and conversion-focused retargeting on Meta. We develop compelling visual and video content, implement advanced audience targeting strategies, optimize for various campaign objectives, and create sophisticated retargeting sequences to maximize engagement and conversions.",
         "image": "/seo/services/off-page.webp",
         "link": "/paid-advertisement/meta-ads"
       },
@@ -89,7 +89,7 @@
         "id": "linkedin-ads",
         "name": "LinkedIn Ads",
         "title": "B2B LinkedIn Lead Gen",
-        "description": "Precisely target decision-makers with tailored messaging, offers, and high-signal lead flows.",
+        "description": "Precisely target decision-makers with tailored messaging, offers, and high-signal lead flows. Our LinkedIn advertising strategies focus on B2B lead generation, account-based marketing, professional audience targeting, and creating compelling offers that resonate with business decision-makers and drive qualified leads.",
         "image": "/seo/services/technical.webp",
         "link": "/paid-advertisement/linkedin-ads"
       },
@@ -97,24 +97,24 @@
         "id": "youtube-ads",
         "name": "YouTube Ads",
         "title": "YouTube Awareness & Direct Response",
-        "description": "Build demand and conversions with creative testing and audience layering on YouTube.",
+        "description": "Build demand and conversions with creative testing and audience layering on YouTube. We create engaging video content, implement strategic audience targeting, optimize for both brand awareness and direct response objectives, and leverage YouTube's powerful advertising platform to drive meaningful business results.",
         "image": "/seo/services/on-page.webp",
         "link": "/paid-advertisement/youtube-ads"
       }
     ],
-    "content": { "heading": "Own high-intent moments", "text1": "Win the SERP with smart bidding + clean structure.", "text2": "Feed health and product data matter for Shopping.", "text3": "We track granular conversions to guide bids.", "image": "hero.png", "alt": "Google Ads" },
+    "content": { "heading": "Own high-intent moments", "text1": "Win the SERP with smart bidding + clean structure. Our Google Ads expertise includes advanced bidding strategy implementation, account structure optimization, keyword research and expansion, and ongoing campaign management to ensure maximum visibility and conversion rates for high-intent search queries.", "text2": "Feed health and product data matter for Shopping. We specialize in Google Shopping campaign optimization, including product feed management, data quality improvement, shopping campaign structure optimization, and performance monitoring to maximize your e-commerce advertising success.", "text3": "We track granular conversions to guide bids. Our comprehensive conversion tracking setup includes detailed attribution modeling, conversion value optimization, and data-driven bidding strategies that ensure every dollar spent delivers maximum return on investment.", "image": "hero.png", "alt": "Google Ads" },
     "faq": { "serviceName": "Google Ads" }
   },
   "meta-ads": {
-    "hero": { "heading": "Meta Ads (Facebook & Instagram)", "subheading": "Creative-first performance with disciplined testing and retargeting." },
-    "form": { "heading": "Scale with Meta", "content": "We test hooks, formats, and audiences to find durable winners.", "subContent": "We build full-funnel journeys that compound.", "cta": "Get a free Meta account & pixel audit.", "formHeading": "Free Meta Audit", "buttonText": "Get My Audit" },
+    "hero": { "heading": "Meta Ads (Facebook & Instagram)", "subheading": "Dominate social media advertising and drive explosive engagement with our proven Meta advertising strategies that capture attention, boost brand awareness, and convert followers into customers across Facebook and Instagram." },
+    "form": { "heading": "Scale with Meta", "content": "We test hooks, formats, and audiences to find durable winners. Our Meta advertising strategy includes comprehensive creative testing, audience research and segmentation, campaign optimization, and performance analysis to identify the most effective approaches for your brand and maximize engagement and conversions.", "subContent": "We build full-funnel journeys that compound. Our approach includes awareness campaigns, consideration-stage nurturing, conversion optimization, and retargeting strategies that work together to create a comprehensive customer journey that maximizes lifetime value and business growth.", "cta": "Get a free Meta account & pixel audit. Our detailed audit covers account structure, pixel implementation, audience targeting, creative performance, and conversion tracking to identify optimization opportunities and improve your Meta advertising ROI.", "formHeading": "Free Meta Audit", "buttonText": "Get My Audit" },
     "services": "Meta Ads",
     "serviceCards": [
       {
         "id": "google-ads",
         "name": "Google Ads",
         "title": "Google Search & Performance Max",
-        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability.",
+        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability. Our Google Ads expertise includes keyword research, ad copy optimization, landing page testing, conversion tracking setup, and ongoing campaign management to maximize your search advertising ROI.",
         "image": "/seo/services/seo.webp",
         "link": "/paid-advertisement/google-ads"
       },
@@ -122,7 +122,7 @@
         "id": "meta-ads",
         "name": "Meta Ads",
         "title": "Meta (Facebook/Instagram) Campaigns",
-        "description": "Scale attention with creative-led prospecting and conversion-focused retargeting on Meta.",
+        "description": "Scale attention with creative-led prospecting and conversion-focused retargeting on Meta. We develop compelling visual and video content, implement advanced audience targeting strategies, optimize for various campaign objectives, and create sophisticated retargeting sequences to maximize engagement and conversions.",
         "image": "/seo/services/off-page.webp",
         "link": "/paid-advertisement/meta-ads"
       },
@@ -130,7 +130,7 @@
         "id": "linkedin-ads",
         "name": "LinkedIn Ads",
         "title": "B2B LinkedIn Lead Gen",
-        "description": "Precisely target decision-makers with tailored messaging, offers, and high-signal lead flows.",
+        "description": "Precisely target decision-makers with tailored messaging, offers, and high-signal lead flows. Our LinkedIn advertising strategies focus on B2B lead generation, account-based marketing, professional audience targeting, and creating compelling offers that resonate with business decision-makers and drive qualified leads.",
         "image": "/seo/services/technical.webp",
         "link": "/paid-advertisement/linkedin-ads"
       },
@@ -138,24 +138,24 @@
         "id": "youtube-ads",
         "name": "YouTube Ads",
         "title": "YouTube Awareness & Direct Response",
-        "description": "Build demand and conversions with creative testing and audience layering on YouTube.",
+        "description": "Build demand and conversions with creative testing and audience layering on YouTube. We create engaging video content, implement strategic audience targeting, optimize for both brand awareness and direct response objectives, and leverage YouTube's powerful advertising platform to drive meaningful business results.",
         "image": "/seo/services/on-page.webp",
         "link": "/paid-advertisement/youtube-ads"
       }
     ],
-    "content": { "heading": "Creative drives outcomes", "text1": "We iterate fast on angles and formats.", "text2": "Signal quality and events shape performance.", "text3": "Retargeting converts attention into revenue.", "image": "hero.png", "alt": "Meta Ads" },
+    "content": { "heading": "Creative drives outcomes", "text1": "We iterate fast on angles and formats. Our Meta advertising approach includes rapid creative testing, format experimentation, angle optimization, and performance analysis to identify the most engaging and effective creative elements that drive audience engagement and conversion.", "text2": "Signal quality and events shape performance. We implement sophisticated audience targeting strategies, event tracking optimization, and signal quality improvement to ensure your Meta campaigns reach the most relevant audiences and generate high-quality engagement and conversions.", "text3": "Retargeting converts attention into revenue. Our retargeting strategies include sophisticated audience segmentation, personalized messaging, and conversion-focused campaigns that re-engage previous visitors and convert them into customers, maximizing your return on advertising investment.", "image": "hero.png", "alt": "Meta Ads" },
     "faq": { "serviceName": "Meta Ads" }
   },
   "linkedin-ads": {
-    "hero": { "heading": "LinkedIn Ads for B2B", "subheading": "Reach ICP accounts with precise targeting, offers, and forms." },
-    "form": { "heading": "Pipeline-focused LinkedIn", "content": "We map journeys from ad to meeting booked.", "subContent": "Lead routing and enrichment included.", "cta": "Request a free LinkedIn audit.", "formHeading": "Free LinkedIn Audit", "buttonText": "Get My Audit" },
+    "hero": { "heading": "LinkedIn Ads for B2B", "subheading": "Dominate B2B lead generation and capture high-value prospects with our proven LinkedIn advertising strategies that target decision-makers, boost professional engagement, and convert connections into qualified business opportunities." },
+    "form": { "heading": "Pipeline-focused LinkedIn", "content": "We map journeys from ad to meeting booked. Our LinkedIn advertising approach includes comprehensive lead generation strategies, account-based marketing implementation, professional audience targeting, and conversion optimization to ensure your LinkedIn campaigns generate high-quality leads that convert into business opportunities.", "subContent": "Lead routing and enrichment included. We implement sophisticated lead management systems, automated lead routing, lead scoring, and enrichment processes to ensure your LinkedIn-generated leads are properly qualified, routed to the right team members, and nurtured through the sales process for maximum conversion rates.", "cta": "Request a free LinkedIn audit. Our comprehensive audit covers account structure, audience targeting, ad creative performance, lead generation effectiveness, and conversion tracking to identify opportunities for improving your LinkedIn advertising ROI and lead quality.", "formHeading": "Free LinkedIn Audit", "buttonText": "Get My Audit" },
     "services": "LinkedIn Ads",
     "serviceCards": [
       {
         "id": "google-ads",
         "name": "Google Ads",
         "title": "Google Search & Performance Max",
-        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability.",
+        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability. Our Google Ads expertise includes keyword research, ad copy optimization, landing page testing, conversion tracking setup, and ongoing campaign management to maximize your search advertising ROI.",
         "image": "/seo/services/seo.webp",
         "link": "/paid-advertisement/google-ads"
       },
@@ -163,7 +163,7 @@
         "id": "meta-ads",
         "name": "Meta Ads",
         "title": "Meta (Facebook/Instagram) Campaigns",
-        "description": "Scale attention with creative-led prospecting and conversion-focused retargeting on Meta.",
+        "description": "Scale attention with creative-led prospecting and conversion-focused retargeting on Meta. We develop compelling visual and video content, implement advanced audience targeting strategies, optimize for various campaign objectives, and create sophisticated retargeting sequences to maximize engagement and conversions.",
         "image": "/seo/services/off-page.webp",
         "link": "/paid-advertisement/meta-ads"
       },
@@ -171,7 +171,7 @@
         "id": "linkedin-ads",
         "name": "LinkedIn Ads",
         "title": "B2B LinkedIn Lead Gen",
-        "description": "Precisely target decision-makers with tailored messaging, offers, and high-signal lead flows.",
+        "description": "Precisely target decision-makers with tailored messaging, offers, and high-signal lead flows. Our LinkedIn advertising strategies focus on B2B lead generation, account-based marketing, professional audience targeting, and creating compelling offers that resonate with business decision-makers and drive qualified leads.",
         "image": "/seo/services/technical.webp",
         "link": "/paid-advertisement/linkedin-ads"
       },
@@ -179,24 +179,24 @@
         "id": "youtube-ads",
         "name": "YouTube Ads",
         "title": "YouTube Awareness & Direct Response",
-        "description": "Build demand and conversions with creative testing and audience layering on YouTube.",
+        "description": "Build demand and conversions with creative testing and audience layering on YouTube. We create engaging video content, implement strategic audience targeting, optimize for both brand awareness and direct response objectives, and leverage YouTube's powerful advertising platform to drive meaningful business results.",
         "image": "/seo/services/on-page.webp",
         "link": "/paid-advertisement/youtube-ads"
       }
     ],
-    "content": { "heading": "High-signal demand gen", "text1": "Target by title, skills, and company lists.", "text2": "Use content and offers to warm accounts.", "text3": "Optimise for downstream revenue, not only CPL.", "image": "hero.png", "alt": "LinkedIn Ads" },
+    "content": { "heading": "High-signal demand gen", "text1": "Target by title, skills, and company lists. Our LinkedIn advertising expertise includes sophisticated professional audience targeting, job title segmentation, skill-based targeting, and company list management to ensure your campaigns reach the most relevant B2B decision-makers and influencers.", "text2": "Use content and offers to warm accounts. We develop compelling content strategies, lead magnets, and professional offers that resonate with your target audience, building trust and engagement before conversion to maximize lead quality and sales success.", "text3": "Optimise for downstream revenue, not only CPL. Our LinkedIn advertising approach focuses on lead quality optimization, sales pipeline development, and revenue attribution to ensure your campaigns generate leads that convert into actual business value and long-term customer relationships.", "image": "hero.png", "alt": "LinkedIn Ads" },
     "faq": { "serviceName": "LinkedIn Ads" }
   },
   "youtube-ads": {
-    "hero": { "heading": "YouTube Ads", "subheading": "Blend awareness and direct response with creative that converts." },
-    "form": { "heading": "Scale with YouTube", "content": "We test scripts, hooks, and audiences for efficient CPVs and CAC.", "subContent": "Creative iteration compounds performance.", "cta": "Request a free YouTube audit.", "formHeading": "Free YouTube Audit", "buttonText": "Get My Audit" },
+    "hero": { "heading": "YouTube Ads", "subheading": "Dominate video advertising and drive explosive brand growth with our proven YouTube advertising strategies that capture viewers' attention, boost engagement, and convert audiences into customers through compelling video content." },
+    "form": { "heading": "Scale with YouTube", "content": "We test scripts, hooks, and audiences for efficient CPVs and CAC. Our YouTube advertising strategy includes comprehensive video creative testing, audience research and targeting, campaign optimization, and performance analysis to identify the most effective video content and targeting approaches for your brand.", "subContent": "Creative iteration compounds performance. We continuously test and optimize video creative elements, including hooks, storytelling, calls-to-action, and visual elements to improve engagement rates, view-through rates, and conversion performance across your YouTube advertising campaigns.", "cta": "Request a free YouTube audit. Our detailed audit covers channel optimization, video creative performance, audience targeting effectiveness, campaign structure, and conversion tracking to identify opportunities for improving your YouTube advertising ROI and video marketing effectiveness.", "formHeading": "Free YouTube Audit", "buttonText": "Get My Audit" },
     "services": "YouTube Ads",
     "serviceCards": [
       {
         "id": "google-ads",
         "name": "Google Ads",
         "title": "Google Search & Performance Max",
-        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability.",
+        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability. Our Google Ads expertise includes keyword research, ad copy optimization, landing page testing, conversion tracking setup, and ongoing campaign management to maximize your search advertising ROI.",
         "image": "/seo/services/seo.webp",
         "link": "/paid-advertisement/google-ads"
       },
@@ -204,7 +204,7 @@
         "id": "meta-ads",
         "name": "Meta Ads",
         "title": "Meta (Facebook/Instagram) Campaigns",
-        "description": "Scale attention with creative-led prospecting and conversion-focused retargeting on Meta.",
+        "description": "Scale attention with creative-led prospecting and conversion-focused retargeting on Meta. We develop compelling visual and video content, implement advanced audience targeting strategies, optimize for various campaign objectives, and create sophisticated retargeting sequences to maximize engagement and conversions.",
         "image": "/seo/services/off-page.webp",
         "link": "/paid-advertisement/meta-ads"
       },
@@ -212,7 +212,7 @@
         "id": "linkedin-ads",
         "name": "LinkedIn Ads",
         "title": "B2B LinkedIn Lead Gen",
-        "description": "Precisely target decision-makers with tailored messaging, offers, and high-signal lead flows.",
+        "description": "Precisely target decision-makers with tailored messaging, offers, and high-signal lead flows. Our LinkedIn advertising strategies focus on B2B lead generation, account-based marketing, professional audience targeting, and creating compelling offers that resonate with business decision-makers and drive qualified leads.",
         "image": "/seo/services/technical.webp",
         "link": "/paid-advertisement/linkedin-ads"
       },
@@ -220,13 +220,136 @@
         "id": "youtube-ads",
         "name": "YouTube Ads",
         "title": "YouTube Awareness & Direct Response",
-        "description": "Build demand and conversions with creative testing and audience layering on YouTube.",
+        "description": "Build demand and conversions with creative testing and audience layering on YouTube. We create engaging video content, implement strategic audience targeting, optimize for both brand awareness and direct response objectives, and leverage YouTube's powerful advertising platform to drive meaningful business results.",
         "image": "/seo/services/on-page.webp",
         "link": "/paid-advertisement/youtube-ads"
       }
     ],
-    "content": { "heading": "Video that sells", "text1": "Creative frameworks accelerate testing.", "text2": "Audience layering and sequencing matter.", "text3": "Measure view-through and assisted conversions.", "image": "hero.png", "alt": "YouTube Ads" },
+    "content": { "heading": "Video that sells", "text1": "Creative frameworks accelerate testing. Our YouTube advertising approach includes systematic video creative testing, storytelling frameworks, hook optimization, and performance analysis to identify the most engaging and effective video content that drives audience engagement and conversion.", "text2": "Audience layering and sequencing matter. We implement sophisticated audience targeting strategies, audience layering techniques, and campaign sequencing to ensure your YouTube ads reach the right viewers at the right time in their customer journey, maximizing engagement and conversion rates.", "text3": "Measure view-through and assisted conversions. Our YouTube advertising measurement includes comprehensive conversion tracking, view-through attribution, assisted conversion analysis, and ROI optimization to ensure accurate measurement of your video advertising impact and return on investment.", "image": "hero.png", "alt": "YouTube Ads" },
     "faq": { "serviceName": "YouTube Ads" }
+  },
+  "google-remarketing": {
+    "hero": { "heading": "Google Remarketing", "subheading": "Dominate remarketing campaigns and recapture lost customers with our proven Google remarketing strategies that re-engage visitors, boost conversion rates, and maximize ROI from your most valuable prospects across Google's entire advertising network." },
+    "form": { "heading": "Scale with Google Remarketing", "content": "We create audience lists and retargeting campaigns to convert previous visitors. Our Google remarketing expertise includes sophisticated audience segmentation, dynamic remarketing implementation, cross-platform campaign management, and conversion optimization to maximize your retargeting ROI across Google's entire advertising ecosystem.", "subContent": "Strategic bidding and creative testing for maximum ROI. We implement advanced bidding strategies, creative testing frameworks, and performance optimization techniques to ensure your remarketing campaigns deliver maximum conversion rates while maintaining cost efficiency and reaching the most valuable prospects.", "cta": "Request a free remarketing audit. Our comprehensive audit covers audience segmentation, campaign structure, creative performance, bidding strategies, and conversion tracking to identify opportunities for improving your remarketing effectiveness and ROI.", "formHeading": "Free Remarketing Audit", "buttonText": "Get My Audit" },
+    "services": "Google Remarketing",
+    "serviceCards": [
+      {
+        "id": "google-ads",
+        "name": "Google Ads",
+        "title": "Google Search & Performance Max",
+        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability. Our Google Ads expertise includes keyword research, ad copy optimization, landing page testing, conversion tracking setup, and ongoing campaign management to maximize your search advertising ROI.",
+        "image": "/seo/services/seo.webp",
+        "link": "/paid-advertisement/google-ads"
+      },
+      {
+        "id": "google-remarketing",
+        "name": "Google Remarketing",
+        "title": "Google Remarketing",
+        "description": "Re-engage visitors with targeted remarketing campaigns across Google's network.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/paid-advertisement/google-remarketing"
+      },
+      {
+        "id": "google-shopping",
+        "name": "Google Shopping",
+        "title": "Google Shopping Ads",
+        "description": "Showcase products with visual shopping ads that drive qualified traffic.",
+        "image": "/seo/services/technical.webp",
+        "link": "/paid-advertisement/google-shopping-ads"
+      },
+      {
+        "id": "paid-social",
+        "name": "Paid Social",
+        "title": "Paid Social Media",
+        "description": "Scale social media advertising across Facebook, Instagram, LinkedIn, and more.",
+        "image": "/seo/services/on-page.webp",
+        "link": "/paid-advertisement/paid-social"
+      }
+    ],
+    "content": { "heading": "Re-engage with precision", "text1": "Create custom audiences from website visitors. Our Google remarketing expertise includes sophisticated audience segmentation, dynamic audience creation, and cross-platform audience management to ensure your remarketing campaigns reach the most relevant and valuable prospects across Google's entire advertising ecosystem.", "text2": "Test different creative approaches for retargeting. We implement comprehensive creative testing strategies, personalized messaging, and format optimization to ensure your remarketing campaigns deliver compelling and relevant content that drives engagement and conversion from previous website visitors.", "text3": "Optimise for conversions with smart bidding. Our remarketing optimization includes advanced bidding strategies, conversion tracking setup, and performance analysis to ensure your remarketing campaigns deliver maximum ROI and convert your most valuable prospects into customers.", "image": "hero.png", "alt": "Google Remarketing" },
+    "faq": { "serviceName": "Google Remarketing" }
+  },
+  "google-shopping": {
+    "hero": { "heading": "Google Shopping Ads", "subheading": "Dominate product search results and drive explosive e-commerce sales with our proven Google Shopping strategies that showcase your products, boost visibility, and convert shoppers into buyers across Google's shopping network." },
+    "form": { "heading": "Scale with Google Shopping", "content": "We optimise product feeds and shopping campaigns for maximum visibility. Our Google Shopping expertise includes comprehensive product feed optimization, shopping campaign structure management, bidding strategy implementation, and performance monitoring to ensure maximum product visibility and conversion rates across Google's shopping network.", "subContent": "Strategic bidding and product data optimisation. We implement advanced bidding strategies, product data enhancement, category optimization, and performance analysis to ensure your shopping campaigns deliver maximum ROI and drive qualified traffic to your e-commerce store.", "cta": "Request a free shopping ads audit. Our detailed audit covers product feed quality, campaign structure, bidding strategies, product performance, and conversion tracking to identify opportunities for improving your Google Shopping advertising effectiveness and sales performance.", "formHeading": "Free Shopping Ads Audit", "buttonText": "Get My Audit" },
+    "services": "Google Shopping",
+    "serviceCards": [
+      {
+        "id": "google-ads",
+        "name": "Google Ads",
+        "title": "Google Search & Performance Max",
+        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability. Our Google Ads expertise includes keyword research, ad copy optimization, landing page testing, conversion tracking setup, and ongoing campaign management to maximize your search advertising ROI.",
+        "image": "/seo/services/seo.webp",
+        "link": "/paid-advertisement/google-ads"
+      },
+      {
+        "id": "google-remarketing",
+        "name": "Google Remarketing",
+        "title": "Google Remarketing",
+        "description": "Re-engage visitors with targeted remarketing campaigns across Google's network.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/paid-advertisement/google-remarketing"
+      },
+      {
+        "id": "google-shopping",
+        "name": "Google Shopping",
+        "title": "Google Shopping Ads",
+        "description": "Showcase products with visual shopping ads that drive qualified traffic.",
+        "image": "/seo/services/technical.webp",
+        "link": "/paid-advertisement/google-shopping-ads"
+      },
+      {
+        "id": "paid-social",
+        "name": "Paid Social",
+        "title": "Paid Social Media",
+        "description": "Scale social media advertising across Facebook, Instagram, LinkedIn, and more.",
+        "image": "/seo/services/on-page.webp",
+        "link": "/paid-advertisement/paid-social"
+      }
+    ],
+    "content": { "heading": "Visual product advertising", "text1": "Optimise product feeds for maximum visibility. Our Google Shopping expertise includes comprehensive product feed optimization, data quality improvement, category enhancement, and feed management to ensure your products appear prominently in Google Shopping results and drive maximum qualified traffic to your e-commerce store.", "text2": "Strategic bidding for shopping campaigns. We implement advanced bidding strategies, product-level optimization, and performance monitoring to ensure your Google Shopping campaigns deliver maximum ROI and drive qualified traffic that converts into sales for your e-commerce business.", "text3": "Track performance and optimise for sales. Our Google Shopping optimization includes comprehensive conversion tracking, sales attribution analysis, and performance optimization to ensure accurate measurement of your shopping campaign impact and continuous improvement of your e-commerce advertising ROI.", "image": "hero.png", "alt": "Google Shopping" },
+    "faq": { "serviceName": "Google Shopping" }
+  },
+  "paid-social": {
+    "hero": { "heading": "Paid Social Media", "subheading": "Dominate social media advertising and drive explosive brand growth with our proven paid social strategies that capture attention, boost engagement, and convert followers into customers across Facebook, Instagram, LinkedIn, and TikTok." },
+    "form": { "heading": "Scale with Paid Social", "content": "We create and manage social media ad campaigns across all major platforms. Our comprehensive paid social media expertise includes platform-specific campaign development, audience targeting optimization, creative testing, and performance analysis across Facebook, Instagram, LinkedIn, TikTok, and other emerging social platforms to maximize your social media advertising ROI.", "subContent": "Creative testing and audience targeting for optimal performance. We implement sophisticated creative testing frameworks, audience research and segmentation, and performance optimization techniques to ensure your social media campaigns reach the right audiences with the most engaging content, driving maximum engagement and conversion rates.", "cta": "Request a free social media ads audit. Our detailed audit covers account structure, audience targeting, creative performance, campaign optimization, and conversion tracking across all your social media platforms to identify opportunities for improving your social media advertising effectiveness and ROI.", "formHeading": "Free Social Media Audit", "buttonText": "Get My Audit" },
+    "services": "Paid Social",
+    "serviceCards": [
+      {
+        "id": "google-ads",
+        "name": "Google Ads",
+        "title": "Google Search & Performance Max",
+        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability. Our Google Ads expertise includes keyword research, ad copy optimization, landing page testing, conversion tracking setup, and ongoing campaign management to maximize your search advertising ROI.",
+        "image": "/seo/services/seo.webp",
+        "link": "/paid-advertisement/google-ads"
+      },
+      {
+        "id": "google-remarketing",
+        "name": "Google Remarketing",
+        "title": "Google Remarketing",
+        "description": "Re-engage visitors with targeted remarketing campaigns across Google's network.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/paid-advertisement/google-remarketing"
+      },
+      {
+        "id": "google-shopping",
+        "name": "Google Shopping",
+        "title": "Google Shopping Ads",
+        "description": "Showcase products with visual shopping ads that drive qualified traffic.",
+        "image": "/seo/services/technical.webp",
+        "link": "/paid-advertisement/google-shopping-ads"
+      },
+      {
+        "id": "paid-social",
+        "name": "Paid Social",
+        "title": "Paid Social Media",
+        "description": "Scale social media advertising across Facebook, Instagram, LinkedIn, and more.",
+        "image": "/seo/services/on-page.webp",
+        "link": "/paid-advertisement/paid-social"
+      }
+    ],
+    "content": { "heading": "Social media that converts", "text1": "Multi-platform social media advertising. Our comprehensive paid social media expertise includes platform-specific campaign development, cross-platform optimization, and unified reporting across Facebook, Instagram, LinkedIn, TikTok, and other emerging social platforms to maximize your social media advertising reach and ROI.", "text2": "Creative testing and audience targeting. We implement sophisticated creative testing frameworks, audience research and segmentation, and performance optimization techniques to ensure your social media campaigns reach the right audiences with the most engaging content, driving maximum engagement and conversion rates across all platforms.", "text3": "Track performance across all social channels. Our social media advertising measurement includes comprehensive cross-platform tracking, conversion attribution, and performance analysis to ensure accurate measurement of your social media advertising impact and continuous optimization of your social media ROI.", "image": "hero.png", "alt": "Paid Social" },
+    "faq": { "serviceName": "Paid Social" }
   }
 }
 

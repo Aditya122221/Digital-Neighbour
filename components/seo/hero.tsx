@@ -56,8 +56,8 @@ export default function SeoHero({ data }: SeoHeroProps) {
             <Image
               src="/seo/hero.webp"
               alt="SEO Marketing"
-className = "object-cover"
-fill
+              className="object-cover"
+              fill
               priority
             />
           </motion.div>

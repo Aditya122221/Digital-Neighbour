@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import paidAdsData from "@/data/paid-ads.json";
-import SeoHero from "@/components/seo/hero";
+import PaidAdsHero from "@/components/paid-ads/hero";
 import SeoContent from "@/components/seo/content";
 import SeoServices from "@/components/seo/services";
 import SeoForm from "@/components/seo/form";
@@ -15,13 +15,13 @@ import SeoFaq from "@/components/seo/faq";
 import CaseStudy from "@/components/homepage/casestudy";
 import Blogs from "@/components/homepage/blogs";
 import Testimonials from "@/components/homepage/testimonials";
-import BookACall from "@/components/homepage/bookacall";
 
 const allowedSlugs = [
   "paid-advertisement",
   "google-ads",
-  "meta-ads",
-  "linkedin-ads",
+  "google-remarketing",
+  "google-shopping",
+  "paid-social",
   "youtube-ads",
 ];
 
@@ -36,7 +36,7 @@ export default function PaidAdsSlugPage({ params }: { params: { slug: string } }
     <main>
       <div className="relative">
         <Navbar />
-        <SeoHero data={currentData?.hero || { heading: "Performance-Driven Paid Advertising", subheading: "We scale profitable paid media across Google, Meta, LinkedIn, and YouTube." }} />
+        <PaidAdsHero data={currentData?.hero || { heading: "Performance-Driven Paid Advertising", subheading: "We scale profitable paid media across Google, Meta, LinkedIn, and YouTube." }} />
       </div>
       <SeoForm data={currentData?.form} />
       <BrandsMarquee />
@@ -50,7 +50,6 @@ export default function PaidAdsSlugPage({ params }: { params: { slug: string } }
       <SeoFaq data={currentData?.faq} />
       <Blogs />
       <Testimonials />
-      <BookACall />
       <Footer />
     </main>
   );
