@@ -1,0 +1,233 @@
+{
+  "paid-advertisement": {
+    "hero": {
+      "heading": "Performance-Driven Paid Advertising Agency",
+      "subheading": "Launch, scale, and optimise profitable ad campaigns across Google, Meta, LinkedIn, and YouTube with transparent performance and clear ROI."
+    },
+    "form": {
+      "heading": "Ready to scale with Paid Ads?",
+      "content": "We plan and manage paid media with a testing mindset: fast iterations, clean tracking, and rigorous creative experimentation.",
+      "subContent": "We uncover high-intent audiences and optimise funnels end-to-end for conversion.",
+      "cta": "Get a free ad account and landing page audit to find immediate wins.",
+      "formHeading": "Request your free paid media audit",
+      "buttonText": "Get My Audit"
+    },
+    "services": "Paid Advertising",
+    "serviceCards": [
+      {
+        "id": "google-ads",
+        "name": "Google Ads",
+        "title": "Google Search & Performance Max",
+        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability.",
+        "image": "/seo/services/seo.webp",
+        "link": "/paid-advertisement/google-ads"
+      },
+      {
+        "id": "meta-ads",
+        "name": "Meta Ads",
+        "title": "Meta (Facebook/Instagram) Campaigns",
+        "description": "Scale attention with creative-led prospecting and conversion-focused retargeting on Meta.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/paid-advertisement/meta-ads"
+      },
+      {
+        "id": "linkedin-ads",
+        "name": "LinkedIn Ads",
+        "title": "B2B LinkedIn Lead Gen",
+        "description": "Precisely target decision-makers with tailored messaging, offers, and high-signal lead flows.",
+        "image": "/seo/services/technical.webp",
+        "link": "/paid-advertisement/linkedin-ads"
+      },
+      {
+        "id": "youtube-ads",
+        "name": "YouTube Ads",
+        "title": "YouTube Awareness & Direct Response",
+        "description": "Build demand and conversions with creative testing and audience layering on YouTube.",
+        "image": "/seo/services/on-page.webp",
+        "link": "/paid-advertisement/youtube-ads"
+      }
+    ],
+    "content": {
+      "heading": "Creative + Data = Scalable Paid Media",
+      "text1": "We combine rapid creative testing with structured account architecture for durable learnings and efficient spend.",
+      "text2": "Our measurement stack ensures clean attribution, so we can make confident decisions about budget allocation.",
+      "text3": "From search to social to video, we design funnels that convert—then compound that performance with iteration.",
+      "image": "hero.png",
+      "alt": "Paid advertising growth illustration"
+    },
+    "faq": {
+      "serviceName": "Paid Advertising",
+      "faqs": [
+        { "q": "How fast can we see results?", "a": "Paid channels can deliver results within days. We typically run a structured 2–4 week testing sprint to validate audiences, offers, and creatives." },
+        { "q": "Do you manage landing pages and tracking?", "a": "Yes. We audit pixels, events, and conversions, and we optimise landing pages and forms to improve conversion rates." },
+        { "q": "What budgets do you work with?", "a": "We work with a range of budgets. The key is matching budget to the channel mix and the competitiveness of your market." }
+      ]
+    }
+  },
+  "google-ads": {
+    "hero": { "heading": "Google Ads Management", "subheading": "Search, Shopping, and PMax campaigns engineered for profitable growth." },
+    "form": { "heading": "Scale with Google Ads", "content": "We structure accounts for clarity, control, and speed of iteration.", "subContent": "From query-level control to creative testing, we optimise for intent.", "cta": "Request a free audit of your Google Ads account.", "formHeading": "Free Google Ads Audit", "buttonText": "Get My Audit" },
+    "services": "Google Ads",
+    "serviceCards": [
+      {
+        "id": "google-ads",
+        "name": "Google Ads",
+        "title": "Google Search & Performance Max",
+        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability.",
+        "image": "/seo/services/seo.webp",
+        "link": "/paid-advertisement/google-ads"
+      },
+      {
+        "id": "meta-ads",
+        "name": "Meta Ads",
+        "title": "Meta (Facebook/Instagram) Campaigns",
+        "description": "Scale attention with creative-led prospecting and conversion-focused retargeting on Meta.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/paid-advertisement/meta-ads"
+      },
+      {
+        "id": "linkedin-ads",
+        "name": "LinkedIn Ads",
+        "title": "B2B LinkedIn Lead Gen",
+        "description": "Precisely target decision-makers with tailored messaging, offers, and high-signal lead flows.",
+        "image": "/seo/services/technical.webp",
+        "link": "/paid-advertisement/linkedin-ads"
+      },
+      {
+        "id": "youtube-ads",
+        "name": "YouTube Ads",
+        "title": "YouTube Awareness & Direct Response",
+        "description": "Build demand and conversions with creative testing and audience layering on YouTube.",
+        "image": "/seo/services/on-page.webp",
+        "link": "/paid-advertisement/youtube-ads"
+      }
+    ],
+    "content": { "heading": "Own high-intent moments", "text1": "Win the SERP with smart bidding + clean structure.", "text2": "Feed health and product data matter for Shopping.", "text3": "We track granular conversions to guide bids.", "image": "hero.png", "alt": "Google Ads" },
+    "faq": { "serviceName": "Google Ads" }
+  },
+  "meta-ads": {
+    "hero": { "heading": "Meta Ads (Facebook & Instagram)", "subheading": "Creative-first performance with disciplined testing and retargeting." },
+    "form": { "heading": "Scale with Meta", "content": "We test hooks, formats, and audiences to find durable winners.", "subContent": "We build full-funnel journeys that compound.", "cta": "Get a free Meta account & pixel audit.", "formHeading": "Free Meta Audit", "buttonText": "Get My Audit" },
+    "services": "Meta Ads",
+    "serviceCards": [
+      {
+        "id": "google-ads",
+        "name": "Google Ads",
+        "title": "Google Search & Performance Max",
+        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability.",
+        "image": "/seo/services/seo.webp",
+        "link": "/paid-advertisement/google-ads"
+      },
+      {
+        "id": "meta-ads",
+        "name": "Meta Ads",
+        "title": "Meta (Facebook/Instagram) Campaigns",
+        "description": "Scale attention with creative-led prospecting and conversion-focused retargeting on Meta.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/paid-advertisement/meta-ads"
+      },
+      {
+        "id": "linkedin-ads",
+        "name": "LinkedIn Ads",
+        "title": "B2B LinkedIn Lead Gen",
+        "description": "Precisely target decision-makers with tailored messaging, offers, and high-signal lead flows.",
+        "image": "/seo/services/technical.webp",
+        "link": "/paid-advertisement/linkedin-ads"
+      },
+      {
+        "id": "youtube-ads",
+        "name": "YouTube Ads",
+        "title": "YouTube Awareness & Direct Response",
+        "description": "Build demand and conversions with creative testing and audience layering on YouTube.",
+        "image": "/seo/services/on-page.webp",
+        "link": "/paid-advertisement/youtube-ads"
+      }
+    ],
+    "content": { "heading": "Creative drives outcomes", "text1": "We iterate fast on angles and formats.", "text2": "Signal quality and events shape performance.", "text3": "Retargeting converts attention into revenue.", "image": "hero.png", "alt": "Meta Ads" },
+    "faq": { "serviceName": "Meta Ads" }
+  },
+  "linkedin-ads": {
+    "hero": { "heading": "LinkedIn Ads for B2B", "subheading": "Reach ICP accounts with precise targeting, offers, and forms." },
+    "form": { "heading": "Pipeline-focused LinkedIn", "content": "We map journeys from ad to meeting booked.", "subContent": "Lead routing and enrichment included.", "cta": "Request a free LinkedIn audit.", "formHeading": "Free LinkedIn Audit", "buttonText": "Get My Audit" },
+    "services": "LinkedIn Ads",
+    "serviceCards": [
+      {
+        "id": "google-ads",
+        "name": "Google Ads",
+        "title": "Google Search & Performance Max",
+        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability.",
+        "image": "/seo/services/seo.webp",
+        "link": "/paid-advertisement/google-ads"
+      },
+      {
+        "id": "meta-ads",
+        "name": "Meta Ads",
+        "title": "Meta (Facebook/Instagram) Campaigns",
+        "description": "Scale attention with creative-led prospecting and conversion-focused retargeting on Meta.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/paid-advertisement/meta-ads"
+      },
+      {
+        "id": "linkedin-ads",
+        "name": "LinkedIn Ads",
+        "title": "B2B LinkedIn Lead Gen",
+        "description": "Precisely target decision-makers with tailored messaging, offers, and high-signal lead flows.",
+        "image": "/seo/services/technical.webp",
+        "link": "/paid-advertisement/linkedin-ads"
+      },
+      {
+        "id": "youtube-ads",
+        "name": "YouTube Ads",
+        "title": "YouTube Awareness & Direct Response",
+        "description": "Build demand and conversions with creative testing and audience layering on YouTube.",
+        "image": "/seo/services/on-page.webp",
+        "link": "/paid-advertisement/youtube-ads"
+      }
+    ],
+    "content": { "heading": "High-signal demand gen", "text1": "Target by title, skills, and company lists.", "text2": "Use content and offers to warm accounts.", "text3": "Optimise for downstream revenue, not only CPL.", "image": "hero.png", "alt": "LinkedIn Ads" },
+    "faq": { "serviceName": "LinkedIn Ads" }
+  },
+  "youtube-ads": {
+    "hero": { "heading": "YouTube Ads", "subheading": "Blend awareness and direct response with creative that converts." },
+    "form": { "heading": "Scale with YouTube", "content": "We test scripts, hooks, and audiences for efficient CPVs and CAC.", "subContent": "Creative iteration compounds performance.", "cta": "Request a free YouTube audit.", "formHeading": "Free YouTube Audit", "buttonText": "Get My Audit" },
+    "services": "YouTube Ads",
+    "serviceCards": [
+      {
+        "id": "google-ads",
+        "name": "Google Ads",
+        "title": "Google Search & Performance Max",
+        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability.",
+        "image": "/seo/services/seo.webp",
+        "link": "/paid-advertisement/google-ads"
+      },
+      {
+        "id": "meta-ads",
+        "name": "Meta Ads",
+        "title": "Meta (Facebook/Instagram) Campaigns",
+        "description": "Scale attention with creative-led prospecting and conversion-focused retargeting on Meta.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/paid-advertisement/meta-ads"
+      },
+      {
+        "id": "linkedin-ads",
+        "name": "LinkedIn Ads",
+        "title": "B2B LinkedIn Lead Gen",
+        "description": "Precisely target decision-makers with tailored messaging, offers, and high-signal lead flows.",
+        "image": "/seo/services/technical.webp",
+        "link": "/paid-advertisement/linkedin-ads"
+      },
+      {
+        "id": "youtube-ads",
+        "name": "YouTube Ads",
+        "title": "YouTube Awareness & Direct Response",
+        "description": "Build demand and conversions with creative testing and audience layering on YouTube.",
+        "image": "/seo/services/on-page.webp",
+        "link": "/paid-advertisement/youtube-ads"
+      }
+    ],
+    "content": { "heading": "Video that sells", "text1": "Creative frameworks accelerate testing.", "text2": "Audience layering and sequencing matter.", "text3": "Measure view-through and assisted conversions.", "image": "hero.png", "alt": "YouTube Ads" },
+    "faq": { "serviceName": "YouTube Ads" }
+  }
+}
+
+

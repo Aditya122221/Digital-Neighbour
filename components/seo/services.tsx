@@ -17,6 +17,7 @@ interface Service {
 interface SeoServicesProps {
   data?: string;
   serviceCards?: Service[];
+  basePath?: string;
 }
 
 const defaultServices: Service[] = [
@@ -76,7 +77,7 @@ const defaultServices: Service[] = [
   },
 ];
 
-export default function SeoServices({ data, serviceCards }: SeoServicesProps) {
+export default function SeoServices({ data, serviceCards, basePath = "/services" }: SeoServicesProps) {
   const services = serviceCards || defaultServices;
   const [activeTab, setActiveTab] = useState(services[0]?.id || "on-page-seo");
 
@@ -155,7 +156,7 @@ export default function SeoServices({ data, serviceCards }: SeoServicesProps) {
                 <div>
                   <CustomButton
                     text="Learn More"
-                    href={activeService.link || "#contact"}
+                    href={activeService.link || `${basePath}/${activeService.id}`}
                     textColor="black"
                     borderColor="black"
                   />

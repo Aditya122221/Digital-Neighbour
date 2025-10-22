@@ -555,6 +555,13 @@ const Navbar: React.FC = () => {
                                   'e-commerce-seo',
                                   'ai-seo',
                                 ]);
+                                const paidAdsSlugs = new Set([
+                                  'google-ads',
+                                  'meta-ads',
+                                  'linkedin-ads',
+                                  'youtube-ads',
+                                  'paid-advertisement',
+                                ]);
                                 if (seoSlugs.has(name)) {
                                   // Map naming differences
                                   const slugMap: Record<string, string> = {
@@ -563,6 +570,9 @@ const Navbar: React.FC = () => {
                                   };
                                   const slug = slugMap[name] || name;
                                   return `/seo/${slug}`;
+                                }
+                                if (paidAdsSlugs.has(name)) {
+                                  return `/paid-advertisement/${name}`;
                                 }
                                 return `/services/${name}`;
                               })()}
@@ -699,6 +709,13 @@ const Navbar: React.FC = () => {
                                     'e-commerce-seo',
                                     'ai-seo',
                                   ]);
+                                  const paidAdsSlugs = new Set([
+                                    'google-ads',
+                                    'meta-ads',
+                                    'linkedin-ads',
+                                    'youtube-ads',
+                                    'paid-advertisement',
+                                  ]);
                                   if (seoSlugs.has(name)) {
                                     // Map naming differences
                                     const slugMap: Record<string, string> = {
@@ -707,6 +724,9 @@ const Navbar: React.FC = () => {
                                     };
                                     const slug = slugMap[name] || name;
                                     return `/seo/${slug}`;
+                                  }
+                                  if (paidAdsSlugs.has(name)) {
+                                    return `/paid-advertisement/${name}`;
                                   }
                                   return `/services/${name}`;
                                 })()}
