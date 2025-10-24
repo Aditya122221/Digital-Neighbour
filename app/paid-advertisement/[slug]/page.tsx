@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import paidAdsData from "@/data/paid-ads.json";
 import PaidAdsHero from "@/components/paid-ads/hero";
+import Strategic from "@/components/paid-ads/strategic";
 import SeoContent from "@/components/seo/content";
 import SeoServices from "@/components/seo/services";
 import SeoForm from "@/components/seo/form";
@@ -13,8 +14,6 @@ import Apart from "@/components/homepage/apart";
 import OtherServices from "@/components/seo/otherservices";
 import SeoFaq from "@/components/seo/faq";
 import CaseStudy from "@/components/homepage/casestudy";
-import Blogs from "@/components/homepage/blogs";
-import Testimonials from "@/components/homepage/testimonials";
 
 const allowedSlugs = [
   "paid-advertisement",
@@ -23,6 +22,19 @@ const allowedSlugs = [
   "google-shopping",
   "paid-social",
   "youtube-ads",
+  "meta-ads",
+  "linkedin-ads",
+  "google-display-ads",
+  "google-shopping-ads",
+  "pay-per-click",
+  "bing-ads",
+  "facebook-ads",
+  "instagram-ads",
+  "linkedin-ads-management",
+  "tiktok-ads",
+  "snapchat-ads",
+  "twitter-x-ads",
+  "pinterest-ads",
 ];
 
 export default function PaidAdsSlugPage({ params }: { params: { slug: string } }) {
@@ -30,7 +42,7 @@ export default function PaidAdsSlugPage({ params }: { params: { slug: string } }
     notFound();
   }
 
-  const currentData = paidAdsData[params.slug as keyof typeof paidAdsData];
+  const currentData = paidAdsData[params.slug as keyof typeof paidAdsData] as any;
 
   return (
     <main>
@@ -48,8 +60,7 @@ export default function PaidAdsSlugPage({ params }: { params: { slug: string } }
       <OtherServices />
       <CaseStudy />
       <SeoFaq data={currentData?.faq} />
-      <Blogs />
-      <Testimonials />
+      <Strategic />
       <Footer />
     </main>
   );

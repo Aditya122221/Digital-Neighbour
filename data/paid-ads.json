@@ -58,9 +58,11 @@
     "faq": {
       "serviceName": "Paid Advertising",
       "faqs": [
-        { "q": "How fast can we see results?", "a": "Paid channels can deliver results within days. We typically run a structured 2–4 week testing sprint to validate audiences, offers, and creatives. Our rapid testing methodology allows us to identify winning strategies quickly, optimize campaigns for maximum performance, and scale successful approaches across multiple channels and audiences." },
-        { "q": "Do you manage landing pages and tracking?", "a": "Yes. We audit pixels, events, and conversions, and we optimise landing pages and forms to improve conversion rates. Our comprehensive approach includes landing page design optimization, conversion tracking setup, A/B testing of landing page elements, and continuous optimization based on performance data to maximize your conversion rates." },
-        { "q": "What budgets do you work with?", "a": "We work with a range of budgets. The key is matching budget to the channel mix and the competitiveness of your market. Our flexible approach allows us to work with businesses of all sizes, from startups with limited budgets to enterprise companies with substantial advertising spend, ensuring optimal budget allocation across all channels." }
+        { "q": "How quickly can I see results from paid advertising?", "a": "Paid advertising can deliver immediate results within days of launch. We typically run structured 2-4 week testing sprints to validate audiences, offers, and creatives. Our rapid testing methodology allows us to identify winning strategies quickly and scale successful approaches across multiple channels." },
+        { "q": "Do you manage landing pages and conversion tracking?", "a": "Yes, we provide comprehensive landing page and tracking management. Our team audits pixels, events, and conversions, optimizes landing pages and forms to improve conversion rates, and implements sophisticated tracking systems to ensure accurate measurement of your advertising performance." },
+        { "q": "What advertising budgets do you work with?", "a": "We work with businesses of all sizes, from startups with limited budgets to enterprise companies with substantial advertising spend. The key is matching budget to the channel mix and market competitiveness. Our flexible approach ensures optimal budget allocation across all paid advertising channels." },
+        { "q": "Which advertising platforms do you specialize in?", "a": "We specialize in Google Ads (Search, Shopping, Performance Max), Meta Ads (Facebook/Instagram), LinkedIn Ads for B2B, YouTube Ads, and comprehensive remarketing campaigns. Our expertise spans the entire paid advertising ecosystem to maximize your reach and ROI." },
+        { "q": "How do you measure advertising success?", "a": "We implement comprehensive tracking systems that measure ROI, conversion rates, cost per acquisition, and customer lifetime value. Our detailed reporting includes attribution modeling, conversion tracking, and performance analysis to ensure accurate measurement of your advertising impact and return on investment." }
       ]
     }
   },
@@ -102,8 +104,17 @@
         "link": "/paid-advertisement/youtube-ads"
       }
     ],
-    "content": { "heading": "Own high-intent moments", "text1": "Win the SERP with smart bidding + clean structure. Our Google Ads expertise includes advanced bidding strategy implementation, account structure optimization, keyword research and expansion, and ongoing campaign management to ensure maximum visibility and conversion rates for high-intent search queries.", "text2": "Feed health and product data matter for Shopping. We specialize in Google Shopping campaign optimization, including product feed management, data quality improvement, shopping campaign structure optimization, and performance monitoring to maximize your e-commerce advertising success.", "text3": "We track granular conversions to guide bids. Our comprehensive conversion tracking setup includes detailed attribution modeling, conversion value optimization, and data-driven bidding strategies that ensure every dollar spent delivers maximum return on investment.", "image": "hero.png", "alt": "Google Ads" },
-    "faq": { "serviceName": "Google Ads" }
+    "content": { "heading": "Own high-intent moments", "text1": "Win the SERP with smart bidding + clean structure. Our Google Ads expertise includes advanced bidding strategy implementation, account structure optimization, keyword research and expansion, and ongoing campaign management to ensure maximum visibility and conversion rates for high-intent search queries.", "text2": "Feed health and product data matter for Shopping. We specialize in Google Shopping campaign optimization, including product feed management, data quality improvement, shopping campaign structure optimization, and performance monitoring to maximize your e-commerce advertising success.", "text3": "We track granular conversions to guide bids. Our comprehensive conversion tracking setup includes detailed attribution modeling, conversion value optimization, and data-driven bidding strategies that ensure every dollar spent delivers maximum return on investment.", "image": "seo.png", "alt": "Google Ads" },
+    "faq": { 
+      "serviceName": "Google Ads",
+      "faqs": [
+        { "q": "How quickly can I see results from Google Ads?", "a": "Google Ads can deliver immediate results within hours of campaign launch. Search campaigns typically show results within 24-48 hours, while Shopping and Performance Max campaigns may take 3-7 days to optimize. We implement rapid testing strategies to identify winning keywords and ad copy quickly." },
+        { "q": "What's the difference between Search, Shopping, and Performance Max campaigns?", "a": "Search campaigns target high-intent keywords with text ads, Shopping campaigns showcase products with visual ads, and Performance Max combines all Google channels (Search, Display, YouTube, Gmail) for maximum reach. We optimize each campaign type for your specific business goals and audience." },
+        { "q": "How do you optimize Google Ads for better performance?", "a": "We optimize through keyword research and expansion, negative keyword management, ad copy testing, landing page optimization, bidding strategy refinement, and conversion tracking setup. Our systematic approach ensures continuous improvement of your Google Ads performance and ROI." },
+        { "q": "What's the minimum budget for Google Ads?", "a": "We work with budgets starting from $500/month for small businesses. The key is ensuring sufficient budget for meaningful data collection and optimization. We recommend budgets that allow for proper testing and scaling based on your industry and competition level." },
+        { "q": "Do you manage Google Shopping campaigns?", "a": "Yes, we specialize in Google Shopping campaign management including product feed optimization, shopping campaign structure, bidding strategies, and performance monitoring. We ensure your products appear prominently in Google Shopping results and drive qualified traffic to your e-commerce store." }
+      ]
+    }
   },
   "meta-ads": {
     "hero": { "heading": "Meta Ads (Facebook & Instagram)", "subheading": "Dominate social media advertising and drive explosive engagement with our proven Meta advertising strategies that capture attention, boost brand awareness, and convert followers into customers across Facebook and Instagram." },
@@ -144,7 +155,16 @@
       }
     ],
     "content": { "heading": "Creative drives outcomes", "text1": "We iterate fast on angles and formats. Our Meta advertising approach includes rapid creative testing, format experimentation, angle optimization, and performance analysis to identify the most engaging and effective creative elements that drive audience engagement and conversion.", "text2": "Signal quality and events shape performance. We implement sophisticated audience targeting strategies, event tracking optimization, and signal quality improvement to ensure your Meta campaigns reach the most relevant audiences and generate high-quality engagement and conversions.", "text3": "Retargeting converts attention into revenue. Our retargeting strategies include sophisticated audience segmentation, personalized messaging, and conversion-focused campaigns that re-engage previous visitors and convert them into customers, maximizing your return on advertising investment.", "image": "hero.png", "alt": "Meta Ads" },
-    "faq": { "serviceName": "Meta Ads" }
+    "faq": { 
+      "serviceName": "Meta Ads",
+      "faqs": [
+        { "q": "How quickly can I see results from Meta Ads?", "a": "Meta Ads can deliver results within 24-48 hours of campaign launch. We typically see initial engagement and traffic within the first day, with conversion optimization occurring over 3-7 days. Our rapid creative testing approach helps identify winning ad formats and audiences quickly." },
+        { "q": "What's the difference between Facebook and Instagram advertising?", "a": "Facebook ads reach a broader demographic with longer-form content, while Instagram ads excel with visual storytelling and younger audiences. We create platform-specific campaigns optimized for each audience's behavior and preferences to maximize engagement and conversions." },
+        { "q": "How do you handle iOS 14.5+ tracking limitations?", "a": "We implement advanced tracking solutions including Conversions API, enhanced matching, and first-party data collection. Our team optimizes for signal quality, uses aggregated event measurement, and implements alternative attribution methods to maintain campaign performance despite tracking limitations." },
+        { "q": "What types of creative content do you create?", "a": "We create diverse creative content including static images, carousel ads, video ads, Stories ads, and Reels ads. Our creative testing includes different formats, hooks, angles, and calls-to-action to identify the most engaging content that drives conversions for your brand." },
+        { "q": "How do you optimize Meta Ads for conversions?", "a": "We optimize through audience targeting refinement, creative testing and iteration, landing page optimization, conversion tracking setup, and bidding strategy adjustment. Our systematic approach ensures continuous improvement of your Meta Ads performance and return on ad spend." }
+      ]
+    }
   },
   "linkedin-ads": {
     "hero": { "heading": "LinkedIn Ads for B2B", "subheading": "Dominate B2B lead generation and capture high-value prospects with our proven LinkedIn advertising strategies that target decision-makers, boost professional engagement, and convert connections into qualified business opportunities." },
@@ -185,7 +205,16 @@
       }
     ],
     "content": { "heading": "High-signal demand gen", "text1": "Target by title, skills, and company lists. Our LinkedIn advertising expertise includes sophisticated professional audience targeting, job title segmentation, skill-based targeting, and company list management to ensure your campaigns reach the most relevant B2B decision-makers and influencers.", "text2": "Use content and offers to warm accounts. We develop compelling content strategies, lead magnets, and professional offers that resonate with your target audience, building trust and engagement before conversion to maximize lead quality and sales success.", "text3": "Optimise for downstream revenue, not only CPL. Our LinkedIn advertising approach focuses on lead quality optimization, sales pipeline development, and revenue attribution to ensure your campaigns generate leads that convert into actual business value and long-term customer relationships.", "image": "hero.png", "alt": "LinkedIn Ads" },
-    "faq": { "serviceName": "LinkedIn Ads" }
+    "faq": { 
+      "serviceName": "LinkedIn Ads",
+      "faqs": [
+        { "q": "How quickly can I see results from LinkedIn Ads?", "a": "LinkedIn Ads typically show initial results within 3-5 days, with lead generation optimization occurring over 1-2 weeks. B2B sales cycles are longer, so we focus on lead quality and pipeline development rather than immediate conversions. Our systematic approach ensures sustainable lead generation." },
+        { "q": "What's the difference between LinkedIn Sponsored Content and Message Ads?", "a": "Sponsored Content appears in LinkedIn feeds and drives awareness/engagement, while Message Ads send direct messages to prospects' inboxes for higher conversion rates. We use both formats strategically based on your campaign objectives and target audience preferences." },
+        { "q": "How do you target decision-makers on LinkedIn?", "a": "We use LinkedIn's advanced targeting including job titles, seniority levels, company size, industry, skills, and interests. Our account-based marketing approach combines company lists with lookalike audiences to reach decision-makers and influencers in your target organizations." },
+        { "q": "What's the typical cost per lead for LinkedIn Ads?", "a": "LinkedIn Ads typically cost $50-200 per lead depending on industry, targeting specificity, and offer quality. B2B leads are more expensive but often higher quality than other platforms. We optimize for cost per qualified lead and downstream revenue rather than just cost per lead." },
+        { "q": "Do you integrate LinkedIn Ads with CRM systems?", "a": "Yes, we integrate LinkedIn Ads with major CRM systems including Salesforce, HubSpot, and Pipedrive. Our integration includes lead scoring, automated follow-up sequences, and attribution tracking to ensure seamless lead management and maximize conversion rates." }
+      ]
+    }
   },
   "youtube-ads": {
     "hero": { "heading": "YouTube Ads", "subheading": "Dominate video advertising and drive explosive brand growth with our proven YouTube advertising strategies that capture viewers' attention, boost engagement, and convert audiences into customers through compelling video content." },
@@ -225,8 +254,17 @@
         "link": "/paid-advertisement/youtube-ads"
       }
     ],
-    "content": { "heading": "Video that sells", "text1": "Creative frameworks accelerate testing. Our YouTube advertising approach includes systematic video creative testing, storytelling frameworks, hook optimization, and performance analysis to identify the most engaging and effective video content that drives audience engagement and conversion.", "text2": "Audience layering and sequencing matter. We implement sophisticated audience targeting strategies, audience layering techniques, and campaign sequencing to ensure your YouTube ads reach the right viewers at the right time in their customer journey, maximizing engagement and conversion rates.", "text3": "Measure view-through and assisted conversions. Our YouTube advertising measurement includes comprehensive conversion tracking, view-through attribution, assisted conversion analysis, and ROI optimization to ensure accurate measurement of your video advertising impact and return on investment.", "image": "hero.png", "alt": "YouTube Ads" },
-    "faq": { "serviceName": "YouTube Ads" }
+    "content": { "heading": "Video that sells", "text1": "Creative frameworks accelerate testing. Our YouTube advertising approach includes systematic video creative testing, storytelling frameworks, hook optimization, and performance analysis to identify the most engaging and effective video content that drives audience engagement and conversion.", "text2": "Audience layering and sequencing matter. We implement sophisticated audience targeting strategies, audience layering techniques, and campaign sequencing to ensure your YouTube ads reach the right viewers at the right time in their customer journey, maximizing engagement and conversion rates.", "text3": "Measure view-through and assisted conversions. Our YouTube advertising measurement includes comprehensive conversion tracking, view-through attribution, assisted conversion analysis, and ROI optimization to ensure accurate measurement of your video advertising impact and return on investment.", "image": "seo.png", "alt": "YouTube Ads" },
+    "faq": { 
+      "serviceName": "YouTube Ads",
+      "faqs": [
+        { "q": "How quickly can I see results from YouTube Ads?", "a": "YouTube Ads can show initial results within 24-48 hours, with optimization occurring over 1-2 weeks. Video campaigns require more time for creative testing and audience learning. We implement rapid video testing strategies to identify winning content and targeting approaches quickly." },
+        { "q": "What types of YouTube ad formats do you use?", "a": "We use multiple YouTube ad formats including TrueView in-stream ads, bumper ads, discovery ads, and YouTube Shorts ads. Each format serves different purposes - in-stream for awareness, bumper for reach, discovery for consideration, and Shorts for engagement with younger audiences." },
+        { "q": "How do you create effective YouTube ad content?", "a": "We create compelling video content with strong hooks, clear value propositions, and compelling calls-to-action. Our video production includes script development, visual storytelling, and optimization for mobile viewing. We test different creative approaches to identify what resonates with your target audience." },
+        { "q": "What's the difference between awareness and conversion campaigns?", "a": "Awareness campaigns focus on reach, views, and brand recognition, while conversion campaigns optimize for clicks, website visits, and sales. We use awareness campaigns to build brand recognition and conversion campaigns to drive immediate sales, often running both simultaneously for full-funnel coverage." },
+        { "q": "How do you measure YouTube ad success?", "a": "We measure success through view-through conversions, click-through rates, cost per view, cost per acquisition, and brand lift studies. Our comprehensive tracking includes both direct response metrics and brand awareness measurement to ensure accurate ROI assessment of your YouTube advertising investment." }
+      ]
+    }
   },
   "google-remarketing": {
     "hero": { "heading": "Google Remarketing", "subheading": "Dominate remarketing campaigns and recapture lost customers with our proven Google remarketing strategies that re-engage visitors, boost conversion rates, and maximize ROI from your most valuable prospects across Google's entire advertising network." },
@@ -266,8 +304,17 @@
         "link": "/paid-advertisement/paid-social"
       }
     ],
-    "content": { "heading": "Re-engage with precision", "text1": "Create custom audiences from website visitors. Our Google remarketing expertise includes sophisticated audience segmentation, dynamic audience creation, and cross-platform audience management to ensure your remarketing campaigns reach the most relevant and valuable prospects across Google's entire advertising ecosystem.", "text2": "Test different creative approaches for retargeting. We implement comprehensive creative testing strategies, personalized messaging, and format optimization to ensure your remarketing campaigns deliver compelling and relevant content that drives engagement and conversion from previous website visitors.", "text3": "Optimise for conversions with smart bidding. Our remarketing optimization includes advanced bidding strategies, conversion tracking setup, and performance analysis to ensure your remarketing campaigns deliver maximum ROI and convert your most valuable prospects into customers.", "image": "hero.png", "alt": "Google Remarketing" },
-    "faq": { "serviceName": "Google Remarketing" }
+    "content": { "heading": "Re-engage with precision", "text1": "Create custom audiences from website visitors. Our Google remarketing expertise includes sophisticated audience segmentation, dynamic audience creation, and cross-platform audience management to ensure your remarketing campaigns reach the most relevant and valuable prospects across Google's entire advertising ecosystem.", "text2": "Test different creative approaches for retargeting. We implement comprehensive creative testing strategies, personalized messaging, and format optimization to ensure your remarketing campaigns deliver compelling and relevant content that drives engagement and conversion from previous website visitors.", "text3": "Optimise for conversions with smart bidding. Our remarketing optimization includes advanced bidding strategies, conversion tracking setup, and performance analysis to ensure your remarketing campaigns deliver maximum ROI and convert your most valuable prospects into customers.", "image": "seo.png", "alt": "Google Remarketing" },
+    "faq": { 
+      "serviceName": "Google Remarketing",
+      "faqs": [
+        { "q": "How quickly can I see results from Google Remarketing?", "a": "Google Remarketing can show results within 24-48 hours as it targets users who have already shown interest in your brand. Since these users are warmer prospects, conversion rates are typically higher and faster than prospecting campaigns. We optimize remarketing campaigns for immediate impact." },
+        { "q": "What's the difference between Display and Search Remarketing?", "a": "Display Remarketing shows visual ads to previous website visitors across Google's display network, while Search Remarketing shows text ads to previous visitors when they search for relevant keywords. We use both strategies to maximize re-engagement across different touchpoints in the customer journey." },
+        { "q": "How do you create effective remarketing audiences?", "a": "We create sophisticated audience segments based on website behavior, page views, time on site, and conversion actions. Our audience segmentation includes cart abandoners, product viewers, blog readers, and high-value customers to deliver personalized messaging that resonates with each audience segment." },
+        { "q": "What's the typical conversion rate for remarketing campaigns?", "a": "Remarketing campaigns typically achieve 2-5x higher conversion rates than prospecting campaigns since they target users who have already shown interest. E-commerce remarketing often sees 3-8% conversion rates, while B2B remarketing focuses on lead quality and pipeline development." },
+        { "q": "How do you prevent remarketing fatigue?", "a": "We prevent remarketing fatigue through frequency capping, audience rotation, creative refresh schedules, and exclusion lists. Our approach includes testing different creative variations, adjusting audience sizes, and implementing smart bidding strategies to maintain campaign performance over time." }
+      ]
+    }
   },
   "google-shopping": {
     "hero": { "heading": "Google Shopping Ads", "subheading": "Dominate product search results and drive explosive e-commerce sales with our proven Google Shopping strategies that showcase your products, boost visibility, and convert shoppers into buyers across Google's shopping network." },
@@ -307,8 +354,17 @@
         "link": "/paid-advertisement/paid-social"
       }
     ],
-    "content": { "heading": "Visual product advertising", "text1": "Optimise product feeds for maximum visibility. Our Google Shopping expertise includes comprehensive product feed optimization, data quality improvement, category enhancement, and feed management to ensure your products appear prominently in Google Shopping results and drive maximum qualified traffic to your e-commerce store.", "text2": "Strategic bidding for shopping campaigns. We implement advanced bidding strategies, product-level optimization, and performance monitoring to ensure your Google Shopping campaigns deliver maximum ROI and drive qualified traffic that converts into sales for your e-commerce business.", "text3": "Track performance and optimise for sales. Our Google Shopping optimization includes comprehensive conversion tracking, sales attribution analysis, and performance optimization to ensure accurate measurement of your shopping campaign impact and continuous improvement of your e-commerce advertising ROI.", "image": "hero.png", "alt": "Google Shopping" },
-    "faq": { "serviceName": "Google Shopping" }
+    "content": { "heading": "Visual product advertising", "text1": "Optimise product feeds for maximum visibility. Our Google Shopping expertise includes comprehensive product feed optimization, data quality improvement, category enhancement, and feed management to ensure your products appear prominently in Google Shopping results and drive maximum qualified traffic to your e-commerce store.", "text2": "Strategic bidding for shopping campaigns. We implement advanced bidding strategies, product-level optimization, and performance monitoring to ensure your Google Shopping campaigns deliver maximum ROI and drive qualified traffic that converts into sales for your e-commerce business.", "text3": "Track performance and optimise for sales. Our Google Shopping optimization includes comprehensive conversion tracking, sales attribution analysis, and performance optimization to ensure accurate measurement of your shopping campaign impact and continuous improvement of your e-commerce advertising ROI.", "image": "seo.png", "alt": "Google Shopping" },
+    "faq": { 
+      "serviceName": "Google Shopping",
+      "faqs": [
+        { "q": "How quickly can I see results from Google Shopping Ads?", "a": "Google Shopping Ads can show results within 24-48 hours, with optimization occurring over 1-2 weeks. Product feed approval typically takes 24-72 hours. We implement rapid product feed optimization and bidding strategies to maximize visibility and sales quickly." },
+        { "q": "What's the difference between Shopping and Search campaigns?", "a": "Shopping campaigns showcase products with images, prices, and reviews in Google Shopping results, while Search campaigns show text ads for keywords. Shopping campaigns are visual and product-focused, making them ideal for e-commerce businesses looking to drive product sales and qualified traffic." },
+        { "q": "How do you optimize product feeds for better performance?", "a": "We optimize product feeds through enhanced product data, improved titles and descriptions, better categorization, high-quality images, and accurate pricing information. Our feed optimization includes product data enhancement, category mapping, and performance monitoring to maximize product visibility and click-through rates." },
+        { "q": "What's the typical cost per click for Google Shopping?", "a": "Google Shopping CPCs vary by industry and competition, typically ranging from $0.50-$5.00 per click. E-commerce categories like electronics and fashion tend to have higher CPCs. We optimize for cost per acquisition and return on ad spend rather than just cost per click to ensure profitable campaigns." },
+        { "q": "Do you manage Google Shopping for all product categories?", "a": "Yes, we manage Google Shopping campaigns across all product categories including electronics, fashion, home goods, beauty, and B2B products. Our expertise includes category-specific optimization strategies, seasonal campaign management, and inventory-based bidding to maximize sales across your entire product catalog." }
+      ]
+    }
   },
   "paid-social": {
     "hero": { "heading": "Paid Social Media", "subheading": "Dominate social media advertising and drive explosive brand growth with our proven paid social strategies that capture attention, boost engagement, and convert followers into customers across Facebook, Instagram, LinkedIn, and TikTok." },
@@ -348,8 +404,257 @@
         "link": "/paid-advertisement/paid-social"
       }
     ],
-    "content": { "heading": "Social media that converts", "text1": "Multi-platform social media advertising. Our comprehensive paid social media expertise includes platform-specific campaign development, cross-platform optimization, and unified reporting across Facebook, Instagram, LinkedIn, TikTok, and other emerging social platforms to maximize your social media advertising reach and ROI.", "text2": "Creative testing and audience targeting. We implement sophisticated creative testing frameworks, audience research and segmentation, and performance optimization techniques to ensure your social media campaigns reach the right audiences with the most engaging content, driving maximum engagement and conversion rates across all platforms.", "text3": "Track performance across all social channels. Our social media advertising measurement includes comprehensive cross-platform tracking, conversion attribution, and performance analysis to ensure accurate measurement of your social media advertising impact and continuous optimization of your social media ROI.", "image": "hero.png", "alt": "Paid Social" },
-    "faq": { "serviceName": "Paid Social" }
+    "content": { "heading": "Social media that converts", "text1": "Multi-platform social media advertising. Our comprehensive paid social media expertise includes platform-specific campaign development, cross-platform optimization, and unified reporting across Facebook, Instagram, LinkedIn, TikTok, and other emerging social platforms to maximize your social media advertising reach and ROI.", "text2": "Creative testing and audience targeting. We implement sophisticated creative testing frameworks, audience research and segmentation, and performance optimization techniques to ensure your social media campaigns reach the right audiences with the most engaging content, driving maximum engagement and conversion rates across all platforms.", "text3": "Track performance across all social channels. Our social media advertising measurement includes comprehensive cross-platform tracking, conversion attribution, and performance analysis to ensure accurate measurement of your social media advertising impact and continuous optimization of your social media ROI.", "image": "seo.png", "alt": "Paid Social" },
+    "faq": { 
+      "serviceName": "Paid Social",
+      "faqs": [
+        { "q": "How quickly can I see results from Paid Social Media?", "a": "Paid social media can show results within 24-48 hours, with optimization occurring over 1-2 weeks. Different platforms have different learning periods - Facebook/Instagram optimize quickly, while LinkedIn and TikTok may take longer. We implement platform-specific strategies for rapid optimization." },
+        { "q": "Which social media platforms do you advertise on?", "a": "We advertise across all major social platforms including Facebook, Instagram, LinkedIn, TikTok, Twitter, Pinterest, and Snapchat. Our multi-platform approach ensures maximum reach and engagement across your target audience's preferred social media channels." },
+        { "q": "How do you create platform-specific content?", "a": "We create platform-specific content tailored to each audience's behavior and preferences. Instagram focuses on visual storytelling, LinkedIn emphasizes professional value, TikTok prioritizes entertainment, and Facebook balances both. Our creative team develops content optimized for each platform's unique characteristics." },
+        { "q": "What's the difference between organic and paid social media?", "a": "Organic social media relies on unpaid content to reach followers, while paid social media uses advertising to reach broader audiences beyond your followers. Paid social provides guaranteed reach, precise targeting, and measurable ROI, while organic builds community and brand loyalty over time." },
+        { "q": "How do you measure social media advertising success?", "a": "We measure success through platform-specific metrics including reach, engagement rates, click-through rates, cost per acquisition, and return on ad spend. Our comprehensive tracking includes both direct response metrics and brand awareness measurement to ensure accurate ROI assessment across all social platforms." }
+      ]
+    }
+  },
+  "instagram-ads": {
+    "hero": { "heading": "Instagram Ads", "subheading": "Dominate Instagram advertising and drive explosive brand growth with our proven Instagram advertising strategies that capture attention, boost engagement, and convert followers into customers through compelling visual content." },
+    "form": { "heading": "Scale with Instagram", "content": "We create engaging visual content and Stories ads that drive conversions. Our Instagram advertising expertise includes comprehensive visual creative development, Stories advertising, Reels campaigns, and performance optimization to maximize engagement and conversion rates on Instagram.", "subContent": "Visual storytelling that converts. We develop compelling visual narratives, user-generated content strategies, and interactive ad formats that resonate with Instagram's visual-first audience, driving both brand awareness and direct response conversions.", "cta": "Request a free Instagram audit. Our detailed audit covers account optimization, visual creative performance, audience targeting effectiveness, and conversion tracking to identify opportunities for improving your Instagram advertising ROI.", "formHeading": "Free Instagram Audit", "buttonText": "Get My Audit" },
+    "services": "Instagram Ads",
+    "serviceCards": [
+      {
+        "id": "google-ads",
+        "name": "Google Ads",
+        "title": "Google Search & Performance Max",
+        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability.",
+        "image": "/seo/services/seo.webp",
+        "link": "/paid-advertisement/google-ads"
+      },
+      {
+        "id": "meta-ads",
+        "name": "Meta Ads",
+        "title": "Meta (Facebook/Instagram) Campaigns",
+        "description": "Scale attention with creative-led prospecting and conversion-focused retargeting on Meta.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/paid-advertisement/meta-ads"
+      },
+      {
+        "id": "linkedin-ads",
+        "name": "LinkedIn Ads",
+        "title": "B2B LinkedIn Lead Gen",
+        "description": "Precisely target decision-makers with tailored messaging, offers, and high-signal lead flows.",
+        "image": "/seo/services/technical.webp",
+        "link": "/paid-advertisement/linkedin-ads"
+      },
+      {
+        "id": "youtube-ads",
+        "name": "YouTube Ads",
+        "title": "YouTube Awareness & Direct Response",
+        "description": "Build demand and conversions with creative testing and audience layering on YouTube.",
+        "image": "/seo/services/on-page.webp",
+        "link": "/paid-advertisement/youtube-ads"
+      }
+    ],
+    "content": { "heading": "Visual content that converts", "text1": "Stories and Reels drive engagement. Our Instagram advertising approach includes comprehensive Stories advertising, Reels campaign development, and visual content optimization to maximize engagement and conversion rates on Instagram's most engaging formats.", "text2": "Visual storytelling resonates with audiences. We create compelling visual narratives, user-generated content strategies, and interactive ad formats that capture attention and drive both brand awareness and direct response conversions on Instagram.", "text3": "Track visual performance and optimize for conversions. Our Instagram advertising measurement includes comprehensive visual engagement tracking, conversion attribution, and performance analysis to ensure accurate measurement of your Instagram advertising impact and ROI.", "image": "hero.png", "alt": "Instagram Ads" },
+    "faq": { 
+      "serviceName": "Instagram Ads",
+      "faqs": [
+        { "q": "How quickly can I see results from Instagram Ads?", "a": "Instagram Ads can show results within 24-48 hours, with optimization occurring over 1-2 weeks. Visual content typically engages quickly, and we implement rapid creative testing to identify winning visual formats and audiences." },
+        { "q": "What's the difference between Instagram Feed and Stories ads?", "a": "Feed ads appear in users' main Instagram feed and are great for brand awareness, while Stories ads appear between user Stories and are perfect for driving immediate action. We use both formats strategically based on campaign objectives." },
+        { "q": "How do you create effective Instagram ad content?", "a": "We create visually compelling content including high-quality images, engaging videos, Stories ads, and Reels content. Our creative approach focuses on authentic storytelling, user-generated content, and platform-native formats that resonate with Instagram audiences." },
+        { "q": "What's the typical cost per engagement for Instagram Ads?", "a": "Instagram Ads typically cost $0.50-$3.00 per engagement depending on targeting and creative quality. Visual content often achieves higher engagement rates than other platforms, making Instagram cost-effective for brand awareness and engagement campaigns." },
+        { "q": "How do you optimize Instagram Ads for conversions?", "a": "We optimize through visual creative testing, audience targeting refinement, landing page optimization, and conversion tracking setup. Our approach includes testing different visual formats, hooks, and calls-to-action to maximize conversion rates on Instagram." }
+      ]
+    }
+  },
+  "facebook-ads": {
+    "hero": { "heading": "Facebook Ads", "subheading": "Dominate Facebook advertising and drive explosive brand growth with our proven Facebook advertising strategies that capture attention, boost engagement, and convert followers into customers through targeted social media campaigns." },
+    "form": { "heading": "Scale with Facebook", "content": "We create targeted Facebook campaigns that drive conversions. Our Facebook advertising expertise includes comprehensive campaign development, audience targeting optimization, creative testing, and performance analysis to maximize engagement and conversion rates on Facebook.", "subContent": "Social engagement that converts. We develop compelling social content, community engagement strategies, and interactive ad formats that resonate with Facebook's diverse audience, driving both brand awareness and direct response conversions.", "cta": "Request a free Facebook audit. Our detailed audit covers account optimization, creative performance, audience targeting effectiveness, and conversion tracking to identify opportunities for improving your Facebook advertising ROI.", "formHeading": "Free Facebook Audit", "buttonText": "Get My Audit" },
+    "services": "Facebook Ads",
+    "serviceCards": [
+      {
+        "id": "google-ads",
+        "name": "Google Ads",
+        "title": "Google Search & Performance Max",
+        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability.",
+        "image": "/seo/services/seo.webp",
+        "link": "/paid-advertisement/google-ads"
+      },
+      {
+        "id": "meta-ads",
+        "name": "Meta Ads",
+        "title": "Meta (Facebook/Instagram) Campaigns",
+        "description": "Scale attention with creative-led prospecting and conversion-focused retargeting on Meta.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/paid-advertisement/meta-ads"
+      },
+      {
+        "id": "linkedin-ads",
+        "name": "LinkedIn Ads",
+        "title": "B2B LinkedIn Lead Gen",
+        "description": "Precisely target decision-makers with tailored messaging, offers, and high-signal lead flows.",
+        "image": "/seo/services/technical.webp",
+        "link": "/paid-advertisement/linkedin-ads"
+      },
+      {
+        "id": "youtube-ads",
+        "name": "YouTube Ads",
+        "title": "YouTube Awareness & Direct Response",
+        "description": "Build demand and conversions with creative testing and audience layering on YouTube.",
+        "image": "/seo/services/on-page.webp",
+        "link": "/paid-advertisement/youtube-ads"
+      }
+    ],
+    "content": { "heading": "Social media that converts", "text1": "Targeted campaigns reach the right audiences. Our Facebook advertising approach includes sophisticated audience targeting, demographic segmentation, and interest-based targeting to ensure your campaigns reach the most relevant Facebook users for your brand.", "text2": "Engaging content drives social engagement. We create compelling social content, community engagement strategies, and interactive ad formats that capture attention and drive both brand awareness and direct response conversions on Facebook.", "text3": "Track social performance and optimize for conversions. Our Facebook advertising measurement includes comprehensive social engagement tracking, conversion attribution, and performance analysis to ensure accurate measurement of your Facebook advertising impact and ROI.", "image": "hero.png", "alt": "Facebook Ads" },
+    "faq": { 
+      "serviceName": "Facebook Ads",
+      "faqs": [
+        { "q": "How quickly can I see results from Facebook Ads?", "a": "Facebook Ads can show results within 24-48 hours, with optimization occurring over 1-2 weeks. Facebook's algorithm learns quickly, and we implement rapid testing strategies to identify winning audiences and creative approaches." },
+        { "q": "What's the difference between Facebook Feed and Marketplace ads?", "a": "Feed ads appear in users' main Facebook feed and are great for brand awareness, while Marketplace ads appear in Facebook Marketplace and are perfect for e-commerce. We use both formats strategically based on campaign objectives and audience behavior." },
+        { "q": "How do you create effective Facebook ad content?", "a": "We create engaging content including images, videos, carousel ads, and interactive formats. Our creative approach focuses on authentic storytelling, community engagement, and platform-native content that resonates with Facebook's diverse audience." },
+        { "q": "What's the typical cost per click for Facebook Ads?", "a": "Facebook Ads typically cost $0.50-$2.00 per click depending on targeting and competition. Facebook's large user base and sophisticated targeting often provide cost-effective reach and engagement opportunities for businesses of all sizes." },
+        { "q": "How do you optimize Facebook Ads for conversions?", "a": "We optimize through audience targeting refinement, creative testing, landing page optimization, and conversion tracking setup. Our approach includes testing different ad formats, audiences, and bidding strategies to maximize conversion rates on Facebook." }
+      ]
+    }
+  },
+  "google-display-ads": {
+    "hero": { "heading": "Google Display Ads", "subheading": "Dominate display advertising and drive explosive brand growth with our proven Google Display Network strategies that capture attention, boost brand awareness, and convert prospects into customers across millions of websites." },
+    "form": { "heading": "Scale with Display", "content": "We create visually compelling display campaigns that drive brand awareness and conversions. Our Google Display advertising expertise includes comprehensive creative development, audience targeting optimization, and performance analysis to maximize reach and engagement across Google's display network.", "subContent": "Visual storytelling that captures attention. We develop compelling visual narratives, interactive ad formats, and engaging creative content that resonates with your target audience and drives both brand awareness and direct response conversions.", "cta": "Request a free display audit. Our detailed audit covers campaign structure, creative performance, audience targeting effectiveness, and conversion tracking to identify opportunities for improving your display advertising ROI.", "formHeading": "Free Display Audit", "buttonText": "Get My Audit" },
+    "services": "Google Display Ads",
+    "serviceCards": [
+      {
+        "id": "google-ads",
+        "name": "Google Ads",
+        "title": "Google Search & Performance Max",
+        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability.",
+        "image": "/seo/services/seo.webp",
+        "link": "/paid-advertisement/google-ads"
+      },
+      {
+        "id": "meta-ads",
+        "name": "Meta Ads",
+        "title": "Meta (Facebook/Instagram) Campaigns",
+        "description": "Scale attention with creative-led prospecting and conversion-focused retargeting on Meta.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/paid-advertisement/meta-ads"
+      },
+      {
+        "id": "linkedin-ads",
+        "name": "LinkedIn Ads",
+        "title": "B2B LinkedIn Lead Gen",
+        "description": "Precisely target decision-makers with tailored messaging, offers, and high-signal lead flows.",
+        "image": "/seo/services/technical.webp",
+        "link": "/paid-advertisement/linkedin-ads"
+      },
+      {
+        "id": "youtube-ads",
+        "name": "YouTube Ads",
+        "title": "YouTube Awareness & Direct Response",
+        "description": "Build demand and conversions with creative testing and audience layering on YouTube.",
+        "image": "/seo/services/on-page.webp",
+        "link": "/paid-advertisement/youtube-ads"
+      }
+    ],
+    "content": { "heading": "Visual advertising that converts", "text1": "Reach audiences across millions of websites. Our Google Display advertising approach includes comprehensive site targeting, audience segmentation, and creative optimization to ensure maximum reach and engagement across Google's vast display network.", "text2": "Compelling visuals drive engagement. We create eye-catching display ads, interactive formats, and engaging creative content that captures attention and drives both brand awareness and direct response conversions across the display network.", "text3": "Track display performance and optimize for conversions. Our display advertising measurement includes comprehensive reach tracking, engagement analysis, and conversion attribution to ensure accurate measurement of your display advertising impact and ROI.", "image": "seo.png", "alt": "Google Display Ads" },
+    "faq": { 
+      "serviceName": "Google Display Ads",
+      "faqs": [
+        { "q": "How quickly can I see results from Google Display Ads?", "a": "Google Display Ads can show results within 24-48 hours, with optimization occurring over 1-2 weeks. Display campaigns typically focus on brand awareness and reach, with conversion optimization happening over longer periods." },
+        { "q": "What's the difference between Display and Search campaigns?", "a": "Display campaigns show visual ads across Google's display network on websites, while Search campaigns show text ads in search results. Display is great for brand awareness and reaching new audiences, while Search captures high-intent users actively searching for your products or services." },
+        { "q": "How do you create effective display ad creatives?", "a": "We create visually compelling display ads including banners, interactive formats, and rich media. Our creative approach focuses on eye-catching visuals, clear messaging, and engaging formats that capture attention and drive engagement across the display network." },
+        { "q": "What's the typical cost per impression for Display Ads?", "a": "Google Display Ads typically cost $1-10 per 1000 impressions (CPM) depending on targeting and competition. Display advertising is generally more cost-effective for brand awareness and reach compared to search advertising." },
+        { "q": "How do you optimize Display Ads for conversions?", "a": "We optimize through audience targeting refinement, creative testing, landing page optimization, and conversion tracking setup. Our approach includes testing different ad formats, audiences, and bidding strategies to maximize conversion rates from display traffic." }
+      ]
+    }
+  },
+  "tiktok-ads": {
+    "hero": { "heading": "TikTok Ads", "subheading": "Dominate TikTok advertising and drive explosive brand growth with our proven TikTok advertising strategies that capture attention, boost engagement, and convert viewers into customers through compelling short-form video content." },
+    "form": { "heading": "Scale with TikTok", "content": "We create engaging short-form video content that drives viral engagement and conversions. Our TikTok advertising expertise includes comprehensive video creative development, audience targeting optimization, and performance analysis to maximize engagement and conversion rates on TikTok.", "subContent": "Short-form video that converts. We develop compelling video narratives, trending content strategies, and interactive ad formats that resonate with TikTok's young, engaged audience, driving both brand awareness and direct response conversions.", "cta": "Request a free TikTok audit. Our detailed audit covers account optimization, video creative performance, audience targeting effectiveness, and conversion tracking to identify opportunities for improving your TikTok advertising ROI.", "formHeading": "Free TikTok Audit", "buttonText": "Get My Audit" },
+    "services": "TikTok Ads",
+    "serviceCards": [
+      {
+        "id": "google-ads",
+        "name": "Google Ads",
+        "title": "Google Search & Performance Max",
+        "description": "Capture demand with high-intent search, Shopping, and Performance Max campaigns tuned for profitability.",
+        "image": "/seo/services/seo.webp",
+        "link": "/paid-advertisement/google-ads"
+      },
+      {
+        "id": "meta-ads",
+        "name": "Meta Ads",
+        "title": "Meta (Facebook/Instagram) Campaigns",
+        "description": "Scale attention with creative-led prospecting and conversion-focused retargeting on Meta.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/paid-advertisement/meta-ads"
+      },
+      {
+        "id": "linkedin-ads",
+        "name": "LinkedIn Ads",
+        "title": "B2B LinkedIn Lead Gen",
+        "description": "Precisely target decision-makers with tailored messaging, offers, and high-signal lead flows.",
+        "image": "/seo/services/technical.webp",
+        "link": "/paid-advertisement/linkedin-ads"
+      },
+      {
+        "id": "youtube-ads",
+        "name": "YouTube Ads",
+        "title": "YouTube Awareness & Direct Response",
+        "description": "Build demand and conversions with creative testing and audience layering on YouTube.",
+        "image": "/seo/services/on-page.webp",
+        "link": "/paid-advertisement/youtube-ads"
+      }
+    ],
+    "content": { "heading": "Short-form video that converts", "text1": "Trending content drives viral engagement. Our TikTok advertising approach includes comprehensive trend analysis, viral content development, and audience engagement strategies to maximize reach and engagement on TikTok's algorithm-driven platform.", "text2": "Authentic storytelling resonates with Gen Z. We create authentic, engaging video content that feels native to TikTok, using trending sounds, effects, and formats that capture attention and drive both brand awareness and direct response conversions.", "text3": "Track viral performance and optimize for conversions. Our TikTok advertising measurement includes comprehensive engagement tracking, viral metrics analysis, and conversion attribution to ensure accurate measurement of your TikTok advertising impact and ROI.", "image": "hero.png", "alt": "TikTok Ads" },
+    "faq": { 
+      "serviceName": "TikTok Ads",
+      "faqs": [
+        { "q": "How quickly can I see results from TikTok Ads?", "a": "TikTok Ads can show results within 24-48 hours, with viral content potentially gaining traction quickly. TikTok's algorithm favors engaging content, and we implement rapid testing strategies to identify winning video formats and audiences." },
+        { "q": "What's the difference between TikTok Feed and Brand Takeover ads?", "a": "Feed ads appear in users' main TikTok feed and are great for engagement, while Brand Takeover ads appear when users open the app and are perfect for brand awareness. We use both formats strategically based on campaign objectives and audience behavior." },
+        { "q": "How do you create effective TikTok ad content?", "a": "We create authentic, engaging video content that feels native to TikTok, using trending sounds, effects, and formats. Our creative approach focuses on authentic storytelling, user-generated content, and platform-native content that resonates with TikTok's young audience." },
+        { "q": "What's the typical cost per engagement for TikTok Ads?", "a": "TikTok Ads typically cost $0.50-$2.00 per engagement depending on targeting and creative quality. TikTok's young, engaged audience often provides high engagement rates, making it cost-effective for brand awareness campaigns." },
+        { "q": "How do you optimize TikTok Ads for conversions?", "a": "We optimize through video creative testing, audience targeting refinement, landing page optimization, and conversion tracking setup. Our approach includes testing different video formats, hooks, and calls-to-action to maximize conversion rates on TikTok." }
+      ]
+    }
+  },
+  "otherServices": {
+    "paidAdsServices": [
+      "Google Ads",
+      "Google Display Ads",
+      "Google Shopping Ads",
+      "Paid Social",
+      "Youtube Ads",
+      "Pay-Per-Click",
+      "Bing Ads",
+      "Facebook Ads",
+      "Instagram Ads",
+      "LinkedIn Ads management",
+      "TikTok Ads",
+      "Snapchat Ads",
+      "Twitter (X) Ads",
+      "Pinterest Ads"
+    ],
+    "slugMapping": {
+      "Google Ads": "google-ads",
+      "Google Display Ads": "google-display-ads",
+      "Google Shopping Ads": "google-shopping-ads",
+      "Paid Social": "paid-social",
+      "Youtube Ads": "youtube-ads",
+      "Pay-Per-Click": "pay-per-click",
+      "Bing Ads": "bing-ads",
+      "Facebook Ads": "facebook-ads",
+      "Instagram Ads": "instagram-ads",
+      "LinkedIn Ads management": "linkedin-ads-management",
+      "TikTok Ads": "tiktok-ads",
+      "Snapchat Ads": "snapchat-ads",
+      "Twitter (X) Ads": "twitter-x-ads",
+      "Pinterest Ads": "pinterest-ads"
+    },
+    "config": {
+      "title": "Our Other Paid Advertising Services & Solutions",
+      "highlightedText": "Services & Solutions",
+      "columns": 3,
+      "baseUrl": "/paid-advertisement/"
+    }
   }
 }
 

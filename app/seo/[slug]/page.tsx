@@ -50,7 +50,7 @@ export default function SeoSlugPage({ params }: { params: { slug: string } }) {
     notFound();
   }
   
-  const currentSeoData = seoData[params.slug as keyof typeof seoData];
+  const currentSeoData = seoData[params.slug as keyof typeof seoData] as any;
   
   return (
     <main>
