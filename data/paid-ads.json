@@ -416,14 +416,6 @@
         "description": "Showcase products with visual shopping ads that drive qualified traffic. Our Google Shopping Ads agency provides comprehensive Google Shopping Ads services.",
         "image": "/seo/services/technical.webp",
         "link": "/paid-advertisement/google-shopping-ads"
-      },
-      {
-        "id": "paid-social",
-        "name": "Paid Social Ads Agency Services",
-        "title": "Expert Paid Social Agency",
-        "description": "Scale social media advertising across Facebook, Instagram, LinkedIn, and more. Our Paid Social Ads Agency provides comprehensive Paid Social Services.",
-        "image": "/seo/services/on-page.webp",
-        "link": "/paid-advertisement/paid-social"
       }
     ],
     "content": { "heading": "Expert Paid Social Ads Agency Services That Convert", "text1": "Multi-platform social media advertising. Our comprehensive Paid Social Services include platform-specific campaign development, cross-platform optimization, and unified reporting across Facebook, Instagram, LinkedIn, TikTok, and other emerging social platforms to maximize your social media advertising reach and ROI.", "text2": "Creative testing and audience targeting. As a leading Paid Social Agency, we implement sophisticated creative testing frameworks, audience research and segmentation, and performance optimization techniques to ensure your social media campaigns reach the right audiences with the most engaging content, driving maximum engagement and conversion rates across all platforms.", "text3": "Track performance across all social channels. Our Paid Social Ads Agency measurement includes comprehensive cross-platform tracking, conversion attribution, and performance analysis to ensure accurate measurement of your social media advertising impact and continuous optimization of your social media ROI.", "image": "seo.png", "alt": "Paid Social Ads Agency Services" },
