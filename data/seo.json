@@ -164,42 +164,42 @@
         "name": "Google My Business",
         "title": "Google My Business Optimisation",
         "description": "Optimize your Google My Business profile to dominate local search results and attract more customers in your area.",
-        "image": "/seo/services/on-page.webp"
+        "image": "/seo/services/googlebusi.webp"
       },
       {
         "id": "local-citations",
         "name": "Local Citations",
         "title": "Local Citations & Listings",
         "description": "Build consistent business citations across the web to improve your local search rankings and help customers find you.",
-        "image": "/seo/services/seo.webp"
+        "image": "/seo/services/localcit.webp"
       },
       {
         "id": "local-keyword",
         "name": "Local Keyword Research",
         "title": "Local Keyword Research",
         "description": "Discover location-based keywords that your local customers are searching for to drive targeted foot traffic.",
-        "image": "/seo/services/technical.webp"
+        "image": "/seo/services/localkey.webp"
       },
       {
         "id": "local-content",
         "name": "Local Content",
         "title": "Location-Specific Content",
         "description": "Create compelling content that resonates with your local community and improves your visibility in local search.",
-        "image": "/seo/services/off-page.webp"
+        "image": "/seo/services/localcon.webp"
       },
       {
         "id": "review-management",
         "name": "Review Management",
         "title": "Review Management",
         "description": "Build and manage your online reputation with strategic review acquisition and response strategies.",
-        "image": "/seo/services/link-building.png"
+        "image": "/seo/services/reviewman.webp"
       },
       {
         "id": "local-link-building",
         "name": "Local Link Building",
         "title": "Local Link Building",
         "description": "Acquire high-quality local backlinks to boost your authority in your geographic area.",
-        "image": "/seo/services/seo-audit.png"
+        "image": "/seo/services/locallink.webp"
       }
     ]
   },
@@ -256,42 +256,42 @@
         "name": "Speed Optimisation",
         "title": "WordPress Speed Optimisation",
         "description": "Boost your WordPress site's loading speed with expert Optimisation of plugins, themes, and server configurations.",
-        "image": "/seo/services/on-page.webp"
+        "image": "/seo/services/speedopt.webp"
       },
       {
         "id": "wp-plugin-Optimisation",
         "name": "Plugin Optimisation",
         "title": "WordPress Plugin SEO",
         "description": "Optimize and configure WordPress SEO plugins like Yoast, RankMath, and All in One SEO for maximum effectiveness.",
-        "image": "/seo/services/seo.webp"
+        "image": "/seo/services/pluginop.webp"
       },
       {
         "id": "wp-technical-seo",
         "name": "Technical SEO",
         "title": "WordPress Technical SEO",
         "description": "Fix technical issues unique to WordPress including duplicate content, crawl errors, and indexation problems.",
-        "image": "/seo/services/technical.webp"
+        "image": "/seo/services/technicalseo.webp"
       },
       {
         "id": "wp-theme-Optimisation",
         "name": "Theme Optimisation",
         "title": "WordPress Theme SEO",
         "description": "Ensure your WordPress theme is SEO-friendly with proper schema markup, mobile responsiveness, and clean code.",
-        "image": "/seo/services/off-page.webp"
+        "image": "/seo/services/themeop.webp"
       },
       {
         "id": "wp-content-strategy",
         "name": "Content Strategy",
         "title": "WordPress Content Strategy",
         "description": "Develop a content strategy that leverages WordPress's strengths to maximize your search visibility.",
-        "image": "/seo/services/link-building.png"
+        "image": "/seo/services/contstra.webp"
       },
       {
         "id": "wp-security-seo",
         "name": "Security & SEO",
         "title": "WordPress Security for SEO",
         "description": "Protect your WordPress site from security threats that can harm your search rankings and user trust.",
-        "image": "/seo/services/seo-audit.png"
+        "image": "/seo/services/secu.webp"
       }
     ]
   },
@@ -348,42 +348,42 @@
         "name": "Product Page SEO",
         "title": "Product Page Optimisation",
         "description": "Optimize every product page with targeted keywords, compelling descriptions, and schema markup to maximize visibility.",
-        "image": "/seo/services/on-page.webp"
+        "image": "/seo/services/productp.webp"
       },
       {
         "id": "category-Optimisation",
         "name": "Category SEO",
         "title": "Category Page Optimisation",
         "description": "Structure and optimize category pages to capture high-intent shoppers and improve your site's overall SEO performance.",
-        "image": "/seo/services/seo.webp"
+        "image": "/seo/services/categoryseo.webp"
       },
       {
         "id": "ecom-technical-seo",
         "name": "Technical SEO",
         "title": "E-commerce Technical SEO",
         "description": "Solve complex technical challenges unique to e-commerce sites including crawl budget, duplicate content, and pagination.",
-        "image": "/seo/services/technical.webp"
+        "image": "/seo/services/technicalseo.webp"
       },
       {
         "id": "product-schema",
         "name": "Product Schema",
         "title": "Product Schema Markup",
         "description": "Implement rich snippets and product schema to enhance your listings in search results and boost click-through rates.",
-        "image": "/seo/services/off-page.webp"
+        "image": "/seo/services/productsch.webp"
       },
       {
         "id": "ecom-link-building",
         "name": "E-commerce Links",
         "title": "E-commerce Link Building",
         "description": "Build authoritative backlinks to your product and category pages to increase domain authority and rankings.",
-        "image": "/seo/services/link-building.png"
+        "image": "/seo/services/ecomm.webp"
       },
       {
         "id": "conversion-Optimisation",
         "name": "Conversion SEO",
         "title": "SEO for Conversions",
         "description": "Optimize your e-commerce site not just for traffic, but for converting visitors into paying customers.",
-        "image": "/seo/services/seo-audit.png"
+        "image": "/seo/services/conver.webp"
       }
     ]
   },
