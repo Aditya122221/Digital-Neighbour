@@ -440,42 +440,42 @@
         "name": "AI Keyword Research",
         "title": "AI-Powered Keyword Research",
         "description": "Leverage AI to discover high-value keyword opportunities and predict search trends before your competitors.",
-        "image": "/seo/services/on-page.webp"
+        "image": "/seo/services/aikeyword.webp"
       },
       {
         "id": "ai-content-Optimisation",
         "name": "Content Optimisation",
         "title": "AI Content Optimisation",
         "description": "Use AI tools to optimize your existing content for better rankings and create data-driven content strategies.",
-        "image": "/seo/services/seo.webp"
+        "image": "/seo/services/aicont.webp"
       },
       {
         "id": "ai-competitor-analysis",
         "name": "Competitor Analysis",
         "title": "AI Competitor Analysis",
         "description": "Analyze your competitors' SEO strategies with AI to identify gaps and opportunities in your market.",
-        "image": "/seo/services/technical.webp"
+        "image": "/seo/services/companaly.webp"
       },
       {
         "id": "ai-content-generation",
         "name": "Content Generation",
         "title": "AI Content Generation",
         "description": "Create SEO-optimized content faster with AI assistance while maintaining quality and authenticity.",
-        "image": "/seo/services/off-page.webp"
+        "image": "/seo/services/congen.webp"
       },
       {
         "id": "ai-search-trends",
         "name": "Trend Prediction",
         "title": "AI Search Trend Prediction",
         "description": "Stay ahead of the curve by using AI to predict emerging search trends and capitalize on opportunities early.",
-        "image": "/seo/services/link-building.png"
+        "image": "/seo/services/treopt.webp"
       },
       {
         "id": "ai-performance-tracking",
         "name": "Performance Tracking",
         "title": "AI Performance Analytics",
         "description": "Monitor and analyze your SEO performance with AI-powered insights and predictive analytics.",
-        "image": "/seo/services/seo-audit.png"
+        "image": "/seo/services/peropt.webp"
       }
     ]
   },
@@ -532,7 +532,7 @@
         "name": "Product Page SEO",
         "title": "Shopify Product optimisation",
         "description": "Optimize every product page with targeted keywords, compelling descriptions, and proper schema markup.",
-        "image": "/seo/services/on-page.webp"
+        "image": "/seo/services/proopt.webp"
       },
       {
         "id": "shopify-technical-seo",
@@ -546,14 +546,14 @@
         "name": "App optimisation",
         "title": "Shopify App SEO Audit",
         "description": "Audit and optimize your Shopify apps to ensure they don't negatively impact your search rankings.",
-        "image": "/seo/services/seo.webp"
+        "image": "/seo/services/appop.webp"
       },
       {
         "id": "shopify-content-strategy",
         "name": "Content Strategy",
         "title": "Shopify Content Marketing",
         "description": "Create compelling blog content and product descriptions that drive organic traffic and boost sales.",
-        "image": "/seo/services/off-page.webp"
+        "image": "/seo/services/constra.webp"
       },
       {
         "id": "shopify-link-building",
@@ -567,7 +567,7 @@
         "name": "Conversion SEO",
         "title": "SEO for Conversions",
         "description": "Optimize your Shopify store not just for traffic, but for converting visitors into paying customers.",
-        "image": "/seo/services/seo-audit.png"
+        "image": "/seo/services/convseo.webp"
       }
     ]
   },

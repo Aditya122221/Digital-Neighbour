@@ -161,16 +161,16 @@ export default function SeoServices({ data, serviceCards, basePath = "/services"
                     borderColor="black"
                   />
                 </div>
-              </div>
+  </div>
 
               {/* Right side - Image */}
               <div className="relative w-full h-[300px] md:h-[400px] rounded-2xl overflow-hidden bg-black p-4 flex items-center justify-center">
-                <Image
-                  src={activeService.image}
-                  alt={activeService.title}
-                  fill
-                  className="object-contain p-4"
-                />
+              <Image
+              src={activeService.image}
+alt = { activeService.title }
+              fill
+className = "object-contain p-4"
+            />
               </div>
             </div>
           </motion.div>
