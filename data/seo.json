@@ -133,6 +133,22 @@
       "alt": "Local SEO illustration"
     },
     "services": "Local SEO",
+    "process": {
+      "steps": [
+        "Local Audit & Benchmarking",
+        "GBP & NAP Strategy",
+        "On‑Page & Local Content",
+        "Citations, Reviews, Links",
+        "Reports & Expansion"
+      ],
+      "content": [
+        "We benchmark your local visibility, map pack rankings, competitors, and technical issues impacting local performance.",
+        "We optimize Google Business Profile and establish clean, consistent NAP across your web presence with category and service targeting.",
+        "We implement on‑page SEO and create location/service pages that target local intent and drive qualified local traffic.",
+        "We build authoritative citations, implement a sustainable reviews program, and earn local links to boost authority.",
+        "We report progress, expand into nearby suburbs/locations, and refine campaigns to strengthen local dominance."
+      ]
+    },
     "faq": {
       "serviceName": "Local SEO",
       "faqs": [
@@ -225,6 +241,22 @@
       "alt": "WordPress SEO illustration"
     },
     "services": "WordPress SEO",
+    "process": {
+      "steps": [
+        "Tech Audit & Cleanup",
+        "Theme/Plugin Optimization",
+        "Content Architecture",
+        "Speed & Core Web Vitals",
+        "Scale & Governance"
+      ],
+      "content": [
+        "We audit indexation, duplication, sitemap/taxonomy issues and remove thin/duplicate content patterns.",
+        "We configure SEO plugins, fix theme markup, and set sensible permalink, schema, and media settings.",
+        "We design a clear category/tag structure and internal linking to improve discoverability and topical depth.",
+        "We optimize images, caching, and delivery to pass CWV and improve mobile/desktop performance.",
+        "We document workflows and guardrails so content growth remains fast, stable, and SEO‑safe."
+      ]
+    },
     "faq": {
       "serviceName": "WordPress",
       "faqs": [
@@ -317,6 +349,22 @@
       "alt": "E-commerce SEO illustration"
     },
     "services": "E-commerce SEO",
+    "process": {
+      "steps": [
+        "Technical & Catalog Audit",
+        "Category & Facet Strategy",
+        "Product Page Optimization",
+        "Schema & Internal Links",
+        "Scale Content & CRO"
+      ],
+      "content": [
+        "We audit crawlability, duplication, parameterized URLs, and index bloat across your catalog.",
+        "We design category, filters/facets, and pagination strategy to capture non‑brand demand.",
+        "We optimize product titles, descriptions, images, and UX elements that drive both rankings and conversion.",
+        "We implement product/schema markup and robust internal links to category hubs and collections.",
+        "We scale content for categories and guides while running CRO experiments to improve conversion."
+      ]
+    },
     "faq": {
       "serviceName": "E-commerce SEO",
       "faqs": [
@@ -409,6 +457,22 @@
       "alt": "AI SEO illustration"
     },
     "services": "AI SEO",
+    "process": {
+      "steps": [
+        "Discovery & Data Audit",
+        "AI Opportunity Mapping",
+        "Workflows & Guardrails",
+        "Deploy & Evaluate",
+        "Scale & Human QA"
+      ],
+      "content": [
+        "We audit data sources, content inventory, and performance to identify AI leverage points.",
+        "We map use‑cases (briefing, clustering, outlines) and define KPIs and constraints.",
+        "We establish human‑in‑the‑loop workflows and editorial guardrails for quality and compliance.",
+        "We deploy pilots, measure impact on rankings and production speed, and tune prompts/systems.",
+        "We scale the best workflows while maintaining expert review and factual accuracy."
+      ]
+    },
     "faq": {
       "serviceName": "AI SEO",
       "faqs": [
@@ -501,6 +565,22 @@
       "alt": "Shopify SEO illustration"
     },
     "services": "Shopify SEO",
+    "process": {
+      "steps": [
+        "Audit & App Cleanup",
+        "Theme/Liquid Optimization",
+        "Collections & PDPs",
+        "Speed & CWV for Shopify",
+        "Scale & Governance"
+      ],
+      "content": [
+        "We audit duplication, apps, and URL structures that commonly impact Shopify SEO.",
+        "We optimize theme code, templates, and schema; set canonical and indexing rules.",
+        "We structure collections, filters, and product detail pages to capture intent and improve UX.",
+        "We improve image delivery, caching, and scripts to meet Core Web Vitals.",
+        "We document content/product workflows that keep SEO performance stable as you scale."
+      ]
+    },
     "faq": {
       "serviceName": "Shopify SEO",
       "faqs": [
@@ -593,6 +673,22 @@
       "alt": "SEO Audit illustration"
     },
     "services": "SEO Audits",
+    "process": {
+      "steps": [
+        "Technical & Index Audit",
+        "Content & Intent Analysis",
+        "Authority & Links Review",
+        "Prioritized Roadmap",
+        "Implementation Support"
+      ],
+      "content": [
+        "We audit crawlability, indexation, site structure, and technical blockers.",
+        "We evaluate content quality, duplication, gaps, and alignment to search intent.",
+        "We analyze backlink profile, toxicity, and authority vs. competitors.",
+        "We deliver a prioritized roadmap with impact/effort scoring and timelines.",
+        "We support implementation, QA, and measurement to ensure gains are realized."
+      ]
+    },
     "faq": {
       "serviceName": "SEO Audits",
       "faqs": [
@@ -777,6 +873,22 @@
       "alt": "SEO Migration illustration"
     },
     "services": "SEO Migration",
+    "process": {
+      "steps": [
+        "Pre‑Migration Audit",
+        "URL Mapping & Specs",
+        "Content & Tech Prep",
+        "Launch & Redirects",
+        "Post‑Launch Monitoring"
+      ],
+      "content": [
+        "We audit current SEO performance, architecture, and risks to build a migration plan.",
+        "We create detailed URL maps, redirect specs, and preservation rules for metadata and schema.",
+        "We prepare content and technical configs on the new platform to match or improve SEO signals.",
+        "We launch with full redirect deployment, QA, and log/coverage checks.",
+        "We monitor rankings, crawl/index signals, and fix gaps to stabilize quickly."
+      ]
+    },
     "faq": {
       "serviceName": "SEO Migration",
       "faqs": [
@@ -869,6 +981,22 @@
       "alt": "Small Business SEO illustration"
     },
     "services": "Small Business SEO",
+    "process": {
+      "steps": [
+        "Local & Website Audit",
+        "Quick Wins & Basics",
+        "Content & GBP Optimization",
+        "Reviews & Local Links",
+        "Measure & Grow"
+      ],
+      "content": [
+        "We audit your site and local presence to identify high‑impact, low‑cost opportunities.",
+        "We fix core SEO basics (titles, meta, speed, mobile) to unlock quick gains.",
+        "We optimize GBP and publish helpful local content targeting your services.",
+        "We implement a sustainable review program and build local partnerships/links.",
+        "We report progress and expand into more keywords and nearby areas."
+      ]
+    },
     "faq": {
       "serviceName": "Small Business SEO",
       "faqs": [
@@ -961,6 +1089,22 @@
       "alt": "Lead Generation SEO illustration"
     },
     "services": "Lead Generation",
+    "process": {
+      "steps": [
+        "Traffic & Funnel Audit",
+        "Offer & Intent Mapping",
+        "Landing & Form Optimization",
+        "Nurture & Attribution",
+        "Scale High‑Intent"
+      ],
+      "content": [
+        "We audit SEO pages and conversion paths to find friction and leaks.",
+        "We align keywords to offers and create clear next‑step CTAs by intent.",
+        "We optimize landing pages and forms for clarity, speed, and trust.",
+        "We add email/SMS nurturing and fix attribution for accurate CPL/ROI.",
+        "We scale content and links around proven high‑intent topics."
+      ]
+    },
     "faq": {
       "serviceName": "Lead Generation",
       "faqs": [
@@ -1053,6 +1197,22 @@
       "alt": "Link Building Services NZ illustration"
     },
     "services": "Link Building Services",
+    "process": {
+      "steps": [
+        "Backlink & Gap Analysis",
+        "Prospect & Asset Planning",
+        "Outreach & PR",
+        "Placement & QA",
+        "Monitor & Diversify"
+      ],
+      "content": [
+        "We analyze your backlink profile and competitors to identify authority gaps.",
+        "We plan content assets and prospect lists aligned to relevant, high‑quality sites.",
+        "We conduct outreach, digital PR, and partnerships to earn editorial links.",
+        "We QA placements for relevance, anchor diversity, and technical integrity.",
+        "We monitor impact and diversify tactics for sustainable authority growth."
+      ]
+    },
     "faq": {
       "serviceName": "Link Building",
       "faqs": [

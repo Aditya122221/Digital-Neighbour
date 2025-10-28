@@ -90,6 +90,22 @@
     "hero": { "heading": "Google Ads Agency | Expert Google Ads Company & Services", "subheading": "Dominate Google search results with our proven Google Ads agency expertise. As a leading Google Ads company, we deliver comprehensive Google Ads services that capture high-intent customers, drive qualified traffic, boost conversions, and maximize your search advertising ROI across Search, Shopping, and Performance Max campaigns." },
     "form": { "heading": "Scale with Expert Google Ads Agency Services", "content": "As a trusted Google Ads company, we structure accounts for clarity, control, and speed of iteration. Our comprehensive Google Ads agency services include detailed account audits, campaign structure optimization, keyword research and expansion, ad copy testing, and ongoing performance monitoring to ensure maximum ROI from your search advertising investment.", "subContent": "From query-level control to creative testing, our Google Ads services optimise for intent. We implement advanced bidding strategies, negative keyword management, landing page optimization, and conversion tracking to capture high-intent search traffic and maximize your conversion rates.", "cta": "Request a free audit of your Google Ads account from our expert Google Ads agency. Our comprehensive audit covers account structure, keyword performance, ad copy effectiveness, landing page optimization, and conversion tracking to identify immediate improvement opportunities.", "formHeading": "Free Google Ads Agency Audit", "buttonText": "Get My Audit" },
     "services": "Google Ads",
+    "process": {
+      "steps": [
+        "Account & Tracking Audit",
+        "Keyword & Structure Strategy",
+        "Build & Launch",
+        "Optimize Bids, Ads, and QS",
+        "Scale & PMax Expansion"
+      ],
+      "content": [
+        "We audit your Google Ads account, conversion tracking, and analytics to identify waste, gaps, and immediate wins across Search, Shopping, and Performance Max.",
+        "We design a clean campaign structure with intent-based keyword grouping, match type strategy, negatives, and ad extension plans aligned to business goals.",
+        "We build campaigns, ad groups, responsive search ads, assets, and landing page connections with airtight tracking and QA before launch.",
+        "We run iterative tests on bids, RSAs, audiences, and landing pages to improve Quality Score, CTR, and CPA with weekly optimizations and reporting.",
+        "We scale what works: expand keyword coverage, layer audiences, add PMax and Discovery where appropriate, and increase budget efficiently."
+      ]
+    },
     "serviceCards": [
   {
     "id": "google-search-ads",
@@ -142,6 +158,22 @@
     "hero": { "heading": "Meta Ads (Facebook & Instagram)", "subheading": "Dominate social media advertising and drive explosive engagement with our proven Meta advertising strategies that capture attention, boost brand awareness, and convert followers into customers across Facebook and Instagram." },
     "form": { "heading": "Scale with Meta", "content": "We test hooks, formats, and audiences to find durable winners. Our Meta advertising strategy includes comprehensive creative testing, audience research and segmentation, campaign optimization, and performance analysis to identify the most effective approaches for your brand and maximize engagement and conversions.", "subContent": "We build full-funnel journeys that compound. Our approach includes awareness campaigns, consideration-stage nurturing, conversion optimization, and retargeting strategies that work together to create a comprehensive customer journey that maximizes lifetime value and business growth.", "cta": "Get a free Meta account & pixel audit. Our detailed audit covers account structure, pixel implementation, audience targeting, creative performance, and conversion tracking to identify optimization opportunities and improve your Meta advertising ROI.", "formHeading": "Free Meta Audit", "buttonText": "Get My Audit" },
     "services": "Meta Ads",
+    "process": {
+      "steps": [
+        "Account & Pixel Audit",
+        "Creative & Audience Strategy",
+        "Campaign Build & Launch",
+        "Creative/Audience Iteration",
+        "Scale Winners"
+      ],
+      "content": [
+        "We audit account structure, events, and attribution. We validate CAPI/Pixels and map key conversions for reliable optimization.",
+        "We define angles, hooks, and formats by funnel stage and craft audience frameworks (prospecting, retargeting, value-based lookalikes).",
+        "We launch structured campaigns with naming standards, budgets, placements, and guardrails, ensuring clean data and measurement.",
+        "We iterate creatives and audiences in sprints, analyze thumbstop, hold, and conversion metrics, then optimize to CPA and MER targets.",
+        "We scale winning combinations through budget increases, horizontal audience expansion, and new formats while protecting efficiency."
+      ]
+    },
     "serviceCards": [
       {
         "id": "google-ads",
@@ -192,6 +224,22 @@
     "hero": { "heading": "LinkedIn Ads for B2B", "subheading": "Dominate B2B lead generation and capture high-value prospects with our proven LinkedIn advertising strategies that target decision-makers, boost professional engagement, and convert connections into qualified business opportunities." },
     "form": { "heading": "Pipeline-focused LinkedIn", "content": "We map journeys from ad to meeting booked. Our LinkedIn advertising approach includes comprehensive lead generation strategies, account-based marketing implementation, professional audience targeting, and conversion optimization to ensure your LinkedIn campaigns generate high-quality leads that convert into business opportunities.", "subContent": "Lead routing and enrichment included. We implement sophisticated lead management systems, automated lead routing, lead scoring, and enrichment processes to ensure your LinkedIn-generated leads are properly qualified, routed to the right team members, and nurtured through the sales process for maximum conversion rates.", "cta": "Request a free LinkedIn audit. Our comprehensive audit covers account structure, audience targeting, ad creative performance, lead generation effectiveness, and conversion tracking to identify opportunities for improving your LinkedIn advertising ROI and lead quality.", "formHeading": "Free LinkedIn Audit", "buttonText": "Get My Audit" },
     "services": "LinkedIn Ads",
+    "process": {
+      "steps": [
+        "ICP & Offer Definition",
+        "Audience & Messaging Strategy",
+        "Campaign Build & Launch",
+        "Lead Flow & CPL Optimization",
+        "Pipeline Scale"
+      ],
+      "content": [
+        "We define the ideal customer profile, funnel stage, and value propositions to match LinkedIn’s professional context.",
+        "We craft targeting using job titles, seniority, industries, company lists, and skills; map formats to intent (SC, Message, Lead Gen).",
+        "We launch campaigns with strong creative, clear CTAs, and native lead gen forms or high-converting LPs with CRM integration.",
+        "We optimize bids, budgets, and messaging; enhance lead quality with filters, routing, and enrichment to reduce CPL and increase SQL rate.",
+        "We expand to account-based plays, warm sequences, and multi-offer testing to scale pipeline and revenue predictably."
+      ]
+    },
     "serviceCards": [
       {
         "id": "google-ads",
@@ -242,6 +290,22 @@
     "hero": { "heading": "Youtube Ads Agency | Expert Youtube Ads Company & Services", "subheading": "Dominate video advertising and drive explosive brand growth with our proven Youtube Ads Agency expertise. As a leading Youtube Ads Company, we deliver comprehensive Youtube Ads Services that capture viewers' attention, boost engagement, and convert audiences into customers through compelling video content." },
     "form": { "heading": "Scale with Expert Youtube Ads Agency Services", "content": "As a trusted Youtube Ads Company, we test scripts, hooks, and audiences for efficient CPVs and CAC. Our comprehensive Youtube Ads Services include detailed video creative testing, audience research and targeting, campaign optimization, and performance analysis to identify the most effective video content and targeting approaches for your brand.", "subContent": "Creative iteration compounds performance. Our Youtube Ads Agency continuously tests and optimizes video creative elements, including hooks, storytelling, calls-to-action, and visual elements to improve engagement rates, view-through rates, and conversion performance across your YouTube advertising campaigns.", "cta": "Request a free audit of your YouTube channel from our expert Youtube Ads Agency. Our detailed audit covers channel optimization, video creative performance, audience targeting effectiveness, campaign structure, and conversion tracking to identify opportunities for improving your YouTube advertising ROI and video marketing effectiveness.", "formHeading": "Free Youtube Ads Agency Audit", "buttonText": "Get My Audit" },
     "services": "YouTube Ads",
+    "process": {
+      "steps": [
+        "Channel & Pixel Audit",
+        "Script & Creative Strategy",
+        "Campaign Setup & Launch",
+        "Hook/Creative Iteration",
+        "Scale by Audience Layers"
+      ],
+      "content": [
+        "We audit channel, tracking, and attribution paths; set up conversions and remarketing pools.",
+        "We develop scripts and creative frameworks (hook, problem, proof, offer) tailored to audience segments and goals.",
+        "We launch in-stream, in-feed, bumper, and/or Shorts with structured ad groups and tight exclusions.",
+        "We run creative sprints testing hooks, intros, CTAs, and lengths; refine placements and audiences based on view-through and CVR.",
+        "We scale through audience layering, sequencing, and cross-network expansion while maintaining target CAC/ROAS."
+      ]
+    },
     "serviceCards": [
   {
     "id": "youtube-ads",
@@ -294,6 +358,22 @@
     "hero": { "heading": "Google Remarketing", "subheading": "Dominate remarketing campaigns and recapture lost customers with our proven Google remarketing strategies that re-engage visitors, boost conversion rates, and maximize ROI from your most valuable prospects across Google's entire advertising network." },
     "form": { "heading": "Scale with Google Remarketing", "content": "We create audience lists and retargeting campaigns to convert previous visitors. Our Google remarketing expertise includes sophisticated audience segmentation, dynamic remarketing implementation, cross-platform campaign management, and conversion optimization to maximize your retargeting ROI across Google's entire advertising ecosystem.", "subContent": "Strategic bidding and creative testing for maximum ROI. We implement advanced bidding strategies, creative testing frameworks, and performance optimization techniques to ensure your remarketing campaigns deliver maximum conversion rates while maintaining cost efficiency and reaching the most valuable prospects.", "cta": "Request a free remarketing audit. Our comprehensive audit covers audience segmentation, campaign structure, creative performance, bidding strategies, and conversion tracking to identify opportunities for improving your remarketing effectiveness and ROI.", "formHeading": "Free Remarketing Audit", "buttonText": "Get My Audit" },
     "services": "Google Remarketing",
+    "process": {
+      "steps": [
+        "Audience & Pixel Audit",
+        "Segmentation Strategy",
+        "Campaign Build & Creatives",
+        "Frequency & Exclusions Tuning",
+        "Dynamic Remarketing Scale"
+      ],
+      "content": [
+        "We validate tags, conversions, and remarketing list integrity; define windows and membership durations.",
+        "We segment audiences by funnel stage (viewed, added to cart, abandoners, purchasers) and intent signals.",
+        "We build static and dynamic remarketing campaigns with persuasive creatives and strong offers.",
+        "We calibrate frequency caps, exclusions, burn windows, and sequencing to prevent fatigue and maximize impact.",
+        "We expand with dynamic product feeds, similar audiences, and incremental tests to scale conversions."
+      ]
+    },
     "serviceCards": [
       {
         "id": "google-ads",
@@ -454,12 +534,12 @@
   },
   "instagram-ads": {
     "hero": { "heading": "Instagram Ads Agency | Expert Instagram Ads Company & Services", "subheading": "Dominate Instagram advertising and drive explosive brand growth with our proven Instagram Ads Agency expertise. As a leading Instagram Ads Company, we deliver comprehensive Instagram Ads Services that capture attention, boost engagement, and convert followers into customers through compelling visual content." },
-    "form": { "heading": "Scale with Expert Instagram Ads Agency Services", "content": "As a trusted Instagram Ads Company, we create engaging visual content and Stories ads that drive conversions. Our comprehensive Instagram Ads Services include detailed visual creative development, Stories advertising, Reels campaigns, and performance optimization to maximize engagement and conversion rates on Instagram.", "subContent": "Visual storytelling that converts. Our Instagram Ads Agency develops compelling visual narratives, user-generated content strategies, and interactive ad formats that resonate with Instagram's visual-first audience, driving both brand awareness and direct response conversions.", "cta": "Request a free audit of your Instagram account from our expert Instagram Ads Agency. Our detailed audit covers account optimization, visual creative performance, audience targeting effectiveness, and conversion tracking to identify opportunities for improving your Instagram advertising ROI.", "formHeading": "Free Instagram Ads Agency Audit", "buttonText": "Get My Audit" },
+    "form": { "heading": "Scale with Expert Instagram Ads", "content": "As a trusted Instagram Ads Company, we create engaging visual content and Stories ads that drive conversions. Our comprehensive Instagram Ads Services include detailed visual creative development, Stories advertising, Reels campaigns, and performance optimization to maximize engagement and conversion rates on Instagram.", "subContent": "Visual storytelling that converts. Our Instagram Ads Agency develops compelling visual narratives, user-generated content strategies, and interactive ad formats that resonate with Instagram's visual-first audience, driving both brand awareness and direct response conversions.", "cta": "Request a free audit of your Instagram account from our expert Instagram Ads Agency. Our detailed audit covers account optimization, visual creative performance, audience targeting effectiveness, and conversion tracking to identify opportunities for improving your Instagram advertising ROI.", "formHeading": "Free Instagram Ads Agency Audit", "buttonText": "Get My Audit" },
     "services": "Instagram Ads",
     "serviceCards": [
       {
         "id": "instagram-ads",
-        "name": "Instagram Ads Agency Services",
+        "name": "Instagram Ads",
         "title": "Expert Instagram Ads Company",
         "description": "Dominate Instagram advertising with compelling visual content and Stories ads that drive conversions. Our Instagram Ads Agency creates engaging visual narratives, implements advanced audience targeting, optimizes for engagement and conversions, and leverages Instagram's powerful visual advertising platform to maximize your social media ROI.",
         "image": "/seo/services/seo.webp",
@@ -498,9 +578,9 @@
         "link": "/paid-advertisement/youtube-ads"
       }
     ],
-    "content": { "heading": "Expert Instagram Ads Agency Services for Visual Content That Converts", "text1": "Stories and Reels drive engagement. Our Instagram Ads Agency expertise includes comprehensive Stories advertising, Reels campaign development, and visual content optimization to maximize engagement and conversion rates on Instagram's most engaging formats.", "text2": "Visual storytelling resonates with audiences. As a leading Instagram Ads Company, we create compelling visual narratives, user-generated content strategies, and interactive ad formats that capture attention and drive both brand awareness and direct response conversions on Instagram.", "text3": "Track visual performance and optimize for conversions. Our comprehensive Instagram Ads Services include detailed visual engagement tracking, conversion attribution, and performance analysis to ensure accurate measurement of your Instagram advertising impact and ROI.", "image": "seo.png", "alt": "Instagram Ads Agency Services" },
+    "content": { "heading": "Expert Instagram Ads for Visual Content That Converts", "text1": "Stories and Reels drive engagement. Our Instagram Ads Agency expertise includes comprehensive Stories advertising, Reels campaign development, and visual content optimization to maximize engagement and conversion rates on Instagram's most engaging formats.", "text2": "Visual storytelling resonates with audiences. As a leading Instagram Ads Company, we create compelling visual narratives, user-generated content strategies, and interactive ad formats that capture attention and drive both brand awareness and direct response conversions on Instagram.", "text3": "Track visual performance and optimize for conversions. Our comprehensive Instagram Ads Services include detailed visual engagement tracking, conversion attribution, and performance analysis to ensure accurate measurement of your Instagram advertising impact and ROI.", "image": "seo.png", "alt": "Instagram Ads" },
     "faq": { 
-      "serviceName": "Instagram Ads Agency Services",
+      "serviceName": "Instagram Ads",
       "faqs": [
         { "q": "Why choose your Instagram Ads Agency over other Instagram Ads Company providers?", "a": "As a specialized Instagram Ads Agency, we bring deep expertise in Instagram Ads Services with proven results across multiple industries. Our Instagram Ads Company focuses exclusively on Instagram advertising optimization, ensuring your campaigns receive dedicated attention and expert management that drives measurable engagement and conversions." },
         { "q": "What Instagram Ads Services does your agency provide?", "a": "Our comprehensive Instagram Ads Services include campaign setup and management, visual creative development and testing, Stories and Reels advertising, audience targeting and segmentation, performance monitoring and reporting, and ongoing campaign optimization. We provide end-to-end Instagram Ads Agency services for complete Instagram advertising management." },
@@ -576,6 +656,22 @@
     "hero": { "heading": "Google Display Ads Agency | Expert Google Display Ads Company & Services", "subheading": "Dominate display advertising and drive explosive brand growth with our proven Google Display Ads agency expertise. As a leading Google Display Ads company, we deliver comprehensive Google Display Ads services that capture attention, boost brand awareness, and convert prospects into customers across millions of websites." },
     "form": { "heading": "Scale with Expert Google Display Ads Agency Services", "content": "As a trusted Google Display Ads company, we create visually compelling display campaigns that drive brand awareness and conversions. Our comprehensive Google Display Ads agency services include detailed creative development, audience targeting optimization, and performance analysis to maximize reach and engagement across Google's display network.", "subContent": "Visual storytelling that captures attention. Our Google Display Ads services develop compelling visual narratives, interactive ad formats, and engaging creative content that resonates with your target audience and drives both brand awareness and direct response conversions.", "cta": "Request a free audit of your Google Display Ads account from our expert Google Display Ads agency. Our detailed audit covers campaign structure, creative performance, audience targeting effectiveness, and conversion tracking to identify opportunities for improving your display advertising ROI.", "formHeading": "Free Google Display Ads Agency Audit", "buttonText": "Get My Audit" },
     "services": "Google Display Ads",
+    "process": {
+      "steps": [
+        "Tracking & Audience Audit",
+        "Creative/Placement Strategy",
+        "Campaign Setup & QA",
+        "Optimization & Brand Safety",
+        "Scale Reach & Frequency"
+      ],
+      "content": [
+        "We validate conversions, remarketing lists, and audience signals to ensure high-quality data for Display optimization.",
+        "We design creative specs, messaging variants, and placement/context strategies for awareness and retargeting.",
+        "We build campaigns with exclusions, frequency caps, and brand safety lists; QA across devices.",
+        "We optimize viewability, CTR, CPA, and site placements; refresh creatives and maintain strict brand safety controls.",
+        "We scale reach with Discovery and YouTube assists while controlling frequency and incremental lift."
+      ]
+    },
     "serviceCards": [
   {
     "id": "google-display-ads",
@@ -688,6 +784,22 @@
     "hero": { "heading": "Google Shopping Ads Agency | Expert Google Shopping Ads Company & Services", "subheading": "Dominate product search results and drive explosive e-commerce sales with our proven Google Shopping Ads agency expertise. As a leading Google Shopping Ads company, we deliver comprehensive Google Shopping Ads services that showcase your products, boost visibility, and convert shoppers into buyers across Google's shopping network." },
     "form": { "heading": "Scale with Expert Google Shopping Ads Agency Services", "content": "As a trusted Google Shopping Ads company, we optimise product feeds and shopping campaigns for maximum visibility. Our comprehensive Google Shopping Ads agency services include detailed product feed optimization, shopping campaign structure management, bidding strategy implementation, and performance monitoring to ensure maximum product visibility and conversion rates across Google's shopping network.", "subContent": "Strategic bidding and product data optimisation. Our Google Shopping Ads services implement advanced bidding strategies, product data enhancement, category optimization, and performance analysis to ensure your shopping campaigns deliver maximum ROI and drive qualified traffic to your e-commerce store.", "cta": "Request a free audit of your Google Shopping Ads account from our expert Google Shopping Ads agency. Our detailed audit covers product feed quality, campaign structure, bidding strategies, product performance, and conversion tracking to identify opportunities for improving your Google Shopping advertising effectiveness and sales performance.", "formHeading": "Free Google Shopping Ads Agency Audit", "buttonText": "Get My Audit" },
     "services": "Google Shopping Ads",
+    "process": {
+      "steps": [
+        "Merchant Center & Feed Audit",
+        "Feed Enrichment Strategy",
+        "Campaign Build & Launch",
+        "Bid & Query Optimization",
+        "Scale with PMax & Remarketing"
+      ],
+      "content": [
+        "We audit Merchant Center, product data quality, and policy compliance; validate conversions and enhanced ecommerce.",
+        "We enrich product titles, attributes, and imagery; map categories and diagnostics to improve feed health.",
+        "We structure Shopping campaigns with priorities and item groups; implement negatives and tracking.",
+        "We optimize bids, query matching, and item-level performance; improve ROAS with audience layering.",
+        "We expand with Performance Max, dynamic remarketing, and promotions to scale profitable sales."
+      ]
+    },
     "serviceCards": [
   {
     "id": "google-shopping-ads",
@@ -740,6 +852,22 @@
     "hero": { "heading": "Pay Per Click Marketing Services | Expert Pay Per Click Company & Agency", "subheading": "Dominate search results and drive explosive growth with our proven Pay Per Click Marketing Services. As a leading Pay Per Click Company, we deliver comprehensive Pay Per Click Agency solutions that capture high-intent traffic, maximize conversions, and deliver measurable ROI across Google Ads, Bing Ads, and all major PPC platforms." },
     "form": { "heading": "Scale with Expert Pay Per Click Marketing Services", "content": "As a trusted Pay Per Click Company, we structure and optimize PPC campaigns for maximum performance and profitability. Our comprehensive Pay Per Click Agency services include detailed account audits, keyword research and management, ad copy optimization, landing page testing, bid management, and ongoing campaign optimization to ensure maximum ROI from your pay-per-click advertising investment.", "subContent": "Strategic keyword targeting and conversion optimization. Our Pay Per Click Marketing Services implement advanced keyword strategies, negative keyword management, ad copy testing, landing page optimization, and conversion tracking to capture high-intent search traffic and maximize your conversion rates across all PPC platforms.", "cta": "Request a free audit of your PPC accounts from our expert Pay Per Click Agency. Our comprehensive audit covers account structure, keyword performance, ad copy effectiveness, landing page optimization, and conversion tracking to identify immediate improvement opportunities and growth potential.", "formHeading": "Free Pay Per Click Agency Audit", "buttonText": "Get My Audit" },
     "services": "Pay Per Click Marketing",
+    "process": {
+      "steps": [
+        "Audit & Goal Setting",
+        "Channel & Keyword Strategy",
+        "Campaign Build & Tracking",
+        "Optimization & CRO",
+        "Scale & Budget Allocation"
+      ],
+      "content": [
+        "We audit PPC accounts, analytics, and tracking to set realistic goals and identify quick wins.",
+        "We select channels and keyword themes by intent and competition; define structure, negatives, and extensions.",
+        "We build campaigns with robust measurement, QA tracking, and launch with controlled tests.",
+        "We optimize bids, ads, audiences, and landing pages; implement CRO tests to improve CVR and CPA.",
+        "We scale performing segments and reallocate budget to maximize ROI while maintaining efficiency."
+      ]
+    },
     "serviceCards": [
   {
     "id": "pay-per-click",
@@ -1072,7 +1200,7 @@
       "Pay-Per-Click": "pay-per-click",
       "Bing Ads": "bing-ads",
       "Facebook Ads": "facebook-ads",
-      "Instagram Ads Agency Services": "instagram-ads",
+      "Instagram Ads": "instagram-ads",
       "LinkedIn Ads": "linkedin-ads",
       "Tiktok Ads Agency Services": "tiktok-ads",
       "Snapchat Ads": "snapchat-ads",

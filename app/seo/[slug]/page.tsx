@@ -61,7 +61,7 @@ export default function SeoSlugPage({ params }: { params: { slug: string } }) {
       <SeoForm data={currentSeoData?.form} />
       <BrandsMarquee />
       <SeoServices data={currentSeoData?.services} serviceCards={currentSeoData?.serviceCards} />
-      <Process2 data={currentSeoData?.services} processData={currentSeoData?.process} />
+      <Process2 data={currentSeoData?.services} processData={currentSeoData?.process || seoData['search-engine-optimisation']?.process} />
       <SeoContent data={currentSeoData?.content} />
       <SeoCta data={currentSeoData?.services} />
       <Apart />

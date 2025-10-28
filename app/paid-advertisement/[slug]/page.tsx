@@ -54,7 +54,7 @@ export default function PaidAdsSlugPage({ params }: { params: { slug: string } }
   < SeoServices data = { currentData?.services } serviceCards = { currentData?.serviceCards } basePath = "/paid-advertisement" />
     <Strategic />
     <SeoContent data={currentData?.content} />
-      <Process2 data={currentData?.services} processData={currentData?.process} />
+      <Process2 data={currentData?.services} processData={currentData?.process || paidAdsData['paid-advertisement']?.process} />
         <Apart />
         <CaseStudy />
       <OtherServices />
