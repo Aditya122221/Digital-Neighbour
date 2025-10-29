@@ -570,6 +570,33 @@ const Navbar: React.FC = () => {
                                   'tiktok-marketing',
                                   'x-marketing',
                                 ]);
+                                const contentMarketingSlugs = new Set([
+                                  'content-marketing',
+                                  'blog-writing',
+                                  'content-strategy',
+                                  'social-media-content',
+                                  'email-newsletters',
+                                  'copywriting',
+                                  'graphic-designing',
+                                  'video-editing',
+                                  'photo-shoot',
+                                  'video-shoot',
+                                  'infographic-design',
+                                  'website-copywriting',
+                                  'sales-copywriting',
+                                  'press-release-writing',
+                                  'ad-copywriting',
+                                  'logo-design',
+                                  'email-marketing',
+                                  'pr-outreach',
+                                  'branding',
+                                  'data-and-analytics',
+                                  'conversion-rate-optimization',
+                                  'call-tracking',
+                                  'reporting-and-dashboards',
+                                  'google-analytics',
+                                  'google-tag-manager',
+                                ]);
                                 if (seoSlugs.has(name)) {
                                   // Map naming differences
                                   const slugMap: Record<string, string> = {
@@ -597,6 +624,10 @@ const Navbar: React.FC = () => {
                                   };
                                   const slug = slugMap[name] || name;
                                   return `/social-media-marketing/${slug}`;
+                                }
+                                if (contentMarketingSlugs.has(name)) {
+                                  const slug = name;
+                                  return `/content-marketing/${slug}`;
                                 }
                                 return `/services/${name}`;
                               })()}
@@ -748,6 +779,13 @@ const Navbar: React.FC = () => {
                                     'tiktok-marketing',
                                     'x-marketing',
                                   ]);
+                                  const contentMarketingSlugs = new Set([
+                                    'content-marketing',
+                                    'blog-writing',
+                                    'content-strategy',
+                                    'social-media-content',
+                                    'email-newsletters',
+                                  ]);
                                   if (seoSlugs.has(name)) {
                                     // Map naming differences
                                     const slugMap: Record<string, string> = {
@@ -775,6 +813,10 @@ const Navbar: React.FC = () => {
                                     };
                                     const slug = slugMap[name] || name;
                                     return `/social-media-marketing/${slug}`;
+                                  }
+                                  if (contentMarketingSlugs.has(name)) {
+                                    const slug = name;
+                                    return `/content-marketing/${slug}`;
                                   }
                                   return `/services/${name}`;
                                 })()}
