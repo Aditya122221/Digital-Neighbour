@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import seoData from "@/data/seo.json";
 import paidAdsData from "@/data/paid-ads.json";
+import socialMediaData from "@/data/social-media.json";
 
 // Types for the data structure
 interface OtherServicesData {
@@ -49,6 +50,13 @@ export default function OtherServices() {
       services: paidAdsData.otherServices.paidAdsServices,
       slugMapping: paidAdsData.otherServices.slugMapping,
       config: paidAdsData.otherServices.config
+    };
+  } else if (pathname.startsWith('/social-media-marketing')) {
+    // Use social media data
+    data = {
+      services: (socialMediaData as any).otherServices.socialMediaServices,
+      slugMapping: (socialMediaData as any).otherServices.slugMapping,
+      config: (socialMediaData as any).otherServices.config
     };
   } else {
     // Default to SEO data (for /seo routes)

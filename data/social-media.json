@@ -1,0 +1,168 @@
+{
+  "social-media-marketing": {
+    "hero": {
+      "heading": "Social Media Management that Drives Growth",
+      "subheading": "Strategic content, community management, and performance insights for Meta, LinkedIn, TikTok, and more."
+    },
+    "form": {
+      "heading": "Is your social presence working hard enough?",
+      "content": "We audit your brand, content pillars, competitors, and audience signals to build a social strategy that compounds reach, engagement, and conversions.",
+      "subContent": "There are likely UNTAPPED opportunities across platforms your audience uses daily.",
+      "cta": "Get a free social audit and strategy outline—no fluff, just actionable insights.",
+      "formHeading": "Get a free Social Media Audit & Strategy Outline",
+      "buttonText": "Get My Social Audit"
+    },
+    "services": "Social Media Marketing",
+    "serviceCards": [
+      {
+        "id": "facebook-marketing",
+        "name": "Facebook",
+        "title": "Facebook Page & Community Management",
+        "description": "Content calendars, community moderation, and performance tracking designed to grow reach and engagement sustainably.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/social-media-marketing/facebook-marketing"
+      },
+      {
+        "id": "instagram-marketing",
+        "name": "Instagram",
+        "title": "Instagram Content & Growth",
+        "description": "Reels-first creative, story sequencing, and grid design that increase discoverability and profile actions.",
+        "image": "/seo/services/on-page.webp",
+        "link": "/social-media-marketing/instagram-marketing"
+      },
+      {
+        "id": "linkedin-marketing",
+        "name": "LinkedIn",
+        "title": "LinkedIn Content for B2B",
+        "description": "Executive branding, thought leadership, and narrative-driven posts to drive pipeline and partnerships.",
+        "image": "/seo/services/technical.webp",
+        "link": "/social-media-marketing/linkedin-marketing"
+      },
+      {
+        "id": "tiktok-marketing",
+        "name": "TikTok",
+        "title": "TikTok Creative & Momentum",
+        "description": "Short-form creative systems and hooks that align with trends while staying true to your brand.",
+        "image": "/seo/services/seo.webp",
+        "link": "/social-media-marketing/tiktok-marketing"
+      },
+      {
+        "id": "youtube-community-marketing",
+        "name": "YouTube",
+        "title": "YouTube Community & Content Ops",
+        "description": "Content planning, thumbnails, metadata, and moderation—built for retention and subscriptions.",
+        "image": "/seo/services/seo-audit.png",
+        "link": "/social-media-marketing/youtube-community-marketing"
+      }
+    ],
+    "painpoints": {
+      "heading": "Tired of social media efforts that don’t deliver?",
+      "items": [
+        { "icon": "💸", "title": "Lack of leads or sales from social?" },
+        { "icon": "⚡", "title": "Struggling to keep up with trends?" },
+        { "icon": "📊", "title": "Unsure how to measure social media ROI?" },
+        { "icon": "🎨", "title": "Lacking in creative production capabilities?" }
+      ]
+    },
+    "content": {
+      "heading": "Make social your highest-leverage channel.",
+      "text1": "Most brands post inconsistently and treat social as an afterthought. We turn it into a growth engine with predictable output and measurable outcomes.",
+      "text2": "From messaging to media ops, we build sustainable systems for content, community, and conversion.",
+      "text3": "We align platform algorithms with brand goals—so creative earns attention and attention becomes demand.",
+      "image": "hero.png",
+      "alt": "Social Media Management illustration"
+    },
+    "process": {
+      "steps": [
+        "Discovery & Audit",
+        "Strategy & Pillars",
+        "Production & Scheduling",
+        "Community & Optimisation",
+        "Reporting & Iteration"
+      ],
+      "content": [
+        "We review your brand, audience, competitors, and current analytics to find opportunities across channels.",
+        "Define content pillars, messaging angles, and platform roles aligned with business outcomes.",
+        "Build a monthly calendar, produce assets, and schedule natively for each platform.",
+        "Manage comments, DMs, and community interactions; test formats and hooks to improve outcomes.",
+        "Deliver insights dashboards and iterate on what compounds reach, engagement, and conversions."
+      ]
+    },
+    "faq": {
+      "serviceName": "Social Media Management",
+      "faqs": [
+        { "q": "How do you measure success?", "a": "We track reach, engagement, community health, and conversions—reporting monthly with clear next steps." },
+        { "q": "Do you create content?", "a": "Yes. We can run end-to-end production or collaborate with your in-house team and creators." },
+        { "q": "Which platforms do you support?", "a": "Meta (Facebook & Instagram), LinkedIn, TikTok, YouTube, Pinterest, and X (Twitter)." }
+      ]
+    }
+  },
+  "otherServices": {
+    "socialMediaServices": [
+      "Facebook Marketing",
+      "X Marketing",
+      "Instagram Marketing",
+      "Linkedin Marketing",
+      "Tiktok Marketing",
+      "Snapchat Marketing",
+      "Reddit Marketing",
+      "Influencer marketing"
+    ],
+    "slugMapping": {
+      "Facebook Marketing": "facebook-marketing",
+      "X Marketing": "x-marketing",
+      "Instagram Marketing": "instagram-marketing",
+      "Linkedin Marketing": "linkedin-marketing",
+      "Tiktok Marketing": "tiktok-marketing",
+      "Snapchat Marketing": "snapchat-marketing",
+      "Reddit Marketing": "reddit-marketing",
+      "Influencer marketing": "influencer-marketing"
+    },
+    "config": {
+      "title": "Explore more in ",
+      "highlightedText": "Social Media",
+      "columns": 4,
+      "baseUrl": "/social-media-marketing/"
+    }
+  },
+
+  "facebook-marketing": {
+    "services": "Facebook Marketing",
+    "hero": { "heading": "Facebook Page & Community Marketing", "subheading": "Grow reach and engagement with an always-on presence." }
+  },
+  "instagram-marketing": {
+    "services": "Instagram Marketing",
+    "hero": { "heading": "Instagram Content & Growth", "subheading": "Reels-first creative and story sequencing built for discovery." }
+  },
+  "linkedin-marketing": {
+    "services": "LinkedIn Marketing",
+    "hero": { "heading": "LinkedIn for B2B Growth", "subheading": "Executive branding and thought leadership to generate pipeline." }
+  },
+  "tiktok-marketing": {
+    "services": "TikTok Marketing",
+    "hero": { "heading": "TikTok Creative & Momentum", "subheading": "Short-form systems that align with trends and brand." }
+  },
+  "youtube-community-marketing": {
+    "services": "YouTube Community Marketing",
+    "hero": { "heading": "YouTube Community & Content Ops", "subheading": "Retention-first content planning, moderation, and analytics." }
+  }
+  ,
+  "x-marketing": {
+    "services": "X Marketing",
+    "hero": { "heading": "X (Twitter) Strategy & Content", "subheading": "Fast, native content systems for reach, relevance, and conversation." }
+  },
+  "snapchat-marketing": {
+    "services": "Snapchat Marketing",
+    "hero": { "heading": "Snapchat Creative & Stories Ops", "subheading": "Native-first creative and programming to grow views and subscriptions." }
+  },
+  "reddit-marketing": {
+    "services": "Reddit Marketing",
+    "hero": { "heading": "Reddit Community & AMA Strategy", "subheading": "Participate authentically, drive discussion, and build community trust." }
+  },
+  "influencer-marketing": {
+    "services": "Influencer Marketing",
+    "hero": { "heading": "Influencer Sourcing & Campaign Ops", "subheading": "Find creators, manage briefs, and attribute outcomes across platforms." }
+  }
+}
+
+

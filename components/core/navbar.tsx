@@ -563,6 +563,13 @@ const Navbar: React.FC = () => {
                                   'youtube-ads',
                                   'paid-advertisement',
                                 ]);
+                                const socialMediaSlugs = new Set([
+                                  'facebook-marketing',
+                                  'instagram-marketing',
+                                  'linkedin-marketing',
+                                  'tiktok-marketing',
+                                  'x-marketing',
+                                ]);
                                 if (seoSlugs.has(name)) {
                                   // Map naming differences
                                   const slugMap: Record<string, string> = {
@@ -579,6 +586,17 @@ const Navbar: React.FC = () => {
                                   };
                                   const slug = slugMap[name] || name;
                                   return `/paid-advertisement/${slug}`;
+                                }
+                                if (socialMediaSlugs.has(name)) {
+                                  const slugMap: Record<string, string> = {
+                                    'facebook-marketing': 'facebook-marketing',
+                                    'instagram-marketing': 'instagram-marketing',
+                                    'linkedin-marketing': 'linkedin-marketing',
+                                    'tiktok-marketing': 'tiktok-marketing',
+                                    'x-marketing': 'twitter-x-marketing',
+                                  };
+                                  const slug = slugMap[name] || name;
+                                  return `/social-media-marketing/${slug}`;
                                 }
                                 return `/services/${name}`;
                               })()}
@@ -723,6 +741,13 @@ const Navbar: React.FC = () => {
                                     'youtube-ads',
                                     'paid-advertisement',
                                   ]);
+                                  const socialMediaSlugs = new Set([
+                                    'facebook-marketing',
+                                    'instagram-marketing',
+                                    'linkedin-marketing',
+                                    'tiktok-marketing',
+                                    'x-marketing',
+                                  ]);
                                   if (seoSlugs.has(name)) {
                                     // Map naming differences
                                     const slugMap: Record<string, string> = {
@@ -739,6 +764,17 @@ const Navbar: React.FC = () => {
                                     };
                                     const slug = slugMap[name] || name;
                                     return `/paid-advertisement/${slug}`;
+                                  }
+                                  if (socialMediaSlugs.has(name)) {
+                                    const slugMap: Record<string, string> = {
+                                      'facebook-marketing': 'facebook-marketing',
+                                      'instagram-marketing': 'instagram-marketing',
+                                      'linkedin-marketing': 'linkedin-marketing',
+                                      'tiktok-marketing': 'tiktok-marketing',
+                                      'x-marketing': 'twitter-x-marketing',
+                                    };
+                                    const slug = slugMap[name] || name;
+                                    return `/social-media-marketing/${slug}`;
                                   }
                                   return `/services/${name}`;
                                 })()}
