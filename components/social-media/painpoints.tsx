@@ -13,7 +13,8 @@ export default function PainPoints({
 }: {
   data?: { heading?: string; items?: PainPointItem[] };
 }) {
-  const heading = data?.heading ?? "Tired of social media efforts that don’t deliver?";
+  const defaultHeading = "Tired of social media efforts that don't deliver?";
+  const heading = data?.heading ?? defaultHeading;
   const items: PainPointItem[] =
     data?.items ?? [
       {
@@ -34,12 +35,103 @@ export default function PainPoints({
       },
     ];
 
+  // Helper function to render heading with highlights
+  const HighlightText = ({ children }: { children: React.ReactNode }) => (
+    <span className="relative inline-block">
+      <span className="absolute bottom-1 left-0 right-0 h-1/2 bg-yellow z-0"></span>
+      <span className="relative z-10 font-semibold italic">{children}</span>
+    </span>
+  );
+
+  const renderHeading = () => {
+    if (heading === defaultHeading) {
+      return (
+        <>
+          Tired of <HighlightText>social media efforts</HighlightText> that{" "}
+          <HighlightText>don't deliver</HighlightText>?
+        </>
+      );
+    }
+    if (heading === "Hard to gain traction on X?") {
+      return (
+        <>
+          Hard to gain traction on <HighlightText>X</HighlightText>?
+        </>
+      );
+    }
+    if (heading === "Struggling to grow on Facebook?") {
+      return (
+        <>
+          Struggling to grow on <HighlightText>Facebook</HighlightText>?
+        </>
+      );
+    }
+    if (heading === "Is Instagram growth stalling?") {
+      return (
+        <>
+          Is <HighlightText>Instagram</HighlightText> growth stalling?
+        </>
+      );
+    }
+    if (heading === "Not seeing traction on LinkedIn?") {
+      return (
+        <>
+          Not seeing traction on <HighlightText>LinkedIn</HighlightText>?
+        </>
+      );
+    }
+    if (heading === "Publishing on TikTok without momentum?") {
+      return (
+        <>
+          Publishing on <HighlightText>TikTok</HighlightText> without momentum?
+        </>
+      );
+    }
+    if (heading === "YouTube not compounding yet?") {
+      return (
+        <>
+          <HighlightText>YouTube</HighlightText> not compounding yet?
+        </>
+      );
+    }
+    if (heading === "Pins not driving traffic?") {
+      return (
+        <>
+          <HighlightText>Pins</HighlightText> not driving traffic?
+        </>
+      );
+    }
+    if (heading === "Stories not getting views?") {
+      return (
+        <>
+          <HighlightText>Stories</HighlightText> not getting views?
+        </>
+      );
+    }
+    if (heading === "Worried about missteps on Reddit?") {
+      return (
+        <>
+          Worried about missteps on <HighlightText>Reddit</HighlightText>?
+        </>
+      );
+    }
+    if (heading === "Creator programs not delivering?") {
+      return (
+        <>
+          Creator <HighlightText>programs</HighlightText> not{" "}
+          <HighlightText>delivering</HighlightText>?
+        </>
+      );
+    }
+    return heading;
+  };
+
   return (
     <section className="relative">
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 lg:px-12 py-16 md:py-24">
-        <h2 className="text-center text-2xl md:text-4xl lg:text-5xl font-semibold text-black font-cal-sans">
-          {heading}
+        <h2 className="text-center text-4xl md:text-5xl lg:text-6xl font-semibold text-black font-cal-sans leading-tight">
+          {renderHeading()}
         </h2>
 
         <div className="mt-10 md:mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">

@@ -240,10 +240,42 @@
 }
 
 .scrollbar-thin::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
+  background: var(--yellow);
   border-radius: 3px;
 }
 
 .scrollbar-thin::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
+  background: #facc15;
+}
+
+/* Global scrollbar colors */
+/* Firefox */
+html {
+  scrollbar-color: var(--yellow) transparent;
+}
+
+/* WebKit-based browsers */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--yellow);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #facc15; /* slightly darker yellow on hover */
+}
+
+/* Text selection color */
+::selection {
+  background: var(--yellow);
+  color: var(--black);
+}
+::-moz-selection {
+  background: var(--yellow);
+  color: var(--black);
 }

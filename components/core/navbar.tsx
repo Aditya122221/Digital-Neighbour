@@ -593,7 +593,7 @@ const Navbar: React.FC = () => {
                                     'instagram-marketing': 'instagram-marketing',
                                     'linkedin-marketing': 'linkedin-marketing',
                                     'tiktok-marketing': 'tiktok-marketing',
-                                    'x-marketing': 'twitter-x-marketing',
+                                    'x-marketing': 'x-marketing',
                                   };
                                   const slug = slugMap[name] || name;
                                   return `/social-media-marketing/${slug}`;
@@ -771,7 +771,7 @@ const Navbar: React.FC = () => {
                                       'instagram-marketing': 'instagram-marketing',
                                       'linkedin-marketing': 'linkedin-marketing',
                                       'tiktok-marketing': 'tiktok-marketing',
-                                      'x-marketing': 'twitter-x-marketing',
+                                      'x-marketing': 'x-marketing',
                                     };
                                     const slug = slugMap[name] || name;
                                     return `/social-media-marketing/${slug}`;
