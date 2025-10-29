@@ -26,7 +26,7 @@ export default function PaidAdvertisementPage() {
       <SeoForm data={currentData?.form} />
       <BrandsMarquee />
     < SeoServices data = { currentData?.services } serviceCards = { currentData?.serviceCards } basePath = "/paid-advertisement" />
-        <Strategic />
+        <Strategic data={currentData?.strategic} serviceName={currentData?.services} />
         <SeoContent data={currentData?.content} />
       <Process2 data={currentData?.services} processData={currentData?.process} />
           <Apart />

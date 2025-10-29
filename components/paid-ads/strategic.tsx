@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 
 interface StrategicBlockProps {
   icon: string;
@@ -31,34 +32,21 @@ function StrategicBlock({ icon, title, description }: StrategicBlockProps) {
   );
 }
 
-export default function Strategic() {
-  const strategicBlocks = [
-    {
-      icon: "👥",
-      title: "Enhance Your Lead Generation Strategy",
-      description: "Let us help you boost your lead generation. We focus on attracting high-quality prospects in substantial volumes to propel your business growth."
-    },
-    {
-      icon: "💰",
-      title: "Maximize Budget Efficiency and ROI",
-      description: "We'll overhaul your paid search marketing campaigns to ensure efficient spending and optimized cost per acquisition so you can achieve the highest possible return on investment."
-    },
-    {
-      icon: "🎯",
-      title: "Optimize Targeting and Campaign Structure",
-      description: "By refining your audience targeting, campaign structure, and keyword strategies, we'll enhance your efforts to ensure your ads reach the most relevant and engaged audiences."
-    },
-    {
-      icon: "⚙️",
-      title: "Leverage Our End-to-End Campaign Management",
-      description: "Addressing any internal resource gaps, we provide comprehensive support in setting up, managing, and optimizing your paid search marketing campaigns. Our expertise and access to cutting-edge tools and strategies ensure your campaigns consistently perform at their peak and deliver exceptional results."
-    },
-    {
-      icon: "🌐",
-      title: "Elevate Audience Targeting",
-      description: "Using first-party data, custom audience segments, and detailed demographic insights, we'll improve your audience targeting to make sure you connect with potential customers effectively."
-    }
+interface StrategicSectionData {
+  heading?: string;
+  blocks: StrategicBlockProps[];
+}
+
+export default function Strategic({ data, serviceName }: { data?: StrategicSectionData; serviceName?: string }) {
+  const heading = (data && data.heading) || (serviceName ? `Dominate With a Strategic Approach to ${serviceName}` : "Dominate With a Strategic Approach to Paid Search");
+  const fallbackBlocks: StrategicBlockProps[] = [
+    { icon: "👥", title: "Enhance Your Lead Generation Strategy", description: "Let us help you boost your lead generation. We focus on attracting high-quality prospects in substantial volumes to propel your business growth." },
+    { icon: "💰", title: "Maximize Budget Efficiency and ROI", description: "We'll overhaul your campaigns to ensure efficient spending and optimized cost per acquisition so you can achieve the highest possible return on investment." },
+    { icon: "🎯", title: "Optimize Targeting and Campaign Structure", description: "By refining your audience targeting, campaign structure, and keyword strategies, we'll ensure your ads reach the most relevant and engaged audiences." },
+    { icon: "⚙️", title: "End-to-End Campaign Management", description: "We provide comprehensive support in setting up, managing, and optimizing your campaigns using cutting-edge tools and strategies to deliver exceptional results." },
+    { icon: "🌐", title: "Elevate Audience Targeting", description: "Using first-party data, custom segments, and demographic insights, we'll improve your audience targeting to connect with potential customers effectively." }
   ];
+  const blocks = Array.isArray(data?.blocks) && data.blocks.length > 0 ? data.blocks : fallbackBlocks;
 
   return (
     <section className="relative py-16 md:py-24 lg:py-32">
@@ -81,7 +69,7 @@ export default function Strategic() {
         {/* Main Title */}
         <div className="text-center mb-16 md:mb-20">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight font-cal-sans" style={{ color: 'white' }}>
-            Dominate With a Strategic Approach to Paid Search
+            {heading}
           </h2>
         </div>
 
@@ -89,7 +77,7 @@ export default function Strategic() {
         <div className="space-y-16 md:space-y-20">
           {/* Top Row - 3 blocks */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16">
-            {strategicBlocks.slice(0, 3).map((block, index) => (
+            {blocks.slice(0, 3).map((block, index) => (
               <StrategicBlock
                 key={index}
                 icon={block.icon}
@@ -102,7 +90,7 @@ export default function Strategic() {
           {/* Bottom Row - 2 blocks centered */}
           <div className="flex justify-center">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 max-w-5xl">
-              {strategicBlocks.slice(3, 5).map((block, index) => (
+              {blocks.slice(3, 5).map((block, index) => (
                 <StrategicBlock
                   key={index + 3}
                   icon={block.icon}

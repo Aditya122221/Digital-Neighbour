@@ -67,6 +67,36 @@
         "link": "/paid-advertisement/youtube-ads"
       }
     ],
+    "strategic": {
+      "heading": "Dominate With a Strategic Approach to Paid Search",
+      "blocks": [
+        {
+          "icon": "👥",
+          "title": "Enhance Your Lead Generation Strategy",
+          "description": "Let us help you boost your lead generation. We focus on attracting high-quality prospects in substantial volumes to propel your business growth."
+        },
+        {
+          "icon": "💰",
+          "title": "Maximize Budget Efficiency and ROI",
+          "description": "We'll overhaul your paid search marketing campaigns to ensure efficient spending and optimized cost per acquisition so you can achieve the highest possible return on investment."
+        },
+        {
+          "icon": "🎯",
+          "title": "Optimize Targeting and Campaign Structure",
+          "description": "By refining your audience targeting, campaign structure, and keyword strategies, we'll enhance your efforts to ensure your ads reach the most relevant and engaged audiences."
+        },
+        {
+          "icon": "⚙️",
+          "title": "Leverage Our End-to-End Campaign Management",
+          "description": "Addressing any internal resource gaps, we provide comprehensive support in setting up, managing, and optimizing your paid search marketing campaigns. Our expertise and access to cutting-edge tools and strategies ensure your campaigns consistently perform at their peak and deliver exceptional results."
+        },
+        {
+          "icon": "🌐",
+          "title": "Elevate Audience Targeting",
+          "description": "Using first-party data, custom audience segments, and detailed demographic insights, we'll improve your audience targeting to make sure you connect with potential customers effectively."
+        }
+      ]
+    },
     "content": {
       "heading": "Creative + Data = Scalable Paid Media",
       "text1": "We combine rapid creative testing with structured account architecture for durable learnings and efficient spend. Our systematic approach to creative testing involves developing multiple ad variations, implementing A/B testing frameworks, and analyzing performance data to identify winning creative elements that drive engagement and conversions.",
@@ -140,6 +170,16 @@
     "link": "/paid-advertisement/youtube-ads"
   }
 ],
+    "strategic": {
+      "heading": "Dominate With a Strategic Approach to Google Ads",
+      "blocks": [
+        { "icon": "🔍", "title": "Own High-Intent Search", "description": "Capture ready-to-buy users with tightly themed ad groups, precise match types, and compelling RSAs." },
+        { "icon": "⚖️", "title": "Maximize ROAS with Smart Bidding", "description": "Leverage data-driven bidding and conversion value optimization tuned to your KPIs." },
+        { "icon": "🧭", "title": "Clean Account Architecture", "description": "Structured campaigns that enable fast iteration, clearer insights, and budget control." },
+        { "icon": "🧪", "title": "Iterative Ad Testing", "description": "Systematic copy and asset testing to improve CTR, Quality Score, and CPA." },
+        { "icon": "📈", "title": "Scale Winners Confidently", "description": "Expand keywords, layer audiences, and introduce PMax/Discovery to compound growth." }
+      ]
+    },
     "content": { "heading": "Expert Google Ads Agency Services That Own High-Intent Moments", "text1": "Win the SERP with smart bidding + clean structure. Our Google Ads agency expertise includes advanced bidding strategy implementation, account structure optimization, keyword research and expansion, and ongoing campaign management to ensure maximum visibility and conversion rates for high-intent search queries.", "text2": "Feed health and product data matter for Shopping. As a leading Google Ads company, we specialize in Google Shopping campaign optimization, including product feed management, data quality improvement, shopping campaign structure optimization, and performance monitoring to maximize your e-commerce advertising success.", "text3": "We track granular conversions to guide bids. Our comprehensive Google Ads services include detailed attribution modeling, conversion value optimization, and data-driven bidding strategies that ensure every dollar spent delivers maximum return on investment.", "image": "seo.png", "alt": "Google Ads Agency Services" },
     "faq": { 
       "serviceName": "Google Ads",
@@ -208,6 +248,16 @@
     "link": "/paid-advertisement/meta-testing"
   }
 ],
+    "strategic": {
+      "heading": "Dominate With a Strategic Approach to Meta Ads",
+      "blocks": [
+        { "icon": "🧲", "title": "Creative-Led Prospecting", "description": "Hook-driven creatives that win the scroll and drive efficient acquisition on Feed, Reels, and Stories." },
+        { "icon": "🎯", "title": "Signal-Rich Targeting", "description": "High-quality events and audience layering to guide delivery toward likely converters." },
+        { "icon": "🧪", "title": "Structured Testing Sprints", "description": "Iterate angles, formats, and offers to find durable winners that scale." },
+        { "icon": "🔁", "title": "Full-Funnel Retargeting", "description": "Segmented sequences that convert attention into revenue with tailored messaging." },
+        { "icon": "📊", "title": "Measurement That Matters", "description": "CAPI, enhanced matching, and clean naming conventions for decision-ready insights." }
+      ]
+    },
     "content": { "heading": "Creative drives outcomes", "text1": "We iterate fast on angles and formats. Our Meta advertising approach includes rapid creative testing, format experimentation, angle optimization, and performance analysis to identify the most engaging and effective creative elements that drive audience engagement and conversion.", "text2": "Signal quality and events shape performance. We implement sophisticated audience targeting strategies, event tracking optimization, and signal quality improvement to ensure your Meta campaigns reach the most relevant audiences and generate high-quality engagement and conversions.", "text3": "Retargeting converts attention into revenue. Our retargeting strategies include sophisticated audience segmentation, personalized messaging, and conversion-focused campaigns that re-engage previous visitors and convert them into customers, maximizing your return on advertising investment.", "image": "hero.png", "alt": "Meta Ads" },
     "faq": { 
       "serviceName": "Meta Ads",
@@ -275,6 +325,16 @@
     "link": "/paid-advertisement/linkedin-lead-nurturing"
   }
 ],
+    "strategic": {
+      "heading": "Dominate With a Strategic Approach to LinkedIn Ads",
+      "blocks": [
+        { "icon": "🎯", "title": "Precision B2B Targeting", "description": "Target decision-makers by job title, seniority, industry, and company lists to reach the right buyers." },
+        { "icon": "💼", "title": "Pipeline-Focused Strategy", "description": "Align campaigns with sales goals, tracking lead quality and downstream revenue, not just CPL." },
+        { "icon": "📧", "title": "Multi-Format Campaigns", "description": "Leverage Sponsored Content, Message Ads, and dynamic formats to engage prospects at every stage." },
+        { "icon": "🔗", "title": "CRM Integration & Automation", "description": "Seamless lead routing, scoring, and nurturing to accelerate pipeline velocity." },
+        { "icon": "📊", "title": "Account-Based Expansion", "description": "Scale through account lists, lookalike audiences, and warm sequences while maintaining efficiency." }
+      ]
+    },
     "content": { "heading": "High-signal demand gen", "text1": "Target by title, skills, and company lists. Our LinkedIn advertising expertise includes sophisticated professional audience targeting, job title segmentation, skill-based targeting, and company list management to ensure your campaigns reach the most relevant B2B decision-makers and influencers.", "text2": "Use content and offers to warm accounts. We develop compelling content strategies, lead magnets, and professional offers that resonate with your target audience, building trust and engagement before conversion to maximize lead quality and sales success.", "text3": "Optimise for downstream revenue, not only CPL. Our LinkedIn advertising approach focuses on lead quality optimization, sales pipeline development, and revenue attribution to ensure your campaigns generate leads that convert into actual business value and long-term customer relationships.", "image": "hero.png", "alt": "LinkedIn Ads" },
     "faq": { 
       "serviceName": "LinkedIn Ads",
@@ -341,6 +401,16 @@
     "link": "/paid-advertisement/youtube-ads"
   }
 ],
+    "strategic": {
+      "heading": "Dominate With a Strategic Approach to YouTube Ads",
+      "blocks": [
+        { "icon": "🎬", "title": "Hook-Driven Video Creatives", "description": "Craft scripts and visuals that capture attention in the first 5 seconds to maximize view-through rates." },
+        { "icon": "🎭", "title": "Multi-Format Campaign Strategy", "description": "Deploy in-stream, discovery, bumper, and Shorts ads for comprehensive reach and engagement." },
+        { "icon": "📺", "title": "Audience Layering & Sequencing", "description": "Build sophisticated targeting stacks that guide viewers from awareness to conversion." },
+        { "icon": "📈", "title": "Performance Measurement", "description": "Track view-through conversions, assisted conversions, and brand lift to capture full campaign impact." },
+        { "icon": "🚀", "title": "Scale Through Iteration", "description": "Test hooks, CTAs, and placements continuously to improve CPV and CAC at scale." }
+      ]
+    },
     "content": { "heading": "Expert Youtube Ads Agency Services for Video That Sells", "text1": "Creative frameworks accelerate testing. Our Youtube Ads Agency expertise includes systematic video creative testing, storytelling frameworks, hook optimization, and performance analysis to identify the most engaging and effective video content that drives audience engagement and conversion.", "text2": "Audience layering and sequencing matter. As a leading Youtube Ads Company, we implement sophisticated audience targeting strategies, audience layering techniques, and campaign sequencing to ensure your YouTube ads reach the right viewers at the right time in their customer journey, maximizing engagement and conversion rates.", "text3": "Measure view-through and assisted conversions. Our comprehensive Youtube Ads Services include detailed conversion tracking, view-through attribution, assisted conversion analysis, and ROI optimization to ensure accurate measurement of your video advertising impact and return on investment.", "image": "seo.png", "alt": "Youtube Ads Agency Services" },
     "faq": { 
       "serviceName": "Youtube Ads",
@@ -409,6 +479,16 @@
     "link": "/paid-advertisement/google-remarketing"
   }
 ],
+    "strategic": {
+      "heading": "Dominate With a Strategic Approach to Google Remarketing",
+      "blocks": [
+        { "icon": "🎯", "title": "Intent-Based Audience Segmentation", "description": "Create granular lists by behavior—visitors, viewers, abandoners—to personalize messaging." },
+        { "icon": "🔄", "title": "Omnichannel Retargeting", "description": "Deploy across Display, Search, and YouTube to reach users wherever they are." },
+        { "icon": "🛍️", "title": "Dynamic Product Remarketing", "description": "Automatically showcase viewed products with personalized ad experiences." },
+        { "icon": "⚖️", "title": "Frequency & Performance Control", "description": "Manage frequency caps, audience overlap, and bidding to prevent fatigue and maximize ROAS." },
+        { "icon": "📊", "title": "Scale Through Similar Audiences", "description": "Expand beyond site visitors with predictive modeling to grow conversions efficiently." }
+      ]
+    },
     "content": { "heading": "Re-engage with precision", "text1": "Create custom audiences from website visitors. Our Google remarketing expertise includes sophisticated audience segmentation, dynamic audience creation, and cross-platform audience management to ensure your remarketing campaigns reach the most relevant and valuable prospects across Google's entire advertising ecosystem.", "text2": "Test different creative approaches for retargeting. We implement comprehensive creative testing strategies, personalized messaging, and format optimization to ensure your remarketing campaigns deliver compelling and relevant content that drives engagement and conversion from previous website visitors.", "text3": "Optimise for conversions with smart bidding. Our remarketing optimization includes advanced bidding strategies, conversion tracking setup, and performance analysis to ensure your remarketing campaigns deliver maximum ROI and convert your most valuable prospects into customers.", "image": "seo.png", "alt": "Google Remarketing" },
     "faq": { 
       "serviceName": "Google Remarketing",
@@ -467,6 +547,16 @@
         "link": "/paid-advertisement/paid-social"
       }
     ],
+    "strategic": {
+      "heading": "Dominate With a Strategic Approach to Google Shopping",
+      "blocks": [
+        { "icon": "📦", "title": "Feed Health Optimization", "description": "Enhance product data quality, titles, images, and attributes to maximize visibility and ranking." },
+        { "icon": "💰", "title": "Smart Bidding Strategies", "description": "Leverage target ROAS and Max Performance bidding to optimize for profitable conversions." },
+        { "icon": "🎯", "title": "Strategic Campaign Structure", "description": "Organize by priority, product groups, and performance tiers for better control and insights." },
+        { "icon": "📈", "title": "Query & Performance Optimization", "description": "Refine negative keywords, audience layering, and item-level bidding to improve ROAS." },
+        { "icon": "🚀", "title": "Scale with Performance Max", "description": "Expand reach across Google networks with dynamic campaigns that combine Shopping, Display, and more." }
+      ]
+    },
     "content": { "heading": "Expert Google Shopping Ads Agency Services for Visual Product Advertising", "text1": "Optimise product feeds for maximum visibility. Our Google Shopping Ads agency expertise includes comprehensive product feed optimization, data quality improvement, category enhancement, and feed management to ensure your products appear prominently in Google Shopping results and drive maximum qualified traffic to your e-commerce store.", "text2": "Strategic bidding for shopping campaigns. As a leading Google Shopping Ads company, we implement advanced bidding strategies, product-level optimization, and performance monitoring to ensure your Google Shopping campaigns deliver maximum ROI and drive qualified traffic that converts into sales for your e-commerce business.", "text3": "Track performance and optimise for sales. Our comprehensive Google Shopping Ads services include detailed conversion tracking, sales attribution analysis, and performance optimization to ensure accurate measurement of your shopping campaign impact and continuous improvement of your e-commerce advertising ROI.", "image": "seo.png", "alt": "Google Shopping Ads Agency Services" },
     "faq": { 
       "serviceName": "Google Shopping Ads",
@@ -534,7 +624,17 @@
     "image": "/seo/services/technical.webp",
     "link": "/paid-advertisement/paid-social"
   }
-],
+  ],
+    "strategic": {
+      "heading": "Dominate With a Strategic Approach to Paid Social",
+      "blocks": [
+        { "icon": "🌐", "title": "Cross-Platform Strategy", "description": "Unified campaigns across Facebook, Instagram, LinkedIn, and TikTok for maximum reach." },
+        { "icon": "🎨", "title": "Platform-Native Creative", "description": "Test hooks, formats, and angles tailored to each platform's unique audience behavior." },
+        { "icon": "🎯", "title": "Audience Segmentation", "description": "Map demographic, behavioral, and psychographic insights to the right messaging." },
+        { "icon": "📊", "title": "Performance Optimization", "description": "Continuous testing and budget reallocation to maintain cost efficiency and impact." },
+        { "icon": "🚀", "title": "Scale Winning Campaigns", "description": "Expand validated strategies across platforms while preserving profitability and freshness." }
+      ]
+    },
     "content": { "heading": "Expert Paid Social Ads Agency Services That Convert", "text1": "Multi-platform social media advertising. Our comprehensive Paid Social Services include platform-specific campaign development, cross-platform optimization, and unified reporting across Facebook, Instagram, LinkedIn, TikTok, and other emerging social platforms to maximize your social media advertising reach and ROI.", "text2": "Creative testing and audience targeting. As a leading Paid Social Agency, we implement sophisticated creative testing frameworks, audience research and segmentation, and performance optimization techniques to ensure your social media campaigns reach the right audiences with the most engaging content, driving maximum engagement and conversion rates across all platforms.", "text3": "Track performance across all social channels. Our Paid Social Ads Agency measurement includes comprehensive cross-platform tracking, conversion attribution, and performance analysis to ensure accurate measurement of your social media advertising impact and continuous optimization of your social media ROI.", "image": "seo.png", "alt": "Paid Social Ads Agency Services" },
     "faq": { 
       "serviceName": "Paid Social Ads",
@@ -595,6 +695,16 @@
     "link": "/paid-advertisement/instagram-influencer-ads"
   }
 ],
+    "strategic": {
+      "heading": "Dominate With a Strategic Approach to Instagram Ads",
+      "blocks": [
+        { "icon": "📱", "title": "Visual-First Strategy", "description": "Leverage Feed, Stories, and Reels formats with scroll-stopping visuals optimized for engagement." },
+        { "icon": "🎨", "title": "Creative Testing Framework", "description": "Test hooks, formats, and visual styles to identify what resonates with your audience." },
+        { "icon": "👥", "title": "Audience Segmentation", "description": "Target by interests, behaviors, and demographics to reach ideal customers at every stage." },
+        { "icon": "🛍️", "title": "Shopping Integration", "description": "Connect product catalogs and tags to turn discovery into direct purchases." },
+        { "icon": "📊", "title": "Performance Optimization", "description": "Monitor engagement, refine targeting, and scale winning creatives for sustained growth." }
+      ]
+    },
 "process": {
   "steps": [
     "Creative & Account Audit",
@@ -687,6 +797,16 @@
       "link": "/paid-advertisement/facebook-ads"
     }
   ],
+    "strategic": {
+      "heading": "Dominate With a Strategic Approach to Facebook Ads",
+      "blocks": [
+        { "icon": "📘", "title": "Multi-Format Campaign Strategy", "description": "Deploy Feed, Stories, Reels, and Marketplace ads for comprehensive reach and engagement." },
+        { "icon": "🎯", "title": "Precision Audience Targeting", "description": "Leverage interests, behaviors, and lookalikes to reach ideal customers at scale." },
+        { "icon": "🎨", "title": "Creative Testing & Optimization", "description": "Test hooks, formats, and messaging to identify what drives engagement and conversions." },
+        { "icon": "💬", "title": "Community Engagement", "description": "Build authentic connections through interactive formats that foster brand loyalty." },
+        { "icon": "📊", "title": "Performance Tracking & Scaling", "description": "Monitor metrics, refine strategies, and scale winning campaigns for sustained growth." }
+      ]
+    },
     "content": { "heading": "Expert Facebook Ads Management Agency Services That Convert", "text1": "Targeted campaigns reach the right audiences. Our Facebook Ads Management Agency expertise includes sophisticated audience targeting, demographic segmentation, and interest-based targeting to ensure your campaigns reach the most relevant Facebook users for your brand.", "text2": "Engaging content drives social engagement. As a leading Facebook Ads Management Agency, we create compelling social content, community engagement strategies, and interactive ad formats that capture attention and drive both brand awareness and direct response conversions on Facebook.", "text3": "Track social performance and optimize for conversions. Our comprehensive Facebook Ads Services include detailed social engagement tracking, conversion attribution, and performance analysis to ensure accurate measurement of your Facebook advertising impact and ROI.", "image": "seo.png", "alt": "Facebook Ads Management Agency Services" },
     "faq": { 
       "serviceName": "Facebook Ads Management",
@@ -755,6 +875,16 @@
     "link": "/paid-advertisement/youtube-ads"
   }
 ],
+    "strategic": {
+      "heading": "Dominate With a Strategic Approach to Google Display Ads",
+      "blocks": [
+        { "icon": "🌐", "title": "Massive Reach Strategy", "description": "Target across millions of websites and apps in Google's Display Network for brand visibility." },
+        { "icon": "👁️", "title": "Viewability & Brand Safety", "description": "Optimize for viewability metrics and implement strict brand safety controls." },
+        { "icon": "🎨", "title": "Compelling Visual Creative", "description": "Design eye-catching banners, interactive formats, and rich media that capture attention." },
+        { "icon": "🔄", "title": "Remarketing Integration", "description": "Re-engage site visitors through sophisticated audience segmentation and sequencing." },
+        { "icon": "📈", "title": "Performance Optimization", "description": "Optimize CTR, CPA, and site placements while scaling reach and frequency control." }
+      ]
+    },
     "content": { "heading": "Expert Google Display Ads Agency Services That Convert", "text1": "Reach audiences across millions of websites. Our Google Display Ads agency expertise includes comprehensive site targeting, audience segmentation, and creative optimization to ensure maximum reach and engagement across Google's vast display network.", "text2": "Compelling visuals drive engagement. As a leading Google Display Ads company, we create eye-catching display ads, interactive formats, and engaging creative content that captures attention and drives both brand awareness and direct response conversions across the display network.", "text3": "Track display performance and optimize for conversions. Our comprehensive Google Display Ads services include detailed reach tracking, engagement analysis, and conversion attribution to ensure accurate measurement of your display advertising impact and ROI.", "image": "seo.png", "alt": "Google Display Ads Agency Services" },
     "faq": { 
       "serviceName": "Google Display Ads",
@@ -831,6 +961,16 @@
       "link": "/paid-advertisement/tiktok-ads"
     }
   ],
+    "strategic": {
+      "heading": "Dominate With a Strategic Approach to TikTok Ads",
+      "blocks": [
+        { "icon": "🎵", "title": "Trend-Aligned Content", "description": "Leverage trending sounds, effects, and formats that feel native to TikTok's culture." },
+        { "icon": "📱", "title": "Short-Form Video Excellence", "description": "Create thumb-stopping 15-60 second videos optimized for the For You Page algorithm." },
+        { "icon": "🔥", "title": "Viral Potential Strategy", "description": "Design content for organic amplification through user engagement and shares." },
+        { "icon": "🎯", "title": "Gen Z Audience Targeting", "description": "Target young, engaged audiences with authentic storytelling and cultural relevance." },
+        { "icon": "📊", "title": "Performance Scaling", "description": "Test creative variations and optimize for engagement, views, and conversions at scale." }
+      ]
+    },
     "content": { "heading": "Expert Tiktok Ads Agency Services for Short-Form Video That Converts", "text1": "Trending content drives viral engagement. Our Tiktok Ads Agency expertise includes comprehensive trend analysis, viral content development, and audience engagement strategies to maximize reach and engagement on TikTok's algorithm-driven platform.", "text2": "Authentic storytelling resonates with Gen Z. As a leading Tiktok Ads Management Company, we create authentic, engaging video content that feels native to TikTok, using trending sounds, effects, and formats that capture attention and drive both brand awareness and direct response conversions.", "text3": "Track viral performance and optimize for conversions. Our comprehensive Tiktok Ads Agency Services include detailed engagement tracking, viral metrics analysis, and conversion attribution to ensure accurate measurement of your TikTok advertising impact and ROI.", "image": "seo.png", "alt": "Tiktok Ads Agency Services" },
     "faq": { 
       "serviceName": "Tiktok Ads",
@@ -899,6 +1039,16 @@
     "link": "/paid-advertisement/google-remarketing"
   }
 ],
+    "strategic": {
+      "heading": "Dominate With a Strategic Approach to Google Shopping Ads",
+      "blocks": [
+        { "icon": "📦", "title": "Feed Optimization Excellence", "description": "Enhance product data quality, titles, images, and attributes to maximize visibility in Shopping results." },
+        { "icon": "💰", "title": "Smart Bidding Mastery", "description": "Leverage target ROAS and Max Performance bidding strategies for profitable conversions." },
+        { "icon": "🎯", "title": "Strategic Campaign Architecture", "description": "Organize by priority, product groups, and performance tiers for optimal control." },
+        { "icon": "🔍", "title": "Query & Item Optimization", "description": "Refine negative keywords, audience layering, and item-level bidding to improve ROAS." },
+        { "icon": "🚀", "title": "Scale with Performance Max", "description": "Expand reach across Google networks with dynamic campaigns combining Shopping, Display, and more." }
+      ]
+    },
     "content": { "heading": "Expert Google Shopping Ads Agency Services for Visual Product Advertising", "text1": "Optimise product feeds for maximum visibility. Our Google Shopping Ads agency expertise includes comprehensive product feed optimization, data quality improvement, category enhancement, and feed management to ensure your products appear prominently in Google Shopping results and drive maximum qualified traffic to your e-commerce store.", "text2": "Strategic bidding for shopping campaigns. As a leading Google Shopping Ads company, we implement advanced bidding strategies, product-level optimization, and performance monitoring to ensure your Google Shopping campaigns deliver maximum ROI and drive qualified traffic that converts into sales for your e-commerce business.", "text3": "Track performance and optimise for sales. Our comprehensive Google Shopping Ads services include detailed conversion tracking, sales attribution analysis, and performance optimization to ensure accurate measurement of your shopping campaign impact and continuous improvement of your e-commerce advertising ROI.", "image": "seo.png", "alt": "Google Shopping Ads Agency Services" },
     "faq": { 
       "serviceName": "Google Shopping Ads",
@@ -983,6 +1133,16 @@
         "link": "/paid-advertisement/google-shopping-ads"
       }
     ],
+    "strategic": {
+      "heading": "Dominate With a Strategic Approach to Pay Per Click Marketing",
+      "blocks": [
+        { "icon": "🔍", "title": "Keyword Strategy & Research", "description": "Select high-intent keywords by intent and competition to capture ready-to-buy users." },
+        { "icon": "🎯", "title": "Multi-Channel PPC Management", "description": "Optimize across Google, Bing, and Display for comprehensive search coverage." },
+        { "icon": "💰", "title": "Smart Bidding & Budget Control", "description": "Implement advanced bidding strategies and budget allocation for maximum ROI." },
+        { "icon": "🧪", "title": "Continuous Optimization", "description": "Test ads, refine keywords, adjust bids, and optimize landing pages for better CVR." },
+        { "icon": "📈", "title": "Scale & Growth Expansion", "description": "Scale performing segments, expand audiences, and leverage automation for sustainable growth." }
+      ]
+    },
     "content": { "heading": "Expert Pay Per Click Marketing Services That Drive Results", "text1": "Strategic keyword research and campaign optimization. Our Pay Per Click Company expertise includes comprehensive keyword research, competitor analysis, ad copy testing, and campaign structure optimization to ensure maximum visibility and conversion rates for high-intent search queries across all PPC platforms.", "text2": "Advanced bidding strategies and budget optimization. As a leading Pay Per Click Agency, we implement sophisticated bidding strategies, budget allocation optimization, and performance monitoring to ensure your PPC campaigns deliver maximum ROI while maintaining cost efficiency and reaching your most valuable prospects.", "text3": "Comprehensive tracking and conversion optimization. Our Pay Per Click Marketing Services include detailed conversion tracking, attribution modeling, and performance analysis to ensure accurate measurement of your PPC campaign impact and continuous optimization of your advertising ROI across all platforms.", "image": "seo.png", "alt": "Pay Per Click Marketing Services" },
     "faq": { 
       "serviceName": "Pay Per Click",
@@ -1051,6 +1211,16 @@
       "link": "/paid-advertisement/bing-ads"
     }
   ],
+    "strategic": {
+      "heading": "Dominate With a Strategic Approach to Bing Ads Campaigns",
+      "blocks": [
+        { "icon": "🔍", "title": "Microsoft Network Optimization", "description": "Leverage lower competition on Bing, Yahoo, and Edge for better CPCs and conversion rates." },
+        { "icon": "📊", "title": "Cross-Platform PPC Strategy", "description": "Extend Google Ads campaigns to Microsoft network for comprehensive search coverage." },
+        { "icon": "💰", "title": "Budget Efficiency Focus", "description": "Maximize ROI with lower-cost clicks and higher-quality leads on Microsoft's platform." },
+        { "icon": "🎯", "title": "Audience Targeting", "description": "Reach unique Microsoft audiences through demographic and interest-based targeting." },
+        { "icon": "📈", "title": "Shopping & Remarketing", "description": "Scale with Microsoft Shopping ads and remarketing across the Microsoft ecosystem." }
+      ]
+    },
     "content": { "heading": "Expert Bing Ads Campaigns Services That Drive Microsoft Network Results", "text1": "Strategic Microsoft network keyword research and campaign optimization. Our Bing Ads Campaigns Company expertise includes comprehensive keyword research, competitor analysis, ad copy testing, and campaign structure optimization to ensure maximum visibility and conversion rates for high-intent search queries across Microsoft's search network.", "text2": "Advanced Bing Ads bidding strategies and budget optimization. As a leading Bing Ads Campaigns Agency, we implement sophisticated bidding strategies, budget allocation optimization, and performance monitoring to ensure your Bing Ads campaigns deliver maximum ROI while maintaining cost efficiency and reaching your most valuable prospects on Microsoft's platform.", "text3": "Comprehensive Bing Ads tracking and conversion optimization. Our Bing Ads Campaigns Services include detailed conversion tracking, attribution modeling, and performance analysis to ensure accurate measurement of your Bing Ads campaign impact and continuous optimization of your Microsoft advertising ROI.", "image": "seo.png", "alt": "Bing Ads Campaigns Services" },
     "faq": { 
       "serviceName": "Bing Ads",
@@ -1103,6 +1273,16 @@
         "link": "/paid-advertisement/linkedin-creative-ads"
       }
     ],
+    "strategic": {
+      "heading": "Dominate With a Strategic Approach to LinkedIn Ads Management",
+      "blocks": [
+        { "icon": "👔", "title": "Professional Targeting Excellence", "description": "Target decision-makers by title, seniority, industry, skills, and company size." },
+        { "icon": "💼", "title": "Account-Based Marketing", "description": "Engage key accounts with hyper-targeted ABM campaigns that align sales and marketing." },
+        { "icon": "📧", "title": "Lead Generation & Quality", "description": "Generate high-quality B2B leads with optimized lead forms and routing to CRM." },
+        { "icon": "🔗", "title": "Pipeline Velocity", "description": "Accelerate sales cycles with professional content, offers, and warm audience sequences." },
+        { "icon": "📊", "title": "Revenue Attribution", "description": "Track downstream revenue and optimize for SQL quality, not just CPL." }
+      ]
+    },
     "content": { "heading": "Expert LinkedIn Ads Management for High-Quality B2B Leads", "text1": "Target by title, skills, and company lists. Our LinkedIn expertise includes sophisticated professional audience targeting, job title segmentation, skill-based targeting, and company list management to ensure your campaigns reach the most relevant B2B decision-makers and influencers.", "text2": "Use content and offers to warm accounts. We develop compelling content strategies, lead magnets, and professional offers that resonate with your target audience, building trust and engagement before conversion to maximize lead quality and sales success.", "text3": "Optimise for downstream revenue, not only CPL. Our approach focuses on lead quality optimization, sales pipeline development, and revenue attribution to ensure your campaigns generate leads that convert into actual business value and long-term customer relationships.", "image": "hero.png", "alt": "LinkedIn Ads Management" },
     "faq": { 
       "serviceName": "LinkedIn Ads",
@@ -1173,6 +1353,16 @@
       "link": "/paid-advertisement/snapchat-ads"
     }
   ],
+    "strategic": {
+      "heading": "Dominate With a Strategic Approach to Snapchat Ads",
+      "blocks": [
+        { "icon": "👻", "title": "AR-First Strategy", "description": "Leverage AR filters and lenses to create immersive brand experiences that Gen Z loves." },
+        { "icon": "📱", "title": "Mobile-Native Creative", "description": "Design vertical, full-screen Snap Ads and Stories optimized for mobile engagement." },
+        { "icon": "🎯", "title": "Gen Z Audience Targeting", "description": "Reach young, active audiences with demographic and interest-based targeting." },
+        { "icon": "🎨", "title": "Interactive Storytelling", "description": "Create engaging Stories and Snap Ads with interactive elements that drive action." },
+        { "icon": "📊", "title": "Performance Optimization", "description": "Test AR experiences, refine targeting, and optimize for engagement and conversions." }
+      ]
+    },
     "content": { "heading": "Expert Snapchat Ads Agency Services for Gen Z Engagement", "text1": "AR filters and Snap Ads drive engagement. Our Snapchat Ads Company expertise includes comprehensive AR filter development, Snap Ads creation, and Stories advertising to maximize engagement and conversion rates on Snapchat's most engaging formats.", "text2": "Mobile-first experiences resonate with Gen Z. As a leading Snapchat Ads Agency, we create compelling augmented reality experiences, interactive Snap Ads, and engaging Stories content that capture attention and drive both brand awareness and direct response conversions on Snapchat.", "text3": "Track AR performance and optimize for conversions. Our comprehensive Snapchat Ads Services include detailed AR engagement tracking, conversion attribution, and performance analysis to ensure accurate measurement of your Snapchat advertising impact and ROI.", "image": "seo.png", "alt": "Snapchat Ads Agency Services" },
     "faq": { 
       "serviceName": "Snapchat Ads",
@@ -1225,6 +1415,16 @@
     "link": "/paid-advertisement/twitter-x-ads"
   }
 ],
+    "strategic": {
+      "heading": "Dominate With a Strategic Approach to Twitter Ads",
+      "blocks": [
+        { "icon": "🐦", "title": "Real-Time Engagement Strategy", "description": "Capitalize on trending topics and real-time conversations to boost brand visibility." },
+        { "icon": "📱", "title": "Promoted Tweets & Video", "description": "Deploy Promoted Tweets, Videos, and Trend Takeovers for maximum reach and engagement." },
+        { "icon": "👥", "title": "Follower Growth Campaigns", "description": "Build engaged communities through strategic Follower Ads that drive long-term value." },
+        { "icon": "📊", "title": "Trend Analysis & Timing", "description": "Monitor trends and time campaigns for optimal visibility during peak engagement periods." },
+        { "icon": "🚀", "title": "Performance Scaling", "description": "Scale winning campaigns across objectives and audience segments for sustained growth." }
+      ]
+    },
 "process": {
   "steps": [
     "Audit & Analysis",
@@ -1236,7 +1436,7 @@
   "content": [
     "We start with an in-depth audit of your existing Twitter (X) activity and advertising performance. Our team analyzes audience engagement, creative formats, targeting accuracy, and conversion tracking to identify optimization opportunities and untapped potential.",
     
-    "Based on our findings, we develop a tailored Twitter Ads strategy focused on real-time brand engagement. This includes defining campaign objectives, audience segmentation, creative direction, budget allocation, and performance KPIs to ensure every ad aligns with your brand’s goals.",
+    "Based on our findings, we develop a tailored Twitter Ads strategy focused on real-time brand engagement. This includes defining campaign objectives, audience segmentation, creative direction, budget allocation, and performance KPIs to ensure every ad aligns with your brand's goals.",
     
     "Next, we set up and launch your Twitter Ads campaigns — from Promoted Tweets to Follower and Trend Takeovers. Every campaign is built with proper tracking, conversion setup, and creative testing to maximize reach and engagement.",
     
@@ -1297,6 +1497,16 @@
       "link": "/paid-advertisement/pinterest-ads"
     }
   ],
+  "strategic": {
+    "heading": "Dominate With a Strategic Approach to Pinterest Ads",
+    "blocks": [
+      { "icon": "📌", "title": "Visual Discovery Strategy", "description": "Create inspiring Promoted Pins and Idea Ads that capture attention in the discovery feed." },
+      { "icon": "🛍️", "title": "Shopping Campaign Excellence", "description": "Optimize product catalogs and Shopping Ads for high-intent conversion opportunities." },
+      { "icon": "🎯", "title": "Audience Targeting", "description": "Target by interests, keywords, and behaviors to reach planners and active shoppers." },
+      { "icon": "🔄", "title": "Retargeting & Engagement", "description": "Re-engage users who engaged with pins or visited your site with personalized ads." },
+      { "icon": "📊", "title": "Seasonal Trend Optimization", "description": "Leverage seasonal patterns and trending searches to maximize visibility and sales." }
+    ]
+  },
   "process": {
     "steps": [
       "Audit & Analysis",
