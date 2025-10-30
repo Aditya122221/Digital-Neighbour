@@ -16,10 +16,7 @@ import CaseStudy from "@/components/homepage/casestudy";
 
 const allowedSlugs = [
   "content-marketing",
-  "blog-writing",
   "content-strategy",
-  "social-media-content",
-  "email-newsletters",
   "video-content",
   "infographics",
   "whitepapers",

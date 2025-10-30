@@ -31,36 +31,36 @@
     },
     "serviceCards": [
       {
-        "id": "blog-writing",
-        "name": "Blog Writing Services",
-        "title": "Expert Blog Writing & Content Creation",
-        "description": "Create engaging, SEO-optimized blog content that drives traffic, builds authority, and converts readers into customers. Our blog writing services include topic research, keyword optimization, compelling copywriting, and strategic content planning to maximize your blog's impact and ROI.",
-        "image": "/seo/services/seo.webp",
-        "link": "/content-marketing/blog-writing"
-      },
-      {
         "id": "content-strategy",
         "name": "Content Strategy",
         "title": "Strategic Content Planning & Development",
         "description": "Develop comprehensive content strategies aligned with your business goals. We create detailed editorial calendars, conduct audience research, identify content gaps, and develop strategic content plans that drive engagement, conversions, and business growth.",
-        "image": "/seo/services/off-page.webp",
+        "image": "/seo/services/seo.webp",
         "link": "/content-marketing/content-strategy"
       },
       {
-        "id": "social-media-content",
-        "name": "Social Media Content",
-        "title": "Engaging Social Media Content Creation",
-        "description": "Create compelling social media content that drives engagement and builds your brand presence. We develop platform-specific content strategies, create eye-catching visuals and copy, and maintain consistent brand messaging across all social media channels.",
-        "image": "/seo/services/technical.webp",
-        "link": "/content-marketing/social-media-content"
+        "id": "copywriting",
+        "name": "Copywriting",
+        "title": "Professional Copywriting Services",
+        "description": "Drive conversions with compelling copy that resonates with your audience. Our professional copywriting services create persuasive, engaging content that speaks to your audience, builds trust, and drives action across all marketing channels.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/copywriting"
       },
       {
-        "id": "email-newsletters",
-        "name": "Email Newsletter Services",
-        "title": "Professional Email Newsletter Creation",
-        "description": "Design and write engaging email newsletters that nurture leads and drive conversions. Our email newsletter services include content creation, design, segmentation strategies, and performance optimization to maximize open rates, click-through rates, and conversions.",
+        "id": "graphic-designing",
+        "name": "Graphic Designing",
+        "title": "Professional Graphic Design Services",
+        "description": "Create stunning visuals that capture attention and communicate your brand message. Our professional graphic design services deliver compelling visual content that engages audiences and builds brand recognition.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/graphic-designing"
+      },
+      {
+        "id": "video-content",
+        "name": "Video Content",
+        "title": "Professional Video Production",
+        "description": "Create compelling video content that engages and converts. Our video content services produce professional videos for marketing, social media, and promotional campaigns that tell your story and drive results.",
         "image": "/seo/services/on-page.webp",
-        "link": "/content-marketing/email-newsletters"
+        "link": "/content-marketing/video-content"
       }
     ],
     "content": {
@@ -97,96 +97,6 @@
       ]
     }
   },
-  "blog-writing": {
-    "hero": {
-      "heading": "Professional Blog Writing Services | Expert Content Creation",
-      "subheading": "Drive traffic and conversions with expertly crafted blog content. Our professional blog writing services combine SEO expertise, engaging storytelling, and conversion optimization to create blog posts that rank well, engage readers, and drive measurable business results."
-    },
-    "form": {
-      "heading": "Scale with Professional Blog Writing Services",
-      "content": "We create SEO-optimized blog content that drives traffic and conversions. Our comprehensive blog writing services include topic research, keyword optimization, compelling copywriting, and strategic content planning to maximize your blog's impact and ROI.",
-      "subContent": "Our expert writers craft engaging blog posts that speak directly to your audience and drive meaningful engagement. We combine SEO best practices with compelling storytelling to create content that ranks well in search engines and converts readers into customers.",
-      "cta": "Request a free blog content audit and strategy consultation. Our comprehensive audit covers your current blog performance, content gaps, SEO opportunities, and strategic recommendations to improve traffic and conversions.",
-      "formHeading": "Free Blog Writing Audit",
-      "buttonText": "Get My Audit"
-    },
-    "services": "Blog Writing",
-    "process": {
-      "steps": [
-        "Blog Strategy & Topic Research",
-        "Content Outline & Planning",
-        "Writing & SEO Optimization",
-        "Editing & Quality Assurance",
-        "Publication & Promotion"
-      ],
-      "content": [
-        "We start by developing a strategic blog content plan aligned with your business goals and target audience. Our team conducts comprehensive topic research, keyword analysis, competitor research, and content gap analysis to identify high-opportunity blog topics that will drive traffic and conversions.",
-        "For each blog post, we create detailed content outlines that structure the information effectively and ensure SEO optimization. Our outlines include keyword placement, content hierarchy, internal linking opportunities, and conversion optimization elements to maximize both search visibility and reader engagement.",
-        "Our expert writers craft engaging, well-researched blog content optimized for both readers and search engines. We combine compelling storytelling with SEO best practices, ensuring each blog post is informative, engaging, and designed to rank well in search results while driving conversions.",
-        "Every blog post goes through a comprehensive editing and quality assurance process. We check for accuracy, readability, SEO optimization, grammar, brand voice consistency, and conversion optimization. Our quality standards ensure every blog post meets the highest standards before publication.",
-        "Once completed, we publish your blog posts on schedule and promote them across relevant channels. This includes social media promotion, email newsletter inclusion, internal linking from other pages, and ongoing SEO monitoring to ensure maximum visibility and engagement."
-      ]
-    },
-    "serviceCards": [
-      {
-        "id": "content-strategy",
-        "name": "Content Strategy",
-        "title": "Strategic Content Planning & Development",
-        "description": "Develop comprehensive content strategies aligned with your business goals.",
-        "image": "/seo/services/off-page.webp",
-        "link": "/content-marketing/content-strategy"
-      },
-      {
-        "id": "copywriting",
-        "name": "Copywriting",
-        "title": "Professional Copywriting Services",
-        "description": "Drive conversions with compelling copy that resonates with your audience.",
-        "image": "/seo/services/seo.webp",
-        "link": "/content-marketing/copywriting"
-      },
-      {
-        "id": "website-copywriting",
-        "name": "Website Copywriting",
-        "title": "Website Copywriting Services",
-        "description": "Create compelling website copy that converts visitors into customers.",
-        "image": "/seo/services/on-page.webp",
-        "link": "/content-marketing/website-copywriting"
-      }
-    ],
-    "content": {
-      "heading": "Quality Blog Writing = Engaged Audience + Organic Traffic",
-      "text1": "We create high-quality blog content that combines SEO optimization with engaging storytelling. Our systematic approach to blog writing involves comprehensive research, strategic keyword optimization, compelling narratives, and conversion-focused elements that drive both search visibility and reader engagement.",
-      "text2": "Our blog writing process ensures every post is optimized for performance from the start. We implement SEO best practices, create compelling headlines and introductions, structure content for readability, and include strategic calls-to-action that guide readers toward conversion actions throughout the customer journey.",
-      "text3": "From educational guides to industry insights to how-to articles, we write blog posts that inform and convert—then optimize and promote them for maximum reach. Our comprehensive blog writing approach includes topic research, keyword optimization, engaging copywriting, strategic internal linking, and performance monitoring to ensure every blog post delivers measurable value.",
-      "image": "hero.png",
-      "alt": "Blog writing illustration"
-    },
-    "faq": {
-      "serviceName": "Blog Writing",
-      "faqs": [
-        {
-          "q": "How long does it take to write a blog post?",
-          "a": "Blog post turnaround time depends on length, complexity, and research requirements. Typically, a standard 1000-1500 word blog post takes 3-5 business days from research to final publication-ready content. Longer, more complex pieces may take 5-7 business days. We work with you to establish timelines that align with your content calendar and publication goals."
-        },
-        {
-          "q": "Do you optimize blog posts for SEO?",
-          "a": "Yes, SEO optimization is a core part of our blog writing service. Every blog post we create includes keyword research, on-page SEO optimization (headings, meta descriptions, alt text), internal linking, and content structure designed to rank well in search engines while maintaining natural readability and engagement."
-        },
-        {
-          "q": "What's included in your blog writing service?",
-          "a": "Our blog writing service includes topic research and strategy, keyword research and optimization, comprehensive writing, SEO optimization, editing and proofreading, basic formatting, and publication-ready content. Additional services like custom graphics, social media promotion, and ongoing optimization can be included as part of comprehensive content marketing packages."
-        },
-        {
-          "q": "Can you write about technical or niche topics?",
-          "a": "Absolutely. Our team includes writers with expertise across various industries and technical fields. We conduct thorough research and can write about technical, niche, or specialized topics with accuracy and authority. For highly technical content, we may collaborate with your subject matter experts to ensure accuracy and completeness."
-        },
-        {
-          "q": "How do you ensure brand voice consistency?",
-          "a": "We work closely with you to understand your brand voice, tone, and messaging guidelines. Before starting, we review your existing content, brand guidelines, and target audience to capture your unique voice. Our editing process includes brand voice checks to ensure every blog post aligns with your brand identity and resonates with your audience."
-        }
-      ]
-    }
-  },
   "content-strategy": {
     "hero": {
       "heading": "Content Strategy Services | Strategic Content Planning & Development",
@@ -219,28 +129,28 @@
     },
     "serviceCards": [
       {
-        "id": "blog-writing",
-        "name": "Blog Writing",
-        "title": "Expert Blog Writing & Content Creation",
-        "description": "Create engaging, SEO-optimized blog content that drives traffic.",
+        "id": "copywriting",
+        "name": "Copywriting",
+        "title": "Professional Copywriting Services",
+        "description": "Drive conversions with compelling copy that resonates.",
         "image": "/seo/services/seo.webp",
-        "link": "/content-marketing/blog-writing"
+        "link": "/content-marketing/copywriting"
       },
       {
-        "id": "social-media-content",
-        "name": "Social Media Content",
-        "title": "Engaging Social Media Content Creation",
-        "description": "Create compelling social media content that drives engagement.",
+        "id": "graphic-designing",
+        "name": "Graphic Designing",
+        "title": "Professional Graphic Design Services",
+        "description": "Create stunning visuals that capture attention and communicate your brand.",
         "image": "/seo/services/technical.webp",
-        "link": "/content-marketing/social-media-content"
+        "link": "/content-marketing/graphic-designing"
       },
       {
-        "id": "email-newsletters",
-        "name": "Email Newsletters",
-        "title": "Professional Email Newsletter Creation",
-        "description": "Design and write engaging email newsletters that nurture leads.",
+        "id": "video-content",
+        "name": "Video Content",
+        "title": "Professional Video Production",
+        "description": "Create compelling video content that engages and converts.",
         "image": "/seo/services/on-page.webp",
-        "link": "/content-marketing/email-newsletters"
+        "link": "/content-marketing/video-content"
       }
     ],
     "content": {
@@ -273,186 +183,6 @@
         {
           "q": "Can you update an existing content strategy?",
           "a": "Absolutely. We regularly review and update content strategies based on performance data, business changes, audience shifts, and market conditions. Our iterative approach ensures your content strategy remains aligned with your business goals and continues to deliver optimal results as your business and market evolve."
-        }
-      ]
-    }
-  },
-  "social-media-content": {
-    "hero": {
-      "heading": "Social Media Content Creation | Engaging Social Media Marketing",
-      "subheading": "Create compelling social media content that drives engagement and builds your brand presence. Our social media content services help you connect with your audience, build community, and drive conversions through strategic content creation across all major social media platforms."
-    },
-    "form": {
-      "heading": "Scale with Engaging Social Media Content",
-      "content": "We create platform-specific social media content that drives engagement and builds your brand. Our comprehensive social media content services include content strategy, visual design, copywriting, scheduling, and performance optimization to maximize your social media impact and ROI.",
-      "subContent": "Our social media content creators understand each platform's unique audience and best practices. We develop content that resonates with your target audience, maintains consistent brand messaging, and drives meaningful engagement that supports your business objectives across all social media channels.",
-      "cta": "Request a free social media content audit and strategy consultation. Our comprehensive audit covers your current social media performance, content gaps, engagement opportunities, and strategic recommendations to improve your social media presence.",
-      "formHeading": "Free Social Media Content Audit",
-      "buttonText": "Get My Audit"
-    },
-    "services": "Social Media Content",
-    "process": {
-      "steps": [
-        "Social Media Strategy & Planning",
-        "Content Creation & Design",
-        "Platform Optimization",
-        "Scheduling & Publishing",
-        "Engagement & Performance Optimization"
-      ],
-      "content": [
-        "We start by developing a comprehensive social media content strategy aligned with your brand, target audience, and business goals. Our strategic planning includes platform selection, content pillars, posting schedules, engagement strategies, and performance goals to ensure your social media content delivers maximum impact.",
-        "Our creative team produces engaging, platform-optimized social media content including posts, stories, reels, videos, and graphics. We create content that resonates with each platform's audience, maintains brand consistency, and drives engagement through compelling visuals, copy, and calls-to-action.",
-        "We optimize all social media content for each platform's unique features, algorithms, and best practices. This includes format optimization, hashtag strategy, caption optimization, visual elements, and engagement tactics designed to maximize reach, visibility, and engagement on each platform.",
-        "We schedule and publish your social media content consistently across all platforms to maintain active brand presence. Our scheduling system ensures optimal posting times, consistent messaging, and strategic content distribution that maximizes audience reach and engagement opportunities.",
-        "We monitor social media performance and continuously optimize content based on engagement data and audience feedback. Our team tracks metrics, analyzes what resonates, adjusts strategies, and implements improvements to enhance reach, engagement, and conversions over time."
-      ]
-    },
-    "serviceCards": [
-      {
-        "id": "graphic-designing",
-        "name": "Graphic Designing",
-        "title": "Professional Graphic Design Services",
-        "description": "Create stunning visuals that capture attention and communicate your brand.",
-        "image": "/seo/services/off-page.webp",
-        "link": "/content-marketing/graphic-designing"
-      },
-      {
-        "id": "video-editing",
-        "name": "Video Editing",
-        "title": "Professional Video Editing Services",
-        "description": "Transform raw footage into compelling video content that engages.",
-        "image": "/seo/services/technical.webp",
-        "link": "/content-marketing/video-editing"
-      },
-      {
-        "id": "photo-shoot",
-        "name": "Photo Shoot",
-        "title": "Professional Photo Shoot Services",
-        "description": "Capture stunning images that showcase your brand and products.",
-        "image": "/seo/services/on-page.webp",
-        "link": "/content-marketing/photo-shoot"
-      }
-    ],
-    "content": {
-      "heading": "Engaging Content + Strategic Distribution = Social Media Success",
-      "text1": "We create platform-optimized social media content that combines engaging visuals with strategic messaging. Our systematic approach to social media content involves understanding each platform's audience, creating content that resonates, and implementing distribution strategies that maximize reach, engagement, and conversions.",
-      "text2": "Our social media content strategy ensures consistent brand presence and meaningful audience engagement. We develop content pillars, create platform-specific content, maintain consistent publishing schedules, and implement engagement tactics that build community and drive business results across all social media channels.",
-      "text3": "From Instagram posts to LinkedIn articles to TikTok videos, we create social media content that engages—then optimizes and amplifies it for maximum impact. Our comprehensive social media approach includes strategy development, content creation, scheduling, engagement management, and performance optimization to ensure your social media presence consistently drives value and business growth.",
-      "image": "hero.png",
-      "alt": "Social media content illustration"
-    },
-    "faq": {
-      "serviceName": "Social Media Content",
-      "faqs": [
-        {
-          "q": "Which social media platforms do you create content for?",
-          "a": "We create content for all major social media platforms including Facebook, Instagram, Twitter/X, LinkedIn, TikTok, Pinterest, YouTube, and more. Our team understands each platform's unique features, algorithms, and best practices to create optimized content that maximizes engagement and reach on each channel."
-        },
-        {
-          "q": "How often should I post on social media?",
-          "a": "Optimal posting frequency varies by platform and audience. Generally, we recommend 3-5 posts per week on platforms like Instagram and Facebook, daily posts on Twitter/X, 2-3 posts per week on LinkedIn, and regular stories/updates across all platforms. We develop customized posting schedules based on your audience behavior, resources, and business goals."
-        },
-        {
-          "q": "Do you create video content for social media?",
-          "a": "Yes, we create various video content formats including short-form videos (Reels, TikTok), long-form videos, Instagram Stories, YouTube content, and platform-specific video formats. Our video content is optimized for each platform's specifications, audience preferences, and engagement algorithms to maximize reach and impact."
-        },
-        {
-          "q": "How do you measure social media content success?",
-          "a": "We measure social media success through comprehensive metrics including engagement rates (likes, comments, shares), reach and impressions, follower growth, click-through rates, conversions, brand sentiment, and overall ROI. We provide detailed performance reports and insights to help you understand what content resonates and drives business results."
-        },
-        {
-          "q": "Can you manage social media engagement and responses?",
-          "a": "Yes, we offer social media management services including engagement monitoring, comment responses, message management, and community building. Our team helps maintain active brand presence, fosters meaningful connections with your audience, and ensures timely responses that build trust and engagement."
-        }
-      ]
-    }
-  },
-  "email-newsletters": {
-    "hero": {
-      "heading": "Email Newsletter Services | Professional Email Marketing Content",
-      "subheading": "Design and write engaging email newsletters that nurture leads and drive conversions. Our professional email newsletter services help you build stronger customer relationships, drive repeat engagement, and increase revenue through strategic email content creation and optimization."
-    },
-    "form": {
-      "heading": "Scale with Professional Email Newsletters",
-      "content": "We create engaging, conversion-focused email newsletters that nurture your audience and drive business results. Our comprehensive email newsletter services include content strategy, writing, design, segmentation, and performance optimization to maximize open rates, click-through rates, and conversions.",
-      "subContent": "Our email newsletter experts understand email marketing best practices and subscriber psychology. We create content that resonates with your audience, maintains brand consistency, and drives meaningful engagement that supports your business objectives and customer relationships.",
-      "cta": "Request a free email newsletter audit and strategy consultation. Our comprehensive audit covers your current email performance, content analysis, segmentation opportunities, and strategic recommendations to improve engagement and conversions.",
-      "formHeading": "Free Email Newsletter Audit",
-      "buttonText": "Get My Audit"
-    },
-    "services": "Email Newsletters",
-    "process": {
-      "steps": [
-        "Email Strategy & Audience Segmentation",
-        "Content Planning & Editorial Calendar",
-        "Newsletter Writing & Design",
-        "Testing & Optimization",
-        "Delivery & Performance Analysis"
-      ],
-      "content": [
-        "We start by developing a comprehensive email newsletter strategy that aligns with your business goals and audience needs. Our strategic planning includes audience segmentation, content themes, sending frequency, personalization strategies, and performance goals to ensure your email newsletters deliver maximum value and engagement.",
-        "We create detailed editorial calendars and content plans for your email newsletters. Our planning process includes topic ideation, content themes, feature prioritization, seasonal content planning, and strategic alignment with your broader marketing initiatives to ensure consistent, valuable newsletter content.",
-        "Our team creates engaging, well-designed email newsletter content that combines compelling copy with professional design. We write attention-grabbing subject lines, create engaging content sections, design visually appealing layouts, and optimize for both desktop and mobile viewing to maximize engagement and conversions.",
-        "We conduct comprehensive testing and optimization for every email newsletter. This includes A/B testing subject lines, content variations, design elements, send times, and call-to-action placements. Our optimization process ensures each newsletter is refined for maximum open rates, click-through rates, and conversions.",
-        "We manage email delivery, monitor performance metrics, and analyze results to continuously improve newsletter effectiveness. Our team tracks open rates, click-through rates, conversion rates, unsubscribe rates, and engagement patterns to identify optimization opportunities and refine future newsletter strategies."
-      ]
-    },
-    "serviceCards": [
-      {
-        "id": "blog-writing",
-        "name": "Blog Writing",
-        "title": "Expert Blog Writing & Content Creation",
-        "description": "Create engaging, SEO-optimized blog content that drives traffic.",
-        "image": "/seo/services/seo.webp",
-        "link": "/content-marketing/blog-writing"
-      },
-      {
-        "id": "copywriting",
-        "name": "Copywriting",
-        "title": "Professional Copywriting Services",
-        "description": "Drive conversions with compelling copy that resonates.",
-        "image": "/seo/services/off-page.webp",
-        "link": "/content-marketing/copywriting"
-      },
-      {
-        "id": "content-strategy",
-        "name": "Content Strategy",
-        "title": "Strategic Content Planning & Development",
-        "description": "Develop comprehensive content strategies aligned with your business goals.",
-        "image": "/seo/services/technical.webp",
-        "link": "/content-marketing/content-strategy"
-      }
-    ],
-    "content": {
-      "heading": "Valuable Content + Strategic Design = Email Success",
-      "text1": "We create email newsletters that combine valuable content with strategic design and optimization. Our systematic approach to email newsletter creation involves understanding your audience, crafting engaging content, designing visually appealing layouts, and optimizing for maximum engagement and conversions.",
-      "text2": "Our email newsletter strategy ensures consistent value delivery and meaningful subscriber engagement. We develop content themes, create engaging newsletters, maintain consistent sending schedules, and implement personalization strategies that build strong customer relationships and drive business results.",
-      "text3": "From welcome series to monthly newsletters to promotional campaigns, we create email content that engages—then tests and optimizes it for maximum impact. Our comprehensive email newsletter approach includes strategy development, content creation, design, testing, and performance optimization to ensure your email marketing consistently delivers value and drives business growth.",
-      "image": "hero.png",
-      "alt": "Email newsletter illustration"
-    },
-    "faq": {
-      "serviceName": "Email Newsletters",
-      "faqs": [
-        {
-          "q": "How often should I send email newsletters?",
-          "a": "Optimal newsletter frequency depends on your audience, content type, and business objectives. Generally, we recommend weekly or bi-weekly newsletters for most businesses, though monthly newsletters can work for some industries. We help you determine the right frequency based on your audience preferences, content availability, and engagement data."
-        },
-        {
-          "q": "What's included in your email newsletter service?",
-          "a": "Our email newsletter service includes content strategy development, newsletter writing, professional design, subject line optimization, mobile-responsive formatting, A/B testing setup, and performance reporting. Additional services like segmentation strategy, automation setup, and advanced personalization can be included in comprehensive packages."
-        },
-        {
-          "q": "Do you work with specific email marketing platforms?",
-          "a": "We work with all major email marketing platforms including Mailchimp, Constant Contact, Campaign Monitor, Klaviyo, HubSpot, and others. Our team is familiar with various platforms and can work with your existing email marketing tool or recommend and set up a platform that best fits your needs."
-        },
-        {
-          "q": "How do you improve email open rates?",
-          "a": "We improve open rates through strategic subject line optimization, send time optimization, audience segmentation, personalization, sender reputation management, and content quality improvements. Our approach includes A/B testing subject lines, analyzing optimal send times, and refining content to ensure subscribers find value in every email they open."
-        },
-        {
-          "q": "Can you help with email list growth strategies?",
-          "a": "Yes, we provide email list growth strategies including lead magnets, opt-in form optimization, social media promotion, content upgrades, referral programs, and strategic partnerships. Our comprehensive approach helps you grow your email list with engaged, qualified subscribers who are interested in your content and offerings."
         }
       ]
     }
@@ -505,12 +235,12 @@
         "link": "/content-marketing/website-copywriting"
       },
       {
-        "id": "blog-writing",
-        "name": "Blog Writing",
-        "title": "Expert Blog Writing & Content Creation",
-        "description": "Create engaging, SEO-optimized blog content that drives traffic.",
+        "id": "copywriting",
+        "name": "Copywriting",
+        "title": "Professional Copywriting Services | Expert Content Writing",
+        "description": "Drive conversions with compelling copy that resonates. Our professional copywriting services create persuasive, engaging content that speaks to your audience, builds trust, and drives action across all marketing channels.",
         "image": "/seo/services/technical.webp",
-        "link": "/content-marketing/blog-writing"
+        "link": "/content-marketing/copywriting"
       }
     ],
     "content": {
@@ -865,12 +595,12 @@
         "link": "/content-marketing/photo-shoot"
       },
       {
-        "id": "social-media-content",
-        "name": "Social Media Content",
-        "title": "Engaging Social Media Content Creation",
-        "description": "Create compelling social media content that drives engagement.",
+        "id": "graphic-designing",
+        "name": "Graphic Designing",
+        "title": "Professional Graphic Design Services | Creative Design Solutions",
+        "description": "Create stunning visuals that capture attention and communicate your brand message. Our professional graphic design services deliver compelling visual content that engages audiences, builds brand recognition, and drives marketing success across all channels.",
         "image": "/seo/services/technical.webp",
-        "link": "/content-marketing/social-media-content"
+        "link": "/content-marketing/graphic-designing"
       }
     ],
     "content": {
@@ -1045,12 +775,12 @@
         "link": "/content-marketing/copywriting"
       },
       {
-        "id": "blog-writing",
-        "name": "Blog Writing",
-        "title": "Expert Blog Writing & Content Creation",
-        "description": "Create engaging, SEO-optimized blog content that drives traffic.",
+        "id": "copywriting",
+        "name": "Copywriting",
+        "title": "Professional Copywriting Services | Expert Content Writing",
+        "description": "Drive conversions with compelling copy that resonates. Our professional copywriting services create persuasive, engaging content that speaks to your audience, builds trust, and drives action across all marketing channels.",
         "image": "/seo/services/technical.webp",
-        "link": "/content-marketing/blog-writing"
+        "link": "/content-marketing/copywriting"
       }
     ],
     "content": {
@@ -1135,12 +865,12 @@
         "link": "/content-marketing/copywriting"
       },
       {
-        "id": "email-newsletters",
-        "name": "Email Newsletters",
-        "title": "Professional Email Newsletter Creation",
-        "description": "Design and write engaging email newsletters that nurture leads.",
+        "id": "video-content",
+        "name": "Video Content",
+        "title": "Video Content Services | Professional Video Production",
+        "description": "Create compelling video content that engages and converts. Our video content services produce professional videos for marketing, social media, and promotional campaigns that tell your story and drive results.",
         "image": "/seo/services/technical.webp",
-        "link": "/content-marketing/email-newsletters"
+        "link": "/content-marketing/video-content"
       }
     ],
     "content": {
@@ -1569,12 +1299,12 @@
     },
     "serviceCards": [
       {
-        "id": "email-newsletters",
-        "name": "Email Newsletters",
-        "title": "Professional Email Newsletter Creation",
-        "description": "Design and write engaging email newsletters that nurture leads.",
+        "id": "video-content",
+        "name": "Video Content",
+        "title": "Video Content Services | Professional Video Production",
+        "description": "Create compelling video content that engages and converts. Our video content services produce professional videos for marketing, social media, and promotional campaigns that tell your story and drive results.",
         "image": "/seo/services/seo.webp",
-        "link": "/content-marketing/email-newsletters"
+        "link": "/content-marketing/video-content"
       },
       {
         "id": "copywriting",
@@ -2305,12 +2035,12 @@
         "link": "/content-marketing/video-editing"
       },
       {
-        "id": "social-media-content",
-        "name": "Social Media Content",
-        "title": "Engaging Social Media Content Creation",
-        "description": "Create compelling social media content that drives engagement.",
+        "id": "graphic-designing",
+        "name": "Graphic Designing",
+        "title": "Professional Graphic Design Services | Creative Design Solutions",
+        "description": "Create stunning visuals that capture attention and communicate your brand message. Our professional graphic design services deliver compelling visual content that engages audiences, builds brand recognition, and drives marketing success across all channels.",
         "image": "/seo/services/technical.webp",
-        "link": "/content-marketing/social-media-content"
+        "link": "/content-marketing/graphic-designing"
       }
     ],
     "content": {
@@ -2485,12 +2215,12 @@
         "link": "/content-marketing/ebooks"
       },
       {
-        "id": "blog-writing",
-        "name": "Blog Writing",
-        "title": "Expert Blog Writing & Content Creation",
-        "description": "Create engaging, SEO-optimized blog content that drives traffic.",
+        "id": "copywriting",
+        "name": "Copywriting",
+        "title": "Professional Copywriting Services | Expert Content Writing",
+        "description": "Drive conversions with compelling copy that resonates. Our professional copywriting services create persuasive, engaging content that speaks to your audience, builds trust, and drives action across all marketing channels.",
         "image": "/seo/services/technical.webp",
-        "link": "/content-marketing/blog-writing"
+        "link": "/content-marketing/copywriting"
       }
     ],
     "content": {
@@ -2575,12 +2305,12 @@
         "link": "/content-marketing/ebooks"
       },
       {
-        "id": "blog-writing",
-        "name": "Blog Writing",
-        "title": "Expert Blog Writing & Content Creation",
-        "description": "Create engaging, SEO-optimized blog content that drives traffic.",
+        "id": "copywriting",
+        "name": "Copywriting",
+        "title": "Professional Copywriting Services | Expert Content Writing",
+        "description": "Drive conversions with compelling copy that resonates. Our professional copywriting services create persuasive, engaging content that speaks to your audience, builds trust, and drives action across all marketing channels.",
         "image": "/seo/services/technical.webp",
-        "link": "/content-marketing/blog-writing"
+        "link": "/content-marketing/copywriting"
       }
     ],
     "content": {
@@ -2665,12 +2395,12 @@
         "link": "/content-marketing/case-studies"
       },
       {
-        "id": "blog-writing",
-        "name": "Blog Writing",
-        "title": "Expert Blog Writing & Content Creation",
-        "description": "Create engaging, SEO-optimized blog content that drives traffic.",
+        "id": "copywriting",
+        "name": "Copywriting",
+        "title": "Professional Copywriting Services | Expert Content Writing",
+        "description": "Drive conversions with compelling copy that resonates. Our professional copywriting services create persuasive, engaging content that speaks to your audience, builds trust, and drives action across all marketing channels.",
         "image": "/seo/services/technical.webp",
-        "link": "/content-marketing/blog-writing"
+        "link": "/content-marketing/copywriting"
       }
     ],
     "content": {
@@ -2747,12 +2477,12 @@
         "link": "/content-marketing/video-content"
       },
       {
-        "id": "blog-writing",
-        "name": "Blog Writing",
-        "title": "Expert Blog Writing & Content Creation",
-        "description": "Create engaging, SEO-optimized blog content that drives traffic.",
+        "id": "copywriting",
+        "name": "Copywriting",
+        "title": "Professional Copywriting Services | Expert Content Writing",
+        "description": "Drive conversions with compelling copy that resonates. Our professional copywriting services create persuasive, engaging content that speaks to your audience, builds trust, and drives action across all marketing channels.",
         "image": "/seo/services/off-page.webp",
-        "link": "/content-marketing/blog-writing"
+        "link": "/content-marketing/copywriting"
       },
       {
         "id": "content-strategy",
@@ -2800,15 +2530,12 @@
   "otherServices": {
     "contentMarketingServices": [
       "Content Marketing",
-      "Blog Writing",
-      "Content Strategy",
-      "Social Media Content",
-      "Email Newsletters",
       "Copywriting",
       "Graphic Designing",
       "Video Editing",
       "Photo Shoot",
       "Video Shoot",
+      "Content Strategy",
       "Infographic Design",
       "Website Copywriting",
       "Sales Copywriting",
@@ -2827,10 +2554,7 @@
     ],
     "slugMapping": {
       "Content Marketing": "content-marketing",
-      "Blog Writing": "blog-writing",
       "Content Strategy": "content-strategy",
-      "Social Media Content": "social-media-content",
-      "Email Newsletters": "email-newsletters",
       "Video Content": "video-content",
       "Infographics": "infographics",
       "Whitepapers": "whitepapers",
