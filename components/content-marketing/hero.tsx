@@ -17,7 +17,7 @@ export default function ContentMarketingHero({
     <section className="relative pt-24 md:pt-32 lg:pt-40 pb-16 md:pb-24 lg:pb-32 overflow-x-hidden min-h-screen">
       {/* Background Video */}
       <video
-        src="/homepage/services/marketing.mp4"
+        src="/socialMedia/contentBGVideo.mp4"
         autoPlay
         loop
         muted

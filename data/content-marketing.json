@@ -63,36 +63,6 @@
         "link": "/content-marketing/email-newsletters"
       }
     ],
-    "strategic": {
-      "heading": "Dominate With a Strategic Approach to Content Marketing",
-      "blocks": [
-        {
-          "icon": "📝",
-          "title": "Create Engaging Content That Resonates",
-          "description": "We craft compelling content that speaks to your audience, builds trust, and drives engagement. Our content strategy focuses on understanding your target audience's needs, pain points, and interests to create content that truly resonates and converts."
-        },
-        {
-          "icon": "🎯",
-          "title": "Develop Strategic Content Plans",
-          "description": "We develop comprehensive content strategies aligned with your business goals and target audience. Our strategic approach includes content calendars, topic ideation, keyword research, and content distribution plans to maximize reach and impact."
-        },
-        {
-          "icon": "📊",
-          "title": "Optimize Content for Performance",
-          "description": "We continuously analyze and optimize your content performance to improve engagement, conversions, and ROI. Our data-driven approach includes performance tracking, A/B testing, and iterative improvements to ensure your content delivers measurable results."
-        },
-        {
-          "icon": "🚀",
-          "title": "Scale Content Production Efficiently",
-          "description": "We help you scale your content production with streamlined workflows, editorial calendars, and quality assurance processes. Our scalable approach ensures consistent, high-quality content delivery that supports your business growth objectives."
-        },
-        {
-          "icon": "🔍",
-          "title": "Enhance Content Discoverability",
-          "description": "We optimize your content for search engines and social media platforms to maximize visibility and reach. Our approach includes SEO optimization, social media optimization, content promotion strategies, and distribution tactics that increase your content's discoverability and impact."
-        }
-      ]
-    },
     "content": {
       "heading": "Quality Content + Strategic Distribution = Scalable Growth",
       "text1": "We combine high-quality content creation with strategic distribution for maximum reach and impact. Our systematic approach to content development involves understanding your audience deeply, creating content that addresses their needs, and distributing it across the right channels at the right times to maximize engagement and conversions.",
@@ -157,37 +127,32 @@
         "Once completed, we publish your blog posts on schedule and promote them across relevant channels. This includes social media promotion, email newsletter inclusion, internal linking from other pages, and ongoing SEO monitoring to ensure maximum visibility and engagement."
       ]
     },
-    "serviceCards": [],
-    "strategic": {
-      "heading": "Dominate With Strategic Blog Writing",
-      "blocks": [
-        {
-          "icon": "✍️",
-          "title": "Expert Blog Writing & Content Creation",
-          "description": "Our professional writers create engaging, well-researched blog content that resonates with your audience. We combine industry expertise with compelling storytelling to produce blog posts that inform, engage, and convert readers into customers."
-        },
-        {
-          "icon": "🔍",
-          "title": "SEO-Optimized Content",
-          "description": "Every blog post we create is optimized for search engines to maximize organic traffic. We conduct comprehensive keyword research, optimize on-page SEO elements, and structure content to rank well while maintaining natural readability and engagement."
-        },
-        {
-          "icon": "📈",
-          "title": "Conversion-Focused Writing",
-          "description": "Our blog writing goes beyond just informing—it's designed to convert. We strategically incorporate calls-to-action, internal links, and conversion elements throughout each blog post to guide readers toward meaningful actions that drive business results."
-        },
-        {
-          "icon": "📅",
-          "title": "Consistent Publishing Schedule",
-          "description": "We maintain a consistent blog publishing schedule to keep your content fresh and your audience engaged. Our editorial calendar management ensures regular content publication that builds authority, improves SEO, and drives consistent traffic to your website."
-        },
-        {
-          "icon": "🎯",
-          "title": "Strategic Content Planning",
-          "description": "We develop strategic blog content plans aligned with your business goals and target audience needs. Our planning process includes topic ideation, keyword research, content calendar development, and performance tracking to ensure your blog content delivers measurable results."
-        }
-      ]
-    },
+    "serviceCards": [
+      {
+        "id": "content-strategy",
+        "name": "Content Strategy",
+        "title": "Strategic Content Planning & Development",
+        "description": "Develop comprehensive content strategies aligned with your business goals.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/content-strategy"
+      },
+      {
+        "id": "copywriting",
+        "name": "Copywriting",
+        "title": "Professional Copywriting Services",
+        "description": "Drive conversions with compelling copy that resonates with your audience.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/copywriting"
+      },
+      {
+        "id": "website-copywriting",
+        "name": "Website Copywriting",
+        "title": "Website Copywriting Services",
+        "description": "Create compelling website copy that converts visitors into customers.",
+        "image": "/seo/services/on-page.webp",
+        "link": "/content-marketing/website-copywriting"
+      }
+    ],
     "content": {
       "heading": "Quality Blog Writing = Engaged Audience + Organic Traffic",
       "text1": "We create high-quality blog content that combines SEO optimization with engaging storytelling. Our systematic approach to blog writing involves comprehensive research, strategic keyword optimization, compelling narratives, and conversion-focused elements that drive both search visibility and reader engagement.",
@@ -252,37 +217,32 @@
         "We establish performance frameworks and optimization processes to ensure your content strategy delivers measurable results. This includes KPI definitions, tracking systems, reporting schedules, and iterative improvement processes. We continuously analyze performance data to refine strategies and optimize content effectiveness over time."
       ]
     },
-    "serviceCards": [],
-    "strategic": {
-      "heading": "Dominate With Strategic Content Planning",
-      "blocks": [
-        {
-          "icon": "📋",
-          "title": "Comprehensive Content Audits",
-          "description": "We analyze your existing content to identify opportunities and gaps. Our comprehensive audits review content quality, performance metrics, SEO effectiveness, and alignment with business goals to develop strategic insights and recommendations."
-        },
-        {
-          "icon": "👥",
-          "title": "Deep Audience Research",
-          "description": "We conduct thorough audience research to understand your target audience's needs, preferences, and content consumption habits. This enables us to develop content strategies that truly resonate with your audience and drive meaningful engagement."
-        },
-        {
-          "icon": "🗺️",
-          "title": "Strategic Roadmap Development",
-          "description": "We create detailed content strategy roadmaps aligned with your business objectives. Our strategic plans include content pillars, themes, topics, formats, and distribution channels that work together to achieve your marketing and business goals."
-        },
-        {
-          "icon": "📅",
-          "title": "Editorial Calendar Management",
-          "description": "We develop comprehensive editorial calendars that organize your content strategy into actionable publishing schedules. Our calendars ensure consistent content delivery, strategic alignment, and efficient content production workflows."
-        },
-        {
-          "icon": "📊",
-          "title": "Performance Optimization",
-          "description": "We establish performance frameworks and continuous optimization processes to ensure your content strategy delivers measurable results. Our data-driven approach includes KPI tracking, performance analysis, and iterative improvements that maximize content effectiveness and ROI."
-        }
-      ]
-    },
+    "serviceCards": [
+      {
+        "id": "blog-writing",
+        "name": "Blog Writing",
+        "title": "Expert Blog Writing & Content Creation",
+        "description": "Create engaging, SEO-optimized blog content that drives traffic.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/blog-writing"
+      },
+      {
+        "id": "social-media-content",
+        "name": "Social Media Content",
+        "title": "Engaging Social Media Content Creation",
+        "description": "Create compelling social media content that drives engagement.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/social-media-content"
+      },
+      {
+        "id": "email-newsletters",
+        "name": "Email Newsletters",
+        "title": "Professional Email Newsletter Creation",
+        "description": "Design and write engaging email newsletters that nurture leads.",
+        "image": "/seo/services/on-page.webp",
+        "link": "/content-marketing/email-newsletters"
+      }
+    ],
     "content": {
       "heading": "Strategic Planning + Data-Driven Optimization = Content Success",
       "text1": "We develop comprehensive content strategies that combine strategic planning with data-driven optimization. Our systematic approach to content strategy involves thorough analysis, audience research, strategic roadmapping, and performance frameworks that ensure your content initiatives deliver measurable results and sustainable growth.",
@@ -347,37 +307,32 @@
         "We monitor social media performance and continuously optimize content based on engagement data and audience feedback. Our team tracks metrics, analyzes what resonates, adjusts strategies, and implements improvements to enhance reach, engagement, and conversions over time."
       ]
     },
-    "serviceCards": [],
-    "strategic": {
-      "heading": "Dominate Social Media With Strategic Content",
-      "blocks": [
-        {
-          "icon": "📱",
-          "title": "Platform-Specific Content Creation",
-          "description": "We create content optimized for each social media platform's unique features and audience. Our platform-specific approach ensures your content resonates with each audience, follows platform best practices, and maximizes engagement and reach across all channels."
-        },
-        {
-          "icon": "🎨",
-          "title": "Engaging Visual Content",
-          "description": "We produce compelling visual content including graphics, videos, and imagery that captures attention and drives engagement. Our creative team combines design expertise with strategic intent to create social media visuals that stop scrolling and drive meaningful interactions."
-        },
-        {
-          "icon": "💬",
-          "title": "Community Building & Engagement",
-          "description": "We develop content and engagement strategies that build community and foster meaningful connections with your audience. Our approach includes interactive content, conversation starters, user-generated content campaigns, and engagement tactics that build brand loyalty and advocacy."
-        },
-        {
-          "icon": "📅",
-          "title": "Consistent Publishing Schedule",
-          "description": "We maintain consistent social media publishing schedules that keep your brand active and engaged with your audience. Our strategic calendar management ensures regular, high-quality content delivery that builds brand presence, maintains audience engagement, and supports business objectives."
-        },
-        {
-          "icon": "📈",
-          "title": "Performance-Driven Optimization",
-          "description": "We continuously analyze and optimize social media content performance to improve engagement, reach, and conversions. Our data-driven approach includes performance tracking, A/B testing, audience insights analysis, and iterative improvements that maximize social media ROI."
-        }
-      ]
-    },
+    "serviceCards": [
+      {
+        "id": "graphic-designing",
+        "name": "Graphic Designing",
+        "title": "Professional Graphic Design Services",
+        "description": "Create stunning visuals that capture attention and communicate your brand.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/graphic-designing"
+      },
+      {
+        "id": "video-editing",
+        "name": "Video Editing",
+        "title": "Professional Video Editing Services",
+        "description": "Transform raw footage into compelling video content that engages.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/video-editing"
+      },
+      {
+        "id": "photo-shoot",
+        "name": "Photo Shoot",
+        "title": "Professional Photo Shoot Services",
+        "description": "Capture stunning images that showcase your brand and products.",
+        "image": "/seo/services/on-page.webp",
+        "link": "/content-marketing/photo-shoot"
+      }
+    ],
     "content": {
       "heading": "Engaging Content + Strategic Distribution = Social Media Success",
       "text1": "We create platform-optimized social media content that combines engaging visuals with strategic messaging. Our systematic approach to social media content involves understanding each platform's audience, creating content that resonates, and implementing distribution strategies that maximize reach, engagement, and conversions.",
@@ -442,37 +397,32 @@
         "We manage email delivery, monitor performance metrics, and analyze results to continuously improve newsletter effectiveness. Our team tracks open rates, click-through rates, conversion rates, unsubscribe rates, and engagement patterns to identify optimization opportunities and refine future newsletter strategies."
       ]
     },
-    "serviceCards": [],
-    "strategic": {
-      "heading": "Dominate Email Marketing With Strategic Newsletters",
-      "blocks": [
-        {
-          "icon": "✉️",
-          "title": "Engaging Newsletter Content Creation",
-          "description": "We create compelling email newsletter content that informs, engages, and converts. Our newsletter writing combines valuable information with strategic calls-to-action, maintaining reader interest while driving business objectives through well-crafted content and messaging."
-        },
-        {
-          "icon": "🎨",
-          "title": "Professional Newsletter Design",
-          "description": "We design visually appealing email newsletters optimized for both desktop and mobile viewing. Our design approach ensures readability, brand consistency, and engaging visual elements that capture attention and drive clicks while maintaining professional appearance and user experience."
-        },
-        {
-          "icon": "👥",
-          "title": "Audience Segmentation & Personalization",
-          "description": "We develop segmentation strategies and personalized content approaches that deliver relevant messages to different audience segments. Our personalization efforts improve engagement rates, conversion rates, and customer satisfaction by ensuring subscribers receive content that truly resonates with their interests and needs."
-        },
-        {
-          "icon": "📅",
-          "title": "Consistent Newsletter Schedule",
-          "description": "We maintain consistent email newsletter publishing schedules that keep your brand top-of-mind and your audience engaged. Our strategic calendar management ensures regular, valuable content delivery that builds trust, maintains engagement, and supports business objectives."
-        },
-        {
-          "icon": "📊",
-          "title": "Performance Optimization",
-          "description": "We continuously analyze and optimize email newsletter performance to improve open rates, click-through rates, and conversions. Our data-driven approach includes A/B testing, performance tracking, engagement analysis, and iterative improvements that maximize email marketing ROI."
-        }
-      ]
-    },
+    "serviceCards": [
+      {
+        "id": "blog-writing",
+        "name": "Blog Writing",
+        "title": "Expert Blog Writing & Content Creation",
+        "description": "Create engaging, SEO-optimized blog content that drives traffic.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/blog-writing"
+      },
+      {
+        "id": "copywriting",
+        "name": "Copywriting",
+        "title": "Professional Copywriting Services",
+        "description": "Drive conversions with compelling copy that resonates.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/copywriting"
+      },
+      {
+        "id": "content-strategy",
+        "name": "Content Strategy",
+        "title": "Strategic Content Planning & Development",
+        "description": "Develop comprehensive content strategies aligned with your business goals.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/content-strategy"
+      }
+    ],
     "content": {
       "heading": "Valuable Content + Strategic Design = Email Success",
       "text1": "We create email newsletters that combine valuable content with strategic design and optimization. Our systematic approach to email newsletter creation involves understanding your audience, crafting engaging content, designing visually appealing layouts, and optimizing for maximum engagement and conversions.",
@@ -537,37 +487,32 @@
         "We continuously analyze copy performance to identify what resonates and drives results. Our team tracks engagement metrics, conversion rates, and ROI to refine future copy strategies and ensure continuous improvement."
       ]
     },
-    "serviceCards": [],
-    "strategic": {
-      "heading": "Dominate With Strategic Copywriting",
-      "blocks": [
-        {
-          "icon": "✍️",
-          "title": "Conversion-Focused Writing",
-          "description": "We craft copy that doesn't just inform—it converts. Our conversion-focused approach uses persuasive techniques, strategic CTAs, and compelling narratives to guide readers toward meaningful actions that drive business results."
-        },
-        {
-          "icon": "🎯",
-          "title": "Audience-Centered Messaging",
-          "description": "We develop messaging that speaks directly to your target audience. Our research-driven approach ensures your copy addresses real pain points, desires, and motivations to create genuine connection and engagement."
-        },
-        {
-          "icon": "📝",
-          "title": "Multi-Channel Copywriting",
-          "description": "We create consistent, effective copy across all marketing channels. From website pages to email campaigns to ad copy, we ensure your messaging maintains brand voice while optimizing for each channel's unique requirements and audience expectations."
-        },
-        {
-          "icon": "🔍",
-          "title": "SEO-Optimized Content",
-          "description": "We integrate SEO best practices into every piece of copy. Our SEO-optimized writing improves search visibility while maintaining natural readability and conversion effectiveness to maximize both organic reach and user engagement."
-        },
-        {
-          "icon": "📊",
-          "title": "Data-Driven Optimization",
-          "description": "We continuously test and optimize copy based on performance data. Our data-driven approach includes A/B testing, conversion tracking, engagement analysis, and iterative improvements to ensure your copy consistently delivers maximum ROI."
-        }
-      ]
-    },
+    "serviceCards": [
+      {
+        "id": "sales-copywriting",
+        "name": "Sales Copywriting",
+        "title": "Sales Copywriting Services",
+        "description": "Drive sales with compelling copy that persuades and converts.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/sales-copywriting"
+      },
+      {
+        "id": "website-copywriting",
+        "name": "Website Copywriting",
+        "title": "Website Copywriting Services",
+        "description": "Create compelling website copy that converts visitors into customers.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/website-copywriting"
+      },
+      {
+        "id": "blog-writing",
+        "name": "Blog Writing",
+        "title": "Expert Blog Writing & Content Creation",
+        "description": "Create engaging, SEO-optimized blog content that drives traffic.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/blog-writing"
+      }
+    ],
     "content": {
       "heading": "Persuasive Copy + Strategic Messaging = Conversion Success",
       "text1": "We create copy that combines persuasive writing with strategic messaging to drive conversions. Our systematic approach to copywriting involves deep audience research, strategic message development, conversion-focused writing, and continuous optimization based on performance data.",
@@ -632,37 +577,32 @@
         "We track design performance across marketing channels to identify what resonates with audiences. Our analysis includes engagement metrics, brand recognition measurements, and conversion tracking to inform future design strategies and ensure continuous improvement."
       ]
     },
-    "serviceCards": [],
-    "strategic": {
-      "heading": "Dominate With Strategic Graphic Design",
-      "blocks": [
-        {
-          "icon": "🎨",
-          "title": "Brand-Focused Design",
-          "description": "We create designs that strengthen your brand identity and recognition. Our brand-focused approach ensures visual consistency, reinforces brand messaging, and creates memorable visual experiences that build lasting brand connections."
-        },
-        {
-          "icon": "✨",
-          "title": "Creative Excellence",
-          "description": "We deliver creative designs that capture attention and communicate effectively. Our creative process combines artistic vision with strategic thinking to produce visuals that not only look stunning but serve clear business and communication objectives."
-        },
-        {
-          "icon": "📱",
-          "title": "Multi-Channel Design",
-          "description": "We create designs optimized for all marketing channels. From social media graphics to print materials to digital advertisements, we ensure your visuals are perfectly formatted and optimized for each channel's unique requirements and audience expectations."
-        },
-        {
-          "icon": "🔧",
-          "title": "Comprehensive Design Services",
-          "description": "We provide full-spectrum graphic design services. Our capabilities include logo design, brand identity, marketing materials, digital graphics, packaging design, and more—everything you need to create a cohesive visual brand presence."
-        },
-        {
-          "icon": "💡",
-          "title": "Strategic Visual Communication",
-          "description": "We use design as a strategic communication tool. Our approach goes beyond aesthetics to create visuals that convey complex messages, guide user behavior, and drive specific marketing outcomes through intentional design choices and strategic visual communication."
-        }
-      ]
-    },
+    "serviceCards": [
+      {
+        "id": "logo-design",
+        "name": "Logo Design",
+        "title": "Professional Logo Design Services",
+        "description": "Create memorable logos that represent your brand identity.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/logo-design"
+      },
+      {
+        "id": "infographic-design",
+        "name": "Infographic Design",
+        "title": "Infographic Design Services",
+        "description": "Transform complex information into engaging visual stories.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/infographic-design"
+      },
+      {
+        "id": "photo-shoot",
+        "name": "Photo Shoot",
+        "title": "Professional Photo Shoot Services",
+        "description": "Capture stunning images that showcase your brand and products.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/photo-shoot"
+      }
+    ],
     "content": {
       "heading": "Creative Design + Strategic Thinking = Visual Success",
       "text1": "We create designs that combine creative excellence with strategic thinking to drive marketing success. Our systematic approach to graphic design involves understanding business objectives, developing creative concepts, refining based on feedback, and optimizing for maximum visual impact and brand effectiveness.",
@@ -727,37 +667,32 @@
         "We deliver final videos in all required formats and provide analytics recommendations. Our delivery includes high-quality files, platform-optimized versions, and strategic guidance on distribution and performance tracking to maximize your video's impact."
       ]
     },
-    "serviceCards": [],
-    "strategic": {
-      "heading": "Dominate With Professional Video Editing",
-      "blocks": [
-        {
-          "icon": "🎬",
-          "title": "Professional Editing Expertise",
-          "description": "We apply professional editing techniques to create polished, engaging videos. Our expertise includes pacing, narrative structure, visual flow, and technical precision to ensure your videos captivate audiences and effectively communicate your message."
-        },
-        {
-          "icon": "🎨",
-          "title": "Creative Enhancement",
-          "description": "We enhance videos with creative elements that elevate impact. Our enhancement services include color grading, motion graphics, sound design, transitions, and effects that add professional polish and creative flair to your video content."
-        },
-        {
-          "icon": "📱",
-          "title": "Multi-Platform Optimization",
-          "description": "We optimize videos for all viewing platforms and contexts. Our optimization ensures your videos look and perform perfectly on social media, websites, presentations, and other channels while maintaining quality and engagement across different viewing environments."
-        },
-        {
-          "icon": "⏱️",
-          "title": "Timely Delivery",
-          "description": "We deliver professionally edited videos on schedule. Our efficient editing workflows, clear communication, and project management ensure you receive high-quality video content when you need it, without compromising quality or attention to detail."
-        },
-        {
-          "icon": "📊",
-          "title": "Performance-Focused Editing",
-          "description": "We edit with marketing performance in mind. Our approach considers viewer behavior, engagement patterns, and conversion objectives to create videos that not only look great but drive measurable marketing results and business outcomes."
-        }
-      ]
-    },
+    "serviceCards": [
+      {
+        "id": "video-shoot",
+        "name": "Video Shoot",
+        "title": "Professional Video Shoot Services",
+        "description": "Create compelling video content through professional video production.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/video-shoot"
+      },
+      {
+        "id": "photo-shoot",
+        "name": "Photo Shoot",
+        "title": "Professional Photo Shoot Services",
+        "description": "Capture stunning images that showcase your brand and products.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/photo-shoot"
+      },
+      {
+        "id": "graphic-designing",
+        "name": "Graphic Designing",
+        "title": "Professional Graphic Design Services",
+        "description": "Create stunning visuals that capture attention and communicate your brand.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/graphic-designing"
+      }
+    ],
     "content": {
       "heading": "Expert Editing + Creative Enhancement = Video Success",
       "text1": "We transform raw footage into compelling video content through professional editing and creative enhancement. Our systematic approach to video editing involves understanding objectives, assembling engaging narratives, enhancing with creative elements, optimizing for platforms, and delivering professional results that drive marketing success.",
@@ -822,37 +757,32 @@
         "We deliver final images in all required formats and resolutions. Our delivery includes high-resolution files for print, web-optimized versions, raw files when requested, and comprehensive image libraries organized for easy access and usage."
       ]
     },
-    "serviceCards": [],
-    "strategic": {
-      "heading": "Dominate With Professional Photography",
-      "blocks": [
-        {
-          "icon": "📸",
-          "title": "Professional Photography Expertise",
-          "description": "We deliver professional photography that captures your brand effectively. Our expertise includes product photography, lifestyle photography, portrait photography, and event coverage to create visual assets that elevate your marketing materials."
-        },
-        {
-          "icon": "🎨",
-          "title": "Creative Visual Storytelling",
-          "description": "We use photography as a storytelling tool. Our creative approach captures emotion, showcases products effectively, and creates visual narratives that engage audiences and support your brand messaging and marketing objectives."
-        },
-        {
-          "icon": "💼",
-          "title": "Brand-Focused Photography",
-          "description": "We ensure every photo shoot aligns with your brand identity. Our brand-focused approach maintains visual consistency, reinforces brand messaging, and creates images that strengthen brand recognition and resonate with target audiences."
-        },
-        {
-          "icon": "🔧",
-          "title": "Comprehensive Photo Services",
-          "description": "We provide full-spectrum photography services. Our capabilities include product shoots, brand photography, event coverage, lifestyle photography, and more—everything you need to create a comprehensive visual library for your marketing needs."
-        },
-        {
-          "icon": "📊",
-          "title": "Marketing-Optimized Images",
-          "description": "We create images optimized for marketing success. Our approach considers usage requirements, platform specifications, conversion objectives, and engagement patterns to ensure your photos drive measurable marketing results."
-        }
-      ]
-    },
+    "serviceCards": [
+      {
+        "id": "video-shoot",
+        "name": "Video Shoot",
+        "title": "Professional Video Shoot Services",
+        "description": "Create compelling video content through professional video production.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/video-shoot"
+      },
+      {
+        "id": "video-editing",
+        "name": "Video Editing",
+        "title": "Professional Video Editing Services",
+        "description": "Transform raw footage into compelling video content that engages.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/video-editing"
+      },
+      {
+        "id": "graphic-designing",
+        "name": "Graphic Designing",
+        "title": "Professional Graphic Design Services",
+        "description": "Create stunning visuals that capture attention and communicate your brand.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/graphic-designing"
+      }
+    ],
     "content": {
       "heading": "Professional Photography + Creative Vision = Visual Success",
       "text1": "We create compelling visual content through professional photography and creative vision. Our systematic approach to photo shoots involves understanding objectives, planning sessions, conducting professional photography, editing for quality, and delivering optimized images that drive marketing success.",
@@ -917,37 +847,32 @@
         "We deliver final videos in all required formats and resolutions. Our delivery includes high-quality files for various platforms, optimized versions for web and social media, and comprehensive video packages ready for distribution and marketing use."
       ]
     },
-    "serviceCards": [],
-    "strategic": {
-      "heading": "Dominate With Professional Video Production",
-      "blocks": [
-        {
-          "icon": "🎥",
-          "title": "Professional Video Production",
-          "description": "We deliver professional video shoots that capture your brand effectively. Our production expertise includes commercial filming, product videos, brand videos, event coverage, and more to create visual content that elevates your marketing materials."
-        },
-        {
-          "icon": "🎬",
-          "title": "Creative Storytelling",
-          "description": "We use video as a powerful storytelling medium. Our creative approach develops compelling narratives, captures authentic moments, and creates video content that engages audiences and supports your brand messaging and marketing objectives."
-        },
-        {
-          "icon": "💼",
-          "title": "Brand-Focused Production",
-          "description": "We ensure every video shoot aligns with your brand identity. Our brand-focused approach maintains visual consistency, reinforces brand messaging, and creates videos that strengthen brand recognition and resonate with target audiences."
-        },
-        {
-          "icon": "🔧",
-          "title": "Full Production Services",
-          "description": "We provide end-to-end video production services. Our capabilities include pre-production planning, professional filming, post-production editing, and delivery—everything you need to create compelling video content for your marketing needs."
-        },
-        {
-          "icon": "📊",
-          "title": "Marketing-Optimized Videos",
-          "description": "We create videos optimized for marketing success. Our approach considers platform requirements, engagement patterns, conversion objectives, and distribution strategies to ensure your videos drive measurable marketing results."
-        }
-      ]
-    },
+    "serviceCards": [
+      {
+        "id": "video-editing",
+        "name": "Video Editing",
+        "title": "Professional Video Editing Services",
+        "description": "Transform raw footage into compelling video content that engages.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/video-editing"
+      },
+      {
+        "id": "photo-shoot",
+        "name": "Photo Shoot",
+        "title": "Professional Photo Shoot Services",
+        "description": "Capture stunning images that showcase your brand and products.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/photo-shoot"
+      },
+      {
+        "id": "social-media-content",
+        "name": "Social Media Content",
+        "title": "Engaging Social Media Content Creation",
+        "description": "Create compelling social media content that drives engagement.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/social-media-content"
+      }
+    ],
     "content": {
       "heading": "Professional Production + Creative Vision = Video Success",
       "text1": "We create compelling video content through professional video production and creative vision. Our systematic approach to video shoots involves understanding objectives, planning pre-production, conducting professional filming, post-production editing, and delivering optimized videos that drive marketing success.",
@@ -1012,37 +937,32 @@
         "We deliver final infographics in all required formats and provide distribution recommendations. Our delivery includes high-resolution files, web-optimized versions, platform-specific formats, and strategic guidance on maximizing reach and engagement."
       ]
     },
-    "serviceCards": [],
-    "strategic": {
-      "heading": "Dominate With Strategic Infographic Design",
-      "blocks": [
-        {
-          "icon": "📊",
-          "title": "Data Visualization Expertise",
-          "description": "We transform complex data into clear, engaging visualizations. Our data visualization expertise includes charts, graphs, diagrams, and visual elements that make information accessible and comprehensible for your target audience."
-        },
-        {
-          "icon": "🎨",
-          "title": "Creative Information Design",
-          "description": "We design infographics that balance visual appeal with information clarity. Our creative approach ensures infographics not only look stunning but effectively communicate complex information in ways that engage and inform audiences."
-        },
-        {
-          "icon": "📱",
-          "title": "Multi-Format Design",
-          "description": "We create infographics optimized for all platforms and use cases. Our multi-format approach ensures your infographics work perfectly on websites, social media, presentations, print materials, and other marketing channels."
-        },
-        {
-          "icon": "🔧",
-          "title": "Comprehensive Design Services",
-          "description": "We provide full-spectrum infographic design services. Our capabilities include static infographics, animated infographics, interactive designs, and more—everything you need to visualize information effectively and drive engagement."
-        },
-        {
-          "icon": "💡",
-          "title": "Strategic Visual Communication",
-          "description": "We use infographics as strategic communication tools. Our approach goes beyond aesthetics to create visuals that simplify complexity, highlight key insights, guide audience understanding, and drive specific marketing outcomes."
-        }
-      ]
-    },
+    "serviceCards": [
+      {
+        "id": "graphic-designing",
+        "name": "Graphic Designing",
+        "title": "Professional Graphic Design Services",
+        "description": "Create stunning visuals that capture attention and communicate your brand.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/graphic-designing"
+      },
+      {
+        "id": "video-editing",
+        "name": "Video Editing",
+        "title": "Professional Video Editing Services",
+        "description": "Transform raw footage into compelling video content that engages.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/video-editing"
+      },
+      {
+        "id": "logo-design",
+        "name": "Logo Design",
+        "title": "Professional Logo Design Services",
+        "description": "Create memorable logos that represent your brand identity.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/logo-design"
+      }
+    ],
     "content": {
       "heading": "Visual Design + Data Analysis = Communication Success",
       "text1": "We create compelling infographics that combine visual design with data analysis to communicate effectively. Our systematic approach to infographic design involves understanding information, developing visual concepts, refining based on feedback, optimizing for different uses, and delivering designs that drive marketing success.",
@@ -1107,37 +1027,32 @@
         "We continuously monitor and optimize website copy performance. Our analysis includes engagement metrics, conversion tracking, user behavior analysis, and A/B testing to identify improvements and ensure your website copy consistently drives results."
       ]
     },
-    "serviceCards": [],
-    "strategic": {
-      "heading": "Dominate With Strategic Website Copywriting",
-      "blocks": [
-        {
-          "icon": "🌐",
-          "title": "Conversion-Focused Web Copy",
-          "description": "We craft website copy that guides visitors toward conversion. Our conversion-focused approach uses persuasive techniques, clear value propositions, strategic CTAs, and user journey optimization to turn visitors into customers."
-        },
-        {
-          "icon": "🔍",
-          "title": "SEO-Optimized Content",
-          "description": "We integrate SEO into every piece of website copy. Our SEO-optimized writing improves search rankings while maintaining natural readability and conversion effectiveness to maximize both organic traffic and user engagement."
-        },
-        {
-          "icon": "📝",
-          "title": "Comprehensive Website Content",
-          "description": "We create copy for all website pages. Our comprehensive approach includes homepage copy, service pages, product descriptions, about pages, landing pages, and more—everything you need for a cohesive, conversion-focused website."
-        },
-        {
-          "icon": "🎯",
-          "title": "User Journey Optimization",
-          "description": "We optimize copy for user experience and conversion paths. Our approach considers user behavior, information architecture, page flow, and conversion funnels to ensure website copy guides visitors effectively toward desired actions."
-        },
-        {
-          "icon": "📊",
-          "title": "Performance-Driven Copy",
-          "description": "We continuously test and optimize website copy based on performance data. Our data-driven approach includes A/B testing, conversion tracking, engagement analysis, and iterative improvements to ensure your website copy consistently delivers maximum ROI."
-        }
-      ]
-    },
+    "serviceCards": [
+      {
+        "id": "sales-copywriting",
+        "name": "Sales Copywriting",
+        "title": "Sales Copywriting Services",
+        "description": "Drive sales with compelling copy that persuades and converts.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/sales-copywriting"
+      },
+      {
+        "id": "copywriting",
+        "name": "Copywriting",
+        "title": "Professional Copywriting Services",
+        "description": "Drive conversions with compelling copy that resonates.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/copywriting"
+      },
+      {
+        "id": "blog-writing",
+        "name": "Blog Writing",
+        "title": "Expert Blog Writing & Content Creation",
+        "description": "Create engaging, SEO-optimized blog content that drives traffic.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/blog-writing"
+      }
+    ],
     "content": {
       "heading": "Persuasive Copy + Strategic Messaging = Website Success",
       "text1": "We create website copy that combines persuasive writing with strategic messaging to drive conversions. Our systematic approach to website copywriting involves understanding user journeys, developing conversion-focused content, optimizing for SEO, testing performance, and continuously refining to ensure maximum impact.",
@@ -1202,37 +1117,32 @@
         "We continuously analyze sales copy performance to identify what converts and drives revenue. Our team tracks conversion rates, revenue metrics, engagement data, and ROI to refine future sales copy strategies and ensure continuous improvement."
       ]
     },
-    "serviceCards": [],
-    "strategic": {
-      "heading": "Dominate With Strategic Sales Copywriting",
-      "blocks": [
-        {
-          "icon": "💰",
-          "title": "Revenue-Focused Copy",
-          "description": "We craft sales copy that drives revenue and closes deals. Our revenue-focused approach uses proven sales techniques, persuasive messaging, strategic offers, and conversion optimization to maximize sales performance and business results."
-        },
-        {
-          "icon": "🎯",
-          "title": "Buyer Psychology Expertise",
-          "description": "We understand buyer behavior and craft messages that persuade. Our buyer psychology expertise ensures sales copy addresses real pain points, builds desire, overcomes objections, and guides prospects toward purchase decisions."
-        },
-        {
-          "icon": "📝",
-          "title": "Comprehensive Sales Materials",
-          "description": "We create sales copy for all touchpoints. Our comprehensive approach includes sales pages, email sequences, sales letters, proposals, presentations, and more—everything you need to guide prospects through the sales funnel and close deals."
-        },
-        {
-          "icon": "🔥",
-          "title": "Persuasive Techniques",
-          "description": "We apply proven sales copywriting techniques to drive action. Our persuasive approach includes benefit-driven messaging, social proof, urgency creation, scarcity tactics, and strong CTAs that motivate prospects to take immediate action."
-        },
-        {
-          "icon": "📊",
-          "title": "Conversion Optimization",
-          "description": "We continuously test and optimize sales copy for maximum conversion. Our data-driven approach includes A/B testing, conversion tracking, revenue analysis, and iterative improvements to ensure your sales copy consistently delivers maximum ROI."
-        }
-      ]
-    },
+    "serviceCards": [
+      {
+        "id": "website-copywriting",
+        "name": "Website Copywriting",
+        "title": "Website Copywriting Services",
+        "description": "Create compelling website copy that converts visitors into customers.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/website-copywriting"
+      },
+      {
+        "id": "copywriting",
+        "name": "Copywriting",
+        "title": "Professional Copywriting Services",
+        "description": "Drive conversions with compelling copy that resonates.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/copywriting"
+      },
+      {
+        "id": "email-newsletters",
+        "name": "Email Newsletters",
+        "title": "Professional Email Newsletter Creation",
+        "description": "Design and write engaging email newsletters that nurture leads.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/email-newsletters"
+      }
+    ],
     "content": {
       "heading": "Persuasive Sales Copy + Strategic Messaging = Revenue Success",
       "text1": "We create sales copy that combines persuasive writing with strategic messaging to drive revenue. Our systematic approach to sales copywriting involves understanding buyer psychology, developing conversion-focused content, applying proven sales techniques, testing performance, and continuously optimizing to maximize sales results.",
@@ -1263,6 +1173,1626 @@
         {
           "q": "What's your process for developing sales copy?",
           "a": "Our process includes comprehensive research on your product and audience, buyer persona development, value proposition refinement, persuasive copy development, testing and optimization, and performance analysis. We work collaboratively through each phase to ensure sales copy effectively drives conversions and revenue."
+        }
+      ]
+    }
+  },
+  "logo-design": {
+    "hero": {
+      "heading": "Professional Logo Design Services | Creative Brand Identity",
+      "subheading": "Create memorable logos that represent your brand identity and build lasting recognition. Our professional logo design services deliver unique, impactful logos that capture your brand essence and resonate with your target audience."
+    },
+    "form": {
+      "heading": "Scale with Professional Logo Design",
+      "content": "We create distinctive logos that capture your brand identity. Our comprehensive logo design services include brand research, concept development, multiple design options, and final logo files in all formats to establish a strong visual brand foundation.",
+      "subContent": "Our talented designers understand the power of visual identity. We create logos that not only look great but effectively communicate your brand values, appeal to your target audience, and establish a memorable brand presence across all marketing channels.",
+      "cta": "Request a free logo design consultation. Our team discusses your vision, reviews your brand requirements, and provides strategic recommendations to create a logo that truly represents your brand.",
+      "formHeading": "Free Logo Design Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "services": "Logo Design",
+    "process": {
+      "steps": [
+        "Brand Research & Strategy",
+        "Concept Development",
+        "Design Refinement",
+        "Finalization & Delivery",
+        "Brand Guidelines"
+      ],
+      "content": [
+        "We start with comprehensive brand research to understand your brand identity, target audience, competitors, and industry positioning. Our research informs the design direction and ensures your logo effectively communicates your brand values and appeals to your audience.",
+        "Our designers develop multiple logo concepts that explore different visual approaches and styles. We present 3-5 initial concepts that balance creativity with brand appropriateness, ensuring each option resonates with your vision and market position.",
+        "We collaborate through the refinement process, incorporating feedback and honing the selected concept. Our iterative approach ensures every detail is perfected—from color palette to typography to iconography—until the logo perfectly captures your brand essence.",
+        "We finalize your logo in all required formats including vector files (AI, EPS, SVG), raster files (PNG, JPG), and variations for different use cases. Our delivery includes high-resolution files, transparent backgrounds, and format variations optimized for print and digital use.",
+        "We provide comprehensive brand guidelines that document logo usage, color specifications, spacing requirements, and best practices. These guidelines ensure consistent logo application across all marketing materials and touchpoints."
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "graphic-designing",
+        "name": "Graphic Designing",
+        "title": "Professional Graphic Design Services",
+        "description": "Create stunning visuals that capture attention and communicate your brand.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/graphic-designing"
+      },
+      {
+        "id": "branding",
+        "name": "Branding",
+        "title": "Professional Branding Services",
+        "description": "Develop comprehensive brand identities that resonate with your audience.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/branding"
+      },
+      {
+        "id": "website-copywriting",
+        "name": "Website Copywriting",
+        "title": "Website Copywriting Services",
+        "description": "Create compelling website copy that converts visitors into customers.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/website-copywriting"
+      }
+    ],
+    "content": {
+      "heading": "Memorable Design + Strategic Thinking = Brand Recognition",
+      "text1": "We create logos that combine artistic excellence with strategic thinking to build strong brand recognition. Our systematic approach to logo design involves thorough brand research, creative concept development, iterative refinement, and comprehensive delivery to establish a memorable visual identity.",
+      "text2": "Our logo design framework ensures every element serves a clear brand purpose. We develop distinctive designs, ensure versatility across applications, maintain brand consistency, and provide comprehensive guidelines to ensure your logo effectively represents your brand across all touchpoints.",
+      "text3": "From startups to established brands, we design logos that make an impact—then deliver them in all formats with comprehensive brand guidelines. Our comprehensive logo design approach includes research, concept development, refinement, finalization, and guideline creation to ensure your visual identity consistently delivers memorable brand recognition and marketing value.",
+      "image": "hero.png",
+      "alt": "Logo design illustration"
+    },
+    "faq": {
+      "serviceName": "Logo Design",
+      "faqs": [
+        {
+          "q": "How many logo concepts do you provide?",
+          "a": "We typically provide 3-5 initial logo concepts for each project, allowing you to see different creative directions and choose the approach that best fits your brand vision. We can provide additional concepts or variations based on your feedback and requirements."
+        },
+        {
+          "q": "What file formats do you deliver?",
+          "a": "We deliver logos in all standard formats including vector files (AI, EPS, SVG) for scalability, raster files (PNG, JPG) for web and print use, and format variations optimized for different applications. All files are provided in high-resolution with transparent backgrounds when needed."
+        },
+        {
+          "q": "How long does logo design take?",
+          "a": "Logo design timeline typically takes 2-3 weeks from initial briefing to final delivery, including concept development, revisions, and finalization. Complex projects may take longer. We work efficiently while ensuring quality and strategic alignment with your brand objectives."
+        },
+        {
+          "q": "Do you provide brand guidelines with the logo?",
+          "a": "Yes, we provide comprehensive brand guidelines that document logo usage, color specifications, typography, spacing requirements, and best practices. These guidelines ensure consistent logo application across all marketing materials and touchpoints."
+        },
+        {
+          "q": "Can you help with logo redesigns?",
+          "a": "Absolutely. We provide logo redesign services that respect your brand heritage while modernizing your visual identity. Our redesign approach maintains brand recognition while refreshing your logo to align with current design trends and your evolving brand positioning."
+        }
+      ]
+    }
+  },
+  "branding": {
+    "hero": {
+      "heading": "Professional Branding Services | Complete Brand Identity Design",
+      "subheading": "Develop comprehensive brand identities that resonate with your audience and drive recognition. Our professional branding services create cohesive visual and messaging systems that establish strong brand presence across all touchpoints."
+    },
+    "form": {
+      "heading": "Scale with Professional Branding",
+      "content": "We create complete brand identities that establish strong market presence. Our comprehensive branding services include brand strategy, visual identity design, brand guidelines, and consistent application across all marketing channels to build lasting brand recognition.",
+      "subContent": "Our branding experts combine strategic thinking with creative excellence. We develop brand identities that not only look great but effectively communicate your values, differentiate you from competitors, and create meaningful connections with your target audience.",
+      "cta": "Request a free branding consultation. Our team discusses your vision, reviews your market position, and provides strategic recommendations to create a brand identity that truly represents your business.",
+      "formHeading": "Free Branding Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "services": "Branding",
+    "process": {
+      "steps": [
+        "Brand Strategy & Research",
+        "Visual Identity Development",
+        "Brand Guidelines Creation",
+        "Implementation & Application",
+        "Brand Management"
+      ],
+      "content": [
+        "We start with comprehensive brand strategy development to define your brand positioning, values, personality, and messaging. Our research includes competitive analysis, target audience insights, and market positioning to ensure your brand identity aligns with business objectives and resonates with your audience.",
+        "We develop complete visual identity systems including logo design, color palettes, typography, imagery styles, and visual elements. Our design process creates cohesive visual systems that work across all applications and effectively communicate your brand essence.",
+        "We create comprehensive brand guidelines that document all aspects of your brand identity. Our guidelines include logo usage, color specifications, typography systems, imagery guidelines, and application examples to ensure consistent brand implementation across all touchpoints.",
+        "We implement your brand identity across key marketing materials including business cards, letterheads, brochures, digital assets, and more. Our implementation ensures your brand is consistently applied to build recognition and strengthen your market presence.",
+        "We provide ongoing brand management support to ensure your brand evolves strategically. Our services include brand audits, refresh recommendations, and maintenance to keep your brand current and aligned with your business growth."
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "logo-design",
+        "name": "Logo Design",
+        "title": "Professional Logo Design Services",
+        "description": "Create memorable logos that represent your brand identity.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/logo-design"
+      },
+      {
+        "id": "graphic-designing",
+        "name": "Graphic Designing",
+        "title": "Professional Graphic Design Services",
+        "description": "Create stunning visuals that capture attention and communicate your brand.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/graphic-designing"
+      },
+      {
+        "id": "website-copywriting",
+        "name": "Website Copywriting",
+        "title": "Website Copywriting Services",
+        "description": "Create compelling website copy that converts visitors into customers.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/website-copywriting"
+      }
+    ],
+    "content": {
+      "heading": "Strategic Identity + Creative Excellence = Brand Power",
+      "text1": "We create comprehensive brand identities that combine strategic thinking with creative excellence to build strong market presence. Our systematic approach to branding involves thorough research, visual identity development, guideline creation, and consistent implementation to establish memorable brand recognition.",
+      "text2": "Our branding framework ensures every element serves a clear business purpose. We develop cohesive identities, create comprehensive guidelines, ensure consistent application, and provide ongoing support to ensure your brand effectively communicates your values and builds lasting connections with your audience.",
+      "text3": "From startups to established businesses, we develop brands that make an impact—then implement them consistently across all touchpoints with comprehensive guidelines. Our comprehensive branding approach includes strategy development, visual identity creation, guideline documentation, implementation, and management to ensure your brand consistently delivers recognition and marketing value.",
+      "image": "hero.png",
+      "alt": "Branding illustration"
+    },
+    "faq": {
+      "serviceName": "Branding",
+      "faqs": [
+        {
+          "q": "What's included in your branding services?",
+          "a": "Our branding services include brand strategy development, visual identity design (logo, colors, typography), brand guidelines creation, and initial brand application across key materials. Additional services like complete brand manuals, extensive applications, and brand photography can be included based on project scope."
+        },
+        {
+          "q": "How long does a complete branding project take?",
+          "a": "A comprehensive branding project typically takes 6-10 weeks from initial strategy through final brand guidelines delivery. Timeline depends on project scope, number of deliverables, revision requirements, and complexity of your brand identity system."
+        },
+        {
+          "q": "Do you provide brand guidelines?",
+          "a": "Yes, we create comprehensive brand guidelines that document all aspects of your brand identity including logo usage, color specifications, typography systems, imagery styles, and application examples. These guidelines ensure consistent brand implementation across all marketing materials."
+        },
+        {
+          "q": "Can you redesign existing brands?",
+          "a": "Absolutely. We provide brand redesign services that modernize your visual identity while maintaining brand recognition. Our redesign approach balances evolution with heritage to keep your brand current and aligned with your business objectives and market position."
+        },
+        {
+          "q": "Do you work with brand positioning and messaging?",
+          "a": "Yes, brand positioning and messaging are integral parts of our branding services. We develop brand strategies that define your unique position in the market, key differentiators, brand personality, and messaging frameworks to ensure your visual identity aligns with your brand essence."
+        }
+      ]
+    }
+  },
+  "press-release-writing": {
+    "hero": {
+      "heading": "Press Release Writing Services | Professional PR Content",
+      "subheading": "Get your news noticed with professionally written press releases. Our press release writing services create compelling, newsworthy content that captures media attention, builds brand awareness, and drives coverage across relevant publications."
+    },
+    "form": {
+      "heading": "Scale with Professional Press Release Writing",
+      "content": "We create compelling press releases that capture media attention. Our comprehensive press release writing services include newsworthy angle development, engaging writing, media targeting, and distribution to maximize your news coverage and brand visibility.",
+      "subContent": "Our PR writers understand what journalists need and craft releases that deliver. We create press releases that not only communicate your news effectively but also appeal to media professionals, increasing your chances of coverage and brand exposure.",
+      "cta": "Request a free press release consultation. Our team discusses your news angle, reviews your objectives, and provides strategic recommendations to maximize your press release impact.",
+      "formHeading": "Free Press Release Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "services": "Press Release Writing",
+    "process": {
+      "steps": [
+        "News Angle Development",
+        "Press Release Writing",
+        "Media Targeting",
+        "Distribution & Pitching",
+        "Coverage Tracking"
+      ],
+      "content": [
+        "We start by developing compelling news angles from your announcements, product launches, events, or achievements. Our angle development identifies the most newsworthy aspects and positions your story to capture media interest and maximize coverage potential.",
+        "Our PR writers craft professional press releases using journalistic best practices. We create engaging headlines, compelling leads, clear messaging, and strong quotes that communicate your story effectively and appeal to media professionals.",
+        "We identify and target relevant media contacts, publications, and journalists who cover your industry or topic. Our targeting ensures your press release reaches the right audiences and increases your chances of securing meaningful media coverage.",
+        "We distribute your press release through appropriate channels and pitch directly to key media contacts. Our distribution approach maximizes reach while our personalized pitching increases engagement and improves your coverage success rate.",
+        "We track and monitor press release performance including distribution metrics, media pickups, coverage mentions, and media outreach results. Our tracking provides insights into what resonates and helps optimize future PR efforts."
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "content-strategy",
+        "name": "Content Strategy",
+        "title": "Strategic Content Planning & Development",
+        "description": "Develop comprehensive content strategies aligned with your business goals.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/content-strategy"
+      },
+      {
+        "id": "copywriting",
+        "name": "Copywriting",
+        "title": "Professional Copywriting Services",
+        "description": "Drive conversions with compelling copy that resonates.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/copywriting"
+      },
+      {
+        "id": "pr-outreach",
+        "name": "PR Outreach",
+        "title": "Professional PR Outreach Services",
+        "description": "Build relationships with media and secure valuable press coverage.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/pr-outreach"
+      }
+    ],
+    "content": {
+      "heading": "Newsworthy Content + Strategic Distribution = Media Coverage",
+      "text1": "We create press releases that combine compelling storytelling with strategic distribution to maximize media coverage. Our systematic approach to press release writing involves developing newsworthy angles, crafting engaging content, targeting relevant media, and tracking results to ensure your news gets noticed.",
+      "text2": "Our press release framework ensures every release serves clear PR objectives. We develop engaging stories, target the right media contacts, distribute strategically, and track results to ensure your press releases consistently secure coverage and build brand awareness.",
+      "text3": "From product launches to company milestones to industry insights, we write press releases that capture attention—then distribute and pitch them strategically to maximize coverage. Our comprehensive press release approach includes angle development, professional writing, media targeting, distribution, and tracking to ensure your PR efforts consistently deliver media exposure and brand value.",
+      "image": "hero.png",
+      "alt": "Press release writing illustration"
+    },
+    "faq": {
+      "serviceName": "Press Release Writing",
+      "faqs": [
+        {
+          "q": "What makes a press release newsworthy?",
+          "a": "Newsworthy press releases announce timely, relevant information that interests media audiences. This includes product launches, company milestones, industry insights, awards, partnerships, leadership changes, or significant developments. We help identify the most compelling angles from your news to maximize media interest."
+        },
+        {
+          "q": "Do you handle press release distribution?",
+          "a": "Yes, we provide comprehensive press release distribution and media pitching services. This includes distributing through press release wire services and directly pitching to targeted media contacts who cover your industry or topic to maximize coverage potential."
+        },
+        {
+          "q": "How quickly can you write a press release?",
+          "a": "Standard press release turnaround is 2-3 business days from initial briefing to final draft. Rush projects can be completed in 24-48 hours. We work efficiently while ensuring quality and strategic alignment with your PR objectives."
+        },
+        {
+          "q": "Do you track press release performance?",
+          "a": "Yes, we provide press release tracking and monitoring services. This includes distribution metrics, media pickups, coverage mentions, social media shares, and media outreach results to measure impact and inform future PR strategies."
+        },
+        {
+          "q": "Can you help with ongoing PR outreach?",
+          "a": "Absolutely. We provide ongoing PR outreach services including regular press release writing, media relationship building, story pitching, and coverage monitoring. Our ongoing support helps maintain consistent brand visibility and media presence."
+        }
+      ]
+    }
+  },
+  "ad-copywriting": {
+    "hero": {
+      "heading": "Ad Copywriting Services | Professional Advertising Copy",
+      "subheading": "Drive results with compelling ad copy that converts. Our ad copywriting services create persuasive, conversion-focused advertising content that captures attention, communicates value, and drives action across all advertising channels."
+    },
+    "form": {
+      "heading": "Scale with Professional Ad Copywriting",
+      "content": "We create conversion-focused ad copy that drives results. Our comprehensive ad copywriting services include headline development, compelling copy creation, and optimization for paid search, social media, display ads, and other advertising platforms to maximize ROI.",
+      "subContent": "Our ad copywriters understand advertising best practices and platform requirements. We create ad copy that not only captures attention but effectively communicates your value proposition, drives clicks, and converts browsers into customers.",
+      "cta": "Request a free ad copy audit. Our team analyzes your current ads, reviews performance data, and provides strategic recommendations to improve your ad copy effectiveness.",
+      "formHeading": "Free Ad Copy Audit",
+      "buttonText": "Get My Audit"
+    },
+    "services": "Ad Copywriting",
+    "process": {
+      "steps": [
+        "Ad Strategy & Research",
+        "Headline Development",
+        "Copy Creation",
+        "Testing & Optimization",
+        "Performance Analysis"
+      ],
+      "content": [
+        "We start with comprehensive ad strategy development and research. Our strategy phase includes competitor analysis, audience insights, platform requirements, and campaign objectives to ensure your ad copy aligns with business goals and platform best practices.",
+        "We develop multiple headline variations that capture attention and communicate value. Our headline development tests different approaches including benefit-driven, question-based, and urgency-focused headlines to identify the most effective messaging for your audience.",
+        "Our ad copywriters craft compelling copy for all ad platforms including Google Ads, Facebook Ads, LinkedIn Ads, and more. We create platform-optimized copy that adheres to character limits, includes relevant keywords, and drives desired actions.",
+        "We implement A/B testing frameworks to optimize ad copy performance. Our testing approach includes headline variations, description copy testing, CTA optimization, and creative variations to identify the highest-performing ad combinations.",
+        "We continuously analyze ad copy performance to identify what converts best. Our team tracks metrics including CTR, conversion rates, cost per acquisition, and ROI to refine ad copy strategies and ensure optimal campaign performance."
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "sales-copywriting",
+        "name": "Sales Copywriting",
+        "title": "Sales Copywriting Services",
+        "description": "Drive sales with compelling copy that persuades and converts.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/sales-copywriting"
+      },
+      {
+        "id": "copywriting",
+        "name": "Copywriting",
+        "title": "Professional Copywriting Services",
+        "description": "Drive conversions with compelling copy that resonates.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/copywriting"
+      },
+      {
+        "id": "website-copywriting",
+        "name": "Website Copywriting",
+        "title": "Website Copywriting Services",
+        "description": "Create compelling website copy that converts visitors into customers.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/website-copywriting"
+      }
+    ],
+    "content": {
+      "heading": "Persuasive Copy + Strategic Testing = Ad Success",
+      "text1": "We create ad copy that combines persuasive writing with strategic testing to drive maximum ROI. Our systematic approach to ad copywriting involves thorough research, compelling copy creation, A/B testing, and continuous optimization to ensure your ads consistently convert and perform.",
+      "text2": "Our ad copy framework ensures every word serves a clear conversion objective. We develop compelling headlines, craft persuasive copy, implement testing frameworks, and optimize based on results to ensure your ad copy consistently drives clicks and conversions.",
+      "text3": "From Google Ads to Facebook Ads to LinkedIn Ads, we write ad copy that converts—then test and optimize it for maximum performance. Our comprehensive ad copywriting approach includes strategy development, copy creation, testing, optimization, and performance analysis to ensure your advertising consistently delivers measurable ROI and business value.",
+      "image": "hero.png",
+      "alt": "Ad copywriting illustration"
+    },
+    "faq": {
+      "serviceName": "Ad Copywriting",
+      "faqs": [
+        {
+          "q": "Which advertising platforms do you write copy for?",
+          "a": "We write ad copy for all major advertising platforms including Google Ads, Facebook Ads, Instagram Ads, LinkedIn Ads, Twitter Ads, YouTube Ads, and more. Our team understands each platform's unique requirements, character limits, and best practices to create optimized ad copy."
+        },
+        {
+          "q": "How do you test ad copy effectiveness?",
+          "a": "We implement comprehensive A/B testing frameworks that test headline variations, description copy, CTAs, and creative elements. Our testing approach uses statistical significance to identify winning ad combinations and continuously optimize based on performance data."
+        },
+        {
+          "q": "Do you incorporate keywords into ad copy?",
+          "a": "Yes, we conduct keyword research and strategically incorporate relevant keywords into ad copy, especially for search ads. Our approach balances keyword integration with natural readability and conversion optimization to maximize both search relevance and user engagement."
+        },
+        {
+          "q": "What's your turnaround time for ad copy projects?",
+          "a": "Standard ad copy projects typically take 3-5 business days depending on campaign scope and number of variations. Rush projects can be completed in 24-48 hours. We work efficiently while ensuring quality and strategic alignment with your campaign objectives."
+        },
+        {
+          "q": "Can you help with ongoing ad optimization?",
+          "a": "Absolutely. We provide ongoing ad optimization services including performance monitoring, A/B testing management, copy refreshes, and strategic recommendations. Our ongoing support helps maintain optimal ad performance and ROI over time."
+        }
+      ]
+    }
+  },
+  "email-marketing": {
+    "hero": {
+      "heading": "Email Marketing Services | Professional Email Campaign Management",
+      "subheading": "Drive engagement and conversions with strategic email marketing campaigns. Our email marketing services create targeted, personalized email campaigns that nurture leads, build relationships, and deliver measurable business results."
+    },
+    "form": {
+      "heading": "Scale with Professional Email Marketing",
+      "content": "We create strategic email campaigns that drive engagement and conversions. Our comprehensive email marketing services include campaign strategy, list segmentation, content creation, automation setup, and performance optimization to maximize your email marketing ROI.",
+      "subContent": "Our email marketing experts understand subscriber behavior and best practices. We develop campaigns that not only capture attention but build relationships, nurture leads, and drive meaningful engagement that supports your business objectives.",
+      "cta": "Request a free email marketing audit. Our team analyzes your current campaigns, reviews performance data, and provides strategic recommendations to improve your email marketing effectiveness.",
+      "formHeading": "Free Email Marketing Audit",
+      "buttonText": "Get My Audit"
+    },
+    "services": "Email Marketing",
+    "process": {
+      "steps": [
+        "Email Strategy Development",
+        "List Segmentation & Automation",
+        "Campaign Creation",
+        "Testing & Optimization",
+        "Performance Management"
+      ],
+      "content": [
+        "We start by developing a comprehensive email marketing strategy aligned with your business goals and audience needs. Our strategy phase includes campaign planning, content themes, sending frequency, automation workflows, and performance goals to ensure your email marketing delivers maximum value.",
+        "We set up sophisticated list segmentation and email automation workflows. Our segmentation approach divides your audience into targeted groups based on behavior, preferences, and lifecycle stage, while our automation ensures timely, relevant communication without manual effort.",
+        "Our team creates engaging email campaigns across various types including newsletters, promotional emails, nurture sequences, and transactional emails. We craft compelling subject lines, write engaging content, design visually appealing layouts, and optimize for all devices.",
+        "We conduct comprehensive testing and optimization for every email campaign. This includes subject line testing, content variations, send time optimization, and design testing to ensure each campaign performs at its best and drives maximum engagement.",
+        "We continuously monitor and optimize email campaign performance. Our team tracks key metrics including open rates, click-through rates, conversion rates, unsubscribe rates, and ROI to identify opportunities and ensure ongoing improvement."
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "email-newsletters",
+        "name": "Email Newsletters",
+        "title": "Professional Email Newsletter Creation",
+        "description": "Design and write engaging email newsletters that nurture leads.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/email-newsletters"
+      },
+      {
+        "id": "copywriting",
+        "name": "Copywriting",
+        "title": "Professional Copywriting Services",
+        "description": "Drive conversions with compelling copy that resonates.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/copywriting"
+      },
+      {
+        "id": "content-strategy",
+        "name": "Content Strategy",
+        "title": "Strategic Content Planning & Development",
+        "description": "Develop comprehensive content strategies aligned with your business goals.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/content-strategy"
+      }
+    ],
+    "content": {
+      "heading": "Strategic Campaigns + Targeted Segmentation = Email Success",
+      "text1": "We create email marketing campaigns that combine strategic planning with sophisticated segmentation and automation to maximize engagement and conversions. Our systematic approach to email marketing involves strategy development, list segmentation, campaign creation, testing, and continuous optimization.",
+      "text2": "Our email marketing framework ensures every campaign serves clear business objectives. We develop targeted strategies, create engaging content, implement automation workflows, and measure performance to ensure your email marketing consistently builds relationships and drives measurable results.",
+      "text3": "From welcome series to promotional campaigns to nurture sequences, we create email campaigns that engage—then test and optimize them for maximum impact. Our comprehensive email marketing approach includes strategy development, segmentation, automation, campaign creation, testing, and performance management to ensure your email efforts consistently deliver value and business growth.",
+      "image": "hero.png",
+      "alt": "Email marketing illustration"
+    },
+    "faq": {
+      "serviceName": "Email Marketing",
+      "faqs": [
+        {
+          "q": "What email platforms do you work with?",
+          "a": "We work with all major email marketing platforms including Mailchimp, Constant Contact, Campaign Monitor, Klaviyo, HubSpot, SendGrid, and others. Our team is familiar with various platforms and can work with your existing email tool or recommend and set up a platform that best fits your needs."
+        },
+        {
+          "q": "Do you set up email automation?",
+          "a": "Yes, we provide comprehensive email automation setup including welcome series, nurture sequences, abandoned cart campaigns, re-engagement campaigns, and behavior-triggered emails. Our automation approach ensures timely, relevant communication that nurtures leads and drives conversions."
+        },
+        {
+          "q": "How do you improve email deliverability?",
+          "a": "We improve deliverability through best practices including list hygiene, sender reputation management, proper authentication setup, content optimization, and engagement monitoring. Our approach includes ongoing monitoring and optimization to maintain high deliverability rates."
+        },
+        {
+          "q": "What's your email campaign turnaround time?",
+          "a": "Campaign turnaround depends on complexity and scope. Standard campaign creation typically takes 3-5 business days, while comprehensive automation setup may take 1-2 weeks. We work efficiently while ensuring quality and strategic alignment with your email marketing goals."
+        },
+        {
+          "q": "Do you provide ongoing email marketing management?",
+          "a": "Yes, we provide ongoing email marketing management services including campaign creation, performance monitoring, list management, A/B testing, and strategic optimization. Our ongoing support helps maintain optimal email performance and ROI."
+        }
+      ]
+    }
+  },
+  "pr-outreach": {
+    "hero": {
+      "heading": "PR Outreach Services | Media Relations & Coverage",
+      "subheading": "Secure valuable press coverage through strategic media relations. Our PR outreach services build relationships with journalists, pitch compelling stories, and secure media coverage that builds brand awareness and credibility."
+    },
+    "form": {
+      "heading": "Scale with Professional PR Outreach",
+      "content": "We build relationships with media and secure press coverage. Our comprehensive PR outreach services include journalist relationship building, story pitching, press release distribution, and coverage tracking to maximize your brand visibility and media presence.",
+      "subContent": "Our PR specialists understand media needs and journalist preferences. We develop relationships, craft compelling pitches, and secure coverage that not only builds awareness but establishes credibility and positions you as an industry leader.",
+      "cta": "Request a free PR consultation. Our team discusses your goals, reviews your story opportunities, and provides strategic recommendations to maximize your media coverage.",
+      "formHeading": "Free PR Outreach Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "services": "PR Outreach",
+    "process": {
+      "steps": [
+        "Media Relationship Building",
+        "Story Development & Pitching",
+        "Press Release Distribution",
+        "Follow-up & Engagement",
+        "Coverage Tracking & Reporting"
+      ],
+      "content": [
+        "We start by building relationships with relevant journalists, reporters, and media contacts in your industry. Our relationship-building approach includes personalized outreach, value provision, and consistent engagement to establish trust and open communication channels.",
+        "We develop compelling story angles and craft personalized pitches that resonate with journalists. Our pitching approach identifies news hooks, personalizes outreach, and communicates value to increase acceptance rates and secure meaningful coverage opportunities.",
+        "We distribute press releases and news updates through appropriate channels to maximize reach. Our distribution strategy includes wire services, direct outreach, and targeted media lists to ensure your news reaches relevant publications and journalists.",
+        "We conduct systematic follow-up to maintain engagement and maximize coverage opportunities. Our follow-up approach includes timely check-ins, additional information provision, and relationship nurturing to increase chances of coverage success.",
+        "We track and report on all PR efforts including pitch outcomes, coverage secured, media mentions, and brand visibility metrics. Our reporting provides clear insights into PR performance and helps optimize future outreach strategies."
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "press-release-writing",
+        "name": "Press Release Writing",
+        "title": "Professional PR Content",
+        "description": "Get your news noticed with professionally written press releases.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/press-release-writing"
+      },
+      {
+        "id": "content-strategy",
+        "name": "Content Strategy",
+        "title": "Strategic Content Planning & Development",
+        "description": "Develop comprehensive content strategies aligned with your business goals.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/content-strategy"
+      },
+      {
+        "id": "branding",
+        "name": "Branding",
+        "title": "Professional Branding Services",
+        "description": "Develop comprehensive brand identities that resonate with your audience.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/branding"
+      }
+    ],
+    "content": {
+      "heading": "Strategic Relationships + Compelling Stories = Media Coverage",
+      "text1": "We build PR outreach programs that combine media relationship building with compelling story pitching to secure valuable press coverage. Our systematic approach to PR outreach involves relationship development, story crafting, personalized pitching, and ongoing engagement to maximize media exposure.",
+      "text2": "Our PR framework ensures every outreach serves clear visibility objectives. We develop media relationships, craft compelling pitches, distribute strategically, and track results to ensure your PR efforts consistently secure coverage and build brand awareness.",
+      "text3": "From journalist relationships to story pitching to coverage tracking, we manage PR outreach that gets noticed—then measure and optimize it for maximum impact. Our comprehensive PR outreach approach includes relationship building, story development, pitching, distribution, and tracking to ensure your media efforts consistently deliver exposure and brand value.",
+      "image": "hero.png",
+      "alt": "PR outreach illustration"
+    },
+    "faq": {
+      "serviceName": "PR Outreach",
+      "faqs": [
+        {
+          "q": "How do you identify target journalists and media contacts?",
+          "a": "We research and identify journalists, reporters, and media contacts who cover your industry, topics, or audience. Our targeting approach includes publication research, journalist database analysis, and media landscape mapping to ensure we reach the right contacts with relevant stories."
+        },
+        {
+          "q": "Do you provide ongoing media relationship management?",
+          "a": "Yes, we provide ongoing media relationship management including regular check-ins, story updates, value provision, and relationship nurturing. Our ongoing approach helps maintain strong media connections and increases your chances of securing consistent coverage."
+        },
+        {
+          "q": "How do you measure PR outreach success?",
+          "a": "We measure PR success through comprehensive metrics including pitch acceptance rates, coverage secured, media mentions, backlinks gained, brand visibility, and media relationship quality. Our reporting provides clear insights into PR performance and ROI."
+        },
+        {
+          "q": "Can you help with crisis PR management?",
+          "a": "Yes, we provide crisis PR management services including rapid response planning, crisis communication development, media coordination, and reputation management. Our crisis approach helps minimize negative impact and protect brand reputation during challenging situations."
+        },
+        {
+          "q": "What industries do you have media contacts in?",
+          "a": "We work with media contacts across various industries including technology, finance, healthcare, retail, real estate, and more. We continuously expand our media network and develop industry-specific relationships to maximize your coverage opportunities."
+        }
+      ]
+    }
+  },
+  "data-and-analytics": {
+    "hero": {
+      "heading": "Data and Analytics Services | Marketing Analytics & Insights",
+      "subheading": "Make data-driven decisions with comprehensive marketing analytics. Our data and analytics services provide actionable insights, performance tracking, and strategic recommendations to optimize your marketing efforts and maximize ROI."
+    },
+    "form": {
+      "heading": "Scale with Data-Driven Insights",
+      "content": "We turn data into actionable marketing insights. Our comprehensive data and analytics services include performance tracking, custom reporting, dashboard creation, and strategic analysis to optimize your marketing efforts and drive measurable business results.",
+      "subContent": "Our analytics experts understand marketing data and measurement. We provide insights that not only track performance but identify opportunities, uncover trends, and deliver strategic recommendations that improve marketing effectiveness and ROI.",
+      "cta": "Request a free analytics audit. Our team reviews your current data setup, analyzes your performance, and provides strategic recommendations to improve your marketing measurement.",
+      "formHeading": "Free Analytics Audit",
+      "buttonText": "Get My Audit"
+    },
+    "services": "Data and Analytics",
+    "process": {
+      "steps": [
+        "Data Setup & Integration",
+        "Performance Tracking",
+        "Custom Reporting",
+        "Dashboard Creation",
+        "Strategic Analysis & Optimization"
+      ],
+      "content": [
+        "We start by setting up comprehensive data collection and integration across all marketing channels. Our setup includes tracking code implementation, data source integration, and quality assurance to ensure accurate, reliable data collection.",
+        "We implement robust performance tracking systems that monitor key metrics across all marketing channels. Our tracking approach includes conversion tracking, attribution modeling, and multi-touch analytics to understand the full customer journey and marketing impact.",
+        "We create custom reporting systems tailored to your business needs. Our reports include KPI dashboards, performance summaries, trend analysis, and strategic insights that provide clear visibility into marketing performance and ROI.",
+        "We develop comprehensive marketing dashboards that provide real-time visibility into performance. Our dashboards integrate data from multiple sources and present insights in clear, actionable formats that enable rapid decision-making.",
+        "We conduct strategic analysis to identify opportunities and optimize marketing performance. Our analysis includes trend identification, opportunity discovery, performance benchmarking, and strategic recommendations to improve marketing effectiveness."
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "google-analytics",
+        "name": "Google Analytics",
+        "title": "Google Analytics Setup & Management",
+        "description": "Set up and optimize Google Analytics for comprehensive insights.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/google-analytics"
+      },
+      {
+        "id": "google-tag-manager",
+        "name": "Google Tag Manager",
+        "title": "Google Tag Manager Services",
+        "description": "Streamline tracking with Google Tag Manager implementation.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/google-tag-manager"
+      },
+      {
+        "id": "reporting-and-dashboards",
+        "name": "Reporting and Dashboards",
+        "title": "Custom Reporting & Dashboard Services",
+        "description": "Create custom reports and dashboards for actionable insights.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/reporting-and-dashboards"
+      }
+    ],
+    "content": {
+      "heading": "Comprehensive Data + Strategic Analysis = Marketing Intelligence",
+      "text1": "We deliver marketing analytics that combine comprehensive data collection with strategic analysis to drive data-driven marketing decisions. Our systematic approach to analytics involves data setup, performance tracking, custom reporting, dashboard creation, and continuous optimization to ensure your marketing is always informed by actionable insights.",
+      "text2": "Our analytics framework ensures every metric serves a clear business purpose. We track comprehensive performance, create meaningful reports, build accessible dashboards, and deliver strategic insights to ensure your marketing consistently benefits from data-driven optimization.",
+      "text3": "From data collection to dashboard creation to strategic analysis, we build marketing intelligence systems that inform decisions—then continuously optimize them for maximum insight. Our comprehensive analytics approach includes data setup, tracking implementation, reporting creation, dashboard development, and strategic analysis to ensure your marketing consistently benefits from actionable data and continuous improvement.",
+      "image": "hero.png",
+      "alt": "Data and analytics illustration"
+    },
+    "faq": {
+      "serviceName": "Data and Analytics",
+      "faqs": [
+        {
+          "q": "What analytics tools do you work with?",
+          "a": "We work with all major analytics tools including Google Analytics, Adobe Analytics, Facebook Analytics, and custom tracking solutions. Our team is proficient with various platforms and can work with your existing tools or recommend and implement analytics solutions that best fit your needs."
+        },
+        {
+          "q": "Do you provide custom reporting?",
+          "a": "Yes, we create comprehensive custom reporting systems tailored to your business needs. Our custom reports include KPI dashboards, performance summaries, trend analysis, and strategic insights that provide clear visibility into marketing performance across all channels."
+        },
+        {
+          "q": "How do you handle data attribution?",
+          "a": "We implement sophisticated attribution modeling that tracks the full customer journey and marketing touchpoints. Our attribution approach includes multi-touch attribution, conversion path analysis, and attribution reports to understand how different marketing channels contribute to conversions."
+        },
+        {
+          "q": "What metrics do you track?",
+          "a": "We track comprehensive marketing metrics including website traffic, engagement rates, conversion rates, lead generation, customer acquisition costs, lifetime value, ROI, and channel-specific KPIs. Our tracking is customized to your business objectives and marketing goals."
+        },
+        {
+          "q": "Do you provide ongoing analytics support?",
+          "a": "Yes, we provide ongoing analytics support including performance monitoring, regular reporting, dashboard maintenance, and strategic analysis. Our ongoing support ensures your marketing remains data-driven and continuously optimizes based on performance insights."
+        }
+      ]
+    }
+  },
+  "conversion-rate-optimization": {
+    "hero": {
+      "heading": "Conversion Rate Optimization Services | CRO Strategy & Testing",
+      "subheading": "Increase conversions with data-driven optimization strategies. Our conversion rate optimization services improve user experience, test variations, and optimize your website and campaigns to maximize conversions and ROI."
+    },
+    "form": {
+      "heading": "Scale with Conversion Rate Optimization",
+      "content": "We optimize your website and campaigns to maximize conversions. Our comprehensive CRO services include conversion audits, A/B testing, user experience optimization, and strategic improvements that increase conversion rates and drive measurable business results.",
+      "subContent": "Our CRO experts understand user behavior and conversion psychology. We identify optimization opportunities, test variations, and implement improvements that not only increase conversions but enhance user experience and maximize marketing ROI.",
+      "cta": "Request a free conversion audit. Our team analyzes your current performance, identifies optimization opportunities, and provides strategic recommendations to improve your conversion rates.",
+      "formHeading": "Free Conversion Audit",
+      "buttonText": "Get My Audit"
+    },
+    "services": "Conversion Rate Optimization",
+    "process": {
+      "steps": [
+        "Conversion Audit & Analysis",
+        "Hypothesis Development",
+        "A/B Testing & Experiments",
+        "Implementation & Monitoring",
+        "Optimization & Scaling"
+      ],
+      "content": [
+        "We start with comprehensive conversion audits to identify barriers and opportunities. Our audit analyzes user behavior, conversion funnels, page performance, and usability issues to understand what prevents conversions and where optimization can make the biggest impact.",
+        "We develop data-driven hypotheses for optimization improvements. Our hypothesis development is based on user behavior data, conversion analytics, and CRO best practices to ensure we test changes with the highest potential impact on conversions.",
+        "We conduct rigorous A/B and multivariate tests to validate hypotheses and optimize performance. Our testing approach includes statistical significance requirements, controlled experiments, and comprehensive testing across pages and campaigns to identify winning variations.",
+        "We implement winning variations and monitor performance to ensure sustained improvements. Our implementation includes thorough QA, performance monitoring, and result validation to confirm that optimizations deliver the expected conversion improvements.",
+        "We continuously optimize and scale successful improvements across your website and campaigns. Our optimization approach includes winning variation deployment, additional testing, and iterative improvements to maximize conversion rate gains over time."
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-copywriting",
+        "name": "Website Copywriting",
+        "title": "Website Copywriting Services",
+        "description": "Create compelling website copy that converts visitors into customers.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/website-copywriting"
+      },
+      {
+        "id": "data-and-analytics",
+        "name": "Data and Analytics",
+        "title": "Marketing Analytics & Insights",
+        "description": "Make data-driven decisions with comprehensive marketing analytics.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/data-and-analytics"
+      },
+      {
+        "id": "call-tracking",
+        "name": "Call Tracking",
+        "title": "Professional Call Tracking Services",
+        "description": "Track and optimize phone leads with advanced call tracking.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/call-tracking"
+      }
+    ],
+    "content": {
+      "heading": "Data-Driven Testing + Strategic Optimization = Conversion Success",
+      "text1": "We deliver conversion rate optimization that combines comprehensive analysis with rigorous testing to maximize conversions. Our systematic approach to CRO involves conversion audits, hypothesis development, A/B testing, implementation, and continuous optimization to ensure your website and campaigns convert at their highest potential.",
+      "text2": "Our CRO framework ensures every optimization serves a clear conversion objective. We conduct thorough audits, test data-driven hypotheses, implement winning variations, and continuously optimize to ensure your conversion rates consistently improve and marketing ROI maximizes.",
+      "text3": "From conversion audits to A/B testing to optimization implementation, we improve conversions through systematic testing—then continuously optimize for maximum impact. Our comprehensive CRO approach includes auditing, hypothesis development, testing, implementation, and ongoing optimization to ensure your marketing consistently delivers improved conversion rates and business value.",
+      "image": "hero.png",
+      "alt": "Conversion rate optimization illustration"
+    },
+    "faq": {
+      "serviceName": "Conversion Rate Optimization",
+      "faqs": [
+        {
+          "q": "How long does it take to see CRO results?",
+          "a": "CRO results timeline depends on traffic volume and test cycle duration. Typically, initial insights emerge within 2-4 weeks of testing, with significant improvements developing over 2-3 months of systematic optimization. We work efficiently to identify and implement winning variations as quickly as statistically valid."
+        },
+        {
+          "q": "What do you test during CRO?",
+          "a": "We test comprehensive conversion elements including headlines, copy, CTAs, form fields, page layouts, navigation, trust signals, pricing displays, and user flow. Our testing is based on data-driven hypotheses and focuses on elements with highest potential conversion impact."
+        },
+        {
+          "q": "Do you use A/B testing or multivariate testing?",
+          "a": "We use both A/B testing for single element changes and multivariate testing for multiple element combinations. Our testing approach uses statistical significance and appropriate sample sizes to ensure results are reliable and actionable."
+        },
+        {
+          "q": "How do you measure CRO success?",
+          "a": "We measure CRO success through comprehensive metrics including conversion rate improvements, revenue per visitor increases, cost per acquisition reductions, and overall ROI gains. Our measurement approach tracks both primary conversion goals and secondary engagement metrics to ensure holistic improvement."
+        },
+        {
+          "q": "Do you provide ongoing CRO support?",
+          "a": "Yes, we provide ongoing CRO support including continuous testing, performance monitoring, additional optimization, and strategic recommendations. Our ongoing approach ensures your conversion rates continue improving over time through systematic optimization."
+        }
+      ]
+    }
+  },
+  "call-tracking": {
+    "hero": {
+      "heading": "Call Tracking Services | Phone Lead Analytics & Optimization",
+      "subheading": "Track and optimize phone leads with advanced call tracking. Our call tracking services provide detailed insights into phone conversion performance, attribution, and ROI to help you optimize marketing spend and improve phone lead quality."
+    },
+    "form": {
+      "heading": "Scale with Professional Call Tracking",
+      "content": "We help you track and optimize phone lead generation. Our comprehensive call tracking services include dynamic number insertion, call analytics, call recording, and attribution reporting to maximize your phone lead ROI and marketing effectiveness.",
+      "subContent": "Our call tracking experts understand phone lead optimization. We provide tracking and insights that not only measure phone lead performance but identify opportunities, attribute conversions accurately, and deliver strategic recommendations to improve phone lead quality and ROI.",
+      "cta": "Request a free call tracking audit. Our team reviews your current phone lead tracking, analyzes performance, and provides strategic recommendations to optimize your call conversion tracking.",
+      "formHeading": "Free Call Tracking Audit",
+      "buttonText": "Get My Audit"
+    },
+    "services": "Call Tracking",
+    "process": {
+      "steps": [
+        "Call Tracking Setup",
+        "Dynamic Number Implementation",
+        "Call Analytics & Recording",
+        "Attribution & Reporting",
+        "Optimization & Management"
+      ],
+      "content": [
+        "We set up comprehensive call tracking systems tailored to your business needs. Our setup includes tracking platform selection, integration with your marketing stack, and configuration to ensure accurate phone lead attribution and measurement.",
+        "We implement dynamic number insertion that displays unique phone numbers based on traffic source, campaign, and keyword. Our implementation ensures accurate attribution of phone leads to specific marketing channels and campaigns.",
+        "We provide call analytics and recording services to understand call quality and performance. Our analytics include call duration, outcome tracking, key conversation insights, and call scoring to identify high-quality leads and optimize marketing spend.",
+        "We deliver comprehensive attribution reporting that shows how marketing channels drive phone leads and conversions. Our reporting includes source attribution, campaign performance, keyword-level tracking, and ROI analysis to optimize marketing allocation.",
+        "We continuously optimize call tracking and phone lead generation based on insights. Our optimization includes bid adjustments, budget reallocation, keyword optimization, and strategic recommendations to improve phone lead quality and maximize ROI."
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "data-and-analytics",
+        "name": "Data and Analytics",
+        "title": "Marketing Analytics & Insights",
+        "description": "Make data-driven decisions with comprehensive marketing analytics.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/data-and-analytics"
+      },
+      {
+        "id": "google-analytics",
+        "name": "Google Analytics",
+        "title": "Google Analytics Setup & Management",
+        "description": "Set up and optimize Google Analytics for comprehensive insights.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/google-analytics"
+      },
+      {
+        "id": "reporting-and-dashboards",
+        "name": "Reporting and Dashboards",
+        "title": "Custom Reporting & Dashboard Services",
+        "description": "Create custom reports and dashboards for actionable insights.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/reporting-and-dashboards"
+      }
+    ],
+    "content": {
+      "heading": "Advanced Tracking + Attribution Analysis = Phone Lead Optimization",
+      "text1": "We deliver call tracking that combines advanced tracking technology with comprehensive attribution analysis to optimize phone lead generation. Our systematic approach to call tracking involves setup, dynamic number implementation, analytics, attribution, and continuous optimization to maximize phone lead ROI.",
+      "text2": "Our call tracking framework ensures every phone lead is accurately attributed and measured. We implement robust tracking, provide detailed analytics, deliver comprehensive attribution, and continuously optimize to ensure your phone lead generation consistently improves and marketing spend maximizes.",
+      "text3": "From tracking setup to attribution reporting to optimization management, we measure phone lead performance accurately—then continuously optimize for maximum impact. Our comprehensive call tracking approach includes setup, implementation, analytics, attribution, and optimization to ensure your phone lead generation consistently delivers improved quality and business value.",
+      "image": "hero.png",
+      "alt": "Call tracking illustration"
+    },
+    "faq": {
+      "serviceName": "Call Tracking",
+      "faqs": [
+        {
+          "q": "What call tracking platforms do you work with?",
+          "a": "We work with major call tracking platforms including CallRail, Invoca, DialogTech, CallTrackingMetrics, and Google Call Conversions. Our team is proficient with various platforms and can work with your existing tracking solution or recommend and implement a platform that best fits your needs."
+        },
+        {
+          "q": "What is dynamic number insertion?",
+          "a": "Dynamic number insertion displays unique phone numbers based on traffic source, campaign, or keyword, allowing accurate attribution of phone leads. This technology ensures you can track exactly which marketing efforts generate phone calls and optimize accordingly."
+        },
+        {
+          "q": "Do you provide call recording services?",
+          "a": "Yes, we provide call recording and analytics services to understand call quality and outcomes. Our recording approach includes conversation insights, key phrase tracking, and call scoring to identify high-quality leads and optimize marketing spend."
+        },
+        {
+          "q": "How do you attribute phone leads to marketing channels?",
+          "a": "We attribute phone leads through dynamic number tracking that links calls to specific sources, campaigns, and keywords. Our attribution approach provides detailed reporting showing which marketing channels drive phone leads and conversions, enabling data-driven optimization."
+        },
+        {
+          "q": "Do you provide ongoing call tracking management?",
+          "a": "Yes, we provide ongoing call tracking management including performance monitoring, optimization recommendations, reporting, and strategic analysis. Our ongoing support ensures your phone lead tracking remains optimized and continues driving improved lead quality over time."
+        }
+      ]
+    }
+  },
+  "reporting-and-dashboards": {
+    "hero": {
+      "heading": "Reporting and Dashboards Services | Custom Marketing Reports",
+      "subheading": "Access actionable insights with custom marketing reports and dashboards. Our reporting and dashboards services create clear, comprehensive visualizations that track performance, measure ROI, and inform strategic marketing decisions."
+    },
+    "form": {
+      "heading": "Scale with Custom Reporting & Dashboards",
+      "content": "We create custom reports and dashboards that deliver actionable insights. Our comprehensive reporting services include dashboard development, automated reporting, KPI tracking, and strategic analysis to ensure your marketing performance is always visible and optimized.",
+      "subContent": "Our reporting experts understand marketing data and visualization. We create reports and dashboards that not only track performance but present insights clearly, identify opportunities, and deliver strategic recommendations that improve marketing effectiveness.",
+      "cta": "Request a free reporting consultation. Our team reviews your reporting needs, analyzes your current setup, and provides strategic recommendations to improve your marketing visibility.",
+      "formHeading": "Free Reporting Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "services": "Reporting and Dashboards",
+    "process": {
+      "steps": [
+        "Reporting Requirements Analysis",
+        "Dashboard Design & Development",
+        "Data Integration & Automation",
+        "Custom Report Creation",
+        "Ongoing Maintenance & Optimization"
+      ],
+      "content": [
+        "We start by analyzing your reporting requirements and KPIs to understand what insights are most valuable. Our analysis includes stakeholder interviews, metric identification, and visualization requirements to ensure dashboards and reports serve your specific business needs.",
+        "We design and develop custom dashboards that provide real-time visibility into marketing performance. Our dashboard development includes intuitive layouts, clear visualizations, interactive elements, and multi-source data integration to present insights in accessible formats.",
+        "We integrate data from multiple marketing sources and automate reporting processes. Our integration approach includes data pipeline development, API connections, automated data refresh, and quality assurance to ensure reports are always current and accurate.",
+        "We create custom reports tailored to different stakeholder needs and use cases. Our custom reports include executive summaries, detailed performance reports, trend analysis, competitive comparisons, and strategic recommendations to inform decision-making at all levels.",
+        "We provide ongoing maintenance and optimization to ensure your reporting remains valuable. Our support includes dashboard updates, report refinements, new metric additions, and strategic enhancements to keep your reporting aligned with evolving business needs."
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "data-and-analytics",
+        "name": "Data and Analytics",
+        "title": "Marketing Analytics & Insights",
+        "description": "Make data-driven decisions with comprehensive marketing analytics.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/data-and-analytics"
+      },
+      {
+        "id": "google-analytics",
+        "name": "Google Analytics",
+        "title": "Google Analytics Setup & Management",
+        "description": "Set up and optimize Google Analytics for comprehensive insights.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/google-analytics"
+      },
+      {
+        "id": "google-tag-manager",
+        "name": "Google Tag Manager",
+        "title": "Google Tag Manager Services",
+        "description": "Streamline tracking with Google Tag Manager implementation.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/google-tag-manager"
+      }
+    ],
+    "content": {
+      "heading": "Custom Dashboards + Automated Reporting = Marketing Visibility",
+      "text1": "We deliver reporting and dashboards that combine comprehensive data integration with intuitive visualization to provide actionable marketing insights. Our systematic approach to reporting involves requirements analysis, dashboard development, automation, custom report creation, and ongoing maintenance to ensure your marketing performance is always visible and optimized.",
+      "text2": "Our reporting framework ensures every metric serves a clear business purpose. We develop custom dashboards, automate reporting processes, create tailored reports, and provide ongoing maintenance to ensure your marketing consistently benefits from clear performance visibility and strategic insights.",
+      "text3": "From dashboard design to automated reporting to ongoing optimization, we create marketing visibility systems that inform decisions—then continuously enhance them for maximum insight. Our comprehensive reporting approach includes requirements analysis, development, automation, customization, and maintenance to ensure your marketing consistently benefits from actionable insights and continuous improvement.",
+      "image": "hero.png",
+      "alt": "Reporting and dashboards illustration"
+    },
+    "faq": {
+      "serviceName": "Reporting and Dashboards",
+      "faqs": [
+        {
+          "q": "What reporting platforms do you work with?",
+          "a": "We work with major reporting platforms including Google Data Studio, Tableau, Power BI, Looker, and custom reporting solutions. Our team can work with your existing reporting tools or recommend and implement platforms that best fit your business needs."
+        },
+        {
+          "q": "Do you provide automated reporting?",
+          "a": "Yes, we provide comprehensive automated reporting including dashboard updates, scheduled report delivery, and automated data refreshes. Our automation ensures stakeholders receive timely, current insights without manual effort."
+        },
+        {
+          "q": "What metrics do you include in dashboards?",
+          "a": "Our dashboards include metrics customized to your business goals and KPIs. Common metrics include traffic, engagement, conversions, lead generation, revenue, ROI, and channel-specific performance indicators. We tailor dashboards to provide insights most valuable to your stakeholders."
+        },
+        {
+          "q": "How often do you update reports and dashboards?",
+          "a": "Report update frequency is customized to your needs. We typically provide real-time dashboards with continuous data refreshes, and scheduled reports can be delivered daily, weekly, monthly, or on-demand based on your requirements."
+        },
+        {
+          "q": "Do you provide ongoing dashboard maintenance?",
+          "a": "Yes, we provide ongoing dashboard and reporting maintenance including updates, refinements, new metric additions, and strategic enhancements. Our ongoing support ensures your reporting remains valuable and aligned with evolving business needs."
+        }
+      ]
+    }
+  },
+  "google-analytics": {
+    "hero": {
+      "heading": "Google Analytics Services | GA4 Setup & Optimization",
+      "subheading": "Track and optimize website performance with expert Google Analytics management. Our Google Analytics services provide comprehensive setup, configuration, and optimization to deliver actionable insights and improve your marketing ROI."
+    },
+    "form": {
+      "heading": "Scale with Google Analytics",
+      "content": "We set up and optimize Google Analytics for comprehensive insights. Our comprehensive Google Analytics services include GA4 migration, custom configuration, goal tracking, e-commerce setup, and advanced reporting to maximize your analytics value.",
+      "subContent": "Our Google Analytics experts understand measurement and optimization. We configure GA to not only track basic metrics but provide advanced insights, custom reporting, and strategic recommendations that improve marketing effectiveness and business performance.",
+      "cta": "Request a free Google Analytics audit. Our team reviews your current setup, analyzes your configuration, and provides strategic recommendations to improve your analytics implementation.",
+      "formHeading": "Free Google Analytics Audit",
+      "buttonText": "Get My Audit"
+    },
+    "services": "Google Analytics",
+    "process": {
+      "steps": [
+        "Google Analytics Setup",
+        "Custom Configuration",
+        "Goal & Conversion Tracking",
+        "Advanced Reporting Setup",
+        "Optimization & Management"
+      ],
+      "content": [
+        "We start by setting up Google Analytics with proper account structure and configuration. Our setup includes GA4 implementation or migration, property configuration, data stream setup, and user access management to ensure your analytics foundation is solid.",
+        "We configure custom tracking and dimensions tailored to your business needs. Our configuration includes event tracking, user property setup, custom dimensions, and advanced settings that provide insights specific to your industry and business objectives.",
+        "We set up comprehensive goal and conversion tracking including e-commerce tracking, lead generation goals, engagement goals, and revenue tracking. Our tracking setup ensures all key business outcomes are accurately measured and attributed.",
+        "We develop custom reports and advanced reporting configurations. Our reporting setup includes custom dashboards, segment creation, audience definitions, and advanced analysis reports that deliver actionable insights tailored to your needs.",
+        "We provide ongoing optimization and management to ensure your Google Analytics continues delivering value. Our management includes regular audits, configuration updates, report refinement, and strategic recommendations to keep your analytics optimized."
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "google-tag-manager",
+        "name": "Google Tag Manager",
+        "title": "Google Tag Manager Services",
+        "description": "Streamline tracking with Google Tag Manager implementation.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/google-tag-manager"
+      },
+      {
+        "id": "data-and-analytics",
+        "name": "Data and Analytics",
+        "title": "Marketing Analytics & Insights",
+        "description": "Make data-driven decisions with comprehensive marketing analytics.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/data-and-analytics"
+      },
+      {
+        "id": "reporting-and-dashboards",
+        "name": "Reporting and Dashboards",
+        "title": "Custom Reporting & Dashboard Services",
+        "description": "Create custom reports and dashboards for actionable insights.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/reporting-and-dashboards"
+      }
+    ],
+    "content": {
+      "heading": "Advanced Setup + Custom Configuration = Actionable Analytics",
+      "text1": "We deliver Google Analytics that combines comprehensive setup with custom configuration to provide actionable marketing insights. Our systematic approach to GA involves setup, configuration, goal tracking, advanced reporting, and ongoing optimization to ensure your analytics continuously delivers value.",
+      "text2": "Our Google Analytics framework ensures every metric serves a clear business purpose. We configure advanced tracking, set up custom reporting, implement goal tracking, and provide ongoing management to ensure your Google Analytics consistently provides actionable insights and marketing intelligence.",
+      "text3": "From GA4 setup to custom configuration to advanced reporting, we build analytics systems that measure performance—then continuously optimize them for maximum insight. Our comprehensive Google Analytics approach includes setup, configuration, goal tracking, reporting, and management to ensure your analytics consistently delivers actionable insights and continuous improvement.",
+      "image": "hero.png",
+      "alt": "Google Analytics illustration"
+    },
+    "faq": {
+      "serviceName": "Google Analytics",
+      "faqs": [
+        {
+          "q": "Do you help with GA4 migration?",
+          "a": "Yes, we provide comprehensive GA4 migration services including Universal Analytics to GA4 transition, property setup, historical data preservation strategies, and configuration migration. We ensure smooth migration with minimal data loss and optimal GA4 implementation."
+        },
+        {
+          "q": "What custom tracking do you set up?",
+          "a": "We set up comprehensive custom tracking including event tracking, user properties, custom dimensions, e-commerce tracking, form submissions, video interactions, downloads, and other engagement metrics. Our custom tracking provides insights specific to your business objectives."
+        },
+        {
+          "q": "How do you set up e-commerce tracking?",
+          "a": "We implement comprehensive e-commerce tracking including transaction tracking, product performance, revenue attribution, and purchase journey analysis. Our e-commerce setup includes enhanced measurement configuration and custom events to capture detailed purchase data."
+        },
+        {
+          "q": "Do you provide Google Analytics training?",
+          "a": "Yes, we provide Google Analytics training and documentation including dashboard navigation, report interpretation, custom report creation, and strategic analysis. Our training helps your team make the most of Google Analytics insights."
+        },
+        {
+          "q": "Do you provide ongoing Google Analytics management?",
+          "a": "Yes, we provide ongoing Google Analytics management including regular audits, configuration updates, report optimization, and strategic recommendations. Our ongoing support ensures your Google Analytics remains optimized and continues delivering valuable insights."
+        }
+      ]
+    }
+  },
+  "google-tag-manager": {
+    "hero": {
+      "heading": "Google Tag Manager Services | GTM Implementation & Management",
+      "subheading": "Streamline tracking implementation with Google Tag Manager. Our Google Tag Manager services provide professional setup, configuration, and management to efficiently deploy and manage all your marketing tags without technical resources."
+    },
+    "form": {
+      "heading": "Scale with Google Tag Manager",
+      "content": "We set up and manage Google Tag Manager for efficient tag deployment. Our comprehensive GTM services include container setup, tag configuration, trigger setup, and ongoing management to streamline your tracking implementation and reduce development dependencies.",
+      "subContent": "Our GTM experts understand tag management and optimization. We configure GTM to not only deploy tags efficiently but provide organized structure, version control, and testing workflows that improve tracking reliability and reduce implementation errors.",
+      "cta": "Request a free GTM audit. Our team reviews your current tag setup, analyzes your configuration, and provides strategic recommendations to improve your tag management.",
+      "formHeading": "Free GTM Audit",
+      "buttonText": "Get My Audit"
+    },
+    "services": "Google Tag Manager",
+    "process": {
+      "steps": [
+        "GTM Container Setup",
+        "Tag Configuration",
+        "Trigger & Variable Setup",
+        "Testing & Validation",
+        "Ongoing Management & Optimization"
+      ],
+      "content": [
+        "We start by setting up your Google Tag Manager container with proper structure and configuration. Our setup includes account organization, container deployment, environment configuration, and user access management to ensure your GTM foundation is solid and organized.",
+        "We configure all marketing tags including Google Analytics, Facebook Pixel, conversion tracking, remarketing tags, and custom tags. Our tag configuration includes proper parameter setup, data layer integration, and tag organization for efficient management.",
+        "We set up comprehensive triggers and variables that control when and how tags fire. Our trigger and variable setup includes event triggers, page view triggers, form triggers, and custom variables that make tags dynamic and efficient.",
+        "We conduct thorough testing and validation to ensure all tags fire correctly. Our testing approach includes Tag Assistant testing, real-world validation, and debug mode verification to confirm tags are working as intended before going live.",
+        "We provide ongoing GTM management and optimization to ensure your tag implementation remains efficient and reliable. Our management includes tag updates, new tag deployment, configuration optimization, and troubleshooting to keep your tracking working smoothly."
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "google-analytics",
+        "name": "Google Analytics",
+        "title": "Google Analytics Setup & Management",
+        "description": "Set up and optimize Google Analytics for comprehensive insights.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/google-analytics"
+      },
+      {
+        "id": "data-and-analytics",
+        "name": "Data and Analytics",
+        "title": "Marketing Analytics & Insights",
+        "description": "Make data-driven decisions with comprehensive marketing analytics.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/data-and-analytics"
+      },
+      {
+        "id": "conversion-rate-optimization",
+        "name": "Conversion Rate Optimization",
+        "title": "CRO Strategy & Testing",
+        "description": "Increase conversions with data-driven optimization strategies.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/conversion-rate-optimization"
+      }
+    ],
+    "content": {
+      "heading": "Efficient Tag Management + Organized Structure = Tracking Success",
+      "text1": "We deliver Google Tag Manager implementation that combines efficient tag deployment with organized structure to streamline your tracking. Our systematic approach to GTM involves container setup, tag configuration, trigger setup, testing, and ongoing management to ensure your tag implementation is reliable and maintainable.",
+      "text2": "Our GTM framework ensures every tag serves a clear tracking purpose. We configure comprehensive tags, set up organized triggers, implement proper testing, and provide ongoing management to ensure your tag implementation consistently works efficiently and reduces technical dependencies.",
+      "text3": "From container setup to tag deployment to ongoing management, we build tag management systems that work efficiently—then continuously optimize them for reliability. Our comprehensive GTM approach includes setup, configuration, testing, management, and optimization to ensure your tracking consistently performs smoothly and technical overhead minimizes.",
+      "image": "hero.png",
+      "alt": "Google Tag Manager illustration"
+    },
+    "faq": {
+      "serviceName": "Google Tag Manager",
+      "faqs": [
+        {
+          "q": "What tags do you manage through GTM?",
+          "a": "We manage all types of marketing tags through GTM including Google Analytics, Facebook Pixel, conversion tracking, remarketing tags, heat map tools, chat widgets, and custom tracking scripts. Our GTM implementation centralizes all tag management for efficiency."
+        },
+        {
+          "q": "Do you integrate GTM with data layers?",
+          "a": "Yes, we implement comprehensive data layer integrations that provide structured data to GTM tags. Our data layer setup includes e-commerce data, user information, custom events, and other structured data to enable advanced tracking and reporting."
+        },
+        {
+          "q": "How do you test GTM implementation?",
+          "a": "We conduct comprehensive testing using Google Tag Assistant, GTM Preview mode, and real-world validation. Our testing approach includes trigger verification, tag firing confirmation, data accuracy checks, and performance testing to ensure reliable implementation."
+        },
+        {
+          "q": "Can you help migrate existing tags to GTM?",
+          "a": "Yes, we provide tag migration services that move existing hardcoded tags into GTM. Our migration approach includes inventory of existing tags, GTM implementation, testing, and validation to ensure smooth transition with no tracking loss."
+        },
+        {
+          "q": "Do you provide ongoing GTM management?",
+          "a": "Yes, we provide ongoing GTM management including new tag deployment, configuration updates, troubleshooting, and optimization recommendations. Our ongoing support ensures your tag management remains efficient and reliable."
+        }
+      ]
+    }
+  },
+  "video-content": {
+    "hero": {
+      "heading": "Video Content Services | Professional Video Production",
+      "subheading": "Create compelling video content that engages and converts. Our video content services produce professional videos for marketing, social media, and promotional campaigns that tell your story and drive results."
+    },
+    "form": {
+      "heading": "Scale with Professional Video Content",
+      "content": "We create engaging video content for all your marketing needs. Our comprehensive video content services include video strategy, production, editing, and optimization to produce videos that captivate audiences and drive business results.",
+      "subContent": "Our video production experts understand visual storytelling and audience engagement. We create videos that not only look professional but effectively communicate your message, build brand awareness, and drive meaningful engagement across all platforms.",
+      "cta": "Request a free video content consultation. Our team discusses your vision, reviews your requirements, and provides strategic recommendations to maximize your video impact.",
+      "formHeading": "Free Video Content Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "services": "Video Content",
+    "process": {
+      "steps": [
+        "Video Strategy & Planning",
+        "Pre-Production & Scripting",
+        "Production & Filming",
+        "Post-Production & Editing",
+        "Distribution & Optimization"
+      ],
+      "content": [
+        "We start by developing a comprehensive video strategy aligned with your marketing goals. Our planning includes video type selection, audience targeting, messaging development, and platform optimization to ensure your videos achieve maximum impact and engagement.",
+        "We conduct thorough pre-production planning including script development, storyboarding, location scouting, and talent coordination. Our pre-production ensures efficient shoots and high-quality results that align with your vision and marketing objectives.",
+        "Our professional videographers conduct filming with industry-standard equipment and techniques. We capture high-quality footage with multiple cameras, proper lighting, professional audio, and creative direction to create compelling video content.",
+        "We transform raw footage into polished video content through expert editing. Our post-production includes color grading, sound design, motion graphics, and optimization to create professional videos that effectively communicate your message.",
+        "We distribute your videos across relevant platforms and optimize for maximum reach and engagement. Our distribution includes platform-specific optimization, promotion strategies, and performance tracking to ensure your videos achieve maximum visibility and impact."
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "video-shoot",
+        "name": "Video Shoot",
+        "title": "Professional Video Shoot Services",
+        "description": "Create compelling video content through professional video production.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/video-shoot"
+      },
+      {
+        "id": "video-editing",
+        "name": "Video Editing",
+        "title": "Professional Video Editing Services",
+        "description": "Transform raw footage into compelling video content that engages.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/video-editing"
+      },
+      {
+        "id": "social-media-content",
+        "name": "Social Media Content",
+        "title": "Engaging Social Media Content Creation",
+        "description": "Create compelling social media content that drives engagement.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/social-media-content"
+      }
+    ],
+    "content": {
+      "heading": "Professional Production + Strategic Distribution = Video Success",
+      "text1": "We create video content that combines professional production with strategic distribution to maximize engagement and conversions. Our systematic approach to video involves strategy development, pre-production planning, professional filming, post-production, and optimized distribution.",
+      "text2": "Our video framework ensures every video serves a clear marketing purpose. We develop comprehensive strategies, create professional content, optimize for platforms, and track performance to ensure your videos consistently engage audiences and drive measurable results.",
+      "text3": "From marketing videos to social content to brand stories, we produce videos that captivate—then distribute and optimize them for maximum impact. Our comprehensive video approach includes strategy, production, editing, and distribution to ensure your video content consistently delivers professional quality and marketing value.",
+      "image": "hero.png",
+      "alt": "Video content illustration"
+    },
+    "faq": {
+      "serviceName": "Video Content",
+      "faqs": [
+        {
+          "q": "What types of videos do you produce?",
+          "a": "We produce various types of video content including marketing videos, brand videos, product demonstrations, testimonials, social media videos, explainer videos, event coverage, and more. Our video production capabilities span all content needs."
+        },
+        {
+          "q": "Do you provide complete video production services?",
+          "a": "Yes, we provide end-to-end video production including strategy development, pre-production planning, professional filming, post-production editing, and distribution. Our complete service ensures seamless video creation from concept to final delivery."
+        },
+        {
+          "q": "How long does video production take?",
+          "a": "Video production timeline depends on project scope and complexity. Standard commercial videos typically take 3-4 weeks from planning through delivery, while simpler social media videos may take 1-2 weeks. We provide realistic timelines based on project requirements."
+        },
+        {
+          "q": "Do you optimize videos for different platforms?",
+          "a": "Yes, we optimize videos for all platforms including YouTube, Facebook, Instagram, LinkedIn, TikTok, and others. Our optimization includes format adjustments, aspect ratio optimization, captioning, and platform-specific best practices to maximize engagement."
+        },
+        {
+          "q": "Can you help with video distribution and promotion?",
+          "a": "Absolutely. We provide video distribution and promotion services including platform-specific optimization, strategic posting, paid promotion, and performance tracking. Our distribution approach ensures your videos reach the right audiences and achieve maximum engagement."
+        }
+      ]
+    }
+  },
+  "infographics": {
+    "hero": {
+      "heading": "Infographic Services | Visual Data Communication",
+      "subheading": "Transform complex information into engaging visual stories. Our infographic services create compelling visual content that simplifies data, communicates messages clearly, and drives engagement across all marketing channels."
+    },
+    "form": {
+      "heading": "Scale with Infographic Design",
+      "content": "We create visually compelling infographics that communicate your message effectively. Our comprehensive infographic services include data visualization, information design, and visual storytelling that engage audiences and drive marketing success.",
+      "subContent": "Our talented designers transform complex information into accessible visual content. We combine data analysis with creative design to produce infographics that not only look great but effectively communicate information and support your marketing objectives.",
+      "cta": "Request a free infographic consultation. Our team analyzes your information, discusses visual approaches, and provides strategic recommendations to maximize your infographic impact.",
+      "formHeading": "Free Infographic Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "services": "Infographics",
+    "process": {
+      "steps": [
+        "Data Analysis & Strategy",
+        "Concept Development & Design",
+        "Review & Refinement",
+        "Finalization & Optimization",
+        "Delivery & Distribution"
+      ],
+      "content": [
+        "We start by analyzing your information, data, and communication objectives. Our strategic planning identifies key messages, determines visual hierarchy, and develops design approaches that make complex information accessible and engaging for your target audience.",
+        "Our designers develop creative concepts that visualize your information effectively. We create initial designs that balance visual appeal with information clarity, ensuring infographics effectively communicate your message while engaging audiences visually.",
+        "We collaborate through the review process, incorporating feedback and refining designs until they perfectly convey your information. Our iterative approach ensures final infographics meet all requirements while maximizing visual impact and communication effectiveness.",
+        "We finalize infographics with attention to detail and optimization for different use cases. Our finalization process ensures visual accuracy, brand consistency, readability across sizes, and format optimization for various platforms and marketing channels.",
+        "We deliver final infographics in all required formats and provide distribution recommendations. Our delivery includes high-resolution files, web-optimized versions, platform-specific formats, and strategic guidance on maximizing reach and engagement."
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "infographic-design",
+        "name": "Infographic Design",
+        "title": "Infographic Design Services",
+        "description": "Transform complex information into engaging visual stories.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/infographic-design"
+      },
+      {
+        "id": "graphic-designing",
+        "name": "Graphic Designing",
+        "title": "Professional Graphic Design Services",
+        "description": "Create stunning visuals that capture attention and communicate your brand.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/graphic-designing"
+      },
+      {
+        "id": "data-and-analytics",
+        "name": "Data and Analytics",
+        "title": "Marketing Analytics & Insights",
+        "description": "Make data-driven decisions with comprehensive marketing analytics.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/data-and-analytics"
+      }
+    ],
+    "content": {
+      "heading": "Visual Design + Data Analysis = Communication Success",
+      "text1": "We create compelling infographics that combine visual design with data analysis to communicate effectively. Our systematic approach to infographic design involves understanding information, developing visual concepts, refining based on feedback, optimizing for different uses, and delivering designs that drive marketing success.",
+      "text2": "Our infographic framework ensures every visual element serves clear communication objectives. We create engaging designs, ensure information clarity, optimize for different platforms, and analyze performance to ensure your infographics consistently communicate effectively and drive engagement.",
+      "text3": "From data visualizations to process diagrams to information graphics, we design infographics that communicate—then optimize and adapt them for maximum impact. Our comprehensive infographic approach includes data analysis, concept development, creative design, optimization, and delivery to ensure your visual content consistently delivers effective communication and marketing value.",
+      "image": "hero.png",
+      "alt": "Infographics illustration"
+    },
+    "faq": {
+      "serviceName": "Infographics",
+      "faqs": [
+        {
+          "q": "What types of infographics can you create?",
+          "a": "We create various types of infographics including statistical infographics, process diagrams, comparison charts, timeline infographics, geographic visualizations, hierarchical charts, and more. Our design capabilities span all information visualization needs."
+        },
+        {
+          "q": "How do you handle complex data in infographics?",
+          "a": "We analyze complex data, identify key insights and patterns, determine the most effective visualization methods, and design clear visual hierarchies. Our approach ensures complex information is presented in accessible, engaging ways that maintain accuracy while maximizing comprehension."
+        },
+        {
+          "q": "Can you create animated or interactive infographics?",
+          "a": "Yes, we create both static and animated infographics, as well as interactive designs. Our capabilities include animated GIFs, video infographics, and interactive web-based infographics that engage audiences through motion and interactivity."
+        },
+        {
+          "q": "What formats do you deliver infographics in?",
+          "a": "We deliver infographics in all standard formats including high-resolution PNG, PDF, SVG, and format-specific versions for different platforms. We provide web-optimized versions, print-ready files, social media formats, and source files when requested."
+        },
+        {
+          "q": "How long does infographic creation take?",
+          "a": "Infographic creation time depends on complexity, data volume, and revision requirements. Standard infographics typically take 3-5 business days, while complex data visualizations may take 1-2 weeks. We provide realistic timelines based on project scope and work efficiently to meet deadlines."
+        }
+      ]
+    }
+  },
+  "whitepapers": {
+    "hero": {
+      "heading": "Whitepaper Writing Services | Professional B2B Content",
+      "subheading": "Establish thought leadership with professionally written whitepapers. Our whitepaper writing services create comprehensive, authoritative content that builds credibility, generates leads, and positions you as an industry expert."
+    },
+    "form": {
+      "heading": "Scale with Professional Whitepapers",
+      "content": "We create comprehensive whitepapers that establish thought leadership. Our whitepaper writing services include research, analysis, writing, design, and promotion to produce authoritative content that generates leads and builds brand credibility.",
+      "subContent": "Our whitepaper experts understand B2B content and thought leadership. We create whitepapers that not only provide valuable insights but effectively position your brand as an industry authority, generate qualified leads, and support your sales and marketing objectives.",
+      "cta": "Request a free whitepaper consultation. Our team discusses your topic, reviews your objectives, and provides strategic recommendations to maximize your whitepaper impact.",
+      "formHeading": "Free Whitepaper Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "services": "Whitepapers",
+    "process": {
+      "steps": [
+        "Research & Topic Development",
+        "Writing & Content Creation",
+        "Design & Formatting",
+        "Review & Refinement",
+        "Distribution & Lead Generation"
+      ],
+      "content": [
+        "We start by conducting comprehensive research and developing compelling topics. Our research includes industry analysis, data gathering, expert interviews, and strategic topic development to ensure your whitepaper provides unique insights and establishes thought leadership.",
+        "Our expert writers craft comprehensive whitepaper content with authoritative analysis and clear insights. We create well-structured content that presents original research, data analysis, case studies, and strategic recommendations that resonate with your B2B audience.",
+        "We design and format whitepapers with professional layouts that enhance readability and visual appeal. Our design includes professional typography, visualizations, branded elements, and print-ready layouts that make your whitepaper look authoritative and polished.",
+        "We conduct thorough reviews and refinements to ensure accuracy, clarity, and impact. Our refinement process includes fact-checking, expert review, editing, and quality assurance to ensure your whitepaper meets the highest standards.",
+        "We help distribute your whitepaper and set up lead generation systems. Our distribution includes promotion strategies, landing page creation, form setup, and email campaigns to maximize downloads and lead generation from your whitepaper."
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "case-studies",
+        "name": "Case Studies",
+        "title": "Professional Case Study Services",
+        "description": "Showcase your success stories with compelling case studies.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/case-studies"
+      },
+      {
+        "id": "ebooks",
+        "name": "Ebooks",
+        "title": "Professional Ebook Creation Services",
+        "description": "Create comprehensive ebooks that generate leads and build authority.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/ebooks"
+      },
+      {
+        "id": "blog-writing",
+        "name": "Blog Writing",
+        "title": "Expert Blog Writing & Content Creation",
+        "description": "Create engaging, SEO-optimized blog content that drives traffic.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/blog-writing"
+      }
+    ],
+    "content": {
+      "heading": "Authoritative Content + Strategic Distribution = Thought Leadership",
+      "text1": "We create whitepapers that combine thorough research with compelling writing to establish thought leadership. Our systematic approach to whitepaper creation involves research, content development, design, review, and strategic distribution to maximize impact and lead generation.",
+      "text2": "Our whitepaper framework ensures every piece serves clear leadership objectives. We conduct comprehensive research, create authoritative content, design professionally, and distribute strategically to ensure your whitepapers consistently generate leads and build credibility.",
+      "text3": "From research to writing to distribution, we create whitepapers that establish authority—then promote them strategically to maximize lead generation. Our comprehensive whitepaper approach includes research, content creation, design, review, and distribution to ensure your thought leadership content consistently delivers leads and brand value.",
+      "image": "hero.png",
+      "alt": "Whitepapers illustration"
+    },
+    "faq": {
+      "serviceName": "Whitepapers",
+      "faqs": [
+        {
+          "q": "How long are typical whitepapers?",
+          "a": "Whitepapers typically range from 6-12 pages or 2,000-5,000 words depending on topic complexity and depth. We work with you to determine the appropriate length that provides comprehensive coverage while maintaining reader engagement."
+        },
+        {
+          "q": "What topics make good whitepapers?",
+          "a": "Good whitepaper topics include industry trends, original research, best practices, problem-solving guides, technology insights, regulatory changes, and strategic analyses. We help identify topics that establish thought leadership and interest your B2B audience."
+        },
+        {
+          "q": "Do you conduct original research for whitepapers?",
+          "a": "Yes, we conduct comprehensive research including industry analysis, data gathering, surveys, and expert interviews. Our research approach provides original insights and data that make your whitepaper unique and valuable to your audience."
+        },
+        {
+          "q": "Can you design whitepapers professionally?",
+          "a": "Absolutely. We provide professional whitepaper design including layout, typography, visualizations, branded elements, and print-ready formats. Our design enhances readability and creates a polished, authoritative appearance."
+        },
+        {
+          "q": "Do you help with whitepaper promotion and lead generation?",
+          "a": "Yes, we provide whitepaper promotion and lead generation services including landing page creation, form setup, email campaigns, social promotion, and distribution strategies. Our promotion approach maximizes downloads and captures qualified leads."
+        }
+      ]
+    }
+  },
+  "case-studies": {
+    "hero": {
+      "heading": "Case Study Writing Services | Success Story Documentation",
+      "subheading": "Showcase your success stories with compelling case studies. Our case study writing services create detailed, persuasive content that demonstrates your value, builds credibility, and converts prospects into customers."
+    },
+    "form": {
+      "heading": "Scale with Professional Case Studies",
+      "content": "We create compelling case studies that showcase your success. Our comprehensive case study services include client interviews, data analysis, writing, design, and promotion to produce persuasive content that builds trust and drives conversions.",
+      "subContent": "Our case study experts understand how to tell compelling success stories. We create case studies that not only document results but demonstrate value, build credibility, and provide social proof that helps convert prospects into customers.",
+      "cta": "Request a free case study consultation. Our team discusses your success stories, reviews your objectives, and provides strategic recommendations to maximize your case study impact.",
+      "formHeading": "Free Case Study Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "services": "Case Studies",
+    "process": {
+      "steps": [
+        "Client Interview & Research",
+        "Story Development & Writing",
+        "Data Visualization & Design",
+        "Review & Approval",
+        "Distribution & Promotion"
+      ],
+      "content": [
+        "We start by conducting thorough client interviews and research to gather success story details. Our process includes discovery calls, data collection, challenge identification, solution analysis, and results documentation to capture comprehensive case study information.",
+        "Our writers craft compelling case studies using proven storytelling techniques. We create engaging narratives that present challenges, solutions, and results in ways that demonstrate value, build trust, and provide social proof for prospective clients.",
+        "We enhance case studies with professional design and data visualizations. Our design includes visual layouts, charts, graphs, quotes, and branded elements that make case studies more engaging and impactful.",
+        "We conduct comprehensive reviews and obtain client approvals. Our review process ensures accuracy, client satisfaction, and compliance with confidentiality requirements before finalizing case studies.",
+        "We help distribute and promote case studies across relevant channels. Our distribution includes website publication, sales material integration, email campaigns, and social promotion to maximize reach and impact."
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "whitepapers",
+        "name": "Whitepapers",
+        "title": "Professional Whitepaper Services",
+        "description": "Establish thought leadership with professionally written whitepapers.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/whitepapers"
+      },
+      {
+        "id": "ebooks",
+        "name": "Ebooks",
+        "title": "Professional Ebook Creation Services",
+        "description": "Create comprehensive ebooks that generate leads and build authority.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/ebooks"
+      },
+      {
+        "id": "blog-writing",
+        "name": "Blog Writing",
+        "title": "Expert Blog Writing & Content Creation",
+        "description": "Create engaging, SEO-optimized blog content that drives traffic.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/blog-writing"
+      }
+    ],
+    "content": {
+      "heading": "Compelling Stories + Proven Results = Trust & Credibility",
+      "text1": "We create case studies that combine compelling storytelling with proven results to build trust and credibility. Our systematic approach to case study creation involves client research, story development, professional writing, design enhancement, and strategic distribution.",
+      "text2": "Our case study framework ensures every story serves clear conversion objectives. We document real challenges and solutions, present measurable results, and distribute strategically to ensure your case studies consistently build trust and help convert prospects.",
+      "text3": "From client interviews to story writing to promotion, we create case studies that demonstrate value—then distribute them strategically to maximize impact. Our comprehensive case study approach includes research, writing, design, review, and distribution to ensure your success stories consistently deliver trust and conversion value.",
+      "image": "hero.png",
+      "alt": "Case studies illustration"
+    },
+    "faq": {
+      "serviceName": "Case Studies",
+      "faqs": [
+        {
+          "q": "How long does it take to create a case study?",
+          "a": "Case study creation typically takes 2-3 weeks from initial client interview through final approval and publication. Timeline depends on client availability for interviews, data gathering complexity, review cycles, and project scope."
+        },
+        {
+          "q": "What information do you need from clients for case studies?",
+          "a": "We need client details about their challenges, our solution, implementation process, and measurable results. Our structured interview process gathers all necessary information including background, problems, solutions, timeline, and quantitative outcomes."
+        },
+        {
+          "q": "Can you work with sensitive or confidential information?",
+          "a": "Yes, we work with confidential information and can anonymize or adjust details while maintaining case study impact. We obtain necessary approvals and ensure compliance with any confidentiality requirements before publication."
+        },
+        {
+          "q": "Do you design and format case studies?",
+          "a": "Absolutely. We provide professional case study design including layouts, data visualizations, branded elements, and formatting. Our design enhances readability and creates visually appealing case studies that engage readers."
+        },
+        {
+          "q": "Can you help promote case studies after creation?",
+          "a": "Yes, we provide case study promotion services including website publication, social media promotion, email campaigns, sales material integration, and distribution strategies. Our promotion approach maximizes reach and ensures case studies achieve their conversion objectives."
+        }
+      ]
+    }
+  },
+  "ebooks": {
+    "hero": {
+      "heading": "Ebook Writing Services | Professional Content Creation",
+      "subheading": "Generate leads with comprehensive, professionally written ebooks. Our ebook writing services create in-depth content that educates audiences, establishes authority, and captures qualified leads to fuel your sales pipeline."
+    },
+    "form": {
+      "heading": "Scale with Professional Ebook Creation",
+      "content": "We create comprehensive ebooks that generate leads and build authority. Our ebook writing services include research, writing, design, layout, and lead capture setup to produce valuable content that attracts and converts prospects.",
+      "subContent": "Our ebook experts understand lead generation and content depth. We create ebooks that not only provide comprehensive value but effectively position your brand as an authority, capture qualified leads, and support your marketing and sales objectives.",
+      "cta": "Request a free ebook consultation. Our team discusses your topic, reviews your objectives, and provides strategic recommendations to maximize your ebook's lead generation impact.",
+      "formHeading": "Free Ebook Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "services": "Ebooks",
+    "process": {
+      "steps": [
+        "Topic Research & Planning",
+        "Content Writing & Development",
+        "Design & Layout",
+        "Review & Refinement",
+        "Lead Capture Setup & Distribution"
+      ],
+      "content": [
+        "We start by researching and planning comprehensive ebook topics aligned with your audience's needs. Our planning includes audience analysis, topic ideation, competitive research, and outline development to ensure your ebook provides unique value and attracts the right leads.",
+        "Our expert writers develop comprehensive ebook content with in-depth coverage and valuable insights. We create well-structured chapters, engaging writing, actionable takeaways, and strategic content that educates your audience and positions you as an expert.",
+        "We design and layout ebooks with professional formatting that enhances readability and visual appeal. Our design includes typography, chapter layouts, visual elements, branded covers, and PDF optimization to create polished, professional ebooks.",
+        "We conduct thorough reviews and refinements to ensure quality, accuracy, and impact. Our refinement process includes editing, fact-checking, content enhancement, and quality assurance to ensure your ebook meets the highest standards.",
+        "We set up lead capture systems and distribution strategies. Our setup includes landing page creation, form development, email automation, and promotion strategies to maximize ebook downloads and lead generation."
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "whitepapers",
+        "name": "Whitepapers",
+        "title": "Professional Whitepaper Services",
+        "description": "Establish thought leadership with professionally written whitepapers.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/whitepapers"
+      },
+      {
+        "id": "case-studies",
+        "name": "Case Studies",
+        "title": "Professional Case Study Services",
+        "description": "Showcase your success stories with compelling case studies.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/case-studies"
+      },
+      {
+        "id": "blog-writing",
+        "name": "Blog Writing",
+        "title": "Expert Blog Writing & Content Creation",
+        "description": "Create engaging, SEO-optimized blog content that drives traffic.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/blog-writing"
+      }
+    ],
+    "content": {
+      "heading": "Comprehensive Content + Strategic Lead Capture = Authority & Leads",
+      "text1": "We create ebooks that combine comprehensive content with strategic lead capture to generate qualified leads and build authority. Our systematic approach to ebook creation involves research, writing, design, review, and distribution to maximize downloads and lead generation.",
+      "text2": "Our ebook framework ensures every piece serves clear lead generation objectives. We create valuable content, design professionally, set up lead capture systems, and promote strategically to ensure your ebooks consistently generate leads and establish authority.",
+      "text3": "From research to writing to distribution, we create ebooks that educate and capture leads—then promote them strategically to maximize impact. Our comprehensive ebook approach includes research, content creation, design, lead capture setup, and promotion to ensure your ebooks consistently deliver qualified leads and brand value.",
+      "image": "hero.png",
+      "alt": "Ebooks illustration"
+    },
+    "faq": {
+      "serviceName": "Ebooks",
+      "faqs": [
+        {
+          "q": "How long are typical ebooks?",
+          "a": "Ebooks typically range from 3,000-10,000 words depending on topic depth and objectives. We work with you to determine the appropriate length that provides comprehensive value while maintaining reader engagement and meeting lead generation goals."
+        },
+        {
+          "q": "What topics make good lead magnets?",
+          "a": "Good lead magnet ebook topics include how-to guides, industry reports, best practices compilations, checklist guides, problem-solving resources, and comprehensive subject matter coverage. We help identify topics that attract qualified leads and provide real value."
+        },
+        {
+          "q": "Do you design ebook covers and layouts?",
+          "a": "Yes, we provide professional ebook design including attractive covers, interior layouts, typography, visual elements, and PDF formatting. Our design creates a polished, professional appearance that enhances perceived value and download rates."
+        },
+        {
+          "q": "Can you set up lead capture for ebooks?",
+          "a": "Absolutely. We provide complete lead capture setup including landing page creation, form development, email automation integration, and download delivery systems. Our setup ensures seamless lead capture and immediate value delivery."
+        },
+        {
+          "q": "Do you help promote ebooks after creation?",
+          "a": "Yes, we provide ebook promotion services including social media promotion, email campaigns, website integration, content marketing, and paid promotion strategies. Our promotion approach maximizes downloads and ensures your ebook achieves its lead generation objectives."
+        }
+      ]
+    }
+  },
+  "podcast-content": {
+    "hero": {
+      "heading": "Podcast Content Services | Professional Podcast Production",
+      "subheading": "Launch engaging podcasts with professional content production. Our podcast content services provide comprehensive support from strategy to production to distribution, creating compelling audio content that builds your brand and audience."
+    },
+    "form": {
+      "heading": "Scale with Professional Podcast Production",
+      "content": "We create engaging podcast content that builds audience and brand. Our comprehensive podcast services include strategy development, scripting, recording, editing, and distribution to produce professional podcasts that grow your audience and strengthen your brand.",
+      "subContent": "Our podcast experts understand audio content and audience engagement. We create podcasts that not only provide valuable content but effectively build community, establish authority, and drive meaningful engagement that supports your marketing objectives.",
+      "cta": "Request a free podcast consultation. Our team discusses your concept, reviews your objectives, and provides strategic recommendations to launch a successful podcast.",
+      "formHeading": "Free Podcast Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "services": "Podcast Content",
+    "process": {
+      "steps": [
+        "Podcast Strategy & Planning",
+        "Content Development & Scripting",
+        "Recording & Production",
+        "Post-Production & Editing",
+        "Distribution & Promotion"
+      ],
+      "content": [
+        "We start by developing comprehensive podcast strategies aligned with your brand and audience goals. Our planning includes format selection, topic ideation, scheduling, positioning, and growth strategies to ensure your podcast achieves maximum impact and audience growth.",
+        "We develop engaging podcast content and scripts that captivate listeners. Our content development includes episode planning, outline creation, research, and script writing to ensure each episode provides value and maintains listener engagement.",
+        "Our professional recording services capture high-quality audio with proper equipment and techniques. We provide recording support including studio arrangements, audio capture, and quality assurance to ensure professional sound quality.",
+        "We transform raw audio into polished podcast episodes through expert editing. Our post-production includes audio editing, sound design, music integration, and optimization to create professional podcasts that engage and retain listeners.",
+        "We distribute and promote your podcast across major platforms and channels. Our distribution includes platform optimization, show notes creation, social promotion, and growth strategies to maximize reach and build a loyal listener base."
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "video-content",
+        "name": "Video Content",
+        "title": "Professional Video Production",
+        "description": "Create compelling video content that engages and converts.",
+        "image": "/seo/services/seo.webp",
+        "link": "/content-marketing/video-content"
+      },
+      {
+        "id": "blog-writing",
+        "name": "Blog Writing",
+        "title": "Expert Blog Writing & Content Creation",
+        "description": "Create engaging, SEO-optimized blog content that drives traffic.",
+        "image": "/seo/services/off-page.webp",
+        "link": "/content-marketing/blog-writing"
+      },
+      {
+        "id": "content-strategy",
+        "name": "Content Strategy",
+        "title": "Strategic Content Planning & Development",
+        "description": "Develop comprehensive content strategies aligned with your business goals.",
+        "image": "/seo/services/technical.webp",
+        "link": "/content-marketing/content-strategy"
+      }
+    ],
+    "content": {
+      "heading": "Professional Production + Strategic Distribution = Podcast Growth",
+      "text1": "We create podcast content that combines professional production with strategic distribution to build audience and engagement. Our systematic approach to podcasts involves strategy development, content creation, professional recording, editing, and distribution.",
+      "text2": "Our podcast framework ensures every episode serves clear brand and audience objectives. We develop comprehensive strategies, create engaging content, produce professionally, and distribute strategically to ensure your podcasts consistently grow audience and strengthen brand.",
+      "text3": "From strategy to recording to distribution, we create podcasts that engage audiences—then promote them strategically to maximize growth. Our comprehensive podcast approach includes strategy, content development, production, editing, and distribution to ensure your podcasts consistently deliver audience growth and brand value.",
+      "image": "hero.png",
+      "alt": "Podcast content illustration"
+    },
+    "faq": {
+      "serviceName": "Podcast Content",
+      "faqs": [
+        {
+          "q": "What podcast formats do you support?",
+          "a": "We support various podcast formats including interviews, solo shows, roundtable discussions, narrative storytelling, and educational series. We work with you to determine the best format for your brand, audience, and content goals."
+        },
+        {
+          "q": "Do you provide recording services?",
+          "a": "Yes, we provide professional podcast recording services including remote recording setup, studio arrangements, and quality audio capture. Our recording approach ensures professional sound quality regardless of location or format."
+        },
+        {
+          "q": "What platforms do you distribute to?",
+          "a": "We distribute to all major podcast platforms including Apple Podcasts, Spotify, Google Podcasts, Stitcher, and others. Our distribution ensures maximum reach and makes your podcast easily accessible to listeners across all platforms."
+        },
+        {
+          "q": "Do you create show notes and transcripts?",
+          "a": "Yes, we provide comprehensive show notes and transcript services. Our services include episode summaries, timestamps, key points, guest information, and full transcripts to enhance discoverability and accessibility."
+        },
+        {
+          "q": "Can you help with podcast promotion?",
+          "a": "Absolutely. We provide podcast promotion services including social media promotion, website integration, email campaigns, SEO optimization, and growth strategies. Our promotion approach maximizes listenership and helps build a loyal audience base."
         }
       ]
     }
@@ -1336,4 +2866,3 @@
     }
   }
 }
-

@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import contentMarketingData from "@/data/content-marketing.json";
 import ContentMarketingHero from "@/components/content-marketing/hero";
-import Strategic from "@/components/content-marketing/strategic";
 import SeoContent from "@/components/seo/content";
 import SeoServices from "@/components/seo/services";
 import SeoForm from "@/components/seo/form";
@@ -84,11 +83,6 @@ export default function ContentMarketingSlugPage({
         serviceCards={currentData?.serviceCards}
         basePath="/content-marketing"
       />
-      <Strategic
-        data={currentData?.strategic}
-        serviceName={currentData?.services}
-      />
-      <SeoContent data={currentData?.content} />
       <Process2
         data={currentData?.services}
         processData={
@@ -96,6 +90,7 @@ export default function ContentMarketingSlugPage({
           contentMarketingData["content-marketing"]?.process
         }
       />
+      <SeoContent data={currentData?.content} />
       <Apart />
       <CaseStudy />
       <OtherServices />
