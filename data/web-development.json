@@ -8,40 +8,2885 @@
       "heading": "Need a high-performing website?",
       "content": "From landing pages to complex web applications, we build scalable, fast, and SEO-friendly experiences.",
       "subContent": "Get a free website audit and actionable recommendations for performance, UX, and conversions.",
-      "cta": "We’ll review your stack, identify bottlenecks, and outline a roadmap for improvement.",
+      "cta": "We'll review your stack, identify bottlenecks, and outline a roadmap for improvement.",
       "formHeading": "Boost Your Website's Performance with a Comprehensive Site Audit",
       "buttonText": "Get My Audit"
     },
-    "services": "Web Development"
+    "content": {
+      "heading": "Building the Future of Web Experiences",
+      "text1": "In today's digital-first world, your website is often the first impression potential customers have of your business. It's not just about looking good—it's about performing flawlessly, loading in milliseconds, and converting visitors into customers.",
+      "text2": "Our web development services combine cutting-edge technology with proven design principles to create websites and applications that not only look stunning but deliver measurable business results. We leverage modern frameworks, cloud infrastructure, and AI/ML integration to build solutions that scale with your growth.",
+      "text3": "Whether you need a simple landing page to capture leads, a full e-commerce platform to sell products, or a complex web application to power your business—we have the expertise to bring your vision to life with code that's clean, maintainable, and optimized for performance.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Web Development Services"
+    },
+    "services": "Web Development",
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ],
+    "process": {
+      "steps": [
+        "Discovery & Analysis",
+        "Design & Prototyping",
+        "Development & Implementation",
+        "Testing & Quality Assurance",
+        "Launch & Optimization"
+      ],
+      "content": [
+        "We start by understanding your business goals, target audience, and technical requirements. Our team conducts thorough research into your industry, competitors, and user needs to create a comprehensive development strategy that aligns with your objectives.",
+        "Before writing any code, we create detailed wireframes and interactive prototypes that bring your vision to life. This phase ensures we're building exactly what you need and allows for early feedback and iteration without the cost of full development.",
+        "Our skilled developers write clean, maintainable code using the latest technologies and best practices. We prioritize performance, security, and scalability while ensuring your website works flawlessly across all devices and browsers.",
+        "We rigorously test every feature, functionality, and integration before launch. Our quality assurance process includes performance testing, security audits, cross-browser compatibility checks, and user experience validation to ensure everything works perfectly.",
+        "Once everything is tested and approved, we handle the launch process and provide comprehensive handover documentation. But our work doesn't end there—we monitor performance, gather user feedback, and continuously optimize to ensure your website keeps improving."
+      ]
+    },
+    "faq": {
+      "serviceName": "Web Development",
+      "faqs": [
+        {
+          "q": "How long does it take to build a website?",
+          "a": "Timeline varies based on project complexity. A simple landing page typically takes 2-4 weeks, while a full e-commerce platform can take 8-16 weeks. We'll provide a detailed timeline after understanding your requirements."
+        },
+        {
+          "q": "What technologies do you use?",
+          "a": "We use modern, proven technologies including React, Next.js, Node.js, and various backend frameworks. We choose the best stack for each project based on requirements, performance needs, and long-term maintainability."
+        },
+        {
+          "q": "Do you provide ongoing maintenance and support?",
+          "a": "Yes, we offer ongoing maintenance packages that include security updates, performance monitoring, content updates, and technical support. We're committed to keeping your website running smoothly long after launch."
+        },
+        {
+          "q": "Can you help with SEO and performance optimization?",
+          "a": "Absolutely! We build all websites with SEO best practices and performance optimization in mind. Your site will load fast, be mobile-responsive, and optimized for search engines from day one."
+        },
+        {
+          "q": "What about e-commerce functionality?",
+          "a": "We specialize in building high-performing e-commerce platforms with features like payment processing, inventory management, order tracking, and customer accounts. We can integrate with major payment gateways and shipping providers."
+        }
+      ]
+    }
   },
   "website-development": {
     "hero": {
       "heading": "Website Development",
-      "subheading": "Modern, responsive, and maintainable websites that convert."
+      "subheading": "Modern, responsive, and maintainable websites that convert visitors into customers with exceptional user experience."
     },
-    "services": "Website Development"
+    "form": {
+      "heading": "Ready to build your perfect website?",
+      "content": "From simple brochure sites to complex multi-page websites, we create digital experiences that represent your brand and drive results.",
+      "subContent": "Get expert consultation on website design, development approach, and technical strategy.",
+      "cta": "Let's discuss your vision and create a website that exceeds your expectations.",
+      "formHeading": "Get a Free Website Consultation and Custom Proposal",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Websites That Work as Hard as You Do",
+      "text1": "Your website is your digital storefront—the first touchpoint for most of your potential customers. It needs to look professional, load instantly, and guide visitors toward taking action. Generic templates won't cut it when your competitors are investing in custom websites.",
+      "text2": "We build custom websites tailored to your brand, industry, and audience. Our development process ensures your site is fast, secure, SEO-friendly, and designed to convert visitors into leads and customers. We combine beautiful design with strategic functionality to create websites that deliver real business value.",
+      "text3": "From initial design to launch and beyond, we handle every aspect of your website development. Our sites are mobile-responsive, accessible, and optimized for all devices and browsers. Plus, we provide you with a content management system that makes updates easy, so you're never reliant on a developer to make changes.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Website Development Services"
+    },
+    "services": "Website Development",
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ],
+    "process": {
+      "steps": [
+        "Planning & Strategy",
+        "Design & Mockups",
+        "Development & Build",
+        "Quality Testing",
+        "Launch & Training"
+      ],
+      "content": [
+        "We analyze your brand, target audience, and business goals to create a strategic website plan. This includes site architecture, user journey mapping, and feature prioritization to ensure your website serves your business objectives.",
+        "Our design team creates beautiful, conversion-focused mockups that bring your brand to life. You'll see exactly how your website will look and work before any coding begins, allowing for feedback and refinement.",
+        "Our developers build your website using the best technologies for your needs, ensuring fast load times, clean code, and seamless functionality across all devices and browsers.",
+        "We perform comprehensive testing including functionality checks, cross-browser compatibility, mobile responsiveness, and performance optimization to ensure your website is perfect before launch.",
+        "We handle the technical launch process, configure hosting, set up analytics, and provide training on how to manage and update your new website. You'll have full control over your content."
+      ]
+    },
+    "faq": {
+      "serviceName": "Website Development",
+      "faqs": [
+        {
+          "q": "How long does website development take?",
+          "a": "A typical custom website takes 4-8 weeks from start to finish, depending on complexity and number of pages. We'll provide a detailed timeline during our initial consultation."
+        },
+        {
+          "q": "Will I be able to update content myself?",
+          "a": "Yes! All our websites include a user-friendly content management system (CMS) so you can easily update text, images, and content without needing technical knowledge."
+        },
+        {
+          "q": "Will my website be mobile-friendly?",
+          "a": "Absolutely! All our websites are fully responsive and optimized for mobile devices, tablets, and desktops. Mobile responsiveness is built into every site we create."
+        },
+        {
+          "q": "What's included in your website development service?",
+          "a": "Our service includes custom design, responsive development, CMS integration, SEO optimization, contact forms, analytics setup, hosting configuration, and training on how to manage your site."
+        },
+        {
+          "q": "Can you redesign my existing website?",
+          "a": "Yes! We can redesign and rebuild your existing website with a modern design, improved performance, and better user experience while preserving your content and brand."
+        }
+      ]
+    }
   },
   "web-app-development": {
     "hero": {
       "heading": "Web App Development",
-      "subheading": "Robust, scalable applications built with modern frameworks and best practices."
+      "subheading": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality."
     },
-    "services": "Web App Development"
+    "form": {
+      "heading": "Need a custom web application?",
+      "content": "Transform your business processes with tailored web applications that streamline operations, automate workflows, and scale with your growth.",
+      "subContent": "Get expert guidance on building the perfect web app for your specific needs.",
+      "cta": "Let's architect a solution that solves your unique challenges and drives efficiency.",
+      "formHeading": "Get a Free Web App Consultation and Technical Proposal",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Custom Web Applications That Transform Business Operations",
+      "text1": "Standard websites are great for marketing, but when you need custom functionality to automate processes, manage data, or facilitate user interactions, you need a web application. These powerful tools can revolutionize how your business operates.",
+      "text2": "Our web app development services help businesses build custom applications tailored to their unique needs. Whether you need internal tools for your team, customer portals, data management systems, or complex interactive platforms, we have the expertise to bring your vision to life.",
+      "text3": "We use modern frameworks like React, Next.js, and Node.js to build secure, scalable applications that perform flawlessly. Our development approach prioritizes user experience, performance, and maintainability, ensuring your investment lasts for years to come.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Web App Development Services"
+    },
+    "services": "Web App Development",
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ],
+    "process": {
+      "steps": [
+        "Requirements & Architecture",
+        "UI/UX Design",
+        "Development & Integration",
+        "Security & Testing",
+        "Deployment & Support"
+      ],
+      "content": [
+        "We start by deeply understanding your business processes, user needs, and technical requirements. Our team designs a comprehensive architecture that outlines functionality, database structure, APIs, and integrations needed for your app.",
+        "We create intuitive user interfaces and seamless user experiences that make complex functionality simple and enjoyable to use. Our design process includes user flow mapping, wireframing, and interactive prototyping.",
+        "Our developers build your application using clean code practices, implementing features, integrating third-party services, and creating robust APIs. We follow agile methodologies to ensure transparency and collaboration throughout development.",
+        "Security and reliability are paramount. We conduct thorough security audits, penetration testing, and performance testing to ensure your application is secure, stable, and ready for real-world use.",
+        "We handle deployment to your preferred hosting environment and provide comprehensive documentation and training. Ongoing support and maintenance ensure your application continues to perform optimally as your business grows."
+      ]
+    },
+    "faq": {
+      "serviceName": "Web App Development",
+      "faqs": [
+        {
+          "q": "What's the difference between a website and a web application?",
+          "a": "A website is primarily informational and marketing-focused, while a web app provides interactive functionality like user accounts, data processing, real-time updates, or complex workflows. Think of it as the difference between a brochure and a productivity tool."
+        },
+        {
+          "q": "How long does web app development take?",
+          "a": "Development time varies significantly based on complexity. A simple app might take 6-12 weeks, while complex enterprise applications can take 3-6 months or more. We'll provide a detailed timeline after understanding your requirements."
+        },
+        {
+          "q": "What technologies do you use for web apps?",
+          "a": "We use modern JavaScript frameworks like React, Next.js for frontend, and Node.js for backend. We choose technologies based on your specific needs, ensuring the best fit for performance, scalability, and maintainability."
+        },
+        {
+          "q": "Can you integrate with our existing systems?",
+          "a": "Yes! We specialize in integrating web applications with existing systems through APIs, webhooks, and various integration methods. We'll work with your current tools and databases to create seamless workflows."
+        },
+        {
+          "q": "Do you provide ongoing maintenance and updates?",
+          "a": "Absolutely. We offer maintenance packages that include bug fixes, security updates, feature enhancements, and technical support. We can scale our support level based on your needs."
+        }
+      ]
+    }
   },
   "ecommerce-development": {
     "hero": {
       "heading": "eCommerce Development",
-      "subheading": "High-converting storefronts, optimized checkout, and seamless integrations."
+      "subheading": "High-converting storefronts with optimized checkout flows and seamless payment integrations to grow your online sales."
     },
-    "services": "eCommerce Development"
+    "form": {
+      "heading": "Ready to sell online?",
+      "content": "From small shops to enterprise marketplaces, we build e-commerce platforms that turn visitors into customers and maximize your revenue.",
+      "subContent": "Get expert advice on platform selection, payment integration, and conversion optimization.",
+      "cta": "Let's discuss how to build an online store that exceeds your sales goals.",
+      "formHeading": "Get a Free eCommerce Consultation and Strategy Plan",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "eCommerce Platforms That Drive Sales and Delight Customers",
+      "text1": "Selling online isn't just about having products on a page—it's about creating a shopping experience that inspires confidence, makes purchasing easy, and encourages repeat customers. Your e-commerce platform needs to handle everything from product discovery to secure checkout seamlessly.",
+      "text2": "Our e-commerce development services create online stores that convert visitors into customers. We focus on fast load times, intuitive navigation, streamlined checkout processes, and mobile optimization. Every element of your store is designed with conversion optimization in mind.",
+      "text3": "We integrate the payment processors, shipping calculators, inventory management systems, and customer accounts that make running an online business smooth. Whether you're launching your first store or scaling an existing e-commerce business, we build platforms that grow with your success.",
+      "image": "wordpress-seo.jpg",
+      "alt": "eCommerce Development Services"
+    },
+    "services": "eCommerce Development",
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ],
+    "process": {
+      "steps": [
+        "Strategy & Platform Selection",
+        "Design & User Experience",
+        "Development & Integration",
+        "Payment & Shipping Setup",
+        "Launch & Optimization"
+      ],
+      "content": [
+        "We analyze your products, target market, and business goals to recommend the best e-commerce platform (WooCommerce, Shopify Plus, Magento, or custom solutions). We plan product catalog structure, user flows, and conversion optimization strategies.",
+        "Our team designs a beautiful, conversion-focused shopping experience. We create product pages that sell, shopping cart flows that reduce abandonment, and checkout processes that make purchasing effortless for your customers.",
+        "We develop your online store with all essential features including product catalog, search functionality, category pages, cart, wishlist, customer accounts, and admin panel. We ensure fast loading times and mobile responsiveness.",
+        "We integrate secure payment gateways, configure shipping rules and calculators, set up tax calculations, and implement fraud prevention. Your store will handle everything customers need to complete purchases with confidence.",
+        "After thorough testing, we launch your store and provide training on managing products, orders, and inventory. We monitor performance and continuously optimize based on analytics to improve conversion rates and sales."
+      ]
+    },
+    "faq": {
+      "serviceName": "eCommerce Development",
+      "faqs": [
+        {
+          "q": "Which e-commerce platform is best for my business?",
+          "a": "The best platform depends on your products, sales volume, and needs. WooCommerce is great for WordPress sites, Shopify excels for ease of use, and Magento suits complex catalogs. We'll recommend the best fit after assessing your requirements."
+        },
+        {
+          "q": "How long does e-commerce development take?",
+          "a": "A typical e-commerce site takes 8-12 weeks from start to launch, depending on product catalog size, custom features needed, and integrations required. More complex stores can take 12-16 weeks."
+        },
+        {
+          "q": "Can you migrate my existing online store?",
+          "a": "Yes! We specialize in migrating existing stores to new platforms while preserving data, SEO rankings, and customer accounts. Our migration process is carefully planned to minimize downtime."
+        },
+        {
+          "q": "What payment methods can you integrate?",
+          "a": "We can integrate popular payment gateways including Stripe, PayPal, Square, and others. We'll set up the payment methods your customers prefer while ensuring PCI compliance and secure transactions."
+        },
+        {
+          "q": "Will my e-commerce site be mobile-friendly?",
+          "a": "Absolutely! Mobile responsiveness is critical for e-commerce success. We ensure your store provides an excellent shopping experience on phones, tablets, and desktops, as most customers now shop on mobile devices."
+        }
+      ]
+    }
   },
   "landing-page-development": {
     "hero": {
       "heading": "Landing Page Development",
-      "subheading": "Pixel-perfect landing pages engineered for speed and conversions."
+      "subheading": "Pixel-perfect landing pages engineered for speed and conversions to maximize ROI from your marketing campaigns."
     },
-    "services": "Landing Page Development"
+    "form": {
+      "heading": "Need high-converting landing pages?",
+      "content": "Turn your paid traffic into leads and sales with landing pages optimized for specific campaigns and audiences.",
+      "subContent": "Get expert consultation on landing page strategy and design approach.",
+      "cta": "Let's create landing pages that convert your traffic into revenue.",
+      "formHeading": "Get a Free Landing Page Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Landing Pages That Convert Traffic Into Customers",
+      "text1": "You're spending money to drive traffic to your website through ads, but if your landing page doesn't convert, you're wasting that investment. A well-designed landing page can be the difference between a profitable campaign and a money drain.",
+      "text2": "Our landing page development focuses on one goal: converting visitors into leads or sales. Every element—from headline and copy to form design and call-to-action buttons—is optimized using conversion rate optimization principles and proven best practices.",
+      "text3": "We build lightning-fast landing pages that load in milliseconds, keeping visitors engaged instead of bouncing due to slow load times. Our pages are mobile-first, A/B tested, and designed to guide visitors through your funnel with clear messaging and strategic design.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Landing Page Development Services"
+    },
+    "services": "Landing Page Development",
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ],
+    "process": {
+      "steps": [
+        "Campaign Analysis",
+        "Copy & Design Creation",
+        "Development & Optimization",
+        "A/B Testing Setup",
+        "Launch & Conversion Tracking"
+      ],
+      "content": [
+        "We analyze your ad campaigns, target audience, and conversion goals to understand what messaging and design will resonate most. We research your competitors and review best practices to ensure your landing page stands out.",
+        "Our copywriters create compelling headlines and persuasive copy that speaks directly to your audience's needs and pain points. Our designers craft layouts that guide the eye toward conversion actions and build trust with your brand.",
+        "We develop your landing page with speed and mobile optimization as top priorities. Every element is placed strategically, forms are optimized for completion, and load times are minimized to reduce bounce rates and increase conversions.",
+        "We set up A/B testing frameworks so you can continuously optimize headlines, CTAs, images, and layouts. Data-driven improvements ensure your landing page performance keeps getting better over time.",
+        "We handle technical setup including conversion tracking, analytics integration, and hosting. Your landing page will track every visitor interaction so you can measure ROI and make data-informed improvements."
+      ]
+    },
+    "faq": {
+      "serviceName": "Landing Page Development",
+      "faqs": [
+        {
+          "q": "How long does it take to build a landing page?",
+          "a": "A typical custom landing page takes 2-3 weeks from initial consultation to launch. This includes design, development, and optimization. Rush projects can be completed faster if needed."
+        },
+        {
+          "q": "Can you build multiple landing pages for different campaigns?",
+          "a": "Yes! We can create multiple landing pages optimized for different ad campaigns, audiences, or products. We often work with clients to build landing page libraries for various marketing initiatives."
+        },
+        {
+          "q": "What's the average conversion rate I should expect?",
+          "a": "Conversion rates vary by industry and offer. However, a well-optimized landing page typically converts 2-5% of visitors, with excellent pages converting 5-10% or higher. We aim to beat industry benchmarks for your sector."
+        },
+        {
+          "q": "Will my landing page work on mobile devices?",
+          "a": "Absolutely! Mobile optimization is critical since most traffic comes from mobile devices. Our landing pages are designed mobile-first and tested across all devices to ensure perfect functionality everywhere."
+        },
+        {
+          "q": "Do you handle A/B testing and optimization?",
+          "a": "Yes! We set up A/B testing frameworks and help you continuously improve conversion rates. We analyze performance data and implement data-driven changes to maximize your landing page effectiveness."
+        }
+      ]
+    }
+  },
+  "front-end-development": {
+    "hero": {
+      "heading": "Front-End Development",
+      "subheading": "Crafting beautiful, responsive user interfaces with modern technologies for exceptional user experiences."
+    },
+    "form": {
+      "heading": "Need expert front-end development?",
+      "content": "Transform your designs into stunning, interactive user interfaces that engage visitors and drive conversions.",
+      "subContent": "Get expert consultation on front-end architecture, frameworks, and performance optimization.",
+      "cta": "Let's build interfaces that your users will love.",
+      "formHeading": "Get a Free Front-End Development Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Front-End Development That Engages Users",
+      "text1": "Your website's front-end is what users see and interact with—it's your brand's digital face. Exceptional front-end development combines visual appeal with flawless functionality to create experiences users love.",
+      "text2": "We specialize in building responsive, interactive interfaces using modern frameworks like React, Vue.js, and Angular. Our front-end developers ensure your site is fast, accessible, and works seamlessly across all devices.",
+      "text3": "From pixel-perfect implementations to complex interactive features, we turn designs into fully functional websites that provide smooth user experiences and drive conversions.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Front-End Development"
+    },
+    "services": "Front-End Development",
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ],
+    "process": {
+      "steps": [
+        "Design Analysis",
+        "Framework Selection",
+        "UI Implementation",
+        "Responsive Testing",
+        "Performance Optimization"
+      ],
+      "content": [
+        "We analyze your designs and requirements to understand the user experience goals and technical needs for the front-end implementation.",
+        "We select the most appropriate frameworks and tools based on your project requirements, performance goals, and team expertise.",
+        "Our front-end developers implement pixel-perfect UI components, interactive elements, and smooth animations that bring designs to life.",
+        "We thoroughly test across all devices, browsers, and screen sizes to ensure flawless responsiveness and compatibility.",
+        "We optimize code, assets, and loading strategies to ensure your front-end loads fast and performs excellently."
+      ]
+    },
+    "faq": {
+      "serviceName": "Front-End Development",
+      "faqs": [
+        {
+          "q": "What front-end frameworks do you use?",
+          "a": "We work with modern frameworks including React, Vue.js, Angular, and Next.js. We choose the best framework based on your project requirements, performance needs, and long-term goals."
+        },
+        {
+          "q": "Do you ensure mobile responsiveness?",
+          "a": "Absolutely! All our front-end development includes mobile-first design principles and thorough testing across devices to ensure perfect functionality on phones, tablets, and desktops."
+        },
+        {
+          "q": "How do you ensure cross-browser compatibility?",
+          "a": "We test all our implementations across major browsers including Chrome, Firefox, Safari, and Edge to ensure consistent performance and appearance everywhere."
+        },
+        {
+          "q": "What's included in front-end development?",
+          "a": "Our service includes UI implementation, interactive components, responsive design, performance optimization, cross-browser testing, and accessibility compliance."
+        },
+        {
+          "q": "Can you integrate with existing back-ends?",
+          "a": "Yes! We specialize in integrating front-end applications with existing APIs and back-end systems through RESTful or GraphQL APIs."
+        }
+      ]
+    }
+  },
+  "back-end-development": {
+    "hero": {
+      "heading": "Back-End Development",
+      "subheading": "Building robust server-side infrastructure and APIs that power scalable web applications."
+    },
+    "form": {
+      "heading": "Need robust back-end infrastructure?",
+      "content": "Build powerful server-side systems and APIs that scale with your business growth and deliver exceptional performance.",
+      "subContent": "Get expert guidance on back-end architecture, database design, and API development.",
+      "cta": "Let's architect a back-end that powers your success.",
+      "formHeading": "Get a Free Back-End Development Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Back-End Infrastructure That Powers Performance",
+      "text1": "While users see the front-end, the back-end is the engine that makes everything work. Strong back-end development ensures your website is fast, secure, and scalable.",
+      "text2": "Our back-end developers build server-side logic, APIs, and databases using modern technologies. We focus on security, performance optimization, and creating architectures that can scale with your business growth.",
+      "text3": "Whether you need custom APIs, database design, server management, or cloud infrastructure, we build back-end systems that are reliable, fast, and maintainable.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Back-End Development"
+    },
+    "services": "Back-End Development",
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ],
+    "process": {
+      "steps": [
+        "Architecture Planning",
+        "Database Design",
+        "API Development",
+        "Security Implementation",
+        "Performance Tuning"
+      ],
+      "content": [
+        "We design scalable back-end architectures that support your application's current needs while allowing for future growth and expansion.",
+        "We create efficient database schemas optimized for performance, security, and maintainability using best practices.",
+        "We develop RESTful APIs or GraphQL endpoints that enable seamless communication between front-end and back-end systems.",
+        "We implement comprehensive security measures including authentication, authorization, data encryption, and vulnerability protection.",
+        "We optimize database queries, caching strategies, and server configurations to ensure exceptional performance."
+      ]
+    },
+    "faq": {
+      "serviceName": "Back-End Development",
+      "faqs": [
+        {
+          "q": "What back-end technologies do you use?",
+          "a": "We work with Node.js, PHP, Python, Ruby, and other modern technologies. We choose the best stack based on your requirements, scalability needs, and team expertise."
+        },
+        {
+          "q": "Do you handle database design?",
+          "a": "Yes! We design and implement efficient database schemas using SQL and NoSQL databases, optimized for performance and scalability."
+        },
+        {
+          "q": "Can you build APIs?",
+          "a": "Absolutely! We specialize in building RESTful APIs and GraphQL endpoints that enable seamless integration with front-end applications and third-party services."
+        },
+        {
+          "q": "How do you ensure security?",
+          "a": "Security is paramount in our back-end development. We implement authentication, authorization, encryption, and follow security best practices to protect your data and users."
+        },
+        {
+          "q": "Do you handle cloud deployment?",
+          "a": "Yes! We can deploy your back-end to AWS, Azure, Google Cloud, or other platforms, ensuring scalability and reliability."
+        }
+      ]
+    }
+  },
+  "cms-integration": {
+    "hero": {
+      "heading": "CMS Integration",
+      "subheading": "Empower your team to manage content independently with seamless CMS integration."
+    },
+    "form": {
+      "heading": "Need CMS integration for your website?",
+      "content": "Make content updates effortless with seamless CMS integration that empowers your team.",
+      "subContent": "Get expert consultation on choosing and integrating the right CMS for your needs.",
+      "cta": "Let's set up a CMS that your team will love using.",
+      "formHeading": "Get a Free CMS Integration Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Content Management Made Simple",
+      "text1": "Keeping your website updated shouldn't require developer skills. CMS integration gives your team the power to manage content, update pages, and publish new information independently.",
+      "text2": "We integrate popular CMS platforms like WordPress, Contentful, and Strapi into your website. Our solutions are custom-tailored to your workflow, ensuring your team can manage content efficiently.",
+      "text3": "We provide comprehensive training and documentation so your team feels confident managing the CMS. Say goodbye to waiting for developers to make simple content updates.",
+      "image": "wordpress-seo.jpg",
+      "alt": "CMS Integration"
+    },
+    "services": "CMS Integration",
+    "process": {
+      "steps": [
+        "CMS Selection",
+        "Integration Setup",
+        "Custom Configuration",
+        "Team Training",
+        "Documentation & Support"
+      ],
+      "content": [
+        "We assess your content management needs and recommend the best CMS platform for your team, content types, and workflow.",
+        "We seamlessly integrate the chosen CMS into your existing website, ensuring all pages and content are manageable.",
+        "We customize the CMS admin interface, create custom fields, and configure workflows to match your team's needs.",
+        "We provide hands-on training to your team members so they can confidently manage content and make updates.",
+        "We provide comprehensive documentation and ongoing support to ensure your team has everything needed for long-term success."
+      ]
+    },
+    "faq": {
+      "serviceName": "CMS Integration",
+      "faqs": [
+        {
+          "q": "Which CMS platforms do you integrate?",
+          "a": "We integrate popular platforms including WordPress, Contentful, Strapi, Sanity, and others. We'll recommend the best CMS based on your specific needs and technical requirements."
+        },
+        {
+          "q": "How long does CMS integration take?",
+          "a": "Integration time varies based on the CMS platform and complexity. Typically, it takes 1-3 weeks to set up and configure a CMS integration."
+        },
+        {
+          "q": "Will my team be able to update content easily?",
+          "a": "Absolutely! We provide comprehensive training and create user-friendly interfaces so your team can update content without technical knowledge."
+        },
+        {
+          "q": "Can you customize the CMS admin interface?",
+          "a": "Yes! We customize the CMS admin to match your team's workflow, create custom fields, and hide unnecessary features to make content management intuitive."
+        },
+        {
+          "q": "Do you provide ongoing CMS support?",
+          "a": "Yes! We offer support packages that include CMS updates, troubleshooting, and additional training for new team members."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "ui-ux-design": {
+    "hero": {
+      "heading": "UI/UX Design",
+      "subheading": "Creating intuitive, user-centered designs that delight users and drive conversions."
+    },
+    "form": {
+      "heading": "Need exceptional UI/UX design?",
+      "content": "Create beautiful, intuitive user experiences that convert visitors into customers and delight users.",
+      "subContent": "Get expert consultation on UI/UX design strategy and user experience optimization.",
+      "cta": "Let's design experiences that your users will love.",
+      "formHeading": "Get a Free UI/UX Design Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Design That Users Love to Use",
+      "text1": "Great design isn't just about looking good—it's about creating intuitive experiences that users can navigate effortlessly. UI/UX design is the bridge between your business goals and user satisfaction.",
+      "text2": "Our designers create user-centered interfaces backed by research and best practices. We focus on usability, accessibility, and conversion optimization to ensure your designs serve both users and business objectives.",
+      "text3": "From wireframes to final designs, we deliver pixel-perfect interfaces that work beautifully across all devices. Every element is strategically placed to guide users toward their goals.",
+      "image": "wordpress-seo.jpg",
+      "alt": "UI/UX Design"
+    },
+    "services": "UI/UX Design",
+    "process": {
+      "steps": [
+        "Research & Discovery",
+        "Wireframing & Prototyping",
+        "Visual Design",
+        "Usability Testing",
+        "Final Delivery"
+      ],
+      "content": [
+        "We conduct user research, competitive analysis, and stakeholder interviews to understand user needs and business objectives.",
+        "We create wireframes and interactive prototypes that map out user flows and validate design concepts before full design.",
+        "We design beautiful, consistent visual interfaces with attention to branding, typography, colors, and visual hierarchy.",
+        "We test designs with real users to identify usability issues and refine the experience based on feedback.",
+        "We deliver final designs with detailed specifications, asset libraries, and design systems ready for development."
+      ]
+    },
+    "faq": {
+      "serviceName": "UI/UX Design",
+      "faqs": [
+        {
+          "q": "What's the difference between UI and UX design?",
+          "a": "UI (User Interface) design focuses on visual elements and aesthetics, while UX (User Experience) design focuses on functionality, usability, and user satisfaction. We provide both to create cohesive experiences."
+        },
+        {
+          "q": "Do you conduct user research?",
+          "a": "Yes! User research is a critical part of our process. We conduct interviews, surveys, and usability testing to ensure our designs meet user needs and business goals."
+        },
+        {
+          "q": "How long does the design process take?",
+          "a": "Timeline varies by project scope, but typically UI/UX design takes 4-8 weeks for complete design work including research, wireframing, and final designs."
+        },
+        {
+          "q": "What design tools do you use?",
+          "a": "We use industry-standard tools including Figma, Sketch, Adobe XD, and InVision for wireframing, prototyping, and design delivery."
+        },
+        {
+          "q": "Will you provide a design system?",
+          "a": "Yes! We create comprehensive design systems including component libraries, style guides, and documentation to ensure design consistency."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "custom-web-development": {
+    "hero": {
+      "heading": "Custom Web Development",
+      "subheading": "Tailored web solutions built to your exact specifications for unique business needs."
+    },
+    "form": {
+      "heading": "Need custom web development?",
+      "content": "Build tailored web solutions that perfectly match your unique business processes and requirements.",
+      "subContent": "Get expert consultation on custom development approach and technical strategy.",
+      "cta": "Let's create a custom solution that fits your business perfectly.",
+      "formHeading": "Get a Free Custom Development Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Custom Solutions for Your Unique Needs",
+      "text1": "Off-the-shelf solutions often fall short of your specific requirements. Custom web development creates tailored solutions that perfectly match your business processes and goals.",
+      "text2": "We build custom websites, applications, and features designed specifically for your industry, workflow, and brand. Every element is crafted with your unique needs in mind.",
+      "text3": "Our custom development approach ensures scalability, maintainability, and the flexibility to evolve with your business. We write clean, documented code that your team can build upon.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Custom Web Development"
+    },
+    "services": "Custom Web Development",
+    "process": {
+      "steps": [
+        "Requirements Analysis",
+        "Architecture Design",
+        "Custom Development",
+        "Quality Assurance",
+        "Deployment & Handover"
+      ],
+      "content": [
+        "We thoroughly analyze your business requirements, workflows, and objectives to create a comprehensive development plan tailored to your needs.",
+        "We design scalable architecture and custom solutions that perfectly match your business processes and enable future growth.",
+        "Our developers write clean, documented custom code using best practices to ensure maintainability and performance.",
+        "We conduct comprehensive testing including functionality, security, performance, and integration testing before launch.",
+        "We handle deployment and provide complete documentation, training, and ongoing support for your custom solution."
+      ]
+    },
+    "faq": {
+      "serviceName": "Custom Web Development",
+      "faqs": [
+        {
+          "q": "How is custom development different from using templates?",
+          "a": "Custom development creates solutions specifically for your business, while templates are generic. Custom solutions are tailored to your exact needs, workflows, and brand identity."
+        },
+        {
+          "q": "How long does custom development take?",
+          "a": "Timeline varies significantly based on complexity and requirements. Simple custom features might take 2-4 weeks, while complex applications can take 3-6 months or more."
+        },
+        {
+          "q": "What technologies do you use for custom development?",
+          "a": "We use modern, proven technologies including React, Node.js, PHP, Python, and various frameworks. We choose technologies based on your specific requirements and long-term goals."
+        },
+        {
+          "q": "Can you customize existing systems?",
+          "a": "Yes! We can customize existing platforms and integrate custom functionality to meet your specific business requirements."
+        },
+        {
+          "q": "How do you ensure scalability?",
+          "a": "We design scalable architectures from the start, using best practices, cloud infrastructure, and modular code that can grow with your business needs."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "wix-website-development": {
+    "hero": {
+      "heading": "Wix Website Development",
+      "subheading": "Professional Wix websites that combine ease of management with beautiful design and functionality."
+    },
+    "form": {
+      "heading": "Need a professional Wix website?",
+      "content": "Get a custom-built Wix website that looks professional and performs excellently.",
+      "subContent": "Get expert consultation on Wix design and optimization.",
+      "cta": "Let's build a Wix site that stands out from the crowd.",
+      "formHeading": "Get a Free Wix Development Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Professional Wix Development Done Right",
+      "text1": "Wix offers an intuitive platform for managing your website, but creating a truly professional, conversion-focused site requires expertise in design and optimization.",
+      "text2": "We build custom Wix websites that look professional and perform excellently. We leverage Wix's features while ensuring your site is optimized for speed, SEO, and conversions.",
+      "text3": "After we build your Wix site, you'll have full control to manage content yourself. We provide training so you can confidently update your site whenever needed.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Wix Website Development"
+    },
+    "services": "Wix Website Development",
+    "process": {
+      "steps": [
+        "Strategy & Design",
+        "Custom Wix Development",
+        "Optimization & Testing",
+        "Content Management Training",
+        "Launch & Support"
+      ],
+      "content": [
+        "We create a strategic plan and custom design that matches your brand and business objectives.",
+        "We build your Wix site with custom functionality, integrations, and professional design.",
+        "We optimize your site for speed, SEO, and mobile responsiveness to ensure peak performance.",
+        "We train your team on how to manage and update content through Wix's intuitive interface.",
+        "We launch your site and provide ongoing support to ensure everything runs smoothly."
+      ]
+    },
+    "faq": {
+      "serviceName": "Wix Website Development",
+      "faqs": [
+        {
+          "q": "Why choose Wix over other website builders?",
+          "a": "Wix offers an excellent balance of ease of use and customization. It's perfect for businesses that want professional websites with full content control without technical complexity."
+        },
+        {
+          "q": "Can you customize Wix templates?",
+          "a": "Yes! We work with Wix's design tools to create fully customized sites that look unique and professional, even when starting from templates."
+        },
+        {
+          "q": "Will I be able to update my Wix site myself?",
+          "a": "Absolutely! After we build your site, you can easily manage all content through Wix's intuitive editor. We provide training to get you started."
+        },
+        {
+          "q": "How much does Wix hosting cost?",
+          "a": "Wix offers various hosting plans. We can help you choose the right plan based on your needs, typically ranging from basic to professional packages."
+        },
+        {
+          "q": "Can you migrate my existing website to Wix?",
+          "a": "Yes! We can help migrate content from your existing site to Wix while preserving your brand and optimizing for the platform."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "react-js-website-development": {
+    "hero": {
+      "heading": "React.js Website Development",
+      "subheading": "Modern, dynamic websites built with React.js for superior performance and user experience."
+    },
+    "form": {
+      "heading": "Need a React.js website?",
+      "content": "Build fast, interactive web experiences with React.js that engage users and drive conversions.",
+      "subContent": "Get expert consultation on React.js architecture and performance optimization.",
+      "cta": "Let's build a React.js application that performs brilliantly.",
+      "formHeading": "Get a Free React.js Development Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "React.js Development for Modern Web Experiences",
+      "text1": "React.js powers some of the world's most dynamic and responsive websites. Using this modern JavaScript library, we create fast, interactive web experiences that users love.",
+      "text2": "Our React.js developers build component-based applications that are fast, scalable, and maintainable. We leverage React's ecosystem to create rich user interfaces with smooth interactions.",
+      "text3": "Whether you need a single-page application or a complex interactive website, React.js development delivers superior performance and user experiences that set you apart from competitors.",
+      "image": "wordpress-seo.jpg",
+      "alt": "React.js Website Development"
+    },
+    "services": "React.js Website Development",
+    "process": {
+      "steps": [
+        "React Architecture Design",
+        "Component Development",
+        "State Management Setup",
+        "Performance Optimization",
+        "Testing & Deployment"
+      ],
+      "content": [
+        "We design a scalable React architecture using modern patterns and best practices for long-term maintainability.",
+        "We build reusable, modular components that follow React best practices and ensure code quality.",
+        "We implement state management solutions like Redux or Context API to handle complex application state.",
+        "We optimize performance through code splitting, lazy loading, and memoization techniques.",
+        "We thoroughly test your React application and handle deployment to your preferred hosting environment."
+      ]
+    },
+    "faq": {
+      "serviceName": "React.js Website Development",
+      "faqs": [
+        {
+          "q": "Why choose React.js for web development?",
+          "a": "React.js offers exceptional performance, component reusability, and a vast ecosystem. It's ideal for building dynamic, interactive user interfaces that scale with your business."
+        },
+        {
+          "q": "What's included in React.js development?",
+          "a": "Our service includes component architecture, state management, routing, API integration, performance optimization, testing, and deployment."
+        },
+        {
+          "q": "Do you use TypeScript with React?",
+          "a": "Yes! We can develop React applications with TypeScript for enhanced type safety, better IDE support, and improved code quality."
+        },
+        {
+          "q": "Can you integrate React with existing back-ends?",
+          "a": "Absolutely! React integrates seamlessly with any back-end API, whether it's REST, GraphQL, or other protocols."
+        },
+        {
+          "q": "How do you ensure React app performance?",
+          "a": "We implement code splitting, lazy loading, memoization, and other React performance optimization techniques to ensure fast load times and smooth interactions."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "wordpress-website-development": {
+    "hero": {
+      "heading": "WordPress Website Development",
+      "subheading": "Custom WordPress websites that are fast, secure, and perfectly suited to your business needs."
+    },
+    "form": {
+      "heading": "Need a professional WordPress website?",
+      "content": "Build a custom WordPress site that looks professional, performs excellently, and gives you full content control.",
+      "subContent": "Get expert consultation on WordPress design and development approach.",
+      "cta": "Let's create a WordPress site that exceeds your expectations.",
+      "formHeading": "Get a Free WordPress Development Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "WordPress Development That Drives Results",
+      "text1": "WordPress powers over 40% of the web because it's flexible, powerful, and user-friendly. But creating a truly professional WordPress site requires expert development skills.",
+      "text2": "We build custom WordPress websites tailored to your business. We use premium themes and custom development to ensure your site looks unique, performs excellently, and is easy to manage.",
+      "text3": "Our WordPress development includes security hardening, performance optimization, and custom functionality. You'll get a professional website with the content control you need.",
+      "image": "wordpress-seo.jpg",
+      "alt": "WordPress Website Development"
+    },
+    "services": "WordPress Website Development",
+    "process": {
+      "steps": [
+        "Theme Selection & Customization",
+        "Development & Configuration",
+        "Security & Performance Setup",
+        "Content Management Training",
+        "Launch & Support"
+      ],
+      "content": [
+        "We select or customize premium themes and create custom designs that match your brand and business objectives.",
+        "We develop and configure your WordPress site with custom functionality, plugins, and integrations tailored to your needs.",
+        "We implement security hardening, caching, performance optimization, and SEO best practices for optimal results.",
+        "We train your team on managing content, updating pages, and using WordPress's intuitive admin interface.",
+        "We handle launch, provide documentation, and offer ongoing support to keep your WordPress site running smoothly."
+      ]
+    },
+    "faq": {
+      "serviceName": "WordPress Website Development",
+      "faqs": [
+        {
+          "q": "Why choose WordPress for your website?",
+          "a": "WordPress offers unmatched flexibility, a huge ecosystem of plugins, and an intuitive content management system. It's perfect for businesses that want powerful websites with full content control."
+        },
+        {
+          "q": "How long does WordPress development take?",
+          "a": "A typical WordPress site takes 4-8 weeks from start to launch, depending on complexity, custom features, and content volume."
+        },
+        {
+          "q": "Will I be able to update my WordPress site myself?",
+          "a": "Yes! WordPress is famous for its user-friendly admin interface. We provide training so you can confidently manage all content independently."
+        },
+        {
+          "q": "Do you handle WordPress security?",
+          "a": "Absolutely! We implement security best practices including regular updates, security plugins, and hardening techniques to protect your site."
+        },
+        {
+          "q": "Can you migrate my existing site to WordPress?",
+          "a": "Yes! We specialize in migrating sites to WordPress while preserving SEO rankings, content, and functionality."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "woocommerce-development": {
+    "hero": {
+      "heading": "WooCommerce Development",
+      "subheading": "Custom WooCommerce stores with powerful features and seamless shopping experiences."
+    },
+    "form": {
+      "heading": "Ready to launch your WooCommerce store?",
+      "content": "Build a powerful online store with WooCommerce that converts visitors into customers.",
+      "subContent": "Get expert consultation on WooCommerce setup and optimization.",
+      "cta": "Let's build a store that maximizes your online sales.",
+      "formHeading": "Get a Free WooCommerce Development Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "WooCommerce Stores That Convert Visitors to Customers",
+      "text1": "WooCommerce turns your WordPress site into a powerful online store. As the most popular e-commerce platform, it offers flexibility and features you can't get elsewhere.",
+      "text2": "We build custom WooCommerce stores with unique designs, optimized checkout flows, and integrated payment solutions. Our development ensures your store loads fast and converts at high rates.",
+      "text3": "From product catalogs to inventory management, we configure WooCommerce to work seamlessly for your business. We provide training so you can manage products and orders independently.",
+      "image": "wordpress-seo.jpg",
+      "alt": "WooCommerce Development"
+    },
+    "services": "WooCommerce Development",
+    "process": {
+      "steps": [
+        "Store Planning & Design",
+        "WooCommerce Setup",
+        "Payment & Shipping Integration",
+        "Product Catalog Setup",
+        "Launch & Training"
+      ],
+      "content": [
+        "We plan your store structure, user flows, and design to ensure an optimal shopping experience.",
+        "We set up and configure WooCommerce with custom themes, plugins, and functionality tailored to your needs.",
+        "We integrate secure payment gateways and shipping calculators for seamless checkout and order fulfillment.",
+        "We set up product catalogs, categories, inventory management, and all store settings.",
+        "We launch your store, provide training on managing products and orders, and offer ongoing support."
+      ]
+    },
+    "faq": {
+      "serviceName": "WooCommerce Development",
+      "faqs": [
+        {
+          "q": "Why choose WooCommerce for e-commerce?",
+          "a": "WooCommerce is flexible, affordable, and offers extensive customization options. It's the perfect choice for businesses that want powerful e-commerce with WordPress's content management capabilities."
+        },
+        {
+          "q": "What payment gateways do you integrate?",
+          "a": "We integrate popular gateways including Stripe, PayPal, Square, and others. We can set up any payment method your customers prefer."
+        },
+        {
+          "q": "How long does WooCommerce development take?",
+          "a": "A typical WooCommerce store takes 6-10 weeks from start to launch, depending on product catalog size and custom features needed."
+        },
+        {
+          "q": "Will I be able to manage my store independently?",
+          "a": "Yes! WooCommerce is user-friendly. We provide training so you can manage products, orders, and inventory without technical knowledge."
+        },
+        {
+          "q": "Can you migrate my existing store to WooCommerce?",
+          "a": "Yes! We specialize in store migrations while preserving products, orders, customer data, and SEO rankings."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "magento-development": {
+    "hero": {
+      "heading": "Magento Development",
+      "subheading": "Enterprise-grade Magento e-commerce solutions for growing businesses."
+    },
+    "form": {
+      "heading": "Need enterprise Magento development?",
+      "content": "Build powerful, scalable e-commerce solutions with Magento that handle complex requirements.",
+      "subContent": "Get expert consultation on Magento architecture and enterprise setup.",
+      "cta": "Let's build a Magento store that scales with your success.",
+      "formHeading": "Get a Free Magento Development Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Magento Development for Serious E-Commerce",
+      "text1": "Magento is built for serious online retailers who need powerful features and scalability. It's the platform of choice for businesses with large product catalogs and complex requirements.",
+      "text2": "Our Magento developers create custom stores with advanced features, seamless integrations, and high performance. We optimize every aspect for speed, conversions, and scalability.",
+      "text3": "From custom themes to complex functionality, we leverage Magento's enterprise capabilities to create online stores that handle growth and deliver exceptional shopping experiences.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Magento Development"
+    },
+    "services": "Magento Development",
+    "process": {
+      "steps": [
+        "Enterprise Planning",
+        "Magento Installation & Setup",
+        "Custom Development",
+        "Performance Optimization",
+        "Launch & Support"
+      ],
+      "content": [
+        "We plan your Magento architecture, analyze requirements, and design scalable solutions for complex e-commerce needs.",
+        "We install and configure Magento with enterprise features, modules, and third-party integrations.",
+        "We develop custom themes, modules, and functionality tailored to your business processes and requirements.",
+        "We optimize server configuration, caching, database performance, and code to ensure exceptional speed and scalability.",
+        "We handle launch, provide training on managing your store, and offer ongoing Magento support and maintenance."
+      ]
+    },
+    "faq": {
+      "serviceName": "Magento Development",
+      "faqs": [
+        {
+          "q": "Why choose Magento for enterprise e-commerce?",
+          "a": "Magento is built for large-scale e-commerce with powerful features, exceptional scalability, and extensive customization capabilities. It's ideal for businesses with complex requirements."
+        },
+        {
+          "q": "How long does Magento development take?",
+          "a": "Magento projects typically take 12-20 weeks or more, depending on complexity, custom features, and integrations required."
+        },
+        {
+          "q": "What's the difference between Magento Open Source and Commerce?",
+          "a": "Magento Open Source is free with basic features, while Commerce is the paid enterprise version with advanced features, B2B capabilities, and performance optimization. We help you choose the right edition."
+        },
+        {
+          "q": "Can Magento handle large product catalogs?",
+          "a": "Absolutely! Magento is designed to handle millions of products, complex catalogs, and high traffic volumes with proper configuration and optimization."
+        },
+        {
+          "q": "Do you provide Magento maintenance and support?",
+          "a": "Yes! We offer comprehensive Magento support packages including updates, security patches, performance monitoring, and ongoing optimization."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "squarespace-development": {
+    "hero": {
+      "heading": "Squarespace Development",
+      "subheading": "Professional Squarespace websites with custom design and functionality."
+    },
+    "form": {
+      "heading": "Need a professional Squarespace website?",
+      "content": "Build a beautiful Squarespace site with custom design that stands out from templates.",
+      "subContent": "Get expert consultation on Squarespace design and optimization.",
+      "cta": "Let's create a Squarespace site that impresses visitors.",
+      "formHeading": "Get a Free Squarespace Development Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Squarespace Sites That Stand Out",
+      "text1": "Squarespace provides beautiful templates and an intuitive editor, but custom development elevates your site from template to truly professional.",
+      "text2": "We create custom Squarespace websites that maintain the platform's ease of use while delivering unique designs and advanced functionality. Your site will look professional and perform excellently.",
+      "text3": "We optimize your Squarespace site for SEO, speed, and conversions. After launch, you'll be able to manage content easily through the intuitive Squarespace interface.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Squarespace Development"
+    },
+    "services": "Squarespace Development",
+    "process": {
+      "steps": [
+        "Design & Planning",
+        "Custom Squarespace Development",
+        "SEO & Performance Setup",
+        "Content Optimization",
+        "Launch & Training"
+      ],
+      "content": [
+        "We plan your Squarespace site structure, select optimal templates, and create custom designs that elevate your brand.",
+        "We customize your Squarespace site with custom CSS, page layouts, and advanced design features while maintaining platform benefits.",
+        "We configure SEO settings, optimize images, and implement performance best practices for fast load times.",
+        "We optimize your content for search engines, conversions, and user experience across all pages.",
+        "We launch your site, provide training on Squarespace's intuitive editor, and offer ongoing support."
+      ]
+    },
+    "faq": {
+      "serviceName": "Squarespace Development",
+      "faqs": [
+        {
+          "q": "Why choose Squarespace for my website?",
+          "a": "Squarespace offers stunning templates, an intuitive editor, and reliable hosting. It's perfect for businesses that want professional websites without technical complexity."
+        },
+        {
+          "q": "Can you customize Squarespace templates?",
+          "a": "Yes! We use custom CSS and Squarespace's advanced features to create unique designs that go far beyond default templates while maintaining the platform's ease of use."
+        },
+        {
+          "q": "Will I be able to update my Squarespace site myself?",
+          "a": "Absolutely! Squarespace's editor is one of the most intuitive. We provide training so you can confidently manage all content."
+        },
+        {
+          "q": "Is Squarespace good for e-commerce?",
+          "a": "Yes! Squarespace offers robust e-commerce features including inventory management, payment processing, and shipping calculations suitable for many online stores."
+        },
+        {
+          "q": "How much does Squarespace cost?",
+          "a": "Squarespace offers various pricing plans. We can help you choose the right plan based on your needs, typically starting from personal to business/e-commerce packages."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "custom-php-web-development": {
+    "hero": {
+      "heading": "Custom PHP Web Development",
+      "subheading": "Robust, scalable web applications built with PHP and modern development practices."
+    },
+    "form": {
+      "heading": "Need custom PHP development?",
+      "content": "Build powerful, scalable web applications with PHP tailored to your exact requirements.",
+      "subContent": "Get expert consultation on PHP architecture and custom development.",
+      "cta": "Let's build a PHP solution that powers your business.",
+      "formHeading": "Get a Free PHP Development Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "PHP Development for Dynamic Web Solutions",
+      "text1": "PHP remains one of the most popular server-side languages because it's powerful, flexible, and well-supported. Custom PHP development gives you complete control over your application.",
+      "text2": "Our PHP developers build secure, scalable web applications using modern PHP practices. We create solutions that are fast, maintainable, and perfectly tailored to your needs.",
+      "text3": "From content management systems to complex business applications, custom PHP development delivers the performance and flexibility you need for dynamic web solutions.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Custom PHP Web Development"
+    },
+    "services": "Custom PHP Web Development",
+    "process": {
+      "steps": [
+        "Requirements Analysis",
+        "PHP Architecture Design",
+        "Custom Development",
+        "Security & Performance",
+        "Testing & Deployment"
+      ],
+      "content": [
+        "We analyze your requirements and design a comprehensive PHP architecture that meets your business objectives.",
+        "We design scalable PHP architecture using modern frameworks and best practices for long-term maintainability.",
+        "We develop custom PHP code using modern practices including object-oriented programming and MVC patterns.",
+        "We implement security best practices and optimize code for exceptional performance and scalability.",
+        "We thoroughly test your PHP application and handle deployment to your preferred hosting environment."
+      ]
+    },
+    "faq": {
+      "serviceName": "Custom PHP Web Development",
+      "faqs": [
+        {
+          "q": "Why choose PHP for web development?",
+          "a": "PHP is mature, well-supported, and perfect for server-side development. It offers excellent performance, extensive frameworks like Laravel and Symfony, and is ideal for dynamic web applications."
+        },
+        {
+          "q": "What PHP frameworks do you use?",
+          "a": "We work with modern frameworks including Laravel, Symfony, CodeIgniter, and vanilla PHP, choosing the best option based on your project needs."
+        },
+        {
+          "q": "How long does PHP development take?",
+          "a": "Timeline varies based on complexity. Simple PHP applications take 4-8 weeks, while complex enterprise applications can take 3-6 months or more."
+        },
+        {
+          "q": "Is PHP still relevant for modern web development?",
+          "a": "Absolutely! PHP powers over 77% of all websites. With modern frameworks and best practices, PHP remains highly relevant for building scalable web applications."
+        },
+        {
+          "q": "Do you handle PHP security?",
+          "a": "Yes! Security is a top priority. We implement modern security practices, follow OWASP guidelines, and conduct security audits to protect your application."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "next-js-web-development": {
+    "hero": {
+      "heading": "Next.js Web Development",
+      "subheading": "High-performance websites with Next.js combining server-side rendering and modern React."
+    },
+    "form": {
+      "heading": "Need blazing-fast performance with Next.js?",
+      "content": "Build high-performance websites with Next.js that load instantly and rank excellently.",
+      "subContent": "Get expert consultation on Next.js architecture and optimization.",
+      "cta": "Let's build a Next.js site that performs brilliantly.",
+      "formHeading": "Get a Free Next.js Development Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Next.js for Blazing Fast Performance",
+      "text1": "Next.js is the React framework for production. It delivers incredible performance through server-side rendering, automatic code splitting, and optimized loading.",
+      "text2": "Our Next.js developers build websites that load instantly and rank excellently in search engines. We leverage Next.js features like static generation and API routes to create powerful web solutions.",
+      "text3": "Whether you need a marketing site, blog, or complex application, Next.js development delivers the performance and SEO benefits that drive business results.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Next.js Web Development"
+    },
+    "services": "Next.js Web Development",
+    "process": {
+      "steps": [
+        "Next.js Architecture Planning",
+        "Pages & Routing Setup",
+        "SSR & SSG Implementation",
+        "Performance Optimization",
+        "Deployment & Monitoring"
+      ],
+      "content": [
+        "We design your Next.js application architecture, plan page structure, and optimize for both performance and SEO.",
+        "We set up routing, API routes, and configure static/dynamic page generation based on your needs.",
+        "We implement server-side rendering and static site generation strategies to maximize performance and SEO benefits.",
+        "We optimize images, code splitting, caching, and bundle sizes to ensure lightning-fast load times.",
+        "We deploy to Vercel, Netlify, or custom hosting and set up monitoring for optimal performance."
+      ]
+    },
+    "faq": {
+      "serviceName": "Next.js Web Development",
+      "faqs": [
+        {
+          "q": "Why choose Next.js over plain React?",
+          "a": "Next.js adds server-side rendering, automatic code splitting, SEO optimization, and built-in performance features that make React apps load faster and rank better in search engines."
+        },
+        {
+          "q": "What's included in Next.js development?",
+          "a": "Our service includes application setup, routing, server-side rendering, API routes, performance optimization, SEO configuration, and deployment."
+        },
+        {
+          "q": "Can you use TypeScript with Next.js?",
+          "a": "Yes! We use TypeScript with Next.js for type safety, better developer experience, and improved code quality."
+        },
+        {
+          "q": "Do you deploy to Vercel?",
+          "a": "Yes! We can deploy to Vercel (created by Next.js team) or other platforms like Netlify, AWS, or custom hosting based on your preferences."
+        },
+        {
+          "q": "How do you ensure Next.js app SEO?",
+          "a": "Next.js has built-in SEO features including server-side rendering, automatic meta tags, and structured data. We optimize all SEO aspects for maximum search visibility."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "angular-web-development": {
+    "hero": {
+      "heading": "Angular Web Development",
+      "subheading": "Enterprise-grade web applications built with Angular for complex business needs."
+    },
+    "form": {
+      "heading": "Need enterprise Angular development?",
+      "content": "Build large-scale applications with Angular that handle complexity and scale with your growth.",
+      "subContent": "Get expert consultation on Angular architecture and enterprise development.",
+      "cta": "Let's build an Angular application that scales beautifully.",
+      "formHeading": "Get a Free Angular Development Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Angular Development for Enterprise Solutions",
+      "text1": "Angular is built for building large-scale applications with complex requirements. Its comprehensive framework provides everything needed for robust, maintainable applications.",
+      "text2": "Our Angular developers create enterprise-level applications with clean architecture, type safety, and scalable patterns. We build solutions that handle complexity while remaining performant.",
+      "text3": "From single-page applications to progressive web apps, Angular development delivers the structure and tools needed for serious business applications that scale with your growth.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Angular Web Development"
+    },
+    "services": "Angular Web Development",
+    "process": {
+      "steps": [
+        "Angular Architecture Design",
+        "Module & Component Development",
+        "Service & State Management",
+        "Performance Optimization",
+        "Testing & Deployment"
+      ],
+      "content": [
+        "We design your Angular application architecture using best practices including modules, lazy loading, and clean architecture patterns.",
+        "We develop modular components, reusable modules, and implement Angular's powerful dependency injection system.",
+        "We build services, implement state management with NgRx or RxJS, and create robust data flows.",
+        "We optimize bundle sizes, implement OnPush change detection, lazy loading, and other Angular performance techniques.",
+        "We conduct comprehensive testing including unit, integration, and e2e tests before deploying your application."
+      ]
+    },
+    "faq": {
+      "serviceName": "Angular Web Development",
+      "faqs": [
+        {
+          "q": "Why choose Angular for web development?",
+          "a": "Angular is perfect for large-scale applications with complex requirements. It offers a complete framework with built-in tools for routing, forms, HTTP, testing, and more."
+        },
+        {
+          "q": "What version of Angular do you use?",
+          "a": "We use the latest Angular version (currently Angular 17+) with modern features, standalone components, and the latest best practices."
+        },
+        {
+          "q": "Do you use TypeScript with Angular?",
+          "a": "Yes! TypeScript is the primary language for Angular development, providing type safety, better tooling, and improved code quality."
+        },
+        {
+          "q": "Can Angular handle large-scale applications?",
+          "a": "Absolutely! Angular is specifically designed for enterprise-scale applications with powerful tools for code organization, lazy loading, and maintainability."
+        },
+        {
+          "q": "Do you provide Angular testing?",
+          "a": "Yes! We conduct comprehensive testing including unit tests with Jasmine/Karma, integration tests, and e2e tests with Protractor or Cypress."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "vue-js-web-development": {
+    "hero": {
+      "heading": "Vue.js Web Development",
+      "subheading": "Elegant, performant web applications built with Vue.js for smooth user experiences."
+    },
+    "form": {
+      "heading": "Need elegant Vue.js development?",
+      "content": "Build beautiful, performant applications with Vue.js that delight users with smooth experiences.",
+      "subContent": "Get expert consultation on Vue.js architecture and development.",
+      "cta": "Let's build a Vue.js application that stands out.",
+      "formHeading": "Get a Free Vue.js Development Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Vue.js for Elegant Web Experiences",
+      "text1": "Vue.js combines the best of React and Angular in a progressive framework that's approachable yet powerful. It's perfect for building interactive, data-driven user interfaces.",
+      "text2": "Our Vue.js developers create beautiful, responsive applications with smooth animations and intuitive interactions. We leverage Vue's ecosystem to build maintainable, scalable solutions.",
+      "text3": "From simple interactive sites to complex single-page applications, Vue.js development delivers elegant code and exceptional user experiences that delight users and drive engagement.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Vue.js Web Development"
+    },
+    "services": "Vue.js Web Development",
+    "process": {
+      "steps": [
+        "Vue Architecture Design",
+        "Component Development",
+        "State Management Setup",
+        "Performance Tuning",
+        "Testing & Deployment"
+      ],
+      "content": [
+        "We design your Vue.js application architecture using Vue 3 Composition API, Vue Router, and modern best practices.",
+        "We develop reusable Vue components, implement Vue's reactive system, and create elegant user interfaces.",
+        "We set up state management with Vuex or Pinia to handle complex application state efficiently.",
+        "We optimize performance using Vue's built-in optimizations, lazy loading, code splitting, and memoization.",
+        "We conduct thorough testing and deploy your Vue.js application to your preferred hosting environment."
+      ]
+    },
+    "faq": {
+      "serviceName": "Vue.js Web Development",
+      "faqs": [
+        {
+          "q": "Why choose Vue.js for web development?",
+          "a": "Vue.js is progressive, approachable, and performs excellently. It's perfect for building interactive applications with a gentle learning curve and powerful features."
+        },
+        {
+          "q": "What's included in Vue.js development?",
+          "a": "Our service includes Vue 3 setup, component development, routing, state management, UI library integration, performance optimization, and deployment."
+        },
+        {
+          "q": "Do you use TypeScript with Vue?",
+          "a": "Yes! We use TypeScript with Vue for enhanced type safety and better developer experience, especially with Vue 3's Composition API."
+        },
+        {
+          "q": "Can Vue.js handle large applications?",
+          "a": "Absolutely! Vue.js scales well with proper architecture, state management with Vuex/Pinia, and code organization using the Composition API."
+        },
+        {
+          "q": "What's the difference between Vue 2 and Vue 3?",
+          "a": "Vue 3 offers better performance, Composition API, improved TypeScript support, and smaller bundle sizes. We primarily use Vue 3 for new projects."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "speed-optimization": {
+    "hero": {
+      "heading": "Speed Optimization",
+      "subheading": "Dramatically improve your website speed and performance for better user experience and rankings."
+    },
+    "form": {
+      "heading": "Is your website too slow?",
+      "content": "Improve your website speed by 50-80% and boost conversions, user experience, and search rankings.",
+      "subContent": "Get a free speed audit and actionable optimization recommendations.",
+      "cta": "Let's make your website lightning fast.",
+      "formHeading": "Get a Free Speed Optimization Audit",
+      "buttonText": "Get My Audit"
+    },
+    "content": {
+      "heading": "Speed That Converts",
+      "text1": "Website speed directly impacts user experience, conversion rates, and search rankings. Slow sites lose visitors, sales, and rankings—we fix that.",
+      "text2": "Our speed optimization services analyze your site from server to browser, identifying bottlenecks and implementing fixes. We optimize images, code, hosting, and everything in between.",
+      "text3": "We typically improve page load times by 50-80%, which directly boosts conversions and SEO rankings. A fast website is a successful website.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Speed Optimization"
+    },
+    "services": "Speed Optimization",
+    "process": {
+      "steps": [
+        "Performance Audit",
+        "Bottleneck Identification",
+        "Optimization Implementation",
+        "Testing & Verification",
+        "Monitoring & Reporting"
+      ],
+      "content": [
+        "We conduct comprehensive speed audits using tools like Google PageSpeed Insights, GTmetrix, and Lighthouse to identify issues.",
+        "We analyze and identify specific bottlenecks in code, images, hosting, database queries, and third-party scripts.",
+        "We implement optimizations including image compression, code minification, caching, CDN setup, and database optimization.",
+        "We test the optimizations and verify improvements in page load times, Core Web Vitals, and user experience metrics.",
+        "We set up monitoring and provide detailed reports showing before/after metrics and ongoing performance tracking."
+      ]
+    },
+    "faq": {
+      "serviceName": "Speed Optimization",
+      "faqs": [
+        {
+          "q": "How much can you improve my website speed?",
+          "a": "We typically improve page load times by 50-80%, often reducing load times from 5+ seconds to under 2 seconds, which significantly improves user experience and conversions."
+        },
+        {
+          "q": "What causes slow website speeds?",
+          "a": "Common causes include large images, unoptimized code, slow hosting, lack of caching, too many plugins, poor database queries, and third-party scripts."
+        },
+        {
+          "q": "How long does speed optimization take?",
+          "a": "Basic optimization can be completed in 1-2 weeks. Complex optimizations involving code refactoring may take 3-4 weeks depending on the issues found."
+        },
+        {
+          "q": "Will speed optimization affect my website's functionality?",
+          "a": "No! Our optimization process maintains all functionality while improving performance. We thoroughly test to ensure everything works perfectly."
+        },
+        {
+          "q": "Do you provide ongoing speed monitoring?",
+          "a": "Yes! We can set up monitoring tools to track your website's performance and provide alerts if speed issues arise."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "portfolio-websites": {
+    "hero": {
+      "heading": "Portfolio Websites",
+      "subheading": "Showcase your work and attract clients with a professional portfolio website."
+    },
+    "form": {
+      "heading": "Need a standout portfolio website?",
+      "content": "Create a portfolio that showcases your work beautifully and converts visitors into clients.",
+      "subContent": "Get expert consultation on portfolio design and strategy.",
+      "cta": "Let's build a portfolio that opens doors.",
+      "formHeading": "Get a Free Portfolio Website Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Portfolios That Win Clients",
+      "text1": "Your portfolio is your digital calling card. It needs to showcase your best work while being easy to navigate and visually stunning. Potential clients make decisions within seconds.",
+      "text2": "We create portfolio websites that tell your story and showcase your work beautifully. Our designs are clean, focused, and optimized to convert visitors into clients or opportunities.",
+      "text3": "Whether you're a designer, photographer, developer, or consultant, we build portfolios that make the right impression and drive the results you need.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Portfolio Websites"
+    },
+    "services": "Portfolio Websites",
+    "process": {
+      "steps": [
+        "Content Strategy",
+        "Design & Layout",
+        "Portfolio Showcase Setup",
+        "Contact Integration",
+        "Launch & Promotion"
+      ],
+      "content": [
+        "We plan your portfolio structure, curate your best work, and create a content strategy that tells your story effectively.",
+        "We design a beautiful, responsive layout that showcases your work in the best light and makes a strong impression.",
+        "We set up galleries, project showcases, case studies, and work samples in an organized, easy-to-navigate format.",
+        "We integrate contact forms, social links, and easy ways for potential clients to reach out and engage with you.",
+        "We launch your portfolio and provide guidance on promoting it effectively to attract the right opportunities."
+      ]
+    },
+    "faq": {
+      "serviceName": "Portfolio Websites",
+      "faqs": [
+        {
+          "q": "How long does it take to build a portfolio website?",
+          "a": "A portfolio website typically takes 2-4 weeks from start to launch, depending on the amount of work to showcase and desired features."
+        },
+        {
+          "q": "What should I include in my portfolio website?",
+          "a": "Essential elements include your best work examples, about section, services, testimonials, contact information, and a clear call-to-action."
+        },
+        {
+          "q": "Will my portfolio be mobile-friendly?",
+          "a": "Absolutely! All our portfolios are fully responsive and optimized to look perfect on phones, tablets, and desktops."
+        },
+        {
+          "q": "Can I update my portfolio myself later?",
+          "a": "Yes! We build portfolios with easy content management so you can add new work, update content, and keep it fresh independently."
+        },
+        {
+          "q": "How much does a portfolio website cost?",
+          "a": "Portfolio website costs vary based on features and complexity. We'll provide a detailed quote after understanding your specific needs."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "real-estate-websites": {
+    "hero": {
+      "heading": "Real Estate Websites",
+      "subheading": "Professional real estate websites that showcase properties and generate leads."
+    },
+    "form": {
+      "heading": "Need a real estate website?",
+      "content": "Build a professional real estate website that showcases properties and generates quality leads.",
+      "subContent": "Get expert consultation on real estate web design and lead generation.",
+      "cta": "Let's build a website that helps you sell more properties.",
+      "formHeading": "Get a Free Real Estate Website Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Real Estate Websites That Sell Properties",
+      "text1": "Real estate buyers and sellers rely on online platforms to find properties and agents. Your website needs to showcase listings beautifully while capturing leads effectively.",
+      "text2": "We build real estate websites with property search features, virtual tours, IDX integration, and lead capture systems. Our designs are modern, mobile-friendly, and optimized for conversions.",
+      "text3": "From agent portfolios to agency websites, we create real estate platforms that help you stand out, generate more leads, and close more deals.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Real Estate Websites"
+    },
+    "services": "Real Estate Websites",
+    "process": {
+      "steps": [
+        "Strategy & Design",
+        "Property Search Setup",
+        "Lead Capture Integration",
+        "IDX Integration",
+        "Launch & Training"
+      ],
+      "content": [
+        "We design your real estate website layout, plan property showcase pages, and create lead capture strategies.",
+        "We set up property search functionality, filters, and listing displays to help visitors find properties easily.",
+        "We integrate lead capture forms, contact systems, and follow-up automation to convert visitors into leads.",
+        "We integrate IDX (Internet Data Exchange) systems to display live MLS listings directly on your site.",
+        "We launch your site, provide training on managing listings and leads, and offer ongoing support."
+      ]
+    },
+    "faq": {
+      "serviceName": "Real Estate Websites",
+      "faqs": [
+        {
+          "q": "What features should a real estate website have?",
+          "a": "Essential features include property search, property detail pages, photo galleries, virtual tours, lead capture forms, agent profiles, and neighborhood information."
+        },
+        {
+          "q": "Can you integrate IDX or MLS listings?",
+          "a": "Yes! We can integrate IDX systems to display live MLS listings, property data, and search functionality directly on your website."
+        },
+        {
+          "q": "How long does real estate website development take?",
+          "a": "A typical real estate website takes 6-10 weeks depending on features like IDX integration, virtual tours, and custom functionality needed."
+        },
+        {
+          "q": "Will my real estate site work on mobile?",
+          "a": "Absolutely! Mobile is critical for real estate. We ensure your site looks perfect on phones and tablets so agents can show properties to clients anywhere."
+        },
+        {
+          "q": "Can I update property listings myself?",
+          "a": "Yes! With IDX integration, listings update automatically. We also provide easy tools to manually manage featured listings and content."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "healthcare-websites": {
+    "hero": {
+      "heading": "Healthcare Websites",
+      "subheading": "HIPAA-compliant healthcare websites that build trust and make it easy for patients to connect."
+    },
+    "form": {
+      "heading": "Need a healthcare website?",
+      "content": "Build a HIPAA-compliant healthcare website that builds trust and connects with patients.",
+      "subContent": "Get expert consultation on healthcare web design and compliance.",
+      "cta": "Let's build a website that helps you serve patients better.",
+      "formHeading": "Get a Free Healthcare Website Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Healthcare Websites That Patients Trust",
+      "text1": "Healthcare websites must balance informative content, easy appointment scheduling, and strict HIPAA compliance. Trust and accessibility are paramount.",
+      "text2": "We build healthcare websites with patient portals, online appointment booking, HIPAA compliance features, and responsive designs. Our focus is on building trust and facilitating care.",
+      "text3": "From medical practices to hospitals, we create healthcare websites that reflect professionalism, provide essential information, and make it easy for patients to get the care they need.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Healthcare Websites"
+    },
+    "services": "Healthcare Websites",
+    "process": {
+      "steps": [
+        "HIPAA Compliance Planning",
+        "Design & Development",
+        "Patient Portal Setup",
+        "Appointment System Integration",
+        "Launch & Training"
+      ],
+      "content": [
+        "We plan your website structure ensuring HIPAA compliance, patient privacy, and security best practices from the start.",
+        "We design and develop a professional, trustworthy healthcare website with accessible navigation and clear information.",
+        "We set up secure patient portals where patients can access medical records, test results, and communicate securely.",
+        "We integrate online appointment booking systems that sync with your scheduling software and send automated reminders.",
+        "We launch your site, provide HIPAA compliance documentation, and train your staff on managing the website."
+      ]
+    },
+    "faq": {
+      "serviceName": "Healthcare Websites",
+      "faqs": [
+        {
+          "q": "Will my healthcare website be HIPAA compliant?",
+          "a": "Yes! We implement HIPAA-compliant forms, secure patient portals, encrypted data transmission, and business associate agreements to protect patient information."
+        },
+        {
+          "q": "Can patients book appointments online?",
+          "a": "Yes! We integrate online appointment booking systems that sync with your scheduling software and send automated confirmations and reminders."
+        },
+        {
+          "q": "How long does healthcare website development take?",
+          "a": "Healthcare websites typically take 6-12 weeks depending on features like patient portals, appointment systems, and HIPAA compliance requirements."
+        },
+        {
+          "q": "Can you integrate with my EHR system?",
+          "a": "Yes! We can integrate with many EHR systems to enable seamless data exchange and improve patient experience."
+        },
+        {
+          "q": "What security measures do you implement?",
+          "a": "We implement SSL encryption, secure forms, HIPAA-compliant data handling, regular security audits, and follow all healthcare data protection best practices."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "law-firm-websites": {
+    "hero": {
+      "heading": "Law Firm Websites",
+      "subheading": "Professional law firm websites that establish credibility and attract clients."
+    },
+    "form": {
+      "heading": "Need a law firm website?",
+      "content": "Build a professional law firm website that establishes credibility and attracts quality clients.",
+      "subContent": "Get expert consultation on law firm web design and client acquisition.",
+      "cta": "Let's build a website that grows your practice.",
+      "formHeading": "Get a Free Law Firm Website Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Law Firm Websites That Build Trust",
+      "text1": "Potential clients judge law firms by their online presence. Your website needs to establish credibility, demonstrate expertise, and make it easy for clients to reach out.",
+      "text2": "We build law firm websites with attorney profiles, practice area pages, case results (where appropriate), and contact forms. Our designs convey professionalism and trust.",
+      "text3": "From solo practitioners to large firms, we create legal websites that help you stand out, attract the right clients, and grow your practice.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Law Firm Websites"
+    },
+    "services": "Law Firm Websites",
+    "process": {
+      "steps": [
+        "Strategy & Branding",
+        "Attorney Profile Setup",
+        "Practice Area Pages",
+        "Lead Capture Integration",
+        "Launch & Optimization"
+      ],
+      "content": [
+        "We create a strategic website plan that positions your firm, showcases your expertise, and appeals to your target clients.",
+        "We set up comprehensive attorney profile pages highlighting credentials, experience, and specializations to build trust.",
+        "We create detailed practice area pages that demonstrate your expertise and help potential clients understand your services.",
+        "We integrate contact forms, consultation request systems, and lead capture tools to convert visitors into clients.",
+        "We launch your site, provide training on managing content, and optimize for SEO and conversions."
+      ]
+    },
+    "faq": {
+      "serviceName": "Law Firm Websites",
+      "faqs": [
+        {
+          "q": "What should a law firm website include?",
+          "a": "Essential elements include attorney profiles, practice area pages, about us section, client testimonials, case results (where appropriate), contact forms, and blog for thought leadership."
+        },
+        {
+          "q": "How long does law firm website development take?",
+          "a": "A typical law firm website takes 6-10 weeks depending on the number of attorneys, practice areas, and custom features needed."
+        },
+        {
+          "q": "Can I showcase case results on my website?",
+          "a": "Yes, but within ethics rules. We help you present case results appropriately while maintaining attorney-client privilege and ethical standards."
+        },
+        {
+          "q": "Will my law firm site be mobile-friendly?",
+          "a": "Absolutely! Most potential clients search for legal services on mobile. We ensure your site looks perfect and functions flawlessly on all devices."
+        },
+        {
+          "q": "Can I update attorney bios and practice areas myself?",
+          "a": "Yes! We build law firm sites with easy content management so you can update attorney information, add practice areas, and manage content independently."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "education-websites": {
+    "hero": {
+      "heading": "Education Websites",
+      "subheading": "Engaging educational websites that connect schools, teachers, and students online."
+    },
+    "form": {
+      "heading": "Need an education website?",
+      "content": "Build an engaging educational website that connects students, parents, and staff effectively.",
+      "subContent": "Get expert consultation on education web design and student engagement.",
+      "cta": "Let's build a website that supports your learning community.",
+      "formHeading": "Get a Free Education Website Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Education Websites That Engage Students and Parents",
+      "text1": "Educational institutions need websites that serve multiple audiences—students, parents, and staff. Clear organization, accessibility, and modern design are essential.",
+      "text2": "We build education websites with course catalogs, event calendars, student portals, and integrated learning management systems. Our designs are accessible and mobile-friendly.",
+      "text3": "From K-12 schools to universities, we create educational websites that facilitate communication, showcase programs, and support the learning community.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Education Websites"
+    },
+    "services": "Education Websites",
+    "process": {
+      "steps": [
+        "Audience Analysis",
+        "Design & Development",
+        "Portal Integration",
+        "Content Organization",
+        "Launch & Training"
+      ],
+      "content": [
+        "We analyze the needs of students, parents, and staff to create a website structure that serves all audiences effectively.",
+        "We design and develop an accessible, mobile-friendly educational website with clear navigation and modern design.",
+        "We integrate student portals, parent portals, LMS systems, and communication tools for seamless online learning.",
+        "We organize course catalogs, event calendars, news, and program information in an intuitive, easy-to-find format.",
+        "We launch your site, provide training to staff on content management, and offer ongoing support."
+      ]
+    },
+    "faq": {
+      "serviceName": "Education Websites",
+      "faqs": [
+        {
+          "q": "What features should an education website have?",
+          "a": "Essential features include course catalogs, event calendars, news/blog, student portals, parent portals, faculty directories, admission information, and LMS integration."
+        },
+        {
+          "q": "Can you integrate learning management systems?",
+          "a": "Yes! We can integrate popular LMS platforms like Canvas, Blackboard, Moodle, and others to provide seamless access to learning resources."
+        },
+        {
+          "q": "How long does education website development take?",
+          "a": "Education websites typically take 8-16 weeks depending on the number of programs, portals, integrations, and content volume."
+        },
+        {
+          "q": "Is accessibility important for education websites?",
+          "a": "Absolutely! We follow WCAG accessibility guidelines to ensure your site is accessible to all users, including those with disabilities."
+        },
+        {
+          "q": "Can multiple staff members manage different sections?",
+          "a": "Yes! We set up user permissions and roles so different staff members can manage their respective sections independently."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "ngo-non-profit-websites": {
+    "hero": {
+      "heading": "NGO / Non-Profit Websites",
+      "subheading": "Compelling non-profit websites that inspire action and support your mission."
+    },
+    "form": {
+      "heading": "Need a non-profit website?",
+      "content": "Build a compelling non-profit website that inspires donations and mobilizes volunteers.",
+      "subContent": "Get expert consultation on non-profit web design and fundraising.",
+      "cta": "Let's build a website that amplifies your impact.",
+      "formHeading": "Get a Free Non-Profit Website Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Non-Profit Websites That Drive Impact",
+      "text1": "Non-profit organizations need websites that tell their story powerfully, inspire donations, and mobilize volunteers. Emotional connection combined with clear calls-to-action is key.",
+      "text2": "We build non-profit websites with donation systems, volunteer sign-up forms, impact stories, and event calendars. Our designs inspire action while clearly communicating your mission.",
+      "text3": "From charities to advocacy groups, we create non-profit websites that help you raise funds, grow your community, and amplify your impact.",
+      "image": "wordpress-seo.jpg",
+      "alt": "NGO / Non-Profit Websites"
+    },
+    "services": "NGO / Non-Profit Websites",
+    "process": {
+      "steps": [
+        "Mission & Story Planning",
+        "Design & Development",
+        "Donation System Setup",
+        "Impact Communication",
+        "Launch & Growth Support"
+      ],
+      "content": [
+        "We plan your website structure to tell your story powerfully, connect emotionally with visitors, and inspire action.",
+        "We design and develop a compelling non-profit website with clear messaging, impactful visuals, and strong calls-to-action.",
+        "We set up secure donation systems, recurring giving options, and volunteer sign-up forms to facilitate engagement.",
+        "We create impact storytelling sections, success stories, photo galleries, and infographics to show the difference you're making.",
+        "We launch your site, provide training on managing content, and offer ongoing support to help you grow your community."
+      ]
+    },
+    "faq": {
+      "serviceName": "NGO / Non-Profit Websites",
+      "faqs": [
+        {
+          "q": "What features should a non-profit website have?",
+          "a": "Essential features include donation systems, volunteer sign-up, impact stories, mission statement, events calendar, blog/news, contact forms, and recurring giving options."
+        },
+        {
+          "q": "Can you integrate with fundraising platforms?",
+          "a": "Yes! We can integrate with popular fundraising platforms like PayPal, Stripe, GoFundMe, and others to facilitate donations."
+        },
+        {
+          "q": "How long does non-profit website development take?",
+          "a": "Non-profit websites typically take 6-12 weeks depending on features like donation systems, volunteer management, and content volume."
+        },
+        {
+          "q": "Will the donation system be secure?",
+          "a": "Absolutely! We implement secure payment processing with SSL encryption and PCI compliance to protect donor information."
+        },
+        {
+          "q": "Can I track donations and volunteers?",
+          "a": "Yes! We can integrate analytics and reporting tools to track donations, volunteer sign-ups, and engagement metrics."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "job-portal-websites": {
+    "hero": {
+      "heading": "Job Portal Websites",
+      "subheading": "Feature-rich job board platforms that connect employers with candidates efficiently."
+    },
+    "form": {
+      "heading": "Need a job portal website?",
+      "content": "Build a powerful job board that connects employers with qualified candidates efficiently.",
+      "subContent": "Get expert consultation on job portal architecture and features.",
+      "cta": "Let's build a job portal that transforms recruitment.",
+      "formHeading": "Get a Free Job Portal Website Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Job Portals That Connect People With Opportunities",
+      "text1": "Job portal websites need robust search functionality, user accounts, and seamless application flows. Performance and usability are critical for both job seekers and employers.",
+      "text2": "We build job portal websites with advanced search, resume uploads, employer dashboards, and application tracking. Our platforms are fast, scalable, and user-friendly.",
+      "text3": "From general job boards to industry-specific portals, we create platforms that help employers find great talent and job seekers find perfect opportunities.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Job Portal Websites"
+    },
+    "services": "Job Portal Websites",
+    "process": {
+      "steps": [
+        "Platform Architecture Design",
+        "Job Seeker Features",
+        "Employer Dashboard Setup",
+        "Application & Matching System",
+        "Launch & Optimization"
+      ],
+      "content": [
+        "We design a scalable job portal architecture that handles high traffic, multiple user types, and complex search functionality.",
+        "We build job seeker features including profile creation, resume uploads, job search, saved jobs, and application tracking.",
+        "We create employer dashboards for posting jobs, reviewing applications, managing candidates, and tracking recruitment metrics.",
+        "We implement application systems with resume parsing, candidate matching, email notifications, and interview scheduling.",
+        "We launch your platform, provide training, monitor performance, and optimize for user engagement and conversions."
+      ]
+    },
+    "faq": {
+      "serviceName": "Job Portal Websites",
+      "faqs": [
+        {
+          "q": "What features should a job portal have?",
+          "a": "Essential features include job search, advanced filters, user profiles, resume uploads, employer dashboards, application tracking, email notifications, and candidate matching."
+        },
+        {
+          "q": "How long does job portal development take?",
+          "a": "Job portal development typically takes 12-24 weeks depending on features, complexity, and integrations with third-party services like email and payment systems."
+        },
+        {
+          "q": "Can candidates apply with one click?",
+          "a": "Yes! We can implement one-click apply features where candidates can quickly apply to jobs using their saved resume and profile."
+        },
+        {
+          "q": "Can employers post jobs independently?",
+          "a": "Absolutely! We create self-service employer dashboards where companies can post, edit, and manage jobs independently."
+        },
+        {
+          "q": "Is the job portal mobile-friendly?",
+          "a": "Yes! Mobile is critical for job portals. We ensure your platform works perfectly on phones and tablets so candidates can apply on-the-go."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "directory-listing-websites": {
+    "hero": {
+      "heading": "Directory Listing Websites",
+      "subheading": "Comprehensive directory platforms that make it easy for users to find businesses and services."
+    },
+    "form": {
+      "heading": "Need a directory website?",
+      "content": "Build a comprehensive directory that helps users find businesses and services easily.",
+      "subContent": "Get expert consultation on directory architecture and user experience.",
+      "cta": "Let's build a directory that becomes the go-to resource.",
+      "formHeading": "Get a Free Directory Website Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Directory Sites That Help People Find What They Need",
+      "text1": "Directory listing websites aggregate businesses, services, or resources in an organized, searchable format. User experience and comprehensive search are essential.",
+      "text2": "We build directory websites with category organization, advanced filters, business profiles, and review systems. Our platforms are intuitive and help users find exactly what they're looking for.",
+      "text3": "From local business directories to service marketplace sites, we create platforms that connect users with the businesses and resources they need.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Directory Listing Websites"
+    },
+    "services": "Directory Listing Websites",
+    "process": {
+      "steps": [
+        "Directory Structure Planning",
+        "Search & Filter Development",
+        "Business Profile System",
+        "Review & Rating Integration",
+        "Launch & Growth Strategy"
+      ],
+      "content": [
+        "We plan your directory structure, categories, taxonomy, and organization to ensure intuitive navigation.",
+        "We develop powerful search functionality, advanced filters, location-based search, and autocomplete features.",
+        "We create comprehensive business profile pages with contact info, hours, descriptions, photos, and map integration.",
+        "We integrate review and rating systems, verification badges, and moderation tools to maintain quality listings.",
+        "We launch your directory, provide training, and help develop strategies to attract both users and listings."
+      ]
+    },
+    "faq": {
+      "serviceName": "Directory Listing Websites",
+      "faqs": [
+        {
+          "q": "What features should a directory website have?",
+          "a": "Essential features include advanced search, category organization, filter options, business profiles, reviews, maps, contact information, and mobile responsiveness."
+        },
+        {
+          "q": "Can businesses claim and update their listings?",
+          "a": "Yes! We create business claim functionality so owners can verify, claim, and update their directory listings independently."
+        },
+        {
+          "q": "How long does directory website development take?",
+          "a": "Directory development typically takes 10-20 weeks depending on features like search complexity, review systems, and payment integration."
+        },
+        {
+          "q": "Can you integrate with Google Maps?",
+          "a": "Absolutely! We integrate Google Maps and other mapping services to provide location-based search and directions."
+        },
+        {
+          "q": "How do you prevent spam listings?",
+          "a": "We implement verification systems, moderation tools, user reporting features, and anti-spam measures to maintain directory quality."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "multi-vendor-marketplace-websites": {
+    "hero": {
+      "heading": "Multi-Vendor Marketplace Websites",
+      "subheading": "Powerful marketplace platforms where multiple sellers can list and sell products independently."
+    },
+    "form": {
+      "heading": "Need a multi-vendor marketplace?",
+      "content": "Build a powerful marketplace platform that enables multiple sellers to thrive independently.",
+      "subContent": "Get expert consultation on marketplace architecture and scaling.",
+      "cta": "Let's build a marketplace that connects buyers and sellers.",
+      "formHeading": "Get a Free Marketplace Website Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Marketplaces That Enable Multiple Sellers",
+      "text1": "Multi-vendor marketplaces like Amazon or Etsy require sophisticated architecture to handle multiple sellers, products, transactions, and commissions. Scale and security are paramount.",
+      "text2": "We build multi-vendor platforms with vendor dashboards, commission systems, escrow payments, and product management tools. Our solutions are scalable and secure.",
+      "text3": "From niche marketplaces to large platforms, we create multi-vendor solutions that enable sellers to thrive while providing buyers with excellent shopping experiences.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Multi-Vendor Marketplace Websites"
+    },
+    "services": "Multi-Vendor Marketplace Websites",
+    "process": {
+      "steps": [
+        "Marketplace Architecture Design",
+        "Vendor Dashboard Development",
+        "Commission & Payment System",
+        "Product Management Tools",
+        "Launch & Scaling Support"
+      ],
+      "content": [
+        "We design a scalable marketplace architecture that handles multiple vendors, high traffic, complex transactions, and growth.",
+        "We develop comprehensive vendor dashboards where sellers can list products, manage inventory, track sales, and view analytics.",
+        "We implement secure commission systems, escrow payments, automated payouts, and financial reporting for marketplace operators.",
+        "We build product management tools including bulk uploads, variations, categories, search optimization, and recommendation engines.",
+        "We launch your marketplace, provide vendor training, monitor performance, and offer scaling strategies for growth."
+      ]
+    },
+    "faq": {
+      "serviceName": "Multi-Vendor Marketplace Websites",
+      "faqs": [
+        {
+          "q": "What features should a multi-vendor marketplace have?",
+          "a": "Essential features include vendor dashboards, product management, inventory tracking, commission systems, escrow payments, order management, reviews, and analytics."
+        },
+        {
+          "q": "How do you handle payments and commissions?",
+          "a": "We implement secure payment gateways, escrow systems that hold funds until delivery confirmation, automated commission calculation, and scheduled vendor payouts."
+        },
+        {
+          "q": "How long does marketplace development take?",
+          "a": "Multi-vendor marketplace development typically takes 16-32 weeks depending on complexity, features, payment systems, and integrations required."
+        },
+        {
+          "q": "Can vendors manage their own shops independently?",
+          "a": "Absolutely! We create full vendor dashboards where sellers can manage products, orders, inventory, promotions, and analytics independently."
+        },
+        {
+          "q": "How do you ensure marketplace security?",
+          "a": "We implement SSL encryption, secure payment processing, escrow protection, fraud prevention, vendor verification, and regular security audits."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "website-development",
+        "name": "Website Development",
+        "title": "Website Development",
+        "description": "Modern, responsive, and maintainable websites that convert visitors into customers with lightning-fast performance and exceptional user experience.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "web-app-development",
+        "name": "Web App Development",
+        "title": "Web App Development",
+        "description": "Robust, scalable applications built with modern frameworks and best practices for businesses that need custom functionality beyond a standard website.",
+        "image": "/seo/services/proopr.webp"
+      },
+      {
+        "id": "ecommerce-development",
+        "name": "eCommerce Development",
+        "title": "eCommerce Development",
+        "description": "High-converting storefronts with optimized checkout flows, seamless payment integrations, and powerful inventory management to grow your online sales.",
+        "image": "/seo/services/recovery.webp"
+      },
+      {
+        "id": "landing-page-development",
+        "name": "Landing Page Development",
+        "title": "Landing Page Development",
+        "description": "Pixel-perfect landing pages engineered for speed and conversions, designed to maximize ROI from your advertising campaigns and marketing efforts.",
+        "image": "/seo/services/secu.webp"
+      }
+    ]
+  },
+  "otherServices": {
+    "webdevelopmentServices": [
+      "Website Development",
+      "Web App Development",
+      "eCommerce Development",
+      "Landing Page Development",
+      "Front-End Development",
+      "Back-End Development",
+      "CMS Integration",
+      "Custom Web Development",
+      "UI/UX Design",
+      "Wix website Development",
+      "React js Website Development",
+      "WordPress website Development",
+      "WooCommerce development",
+      "Magento development",
+      "Squarespace Development",
+      "Custom PHP web development",
+      "Next.js Web development",
+      "Angular Web development",
+      "Vue.js Web development",
+      "Speed optimization",
+      "Portfolio websites",
+      "Real estate websites",
+      "Healthcare websites",
+      "Law firm websites",
+      "Education websites",
+      "NGO / non-profit websites",
+      "Job portal websites",
+      "Directory listing websites",
+      "Multi-vendor marketplace websites"
+    ],
+    "slugMapping": {
+      "Website Development": "website-development",
+      "Web App Development": "web-app-development",
+      "eCommerce Development": "ecommerce-development",
+      "Landing Page Development": "landing-page-development",
+      "Front-End Development": "front-end-development",
+      "Back-End Development": "back-end-development",
+      "CMS Integration": "cms-integration",
+      "Custom Web Development": "custom-web-development",
+      "UI/UX Design": "ui-ux-design",
+      "Wix website Development": "wix-website-development",
+      "React js Website Development": "react-js-website-development",
+      "WordPress website Development": "wordpress-website-development",
+      "WooCommerce development": "woocommerce-development",
+      "Magento development": "magento-development",
+      "Squarespace Development": "squarespace-development",
+      "Custom PHP web development": "custom-php-web-development",
+      "Next.js Web development": "next-js-web-development",
+      "Angular Web development": "angular-web-development",
+      "Vue.js Web development": "vue-js-web-development",
+      "Speed optimization": "speed-optimization",
+      "Portfolio websites": "portfolio-websites",
+      "Real estate websites": "real-estate-websites",
+      "Healthcare websites": "healthcare-websites",
+      "Law firm websites": "law-firm-websites",
+      "Education websites": "education-websites",
+      "NGO / non-profit websites": "ngo-non-profit-websites",
+      "Job portal websites": "job-portal-websites",
+      "Directory listing websites": "directory-listing-websites",
+      "Multi-vendor marketplace websites": "multi-vendor-marketplace-websites"
+    },
+    "config": {
+      "title": "Our Other Web Development Services & Solutions",
+      "highlightedText": "Services & Solutions",
+      "columns": 3,
+      "baseUrl": "/web-development/"
+    }
   }
 }
-
-
