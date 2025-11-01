@@ -866,6 +866,39 @@ const Navbar: React.FC = () => {
 																		) {
 																			return `/web-development/${name}`
 																		}
+																		// Map App Development items to app-development routes
+																		if (
+																			activeCategory ===
+																				"Web & App Development" &&
+																			column.title ===
+																				"App Development"
+																		) {
+																			const appSlugMap: Record<
+																				string,
+																				string
+																			> =
+																				{
+																					"app-development":
+																						"app-development",
+																					"android-app-development":
+																						"android-app-development",
+																					"ios-app-development":
+																						"ios-app-development",
+																					"software-development":
+																						"app-development",
+																					"flutter-app-development":
+																						"flutter-development",
+																					"react-native-development":
+																						"react-native-development",
+																				}
+																			if (
+																				appSlugMap[
+																					name
+																				]
+																			) {
+																				return `/app-development/${appSlugMap[name]}`
+																			}
+																		}
 																		const seoSlugs =
 																			new Set(
 																				[
@@ -1305,6 +1338,33 @@ const Navbar: React.FC = () => {
 																														"Web Development"
 																												) {
 																													return `/web-development/${name}`
+																												}
+																												// Map App Development items to Android routes (mobile)
+																												if (
+																													categoryKey ===
+																														"Web & App Development" &&
+																													column.title ===
+																														"App Development"
+																												) {
+																													const appToAndroidSlug: Record<
+																														string,
+																														string
+																													> =
+																														{
+																															"android-app-development":
+																																"android-development",
+																															"flutter-app-development":
+																																"flutter-android",
+																															"react-native-development":
+																																"react-native-android",
+																														}
+																													if (
+																														appToAndroidSlug[
+																															name
+																														]
+																													) {
+																														return `/android-development/${appToAndroidSlug[name]}`
+																													}
 																												}
 																												if (
 																													paidAdsSlugs.has(

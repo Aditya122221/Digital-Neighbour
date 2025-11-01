@@ -33,21 +33,27 @@ export default function WebDevHero({ data }: WebDevHeroProps) {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="text-center space-y-6 max-w-4xl mx-auto"
+            className="w-full"
           >
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white leading-tight font-cal-sans">
-              {data.heading}
-            </h1>
-            <p className="text-base md:text-lg lg:text-xl text-white/90 leading-relaxed">
-              {data.subheading}
-            </p>
-            <CustomButton
-              text="Talk to our WEB DEVELOPMENT expert"
-              href="#contact"
-              textColor="black"
-              borderColor="black"
-              className="mt-6"
-            />
+            <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start justify-between gap-6">
+              <div className="text-left space-y-6 max-w-3xl">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white leading-tight font-cal-sans">
+                  {data.heading}
+                </h1>
+                <p className="text-base md:text-lg lg:text-xl text-white/90 leading-relaxed">
+                  {data.subheading}
+                </p>
+              </div>
+              <div className="w-full md:w-auto md:self-center">
+                <CustomButton
+                  text="Talk to our WEB DEVELOPMENT expert"
+                  href="#contact"
+                  textColor="black"
+                  borderColor="black"
+                  className="mt-6 md:mt-0"
+                />
+              </div>
+            </div>
           </motion.div>
         </div>
       </div>

@@ -8,7 +8,12 @@ export default function Industries() {
       <div className="container mx-auto px-5">
         <div className="w-full lg:w-2/3 mx-auto text-center">
           <h2 className="font-bold mb-8 text-4xl md:text-5xl lg:text-6xl">
-            Industry-Specific Web Development Diversity
+            Industry-Specific{" "}
+            <span className="relative inline-block">
+              <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
+              <span className="relative z-10 italic">Web Development</span>
+            </span>{" "}
+            Diversity
           </h2>
           <p className="rfs:text-xl font-light mb-4">
             We have extensive experience in working with clients from a

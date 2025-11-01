@@ -1,0 +1,520 @@
+{
+  "app-development": {
+    "hero": {
+      "heading": "Mobile App Development Services",
+      "subheading": "Design, build, and scale high-performance mobile apps for iOS, Android, and cross-platform platforms that engage users and drive business growth."
+    },
+    "form": {
+      "heading": "Ready to build your mobile app?",
+      "content": "From concept to launch, we create mobile experiences that users love and businesses rely on.",
+      "subContent": "Get expert consultation on mobile app strategy, platform selection, and development approach.",
+      "cta": "Let's discuss your vision and create a mobile app that exceeds your expectations.",
+      "formHeading": "Get a Free Mobile App Consultation and Custom Proposal",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Building Mobile Apps That Make a Difference",
+      "text1": "In today's mobile-first world, your customers expect seamless mobile experiences. Whether they're shopping, booking services, or managing their business—your mobile app is their gateway to your brand.",
+      "text2": "Our mobile app development services combine cutting-edge technology with user-centric design to create apps that not only look stunning but deliver exceptional performance and measurable business results.",
+      "text3": "From native iOS and Android apps to cross-platform solutions, we build mobile applications tailored to your business needs. We leverage the latest frameworks, cloud infrastructure, and best practices to create apps that scale with your growth and engage your users.",
+      "image": "local-seo.jpg",
+      "alt": "Mobile App Development Services"
+    },
+    "services": "App Development",
+    "serviceCards": [
+      {
+        "id": "ios-app-development",
+        "name": "iOS App Development",
+        "title": "iOS App Development",
+        "description": "Premium native iOS apps built with Swift and SwiftUI, delivering exceptional performance and seamless Apple ecosystem integration.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "android-app-development",
+        "name": "Android App Development",
+        "title": "Android App Development",
+        "description": "High-performance Android apps built with Kotlin and modern frameworks, optimized for the world's largest mobile platform.",
+        "image": "/seo/services/on-page.webp"
+      },
+      {
+        "id": "react-native-development",
+        "name": "React Native Development",
+        "title": "React Native Development",
+        "description": "Cross-platform apps with shared codebase, delivering native performance on both iOS and Android.",
+        "image": "/seo/services/off-page.webp"
+      },
+      {
+        "id": "flutter-development",
+        "name": "Flutter Development",
+        "title": "Flutter Development",
+        "description": "Beautiful, pixel-perfect cross-platform apps with hot reload and exceptional performance across all devices.",
+        "image": "/seo/services/technical.webp"
+      }
+    ],
+    "process": {
+      "steps": [
+        "Discovery & Strategy",
+        "Design & Prototyping",
+        "Development & Implementation",
+        "Testing & Quality Assurance",
+        "Launch & Maintenance"
+      ],
+      "content": [
+        "We start by understanding your business goals, target audience, and app requirements. Our team conducts market research, competitor analysis, and technical feasibility studies to create a comprehensive app strategy.",
+        "Before development begins, we create detailed wireframes, user flows, and interactive prototypes. This phase ensures we're building the right features and allows for early user feedback and iteration.",
+        "Our skilled developers build your app using the best technologies and frameworks. We prioritize performance, security, and scalability while ensuring your app works flawlessly across all target devices.",
+        "We rigorously test every feature, integration, and user scenario. Our QA process includes functional testing, performance testing, security audits, and device compatibility checks.",
+        "We handle app store submissions and approvals, then monitor performance and gather user feedback. Our ongoing maintenance ensures your app stays updated and bug-free."
+      ]
+    },
+    "faq": {
+      "serviceName": "App Development",
+      "faqs": [
+        {
+          "q": "How long does it take to build a mobile app?",
+          "a": "Timeline varies based on complexity. A simple MVP typically takes 8-12 weeks, while a full-featured app can take 16-24 weeks. We'll provide a detailed timeline after understanding your requirements."
+        },
+        {
+          "q": "Should I build native or cross-platform?",
+          "a": "It depends on your goals. Native apps offer the best performance and platform-specific features. Cross-platform is faster and more cost-effective. We'll recommend the best approach for your needs."
+        },
+        {
+          "q": "Do you handle app store submissions?",
+          "a": "Yes, we handle the entire app store submission process for both iOS and Android, including preparing assets, compliance checks, and managing the approval process."
+        },
+        {
+          "q": "What about ongoing maintenance and updates?",
+          "a": "We offer comprehensive maintenance packages that include bug fixes, security updates, feature enhancements, and platform compatibility updates as iOS and Android evolve."
+        },
+        {
+          "q": "Can you help with app analytics and performance optimization?",
+          "a": "Absolutely! We integrate analytics from day one and provide insights on user behavior, performance metrics, and conversion funnels to help you optimize your app."
+        }
+      ]
+    }
+  },
+  "ios-app-development": {
+    "hero": {
+      "heading": "iOS App Development",
+      "subheading": "Premium native iOS apps built with Swift and SwiftUI, delivering exceptional performance and seamless Apple ecosystem integration."
+    },
+    "form": {
+      "heading": "Ready to build your iOS app?",
+      "content": "From App Store launch to enterprise apps, we create iOS experiences that leverage the full power of Apple's ecosystem.",
+      "subContent": "Get expert consultation on iOS development strategy, Swift vs SwiftUI, and App Store optimization.",
+      "cta": "Let's discuss your iOS app vision and create a solution that wows your users.",
+      "formHeading": "Get a Free iOS App Consultation and Custom Proposal",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "iOS Apps That Set the Standard",
+      "text1": "iOS apps are synonymous with quality, security, and user experience. When you're building for iOS, you're reaching customers who value premium experiences and are willing to pay for quality.",
+      "text2": "Our iOS development leverages the latest Swift, SwiftUI, and iOS frameworks to create apps that feel native, perform exceptionally, and integrate seamlessly with Apple's ecosystem.",
+      "text3": "Whether you're launching on the App Store or building an enterprise solution, we ensure your iOS app meets Apple's high standards while delivering the features and performance your users expect.",
+      "image": "local-seo.jpg",
+      "alt": "iOS App Development Services"
+    },
+    "services": "iOS App Development",
+    "serviceCards": [
+      {
+        "id": "swift-development",
+        "name": "Swift Development",
+        "title": "Swift Development",
+        "description": "Native iOS apps built with Swift, leveraging modern language features for exceptional performance and maintainability.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "swiftui-development",
+        "name": "SwiftUI Development",
+        "title": "SwiftUI Development",
+        "description": "Modern iOS apps with SwiftUI's declarative framework, creating intuitive interfaces with less code and faster development.",
+        "image": "/seo/services/on-page.webp"
+      },
+      {
+        "id": "app-store-optimization",
+        "name": "App Store Optimization",
+        "title": "App Store Optimization",
+        "description": "Maximize your iOS app's visibility with ASO strategies that improve rankings and drive organic downloads.",
+        "image": "/seo/services/off-page.webp"
+      },
+      {
+        "id": "ios-enterprise-apps",
+        "name": "Enterprise iOS Apps",
+        "title": "Enterprise iOS Apps",
+        "description": "Secure, scalable enterprise iOS solutions with MDM integration and advanced security features.",
+        "image": "/seo/services/technical.webp"
+      }
+    ]
+  },
+  "android-app-development": {
+    "hero": {
+      "heading": "Android App Development",
+      "subheading": "High-performance Android apps built with Kotlin and modern frameworks, optimized for the world's largest mobile platform."
+    },
+    "form": {
+      "heading": "Ready to build your Android app?",
+      "content": "From Play Store launch to custom Android solutions, we create apps that reach millions of users on the world's largest mobile platform.",
+      "subContent": "Get expert consultation on Android development strategy, Kotlin best practices, and Play Store optimization.",
+      "cta": "Let's discuss your Android app vision and reach millions of users worldwide.",
+      "formHeading": "Get a Free Android App Consultation and Custom Proposal",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Android Apps Built for Scale",
+      "text1": "Android reaches more than 2.5 billion active users globally across thousands of devices. Building for Android means reaching the world's largest mobile audience.",
+      "text2": "Our Android development leverages Kotlin, Jetpack Compose, and modern Android frameworks to create apps that perform brilliantly across all device types and form factors.",
+      "text3": "From flagship phones to tablets and foldables, we ensure your Android app delivers exceptional experiences regardless of the device. Plus, we optimize for Play Store visibility and monetization.",
+      "image": "local-seo.jpg",
+      "alt": "Android App Development Services"
+    },
+    "services": "Android App Development",
+    "serviceCards": [
+      {
+        "id": "kotlin-development",
+        "name": "Kotlin Development",
+        "title": "Kotlin Development",
+        "description": "Modern Android apps built with Kotlin, Google's preferred language for Android development, ensuring robust and maintainable code.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "jetpack-compose",
+        "name": "Jetpack Compose",
+        "title": "Jetpack Compose Development",
+        "description": "Beautiful Android UIs built with Jetpack Compose, Google's modern toolkit for native Android development.",
+        "image": "/seo/services/on-page.webp"
+      },
+      {
+        "id": "play-store-optimization",
+        "name": "Play Store Optimization",
+        "title": "Play Store Optimization",
+        "description": "Optimize your Android app for Google Play Store with ASO strategies that increase visibility and downloads.",
+        "image": "/seo/services/off-page.webp"
+      },
+      {
+        "id": "android-enterprise-apps",
+        "name": "Enterprise Android Apps",
+        "title": "Enterprise Android Apps",
+        "description": "Secure enterprise Android solutions with device management, security policies, and enterprise integration.",
+        "image": "/seo/services/technical.webp"
+      }
+    ]
+  },
+  "react-native-development": {
+    "hero": {
+      "heading": "React Native App Development",
+      "subheading": "Cross-platform apps with shared codebase, delivering native performance on both iOS and Android."
+    },
+    "form": {
+      "heading": "Ready to build with React Native?",
+      "content": "Launch faster with a single codebase that powers both iOS and Android apps, reducing time to market and development costs.",
+      "subContent": "Get expert consultation on React Native architecture, performance optimization, and native module integration.",
+      "cta": "Let's discuss your cross-platform app strategy and accelerate your time to market.",
+      "formHeading": "Get a Free React Native Consultation and Custom Proposal",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "One Codebase, Two Platforms, Maximum Efficiency",
+      "text1": "React Native lets you build iOS and Android apps from a single JavaScript codebase, dramatically reducing development time and cost while maintaining near-native performance.",
+      "text2": "We leverage React Native's powerful ecosystem and our deep expertise in mobile development to create apps that look and feel native on both platforms.",
+      "text3": "Whether you're building an MVP or a full-featured production app, React Native helps you launch faster and iterate quicker—perfect for startups and established businesses alike.",
+      "image": "local-seo.jpg",
+      "alt": "React Native Development Services"
+    },
+    "services": "React Native Development",
+    "serviceCards": [
+      {
+        "id": "react-native-consulting",
+        "name": "React Native Consulting",
+        "title": "React Native Consulting",
+        "description": "Expert consultation on React Native architecture, performance optimization, and best practices for cross-platform success.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "native-module-integration",
+        "name": "Native Module Integration",
+        "title": "Native Module Integration",
+        "description": "Seamlessly integrate native iOS and Android modules into your React Native app for platform-specific features.",
+        "image": "/seo/services/on-page.webp"
+      },
+      {
+        "id": "react-native-performance",
+        "name": "Performance Optimization",
+        "title": "React Native Performance Optimization",
+        "description": "Optimize your React Native app's performance with code splitting, bundle optimization, and native performance enhancements.",
+        "image": "/seo/services/off-page.webp"
+      },
+      {
+        "id": "react-native-maintenance",
+        "name": "React Native Maintenance",
+        "title": "React Native Maintenance & Support",
+        "description": "Ongoing maintenance, updates, and support to keep your React Native app running smoothly across both platforms.",
+        "image": "/seo/services/technical.webp"
+      }
+    ]
+  },
+  "flutter-development": {
+    "hero": {
+      "heading": "Flutter App Development",
+      "subheading": "Beautiful, pixel-perfect cross-platform apps with hot reload and exceptional performance across all devices."
+    },
+    "form": {
+      "heading": "Ready to build with Flutter?",
+      "content": "Create stunning, high-performance apps with Flutter's expressive UI framework and single codebase architecture.",
+      "subContent": "Get expert consultation on Flutter architecture, performance optimization, and custom animations.",
+      "cta": "Let's discuss your Flutter app vision and create beautiful, performant cross-platform experiences.",
+      "formHeading": "Get a Free Flutter Consultation and Custom Proposal",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Flutter: Beautiful Apps, Exceptional Performance",
+      "text1": "Flutter enables you to build visually stunning apps with a single codebase. Its hot reload feature accelerates development, while its compiled Dart code delivers native performance.",
+      "text2": "We leverage Flutter's expressive UI framework to create apps with custom animations, pixel-perfect designs, and exceptional user experiences across iOS, Android, and beyond.",
+      "text3": "From startups to enterprise solutions, Flutter helps you deliver premium mobile experiences quickly and efficiently. Plus, it's backed by Google with a rapidly growing ecosystem.",
+      "image": "local-seo.jpg",
+      "alt": "Flutter Development Services"
+    },
+    "services": "Flutter Development",
+    "serviceCards": [
+      {
+        "id": "flutter-ui-design",
+        "name": "Flutter UI Design",
+        "title": "Flutter UI Design",
+        "description": "Pixel-perfect, beautiful UIs built with Flutter's expressive widget system and Material Design principles.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "flutter-animations",
+        "name": "Custom Animations",
+        "title": "Flutter Custom Animations",
+        "description": "Stunning custom animations and transitions that bring your Flutter app to life with smooth, native-like experiences.",
+        "image": "/seo/services/on-page.webp"
+      },
+      {
+        "id": "flutter-performance",
+        "name": "Performance Optimization",
+        "title": "Flutter Performance Optimization",
+        "description": "Optimize your Flutter app's performance with efficient state management, code splitting, and rendering optimization.",
+        "image": "/seo/services/off-page.webp"
+      },
+      {
+        "id": "flutter-multi-platform",
+        "name": "Multi-Platform Flutter",
+        "title": "Multi-Platform Flutter Apps",
+        "description": "Extend your Flutter app to web, desktop, and embedded devices for true cross-platform reach.",
+        "image": "/seo/services/technical.webp"
+      }
+    ]
+  },
+  "software-development": {
+    "hero": {
+      "heading": "Software Development Services",
+      "subheading": "Custom software solutions built to scale, from desktop applications to enterprise systems that drive business growth."
+    },
+    "form": {
+      "heading": "Ready to build custom software?",
+      "content": "From desktop applications to enterprise systems, we create software solutions that streamline operations and drive efficiency.",
+      "subContent": "Get expert consultation on software architecture, technology stack, and development approach.",
+      "cta": "Let's discuss your software needs and create a solution that transforms your business operations.",
+      "formHeading": "Get a Free Software Development Consultation and Custom Proposal",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Custom Software That Powers Your Business",
+      "text1": "Every business has unique challenges that off-the-shelf software can't solve. Custom software development allows you to build solutions tailored precisely to your workflows, processes, and business needs.",
+      "text2": "Our software development services combine modern technologies with proven architecture patterns to create robust, scalable applications. Whether you need desktop applications, enterprise systems, or specialized tools—we build software that integrates seamlessly with your existing infrastructure.",
+      "text3": "From initial concept to deployment and maintenance, we handle every aspect of software development. We use agile methodologies, best coding practices, and comprehensive testing to ensure your software is reliable, maintainable, and future-proof.",
+      "image": "local-seo.jpg",
+      "alt": "Software Development Services"
+    },
+    "services": "Software Development",
+    "serviceCards": [
+      {
+        "id": "desktop-applications",
+        "name": "Desktop Applications",
+        "title": "Desktop Application Development",
+        "description": "Custom desktop applications for Windows, macOS, and Linux that streamline business operations and enhance productivity.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "enterprise-systems",
+        "name": "Enterprise Systems",
+        "title": "Enterprise Software Systems",
+        "description": "Scalable enterprise software solutions that integrate with existing infrastructure and support business growth.",
+        "image": "/seo/services/on-page.webp"
+      },
+      {
+        "id": "api-development",
+        "name": "API Development",
+        "title": "Custom API Development",
+        "description": "RESTful and GraphQL APIs that enable seamless integration between systems and power modern applications.",
+        "image": "/seo/services/off-page.webp"
+      },
+      {
+        "id": "cloud-software",
+        "name": "Cloud Software",
+        "title": "Cloud-Based Software Solutions",
+        "description": "Scalable cloud software built on AWS, Azure, and Google Cloud that grows with your business needs.",
+        "image": "/seo/services/technical.webp"
+      }
+    ],
+    "process": {
+      "steps": [
+        "Requirements Analysis",
+        "Architecture & Design",
+        "Development & Implementation",
+        "Testing & Quality Assurance",
+        "Deployment & Maintenance"
+      ],
+      "content": [
+        "We start by thoroughly understanding your business requirements, existing systems, and technical constraints. Our team conducts stakeholder interviews, workflow analysis, and technical feasibility studies to create a comprehensive development plan.",
+        "Before coding begins, we design the software architecture, database structure, and system integrations. This phase ensures scalability, security, and maintainability while aligning with your business goals.",
+        "Our experienced developers write clean, maintainable code using industry best practices and modern frameworks. We follow agile methodologies with regular sprints and continuous integration to deliver incremental value.",
+        "We conduct comprehensive testing including unit tests, integration tests, performance testing, and security audits. Our QA process ensures your software is bug-free, secure, and performs as expected.",
+        "We handle deployment, provide comprehensive documentation, and offer ongoing maintenance and support. Our team ensures smooth transitions and continues to optimize your software as your business evolves."
+      ]
+    },
+    "faq": {
+      "serviceName": "Software Development",
+      "faqs": [
+        {
+          "q": "How long does custom software development take?",
+          "a": "Timeline varies significantly based on complexity. A simple application might take 8-12 weeks, while enterprise systems can take 6-12 months. We provide detailed estimates after understanding your requirements."
+        },
+        {
+          "q": "What technologies do you use for software development?",
+          "a": "We use a wide range of modern technologies including Python, Java, .NET, Node.js, React, and cloud platforms like AWS and Azure. We choose the best stack based on your specific requirements and scalability needs."
+        },
+        {
+          "q": "Can you integrate with our existing systems?",
+          "a": "Absolutely! We specialize in system integration and can connect your new software with existing databases, APIs, third-party services, and legacy systems through secure, well-documented interfaces."
+        },
+        {
+          "q": "Do you provide ongoing maintenance and support?",
+          "a": "Yes, we offer comprehensive maintenance packages including bug fixes, security updates, feature enhancements, and technical support. We're committed to keeping your software running smoothly and up-to-date."
+        },
+        {
+          "q": "What about scalability and future growth?",
+          "a": "We design all software with scalability in mind from the start. Our architecture choices, database design, and infrastructure recommendations ensure your software can grow with your business without requiring major rewrites."
+        }
+      ]
+    }
+  },
+  "progressive-web-apps": {
+    "hero": {
+      "heading": "Progressive Web Apps (PWA) Development",
+      "subheading": "Fast, reliable web apps that work offline, feel native, and engage users like never before—all without app store downloads."
+    },
+    "form": {
+      "heading": "Ready to build a Progressive Web App?",
+      "content": "Combine the best of web and mobile apps with PWAs that install on devices, work offline, and deliver native-like experiences.",
+      "subContent": "Get expert consultation on PWA strategy, offline functionality, and push notification implementation.",
+      "cta": "Let's discuss your PWA vision and create an app-like experience that users can access instantly.",
+      "formHeading": "Get a Free PWA Consultation and Custom Proposal",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Web Apps That Feel Like Native Apps",
+      "text1": "Progressive Web Apps combine the best of both worlds: the reach and accessibility of web apps with the performance and user experience of native mobile apps. No app store approvals, instant access, and works across all platforms.",
+      "text2": "PWAs load instantly, work offline, can be installed on users' devices, and send push notifications—just like native apps. But they're built with web technologies, so they're easier to maintain, update, and deploy across platforms.",
+      "text3": "Whether you're looking to replace a native app, enhance your website with app-like features, or reach users who don't want to download apps—PWAs provide a powerful solution. They're particularly effective for businesses that want to reduce development costs while maintaining excellent user experiences.",
+      "image": "local-seo.jpg",
+      "alt": "Progressive Web Apps Development Services"
+    },
+    "services": "Progressive Web Apps",
+    "serviceCards": [
+      {
+        "id": "pwa-strategy",
+        "name": "PWA Strategy",
+        "title": "PWA Strategy & Planning",
+        "description": "Comprehensive PWA strategy development to determine offline features, push notification needs, and app-like experiences.",
+        "image": "/seo/services/seo.webp"
+      },
+      {
+        "id": "offline-functionality",
+        "name": "Offline Functionality",
+        "title": "Offline Functionality Development",
+        "description": "Implement robust offline capabilities with intelligent caching strategies and background sync for seamless user experiences.",
+        "image": "/seo/services/on-page.webp"
+      },
+      {
+        "id": "push-notifications",
+        "name": "Push Notifications",
+        "title": "PWA Push Notifications",
+        "description": "Engage users with push notifications that work across desktop and mobile, even when your PWA isn't open.",
+        "image": "/seo/services/off-page.webp"
+      },
+      {
+        "id": "pwa-optimization",
+        "name": "PWA Optimization",
+        "title": "PWA Performance Optimization",
+        "description": "Optimize your PWA for speed, installability, and performance metrics to deliver native-like experiences.",
+        "image": "/seo/services/technical.webp"
+      }
+    ],
+    "process": {
+      "steps": [
+        "Strategy & Planning",
+        "Service Worker Development",
+        "App Shell Implementation",
+        "Offline Functionality",
+        "Testing & Optimization"
+      ],
+      "content": [
+        "We start by analyzing your requirements and defining the PWA strategy. We identify which features benefit from offline capabilities, push notifications, and app-like experiences to create a roadmap for your PWA.",
+        "Service workers are the heart of PWAs, enabling offline functionality, background sync, and push notifications. We develop robust service workers that cache resources intelligently and update seamlessly.",
+        "We implement the app shell architecture, creating a fast-loading skeleton that provides instant user feedback. This ensures your PWA feels responsive and native-like from the first interaction.",
+        "We design and implement offline functionality, ensuring critical features work without internet connectivity. This includes intelligent caching strategies, offline data storage, and sync mechanisms for when connectivity returns.",
+        "We test across all major browsers and devices, optimize performance metrics, and ensure your PWA meets all requirements for installability and performance. We also handle manifest configuration and app store submission if needed."
+      ]
+    },
+    "faq": {
+      "serviceName": "Progressive Web Apps",
+      "faqs": [
+        {
+          "q": "What are the benefits of PWAs over native apps?",
+          "a": "PWAs offer several advantages: no app store approval process, instant updates, smaller size, works across all platforms with one codebase, and can be accessed directly from a browser. They're ideal when you want to reach users quickly without platform-specific development."
+        },
+        {
+          "q": "Can PWAs work offline?",
+          "a": "Yes! One of the key features of PWAs is offline functionality. We use service workers to cache content and data, allowing your app to function even without internet connectivity. Users can browse, interact, and perform key actions offline, with data syncing when connectivity returns."
+        },
+        {
+          "q": "Can users install PWAs on their devices?",
+          "a": "Absolutely! PWAs can be installed on users' home screens on both mobile and desktop devices. The installation is seamless—users just click an install prompt, and your PWA appears like a native app with its own icon and window."
+        },
+        {
+          "q": "Do PWAs support push notifications?",
+          "a": "Yes, PWAs can send push notifications on both desktop and mobile devices, even when the app isn't open. This allows you to re-engage users with updates, reminders, or personalized content, just like native apps."
+        },
+        {
+          "q": "Which browsers support PWAs?",
+          "a": "PWAs are supported by all modern browsers including Chrome, Edge, Firefox, Safari (iOS 11.3+), and Samsung Internet. We ensure your PWA works across all major browsers and gracefully degrades on older versions."
+        }
+      ]
+    }
+  },
+  "otherServices": {
+    "appDevelopmentServices": [
+      "Android App Development",
+      "IOS App Development",
+      "Software Development",
+      "Flutter App Development",
+      "React Native Development",
+      "Progressive Web Apps (PWA)"
+    ],
+    "slugMapping": {
+      "Android App Development": "android-app-development",
+      "IOS App Development": "ios-app-development",
+      "Software Development": "software-development",
+      "Flutter App Development": "flutter-development",
+      "React Native Development": "react-native-development",
+      "Progressive Web Apps (PWA)": "progressive-web-apps"
+    },
+    "config": {
+      "title": "Other Services",
+      "highlightedText": "App Development",
+      "columns": 3,
+      "baseUrl": "/app-development/"
+    }
+  }
+}
