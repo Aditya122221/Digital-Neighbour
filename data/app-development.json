@@ -53,42 +53,113 @@
     ],
     "process": {
       "steps": [
-        "Discovery & Strategy",
-        "Design & Prototyping",
-        "Development & Implementation",
-        "Testing & Quality Assurance",
-        "Launch & Maintenance"
+        "Mobile App Discovery & Strategy",
+        "Platform Selection & Design",
+        "Mobile Development & Implementation",
+        "Mobile Testing & QA",
+        "App Store Launch & Growth"
       ],
       "content": [
-        "We start by understanding your business goals, target audience, and app requirements. Our team conducts market research, competitor analysis, and technical feasibility studies to create a comprehensive app strategy.",
-        "Before development begins, we create detailed wireframes, user flows, and interactive prototypes. This phase ensures we're building the right features and allows for early user feedback and iteration.",
-        "Our skilled developers build your app using the best technologies and frameworks. We prioritize performance, security, and scalability while ensuring your app works flawlessly across all target devices.",
-        "We rigorously test every feature, integration, and user scenario. Our QA process includes functional testing, performance testing, security audits, and device compatibility checks.",
-        "We handle app store submissions and approvals, then monitor performance and gather user feedback. Our ongoing maintenance ensures your app stays updated and bug-free."
+        "We start by understanding your business goals, target audience, and mobile app vision. Our team conducts market research, competitor analysis, and technical feasibility studies to determine whether native iOS, native Android, or cross-platform solutions best serve your needs.",
+        "We help you choose the right platform (iOS, Android, or both) and create detailed wireframes, user flows, and interactive prototypes. This phase ensures we're building the right mobile features and allows for early user feedback and iteration across your target platforms.",
+        "Our skilled mobile developers build your app using the best mobile technologies—Swift/SwiftUI for iOS, Kotlin/Jetpack for Android, or React Native/Flutter for cross-platform. We prioritize mobile performance, battery efficiency, security, and ensure your app works flawlessly across target devices.",
+        "We rigorously test every mobile feature, integration, and user scenario on real devices. Our mobile QA process includes functional testing, performance testing on various device types, security audits, and compatibility checks across different screen sizes and OS versions.",
+        "We handle app store submissions and approvals for iOS App Store and/or Google Play Store, then monitor performance metrics and gather user feedback. Our ongoing mobile maintenance ensures your app stays updated, bug-free, and optimized as platforms evolve."
       ]
     },
     "faq": {
-      "serviceName": "App Development",
+      "serviceName": "Mobile App Development",
       "faqs": [
         {
           "q": "How long does it take to build a mobile app?",
-          "a": "Timeline varies based on complexity. A simple MVP typically takes 8-12 weeks, while a full-featured app can take 16-24 weeks. We'll provide a detailed timeline after understanding your requirements."
+          "a": "Mobile app development timelines vary based on complexity and platform choice. A simple MVP typically takes 8-12 weeks, while a full-featured native or cross-platform mobile app can take 16-24 weeks. We'll provide a detailed timeline after understanding your mobile app requirements and target platforms."
         },
         {
-          "q": "Should I build native or cross-platform?",
-          "a": "It depends on your goals. Native apps offer the best performance and platform-specific features. Cross-platform is faster and more cost-effective. We'll recommend the best approach for your needs."
+          "q": "Should I build native iOS, native Android, or cross-platform mobile apps?",
+          "a": "It depends on your mobile app goals, budget, and target audience. Native apps offer the best performance and platform-specific features but require separate development. Cross-platform (React Native/Flutter) is faster and more cost-effective for reaching both iOS and Android users. We'll recommend the best mobile app approach for your needs."
         },
         {
-          "q": "Do you handle app store submissions?",
-          "a": "Yes, we handle the entire app store submission process for both iOS and Android, including preparing assets, compliance checks, and managing the approval process."
+          "q": "Do you handle mobile app store submissions for iOS and Android?",
+          "a": "Yes, we handle the entire mobile app store submission process for both iOS App Store and Google Play Store, including preparing assets, compliance checks, store listing optimization, and managing the approval process. We ensure your mobile app meets all guidelines."
         },
         {
-          "q": "What about ongoing maintenance and updates?",
-          "a": "We offer comprehensive maintenance packages that include bug fixes, security updates, feature enhancements, and platform compatibility updates as iOS and Android evolve."
+          "q": "What about ongoing mobile app maintenance and updates?",
+          "a": "We offer comprehensive mobile app maintenance packages that include bug fixes, security updates, feature enhancements, platform compatibility updates as iOS and Android evolve, and performance optimization to keep your mobile app running smoothly."
         },
         {
-          "q": "Can you help with app analytics and performance optimization?",
-          "a": "Absolutely! We integrate analytics from day one and provide insights on user behavior, performance metrics, and conversion funnels to help you optimize your app."
+          "q": "Can you help with mobile app analytics and performance optimization?",
+          "a": "Absolutely! We integrate mobile analytics from day one and provide insights on user behavior, mobile performance metrics, battery usage, crash reports, and conversion funnels to help you optimize your mobile app's engagement and retention."
+        }
+      ]
+    },
+    "certificates": {
+      "heading": "Compliances & Certifications We Adhere to for Secure App Development",
+      "description": "For enterprises, complying with essential industry regulations is a dire necessity to protect brand reputation and avert legal repercussions. Therefore, we at Appinventiv embed a compliance-first approach into every stage of development.",
+      "categories": [
+        {
+          "number": "01",
+          "title": "Data Protection & Privacy Regulations",
+          "items": [
+            { "name": "GDPR" },
+            { "name": "CCPA" },
+            { "name": "FTC" },
+            { "name": "HIPAA" },
+            { "name": "PIPEDA" },
+            { "name": "ISO/IEC 27001" },
+            { "name": "DPDP Act, 2023 (Data Protection Bill India)" }
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Payment & Transaction Security",
+          "items": [
+            { "name": "PCI DSS" },
+            { "name": "PCI DSS Level 1" },
+            { "name": "PCI DSS Level 2" },
+            { "name": "Payment Card Industry Data Security Standard" },
+            { "name": "EMVCo" },
+            { "name": "3D Secure" },
+            { "name": "Tokenization Standards" }
+          ]
+        },
+        {
+          "number": "03",
+          "title": "App Development & Security Standards",
+          "items": [
+            { "name": "OWASP Mobile Top 10" },
+            { "name": "OWASP ASVS" },
+            { "name": "ISO/IEC 27001" },
+            { "name": "ISO/IEC 27017" },
+            { "name": "ISO/IEC 27018" },
+            { "name": "SOC 2 Type II" },
+            { "name": "NIST Cybersecurity Framework" }
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Mobile App Store Guidelines",
+          "items": [
+            { "name": "Apple App Store Guidelines" },
+            { "name": "Google Play Store Policies" },
+            { "name": "Apple Human Interface Guidelines" },
+            { "name": "Material Design Guidelines" },
+            { "name": "Firebase App Check" },
+            { "name": "App Transport Security" },
+            { "name": "Google Play Security Policies" }
+          ]
+        },
+        {
+          "number": "05",
+          "title": "Industry Standards & Protocols",
+          "items": [
+            { "name": "ISO 27001" },
+            { "name": "ISO 9001" },
+            { "name": "CMMI Level 5" },
+            { "name": "Agile/Scrum Certification" },
+            { "name": "AWS Well-Architected Framework" },
+            { "name": "Google Cloud Security Framework" },
+            { "name": "Azure Compliance" }
+          ]
         }
       ]
     }
@@ -115,6 +186,22 @@
       "alt": "iOS App Development Services"
     },
     "services": "iOS App Development",
+    "process": {
+      "steps": [
+        "iOS Strategy & Planning",
+        "Swift/SwiftUI Architecture",
+        "iOS Development & Integration",
+        "Apple Ecosystem Integration",
+        "App Store Submission & Launch"
+      ],
+      "content": [
+        "We start by understanding your iOS app vision and business goals. Our team conducts market research, analyzes App Store competition, and defines the optimal iOS strategy leveraging Swift, SwiftUI, or UIKit based on your requirements.",
+        "We architect your iOS app using modern Swift and SwiftUI frameworks. This phase includes designing the app structure, UI components, navigation patterns, and preparing for seamless integration with Apple's ecosystem services like iCloud, Core Data, and Apple Pay.",
+        "Our iOS developers build your app using the latest Swift and SwiftUI technologies. We ensure exceptional performance, smooth animations, and native iOS experiences while integrating with Apple services like HealthKit, ARKit, or other iOS-specific APIs as needed.",
+        "We integrate your iOS app with Apple's ecosystem services including iCloud sync, Apple Sign In, Apple Pay, Core ML, Siri Shortcuts, and WidgetKit. This ensures your app feels native and leverages Apple's powerful platform features.",
+        "We handle the complete App Store submission process including asset preparation, App Store Connect setup, compliance reviews, and managing the approval process. We ensure your iOS app meets all Apple guidelines and launches successfully on the App Store."
+      ]
+    },
     "serviceCards": [
       {
         "id": "swift-development",
@@ -144,7 +231,32 @@
         "description": "Secure, scalable enterprise iOS solutions with MDM integration and advanced security features.",
         "image": "/seo/services/technical.webp"
       }
-    ]
+    ],
+    "faq": {
+      "serviceName": "iOS App Development",
+      "faqs": [
+        {
+          "q": "How long does it take to develop an iOS app?",
+          "a": "iOS app development typically takes 10-16 weeks for an MVP and 20-28 weeks for a full-featured app, depending on complexity. Factors include Swift vs SwiftUI choice, Apple ecosystem integrations, and App Store review timeline. We'll provide detailed iOS-specific timelines."
+        },
+        {
+          "q": "Should I use Swift or SwiftUI for my iOS app?",
+          "a": "SwiftUI is Apple's modern declarative framework, ideal for new iOS apps with faster development and modern UI. Swift with UIKit offers more flexibility for complex existing apps. We'll recommend the best iOS approach based on your app's requirements and target iOS versions."
+        },
+        {
+          "q": "Do you handle App Store submission and Apple's review process?",
+          "a": "Yes, we handle the complete iOS App Store submission process including App Store Connect setup, asset preparation, compliance with Apple guidelines, App Review submission, and managing the approval process. We ensure your iOS app meets all Apple requirements."
+        },
+        {
+          "q": "Can you integrate Apple services like iCloud, Apple Pay, or HealthKit?",
+          "a": "Absolutely! We specialize in integrating Apple's ecosystem services including iCloud sync, Apple Sign In, Apple Pay, HealthKit, ARKit, Core ML, Siri Shortcuts, WidgetKit, and more. These integrations make your iOS app feel native and leverage Apple's powerful platform features."
+        },
+        {
+          "q": "What about iOS app maintenance and iOS version updates?",
+          "a": "We offer ongoing iOS app maintenance including bug fixes, iOS version compatibility updates, new iOS feature integration, security patches, and App Store guideline compliance. We ensure your iOS app stays current with Apple's latest iOS releases and best practices."
+        }
+      ]
+    }
   },
   "android-app-development": {
     "hero": {
@@ -168,6 +280,22 @@
       "alt": "Android App Development Services"
     },
     "services": "Android App Development",
+    "process": {
+      "steps": [
+        "Android Strategy & Planning",
+        "Kotlin & Jetpack Architecture",
+        "Android Development & Optimization",
+        "Device Compatibility & Testing",
+        "Play Store Submission & Launch"
+      ],
+      "content": [
+        "We begin by analyzing your Android app requirements and target audience. Our team conducts market research across Android's diverse device ecosystem, defines the optimal architecture using Kotlin and Jetpack libraries, and plans for maximum device compatibility.",
+        "We architect your Android app using modern Kotlin and Jetpack Compose or traditional Views. This includes designing Material Design interfaces, implementing MVVM architecture, integrating Android Jetpack components, and planning for various screen sizes and form factors.",
+        "Our Android developers build high-performance apps using Kotlin and modern Android frameworks. We optimize for battery efficiency, memory usage, and performance across thousands of Android devices, from budget phones to flagship devices and foldables.",
+        "We ensure your Android app works flawlessly across different device types, screen sizes, Android versions, and OEM variations. Our comprehensive testing covers phones, tablets, foldables, and Android Auto compatibility.",
+        "We handle the complete Google Play Store submission process including store listing optimization, asset preparation, Play Console setup, compliance checks, and managing the review process. We optimize your app for Play Store visibility and monetization."
+      ]
+    },
     "serviceCards": [
       {
         "id": "kotlin-development",
@@ -197,7 +325,32 @@
         "description": "Secure enterprise Android solutions with device management, security policies, and enterprise integration.",
         "image": "/seo/services/technical.webp"
       }
-    ]
+    ],
+    "faq": {
+      "serviceName": "Android App Development",
+      "faqs": [
+        {
+          "q": "How long does it take to develop an Android app?",
+          "a": "Android app development typically takes 12-18 weeks for an MVP and 22-30 weeks for a full-featured app. Timeline factors include Kotlin adoption, Jetpack Compose usage, device compatibility testing across thousands of devices, and Google Play Store optimization. We'll provide detailed Android-specific timelines."
+        },
+        {
+          "q": "Should I use Kotlin or Java for Android development?",
+          "a": "Kotlin is Google's preferred language for Android development, offering modern features, better safety, and improved productivity. We recommend Kotlin for all new Android apps. Java may be used for legacy Android projects. We'll use the best Android language and frameworks for your project."
+        },
+        {
+          "q": "How do you handle Android device fragmentation and compatibility?",
+          "a": "We test your Android app across multiple device types, screen sizes, Android versions, and OEM variations. We use responsive design, Android's adaptive layouts, and comprehensive testing to ensure your Android app works flawlessly on budget phones, flagships, tablets, and foldables."
+        },
+        {
+          "q": "Do you handle Google Play Store submission and optimization?",
+          "a": "Yes, we handle the complete Google Play Store submission including Play Console setup, store listing optimization, asset preparation, compliance checks, and managing the review process. We also optimize your Android app for Play Store visibility, ASO, and monetization."
+        },
+        {
+          "q": "What about Android app maintenance and Android version updates?",
+          "a": "We offer ongoing Android app maintenance including bug fixes, Android version compatibility updates, new Android feature integration (Material Design updates, new APIs), security patches, and Play Store policy compliance. We ensure your Android app stays current as Android evolves."
+        }
+      ]
+    }
   },
   "react-native-development": {
     "hero": {
@@ -221,6 +374,22 @@
       "alt": "React Native Development Services"
     },
     "services": "React Native Development",
+    "process": {
+      "steps": [
+        "Cross-Platform Strategy",
+        "React Native Architecture Design",
+        "Shared Codebase Development",
+        "Native Module Integration",
+        "iOS & Android Launch"
+      ],
+      "content": [
+        "We start by defining your cross-platform strategy and determining which features can be shared and which require native modules. Our team analyzes your requirements to maximize code reuse while maintaining native performance on both iOS and Android.",
+        "We design your React Native app architecture, selecting the right state management solution (Redux, MobX, Context API), navigation library, and UI components. We plan for code sharing while identifying where native modules will be needed for platform-specific features.",
+        "Our React Native developers build your app using a single JavaScript codebase that runs on both platforms. We leverage React Native's component library, optimize bundle size, implement efficient state management, and ensure the codebase is maintainable and scalable.",
+        "When platform-specific features are needed, we seamlessly integrate native iOS and Android modules. This includes custom native views, device APIs, third-party SDKs, and any features that require direct native platform access.",
+        "We test your React Native app on both iOS and Android devices, optimize performance, and handle app store submissions for both platforms simultaneously. You launch one codebase to reach users on both major mobile platforms."
+      ]
+    },
     "serviceCards": [
       {
         "id": "react-native-consulting",
@@ -250,7 +419,32 @@
         "description": "Ongoing maintenance, updates, and support to keep your React Native app running smoothly across both platforms.",
         "image": "/seo/services/technical.webp"
       }
-    ]
+    ],
+    "faq": {
+      "serviceName": "React Native Development",
+      "faqs": [
+        {
+          "q": "How long does it take to build a React Native app?",
+          "a": "React Native app development typically takes 10-14 weeks for an MVP and 18-24 weeks for a full-featured cross-platform app. The shared codebase speeds up development compared to building separate iOS and Android apps, which would take 20-36 weeks combined."
+        },
+        {
+          "q": "Do React Native apps perform as well as native apps?",
+          "a": "React Native delivers near-native performance for most use cases. The JavaScript bridge allows for smooth animations and interactions. For computationally intensive tasks or platform-specific features, we integrate native modules to maintain native-level performance on both iOS and Android."
+        },
+        {
+          "q": "Can React Native access all native iOS and Android features?",
+          "a": "Yes! React Native supports most native features through its extensive library ecosystem. When platform-specific features aren't available, we create custom native modules that seamlessly integrate with your React Native codebase, giving you full access to iOS and Android capabilities."
+        },
+        {
+          "q": "How do you handle app store submissions for React Native apps?",
+          "a": "We build your React Native app for both iOS and Android, then handle app store submissions for both App Store and Google Play Store simultaneously. This single codebase approach streamlines the submission process while reaching users on both platforms."
+        },
+        {
+          "q": "What about React Native updates and maintenance?",
+          "a": "We offer ongoing React Native maintenance including framework updates, bug fixes, performance optimization, native module updates, and compatibility with new iOS and Android versions. We keep your cross-platform app running smoothly on both platforms with a single codebase."
+        }
+      ]
+    }
   },
   "flutter-development": {
     "hero": {
@@ -274,6 +468,22 @@
       "alt": "Flutter Development Services"
     },
     "services": "Flutter Development",
+    "process": {
+      "steps": [
+        "Flutter Strategy & Planning",
+        "UI/UX Design with Flutter Widgets",
+        "Dart Development & Hot Reload",
+        "Performance Optimization",
+        "Multi-Platform Deployment"
+      ],
+      "content": [
+        "We start by defining your Flutter app strategy and design requirements. Our team plans the widget architecture, selects state management solutions (Provider, Bloc, Riverpod), and determines how to leverage Flutter's single codebase across iOS, Android, and potentially web or desktop.",
+        "We design beautiful, pixel-perfect UIs using Flutter's expressive widget system and Material Design or Cupertino components. This phase includes creating custom widgets, animations, and ensuring the design looks perfect on all screen sizes and devices.",
+        "Our Flutter developers build your app using Dart with Flutter's hot reload feature, enabling rapid iteration and real-time visual feedback. We leverage Flutter's rich widget library, implement custom animations, and ensure smooth 60fps performance across platforms.",
+        "We optimize your Flutter app's performance through efficient state management, widget optimization, image caching, and rendering improvements. Flutter's compiled Dart code delivers near-native performance, and we fine-tune every aspect for optimal speed and responsiveness.",
+        "We deploy your Flutter app to iOS and Android app stores, and can extend to web or desktop if needed. Flutter's single codebase architecture means you maintain one app while reaching multiple platforms with native-like performance."
+      ]
+    },
     "serviceCards": [
       {
         "id": "flutter-ui-design",
@@ -303,7 +513,32 @@
         "description": "Extend your Flutter app to web, desktop, and embedded devices for true cross-platform reach.",
         "image": "/seo/services/technical.webp"
       }
-    ]
+    ],
+    "faq": {
+      "serviceName": "Flutter Development",
+      "faqs": [
+        {
+          "q": "How long does it take to build a Flutter app?",
+          "a": "Flutter app development typically takes 8-12 weeks for an MVP and 16-22 weeks for a full-featured cross-platform app. Flutter's hot reload feature significantly accelerates development, allowing real-time visual feedback and faster iteration compared to traditional development."
+        },
+        {
+          "q": "Do Flutter apps look and perform like native apps?",
+          "a": "Yes! Flutter apps compile to native code, delivering true native performance at 60fps. Flutter's widget system ensures pixel-perfect designs that look identical on iOS and Android. The compiled Dart code performs as well as native Swift or Kotlin apps."
+        },
+        {
+          "q": "Can Flutter apps access native device features?",
+          "a": "Absolutely! Flutter has extensive plugin support for native features, and we can create custom platform channels for iOS and Android-specific functionality. Your Flutter app can access camera, GPS, sensors, and any native API you need."
+        },
+        {
+          "q": "Can Flutter apps run on web and desktop too?",
+          "a": "Yes! Flutter's single codebase can extend beyond mobile to web, Windows, macOS, and Linux. We can help you deploy your Flutter app across multiple platforms while maintaining the same codebase, reducing development and maintenance costs significantly."
+        },
+        {
+          "q": "What about Flutter updates and maintenance?",
+          "a": "We offer ongoing Flutter maintenance including framework updates, bug fixes, performance optimization, widget updates, and compatibility with new iOS and Android versions. Flutter's hot reload makes updates and fixes faster, and we keep your app current with Google's Flutter releases."
+        }
+      ]
+    }
   },
   "software-development": {
     "hero": {
@@ -359,18 +594,18 @@
     ],
     "process": {
       "steps": [
-        "Requirements Analysis",
-        "Architecture & Design",
-        "Development & Implementation",
-        "Testing & Quality Assurance",
-        "Deployment & Maintenance"
+        "Custom Requirements Analysis",
+        "Scalable Architecture & Design",
+        "Software Development & Integration",
+        "Enterprise Testing & QA",
+        "Deployment & Continuous Support"
       ],
       "content": [
-        "We start by thoroughly understanding your business requirements, existing systems, and technical constraints. Our team conducts stakeholder interviews, workflow analysis, and technical feasibility studies to create a comprehensive development plan.",
-        "Before coding begins, we design the software architecture, database structure, and system integrations. This phase ensures scalability, security, and maintainability while aligning with your business goals.",
-        "Our experienced developers write clean, maintainable code using industry best practices and modern frameworks. We follow agile methodologies with regular sprints and continuous integration to deliver incremental value.",
-        "We conduct comprehensive testing including unit tests, integration tests, performance testing, and security audits. Our QA process ensures your software is bug-free, secure, and performs as expected.",
-        "We handle deployment, provide comprehensive documentation, and offer ongoing maintenance and support. Our team ensures smooth transitions and continues to optimize your software as your business evolves."
+        "We start by thoroughly understanding your unique business challenges and software requirements. Our team conducts stakeholder interviews, workflow analysis, and technical feasibility studies to create a comprehensive plan for custom software solutions—whether desktop applications, enterprise systems, or specialized tools.",
+        "We design scalable software architecture, database structures, and system integrations tailored to your business needs. This phase ensures your custom software can scale with growth, integrates seamlessly with existing infrastructure, and maintains security and maintainability for enterprise-level applications.",
+        "Our experienced developers build custom software using industry best practices, modern frameworks, and technologies suited to your requirements. Whether developing desktop applications, enterprise systems, cloud solutions, or APIs—we follow agile methodologies with regular sprints to deliver incremental value.",
+        "We conduct comprehensive enterprise-level testing including unit tests, integration tests, performance testing, scalability testing, and security audits. Our QA process ensures your custom software is robust, secure, performs under load, and meets enterprise-grade standards.",
+        "We handle deployment across your infrastructure—whether on-premise, cloud, or hybrid—provide comprehensive documentation, and offer ongoing maintenance and support. Our team ensures smooth transitions and continuously optimizes your custom software as your business evolves and scales."
       ]
     },
     "faq": {
@@ -378,23 +613,23 @@
       "faqs": [
         {
           "q": "How long does custom software development take?",
-          "a": "Timeline varies significantly based on complexity. A simple application might take 8-12 weeks, while enterprise systems can take 6-12 months. We provide detailed estimates after understanding your requirements."
+          "a": "Custom software development timelines vary significantly based on complexity. A simple desktop application might take 8-12 weeks, while enterprise systems and scalable cloud solutions can take 6-12 months. We provide detailed estimates after understanding your unique business requirements and software scope."
         },
         {
-          "q": "What technologies do you use for software development?",
-          "a": "We use a wide range of modern technologies including Python, Java, .NET, Node.js, React, and cloud platforms like AWS and Azure. We choose the best stack based on your specific requirements and scalability needs."
+          "q": "What technologies do you use for custom software development?",
+          "a": "We use a wide range of modern technologies for custom software including Python, Java, .NET, Node.js, React, and cloud platforms like AWS, Azure, and Google Cloud. We choose the best technology stack based on your specific custom software requirements, scalability needs, and whether you need desktop applications or enterprise systems."
         },
         {
-          "q": "Can you integrate with our existing systems?",
-          "a": "Absolutely! We specialize in system integration and can connect your new software with existing databases, APIs, third-party services, and legacy systems through secure, well-documented interfaces."
+          "q": "Can you integrate custom software with our existing systems?",
+          "a": "Absolutely! We specialize in system integration and can connect your custom software—whether desktop applications or enterprise systems—with existing databases, APIs, third-party services, and legacy systems through secure, well-documented interfaces. This ensures seamless integration with your current infrastructure."
         },
         {
-          "q": "Do you provide ongoing maintenance and support?",
-          "a": "Yes, we offer comprehensive maintenance packages including bug fixes, security updates, feature enhancements, and technical support. We're committed to keeping your software running smoothly and up-to-date."
+          "q": "Do you provide ongoing maintenance and support for custom software?",
+          "a": "Yes, we offer comprehensive maintenance packages for your custom software including bug fixes, security updates, feature enhancements, scalability improvements, and technical support. We're committed to keeping your custom software running smoothly, secure, and optimized as your business evolves."
         },
         {
-          "q": "What about scalability and future growth?",
-          "a": "We design all software with scalability in mind from the start. Our architecture choices, database design, and infrastructure recommendations ensure your software can grow with your business without requiring major rewrites."
+          "q": "How do you ensure custom software scales with business growth?",
+          "a": "We design all custom software with scalability in mind from the start. Our architecture choices, database design, cloud infrastructure recommendations, and enterprise-level patterns ensure your custom software can scale with your business growth—from startup to enterprise—without requiring major rewrites."
         }
       ]
     }
@@ -453,18 +688,18 @@
     ],
     "process": {
       "steps": [
-        "Strategy & Planning",
+        "PWA Strategy & Planning",
         "Service Worker Development",
-        "App Shell Implementation",
-        "Offline Functionality",
-        "Testing & Optimization"
+        "App Shell & Native Experience",
+        "Offline Functionality & Push Notifications",
+        "Installability & Performance Optimization"
       ],
       "content": [
-        "We start by analyzing your requirements and defining the PWA strategy. We identify which features benefit from offline capabilities, push notifications, and app-like experiences to create a roadmap for your PWA.",
-        "Service workers are the heart of PWAs, enabling offline functionality, background sync, and push notifications. We develop robust service workers that cache resources intelligently and update seamlessly.",
-        "We implement the app shell architecture, creating a fast-loading skeleton that provides instant user feedback. This ensures your PWA feels responsive and native-like from the first interaction.",
-        "We design and implement offline functionality, ensuring critical features work without internet connectivity. This includes intelligent caching strategies, offline data storage, and sync mechanisms for when connectivity returns.",
-        "We test across all major browsers and devices, optimize performance metrics, and ensure your PWA meets all requirements for installability and performance. We also handle manifest configuration and app store submission if needed."
+        "We start by analyzing your requirements and defining the PWA strategy. We identify which features benefit from offline capabilities, push notifications, and app-like experiences to create a roadmap for your Progressive Web App that works across all platforms without app store downloads.",
+        "Service workers are the heart of PWAs, enabling offline functionality, background sync, and push notifications. We develop robust service workers that cache resources intelligently, update seamlessly, and enable your PWA to work reliably even when offline.",
+        "We implement the app shell architecture, creating a fast-loading skeleton that provides instant user feedback. This ensures your PWA feels responsive and native-like from the first interaction, loading instantly and providing smooth user experiences.",
+        "We design and implement comprehensive offline functionality with intelligent caching strategies, offline data storage, and background sync mechanisms. We also integrate push notifications that work across desktop and mobile devices, engaging users even when your PWA isn't open.",
+        "We optimize your PWA for installability across all major browsers and devices, ensure it meets performance metrics, and handle manifest configuration. Your PWA can be installed on users' devices without app store downloads, providing instant access and native-like experiences."
       ]
     },
     "faq": {
@@ -472,23 +707,23 @@
       "faqs": [
         {
           "q": "What are the benefits of PWAs over native apps?",
-          "a": "PWAs offer several advantages: no app store approval process, instant updates, smaller size, works across all platforms with one codebase, and can be accessed directly from a browser. They're ideal when you want to reach users quickly without platform-specific development."
+          "a": "PWAs offer several advantages: no app store approval process or downloads required, instant updates, smaller size, works across all platforms with one codebase, and can be accessed directly from a browser. PWAs feel native with offline functionality and push notifications, all without requiring app store submissions."
         },
         {
-          "q": "Can PWAs work offline?",
-          "a": "Yes! One of the key features of PWAs is offline functionality. We use service workers to cache content and data, allowing your app to function even without internet connectivity. Users can browse, interact, and perform key actions offline, with data syncing when connectivity returns."
+          "q": "Can PWAs work offline reliably?",
+          "a": "Yes! Offline functionality is a core feature of PWAs. We use service workers to cache content and data intelligently, allowing your PWA to function reliably even without internet connectivity. Users can browse, interact, and perform key actions offline, with data automatically syncing when connectivity returns."
         },
         {
-          "q": "Can users install PWAs on their devices?",
-          "a": "Absolutely! PWAs can be installed on users' home screens on both mobile and desktop devices. The installation is seamless—users just click an install prompt, and your PWA appears like a native app with its own icon and window."
+          "q": "Do PWAs feel native without app store downloads?",
+          "a": "Absolutely! PWAs can be installed on users' home screens on both mobile and desktop devices without any app store downloads. The installation is seamless—users just click an install prompt, and your PWA appears like a native app with its own icon, window, and native-like performance. No app store approval needed."
         },
         {
-          "q": "Do PWAs support push notifications?",
-          "a": "Yes, PWAs can send push notifications on both desktop and mobile devices, even when the app isn't open. This allows you to re-engage users with updates, reminders, or personalized content, just like native apps."
+          "q": "Can PWAs engage users with push notifications?",
+          "a": "Yes, PWAs can send push notifications on both desktop and mobile devices, even when the app isn't open. This allows you to re-engage users with updates, reminders, or personalized content, just like native apps—all without requiring app store downloads or approvals."
         },
         {
-          "q": "Which browsers support PWAs?",
-          "a": "PWAs are supported by all modern browsers including Chrome, Edge, Firefox, Safari (iOS 11.3+), and Samsung Internet. We ensure your PWA works across all major browsers and gracefully degrades on older versions."
+          "q": "Which browsers and platforms support PWAs?",
+          "a": "PWAs are supported by all modern browsers including Chrome, Edge, Firefox, Safari (iOS 11.3+), and Samsung Internet, across desktop and mobile platforms. We ensure your PWA works reliably across all major browsers and devices, providing consistent native-like experiences everywhere."
         }
       ]
     }

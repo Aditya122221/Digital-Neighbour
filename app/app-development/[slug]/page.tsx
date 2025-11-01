@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation"
 import appDevData from "@/data/app-development.json"
 import AppDevHero from "@/components/app-development/hero"
+import Certificates from "@/components/app-development/certificates"
 import SeoContent from "@/components/seo/content"
 import SeoServices from "@/components/seo/services"
 import SeoForm from "@/components/seo/form"
@@ -60,7 +61,7 @@ export default function AppDevSlugPage({
 				Identification + Value Proposition)
 			</div>
 			<div>
-				Content Section: Briefly highlight the client’s
+				Content Section: Briefly highlight the client's
 				main pain point and immediately show how our
 				service solves it — make them feel understood
 				and confident we can deliver results.
@@ -72,6 +73,7 @@ export default function AppDevSlugPage({
 			/>
 			<SeoContent data={currentData?.content} />
 			<CaseStudy />
+			<Certificates data={currentData?.certificates} />
 			<OtherServices />
 			<Process2
 				data={currentData?.services}
