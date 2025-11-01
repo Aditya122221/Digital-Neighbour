@@ -1339,33 +1339,15 @@ const Navbar: React.FC = () => {
 																												) {
 																													return `/web-development/${name}`
 																												}
-																												// Map App Development items to Android routes (mobile)
-																												if (
-																													categoryKey ===
-																														"Web & App Development" &&
-																													column.title ===
-																														"App Development"
-																												) {
-																													const appToAndroidSlug: Record<
-																														string,
-																														string
-																													> =
-																														{
-																															"android-app-development":
-																																"android-development",
-																															"flutter-app-development":
-																																"flutter-android",
-																															"react-native-development":
-																																"react-native-android",
-																														}
-																													if (
-																														appToAndroidSlug[
-																															name
-																														]
-																													) {
-																														return `/android-development/${appToAndroidSlug[name]}`
-																													}
-																												}
+												// Map App Development items to App Development routes
+												if (
+													categoryKey ===
+														"Web & App Development" &&
+													column.title ===
+														"App Development"
+												) {
+													return `/app-development/${name}`
+												}
 																												if (
 																													paidAdsSlugs.has(
 																														name
