@@ -1,0 +1,553 @@
+{
+  "data-analytics": {
+    "hero": {
+      "tagline": "Insights. Intelligence. Data-driven decisions at scale",
+      "heading": "Data & Analytics Services",
+      "subheading": "Transform your business with comprehensive data analytics and business intelligence solutions to unlock insights, drive decisions, and accelerate growth."
+    },
+    "introParagraph": {
+      "heading": "Data-Driven Intelligence, Powerful Outcomes",
+      "problemStatement": "Scattered data sources, manual reporting, and lack of actionable insights prevent you from making informed decisions. Without proper analytics, you're missing opportunities to optimize operations and drive growth.",
+      "valueProposition": "We deliver end-to-end data and analytics solutions—from data integration and warehousing to business intelligence dashboards and predictive analytics. Our experts transform raw data into actionable insights that drive strategic decisions and measurable business outcomes."
+    },
+    "painPoints": {
+      "heading": "Data & Analytics Challenges, Solved",
+      "subheading": "We handle every challenge that comes with data analytics and business intelligence:",
+      "painPoints": [
+        {
+          "problem": "Data scattered across multiple systems with no single source of truth.",
+          "solution": "We integrate all your data sources into centralized data warehouses and lakes, providing a unified view of your business with real-time access to critical information."
+        },
+        {
+          "problem": "Difficulty extracting meaningful insights from complex datasets.",
+          "solution": "Our advanced analytics and business intelligence solutions transform raw data into clear, actionable insights through interactive dashboards, reports, and predictive models."
+        },
+        {
+          "problem": "Manual reporting processes consuming time and delaying decisions.",
+          "solution": "Automate reporting and dashboard generation with self-service BI tools that enable stakeholders to access real-time insights without technical expertise."
+        },
+        {
+          "problem": "Inability to predict trends and make proactive business decisions.",
+          "solution": "Leverage predictive analytics and machine learning to forecast trends, identify opportunities, and make data-driven decisions that keep you ahead of the competition."
+        },
+        {
+          "problem": "Data quality issues affecting accuracy and reliability of insights.",
+          "solution": "We implement robust data quality frameworks, validation processes, and governance policies to ensure clean, accurate, and reliable data for confident decision-making."
+        }
+      ]
+    },
+    "industries": {
+      "heading": "Custom Data Analytics Solutions",
+      "description": "We deliver industry-specific data and analytics solutions that transform operations, boost efficiency, and drive innovation across diverse sectors.",
+      "industries": [
+        {
+          "id": "retail-ecommerce",
+          "name": "Retail & eCommerce",
+          "icon": "shoppingCart",
+          "details": "Drive sales with customer analytics, inventory optimization, and real-time performance dashboards that track KPIs and improve profitability."
+        },
+        {
+          "id": "financial-fintech",
+          "name": "Financial Services & FinTech",
+          "icon": "dollarSign",
+          "details": "Build secure analytics solutions for risk management, fraud detection, and regulatory compliance with real-time financial dashboards."
+        },
+        {
+          "id": "healthcare",
+          "name": "Healthcare & Life Sciences",
+          "icon": "heart",
+          "details": "Improve patient outcomes with healthcare analytics, clinical data insights, and operational efficiency dashboards."
+        },
+        {
+          "id": "saas",
+          "name": "SaaS",
+          "icon": "cloudCog",
+          "details": "Enhance SaaS platforms with product analytics, user behavior insights, and performance metrics that drive growth and retention."
+        },
+        {
+          "id": "manufacturing",
+          "name": "Manufacturing",
+          "icon": "factory",
+          "details": "Optimize production with operational analytics, quality control insights, and supply chain intelligence dashboards."
+        },
+        {
+          "id": "education-edtech",
+          "name": "Education & EdTech",
+          "icon": "graduationCap",
+          "details": "Improve learning outcomes with educational analytics, student performance tracking, and institutional effectiveness dashboards."
+        },
+        {
+          "id": "mvp",
+          "name": "MVP",
+          "icon": "zap",
+          "details": "Validate product-market fit with rapid analytics implementation, user behavior tracking, and performance metrics for early-stage products."
+        }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Data & Analytics Advantages",
+      "subheading": "Intelligence, insights, and innovation—all in one complete solution:",
+      "benefits": [
+        {
+          "title": "Data-Driven Decisions",
+          "description": "Make informed decisions with real-time insights and predictive analytics that reveal opportunities and risks before they impact your business."
+        },
+        {
+          "title": "Operational Efficiency",
+          "description": "Identify bottlenecks, optimize processes, and improve efficiency with comprehensive operational analytics and performance dashboards."
+        },
+        {
+          "title": "Competitive Advantage",
+          "description": "Gain insights into market trends, customer behavior, and competitive positioning that enable strategic planning and market leadership."
+        },
+        {
+          "title": "Cost Optimization",
+          "description": "Identify cost-saving opportunities and optimize resource allocation through detailed financial and operational analytics."
+        },
+        {
+          "title": "Scalable Analytics",
+          "description": "Scale your analytics infrastructure as data volumes grow, maintaining performance and accessibility across your organization."
+        }
+      ]
+    },
+    "form": {
+      "heading": "Transform Your Business with Data & Analytics Today",
+      "content": "Unlock the power of your data with our comprehensive analytics and business intelligence solutions. From data integration to predictive analytics, we deliver results.",
+      "subContent": "Get a free consultation on the right data analytics solution, BI strategy, or integration package for your business.",
+      "cta": "Let's discuss your data and analytics needs.",
+      "formHeading": "Get a Free Data & Analytics Consultation",
+      "buttonText": "Get My Consultation"
+    },
+    "content": {
+      "heading": "Advanced Analytics for Modern Businesses",
+      "text1": "Our data and analytics services are designed to transform how you use data. Whether you need data integration, business intelligence dashboards, predictive analytics, or data warehousing, we ensure seamless implementation and measurable results.",
+      "text2": "We implement cutting-edge analytics solutions with enterprise-grade reliability—from real-time dashboards to machine learning models—so you can focus on growth without worrying about data complexity.",
+      "text3": "From initial data assessment and strategy to implementation and ongoing optimization, our team handles every aspect of data and analytics to keep your insights accurate, accessible, and actionable.",
+      "image": "data-analytics.jpg",
+      "alt": "Data & Analytics Services"
+    },
+    "services": "Data & Analytics",
+    "premiumCloudServices": {
+      "title": "Premium Data & Analytics services",
+      "topCards": [
+        {
+          "title": "Real-time insights",
+          "description": "Access real-time data insights and analytics that enable immediate decision-making and responsive business operations."
+        },
+        {
+          "title": "Seamless integration",
+          "description": "Easily integrate analytics solutions into your existing systems with our robust APIs and comprehensive integration support."
+        }
+      ],
+      "customApi": {
+        "title": "Custom",
+        "badge": "API",
+        "description": "Powerful APIs and integration tools allow seamless data access and analytics capabilities across your entire technology stack.",
+        "buttonText": "Learn more",
+        "buttonLink": "#"
+      },
+      "maximumCustomization": {
+        "title": "Maximum customization and control",
+        "description": "Tailored analytics solutions designed to fit your specific business needs with full control and customization options.",
+        "buttonText": "Explore analytics solutions",
+        "buttonLink": "#plans",
+        "features": [
+          {
+            "title": "Custom dashboards",
+            "description": "Build and deploy analytics dashboards tailored to your specific industry requirements and business objectives."
+          },
+          {
+            "title": "Flexible deployment",
+            "description": "Deploy analytics solutions on-premises, in the cloud, or in a hybrid environment based on your preferences."
+          },
+          {
+            "title": "Multi-platform support",
+            "description": "Seamless integration with popular platforms including AWS, Azure, Google Cloud, and your existing infrastructure."
+          }
+        ]
+      }
+    },
+    "process": {
+      "steps": [
+        "Data Assessment & Strategy",
+        "Data Integration & Warehousing",
+        "Analytics Development & Dashboard Creation",
+        "Testing & Optimization",
+        "Monitoring & Continuous Improvement"
+      ],
+      "content": [
+        "We begin by assessing your data sources, infrastructure, and analytics needs to identify the ideal solutions and ROI potential.",
+        "Our team integrates data from all sources into centralized warehouses or data lakes, ensuring clean, accessible, and reliable data.",
+        "We develop custom analytics solutions, build interactive dashboards, and create reports tailored to your specific needs and objectives.",
+        "Rigorous testing and optimization ensure your analytics solutions perform accurately, efficiently, and deliver the expected business outcomes.",
+        "We provide continuous monitoring, performance tuning, and insights refinement to keep your analytics accurate, relevant, and aligned with evolving business needs."
+      ]
+    },
+    "features": {
+      "heading": "Why Choose Our Data & Analytics Solutions",
+      "subheading": "Experience the difference with analytics that actually works for your business:",
+      "features": [
+        {
+          "title": "Real-Time Analytics",
+          "description": "Access real-time insights and analytics dashboards that enable immediate decision-making and responsive business operations."
+        },
+        {
+          "title": "Advanced Business Intelligence",
+          "description": "Leverage cutting-edge BI tools to extract insights, visualize data, and create interactive dashboards that drive informed decisions."
+        },
+        {
+          "title": "Seamless Data Integration",
+          "description": "Easily integrate data from all sources with robust ETL processes and comprehensive integration support across all major platforms."
+        },
+        {
+          "title": "Scalable Infrastructure",
+          "description": "Scale your analytics infrastructure seamlessly as your data grows, handling increased volumes without compromising performance or reliability."
+        },
+        {
+          "title": "Custom Analytics Development",
+          "description": "Build tailored analytics solutions and dashboards designed specifically for your industry and business requirements with expert guidance."
+        }
+      ]
+    },
+    "serviceCards": [
+      {
+        "id": "business-intelligence",
+        "name": "Business Intelligence",
+        "title": "Business Intelligence",
+        "description": "Transform data into actionable insights with interactive dashboards, reports, and self-service analytics that drive informed decisions.",
+        "image": "/data-analytics/bi.webp"
+      },
+      {
+        "id": "data-integration",
+        "name": "Data Integration",
+        "title": "Data Integration",
+        "description": "Integrate data from multiple sources into centralized warehouses and lakes for unified analytics and reporting.",
+        "image": "/data-analytics/integration.webp"
+      },
+      {
+        "id": "data-warehousing",
+        "name": "Data Warehousing",
+        "title": "Data Warehousing",
+        "description": "Build scalable data warehouses and lakes that store, organize, and make your data accessible for analytics and reporting.",
+        "image": "/data-analytics/warehousing.webp"
+      },
+      {
+        "id": "predictive-analytics",
+        "name": "Predictive Analytics",
+        "title": "Predictive Analytics",
+        "description": "Forecast trends, predict outcomes, and make proactive decisions with advanced predictive analytics and machine learning models.",
+        "image": "/data-analytics/predictive.webp"
+      },
+      {
+        "id": "data-visualization",
+        "name": "Data Visualization",
+        "title": "Data Visualization",
+        "description": "Create compelling visualizations and interactive dashboards that make complex data easy to understand and act upon.",
+        "image": "/data-analytics/visualization.webp"
+      },
+      {
+        "id": "reporting-automation",
+        "name": "Reporting Automation",
+        "title": "Reporting Automation",
+        "description": "Automate report generation and distribution, saving time and ensuring stakeholders receive timely insights.",
+        "image": "/data-analytics/reporting.webp"
+      },
+      {
+        "id": "data-governance",
+        "name": "Data Governance",
+        "title": "Data Governance",
+        "description": "Implement data quality frameworks, security policies, and governance practices to ensure accurate, compliant, and reliable data.",
+        "image": "/data-analytics/governance.webp"
+      },
+      {
+        "id": "customer-analytics",
+        "name": "Customer Analytics",
+        "title": "Customer Analytics",
+        "description": "Gain deep insights into customer behavior, preferences, and journeys to improve engagement and drive retention.",
+        "image": "/data-analytics/customer.webp"
+      },
+      {
+        "id": "operational-analytics",
+        "name": "Operational Analytics",
+        "title": "Operational Analytics",
+        "description": "Optimize operations with real-time performance metrics, process analytics, and efficiency dashboards.",
+        "image": "/data-analytics/operational.webp"
+      },
+      {
+        "id": "financial-analytics",
+        "name": "Financial Analytics",
+        "title": "Financial Analytics",
+        "description": "Track financial performance, analyze profitability, and make data-driven decisions with comprehensive financial analytics.",
+        "image": "/data-analytics/financial.webp"
+      }
+    ],
+    "faq": {
+      "serviceName": "Data & Analytics",
+      "faqs": [
+        {
+          "q": "What types of data analytics solutions do you offer?",
+          "a": "We offer comprehensive data and analytics services including business intelligence, data integration, data warehousing, predictive analytics, data visualization, reporting automation, data governance, and custom analytics development tailored to your business needs."
+        },
+        {
+          "q": "How long does it take to implement analytics solutions?",
+          "a": "Implementation timelines vary based on complexity, but typical projects range from 6-16 weeks. Simple dashboards can be deployed in weeks, while enterprise data warehouses may take longer. We provide detailed timelines during consultation."
+        },
+        {
+          "q": "Can analytics solutions integrate with our existing systems?",
+          "a": "Absolutely. We specialize in seamless integration with existing platforms, databases, ERPs, CRMs, and custom systems. Our solutions are designed to work alongside your current infrastructure."
+        },
+        {
+          "q": "What ROI can I expect from data analytics?",
+          "a": "ROI varies by use case, but typical results include 20-40% improvement in decision-making speed, 15-30% cost reduction through operational optimization, and 25-50% faster reporting. We provide ROI projections during assessment."
+        },
+        {
+          "q": "Do you provide ongoing support and optimization?",
+          "a": "Yes, we offer comprehensive support including monitoring, performance optimization, dashboard updates, and insights refinement to ensure your analytics solutions continue delivering value as your business evolves."
+        }
+      ]
+    }
+  },
+  "business-intelligence": {
+    "hero": {
+      "heading": "Business Intelligence",
+      "subheading": "Transform data into actionable insights with interactive dashboards, reports, and self-service analytics that drive informed decisions."
+    },
+    "introParagraph": {
+      "heading": "Intelligent Business Insights",
+      "problemStatement": "Manual reporting and scattered data sources prevent quick access to insights, delaying decisions and limiting competitive advantage.",
+      "valueProposition": "Our business intelligence solutions provide real-time dashboards, self-service analytics, and automated reporting that enable stakeholders to make data-driven decisions quickly and confidently."
+    },
+    "keyBenefits": {
+      "heading": "Business Intelligence Benefits",
+      "subheading": "Access insights instantly and make better decisions.",
+      "benefits": [
+        {
+          "title": "Real-Time Dashboards",
+          "description": "Access real-time business metrics and KPIs through interactive dashboards available 24/7."
+        },
+        {
+          "title": "Self-Service Analytics",
+          "description": "Enable stakeholders to explore data and generate insights without technical expertise or IT dependency."
+        },
+        {
+          "title": "Automated Reporting",
+          "description": "Automate report generation and distribution, saving time and ensuring timely insights delivery."
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        "Requirements Analysis",
+        "Dashboard Design & Development",
+        "Data Integration & Modeling",
+        "Testing & Optimization",
+        "Deployment & Training"
+      ]
+    },
+    "form": {
+      "heading": "Get Business Intelligence",
+      "content": "Transform your data into actionable insights with powerful BI solutions.",
+      "cta": "Get Started Today"
+    }
+  },
+  "data-integration": {
+    "hero": {
+      "heading": "Data Integration",
+      "subheading": "Integrate data from multiple sources into centralized warehouses and lakes for unified analytics and reporting."
+    },
+    "introParagraph": {
+      "heading": "Unified Data Access",
+      "problemStatement": "Data scattered across multiple systems creates silos, preventing a unified view of your business and limiting analytics capabilities.",
+      "valueProposition": "Our data integration solutions connect all your data sources into centralized repositories, ensuring clean, accessible, and unified data for comprehensive analytics."
+    },
+    "keyBenefits": {
+      "heading": "Data Integration Benefits",
+      "benefits": [
+        {
+          "title": "Unified Data View",
+          "description": "Access all your data from a single source of truth, eliminating silos and inconsistencies."
+        },
+        {
+          "title": "Real-Time Sync",
+          "description": "Keep data synchronized across systems in real-time for accurate, up-to-date insights."
+        },
+        {
+          "title": "Reduced Complexity",
+          "description": "Simplify data access and management with automated integration processes."
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        "Data Source Assessment",
+        "Integration Architecture Design",
+        "ETL Development & Configuration",
+        "Testing & Validation",
+        "Deployment & Monitoring"
+      ]
+    },
+    "form": {
+      "heading": "Integrate Your Data",
+      "content": "Unify your data sources with comprehensive integration solutions.",
+      "cta": "Get Integration"
+    }
+  },
+  "data-warehousing": {
+    "hero": {
+      "heading": "Data Warehousing",
+      "subheading": "Build scalable data warehouses and lakes that store, organize, and make your data accessible for analytics and reporting."
+    },
+    "introParagraph": {
+      "heading": "Centralized Data Storage",
+      "problemStatement": "Inadequate data storage and organization limit analytics capabilities and prevent scalable insights generation.",
+      "valueProposition": "Our data warehousing solutions provide scalable, organized storage for all your data, optimized for analytics, reporting, and business intelligence."
+    },
+    "keyBenefits": {
+      "heading": "Data Warehousing Benefits",
+      "benefits": [
+        {
+          "title": "Scalable Storage",
+          "description": "Store and organize massive volumes of data with scalable warehouse infrastructure."
+        },
+        {
+          "title": "Optimized for Analytics",
+          "description": "Data warehouses optimized for fast querying and analytics performance."
+        },
+        {
+          "title": "Data Organization",
+          "description": "Organize data in structured formats that support efficient analytics and reporting."
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        "Data Requirements Analysis",
+        "Warehouse Architecture Design",
+        "Data Migration & ETL",
+        "Testing & Optimization",
+        "Deployment & Maintenance"
+      ]
+    },
+    "form": {
+      "heading": "Build Your Data Warehouse",
+      "content": "Create scalable data storage optimized for analytics.",
+      "cta": "Get Data Warehouse"
+    }
+  },
+  "predictive-analytics": {
+    "hero": {
+      "heading": "Predictive Analytics",
+      "subheading": "Forecast trends, predict outcomes, and make proactive decisions with advanced predictive analytics and machine learning models."
+    },
+    "introParagraph": {
+      "heading": "Predict the Future, Plan with Confidence",
+      "problemStatement": "Reactive decision-making based on historical data limits your ability to anticipate trends and prepare for future challenges.",
+      "valueProposition": "Our predictive analytics solutions analyze patterns, forecast trends, and predict outcomes to help you make proactive decisions and stay ahead of market changes."
+    },
+    "keyBenefits": {
+      "heading": "Predictive Analytics Benefits",
+      "benefits": [
+        {
+          "title": "Future Forecasting",
+          "description": "Predict trends, demand, and outcomes with statistical and ML models."
+        },
+        {
+          "title": "Risk Mitigation",
+          "description": "Identify potential risks and opportunities before they impact your business."
+        },
+        {
+          "title": "Strategic Planning",
+          "description": "Make data-driven decisions with confidence using accurate predictions and forecasts."
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        "Data Collection & Preparation",
+        "Feature Engineering",
+        "Model Selection & Development",
+        "Training & Validation",
+        "Deployment & Monitoring"
+      ]
+    },
+    "form": {
+      "heading": "Enable Predictive Insights",
+      "content": "Forecast trends and make proactive decisions with predictive analytics.",
+      "cta": "Get Predictive Analytics"
+    }
+  },
+  "data-visualization": {
+    "hero": {
+      "heading": "Data Visualization",
+      "subheading": "Create compelling visualizations and interactive dashboards that make complex data easy to understand and act upon."
+    },
+    "introParagraph": {
+      "heading": "Visualize Your Data",
+      "problemStatement": "Complex data presented in raw formats is difficult to understand and prevents stakeholders from extracting insights quickly.",
+      "valueProposition": "Our data visualization solutions transform complex data into clear, interactive visualizations and dashboards that make insights accessible and actionable for all stakeholders."
+    },
+    "keyBenefits": {
+      "heading": "Data Visualization Benefits",
+      "benefits": [
+        {
+          "title": "Clear Insights",
+          "description": "Present complex data in visual formats that are easy to understand and act upon."
+        },
+        {
+          "title": "Interactive Dashboards",
+          "description": "Create interactive dashboards that enable exploration and drill-down analysis."
+        },
+        {
+          "title": "Better Communication",
+          "description": "Communicate insights effectively through compelling visualizations that engage stakeholders."
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        "Visualization Requirements",
+        "Dashboard Design",
+        "Visualization Development",
+        "Testing & Refinement",
+        "Deployment & Training"
+      ]
+    },
+    "form": {
+      "heading": "Visualize Your Data",
+      "content": "Transform complex data into clear, actionable visualizations.",
+      "cta": "Get Visualization"
+    }
+  },
+  "otherServices": {
+    "dataAnalyticsServices": [
+      "Business Intelligence",
+      "Data Integration",
+      "Data Warehousing",
+      "Predictive Analytics",
+      "Data Visualization",
+      "Reporting Automation",
+      "Data Governance",
+      "Customer Analytics",
+      "Operational Analytics",
+      "Financial Analytics"
+    ],
+    "slugMapping": {
+      "Business Intelligence": "business-intelligence",
+      "Data Integration": "data-integration",
+      "Data Warehousing": "data-warehousing",
+      "Predictive Analytics": "predictive-analytics",
+      "Data Visualization": "data-visualization",
+      "Reporting Automation": "reporting-automation",
+      "Data Governance": "data-governance",
+      "Customer Analytics": "customer-analytics",
+      "Operational Analytics": "operational-analytics",
+      "Financial Analytics": "financial-analytics"
+    },
+    "config": {
+      "title": "Data & Analytics Services",
+      "highlightedText": "Data & Analytics",
+      "columns": 3,
+      "baseUrl": "/data-analytics/"
+    }
+  }
+}
