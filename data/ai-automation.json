@@ -1,0 +1,1556 @@
+{
+	"ai-automation": {
+		"hero": {
+			"heading": "AI & Automation Services",
+			"subheading": "Transform your business with intelligent automation and cutting-edge AI solutions to streamline operations, boost productivity, and drive innovation."
+		},
+		"introParagraph": {
+			"heading": "Intelligent Automation, Powerful Results",
+			"problemStatement": "Manual processes, repetitive tasks, and data overload slow down your business. Without intelligent automation, you're missing out on efficiency gains and competitive advantages that AI can deliver.",
+			"valueProposition": "We deliver comprehensive AI and automation solutions—from chatbots and process automation to machine learning and predictive analytics. Our experts integrate intelligent systems that reduce costs, improve accuracy, and free your team to focus on strategic work."
+		},
+		"painPoints": {
+			"heading": "AI & Automation Challenges, Solved",
+			"subheading": "We handle every challenge that comes with implementing AI and automation:",
+			"painPoints": [
+				{
+					"problem": "Manual, repetitive tasks consuming valuable time and resources.",
+					"solution": "We automate routine processes with intelligent workflows, freeing your team to focus on high-value strategic work and creative problem-solving."
+				},
+				{
+					"problem": "Difficulty extracting meaningful insights from large volumes of data.",
+					"solution": "Our AI-powered analytics and machine learning solutions transform raw data into actionable insights, predictions, and automated decision-making."
+				},
+				{
+					"problem": "High customer service costs and slow response times affecting satisfaction.",
+					"solution": "Deploy intelligent chatbots and virtual assistants that handle customer inquiries 24/7, provide instant responses, and escalate complex issues seamlessly."
+				},
+				{
+					"problem": "Complex integration challenges when adopting new AI technologies.",
+					"solution": "We handle end-to-end AI integration—from solution design to deployment—ensuring seamless connectivity with your existing systems and minimal disruption."
+				},
+				{
+					"problem": "Uncertain ROI and lack of expertise in implementing AI strategies.",
+					"solution": "Our proven AI frameworks and expert guidance ensure measurable results, clear ROI tracking, and successful adoption from pilot to full-scale deployment."
+				}
+			]
+		},
+		"keyBenefits": {
+			"heading": "AI & Automation Advantages",
+			"subheading": "Efficiency, intelligence, and innovation—all in one complete solution:",
+			"benefits": [
+				{
+					"title": "Increased Productivity",
+					"description": "Automate repetitive tasks and workflows, allowing your team to accomplish more in less time with higher accuracy and consistency."
+				},
+				{
+					"title": "Data-Driven Insights",
+					"description": "Leverage AI-powered analytics to uncover patterns, predict trends, and make informed decisions that drive business growth."
+				},
+				{
+					"title": "Enhanced Customer Experience",
+					"description": "Provide instant, personalized customer service with intelligent chatbots and virtual assistants available 24/7."
+				},
+				{
+					"title": "Cost Reduction",
+					"description": "Lower operational costs through automation while maintaining or improving service quality and response times."
+				},
+				{
+					"title": "Scalable Solutions",
+					"description": "Easily scale your AI infrastructure and automation workflows as your business grows without proportional cost increases."
+				}
+			]
+		},
+		"form": {
+			"heading": "Transform Your Business with AI & Automation Today",
+			"content": "Accelerate growth and efficiency with our comprehensive AI and automation solutions. From intelligent chatbots to predictive analytics, we deliver results.",
+			"subContent": "Get a free consultation on the right AI solution, automation strategy, or integration package for your business.",
+			"cta": "Let's discuss your AI and automation needs.",
+			"formHeading": "Get a Free AI & Automation Consultation",
+			"buttonText": "Get My Consultation"
+		},
+		"content": {
+			"heading": "Intelligent Automation for Modern Businesses",
+			"text1": "Our AI and automation services are designed to transform how you operate. Whether you need intelligent chatbots, process automation, machine learning models, or predictive analytics, we ensure seamless integration and measurable results.",
+			"text2": "We implement cutting-edge AI solutions with enterprise-grade reliability—from natural language processing to robotic process automation—so you can focus on innovation and growth without worrying about technical complexity.",
+			"text3": "From initial strategy and model development to deployment and ongoing optimization, our team handles every aspect of AI and automation to keep your systems intelligent, efficient, and ahead of the curve.",
+			"image": "ai-automation.jpg",
+			"alt": "AI & Automation Services"
+		},
+		"services": "AI & Automation",
+		"premiumCloudServices": {
+			"title": "Premium AI & Automation services",
+			"topCards": [
+				{
+					"title": "Intelligent automation",
+					"description": "Streamline your business processes with AI-powered automation that adapts to your workflow and scales with your needs."
+				},
+				{
+					"title": "Seamless integration",
+					"description": "Easily integrate AI solutions into your existing systems with our robust APIs and comprehensive integration support."
+				}
+			],
+			"customApi": {
+				"title": "Custom",
+				"badge": "API",
+				"description": "Powerful APIs and integration tools allow seamless automation and AI capabilities across your entire technology stack.",
+				"buttonText": "Learn more",
+				"buttonLink": "#"
+			},
+			"maximumCustomization": {
+				"title": "Maximum customization and control",
+				"description": "Tailored AI solutions designed to fit your specific business needs with full control and customization options.",
+				"buttonText": "Explore AI solutions",
+				"buttonLink": "#plans",
+				"features": [
+					{
+						"title": "Custom AI models",
+						"description": "Build and deploy AI models tailored to your specific industry requirements and business objectives."
+					},
+					{
+						"title": "Flexible deployment",
+						"description": "Deploy AI solutions on-premises, in the cloud, or in a hybrid environment based on your preferences."
+					},
+					{
+						"title": "Multi-platform support",
+						"description": "Seamless integration with popular platforms including AWS, Azure, Google Cloud, and your existing infrastructure."
+					}
+				]
+			}
+		},
+		"process": {
+			"steps": [
+				"AI Strategy & Assessment",
+				"Solution Design & Development",
+				"Integration & Deployment",
+				"Testing & Optimization",
+				"Monitoring & Continuous Improvement"
+			],
+			"content": [
+				"We begin by assessing your business processes, data infrastructure, and automation opportunities to identify the ideal AI solutions and ROI potential.",
+				"Our team designs and develops custom AI models, automation workflows, and intelligent systems tailored to your specific needs and objectives.",
+				"We seamlessly integrate AI solutions into your existing technology stack, ensuring minimal disruption and maximum compatibility with your current systems.",
+				"Rigorous testing and optimization ensure your AI solutions perform accurately, efficiently, and deliver the expected business outcomes.",
+				"We provide continuous monitoring, model refinement, and performance tuning to keep your AI systems intelligent, efficient, and aligned with evolving business needs."
+			]
+		},
+		"features": {
+			"heading": "Why Choose Our AI & Automation Solutions",
+			"subheading": "Experience the difference with AI and automation that actually works for your business:",
+			"features": [
+				{
+					"title": "Intelligent Automation",
+					"description": "Streamline your business processes with AI-powered automation that learns and adapts to your workflow, reducing manual effort and increasing efficiency."
+				},
+				{
+					"title": "Advanced Machine Learning",
+					"description": "Leverage cutting-edge machine learning models to extract insights, predict trends, and make data-driven decisions that drive business growth."
+				},
+				{
+					"title": "Seamless Integration",
+					"description": "Easily integrate AI solutions into your existing systems with robust APIs and comprehensive integration support across all major platforms."
+				},
+				{
+					"title": "Scalable Solutions",
+					"description": "Scale your AI infrastructure seamlessly as your business grows, handling increased workloads without compromising performance or reliability."
+				},
+				{
+					"title": "Custom AI Development",
+					"description": "Build tailored AI models and automation workflows designed specifically for your industry and business requirements with expert guidance."
+				}
+			]
+		},
+		"serviceCards": [
+			{
+				"id": "chatbots-and-virtual-assistants",
+				"name": "Chatbots & Virtual Assistants",
+				"title": "Chatbots & Virtual Assistants",
+				"description": "Intelligent conversational AI that provides instant customer support, answers queries, and handles routine interactions 24/7.",
+				"image": "/ai-automation/chatbots.webp"
+			},
+			{
+				"id": "process-automation",
+				"name": "Process Automation",
+				"title": "Process Automation",
+				"description": "Automate repetitive business processes and workflows to increase efficiency, reduce errors, and save valuable time.",
+				"image": "/ai-automation/process-automation.webp"
+			},
+			{
+				"id": "ai-powered-analytics",
+				"name": "AI-Powered Analytics",
+				"title": "AI-Powered Analytics",
+				"description": "Transform raw data into actionable insights with advanced AI analytics and predictive modeling for smarter decision-making.",
+				"image": "/ai-automation/analytics.webp"
+			},
+			{
+				"id": "machine-learning-solutions",
+				"name": "Machine Learning Solutions",
+				"title": "Machine Learning Solutions",
+				"description": "Build and deploy custom machine learning models tailored to your specific business needs and industry requirements.",
+				"image": "/ai-automation/machine-learning.webp"
+			},
+			{
+				"id": "natural-language-processing",
+				"name": "Natural Language Processing",
+				"title": "Natural Language Processing",
+				"description": "Enable your systems to understand, interpret, and respond to human language with advanced NLP capabilities.",
+				"image": "/ai-automation/nlp.webp"
+			},
+			{
+				"id": "predictive-analytics",
+				"name": "Predictive Analytics",
+				"title": "Predictive Analytics",
+				"description": "Forecast trends, predict outcomes, and make data-driven decisions with advanced predictive analytics models.",
+				"image": "/ai-automation/predictive.webp"
+			},
+			{
+				"id": "robotic-process-automation",
+				"name": "Robotic Process Automation",
+				"title": "Robotic Process Automation",
+				"description": "Automate high-volume, repetitive tasks across applications and systems to improve accuracy and efficiency.",
+				"image": "/ai-automation/rpa.webp"
+			},
+			{
+				"id": "ai-integration-services",
+				"name": "AI Integration Services",
+				"title": "AI Integration Services",
+				"description": "Seamlessly integrate AI capabilities into your existing systems and workflows with expert integration support.",
+				"image": "/ai-automation/integration.webp"
+			},
+			{
+				"id": "intelligent-document-processing",
+				"name": "Intelligent Document Processing",
+				"title": "Intelligent Document Processing",
+				"description": "Automate document extraction, classification, and processing with AI-powered intelligent document solutions.",
+				"image": "/ai-automation/document-processing.webp"
+			},
+			{
+				"id": "customer-service-automation",
+				"name": "Customer Service Automation",
+				"title": "Customer Service Automation",
+				"description": "Enhance customer support with automated ticketing, intelligent routing, and AI-powered response systems.",
+				"image": "/ai-automation/customer-service.webp"
+			},
+			{
+				"id": "workflow-automation",
+				"name": "Workflow Automation",
+				"title": "Workflow Automation",
+				"description": "Streamline complex business workflows with intelligent automation that adapts to your processes and requirements.",
+				"image": "/ai-automation/workflow.webp"
+			}
+		],
+		"faq": {
+			"serviceName": "AI & Automation",
+			"faqs": [
+				{
+					"q": "What types of AI solutions do you offer?",
+					"a": "We offer comprehensive AI and automation services including chatbots, process automation, machine learning, predictive analytics, NLP, RPA, and custom AI model development tailored to your business needs."
+				},
+				{
+					"q": "How long does it take to implement AI solutions?",
+					"a": "Implementation timelines vary based on complexity, but typical projects range from 4-12 weeks. Simple chatbots can be deployed in weeks, while custom ML models may take longer. We provide detailed timelines during consultation."
+				},
+				{
+					"q": "Can AI solutions integrate with our existing systems?",
+					"a": "Absolutely. We specialize in seamless integration with existing platforms, ERPs, CRMs, and custom systems. Our solutions are designed to work alongside your current infrastructure."
+				},
+				{
+					"q": "What ROI can I expect from AI automation?",
+					"a": "ROI varies by use case, but typical results include 30-60% cost reduction in automated processes, 24/7 customer service availability, and 40-70% faster processing times. We provide ROI projections during assessment."
+				},
+				{
+					"q": "Do you provide ongoing support and optimization?",
+					"a": "Yes, we offer comprehensive support including monitoring, model refinement, performance optimization, and updates to ensure your AI solutions continue delivering value as your business evolves."
+				}
+			]
+		}
+	},
+	"chatbots-and-virtual-assistants": {
+		"hero": {
+			"heading": "Chatbots & Virtual Assistants",
+			"subheading": "Intelligent conversational AI that provides instant customer support, answers queries, and handles routine interactions 24/7."
+		},
+		"introParagraph": {
+			"heading": "24/7 Intelligent Customer Support",
+			"problemStatement": "Manual customer service is costly, slow, and limited by business hours, leading to frustrated customers and missed opportunities.",
+			"valueProposition": "Our AI-powered chatbots and virtual assistants provide instant, accurate responses around the clock, handling common inquiries while seamlessly escalating complex issues to human agents."
+		},
+		"keyBenefits": {
+			"heading": "Chatbot & Virtual Assistant Benefits",
+			"subheading": "Always-on support that scales with your business.",
+			"benefits": [
+				{
+					"title": "24/7 Availability",
+					"description": "Provide instant customer support at any time, reducing wait times and improving satisfaction."
+				},
+				{
+					"title": "Cost Efficiency",
+					"description": "Reduce customer service costs while handling a higher volume of inquiries simultaneously."
+				},
+				{
+					"title": "Scalable Support",
+					"description": "Handle unlimited concurrent conversations without additional infrastructure costs."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Use Case Analysis",
+				"Conversation Design",
+				"Development & Training",
+				"Integration & Testing",
+				"Launch & Optimization"
+			]
+		},
+		"form": {
+			"heading": "Deploy Intelligent Chatbots",
+			"content": "Enhance customer service with AI-powered chatbots and virtual assistants.",
+			"cta": "Get Started Today"
+		}
+	},
+	"process-automation": {
+		"hero": {
+			"heading": "Process Automation Services",
+			"subheading": "Automate repetitive business processes and workflows to increase efficiency, reduce errors, and save valuable time."
+		},
+		"introParagraph": {
+			"heading": "Automate Routine, Focus on Strategy",
+			"problemStatement": "Manual, repetitive tasks consume time and resources while increasing the risk of human error.",
+			"valueProposition": "We automate your business processes with intelligent workflows that reduce manual effort, eliminate errors, and free your team for strategic work."
+		},
+		"keyBenefits": {
+			"heading": "Process Automation Benefits",
+			"benefits": [
+				{
+					"title": "Time Savings",
+					"description": "Reduce manual processing time by up to 80% while maintaining accuracy."
+				},
+				{
+					"title": "Error Reduction",
+					"description": "Eliminate human errors in repetitive tasks with consistent, automated workflows."
+				},
+				{
+					"title": "Cost Efficiency",
+					"description": "Lower operational costs by automating routine processes and reallocating resources."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Process Analysis",
+				"Automation Design",
+				"Development & Configuration",
+				"Testing & Deployment",
+				"Monitoring & Optimization"
+			]
+		},
+		"form": {
+			"heading": "Automate Your Processes",
+			"content": "Streamline operations with intelligent process automation.",
+			"cta": "Get Automation"
+		}
+	},
+	"ai-powered-analytics": {
+		"hero": {
+			"heading": "AI-Powered Analytics",
+			"subheading": "Transform raw data into actionable insights with advanced AI analytics and predictive modeling for smarter decision-making."
+		},
+		"introParagraph": {
+			"heading": "Turn Data Into Competitive Advantage",
+			"problemStatement": "Vast amounts of data remain untapped, missing opportunities for insights that drive growth.",
+			"valueProposition": "Our AI-powered analytics extract meaningful patterns, predict trends, and deliver actionable insights that inform strategic decisions and drive business outcomes."
+		},
+		"keyBenefits": {
+			"heading": "AI Analytics Benefits",
+			"benefits": [
+				{
+					"title": "Predictive Insights",
+					"description": "Forecast trends and outcomes with machine learning models that learn from your data."
+				},
+				{
+					"title": "Real-Time Analysis",
+					"description": "Get instant insights from live data streams for immediate decision-making."
+				},
+				{
+					"title": "Automated Reporting",
+					"description": "Generate comprehensive reports and dashboards automatically with minimal manual effort."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Data Assessment",
+				"Model Development",
+				"Analytics Implementation",
+				"Dashboard Creation",
+				"Insight Delivery"
+			]
+		},
+		"form": {
+			"heading": "Unlock Data Insights",
+			"content": "Transform your data into actionable intelligence with AI analytics.",
+			"cta": "Get Analytics"
+		}
+	},
+	"machine-learning-solutions": {
+		"hero": {
+			"heading": "Machine Learning Solutions",
+			"subheading": "Build and deploy custom machine learning models tailored to your specific business needs and industry requirements."
+		},
+		"introParagraph": {
+			"heading": "Custom ML Models for Your Business",
+			"problemStatement": "Generic AI solutions don't address your unique business challenges or industry-specific requirements.",
+			"valueProposition": "We develop custom machine learning models trained on your data to solve specific problems, predict outcomes, and automate complex decision-making."
+		},
+		"keyBenefits": {
+			"heading": "ML Solutions Benefits",
+			"benefits": [
+				{
+					"title": "Custom Models",
+					"description": "Build ML models specifically designed for your industry and business needs."
+				},
+				{
+					"title": "Continuous Learning",
+					"description": "Models improve over time as they learn from new data and feedback."
+				},
+				{
+					"title": "Scalable Deployment",
+					"description": "Deploy models that scale with your business needs and handle increasing data volumes."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Requirement Analysis",
+				"Data Preparation",
+				"Model Training",
+				"Validation & Testing",
+				"Deployment & Monitoring"
+			]
+		},
+		"form": {
+			"heading": "Build Custom ML Models",
+			"content": "Develop tailored machine learning solutions for your business.",
+			"cta": "Get ML Solutions"
+		}
+	},
+	"natural-language-processing": {
+		"hero": {
+			"heading": "Natural Language Processing",
+			"subheading": "Enable your systems to understand, interpret, and respond to human language with advanced NLP capabilities."
+		},
+		"introParagraph": {
+			"heading": "Understand Human Language",
+			"problemStatement": "Processing unstructured text data manually is time-consuming and fails to extract valuable insights from customer feedback, documents, and communications.",
+			"valueProposition": "Our NLP solutions analyze text, extract meaning, classify content, and enable natural language interactions that improve customer experience and operational efficiency."
+		},
+		"keyBenefits": {
+			"heading": "NLP Benefits",
+			"benefits": [
+				{
+					"title": "Text Analysis",
+					"description": "Automatically analyze and extract insights from unstructured text data."
+				},
+				{
+					"title": "Sentiment Analysis",
+					"description": "Understand customer sentiment and feedback across channels and touchpoints."
+				},
+				{
+					"title": "Language Understanding",
+					"description": "Enable systems to understand context, intent, and meaning from natural language."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Use Case Definition",
+				"NLP Model Selection",
+				"Training & Fine-Tuning",
+				"Integration & Testing",
+				"Deployment & Optimization"
+			]
+		},
+		"form": {
+			"heading": "Implement NLP Solutions",
+			"content": "Enable natural language understanding in your systems.",
+			"cta": "Get NLP"
+		}
+	},
+	"predictive-analytics": {
+		"hero": {
+			"heading": "Predictive Analytics",
+			"subheading": "Forecast trends, predict outcomes, and make data-driven decisions with advanced predictive analytics models."
+		},
+		"introParagraph": {
+			"heading": "Predict the Future, Plan with Confidence",
+			"problemStatement": "Reactive decision-making based on historical data limits your ability to anticipate trends and prepare for future challenges.",
+			"valueProposition": "Our predictive analytics models analyze patterns, forecast trends, and predict outcomes to help you make proactive decisions and stay ahead of market changes."
+		},
+		"keyBenefits": {
+			"heading": "Predictive Analytics Benefits",
+			"benefits": [
+				{
+					"title": "Future Forecasting",
+					"description": "Predict trends, demand, and outcomes with statistical and ML models."
+				},
+				{
+					"title": "Risk Mitigation",
+					"description": "Identify potential risks and opportunities before they impact your business."
+				},
+				{
+					"title": "Strategic Planning",
+					"description": "Make data-driven decisions with confidence using accurate predictions and forecasts."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Data Collection",
+				"Feature Engineering",
+				"Model Selection",
+				"Training & Validation",
+				"Deployment & Monitoring"
+			]
+		},
+		"form": {
+			"heading": "Enable Predictive Insights",
+			"content": "Forecast trends and make proactive decisions with predictive analytics.",
+			"cta": "Get Predictive Analytics"
+		}
+	},
+	"robotic-process-automation": {
+		"hero": {
+			"heading": "Robotic Process Automation",
+			"subheading": "Automate high-volume, repetitive tasks across applications and systems to improve accuracy and efficiency."
+		},
+		"introParagraph": {
+			"heading": "Automate Repetitive Tasks Across Systems",
+			"problemStatement": "Repetitive, rule-based tasks across multiple systems consume time and are prone to errors when done manually.",
+			"valueProposition": "Our RPA solutions automate high-volume tasks across applications, systems, and platforms, reducing errors and freeing resources for value-added work."
+		},
+		"keyBenefits": {
+			"heading": "RPA Benefits",
+			"benefits": [
+				{
+					"title": "Task Automation",
+					"description": "Automate rule-based tasks across multiple applications and systems."
+				},
+				{
+					"title": "High Accuracy",
+					"description": "Eliminate human errors in repetitive tasks with consistent robotic execution."
+				},
+				{
+					"title": "Rapid ROI",
+					"description": "Achieve quick returns with faster implementation and immediate efficiency gains."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Process Identification",
+				"Bot Development",
+				"Testing & Validation",
+				"Deployment",
+				"Monitoring & Maintenance"
+			]
+		},
+		"form": {
+			"heading": "Automate with RPA",
+			"content": "Streamline operations with robotic process automation.",
+			"cta": "Get RPA"
+		}
+	},
+	"ai-integration-services": {
+		"hero": {
+			"heading": "AI Integration Services",
+			"subheading": "Seamlessly integrate AI capabilities into your existing systems and workflows with expert integration support."
+		},
+		"introParagraph": {
+			"heading": "Seamless AI Integration",
+			"problemStatement": "Integrating AI into existing systems can be complex, requiring technical expertise and careful planning to avoid disruption.",
+			"valueProposition": "We handle end-to-end AI integration, ensuring seamless connectivity with your current systems, minimal disruption, and maximum compatibility."
+		},
+		"keyBenefits": {
+			"heading": "AI Integration Benefits",
+			"benefits": [
+				{
+					"title": "Seamless Connectivity",
+					"description": "Integrate AI capabilities with existing systems without major overhauls."
+				},
+				{
+					"title": "Minimal Disruption",
+					"description": "Deploy AI solutions with careful planning to avoid business disruption."
+				},
+				{
+					"title": "Expert Support",
+					"description": "Get comprehensive integration support from design to deployment and beyond."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"System Assessment",
+				"Integration Architecture",
+				"API Development",
+				"Testing & Validation",
+				"Deployment & Support"
+			]
+		},
+		"form": {
+			"heading": "Integrate AI Seamlessly",
+			"content": "Connect AI solutions with your existing infrastructure.",
+			"cta": "Get Integration"
+		}
+	},
+	"intelligent-document-processing": {
+		"hero": {
+			"heading": "Intelligent Document Processing",
+			"subheading": "Automate document extraction, classification, and processing with AI-powered intelligent document solutions."
+		},
+		"introParagraph": {
+			"heading": "Automate Document Workflows",
+			"problemStatement": "Manual document processing is slow, error-prone, and doesn't scale with growing document volumes.",
+			"valueProposition": "Our intelligent document processing uses AI to extract, classify, and process documents automatically, reducing time and errors while improving compliance."
+		},
+		"keyBenefits": {
+			"heading": "Document Processing Benefits",
+			"benefits": [
+				{
+					"title": "Automated Extraction",
+					"description": "Extract data from various document types automatically with high accuracy."
+				},
+				{
+					"title": "Smart Classification",
+					"description": "Automatically classify and route documents based on content and context."
+				},
+				{
+					"title": "Faster Processing",
+					"description": "Process documents in seconds instead of minutes, improving throughput significantly."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Document Analysis",
+				"Model Training",
+				"Workflow Design",
+				"Integration & Testing",
+				"Deployment & Optimization"
+			]
+		},
+		"form": {
+			"heading": "Automate Document Processing",
+			"content": "Streamline document workflows with intelligent processing.",
+			"cta": "Get Document Processing"
+		}
+	},
+	"customer-service-automation": {
+		"hero": {
+			"heading": "Customer Service Automation",
+			"subheading": "Enhance customer support with automated ticketing, intelligent routing, and AI-powered response systems."
+		},
+		"introParagraph": {
+			"heading": "Elevate Customer Support",
+			"problemStatement": "Manual customer service processes lead to slow response times, inconsistent quality, and high operational costs.",
+			"valueProposition": "We automate customer service with intelligent ticketing, smart routing, AI-powered responses, and automated workflows that improve satisfaction and efficiency."
+		},
+		"keyBenefits": {
+			"heading": "Customer Service Automation Benefits",
+			"benefits": [
+				{
+					"title": "Faster Resolution",
+					"description": "Reduce response times and resolve issues faster with automated workflows."
+				},
+				{
+					"title": "Intelligent Routing",
+					"description": "Route inquiries to the right agents automatically based on complexity and expertise."
+				},
+				{
+					"title": "Consistent Quality",
+					"description": "Ensure consistent service quality with automated responses and standardized processes."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Service Assessment",
+				"Automation Design",
+				"Workflow Development",
+				"Integration & Testing",
+				"Launch & Optimization"
+			]
+		},
+		"form": {
+			"heading": "Automate Customer Service",
+			"content": "Enhance support with intelligent automation.",
+			"cta": "Get Automation"
+		}
+	},
+	"workflow-automation": {
+		"hero": {
+			"heading": "Workflow Automation",
+			"subheading": "Streamline complex business workflows with intelligent automation that adapts to your processes and requirements."
+		},
+		"introParagraph": {
+			"heading": "Streamline Complex Workflows",
+			"problemStatement": "Complex, multi-step workflows involving multiple systems and teams create bottlenecks and delay outcomes.",
+			"valueProposition": "We automate complex workflows end-to-end, connecting systems, automating approvals, and orchestrating processes for maximum efficiency and speed."
+		},
+		"keyBenefits": {
+			"heading": "Workflow Automation Benefits",
+			"benefits": [
+				{
+					"title": "End-to-End Automation",
+					"description": "Automate entire workflows from start to finish across multiple systems."
+				},
+				{
+					"title": "Process Visibility",
+					"description": "Gain complete visibility into workflow status, bottlenecks, and performance metrics."
+				},
+				{
+					"title": "Faster Execution",
+					"description": "Reduce workflow completion time significantly with intelligent automation."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Workflow Analysis",
+				"Automation Design",
+				"Orchestration Setup",
+				"Integration & Testing",
+				"Deployment & Monitoring"
+			]
+		},
+		"form": {
+			"heading": "Automate Workflows",
+			"content": "Streamline complex business processes with intelligent automation.",
+			"cta": "Get Workflow Automation"
+		}
+	},
+	"ai-chatbots": {
+		"hero": {
+			"heading": "AI Chatbots",
+			"subheading": "Intelligent AI-powered chatbots that provide instant customer support, answer inquiries, and automate customer interactions 24/7."
+		},
+		"introParagraph": {
+			"heading": "Intelligent AI Assistant Chatbots",
+			"problemStatement": "Manual customer support is slow, expensive, and limited by business hours, leading to poor customer experience and missed sales opportunities.",
+			"valueProposition": "Our AI chatbots provide instant, intelligent responses around the clock, handling customer inquiries, qualifying leads, and automating routine interactions to improve satisfaction and reduce costs."
+		},
+		"keyBenefits": {
+			"heading": "AI Chatbot Benefits",
+			"subheading": "Always-available intelligent assistance that never sleeps:",
+			"benefits": [
+				{
+					"title": "24/7 Customer Support",
+					"description": "Provide instant responses to customers anytime, anywhere, improving satisfaction and engagement."
+				},
+				{
+					"title": "Lead Qualification",
+					"description": "Automatically qualify leads, gather information, and route qualified prospects to your sales team."
+				},
+				{
+					"title": "Cost Efficiency",
+					"description": "Reduce customer service costs while handling unlimited concurrent conversations without scaling overhead."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Chatbot Strategy",
+				"Conversation Design",
+				"AI Training & Development",
+				"Integration & Testing",
+				"Launch & Continuous Learning"
+			]
+		},
+		"form": {
+			"heading": "Deploy AI Chatbots",
+			"content": "Transform customer service with intelligent AI chatbots that work around the clock.",
+			"cta": "Get AI Chatbots"
+		}
+	},
+	"ai-receptionists": {
+		"hero": {
+			"heading": "AI-Powered Voice Agents & Receptionists",
+			"subheading": "Intelligent voice-powered AI receptionists that handle calls, schedule appointments, and provide customer support using natural language."
+		},
+		"introParagraph": {
+			"heading": "Intelligent Voice-Powered Receptionists",
+			"problemStatement": "Missed calls, long wait times, and after-hours call handling issues result in lost opportunities and frustrated customers.",
+			"valueProposition": "Our AI-powered voice agents act as intelligent receptionists, handling calls 24/7, scheduling appointments, answering questions, and seamlessly transferring complex calls to human agents."
+		},
+		"keyBenefits": {
+			"heading": "AI Voice Agent Benefits",
+			"subheading": "Never miss a call with intelligent voice automation:",
+			"benefits": [
+				{
+					"title": "24/7 Call Handling",
+					"description": "Answer every call instantly, even outside business hours, ensuring no opportunity is missed."
+				},
+				{
+					"title": "Natural Conversations",
+					"description": "Engage customers with natural, human-like voice interactions that understand context and intent."
+				},
+				{
+					"title": "Automated Scheduling",
+					"description": "Schedule appointments, manage calendars, and handle booking requests automatically."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Voice Strategy Design",
+				"Conversation Flow Development",
+				"Voice AI Training",
+				"Phone System Integration",
+				"Testing & Launch"
+			]
+		},
+		"form": {
+			"heading": "Get AI Voice Receptionists",
+			"content": "Never miss a call with intelligent AI-powered voice agents.",
+			"cta": "Deploy Voice Agents"
+		}
+	},
+	"factory-automation": {
+		"hero": {
+			"heading": "Factory Automation",
+			"subheading": "Transform manufacturing operations with intelligent automation solutions that optimize production, reduce waste, and improve quality."
+		},
+		"introParagraph": {
+			"heading": "Intelligent Factory Automation",
+			"problemStatement": "Manual manufacturing processes lead to inefficiencies, quality inconsistencies, and production bottlenecks that limit output and profitability.",
+			"valueProposition": "We implement comprehensive factory automation solutions using AI, robotics, and IoT to optimize production lines, ensure quality control, and maximize manufacturing efficiency."
+		},
+		"keyBenefits": {
+			"heading": "Factory Automation Benefits",
+			"subheading": "Optimize production with intelligent automation:",
+			"benefits": [
+				{
+					"title": "Increased Productivity",
+					"description": "Automate repetitive tasks and optimize production workflows to increase output and reduce cycle times."
+				},
+				{
+					"title": "Quality Consistency",
+					"description": "Maintain consistent product quality with automated quality control and monitoring systems."
+				},
+				{
+					"title": "Reduced Waste",
+					"description": "Minimize material waste and production errors through intelligent process optimization."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Factory Assessment",
+				"Automation Design",
+				"System Integration",
+				"Testing & Optimization",
+				"Deployment & Training"
+			]
+		},
+		"form": {
+			"heading": "Automate Your Factory",
+			"content": "Transform manufacturing with intelligent factory automation.",
+			"cta": "Get Factory Automation"
+		}
+	},
+	"social-media-automation": {
+		"hero": {
+			"heading": "Social Media Automation",
+			"subheading": "Automate social media management, content scheduling, engagement, and analytics to save time and grow your online presence."
+		},
+		"introParagraph": {
+			"heading": "Automate Social Media Success",
+			"problemStatement": "Managing multiple social media platforms manually is time-consuming and inconsistent, leading to missed engagement opportunities and brand visibility gaps.",
+			"valueProposition": "We automate your social media strategy with AI-powered content scheduling, automated posting, engagement management, and analytics to maintain consistent presence and drive growth."
+		},
+		"keyBenefits": {
+			"heading": "Social Media Automation Benefits",
+			"subheading": "Maintain consistent social presence effortlessly:",
+			"benefits": [
+				{
+					"title": "Time Savings",
+					"description": "Automate posting, scheduling, and engagement across all platforms, saving hours daily."
+				},
+				{
+					"title": "Consistent Presence",
+					"description": "Maintain active engagement on all platforms without manual intervention."
+				},
+				{
+					"title": "Performance Insights",
+					"description": "Track performance, analyze engagement, and optimize strategy with automated analytics."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Strategy Development",
+				"Platform Integration",
+				"Automation Setup",
+				"Content Calendar Creation",
+				"Launch & Optimization"
+			]
+		},
+		"form": {
+			"heading": "Automate Social Media",
+			"content": "Save time and grow your social presence with intelligent automation.",
+			"cta": "Get Social Automation"
+		}
+	},
+	"erp-systems": {
+		"hero": {
+			"heading": "ERP Systems",
+			"subheading": "Streamline business operations with integrated ERP systems that centralize data, automate processes, and improve decision-making."
+		},
+		"introParagraph": {
+			"heading": "Integrated Enterprise Resource Planning",
+			"problemStatement": "Disconnected systems and manual data entry create inefficiencies, data silos, and errors that hinder business growth and decision-making.",
+			"valueProposition": "We implement comprehensive ERP systems that integrate all business functions—finance, inventory, sales, HR—into a unified platform with automated workflows and real-time insights."
+		},
+		"keyBenefits": {
+			"heading": "ERP System Benefits",
+			"subheading": "Unify operations with intelligent ERP solutions:",
+			"benefits": [
+				{
+					"title": "Centralized Operations",
+					"description": "Integrate all business functions into a single system for seamless operations and data visibility."
+				},
+				{
+					"title": "Process Automation",
+					"description": "Automate workflows across departments to reduce manual effort and improve efficiency."
+				},
+				{
+					"title": "Data-Driven Decisions",
+					"description": "Access real-time insights and analytics to make informed business decisions quickly."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Business Analysis",
+				"ERP Selection & Design",
+				"Customization & Integration",
+				"Data Migration",
+				"Training & Go-Live"
+			]
+		},
+		"form": {
+			"heading": "Implement ERP Systems",
+			"content": "Transform operations with integrated ERP solutions.",
+			"cta": "Get ERP System"
+		}
+	},
+	"lead-follow-up-agent": {
+		"hero": {
+			"heading": "Lead Follow Up Agent",
+			"subheading": "AI-powered automated lead follow-up systems that nurture prospects, qualify leads, and convert opportunities into customers."
+		},
+		"introParagraph": {
+			"heading": "Automated Lead Nurturing",
+			"problemStatement": "Manual lead follow-up is inconsistent and time-consuming, leading to lost opportunities and low conversion rates.",
+			"valueProposition": "Our AI-powered lead follow-up agents automatically nurture prospects, send personalized messages, qualify leads, and schedule meetings to maximize conversion rates."
+		},
+		"keyBenefits": {
+			"heading": "Lead Follow-Up Benefits",
+			"subheading": "Never miss a lead with automated follow-up:",
+			"benefits": [
+				{
+					"title": "Consistent Follow-Up",
+					"description": "Automatically follow up with leads at optimal times with personalized messages."
+				},
+				{
+					"title": "Lead Qualification",
+					"description": "Intelligently qualify leads and route hot prospects to your sales team."
+				},
+				{
+					"title": "Higher Conversion",
+					"description": "Increase conversion rates with timely, personalized follow-up that keeps your brand top of mind."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Follow-Up Strategy",
+				"Workflow Design",
+				"AI Agent Development",
+				"Integration & Testing",
+				"Launch & Optimization"
+			]
+		},
+		"form": {
+			"heading": "Automate Lead Follow-Up",
+			"content": "Never miss a lead with intelligent follow-up automation.",
+			"cta": "Get Lead Agent"
+		}
+	},
+	"customer-feedback-collector": {
+		"hero": {
+			"heading": "Customer Feedback Collector",
+			"subheading": "Automated AI systems that collect, analyze, and act on customer feedback to improve satisfaction and business performance."
+		},
+		"introParagraph": {
+			"heading": "Intelligent Feedback Collection",
+			"problemStatement": "Collecting customer feedback manually is sporadic and resource-intensive, missing valuable insights that could drive improvements.",
+			"valueProposition": "Our automated feedback collectors gather customer insights continuously, analyze sentiment, identify trends, and trigger actions to improve satisfaction and retention."
+		},
+		"keyBenefits": {
+			"heading": "Feedback Collection Benefits",
+			"subheading": "Gather insights automatically and continuously:",
+			"benefits": [
+				{
+					"title": "Continuous Collection",
+					"description": "Automatically collect feedback from multiple touchpoints without manual effort."
+				},
+				{
+					"title": "Sentiment Analysis",
+					"description": "Analyze feedback sentiment and identify trends to understand customer satisfaction levels."
+				},
+				{
+					"title": "Actionable Insights",
+					"description": "Transform feedback into actionable insights that drive product and service improvements."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Feedback Strategy",
+				"Collection Workflow Design",
+				"AI Analysis Setup",
+				"Integration & Testing",
+				"Deployment & Monitoring"
+			]
+		},
+		"form": {
+			"heading": "Automate Feedback Collection",
+			"content": "Gather customer insights continuously with intelligent automation.",
+			"cta": "Get Feedback Collector"
+		}
+	},
+	"automation-blogging": {
+		"hero": {
+			"heading": "Full Automation Blogging",
+			"subheading": "AI-powered automated blogging systems that research, write, optimize, and publish blog content to drive organic traffic."
+		},
+		"introParagraph": {
+			"heading": "Automated Content Publishing",
+			"problemStatement": "Creating, optimizing, and publishing blog content consistently requires significant time and expertise, limiting content output and SEO growth.",
+			"valueProposition": "Our full automation blogging systems use AI to research topics, write SEO-optimized content, schedule publishing, and maintain consistent blog output to drive organic traffic."
+		},
+		"keyBenefits": {
+			"heading": "Blog Automation Benefits",
+			"subheading": "Publish quality content automatically:",
+			"benefits": [
+				{
+					"title": "Consistent Publishing",
+					"description": "Maintain regular blog publishing schedules without manual content creation."
+				},
+				{
+					"title": "SEO Optimization",
+					"description": "Automatically optimize content for search engines to improve rankings and traffic."
+				},
+				{
+					"title": "Time Savings",
+					"description": "Save hours on research, writing, and publishing while maintaining quality standards."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Content Strategy",
+				"AI Blog Setup",
+				"Automation Configuration",
+				"Quality Review Setup",
+				"Launch & Monitoring"
+			]
+		},
+		"form": {
+			"heading": "Automate Your Blogging",
+			"content": "Publish quality content consistently with full automation.",
+			"cta": "Get Blog Automation"
+		}
+	},
+	"ai-content-generation-tools": {
+		"hero": {
+			"heading": "AI Content Generation Tools",
+			"subheading": "Advanced AI-powered tools that generate high-quality written content, copy, articles, and marketing materials."
+		},
+		"introParagraph": {
+			"heading": "Intelligent Content Creation",
+			"problemStatement": "Creating quality content at scale requires time, expertise, and resources that limit output and marketing effectiveness.",
+			"valueProposition": "Our AI content generation tools produce high-quality written content—from blog posts and articles to marketing copy and product descriptions—at scale with human-like quality."
+		},
+		"keyBenefits": {
+			"heading": "Content Generation Benefits",
+			"subheading": "Create content at scale effortlessly:",
+			"benefits": [
+				{
+					"title": "Scalable Creation",
+					"description": "Generate high-quality content quickly to meet demanding publishing schedules."
+				},
+				{
+					"title": "Multiple Formats",
+					"description": "Create various content types from blog posts to marketing copy and product descriptions."
+				},
+				{
+					"title": "Brand Consistency",
+					"description": "Maintain brand voice and style across all generated content automatically."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Content Requirements",
+				"AI Tool Setup",
+				"Brand Voice Training",
+				"Quality Guidelines",
+				"Deployment & Optimization"
+			]
+		},
+		"form": {
+			"heading": "Get AI Content Tools",
+			"content": "Generate high-quality content at scale with AI.",
+			"cta": "Get Content Tools"
+		}
+	},
+	"ai-driven-email-marketing": {
+		"hero": {
+			"heading": "AI-Driven Email Marketing",
+			"subheading": "Intelligent email marketing automation that personalizes campaigns, optimizes send times, and maximizes engagement and conversions."
+		},
+		"introParagraph": {
+			"heading": "Intelligent Email Campaigns",
+			"problemStatement": "Generic email campaigns result in low engagement and poor conversion rates, wasting marketing spend and missing revenue opportunities.",
+			"valueProposition": "Our AI-driven email marketing automatically personalizes content, optimizes send times, segments audiences, and A/B tests campaigns to maximize open rates, clicks, and conversions."
+		},
+		"keyBenefits": {
+			"heading": "AI Email Marketing Benefits",
+			"subheading": "Maximize email performance with AI:",
+			"benefits": [
+				{
+					"title": "Personalization",
+					"description": "Automatically personalize email content for each recipient to improve engagement."
+				},
+				{
+					"title": "Optimal Timing",
+					"description": "Send emails at optimal times for each recipient to maximize open and click rates."
+				},
+				{
+					"title": "Higher Conversions",
+					"description": "Increase conversions with intelligent segmentation and automated campaign optimization."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Email Strategy",
+				"AI Setup & Training",
+				"Campaign Automation",
+				"Integration & Testing",
+				"Launch & Optimization"
+			]
+		},
+		"form": {
+			"heading": "Automate Email Marketing",
+			"content": "Maximize email performance with AI-driven campaigns.",
+			"cta": "Get Email Automation"
+		}
+	},
+	"ai-website-personalisation": {
+		"hero": {
+			"heading": "AI Website Personalisation",
+			"subheading": "Dynamic website personalization that adapts content, products, and experiences for each visitor to increase engagement and conversions."
+		},
+		"introParagraph": {
+			"heading": "Personalized Web Experiences",
+			"problemStatement": "Generic website experiences fail to engage visitors effectively, resulting in low conversion rates and missed revenue opportunities.",
+			"valueProposition": "Our AI website personalization dynamically adapts content, product recommendations, and user experiences for each visitor based on behavior, preferences, and history to maximize engagement and conversions."
+		},
+		"keyBenefits": {
+			"heading": "Website Personalization Benefits",
+			"subheading": "Deliver tailored experiences automatically:",
+			"benefits": [
+				{
+					"title": "Dynamic Content",
+					"description": "Show relevant content, products, and offers to each visitor based on their behavior."
+				},
+				{
+					"title": "Higher Engagement",
+					"description": "Increase time on site and engagement with personalized experiences."
+				},
+				{
+					"title": "Better Conversions",
+					"description": "Improve conversion rates by showing visitors what they want to see."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Personalization Strategy",
+				"AI Model Development",
+				"Integration & Setup",
+				"Testing & Optimization",
+				"Launch & Monitoring"
+			]
+		},
+		"form": {
+			"heading": "Personalize Your Website",
+			"content": "Deliver tailored experiences with AI personalization.",
+			"cta": "Get Personalization"
+		}
+	},
+	"ai-customer-segmentation": {
+		"hero": {
+			"heading": "AI Customer Segmentation",
+			"subheading": "Intelligent customer segmentation using AI to identify distinct customer groups and personalize marketing strategies for each segment."
+		},
+		"introParagraph": {
+			"heading": "Intelligent Customer Groups",
+			"problemStatement": "One-size-fits-all marketing fails to resonate with diverse customer groups, reducing campaign effectiveness and ROI.",
+			"valueProposition": "Our AI customer segmentation automatically identifies distinct customer groups based on behavior, demographics, and preferences, enabling targeted marketing strategies for each segment."
+		},
+		"keyBenefits": {
+			"heading": "Customer Segmentation Benefits",
+			"subheading": "Target customers intelligently:",
+			"benefits": [
+				{
+					"title": "Precise Segments",
+					"description": "Identify distinct customer groups automatically using AI analysis of behavior and data."
+				},
+				{
+					"title": "Targeted Marketing",
+					"description": "Create personalized campaigns for each segment to improve engagement and ROI."
+				},
+				{
+					"title": "Better Insights",
+					"description": "Understand customer behavior patterns to inform product and marketing decisions."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Data Collection",
+				"AI Analysis & Segmentation",
+				"Segment Strategy",
+				"Campaign Development",
+				"Implementation & Testing"
+			]
+		},
+		"form": {
+			"heading": "Segment Your Customers",
+			"content": "Identify customer groups with AI-powered segmentation.",
+			"cta": "Get Segmentation"
+		}
+	},
+	"ai-lead-nurturing": {
+		"hero": {
+			"heading": "AI Lead Nurturing Workflows",
+			"subheading": "Automated lead nurturing workflows that engage prospects with personalized content and messaging to convert leads into customers."
+		},
+		"introParagraph": {
+			"heading": "Intelligent Lead Nurturing",
+			"problemStatement": "Manual lead nurturing is inconsistent and resource-intensive, leading to lost opportunities and low conversion rates.",
+			"valueProposition": "Our AI lead nurturing workflows automatically engage prospects with personalized content, timely follow-ups, and intelligent messaging sequences that move leads through the sales funnel."
+		},
+		"keyBenefits": {
+			"heading": "Lead Nurturing Benefits",
+			"subheading": "Convert leads automatically with personalized nurturing:",
+			"benefits": [
+				{
+					"title": "Personalized Engagement",
+					"description": "Deliver personalized content and messages based on lead behavior and interests."
+				},
+				{
+					"title": "Automated Workflows",
+					"description": "Maintain consistent engagement with automated nurturing sequences."
+				},
+				{
+					"title": "Higher Conversion",
+					"description": "Increase conversion rates by nurturing leads with relevant content at optimal times."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Nurturing Strategy",
+				"Workflow Design",
+				"Content Development",
+				"Automation Setup",
+				"Launch & Optimization"
+			]
+		},
+		"form": {
+			"heading": "Automate Lead Nurturing",
+			"content": "Convert more leads with intelligent nurturing workflows.",
+			"cta": "Get Nurturing Automation"
+		}
+	},
+	"ai-product-recommendations": {
+		"hero": {
+			"heading": "AI-Powered Product Recommendations",
+			"subheading": "Intelligent product recommendation engines that suggest relevant products to customers, increasing sales and average order value."
+		},
+		"introParagraph": {
+			"heading": "Intelligent Product Suggestions",
+			"problemStatement": "Manual product recommendations miss opportunities to cross-sell and upsell, limiting revenue potential and customer satisfaction.",
+			"valueProposition": "Our AI-powered recommendation engines analyze customer behavior, purchase history, and preferences to suggest relevant products that increase sales, average order value, and customer satisfaction."
+		},
+		"keyBenefits": {
+			"heading": "Product Recommendation Benefits",
+			"subheading": "Boost sales with intelligent recommendations:",
+			"benefits": [
+				{
+					"title": "Increased Sales",
+					"description": "Suggest relevant products to customers to drive additional purchases and upsells."
+				},
+				{
+					"title": "Higher AOV",
+					"description": "Increase average order value with intelligent cross-sell and upsell recommendations."
+				},
+				{
+					"title": "Better Experience",
+					"description": "Help customers discover products they want, improving satisfaction and loyalty."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Recommendation Strategy",
+				"AI Model Development",
+				"Integration & Setup",
+				"Testing & Optimization",
+				"Launch & Monitoring"
+			]
+		},
+		"form": {
+			"heading": "Get Product Recommendations",
+			"content": "Boost sales with AI-powered product suggestions.",
+			"cta": "Get Recommendations"
+		}
+	},
+	"ai-for-sales": {
+		"hero": {
+			"heading": "Conversational AI for Sales",
+			"subheading": "AI-powered conversational assistants that engage prospects, answer questions, qualify leads, and guide customers through the sales process."
+		},
+		"introParagraph": {
+			"heading": "AI Sales Assistants",
+			"problemStatement": "Manual sales processes are slow, inconsistent, and unable to engage all prospects effectively, limiting sales growth.",
+			"valueProposition": "Our conversational AI for sales engages prospects naturally, answers questions, qualifies leads, schedules meetings, and guides customers through the buying journey to increase conversions."
+		},
+		"keyBenefits": {
+			"heading": "Sales AI Benefits",
+			"subheading": "Scale sales with conversational AI:",
+			"benefits": [
+				{
+					"title": "24/7 Engagement",
+					"description": "Engage prospects around the clock, never missing a sales opportunity."
+				},
+				{
+					"title": "Lead Qualification",
+					"description": "Automatically qualify leads and route hot prospects to your sales team."
+				},
+				{
+					"title": "Higher Conversion",
+					"description": "Guide prospects through the sales process with intelligent conversations that convert."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Sales Strategy",
+				"Conversation Design",
+				"AI Development",
+				"Integration & Testing",
+				"Launch & Optimization"
+			]
+		},
+		"form": {
+			"heading": "Deploy Sales AI",
+			"content": "Scale sales with conversational AI assistants.",
+			"cta": "Get Sales AI"
+		}
+	},
+	"ai-survey-bots": {
+		"hero": {
+			"heading": "AI-Powered Survey Bots",
+			"subheading": "Intelligent survey bots that conduct conversations, gather feedback, and collect insights through natural dialogue."
+		},
+		"introParagraph": {
+			"heading": "Conversational Survey Collection",
+			"problemStatement": "Traditional surveys have low response rates and fail to gather meaningful insights due to poor engagement and user experience.",
+			"valueProposition": "Our AI-powered survey bots conduct engaging conversational surveys that feel like natural conversations, increasing response rates and collecting deeper, more actionable insights."
+		},
+		"keyBenefits": {
+			"heading": "Survey Bot Benefits",
+			"subheading": "Collect insights through conversation:",
+			"benefits": [
+				{
+					"title": "Higher Response Rates",
+					"description": "Engage respondents with conversational surveys that feel natural and enjoyable."
+				},
+				{
+					"title": "Deeper Insights",
+					"description": "Collect detailed feedback through intelligent follow-up questions and dialogue."
+				},
+				{
+					"title": "Automated Analysis",
+					"description": "Automatically analyze responses and generate insights without manual processing."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Survey Strategy",
+				"Conversation Design",
+				"Bot Development",
+				"Integration & Testing",
+				"Launch & Data Collection"
+			]
+		},
+		"form": {
+			"heading": "Get Survey Bots",
+			"content": "Collect insights with conversational AI surveys.",
+			"cta": "Get Survey Bots"
+		}
+	},
+	"generative-ai": {
+		"hero": {
+			"heading": "Generative AI for Visuals",
+			"subheading": "AI-powered tools that generate images, graphics, and creative visuals for marketing, branding, and content creation."
+		},
+		"introParagraph": {
+			"heading": "AI-Generated Visual Content",
+			"problemStatement": "Creating custom visuals, images, and graphics requires expensive designers and time, limiting creative output and marketing agility.",
+			"valueProposition": "Our generative AI solutions create high-quality images, graphics, and creative visuals on-demand, reducing design costs and enabling rapid content creation for marketing and branding."
+		},
+		"keyBenefits": {
+			"heading": "Generative AI Benefits",
+			"subheading": "Create visuals instantly with AI:",
+			"benefits": [
+				{
+					"title": "Instant Creation",
+					"description": "Generate high-quality images and graphics instantly without waiting for designers."
+				},
+				{
+					"title": "Cost Savings",
+					"description": "Reduce design costs while maintaining professional-quality visual output."
+				},
+				{
+					"title": "Creative Flexibility",
+					"description": "Experiment with different styles and concepts quickly to find what works best."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Visual Requirements",
+				"AI Model Setup",
+				"Style Training",
+				"Integration & Testing",
+				"Deployment & Optimization"
+			]
+		},
+		"form": {
+			"heading": "Get Generative AI",
+			"content": "Create stunning visuals instantly with AI.",
+			"cta": "Get Visual AI"
+		}
+	},
+	"ai-transcription": {
+		"hero": {
+			"heading": "AI-Powered Transcription Services",
+			"subheading": "Automated transcription services that convert audio and video into accurate text with AI-powered speech recognition."
+		},
+		"introParagraph": {
+			"heading": "Intelligent Speech-to-Text",
+			"problemStatement": "Manual transcription is slow, expensive, and error-prone, limiting accessibility and content repurposing opportunities.",
+			"valueProposition": "Our AI-powered transcription services automatically convert audio and video to accurate text, supporting multiple languages, speaker identification, and formatting to save time and costs."
+		},
+		"keyBenefits": {
+			"heading": "Transcription Benefits",
+			"subheading": "Convert audio to text accurately and instantly:",
+			"benefits": [
+				{
+					"title": "Fast Processing",
+					"description": "Transcribe audio and video files quickly with high accuracy rates."
+				},
+				{
+					"title": "Cost Effective",
+					"description": "Reduce transcription costs significantly compared to manual services."
+				},
+				{
+					"title": "Multi-Language Support",
+					"description": "Transcribe content in multiple languages with accurate recognition."
+				}
+			]
+		},
+		"process": {
+			"steps": [
+				"Requirements Analysis",
+				"AI Setup & Training",
+				"Integration & Testing",
+				"Quality Validation",
+				"Deployment & Optimization"
+			]
+		},
+		"form": {
+			"heading": "Get AI Transcription",
+			"content": "Convert audio to text accurately with AI.",
+			"cta": "Get Transcription"
+		}
+	},
+	"otherServices": {
+		"aiAutomationServices": [
+			"AI assistants Chatbots",
+			"AI-powered voice agents / receptionists",
+			"Factory Automation",
+			"Social Media Automation",
+			"Workflow automation",
+			"ERP Systems",
+			"Lead Follow Up Agent",
+			"Customer Feedback Collector",
+			"Full Automation Blogging",
+			"AI content generation tools",
+			"AI-driven email marketing",
+			"AI website personalisation",
+			"AI customer segmentation",
+			"AI lead nurturing workflows",
+			"AI-powered product recommendations",
+			"Conversational AI for sales",
+			"AI-powered survey bots",
+			"Generative AI for visuals (images, creatives)",
+			"AI-powered transcription services"
+		],
+		"slugMapping": {
+			"AI assistants Chatbots": "ai-chatbots",
+			"AI-powered voice agents / receptionists": "ai-receptionists",
+			"Factory Automation": "factory-automation",
+			"Social Media Automation": "social-media-automation",
+			"Workflow automation": "workflow-automation",
+			"ERP Systems": "erp-systems",
+			"Lead Follow Up Agent": "lead-follow-up-agent",
+			"Customer Feedback Collector": "customer-feedback-collector",
+			"Full Automation Blogging": "automation-blogging",
+			"AI content generation tools": "ai-content-generation-tools",
+			"AI-driven email marketing": "ai-driven-email-marketing",
+			"AI website personalisation": "ai-website-personalisation",
+			"AI customer segmentation": "ai-customer-segmentation",
+			"AI lead nurturing workflows": "ai-lead-nurturing",
+			"AI-powered product recommendations": "ai-product-recommendations",
+			"Conversational AI for sales": "ai-for-sales",
+			"AI-powered survey bots": "ai-survey-bots",
+			"Generative AI for visuals (images, creatives)": "generative-ai",
+			"AI-powered transcription services": "ai-transcription"
+		},
+		"config": {
+			"title": "AI & Automation Services",
+			"highlightedText": "AI & Automation",
+			"columns": 3,
+			"baseUrl": "/ai-automation/"
+		}
+	}
+}
+

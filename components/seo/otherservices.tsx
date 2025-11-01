@@ -10,6 +10,7 @@ import contentMarketingData from "@/data/content-marketing.json";
 import webDevelopmentData from "@/data/web-development.json";
 import appDevelopmentData from "@/data/app-development.json";
 import hostingData from "@/data/hosting-it-security.json";
+import aiAutomationData from "@/data/ai-automation.json";
 
 // Types for the data structure
 interface OtherServicesData {
@@ -103,6 +104,13 @@ export default function OtherServices() {
       services: (hostingData as any).otherServices.hostingItSecurityServices,
       slugMapping: (hostingData as any).otherServices.slugMapping,
       config: (hostingData as any).otherServices.config,
+    };
+  } else if (pathname.startsWith("/ai-automation")) {
+    // Use AI & Automation data
+    data = {
+      services: (aiAutomationData as any).otherServices.aiAutomationServices,
+      slugMapping: (aiAutomationData as any).otherServices.slugMapping,
+      config: (aiAutomationData as any).otherServices.config,
     };
   } else {
     // Default to SEO data (for /seo routes)

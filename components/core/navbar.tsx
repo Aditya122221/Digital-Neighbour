@@ -1041,6 +1041,32 @@ const Navbar: React.FC = () => {
 																				name
 																			return `/content-marketing/${slug}`
 																		}
+																		// Map AI & Automation items to ai-automation routes
+																		if (
+																			activeCategory ===
+																				"AI & Automation"
+																		) {
+																			const aiAutomationSlugMap: Record<
+																				string,
+																				string
+																			> = {
+																				"website-chat-assistant": "chatbots-and-virtual-assistants",
+																				"ai-powered-voice-agents-receptionists": "ai-receptionists",
+																				"factory-automation": "factory-automation",
+																				"marketing-social-media-automation": "social-media-automation",
+																				"workflow-automation-zapier-make-custom": "workflow-automation",
+																				"erp-systems": "erp-systems",
+																			}
+																			if (
+																				aiAutomationSlugMap[
+																					name
+																				]
+																			) {
+																				return `/ai-automation/${aiAutomationSlugMap[name]}`
+																			}
+																			// If no specific mapping, use the kebab-case name
+																			return `/ai-automation/${name}`
+																		}
 																		// Map Hosting, IT & Security items to hosting-it-security routes
 																		if (
 																			activeCategory ===
@@ -1488,6 +1514,32 @@ const Navbar: React.FC = () => {
 																													const slug =
 																														name
 																													return `/content-marketing/${slug}`
+																												}
+																												// Map AI & Automation items to ai-automation routes
+																												if (
+																													categoryKey ===
+																														"AI & Automation"
+																												) {
+																													const aiAutomationSlugMap: Record<
+																														string,
+																														string
+																													> = {
+																														"website-chat-assistant": "chatbots-and-virtual-assistants",
+																														"ai-powered-voice-agents-receptionists": "ai-receptionists",
+																														"factory-automation": "factory-automation",
+																														"marketing-social-media-automation": "social-media-automation",
+																														"workflow-automation-zapier-make-custom": "workflow-automation",
+																														"erp-systems": "erp-systems",
+																													}
+																													if (
+																														aiAutomationSlugMap[
+																															name
+																														]
+																													) {
+																														return `/ai-automation/${aiAutomationSlugMap[name]}`
+																													}
+																													// If no specific mapping, use the kebab-case name
+																													return `/ai-automation/${name}`
 																												}
 																												return `/services/${name}`
 																											})()}
