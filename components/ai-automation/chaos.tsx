@@ -5,32 +5,23 @@ import { motion } from "framer-motion"
 export default function Chaos() {
 	return (
 		<div
-			className="pt-16 text-white bg-black overflow-hidden"
+			className="pt-16 text-white bg-[#000] overflow-hidden"
 			id="how-it-works"
 		>
 			<div className="text-white z-10 undefined">
 				<div className="text-4xl md:text-6xl font-regular font-cal-sans text-center">
 					<p>
 						Transforming{" "}
-						<span className="relative inline-block">
-							<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
-							<span className="relative z-10 font-semibold italic">
-								Chaos
-							</span>
+						<span className="font-semibold italic">
+							Chaos
 						</span>{" "}
 						Into{" "}
-						<span className="relative inline-block">
-							<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
-							<span className="relative z-10 font-semibold italic">
-								Savings
-							</span>
+						<span className="font-semibold italic">
+							Savings
 						</span>
 						—$5M+ <br /> and Countless{" "}
-						<span className="relative inline-block">
-							<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
-							<span className="relative z-10 font-semibold italic">
-								Hours
-							</span>
+						<span className="font-semibold italic">
+							Hours
 						</span>{" "}
 						Back
 					</p>

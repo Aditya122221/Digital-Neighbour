@@ -17,6 +17,9 @@ import PainPoints from "@/components/ai-automation/painpoints"
 import KeyBenefits from "@/components/ai-automation/keybenefits"
 import Apart from "@/components/homepage/apart"
 import Features from "@/components/ai-automation/features"
+import Chaos from "@/components/ai-automation/chaos"
+import Industries from "@/components/ai-automation/industries"
+import AiAutomationServices from "@/components/ai-automation/services"
 
 const allowedSlugs = [
 	"ai-automation",
@@ -80,14 +83,19 @@ export default function AiAutomationSlugPage({
 			<SeoForm data={currentData?.form} />
 			<BrandsMarquee />
 			<IntroParagraph data={currentData?.introParagraph} />
-			<PainPoints data={currentData?.painPoints} />
-			<SeoServices
+	<PainPoints data={ currentData?.painPoints } />
+				<Chaos />
+				<AiAutomationServices
 				data={currentData?.services}
 				serviceCards={currentData?.serviceCards}
 				basePath="/ai-automation"
+				premiumCloudServices={
+					currentData?.premiumCloudServices
+				}
 			/>
 			<SeoContent data={currentData?.content} />
-			<Apart />
+				< Apart />
+				<Industries data={currentData?.industries} />
 			<CaseStudy />
 			<OtherServices />
 			<Process2

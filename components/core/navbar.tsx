@@ -84,7 +84,7 @@ const Navbar: React.FC = () => {
 		"WordPress Hosting": "/navbar/black/cms.png",
 		"Reseller Hosting": "/navbar/black/reseller-hosting.png",
 		"Email Hosting": "/navbar/black/email-hosting.png",
-		"Website Chat Assistant": "/navbar/black/chat.png",
+		"AI Assistants Chatbots": "/navbar/black/chat.png",
 		"AI-powered Voice Agents / Receptionists":
 			"/navbar/black/ai-seo.png",
 		"Factory Automation": "/navbar/black/factory.png",
@@ -350,7 +350,7 @@ const Navbar: React.FC = () => {
 					title: "AI & Automation",
 					services: [
 						{
-							name: "Website Chat Assistant",
+							name: "AI Assistants Chatbots",
 							icon: "💬",
 						},
 						{
@@ -1084,19 +1084,26 @@ const Navbar: React.FC = () => {
 																		// Map AI & Automation items to ai-automation routes
 																		if (
 																			activeCategory ===
-																				"AI & Automation"
+																			"AI & Automation"
 																		) {
 																			const aiAutomationSlugMap: Record<
 																				string,
 																				string
-																			> = {
-																				"website-chat-assistant": "chatbots-and-virtual-assistants",
-																				"ai-powered-voice-agents-receptionists": "ai-receptionists",
-																				"factory-automation": "factory-automation",
-																				"marketing-social-media-automation": "social-media-automation",
-																				"workflow-automation-zapier-make-custom": "workflow-automation",
-																				"erp-systems": "erp-systems",
-																			}
+																			> =
+																				{
+																					"ai-assistants-chatbots":
+																						"ai-chatbots",
+																					"ai-powered-voice-agents-receptionists":
+																						"ai-receptionists",
+																					"factory-automation":
+																						"factory-automation",
+																					"marketing-social-media-automation":
+																						"social-media-automation",
+																					"workflow-automation-zapier-make-custom":
+																						"workflow-automation",
+																					"erp-systems":
+																						"erp-systems",
+																				}
 																			if (
 																				aiAutomationSlugMap[
 																					name
@@ -1117,14 +1124,17 @@ const Navbar: React.FC = () => {
 																			const hostingSlugMap: Record<
 																				string,
 																				string
-																			> = {
-																				"web-hosting": "web-hosting",
-																				"wordpress-hosting":
-																					"wordpress-hosting",
-																				"reseller-hosting":
-																					"reseller-hosting",
-																				"email-hosting": "email-hosting",
-																			}
+																			> =
+																				{
+																					"web-hosting":
+																						"web-hosting",
+																					"wordpress-hosting":
+																						"wordpress-hosting",
+																					"reseller-hosting":
+																						"reseller-hosting",
+																					"email-hosting":
+																						"email-hosting",
+																				}
 																			if (
 																				hostingSlugMap[
 																					name
@@ -1420,6 +1430,20 @@ const Navbar: React.FC = () => {
 																															"content-strategy",
 																															"social-media-content",
 																															"email-newsletters",
+																															"copywriting",
+																															"graphic-designing",
+																															"video-editing",
+																															"photo-shoot",
+																															"video-shoot",
+																															"infographic-design",
+																															"website-copywriting",
+																															"sales-copywriting",
+																															"press-release-writing",
+																															"ad-copywriting",
+																															"logo-design",
+																															"email-marketing",
+																															"pr-outreach",
+																															"branding",
 																														]
 																													)
 																												if (
@@ -1497,14 +1521,17 @@ const Navbar: React.FC = () => {
 																													const hostingSlugMap: Record<
 																														string,
 																														string
-																													> = {
-																														"web-hosting": "web-hosting",
-																														"wordpress-hosting":
-																															"wordpress-hosting",
-																														"reseller-hosting":
-																															"reseller-hosting",
-																														"email-hosting": "email-hosting",
-																													}
+																													> =
+																														{
+																															"web-hosting":
+																																"web-hosting",
+																															"wordpress-hosting":
+																																"wordpress-hosting",
+																															"reseller-hosting":
+																																"reseller-hosting",
+																															"email-hosting":
+																																"email-hosting",
+																														}
 																													if (
 																														hostingSlugMap[
 																															name
@@ -1563,13 +1590,6 @@ const Navbar: React.FC = () => {
 																													return `/social-media-marketing/${slug}`
 																												}
 																												if (
-																													webDevSlugMap[
-																														name
-																													]
-																												) {
-																													return `/web-development/${webDevSlugMap[name]}`
-																												}
-																												if (
 																													dataAnalyticsSlugs.has(
 																														name
 																													)
@@ -1604,19 +1624,26 @@ const Navbar: React.FC = () => {
 																												// Map AI & Automation items to ai-automation routes
 																												if (
 																													categoryKey ===
-																														"AI & Automation"
+																													"AI & Automation"
 																												) {
 																													const aiAutomationSlugMap: Record<
 																														string,
 																														string
-																													> = {
-																														"website-chat-assistant": "chatbots-and-virtual-assistants",
-																														"ai-powered-voice-agents-receptionists": "ai-receptionists",
-																														"factory-automation": "factory-automation",
-																														"marketing-social-media-automation": "social-media-automation",
-																														"workflow-automation-zapier-make-custom": "workflow-automation",
-																														"erp-systems": "erp-systems",
-																													}
+																													> =
+																														{
+																															"ai-assistants-chatbots":
+																																"ai-chatbots",
+																															"ai-powered-voice-agents-receptionists":
+																																"ai-receptionists",
+																															"factory-automation":
+																																"factory-automation",
+																															"marketing-social-media-automation":
+																																"social-media-automation",
+																															"workflow-automation-zapier-make-custom":
+																																"workflow-automation",
+																															"erp-systems":
+																																"erp-systems",
+																														}
 																													if (
 																														aiAutomationSlugMap[
 																															name

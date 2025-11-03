@@ -96,13 +96,10 @@ export default function Industries({ data }: IndustriesProps) {
 								{
 									beforeHighlight
 								}
-								<span className="relative inline-block">
-									<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
-									<span className="relative z-10 font-medium italic">
-										Tailored
-										Mobile
-										Apps
-									</span>
+								<span className="font-medium italic">
+									Tailored
+									Mobile
+									Apps
 								</span>
 								{afterHighlight}
 							</h2>

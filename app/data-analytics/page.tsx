@@ -47,7 +47,6 @@ export default function DataAnalyticsPage() {
       />
       <SeoContent data={currentData?.content} />
       <Apart />
-      <Industries data={currentData?.industries} />
       <CaseStudy />
       <OtherServices />
       <Process2

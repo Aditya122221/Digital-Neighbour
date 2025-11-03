@@ -1,183 +1,185 @@
-"use client";
+"use client"
 
-import { useState } from "react";
-import { motion } from "framer-motion";
-import Image from "next/image";
-import { CustomButton } from "@/components/core/button";
+import { useRef } from "react"
+import { motion, useScroll, useTransform } from "framer-motion"
+import Image from "next/image"
+import { CustomButton } from "@/components/core/button"
 
 interface Service {
-  id: string;
-  name: string;
-  title: string;
-  description: string;
-  image: string;
-  link?: string;
+	id: string
+	name: string
+	title: string
+	description: string
+	image: string
+	link?: string
 }
 
 interface AiAutomationServicesProps {
-  data?: string;
-  serviceCards?: Service[];
-  basePath?: string;
-  premiumCloudServices?: any;
+	data?: string
+	serviceCards?: Service[]
+	basePath?: string
+	premiumCloudServices?: any
 }
 
-// Generic fallback services if no serviceCards provided
+// Default services data based on screenshots
 const defaultServices: Service[] = [
-  {
-    id: "intelligent-automation",
-    name: "Intelligent Automation",
-    title: "Intelligent Automation",
-    description:
-      "Streamline your business processes with AI-powered automation that adapts to your workflow and scales with your needs.",
-    image: "/homepage/services/automation.mp4",
-  },
-  {
-    id: "seamless-integration",
-    name: "Seamless Integration",
-    title: "Seamless Integration",
-    description:
-      "Easily integrate AI solutions into your existing systems with our robust APIs and comprehensive integration support.",
-    image: "/homepage/services/automation.mp4",
-  },
-  {
-    id: "custom-ai-models",
-    name: "Custom AI Models",
-    title: "Custom AI Models",
-    description:
-      "Build and deploy AI models tailored to your specific industry requirements and business objectives.",
-    image: "/homepage/services/automation.mp4",
-  },
-  {
-    id: "flexible-deployment",
-    name: "Flexible Deployment",
-    title: "Flexible Deployment",
-    description:
-      "Deploy AI solutions on-premises, in the cloud, or in a hybrid environment based on your preferences.",
-    image: "/homepage/services/automation.mp4",
-  },
-  {
-    id: "multi-platform",
-    name: "Multi-Platform",
-    title: "Multi-Platform Support",
-    description:
-      "Seamless integration with popular platforms including AWS, Azure, Google Cloud, and your existing infrastructure.",
-    image: "/homepage/services/automation.mp4",
-  },
-  {
-    id: "process-optimization",
-    name: "Process Optimization",
-    title: "Process Optimization",
-    description:
-      "AI-powered process optimization to eliminate inefficiencies and maximize productivity across your organization.",
-    image: "/homepage/services/automation.mp4",
-  },
-];
+	{
+		id: "ai-integrations",
+		name: "AI Integrations & Business Process Automation",
+		title: "AI Integrations & Business Process Automation",
+		description:
+			"Streamline complex business processes through real-time, event-driven AI integrations. Our engineering expertise encompasses Apache Kafka, Airflow, AWS Step Functions, and advanced microservices architecture. Automate workflows, increase business efficiency by up to 60%, and eliminate manual tasks through Robotic Process Automation (UiPath, Automation Anywhere).",
+		image: "/seo/services/localkey.webp",
+	},
+	{
+		id: "custom-ai-application",
+		name: "Custom AI Application & Service Development",
+		title: "Custom AI Application & Service Development",
+		description:
+			"Build scalable and secure AI-driven applications with cutting-edge technologies including Kubernetes, Docker, Python (FastAPI, PyTorch, TensorFlow), Node.js, React, and cloud-native deployments (AWS, Azure, GCP). Deliver customized AI services faster, reducing time-to-market by 40%.",
+		image: "/seo/services/url.webp",
+	},
+	{
+		id: "generative-ai-llm",
+		name: "Generative AI & LLM Integration",
+		title: "Generative AI & LLM Integration",
+		description:
+			"Integrate cutting-edge generative AI and LLM solutions (GPT-5, Claude-3, LLaMA) into your workflows to automate content creation, data extraction, and knowledge management processes, achieving operational efficiency improvements of up to 50%. Our expertise includes fine-tuning, RLHF, and implementing Retrieval-Augmented Generation (RAG).",
+		image: "/seo/services/convseo.webp",
+	},
+	{
+		id: "voice-multimodal",
+		name: "Voice and Multimodal Interfaces",
+		title: "Voice and Multimodal Interfaces",
+		description:
+			"Deploy powerful multimodal AI interfaces using advanced speech recognition (Whisper), TTS (Azure, ElevenLabs), NLP (GPT-5), and computer vision technologies. Improve customer engagement by up to 70% by offering seamless and intuitive interactions across voice, text, and visual channels, fully integrated into your existing platforms.",
+		image: "/seo/services/secu.webp",
+	},
+]
 
 export default function AiAutomationServices({
-  data,
-  serviceCards,
-  basePath = "#",
-  premiumCloudServices,
+	data,
+	serviceCards,
+	basePath = "#",
+	premiumCloudServices,
 }: AiAutomationServicesProps) {
-  const services = serviceCards || defaultServices;
-  const [activeTab, setActiveTab] = useState(services[0]?.id || "");
+	const services = serviceCards || defaultServices
+	const sectionRef = useRef<HTMLDivElement>(null)
 
-  const activeService = services.find((service) => service.id === activeTab);
-  const activeIndex = services.findIndex((service) => service.id === activeTab);
+	const { scrollYProgress } = useScroll({
+		target: sectionRef,
+		offset: ["start start", "end end"],
+	})
 
-  return (
-    <section className="py-20 px-6 bg-gradient-to-b from-pink/20 to-white">
-      <div className="container max-w-7xl mx-auto">
-        {/* Heading */}
-        <motion.h2
-          className="text-4xl md:text-5xl lg:text-6xl font-regular text-blackbrown mb-12 font-cal-sans"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-        >
-          Our{" "}
-          <span className="relative inline-block">
-            <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
-            <span className="relative z-10 font-medium italic">Services</span>
-          </span>{" "}
-          for {data || "AI & Automation"}
-        </motion.h2>
+	// Animation ranges for each card
+	const ranges = [
+		[0, 0.25],
+		[0.25, 0.5],
+		[0.5, 0.75],
+		[0.75, 1.0],
+	]
 
-        {/* Tabs */}
-        <motion.div
-          className="overflow-x-auto scrollbar-hide mb-0"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-        >
-          <div className="flex gap-0 min-w-full">
-            {services.map((service, index) => (
-              <button
-                key={service.id}
-                onClick={() => setActiveTab(service.id)}
-                className={`flex-1 px-4 py-4 text-base md:text-lg font-medium transition-all duration-300 whitespace-nowrap ${
-                  activeTab === service.id
-                    ? "bg-black text-white rounded-t-3xl"
-                    : "bg-transparent text-blackbrown hover:border-b hover:border-blackbrown/50"
-                } ${index === 0 ? "rounded-tl-3xl" : ""} ${
-                  index === services.length - 1 ? "rounded-tr-3xl" : ""
-                }`}
-              >
-                {service.name}
-              </button>
-            ))}
-          </div>
-        </motion.div>
+	const cardAnimations = ranges.map(([start, end], index) => ({
+		y: useTransform(scrollYProgress, [start, end], ["100%", "0%"]),
+		opacity: useTransform(
+			scrollYProgress,
+			[start + 0.05, end],
+			[0, 1]
+		),
+	}))
 
-        {/* Content Area */}
-        {activeService && (
-          <motion.div
-            key={activeTab}
-            className={`bg-black p-8 md:p-12 ${
-              activeIndex === 0
-                ? "rounded-b-3xl rounded-tr-3xl"
-                : activeIndex === services.length - 1
-                  ? "rounded-b-3xl rounded-tl-3xl"
-                  : "rounded-b-3xl rounded-tl-3xl rounded-tr-3xl"
-            }`}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, ease: "easeOut" }}
-          >
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
-              {/* Left side - Text content */}
-              <div className="space-y-6">
-                <h3 className="text-3xl md:text-4xl lg:text-5xl font-light text-white font-cal-sans">
-                  {activeService.title}
-                </h3>
-                <p className="text-lg md:text-xl text-white leading-relaxed">
-                  {activeService.description}
-                </p>
-                <div>
-                  <CustomButton
-                    text="Get Started"
-                    href={activeService.link || "#contact"}
-                    textColor="black"
-                    borderColor="black"
-                  />
-                </div>
-              </div>
+	return (
+		<section ref={sectionRef} className="py-20 px-6 bg-white">
+			<div className="container max-w-7xl mx-auto">
+				{/* Heading */}
+				<motion.h2
+					className="text-4xl md:text-5xl lg:text-6xl font-regular text-blackbrown mb-16 font-cal-sans text-center"
+					initial={{ opacity: 0, y: 30 }}
+					whileInView={{ opacity: 1, y: 0 }}
+					viewport={{ once: true }}
+					transition={{
+						duration: 0.8,
+						ease: "easeOut",
+					}}
+				>
+					Our{" "}
+					<span className="relative inline-block">
+						<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
+						<span className="relative z-10 font-medium italic">
+							Services
+						</span>
+					</span>{" "}
+					for {data || "AI & Automation"}
+				</motion.h2>
 
-              {/* Right side - Image */}
-              <div className="relative w-full h-[300px] md:h-[400px] rounded-2xl overflow-hidden bg-black p-4 flex items-center justify-center">
-                <Image
-                  src={activeService.image}
-                  alt={activeService.title}
-                  fill
-                  className="object-contain p-4"
-                />
-              </div>
-            </div>
-          </motion.div>
-        )}
-      </div>
-    </section>
-  );
+				{/* Cards stacked vertically */}
+				<div className="relative min-h-[400vh]">
+					{services.map((service, index) => {
+						const isEven = index % 2 === 0
+						const anim =
+							cardAnimations[index]
+
+						return (
+							<motion.div
+								key={service.id}
+								style={{
+									y: anim.y,
+									opacity: anim.opacity,
+								}}
+								className="sticky top-24 bg-white rounded-3xl shadow-xl border border-gray-200 overflow-hidden"
+							>
+								<div
+									className={`grid grid-cols-1 lg:grid-cols-2 gap-0 ${
+										isEven
+											? ""
+											: "lg:grid-flow-dense"
+									}`}
+								>
+									{/* Image */}
+									<div
+										className={`relative w-full h-[400px] md:h-[500px] lg:h-[600px] ${
+											isEven
+												? "lg:order-1"
+												: "lg:order-2"
+										}`}
+									>
+										<Image
+											src={
+												service.image
+											}
+											alt={
+												service.title
+											}
+											fill
+											className="object-cover"
+										/>
+									</div>
+
+									{/* Content */}
+									<div
+										className={`flex flex-col justify-center p-8 md:p-12 ${
+											isEven
+												? "lg:order-2"
+												: "lg:order-1"
+										}`}
+									>
+										<h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-blackbrown mb-4 font-cal-sans">
+											{
+												service.title
+											}
+										</h3>
+										<p className="text-base md:text-lg text-gray-700 leading-relaxed">
+											{
+												service.description
+											}
+										</p>
+									</div>
+								</div>
+							</motion.div>
+						)
+					})}
+				</div>
+			</div>
+		</section>
+	)
 }

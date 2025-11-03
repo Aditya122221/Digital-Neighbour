@@ -16,6 +16,7 @@ import IntroParagraph from "@/components/data-analytics/introparagraph";
 import PainPoints from "@/components/data-analytics/painpoints";
 import KeyBenefits from "@/components/data-analytics/keybenefits";
 import Apart from "@/components/homepage/apart";
+import Features from "@/components/ai-automation/features";
 
 const allowedSlugs = [
   "data-analytics",
@@ -73,11 +74,7 @@ export default function DataAnalyticsSlugPage({
         }
       />
       <KeyBenefits data={currentData?.keyBenefits} />
-      <div>
-        Feature Section: Show 3–5 key benefits or outcomes of the service (not
-        just features), each explained in a short block with a clear headline
-        and visual support.
-      </div>
+      <Features data={currentData?.features} />
       <SeoFaq data={currentData?.faq} />
       <SeoCta data={currentData?.services} />
       <Footer />
