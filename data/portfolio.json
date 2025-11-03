@@ -1,0 +1,107 @@
+[
+	{
+		"id": 1,
+		"logoText": "Logoipsum",
+		"headline": "Bold rebrand propels Lumé to nationwide expansion",
+		"metrics": [
+			{ "value": "$8M", "label": "Secured funding" },
+			{ "value": "3x", "label": "Brand Awareness" },
+			{ "value": "60%", "label": "Growth in DTC sales" }
+		],
+		"tags": ["Copywriting", "Pitch Deck"],
+		"image": "/homepage/blog-1.jpg",
+		"imageAlt": "Lumé product photography"
+	},
+	{
+		"id": 2,
+		"logoText": "Brandco",
+		"headline": "Digital transformation drives 250% revenue growth",
+		"metrics": [
+			{ "value": "250%", "label": "Revenue growth" },
+			{ "value": "5x", "label": "Customer acquisition" },
+			{ "value": "40%", "label": "Cost reduction" }
+		],
+		"tags": ["Website", "SEO"],
+		"image": "/homepage/blog-2.jpg",
+		"imageAlt": "Brandco digital transformation"
+	},
+	{
+		"id": 3,
+		"logoText": "TechStart",
+		"headline": "Strategic marketing campaign achieves viral success",
+		"metrics": [
+			{ "value": "10M+", "label": "Impressions" },
+			{ "value": "85%", "label": "Engagement rate" },
+			{ "value": "2.5x", "label": "Lead generation" }
+		],
+		"tags": ["Social Media", "Content"],
+		"image": "/homepage/blog-3.jpg",
+		"imageAlt": "TechStart campaign"
+	},
+	{
+		"id": 4,
+		"logoText": "DesignHub",
+		"headline": "Complete brand overhaul increases market share",
+		"metrics": [
+			{ "value": "45%", "label": "Market share" },
+			{ "value": "$12M", "label": "Funding raised" },
+			{ "value": "4x", "label": "Brand recognition" }
+		],
+		"tags": ["Brand Identity", "Design"],
+		"image": "/homepage/blog-4.jpg",
+		"imageAlt": "DesignHub rebrand"
+	},
+	{
+		"id": 5,
+		"logoText": "InnovateLab",
+		"headline": "E-commerce optimization triples online sales",
+		"metrics": [
+			{ "value": "300%", "label": "Online sales" },
+			{ "value": "50%", "label": "Conversion rate" },
+			{ "value": "$5M", "label": "Revenue increase" }
+		],
+		"tags": ["E-commerce", "Paid Ads"],
+		"image": "/homepage/blog-5.jpg",
+		"imageAlt": "InnovateLab e-commerce"
+	},
+	{
+		"id": 6,
+		"logoText": "GrowthCo",
+		"headline": "Data-driven strategy delivers measurable ROI",
+		"metrics": [
+			{ "value": "180%", "label": "ROI increase" },
+			{ "value": "65%", "label": "Cost efficiency" },
+			{ "value": "8x", "label": "Customer lifetime value" }
+		],
+		"tags": ["Analytics", "Strategy"],
+		"image": "/homepage/blog-6.jpg",
+		"imageAlt": "GrowthCo analytics"
+	},
+	{
+		"id": 7,
+		"logoText": "CreativeStudio",
+		"headline": "Content marketing drives organic brand growth",
+		"metrics": [
+			{ "value": "500K", "label": "Monthly visitors" },
+			{ "value": "120%", "label": "Traffic growth" },
+			{ "value": "35%", "label": "Engagement rate" }
+		],
+		"tags": ["Content Marketing", "SEO"],
+		"image": "/homepage/blog-1.jpg",
+		"imageAlt": "CreativeStudio content"
+	},
+	{
+		"id": 8,
+		"logoText": "MarketLeaders",
+		"headline": "Integrated campaign achieves industry recognition",
+		"metrics": [
+			{ "value": "15", "label": "Industry awards" },
+			{ "value": "95%", "label": "Client satisfaction" },
+			{ "value": "200%", "label": "Brand visibility" }
+		],
+		"tags": ["Integrated Marketing", "PR"],
+		"image": "/homepage/blog-2.jpg",
+		"imageAlt": "MarketLeaders campaign"
+	}
+]
+

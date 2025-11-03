@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "marketing-on-a-budget",
+    "title": "Marketing on a Budget: Get Big Results with Small Spends",
+    "category": "Marketing",
+    "date": "2025-03-02",
+    "excerpt": "Practical, low-cost tactics that punch above their weight for acquisition and retention.",
+    "image": "/homepage/blog-1.jpg"
+  },
+  {
+    "slug": "social-media-strategies-that-work",
+    "title": "Social Media Strategies That Actually Work",
+    "category": "Social Media",
+    "date": "2025-03-02",
+    "excerpt": "Frameworks to move from vanity metrics to measurable pipeline and revenue.",
+    "image": "/homepage/blog-2.jpg"
+  },
+  {
+    "slug": "social-media-trends-2025",
+    "title": "Social Media Trends You Can’t Ignore in 2025",
+    "category": "Social Media",
+    "date": "2025-03-02",
+    "excerpt": "Emerging formats, creator economy shifts, and platform updates shaping reach.",
+    "image": "/homepage/blog-3.jpg"
+  },
+  {
+    "slug": "brand-that-stands-out",
+    "title": "The Secret to Building a Standout Brand",
+    "category": "Branding",
+    "date": "2025-03-02",
+    "excerpt": "Positioning and identity tactics to create distinctiveness and pricing power.",
+    "image": "/homepage/blog-4.jpg"
+  },
+  {
+    "slug": "future-of-digital-marketing-2025",
+    "title": "The Future of Digital Marketing in 2025",
+    "category": "Marketing",
+    "date": "2025-03-02",
+    "excerpt": "AI copilots, first-party data, and the new creative-production stack.",
+    "image": "/homepage/blog-5.jpg"
+  },
+  {
+    "slug": "turn-followers-into-customers",
+    "title": "Turn Social Followers into Loyal Customers",
+    "category": "Social Media",
+    "date": "2025-03-02",
+    "excerpt": "Lifecycle content, offers, and community tactics that drive repeat purchases.",
+    "image": "/homepage/blog-6.jpg"
+  }
+]
+
+
