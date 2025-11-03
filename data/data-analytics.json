@@ -123,7 +123,7 @@
       "text1": "Our data and analytics services are designed to transform how you use data. Whether you need data integration, business intelligence dashboards, predictive analytics, or data warehousing, we ensure seamless implementation and measurable results.",
       "text2": "We implement cutting-edge analytics solutions with enterprise-grade reliability—from real-time dashboards to machine learning models—so you can focus on growth without worrying about data complexity.",
       "text3": "From initial data assessment and strategy to implementation and ongoing optimization, our team handles every aspect of data and analytics to keep your insights accurate, accessible, and actionable.",
-      "image": "data-analytics.jpg",
+      "image": "ai-seo.jpg",
       "alt": "Data & Analytics Services"
     },
     "services": "Data & Analytics",
@@ -215,70 +215,28 @@
         "name": "Business Intelligence",
         "title": "Business Intelligence",
         "description": "Transform data into actionable insights with interactive dashboards, reports, and self-service analytics that drive informed decisions.",
-        "image": "/data-analytics/bi.webp"
+        "image": "/seo/services/ecomm.webp"
       },
       {
         "id": "data-integration",
         "name": "Data Integration",
         "title": "Data Integration",
         "description": "Integrate data from multiple sources into centralized warehouses and lakes for unified analytics and reporting.",
-        "image": "/data-analytics/integration.webp"
+        "image": "/seo/services/broken-link.webp"
       },
       {
         "id": "data-warehousing",
         "name": "Data Warehousing",
         "title": "Data Warehousing",
         "description": "Build scalable data warehouses and lakes that store, organize, and make your data accessible for analytics and reporting.",
-        "image": "/data-analytics/warehousing.webp"
+        "image": "/seo/services/productp.webp"
       },
       {
         "id": "predictive-analytics",
         "name": "Predictive Analytics",
         "title": "Predictive Analytics",
         "description": "Forecast trends, predict outcomes, and make proactive decisions with advanced predictive analytics and machine learning models.",
-        "image": "/data-analytics/predictive.webp"
-      },
-      {
-        "id": "data-visualization",
-        "name": "Data Visualization",
-        "title": "Data Visualization",
-        "description": "Create compelling visualizations and interactive dashboards that make complex data easy to understand and act upon.",
-        "image": "/data-analytics/visualization.webp"
-      },
-      {
-        "id": "reporting-automation",
-        "name": "Reporting Automation",
-        "title": "Reporting Automation",
-        "description": "Automate report generation and distribution, saving time and ensuring stakeholders receive timely insights.",
-        "image": "/data-analytics/reporting.webp"
-      },
-      {
-        "id": "data-governance",
-        "name": "Data Governance",
-        "title": "Data Governance",
-        "description": "Implement data quality frameworks, security policies, and governance practices to ensure accurate, compliant, and reliable data.",
-        "image": "/data-analytics/governance.webp"
-      },
-      {
-        "id": "customer-analytics",
-        "name": "Customer Analytics",
-        "title": "Customer Analytics",
-        "description": "Gain deep insights into customer behavior, preferences, and journeys to improve engagement and drive retention.",
-        "image": "/data-analytics/customer.webp"
-      },
-      {
-        "id": "operational-analytics",
-        "name": "Operational Analytics",
-        "title": "Operational Analytics",
-        "description": "Optimize operations with real-time performance metrics, process analytics, and efficiency dashboards.",
-        "image": "/data-analytics/operational.webp"
-      },
-      {
-        "id": "financial-analytics",
-        "name": "Financial Analytics",
-        "title": "Financial Analytics",
-        "description": "Track financial performance, analyze profitability, and make data-driven decisions with comprehensive financial analytics.",
-        "image": "/data-analytics/financial.webp"
+        "image": "/seo/services/localcon.webp"
       }
     ],
     "faq": {
