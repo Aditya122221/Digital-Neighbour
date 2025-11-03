@@ -134,7 +134,7 @@ export default function OtherServices() {
 				.slugMapping,
 			config: (dataAnalyticsData as any).otherServices.config,
 		}
-    } else if (pathname.startsWith("/industries")) {
+    } else if (pathname.startsWith("/industry")) {
         data = {
             services: (industriesData as any).otherServices
                 .industriesServices,
