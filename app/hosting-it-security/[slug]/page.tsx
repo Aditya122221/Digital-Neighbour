@@ -16,6 +16,8 @@ import IntroParagraph from "@/components/hosting-it-security/introparagraph"
 import PainPoints from "@/components/hosting-it-security/painpoints"
 import KeyBenefits from "@/components/hosting-it-security/keybenefits"
 import Apart from "@/components/homepage/apart"
+import HostingServices from "@/components/hosting-it-security/services"
+import Features from "@/components/ai-automation/features"
 
 const allowedSlugs = [
 	"hosting-it-security",
@@ -27,7 +29,8 @@ const allowedSlugs = [
 	"dedicated-servers",
 	"windows-virtual-servers",
 	"linux-servers",
-	"vps-shared-hosting-services",
+	"vps",
+	"shared-hosting-services",
 	"cloud-hosting-and-management",
 	"dedicated-hosting-services",
 	"aws-hosting-solutions",
@@ -69,10 +72,13 @@ export default function HostingItSecuritySlugPage({
 			<BrandsMarquee />
 			<IntroParagraph data={currentData?.introParagraph} />
 			<PainPoints data={currentData?.painPoints} />
-			<SeoServices
+			<HostingServices
 				data={currentData?.services}
 				serviceCards={currentData?.serviceCards}
 				basePath="/hosting-it-security"
+				premiumCloudServices={
+					currentData?.premiumCloudServices
+				}
 			/>
 			<SeoContent data={currentData?.content} />
 			<Apart />
@@ -87,12 +93,7 @@ export default function HostingItSecuritySlugPage({
 				}
 			/>
 			<KeyBenefits data={currentData?.keyBenefits} />
-			<div>
-				Feature Section: Show 3–5 key benefits or
-				outcomes of the service (not just features),
-				each explained in a short block with a clear
-				headline and visual support.
-			</div>
+			<Features data={currentData?.features} />
 			<SeoFaq data={currentData?.faq} />
 			<SeoCta data={currentData?.services} />
 			<Footer />

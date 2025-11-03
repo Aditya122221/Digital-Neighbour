@@ -11,7 +11,7 @@ interface HostingHeroProps {
 
 export default function HostingHero({ data }: HostingHeroProps) {
 	return (
-		<section className="relative overflow-x-hidden">
+		<section className="relative overflow-x-hidden pt-25">
 			<div className="relative grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[600px] lg:min-h-[700px]">
 				<div className="flex flex-col items-start gap-6 p-6 pb-0 pt-12 lg:gap-8 lg:pb-6 lg:pt-6">
 					<h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight font-cal-sans text-black w-[80%] max-w-[600px]">
