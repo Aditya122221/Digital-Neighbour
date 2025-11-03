@@ -16,6 +16,7 @@
       "heading": "Let’s talk about your industry",
       "subheading": "Share your goals and challenges — we’ll propose a tailored plan."
     },
+    
     "introParagraph": {
       "heading": "Industry-specific solutions",
       "paragraphs": [
@@ -52,10 +53,6 @@
         }
       ]
     },
-    "services": {
-      "heading": "What we do",
-      "description": "End-to-end services, tailored for your industry."
-    },
     "serviceCards": [
       {
         "title": "Strategy & Roadmapping",
@@ -63,28 +60,29 @@
         "slug": "industries"
       }
     ],
-    "premiumCloudServices": [],
     "content": {
-      "heading": "How we deliver",
-      "sections": [
-        {
-          "title": "Discovery",
-          "points": [
-            "Stakeholder interviews",
-            "Process mapping",
-            "Gap analysis"
-          ]
-        }
-      ]
+      "heading": "Win demand in your service areas.",
+      "text1": "Every industry has different seasonality, margins, and buying triggers. We tailor strategy and spend to how your customers actually shop in your market.",
+      "text2": "From maps and local SEO to high‑intent paid, landing pages, and call tracking—your program focuses on the channels that reliably generate qualified enquiries for your services.",
+      "text3": "Dashboards show which campaigns drive calls and booked jobs so we can iterate quickly and scale what compounds results.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Industry marketing illustration"
     },
     "process": {
       "heading": "Our process",
       "steps": [
-        { "title": "Discover", "description": "Understand goals, audience, competitors, and service geographies. Align on KPIs and constraints." },
-        { "title": "Design", "description": "Architect the channel mix, messaging, and tracking. Produce the roadmap with timelines and owners." },
-        { "title": "Build", "description": "Launch campaigns, content, and automations. Configure analytics, call tracking, and reporting." },
-        { "title": "Optimise", "description": "Iterate on ads, landing pages, and SEO. Improve conversion rate and lower CAC with experiments." },
-        { "title": "Scale", "description": "Double down on winners, expand to new areas and services, and forecast growth with confidence." }
+        "Discover",
+        "Design",
+        "Launch",
+        "Optimise",
+        "Scale"
+      ],
+      "content": [
+        "Understand goals, service mix, seasonality, and current demand signals.",
+        "Channel plan, messaging, tracking, and landing pages mapped to services.",
+        "Spin up campaigns, local SEO, and reporting with fast feedback loops.",
+        "Improve CPL and close rates via creative, bids, and on‑site testing.",
+        "Expand coverage, add service areas, and increase budgets on winners."
       ]
     },
     "keyBenefits": {
@@ -107,6 +105,7 @@
         { "title": "Lead routing", "description": "Instantly route calls and forms to the right team with SLAs." }
       ]
     },
+    "services": "Industries",
     "faq": {
       "serviceName": "Industries",
       "faqs": [
@@ -162,6 +161,7 @@
       "B2B Digital marketing Agency",
       "B2C Digital marketing Agency",
       "Automotive business marketing",
+      "Car removal & wreckers marketing",
       "Plumbing marketing agency",
       "Roofing marketing agency",
       "HVAC marketing agency",
@@ -187,7 +187,7 @@
       "HR services marketing": "hr-marketing-agency",
       "IT services marketing": "it-marketing-agency",
       "Car  Wreckers Marketing": "wreckers-marketing-agency",
-      "Automotive Repair ": "automotive-repair-marketing-agency",
+      "Automotive Repair": "automotive-repair-marketing-agency",
       "Construction Marketing": "construction-marketing-agency",
       "Florist Marketing": "florist-marketing-agency",
       "Daycare Marketing": "daycare-marketing-agency",
@@ -217,6 +217,7 @@
       "B2B Digital marketing Agency": "b2b-marketing-agency",
       "B2C Digital marketing Agency": "b2c-marketing-agency",
       "Automotive business marketing": "automotive-marketing-agency",
+      "Car removal & wreckers marketing": "car-removal-wreckers-marketing-agency",
       "Plumbing marketing agency": "plumbing-marketing-agency",
       "Roofing marketing agency": "roofing-marketing-agency",
       "HVAC marketing agency": "hvac-marketing-agency",

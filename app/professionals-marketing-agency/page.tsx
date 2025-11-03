@@ -1,7 +1,6 @@
-import industriesData from "@/data/industries.json"
+import professionalsData from "@/data/professionals-marketing.json"
 import IndustriesHero from "@/components/industries/hero"
 import SeoContent from "@/components/seo/content"
-import DataAnalyticsServices from "@/components/data-analytics/services"
 import SeoForm from "@/components/seo/form"
 import Navbar from "@/components/core/navbar"
 import Footer from "@/components/core/footer"
@@ -16,20 +15,20 @@ import PainPoints from "@/components/data-analytics/painpoints"
 import KeyBenefits from "@/components/data-analytics/keybenefits"
 import Features from "@/components/ai-automation/features"
 import Apart from "@/components/homepage/apart"
-import IndustryBrowserSection from "@/components/industries/industry-browser"
 import CreativeShowcase from "@/components/industries/creative-showcase"
+import HostingServices from "@/components/hosting-it-security/services"
 
-export default function IndustryPage() {
-	const currentData = industriesData["industries"] as any
+export default function ProfessionalsMarketingPage() {
+	const currentData = (professionalsData as any)["professionals"]
 	const introData = currentData?.introParagraph
 		? {
 				heading: currentData.introParagraph.heading,
 				problemStatement:
 					currentData.introParagraph
-						.paragraphs?.[0],
+						?.paragraphs?.[0],
 				valueProposition:
 					currentData.introParagraph
-						.paragraphs?.[1],
+						?.paragraphs?.[1],
 		  }
 		: undefined
 	const painData = currentData?.painPoints
@@ -69,9 +68,14 @@ export default function IndustryPage() {
 									: s.title
 					  )
 					: [],
-				content: Array.isArray(currentData.process.content)
+				content: Array.isArray(
+					currentData.process.content
+				)
 					? currentData.process.content
-					: Array.isArray(currentData.process.steps)
+					: Array.isArray(
+							currentData.process
+								.steps
+					  )
 					? currentData.process.steps.map(
 							(s: any) =>
 								typeof s ===
@@ -94,20 +98,29 @@ export default function IndustryPage() {
 			<BrandsMarquee />
 			<IntroParagraph data={introData} />
 			<PainPoints data={painData} />
-			<IndustryBrowserSection />
-    <SeoContent data={ currentData?.content } />
-    <CreativeShowcase speedMsPerLoop={3000} />
+			<HostingServices
+				data={currentData?.services}
+				serviceCards={currentData?.serviceCards}
+				basePath="/hosting-it-security"
+				premiumCloudServices={
+					currentData?.premiumCloudServices
+				}
+			/>
+			<SeoContent data={currentData?.content} />
 			<Apart />
 			<CaseStudy />
 			<OtherServices />
 			<Process2
-				data={"industries"}
+				data={"Professional Marketing"}
 				processData={compatibleProcess}
 			/>
 			<KeyBenefits data={benefitsData} />
 			<Features data={currentData?.features} />
 			<SeoFaq
-				data={(industriesData as any).industries?.faq}
+				data={
+					(professionalsData as any).professionals
+						?.faq
+				}
 			/>
 			<SeoCta data={currentData?.services} />
 			<Footer />

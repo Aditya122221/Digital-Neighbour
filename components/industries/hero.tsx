@@ -24,25 +24,25 @@ export default function IndustriesHero({ data }: IndustriesHeroProps) {
 		{
 			name: "Electrical",
 			slug: "electrical",
-			image: "/placeholder.jpg",
+			image: "/industry/electrical.webp",
 		},
-		{ name: "HVAC", slug: "hvac", image: "/placeholder.jpg" },
+		{ name: "HVAC", slug: "hvac", image: "/industry/hvac.webp" },
 		{
 			name: "Pest Control",
 			slug: "pest-control",
-			image: "/placeholder.jpg",
+			image: "/industry/pestcontrol.webp",
 		},
 		{
 			name: "Plumbing",
 			slug: "plumbing",
-			image: "/placeholder.jpg",
+			image: "/industry/plumber.webp",
 		},
 		{
 			name: "Landscaping",
 			slug: "landscaping",
-			image: "/placeholder.jpg",
+			image: "/industry/landscaping.webp",
 		},
-		{ name: "Roofing", slug: "roofing", image: "/placeholder.jpg" },
+		{ name: "Roofing", slug: "roofing", image: "/industry/roofing.webp" },
 	]
 
 	return (

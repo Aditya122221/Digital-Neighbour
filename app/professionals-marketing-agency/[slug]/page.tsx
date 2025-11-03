@@ -1,26 +1,27 @@
 import { notFound } from "next/navigation"
-import industriesData from "@/data/industries.json"
+import professionalsData from "@/data/professionals-marketing.json"
 import Navbar from "@/components/core/navbar"
 import Footer from "@/components/core/footer"
 import SeoForm from "@/components/seo/form"
 import SeoFaq from "@/components/seo/faq"
 
 function getServiceNameFromSlug(slug: string): string | null {
-	const mapping = (industriesData as any).otherServices?.slugMapping || {}
+	const mapping =
+		(professionalsData as any).otherServices?.slugMapping || {}
 	for (const [name, mappedSlug] of Object.entries(mapping)) {
-		if (mappedSlug === slug) return name
+		if (mappedSlug === slug) return name as string
 	}
 	return null
 }
 
 const allowedSlugs: string[] = Object.values(
-	((industriesData as any).otherServices?.slugMapping as Record<
+	((professionalsData as any).otherServices?.slugMapping as Record<
 		string,
 		string
 	>) || {}
 ) as string[]
 
-export default async function IndustryServicePage({
+export default async function ProfessionalsMarketingServicePage({
 	params,
 }: {
 	params: Promise<{ slug: string }>
@@ -30,8 +31,9 @@ export default async function IndustryServicePage({
 		notFound()
 	}
 
-	const serviceName = getServiceNameFromSlug(slug) || "Industry"
-	const faqData = (industriesData as any).industries?.faq || {
+	const serviceName =
+		getServiceNameFromSlug(slug) || "Professionals Marketing"
+	const faqData = (professionalsData as any)["professionals"]?.faq || {
 		serviceName: serviceName,
 	}
 
@@ -54,7 +56,11 @@ export default async function IndustryServicePage({
 				</section>
 			</div>
 			<SeoForm
-				data={(industriesData as any).industries?.form}
+				data={
+					(professionalsData as any)[
+						"professionals"
+					]?.form
+				}
 			/>
 			<SeoFaq data={{ ...faqData, serviceName }} />
 			<Footer />

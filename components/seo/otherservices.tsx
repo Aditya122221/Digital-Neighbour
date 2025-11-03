@@ -13,6 +13,7 @@ import hostingData from "@/data/hosting-it-security.json"
 import aiAutomationData from "@/data/ai-automation.json"
 import dataAnalyticsData from "@/data/data-analytics.json"
 import industriesData from "@/data/industries.json"
+import professionalsData from "@/data/professionals-marketing.json"
 
 // Types for the data structure
 interface OtherServicesData {
@@ -141,6 +142,14 @@ export default function OtherServices() {
             slugMapping: (industriesData as any).otherServices
                 .slugMapping,
             config: (industriesData as any).otherServices.config,
+        }
+    } else if (pathname.startsWith("/professionals-marketing-agency")) {
+        data = {
+            services: (professionalsData as any).otherServices
+                .professionalsServices,
+            slugMapping: (professionalsData as any).otherServices
+                .slugMapping,
+            config: (professionalsData as any).otherServices.config,
         }
 	} else {
 		// Default to SEO data (for /seo routes)

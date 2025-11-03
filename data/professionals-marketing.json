@@ -1,0 +1,153 @@
+{
+  "professionals": {
+    "hero": {
+      "heading": "Professionals Marketing Agency",
+      "subheading": "Demand, pipeline, and brand for law, finance, healthcare, real estate, and consulting."
+    },
+    "form": {
+      "heading": "Let’s talk about your professional services",
+      "subheading": "Share your goals and challenges — we’ll propose a tailored plan."
+    },
+    "introParagraph": {
+      "heading": "Specialised marketing for professionals",
+      "paragraphs": [
+        "We help professional service firms build reputation, generate qualified leads, and convert trust into revenue.",
+        "From positioning to performance channels, we tailor strategies to your practice and market."
+      ]
+    },
+    "painPoints": {
+      "heading": "Common challenges we solve",
+      "subheading": "",
+      "items": [
+        { "title": "Low-quality enquiries", "description": "Refine ICP, messaging, and funnels to attract the right clients." },
+        { "title": "Inconsistent pipeline", "description": "Build always-on demand engines across SEO, content, and paid." },
+        { "title": "Weak positioning", "description": "Clarify niche, offers, and proof to stand out credibly." }
+      ]
+    },
+    "premiumCloudServices": {
+      "title": "Marketing programs for professional firms",
+      "topCards": [
+        {
+          "title": "Demand engine",
+          "description": "SEO, content, and paid search built for high‑intent enquiries in your practice areas."
+        },
+        {
+          "title": "Conversion systems",
+          "description": "Landing pages, call flows, and follow‑ups that lift qualification and close rates."
+        }
+      ],
+      "customApi": {
+        "title": "Attribution & CRM",
+        "badge": "Data",
+        "description": "Closed‑loop reporting for calls and forms, mapped to stages in your CRM/PMS.",
+        "buttonText": "View reporting",
+        "buttonLink": "#reporting"
+      },
+      "maximumCustomization": {
+        "title": "Practice‑aligned execution",
+        "description": "We adapt to your approvals, compliance needs, and internal tooling without slowing delivery.",
+        "buttonText": "How we work",
+        "buttonLink": "#engagement",
+        "features": [
+          { "title": "CRM/PMS integration", "description": "Route leads with SLAs and capture outcomes for accurate ROI." },
+          { "title": "Call insights", "description": "Recordings and tagging to improve screening and coaching." },
+          { "title": "Offer & proof", "description": "Positioning, service pages, and case narratives that build trust." }
+        ]
+      }
+    },
+    "content": {
+      "heading": "Grow reputation, demand, and pipeline.",
+      "text1": "Professional services win on trust and proof. We position your practice clearly, package offers, and build systems that generate qualified enquiries.",
+      "text2": "From SEO and thought‑leadership to high‑intent paid search, we focus on channels and messages that attract the right clients in your practice areas.",
+      "text3": "Closed‑loop reporting ties calls and forms to outcomes in your CRM/PMS so we can iterate weekly and scale what compounds results.",
+      "image": "wordpress-seo.jpg",
+      "alt": "Professional services marketing illustration"
+    },
+    "process": {
+      "heading": "Our process",
+      "steps": [
+        "Discover",
+        "Strategy",
+        "Launch",
+        "Optimize & Report",
+        "Scale"
+      ],
+      "content": [
+        "Stakeholders, ICP, compliance, and baseline analytics setup.",
+        "Positioning, offers, channel plan, and measurement framework.",
+        "Pages, tracking, campaigns, and content programming live.",
+        "Weekly iteration from insights, calls, and CRM outcomes.",
+        "Double down on winners, expand practice areas, increase coverage."
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Why partner with us",
+      "subheading": "",
+      "items": [
+        { "title": "Category expertise", "description": "Experience across legal, financial, healthcare, and consulting." },
+        { "title": "Compliance aware", "description": "Strategies aligned with regulations and platform policies." },
+        { "title": "Full-funnel visibility", "description": "Attribution and reporting built-in for clear ROI." }
+      ]
+    },
+    "features": {
+      "heading": "Platform features",
+      "items": [
+        { "title": "Lead routing", "description": "Instantly route and track enquiries to the right specialist." },
+        { "title": "Call tracking", "description": "Attribute calls and forms to channels and campaigns." },
+        { "title": "Reporting dashboards", "description": "Transparent KPIs updated daily." }
+      ]
+    },
+    "services": "Professionals Marketing",
+    "faq": {
+      "serviceName": "Professionals Marketing",
+      "faqs": [
+        {
+          "q": "How do you generate qualified enquiries for professional services?",
+          "a": "We align positioning and offers with ICP, then run always-on SEO, content programming, and high-intent paid campaigns. We optimise landing pages and intake to lift conversion rate and lead quality."
+        },
+        {
+          "q": "Can you work in regulated categories (legal, finance, healthcare)?",
+          "a": "Yes. We use compliance-first messaging, clear disclosures, and platform-safe targeting. We coordinate approvals and maintain audit trails for assets and changes."
+        },
+        {
+          "q": "What does onboarding look like?",
+          "a": "2 weeks: discovery, analytics and attribution setup, CRM integration, landing page framework, campaign plan. Initial launch in days with iterative improvements weekly."
+        },
+        {
+          "q": "How do you report results?",
+          "a": "Dashboards for calls, forms, and qualified pipeline with channel/source attribution. Weekly insights and quarterly planning to scale what works."
+        },
+        {
+          "q": "Do you integrate with our CRM or PMS?",
+          "a": "Yes. We integrate with systems like HubSpot, Salesforce, and leading PMS tools for intake routing, SLA tracking, and closed-loop attribution."
+        }
+      ]
+    }
+  },
+  "otherServices": {
+    "professionalsServices": [
+        "Real estate agent marketing",
+        "Mortgage broker marketing",
+        "Law firm marketing",
+        "Accountant marketing",
+        "Financial advisor marketing",
+        "Insurance broker marketing agency",
+        "Consulting firm marketing"
+    ],
+    "slugMapping": {
+        "Real estate agent marketing": "real-estate-marketing-agency",
+        "Mortgage broker marketing": "mortgage-broker-marketing-agency",
+        "Law firm marketing": "law-firm-marketing-agency",
+        "Accountant marketing": "accountant-marketing-agency",
+        "Financial advisor marketing": "financial-advisor-marketing-agency",
+        "Insurance broker marketing agency": "insurance-broker-marketing-agency",
+        "Consulting firm marketing": "consulting-firm-marketing-agency"
+    },
+    "config": {
+      "title": "Explore more in ",
+      "highlightedText": "Professionals",
+      "columns": 3,
+      "baseUrl": "/professionals-marketing-agency/"
+    }
+  }
+}
