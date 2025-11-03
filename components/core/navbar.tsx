@@ -1119,6 +1119,21 @@ const Navbar: React.FC = () => {
                                                                             activeCategory ===
                                                                             "Industries"
                                                                         ) {
+                                                                            // Check if it's a Professionals Marketing service
+                                                                            const professionalsMarketingServices = new Set([
+                                                                                "real-estate-marketing-agency",
+                                                                                "mortgage-broker-marketing-agency",
+                                                                                "physiotherapists-marketing-agency",
+                                                                                "coaches-marketing-agency",
+                                                                                "law-firm-marketing-agency",
+                                                                                "accountant-marketing-agency",
+                                                                                "financial-advisor-marketing-agency",
+                                                                                "insurance-broker-marketing-agency",
+                                                                                "consulting-firm-marketing-agency"
+                                                                            ])
+                                                                            if (professionalsMarketingServices.has(name)) {
+                                                                                return `/professionals-marketing-agency/${name}`
+                                                                            }
                                                                             return `/industry/${name}`
                                                                         }
 																		// Map Hosting, IT & Security items to hosting-it-security routes
@@ -1666,6 +1681,21 @@ const Navbar: React.FC = () => {
                                                                                                                     categoryKey ===
                                                                                                                     "Industries"
                                                                                                                 ) {
+                                                                                                                    // Check if it's a Professionals Marketing service
+                                                                                                                    const professionalsMarketingServices = new Set([
+                                                                                                                        "real-estate-marketing-agency",
+                                                                                                                        "mortgage-broker-marketing-agency",
+                                                                                                                        "physiotherapists-marketing-agency",
+                                                                                                                        "coaches-marketing-agency",
+                                                                                                                        "law-firm-marketing-agency",
+                                                                                                                        "accountant-marketing-agency",
+                                                                                                                        "financial-advisor-marketing-agency",
+                                                                                                                        "insurance-broker-marketing-agency",
+                                                                                                                        "consulting-firm-marketing-agency"
+                                                                                                                    ])
+                                                                                                                    if (professionalsMarketingServices.has(name)) {
+                                                                                                                        return `/professionals-marketing-agency/${name}`
+                                                                                                                    }
                                                                                                                     return `/industry/${name}`
                                                                                                                 }
 																												return `/services/${name}`

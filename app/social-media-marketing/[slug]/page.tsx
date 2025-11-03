@@ -70,12 +70,9 @@ export default function SocialMediaMarketingSlugPage({ params }: { params: { slu
         serviceCards={currentData?.serviceCards}
         basePath="/social-media-marketing"
       />
-  <SeoContent data={ currentData?.content } />
-  <PainPoints data={currentData?.painpoints || (socialData as any)["social-media-marketing"].painpoints} />
-      <Process2
-        data={currentData?.services}
-        processData={currentData?.process || (socialData as any)["social-media-marketing"]?.process}
-      />
+      <PainPoints data={currentData?.painpoints} />
+      <SeoContent data={currentData?.content} />
+      <Process2 data={currentData?.services} processData={currentData?.process} />
       <Apart />
       <CaseStudy />
       <OtherServices />
