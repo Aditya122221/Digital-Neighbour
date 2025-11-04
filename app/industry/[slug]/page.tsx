@@ -132,7 +132,7 @@ export default async function IndustryServicePage({
 			<CaseStudy />
 			<OtherServices />
 			<Process2
-				data={"industries"}
+				data={currentData?.services || serviceName}
 				processData={compatibleProcess}
 			/>
 			<KeyBenefits data={benefitsData} />
