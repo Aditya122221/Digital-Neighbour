@@ -1,7 +1,12 @@
 "use client"
 
-import { useRef } from "react"
-import { motion, useScroll, useTransform } from "framer-motion"
+import { useRef, useState } from "react"
+import {
+	motion,
+	useScroll,
+	useTransform,
+	useMotionValueEvent,
+} from "framer-motion"
 import Image from "next/image"
 import { CustomButton } from "@/components/core/button"
 
@@ -71,6 +76,18 @@ export default function AiAutomationServices({
 		offset: ["start start", "end end"],
 	})
 
+	const [isSticky, setIsSticky] = useState(true)
+
+	// Track scroll progress to remove sticky when all cards are visible
+	useMotionValueEvent(scrollYProgress, "change", (latest) => {
+		// Remove sticky when we've scrolled past all cards (around 95% of scroll)
+		if (latest >= 0.95) {
+			setIsSticky(false)
+		} else {
+			setIsSticky(true)
+		}
+	})
+
 	// Animation ranges for each card
 	const ranges = [
 		[0, 0.25],
@@ -91,26 +108,46 @@ export default function AiAutomationServices({
 	return (
 		<section ref={sectionRef} className="py-20 px-6 bg-white">
 			<div className="container max-w-7xl mx-auto">
-				{/* Heading */}
-				<motion.h2
-					className="text-4xl md:text-5xl lg:text-6xl font-regular text-blackbrown mb-8 font-cal-sans text-center"
-					initial={{ opacity: 0, y: 30 }}
-					whileInView={{ opacity: 1, y: 0 }}
-					viewport={{ once: true }}
-					transition={{
-						duration: 0.8,
-						ease: "easeOut",
-					}}
+				{/* Heading - sticky to stay visible */}
+				<div
+					className={`${
+						isSticky
+							? "sticky top-16 lg:top-20"
+							: ""
+					} z-40 w-full bg-white pb-8 pt-4 -mx-6`}
 				>
-					Our{" "}
-					<span className="relative inline-block">
-						<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
-						<span className="relative z-10 font-medium italic">
-							Services
-						</span>
-					</span>{" "}
-					for {data || "AI & Automation"}
-				</motion.h2>
+					<div className="container max-w-7xl mx-auto px-6">
+						<motion.h2
+							className="text-4xl md:text-5xl lg:text-6xl font-regular text-blackbrown font-cal-sans text-center"
+							initial={{
+								opacity: 0,
+								y: 30,
+							}}
+							whileInView={{
+								opacity: 1,
+								y: 0,
+							}}
+							viewport={{
+								once: true,
+							}}
+							transition={{
+								duration: 0.8,
+								ease: "easeOut",
+							}}
+						>
+							Our{" "}
+							<span className="relative inline-block">
+								<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
+								<span className="relative z-10 font-medium italic">
+									Services
+								</span>
+							</span>{" "}
+							for{" "}
+							{data ||
+								"AI & Automation"}
+						</motion.h2>
+					</div>
+				</div>
 
 				{/* Cards stacked vertically */}
 				<div className="relative min-h-[400vh]">
@@ -126,7 +163,7 @@ export default function AiAutomationServices({
 									y: anim.y,
 									opacity: anim.opacity,
 								}}
-								className="sticky top-24 bg-white rounded-3xl shadow-xl border border-gray-200 overflow-hidden"
+								className="sticky top-40 lg:top-48 bg-white rounded-3xl shadow-xl border border-gray-200 overflow-hidden"
 							>
 								<div
 									className={`grid grid-cols-1 lg:grid-cols-2 gap-0 ${
