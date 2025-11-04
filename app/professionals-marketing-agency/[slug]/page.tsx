@@ -47,8 +47,8 @@ export default async function ProfessionalsMarketingServicePage({
 
 	const serviceName =
 		getServiceNameFromSlug(slug) || "Professionals Marketing"
-	const currentData = (professionalsData as any)["professionals"] || {}
-	
+	const currentData = (professionalsData as any)[slug] || {}
+
 	const introData = currentData?.introParagraph
 		? {
 				heading: currentData.introParagraph.heading,
@@ -130,7 +130,7 @@ export default async function ProfessionalsMarketingServicePage({
 			<HostingServices
 				data={currentData?.services}
 				serviceCards={currentData?.serviceCards}
-				basePath="/hosting-it-security"
+				basePath="/professionals-marketing-agency"
 				premiumCloudServices={
 					currentData?.premiumCloudServices
 				}
@@ -140,17 +140,12 @@ export default async function ProfessionalsMarketingServicePage({
 			<CaseStudy />
 			<OtherServices />
 			<Process2
-				data={"Professional Marketing"}
+				data={currentData?.services}
 				processData={compatibleProcess}
 			/>
 			<KeyBenefits data={benefitsData} />
 			<Features data={currentData?.features} />
-			<SeoFaq
-				data={
-					(professionalsData as any).professionals
-						?.faq
-				}
-			/>
+			<SeoFaq data={currentData?.faq} />
 			<SeoCta data={currentData?.services} />
 			<Footer />
 		</main>

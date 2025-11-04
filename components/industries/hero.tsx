@@ -2,6 +2,7 @@
 
 import Image from "next/image"
 import { motion } from "framer-motion"
+import { CustomButton } from "@/components/core/button"
 
 type HeroIndustry = {
 	name: string
@@ -13,6 +14,7 @@ interface IndustriesHeroProps {
 	data?: {
 		heading?: string
 		subheading?: string
+		buttonText?: string
 		industries?: HeroIndustry[]
 	}
 }
@@ -20,6 +22,7 @@ interface IndustriesHeroProps {
 export default function IndustriesHero({ data }: IndustriesHeroProps) {
 	const heading = data?.heading || "Home Services"
 	const subheading = data?.subheading || "Choose your industry."
+	const buttonText = data?.buttonText || "Talk to our experts"
 	const industries: HeroIndustry[] = data?.industries || [
 		{
 			name: "Electrical",
@@ -106,6 +109,24 @@ export default function IndustriesHero({ data }: IndustriesHeroProps) {
 					<p className="mt-4 text-white/90 text-lg md:text-xl">
 						{subheading}
 					</p>
+					<motion.div
+						initial={{ opacity: 0, y: 20 }}
+						whileInView={{ opacity: 1, y: 0 }}
+						viewport={{ once: true }}
+						transition={{
+							duration: 0.6,
+							ease: "easeOut",
+							delay: 0.2,
+						}}
+						className="mt-6 pointer-events-auto"
+					>
+						<CustomButton
+							text={buttonText}
+							href="#contact"
+							textColor="black"
+							borderColor="black"
+						/>
+					</motion.div>
 				</motion.div>
 			</div>
 		</section>

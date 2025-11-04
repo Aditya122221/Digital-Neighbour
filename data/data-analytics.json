@@ -265,9 +265,1332 @@
       ]
     }
   },
+  "conversion-rate-optimization": {
+  "hero": {
+    "tagline": "Optimize. Convert. Grow your business faster",
+    "heading": "Conversion Rate Optimization (CRO) Services",
+    "subheading": "Maximize ROI and turn visitors into customers with data-driven CRO strategies that enhance user experience, streamline funnels, and increase conversions."
+  },
+  "introParagraph": {
+    "heading": "Smart Optimization, Real Growth",
+    "problemStatement": "High traffic but low conversions? Poor UX, unclear CTAs, and unoptimized landing pages can stop potential customers from taking action, reducing your revenue and marketing ROI.",
+    "valueProposition": "Our CRO experts combine behavioral analytics, UX research, A/B testing, and data-backed design to optimize your conversion funnel. We help you understand user behavior, eliminate friction, and turn every visit into measurable business growth."
+  },
+  "painPoints": {
+    "heading": "Conversion Challenges, Solved",
+    "subheading": "We identify and fix every barrier that prevents your visitors from converting:",
+    "painPoints": [
+      {
+        "problem": "Website visitors not converting into leads or customers.",
+        "solution": "We analyze user journeys, identify friction points, and implement targeted strategies that increase conversion rates across all devices and channels."
+      },
+      {
+        "problem": "Unclear calls-to-action and weak landing page design.",
+        "solution": "Our UX and design experts create optimized layouts, compelling CTAs, and persuasive messaging that drive users toward key actions."
+      },
+      {
+        "problem": "High bounce rates and poor user engagement.",
+        "solution": "We perform heatmap and behavior analysis to uncover engagement issues and implement design and content improvements that retain visitors longer."
+      },
+      {
+        "problem": "Ineffective A/B tests or lack of testing strategy.",
+        "solution": "We design and run controlled A/B and multivariate tests to measure impact and continuously improve site performance based on real data."
+      },
+      {
+        "problem": "No clear insights into user behavior and funnel drop-offs.",
+        "solution": "We implement robust analytics and conversion tracking to visualize every stage of your funnel and uncover opportunities for optimization."
+      }
+    ]
+  },
+  "industries": {
+    "heading": "CRO Solutions for Every Industry",
+    "description": "We deliver customized conversion optimization strategies that maximize performance and ROI across various sectors.",
+    "industries": [
+      {
+        "id": "ecommerce",
+        "name": "eCommerce",
+        "icon": "shoppingCart",
+        "details": "Optimize product pages, streamline checkout flows, and improve purchase rates with targeted CRO strategies for online stores."
+      },
+      {
+        "id": "saas",
+        "name": "SaaS",
+        "icon": "cloudCog",
+        "details": "Boost free-to-paid conversions and user retention through in-app optimization, onboarding improvement, and pricing page testing."
+      },
+      {
+        "id": "financial-services",
+        "name": "Financial Services",
+        "icon": "dollarSign",
+        "details": "Enhance lead generation, form completion, and trust-building through optimized UX and persuasive content flows."
+      },
+      {
+        "id": "education",
+        "name": "Education & EdTech",
+        "icon": "graduationCap",
+        "details": "Increase enrollment and course sign-ups by optimizing your landing pages, CTAs, and content presentation."
+      },
+      {
+        "id": "healthcare",
+        "name": "Healthcare & Wellness",
+        "icon": "heart",
+        "details": "Build trust and drive more patient inquiries with accessible, conversion-optimized website experiences."
+      },
+      {
+        "id": "mvp",
+        "name": "MVP & Startups",
+        "icon": "zap",
+        "details": "Validate product-market fit faster with rapid testing, funnel optimization, and user behavior analysis."
+      }
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Conversion Optimization Benefits",
+    "subheading": "Maximize engagement, improve experience, and boost conversions:",
+    "benefits": [
+      {
+        "title": "Increased ROI",
+        "description": "Turn existing traffic into more sales and leads, reducing customer acquisition costs while maximizing ROI."
+      },
+      {
+        "title": "Improved User Experience",
+        "description": "Deliver seamless, intuitive, and engaging website experiences that guide users naturally toward conversion goals."
+      },
+      {
+        "title": "Data-Driven Decisions",
+        "description": "Base every design and optimization choice on hard data, not guesswork, using analytics and behavior tracking."
+      },
+      {
+        "title": "Faster Growth",
+        "description": "Accelerate business performance with continuous optimization and iterative testing that compounds over time."
+      },
+      {
+        "title": "Reduced Bounce Rates",
+        "description": "Engage visitors effectively with clear messaging, faster load times, and persuasive page layouts."
+      }
+    ]
+  },
+  "form": {
+    "heading": "Optimize Your Conversions Today",
+    "content": "Ready to turn traffic into customers? Our data-driven CRO services help you boost conversions and achieve measurable business results.",
+    "subContent": "Get a free consultation to uncover conversion bottlenecks and receive a tailored optimization roadmap for your business.",
+    "cta": "Let's improve your conversion rates.",
+    "formHeading": "Get a Free CRO Consultation",
+    "buttonText": "Get My Consultation"
+  },
+  "content": {
+    "heading": "Conversion Optimization That Drives Results",
+    "text1": "Our conversion rate optimization services are designed to maximize the performance of your digital assets. From landing pages to checkout funnels, we fine-tune every element for better engagement and conversions.",
+    "text2": "Using behavioral analytics, A/B testing, and UX insights, we identify exactly what drives your audience to act—and what holds them back.",
+    "text3": "From strategy and design to implementation and testing, our team continuously optimizes your conversion funnel for measurable growth and long-term performance.",
+    "image": "ai-seo.jpg",
+    "alt": "Conversion Rate Optimization Services"
+  },
+  "services": "Conversion Rate Optimization",
+  "premiumCloudServices": {
+    "title": "Premium CRO Services",
+    "topCards": [
+      {
+        "title": "Data-Backed Testing",
+        "description": "Implement continuous A/B and multivariate testing to uncover high-performing page elements and improve conversion rates."
+      },
+      {
+        "title": "Behavioral Insights",
+        "description": "Gain deep insights into how users interact with your site using heatmaps, session recordings, and analytics dashboards."
+      }
+    ],
+    "customApi": {
+      "title": "Custom",
+      "badge": "CRO",
+      "description": "Get fully customized conversion optimization strategies aligned with your specific goals, funnels, and audience behavior.",
+      "buttonText": "Learn more",
+      "buttonLink": "#"
+    },
+    "maximumCustomization": {
+      "title": "Maximum testing and personalization",
+      "description": "Tailored CRO strategies that combine analytics, design, and UX for maximum performance and revenue impact.",
+      "buttonText": "Explore CRO solutions",
+      "buttonLink": "#plans",
+      "features": [
+        {
+          "title": "Custom A/B Tests",
+          "description": "Design and execute tailored A/B and multivariate tests for landing pages, forms, and CTAs."
+        },
+        {
+          "title": "Personalized Experiences",
+          "description": "Deliver personalized user experiences using behavioral segmentation and dynamic content targeting."
+        },
+        {
+          "title": "Comprehensive Reporting",
+          "description": "Track improvements with detailed analytics reports and performance dashboards."
+        }
+      ]
+    }
+  },
+  "process": {
+    "steps": [
+      "Website & Funnel Audit",
+      "User Behavior Analysis",
+      "Hypothesis Creation & A/B Testing",
+      "Optimization Implementation",
+      "Monitoring & Continuous Improvement"
+    ],
+    "content": [
+      "We begin by analyzing your website and conversion funnel to identify friction points and optimization opportunities.",
+      "Our team conducts detailed behavioral and analytics research to understand how users interact with your site.",
+      "We create data-backed hypotheses and test them through A/B and multivariate experiments for accurate performance insights.",
+      "Winning variations are implemented and optimized to ensure maximum conversion impact across your funnel.",
+      "We continuously monitor performance, refine strategies, and scale successful tests for sustained growth."
+    ]
+  },
+  "features": {
+    "heading": "Why Choose Our CRO Services",
+    "subheading": "Experience measurable improvements in performance and revenue:",
+    "features": [
+      {
+        "title": "Comprehensive Funnel Optimization",
+        "description": "We optimize every stage of your funnel—from traffic acquisition to checkout—to maximize conversions and lifetime value."
+      },
+      {
+        "title": "Advanced User Testing",
+        "description": "Gain deep insights through usability testing, surveys, and behavior analytics for data-backed design decisions."
+      },
+      {
+        "title": "A/B and Multivariate Testing",
+        "description": "Continuously test and refine key website elements to ensure the best-performing versions are always live."
+      },
+      {
+        "title": "Personalized CRO Strategy",
+        "description": "We tailor every CRO strategy to your audience, goals, and unique customer journey."
+      },
+      {
+        "title": "Scalable Optimization Framework",
+        "description": "Implement an ongoing optimization system that scales as your traffic and business grow."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "id": "landing-page-optimization",
+      "name": "Landing Page Optimization",
+      "title": "Landing Page Optimization",
+      "description": "Design and test high-performing landing pages that convert more visitors into leads and customers.",
+      "image": "/seo/services/ecomm.webp"
+    },
+    {
+      "id": "a-b-testing",
+      "name": "A/B Testing",
+      "title": "A/B Testing",
+      "description": "Run controlled experiments to discover what design, copy, or layout changes deliver the best conversion lift.",
+      "image": "/seo/services/broken-link.webp"
+    },
+    {
+      "id": "ux-research",
+      "name": "UX Research",
+      "title": "UX Research & Behavior Analysis",
+      "description": "Understand user motivations and behaviors through in-depth research and analytics insights.",
+      "image": "/seo/services/productp.webp"
+    },
+    {
+      "id": "conversion-funnel-optimization",
+      "name": "Conversion Funnel Optimization",
+      "title": "Conversion Funnel Optimization",
+      "description": "Optimize every step of the user journey—from awareness to purchase—to increase overall conversion efficiency.",
+      "image": "/seo/services/localcon.webp"
+    }
+  ],
+  "faq": {
+    "serviceName": "Conversion Rate Optimization",
+    "faqs": [
+      {
+        "q": "What is Conversion Rate Optimization (CRO)?",
+        "a": "CRO is the process of improving your website or app to increase the percentage of visitors who complete desired actions like purchases, sign-ups, or inquiries."
+      },
+      {
+        "q": "How long does it take to see CRO results?",
+        "a": "You can start seeing results within 4–8 weeks, depending on traffic volume and test complexity. Continuous testing ensures ongoing improvement over time."
+      },
+      {
+        "q": "Do you provide A/B testing and reporting?",
+        "a": "Yes. We design, run, and analyze A/B and multivariate tests, providing comprehensive reports and insights on performance improvements."
+      },
+      {
+        "q": "Can CRO work alongside SEO or paid ads?",
+        "a": "Absolutely. CRO enhances the effectiveness of SEO and PPC campaigns by ensuring that incoming traffic converts efficiently into customers or leads."
+      },
+      {
+        "q": "Do you offer ongoing optimization support?",
+        "a": "Yes, we provide continuous CRO support with performance tracking, test iteration, and strategy refinement for long-term conversion growth."
+      }
+    ]
+  }
+},
+  "call-tracking": {
+  "hero": {
+    "tagline": "Track. Analyze. Optimize every call and conversion",
+    "heading": "Call Tracking & Analytics Services",
+    "subheading": "Gain full visibility into your customer interactions with advanced call tracking, analytics, and attribution solutions that drive better marketing performance and customer engagement."
+  },
+  "introParagraph": {
+    "heading": "Smarter Calls, Better Conversions",
+    "problemStatement": "Without proper call tracking, you lose insight into where your leads come from and how your team performs. Missed attribution and unmeasured conversations mean missed revenue opportunities and wasted ad spend.",
+    "valueProposition": "Our call tracking and analytics solutions bridge the gap between online engagement and offline conversations. We help you capture, analyze, and attribute every call—revealing which campaigns drive results and how your teams perform in every interaction."
+  },
+  "painPoints": {
+    "heading": "Call Tracking Challenges, Solved",
+    "subheading": "We help you overcome the biggest barriers to accurate call tracking and performance analytics:",
+    "painPoints": [
+      {
+        "problem": "No visibility into which campaigns or keywords drive phone leads.",
+        "solution": "Implement dynamic number insertion and multi-channel attribution to track exactly which campaigns, ads, and keywords generate calls and conversions."
+      },
+      {
+        "problem": "Difficulty measuring agent performance and lead quality.",
+        "solution": "Use AI-powered call recording and analytics to evaluate call outcomes, agent performance, and customer sentiment in real time."
+      },
+      {
+        "problem": "Manual tracking and fragmented data between marketing and sales tools.",
+        "solution": "Integrate call tracking with your CRM, analytics, and ad platforms for automated data synchronization and unified insights."
+      },
+      {
+        "problem": "Inability to connect online activity with offline conversions.",
+        "solution": "Bridge the gap with call attribution analytics that connect ad clicks, landing pages, and keywords to real phone calls and conversions."
+      },
+      {
+        "problem": "Missed opportunities due to unmonitored or missed calls.",
+        "solution": "Enable smart call routing, missed call alerts, and performance dashboards to ensure every opportunity is captured and followed up promptly."
+      }
+    ]
+  },
+  "industries": {
+    "heading": "Industry-Specific Call Tracking Solutions",
+    "description": "Our call tracking services are tailored to different industries, helping businesses understand their customer journeys and maximize ROI from every call.",
+    "industries": [
+      {
+        "id": "marketing-agencies",
+        "name": "Marketing & Advertising Agencies",
+        "icon": "megaphone",
+        "details": "Track campaign performance across multiple clients with real-time call attribution and conversion insights."
+      },
+      {
+        "id": "automotive",
+        "name": "Automotive",
+        "icon": "car",
+        "details": "Measure the impact of online ads and local search on dealership calls, bookings, and sales conversions."
+      },
+      {
+        "id": "healthcare",
+        "name": "Healthcare & Clinics",
+        "icon": "heart",
+        "details": "Track appointment calls, monitor staff responsiveness, and optimize marketing spend for healthcare campaigns."
+      },
+      {
+        "id": "real-estate",
+        "name": "Real Estate",
+        "icon": "building",
+        "details": "Attribute phone leads to listings, agents, and marketing campaigns with full visibility into lead sources."
+      },
+      {
+        "id": "education",
+        "name": "Education & EdTech",
+        "icon": "graduationCap",
+        "details": "Track inquiries, admissions calls, and campaign-driven enrollments with automated call analytics."
+      },
+      {
+        "id": "home-services",
+        "name": "Home Services",
+        "icon": "wrench",
+        "details": "Monitor call volume, lead quality, and conversion rates across service areas, technicians, and campaigns."
+      },
+      {
+        "id": "mvp",
+        "name": "MVP",
+        "icon": "zap",
+        "details": "Validate new campaigns or sales strategies with rapid call tracking setup and instant performance insights."
+      }
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Call Tracking Advantages",
+    "subheading": "Gain transparency, accuracy, and actionable intelligence from every call:",
+    "benefits": [
+      {
+        "title": "Full Marketing Attribution",
+        "description": "Identify which ads, channels, and keywords drive phone calls, so you can optimize budgets and boost ROI."
+      },
+      {
+        "title": "Improved Conversion Rates",
+        "description": "Leverage call analytics and recordings to train teams, refine scripts, and increase close rates."
+      },
+      {
+        "title": "Enhanced Customer Experience",
+        "description": "Track and analyze customer interactions to ensure faster responses and better satisfaction scores."
+      },
+      {
+        "title": "Automated Reporting",
+        "description": "Generate real-time call reports and dashboards for campaign performance and agent efficiency tracking."
+      },
+      {
+        "title": "CRM & Platform Integration",
+        "description": "Seamlessly integrate with CRMs, Google Ads, Analytics, and marketing automation tools for unified insights."
+      }
+    ]
+  },
+  "form": {
+    "heading": "Start Tracking Every Call & Conversion Today",
+    "content": "Empower your marketing and sales teams with end-to-end call tracking and analytics. Gain visibility into every interaction and drive smarter decisions.",
+    "subContent": "Get a free consultation to set up call tracking, integration, or performance analytics for your business.",
+    "cta": "Let's discuss your call tracking needs.",
+    "formHeading": "Get a Free Call Tracking Consultation",
+    "buttonText": "Get My Consultation"
+  },
+  "content": {
+    "heading": "Comprehensive Call Tracking & Analytics",
+    "text1": "Our call tracking services give you full visibility into your customer journey—from the first ad click to the final conversation. We help you measure the real impact of your marketing channels and optimize performance.",
+    "text2": "With AI-driven analytics, dynamic number insertion, and CRM integrations, you’ll know exactly which campaigns work, how agents perform, and where improvements can be made.",
+    "text3": "From setup and configuration to advanced analytics and continuous optimization, our experts ensure your call tracking system delivers measurable business growth.",
+    "image": "ai-seo.jpg",
+    "alt": "Call Tracking & Analytics Services"
+  },
+  "services": "Call Tracking & Analytics",
+  "premiumCloudServices": {
+    "title": "Premium Call Tracking Solutions",
+    "topCards": [
+      {
+        "title": "Dynamic Call Attribution",
+        "description": "Track every call back to its exact source with dynamic number insertion and multi-channel attribution."
+      },
+      {
+        "title": "AI-Powered Insights",
+        "description": "Leverage speech analytics and sentiment analysis to understand customer intent and agent effectiveness."
+      }
+    ],
+    "customApi": {
+      "title": "Custom",
+      "badge": "API",
+      "description": "Powerful APIs and integrations provide seamless connectivity with your CRM, analytics, and ad platforms.",
+      "buttonText": "Learn more",
+      "buttonLink": "#"
+    },
+    "maximumCustomization": {
+      "title": "Maximum customization and control",
+      "description": "Fully customizable call tracking setups designed to match your workflow, tech stack, and reporting needs.",
+      "buttonText": "Explore call tracking solutions",
+      "buttonLink": "#plans",
+      "features": [
+        {
+          "title": "Custom dashboards",
+          "description": "Visualize call metrics, conversion data, and performance analytics in real-time dashboards."
+        },
+        {
+          "title": "Flexible deployment",
+          "description": "Deploy cloud-based or on-premise tracking systems according to your data and compliance needs."
+        },
+        {
+          "title": "Multi-platform support",
+          "description": "Integrate easily with platforms like Google Ads, HubSpot, Salesforce, and more."
+        }
+      ]
+    }
+  },
+  "process": {
+    "steps": [
+      "Consultation & Requirement Analysis",
+      "Setup & Number Allocation",
+      "Integration & Configuration",
+      "Analytics & Dashboard Setup",
+      "Monitoring & Optimization"
+    ],
+    "content": [
+      "We begin by understanding your goals, channels, and customer journey to design the right tracking strategy.",
+      "Set up dynamic phone numbers and call routing to ensure accurate source tracking for every campaign.",
+      "Integrate call tracking with your CRM, marketing, and analytics tools for seamless data flow.",
+      "Build interactive dashboards and reports that visualize key metrics and insights.",
+      "Continuously monitor performance, optimize campaigns, and enhance tracking accuracy for better ROI."
+    ]
+  },
+  "features": {
+    "heading": "Why Choose Our Call Tracking Solutions",
+    "subheading": "Advanced tracking, clear insights, and measurable performance—all in one platform:",
+    "features": [
+      {
+        "title": "Dynamic Number Insertion",
+        "description": "Assign unique phone numbers to campaigns, ads, and channels to precisely track each lead source."
+      },
+      {
+        "title": "AI-Powered Call Analytics",
+        "description": "Analyze conversations for sentiment, keywords, and intent to measure quality and outcomes."
+      },
+      {
+        "title": "Real-Time Dashboards",
+        "description": "Monitor performance with customizable dashboards and automated reporting tools."
+      },
+      {
+        "title": "CRM & Ad Platform Integration",
+        "description": "Sync call data automatically with marketing and sales tools for unified analytics."
+      },
+      {
+        "title": "Performance Optimization",
+        "description": "Use insights from every call to improve campaigns, enhance scripts, and increase conversions."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "id": "call-attribution",
+      "name": "Call Attribution",
+      "title": "Call Attribution",
+      "description": "Track which campaigns, ads, and keywords generate phone calls and conversions for accurate ROI analysis.",
+      "image": "/seo/services/ecomm.webp"
+    },
+    {
+      "id": "call-analytics",
+      "name": "Call Analytics",
+      "title": "Call Analytics",
+      "description": "Analyze conversations, sentiment, and outcomes with AI-powered call analytics and reporting tools.",
+      "image": "/seo/services/broken-link.webp"
+    },
+    {
+      "id": "crm-integration",
+      "name": "CRM Integration",
+      "title": "CRM Integration",
+      "description": "Sync call tracking data with your CRM, sales, and marketing platforms for unified customer insights.",
+      "image": "/seo/services/productp.webp"
+    },
+    {
+      "id": "performance-monitoring",
+      "name": "Performance Monitoring",
+      "title": "Performance Monitoring",
+      "description": "Monitor agent performance, call outcomes, and campaign effectiveness with live dashboards.",
+      "image": "/seo/services/localcon.webp"
+    }
+  ],
+  "faq": {
+    "serviceName": "Call Tracking & Analytics",
+    "faqs": [
+      {
+        "q": "What is call tracking and how does it work?",
+        "a": "Call tracking assigns unique phone numbers to different marketing channels or campaigns. When a customer calls, the system identifies which ad, keyword, or source triggered the call, providing complete visibility into performance."
+      },
+      {
+        "q": "Can I integrate call tracking with my existing CRM or marketing tools?",
+        "a": "Yes, we offer seamless integrations with popular CRMs like HubSpot, Salesforce, Zoho, and marketing platforms like Google Ads, Meta Ads, and Analytics."
+      },
+      {
+        "q": "Do you provide AI-based call analytics?",
+        "a": "Absolutely. Our solutions include AI-powered conversation analytics, sentiment detection, and keyword insights to measure quality and improve conversion rates."
+      },
+      {
+        "q": "Is the setup customizable for different industries?",
+        "a": "Yes, our call tracking systems are fully customizable to suit your industry, campaign type, and reporting requirements."
+      },
+      {
+        "q": "Do you offer ongoing support and optimization?",
+        "a": "Yes, we provide continuous monitoring, reporting, and optimization to ensure your call tracking delivers maximum ROI and stays aligned with evolving business goals."
+      }
+    ]
+  }
+},
+"reporting-and-dashboards": {
+  "hero": {
+    "tagline": "Clarity. Control. Business intelligence at a glance",
+    "heading": "Reporting & Dashboard Services",
+    "subheading": "Transform your data into interactive dashboards and automated reports that deliver real-time insights and drive smarter, faster decision-making."
+  },
+  "introParagraph": {
+    "heading": "Turn Data Into Decisions, Instantly",
+    "problemStatement": "Manual reporting, inconsistent metrics, and delayed insights often hold teams back from acting on data. Without effective dashboards and automation, decision-making becomes slow and fragmented.",
+    "valueProposition": "We design, develop, and deploy intelligent reporting systems and interactive dashboards that put the right data at your fingertips. Our reporting and dashboard services enable organizations to visualize performance, automate updates, and make informed, data-driven decisions—faster."
+  },
+  "painPoints": {
+    "heading": "Reporting & Dashboard Challenges, Solved",
+    "subheading": "We help you overcome every obstacle in turning raw data into real-time insights:",
+    "painPoints": [
+      {
+        "problem": "Manual reporting takes too long and leads to inconsistent results.",
+        "solution": "We automate data collection and report generation, saving time and ensuring accuracy across all business units."
+      },
+      {
+        "problem": "Teams lack visibility into key performance metrics.",
+        "solution": "Our dashboards provide real-time access to KPIs and performance data, empowering teams to act quickly and effectively."
+      },
+      {
+        "problem": "Reports are hard to understand and not visually engaging.",
+        "solution": "We create interactive, visually rich dashboards that make data easy to explore and insights simple to grasp."
+      },
+      {
+        "problem": "Data from different systems can’t be consolidated easily.",
+        "solution": "We integrate multiple data sources—CRMs, ERPs, marketing tools, and more—into unified dashboards with a single source of truth."
+      },
+      {
+        "problem": "Decision-making is reactive rather than proactive.",
+        "solution": "With predictive dashboards and trend visualizations, we help you anticipate challenges and opportunities before they arise."
+      }
+    ]
+  },
+  "industries": {
+    "heading": "Custom Reporting & Dashboard Solutions",
+    "description": "We create tailored dashboards and reporting systems designed to meet the needs of diverse industries and organizational functions.",
+    "industries": [
+      {
+        "id": "retail-ecommerce",
+        "name": "Retail & eCommerce",
+        "icon": "shoppingCart",
+        "details": "Track sales performance, inventory levels, and customer behavior with real-time dashboards for eCommerce and retail teams."
+      },
+      {
+        "id": "financial-fintech",
+        "name": "Financial Services & FinTech",
+        "icon": "dollarSign",
+        "details": "Monitor financial KPIs, manage risk, and visualize portfolio performance with secure and compliant reporting solutions."
+      },
+      {
+        "id": "healthcare",
+        "name": "Healthcare & Life Sciences",
+        "icon": "heart",
+        "details": "Gain visibility into clinical, operational, and patient care metrics through data-driven healthcare dashboards."
+      },
+      {
+        "id": "saas",
+        "name": "SaaS",
+        "icon": "cloudCog",
+        "details": "Understand user behavior, churn rates, and product engagement with detailed SaaS and product analytics dashboards."
+      },
+      {
+        "id": "manufacturing",
+        "name": "Manufacturing",
+        "icon": "factory",
+        "details": "Monitor production performance, downtime, and supply chain metrics to enhance manufacturing efficiency."
+      },
+      {
+        "id": "education-edtech",
+        "name": "Education & EdTech",
+        "icon": "graduationCap",
+        "details": "Track student outcomes, course performance, and institutional KPIs with interactive academic dashboards."
+      },
+      {
+        "id": "mvp",
+        "name": "MVP",
+        "icon": "zap",
+        "details": "Quickly validate product ideas and measure user engagement through rapid reporting dashboards for MVPs."
+      }
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Reporting & Dashboard Advantages",
+    "subheading": "Insightful, automated, and actionable reporting for every business function:",
+    "benefits": [
+      {
+        "title": "Real-Time Visibility",
+        "description": "Get up-to-date information on your KPIs and metrics with live dashboards that refresh automatically."
+      },
+      {
+        "title": "Data Accuracy",
+        "description": "Ensure consistent, validated data across departments through automated data pipelines and integrated sources."
+      },
+      {
+        "title": "Faster Decision-Making",
+        "description": "Empower leadership and teams to act quickly with intuitive reports that eliminate delays and manual processes."
+      },
+      {
+        "title": "Customizable Dashboards",
+        "description": "Build dashboards that suit your goals, metrics, and audience—from executives to frontline teams."
+      },
+      {
+        "title": "Scalable Reporting Systems",
+        "description": "Easily scale reporting as your business grows, ensuring performance and visibility across your organization."
+      }
+    ]
+  },
+  "form": {
+    "heading": "Transform Your Business with Smart Reporting & Dashboards",
+    "content": "Unlock real-time visibility and automate reporting with our interactive dashboards. From performance tracking to predictive insights, we empower smarter decisions.",
+    "subContent": "Get a free consultation on the right reporting strategy or dashboard implementation for your business.",
+    "cta": "Let's discuss your reporting and dashboard needs.",
+    "formHeading": "Get a Free Reporting & Dashboard Consultation",
+    "buttonText": "Get My Consultation"
+  },
+  "content": {
+    "heading": "Dynamic Reporting & Dashboards for Modern Businesses",
+    "text1": "Our reporting and dashboard services bring clarity and speed to your decision-making process. We build systems that consolidate data from multiple sources into powerful visual dashboards and automated reports.",
+    "text2": "With interactive charts, real-time insights, and customizable metrics, our dashboards provide a clear, 360° view of your business performance.",
+    "text3": "From design and integration to deployment and optimization, we handle every step of your reporting and dashboard journey—ensuring accuracy, scalability, and long-term ROI.",
+    "image": "ai-seo.jpg",
+    "alt": "Reporting & Dashboard Services"
+  },
+  "services": "Reporting & Dashboards",
+  "premiumCloudServices": {
+    "title": "Premium Reporting & Dashboard Services",
+    "topCards": [
+      {
+        "title": "Automated Reports",
+        "description": "Save hours with automated report generation and scheduling that keeps your teams informed without manual effort."
+      },
+      {
+        "title": "Real-Time Dashboards",
+        "description": "Access live metrics and KPIs anytime, anywhere, with interactive dashboards that update in real-time."
+      }
+    ],
+    "customApi": {
+      "title": "Custom",
+      "badge": "API",
+      "description": "Integrate reporting APIs to fetch, update, and visualize data seamlessly across your ecosystem.",
+      "buttonText": "Learn more",
+      "buttonLink": "#"
+    },
+    "maximumCustomization": {
+      "title": "Maximum customization and control",
+      "description": "Custom-built dashboards and reporting systems tailored to your metrics, goals, and workflows.",
+      "buttonText": "Explore reporting solutions",
+      "buttonLink": "#plans",
+      "features": [
+        {
+          "title": "Custom dashboards",
+          "description": "Design reports and dashboards that align with your industry KPIs and business goals."
+        },
+        {
+          "title": "Flexible deployment",
+          "description": "Deploy solutions on-premises, in the cloud, or in hybrid environments for full control."
+        },
+        {
+          "title": "Multi-platform support",
+          "description": "Integrate with major tools like Power BI, Tableau, Looker, and Google Data Studio effortlessly."
+        }
+      ]
+    }
+  },
+  "process": {
+    "steps": [
+      "Requirement Analysis & Data Mapping",
+      "Dashboard Design & Development",
+      "Integration & Automation",
+      "Testing & Optimization",
+      "Monitoring & Continuous Improvement"
+    ],
+    "content": [
+      "We start by identifying key metrics, KPIs, and reporting goals to create a clear implementation roadmap.",
+      "Our designers and engineers craft visually appealing, interactive dashboards that make data storytelling effortless.",
+      "We integrate your data sources and automate reporting pipelines to ensure live updates and consistency.",
+      "Rigorous testing ensures accuracy, performance, and user experience across all dashboards and reports.",
+      "We continuously monitor and refine your reporting systems to maintain accuracy and enhance usability."
+    ]
+  },
+  "features": {
+    "heading": "Why Choose Our Reporting & Dashboard Solutions",
+    "subheading": "Experience powerful, automated, and insight-driven reporting built for business growth:",
+    "features": [
+      {
+        "title": "Interactive Visualizations",
+        "description": "Gain deeper insights through interactive charts, tables, and graphs that bring your data to life."
+      },
+      {
+        "title": "Cross-Platform Integration",
+        "description": "Easily connect dashboards with CRMs, ERPs, and other platforms for unified reporting."
+      },
+      {
+        "title": "Automated Reporting",
+        "description": "Eliminate manual work with automated scheduling and delivery of reports to key stakeholders."
+      },
+      {
+        "title": "Real-Time Data Sync",
+        "description": "Stay updated with dashboards that sync automatically with your live data sources."
+      },
+      {
+        "title": "Role-Based Access",
+        "description": "Ensure data security and relevance with customizable access controls for users and teams."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "id": "kpi-dashboards",
+      "name": "KPI Dashboards",
+      "title": "KPI Dashboards",
+      "description": "Track and visualize your business performance in real-time with interactive KPI dashboards customized for your goals.",
+      "image": "/seo/services/ecomm.webp"
+    },
+    {
+      "id": "automated-reporting",
+      "name": "Automated Reporting",
+      "title": "Automated Reporting",
+      "description": "Eliminate manual effort with automated, scheduled reports that ensure accuracy and consistency across your organization.",
+      "image": "/seo/services/broken-link.webp"
+    },
+    {
+      "id": "data-visualization",
+      "name": "Data Visualization",
+      "title": "Data Visualization",
+      "description": "Transform complex data into compelling visuals that make insights clear and decision-making fast.",
+      "image": "/seo/services/productp.webp"
+    },
+    {
+      "id": "custom-dashboard-development",
+      "name": "Custom Dashboard Development",
+      "title": "Custom Dashboard Development",
+      "description": "Design and deploy tailored dashboards that integrate seamlessly with your data and business processes.",
+      "image": "/seo/services/localcon.webp"
+    }
+  ],
+  "faq": {
+    "serviceName": "Reporting & Dashboards",
+    "faqs": [
+      {
+        "q": "What platforms do you use for dashboards and reporting?",
+        "a": "We work with Power BI, Tableau, Looker, Google Data Studio, and custom-built dashboard frameworks depending on your business requirements."
+      },
+      {
+        "q": "Can you integrate dashboards with our existing tools?",
+        "a": "Yes. We integrate seamlessly with CRMs, ERPs, marketing automation tools, and databases to ensure unified and reliable reporting."
+      },
+      {
+        "q": "How long does it take to build a custom dashboard?",
+        "a": "Depending on complexity, dashboards can be developed within 2–6 weeks. Larger multi-source dashboards may take longer due to integration and testing."
+      },
+      {
+        "q": "Can reports be automated and scheduled?",
+        "a": "Absolutely. We set up automated reporting schedules that deliver updates directly to your inbox or system at defined intervals."
+      },
+      {
+        "q": "Do you provide ongoing maintenance and updates?",
+        "a": "Yes. We offer continuous monitoring, updates, and optimization to ensure your dashboards remain accurate, fast, and aligned with business goals."
+      }
+    ]
+  }
+},
+"google-analytics": {
+  "hero": {
+    "tagline": "Measure. Understand. Optimize with precision.",
+    "heading": "Google Analytics Services",
+    "subheading": "Unlock the full potential of your data with advanced Google Analytics setup, tracking, and reporting solutions that turn insights into action and growth."
+  },
+  "introParagraph": {
+    "heading": "Analytics That Power Smarter Decisions",
+    "problemStatement": "Without proper tracking and analytics, businesses struggle to understand where visitors come from, how they engage, and what drives conversions. Inaccurate or incomplete data leads to poor decisions and wasted marketing spend.",
+    "valueProposition": "Our Google Analytics services ensure you capture, measure, and interpret every meaningful interaction. From GA4 migration to advanced event tracking and dashboard reporting, we deliver actionable insights that empower your marketing, sales, and product strategies."
+  },
+  "painPoints": {
+    "heading": "Google Analytics Challenges, Solved",
+    "subheading": "We help you overcome the most common challenges businesses face with analytics and tracking:",
+    "painPoints": [
+      {
+        "problem": "Inaccurate or missing tracking data across websites and apps.",
+        "solution": "We perform a full analytics audit, fix tracking errors, and ensure your GA4 and GTM setup captures every essential interaction accurately."
+      },
+      {
+        "problem": "Confusing reports that fail to provide actionable insights.",
+        "solution": "We build custom dashboards and reports tailored to your KPIs—so you can see exactly what matters most to your business in real time."
+      },
+      {
+        "problem": "Difficulty migrating from Universal Analytics to GA4.",
+        "solution": "Our experts handle seamless migration, ensuring your data continuity, event mapping, and goals align perfectly with GA4’s new data model."
+      },
+      {
+        "problem": "Lack of understanding about user behavior and conversion paths.",
+        "solution": "We implement enhanced event tracking, funnel analysis, and user segmentation to uncover how visitors navigate and convert on your site."
+      },
+      {
+        "problem": "Data not connected with other marketing tools and CRM platforms.",
+        "solution": "We integrate Google Analytics with Google Ads, Search Console, CRM, and marketing automation platforms for unified performance insights."
+      }
+    ]
+  },
+  "industries": {
+    "heading": "Analytics Solutions for Every Industry",
+    "description": "We tailor Google Analytics configurations to match the unique metrics and performance goals of your industry for precise insights and optimization.",
+    "industries": [
+      {
+        "id": "ecommerce",
+        "name": "eCommerce & Retail",
+        "icon": "shoppingCart",
+        "details": "Track sales funnels, product performance, and customer journeys across devices to increase revenue and ROI."
+      },
+      {
+        "id": "saas",
+        "name": "SaaS & Technology",
+        "icon": "cloudCog",
+        "details": "Monitor user engagement, subscription funnels, and retention metrics to improve product experience and growth."
+      },
+      {
+        "id": "finance",
+        "name": "Financial Services",
+        "icon": "dollarSign",
+        "details": "Gain clarity on campaign performance, lead quality, and user paths while maintaining data accuracy and compliance."
+      },
+      {
+        "id": "healthcare",
+        "name": "Healthcare & Wellness",
+        "icon": "heart",
+        "details": "Understand patient journeys, appointment bookings, and digital campaign effectiveness while maintaining privacy compliance."
+      },
+      {
+        "id": "education",
+        "name": "Education & EdTech",
+        "icon": "graduationCap",
+        "details": "Track admissions campaigns, lead sources, and engagement analytics to optimize enrollment rates and student retention."
+      },
+      {
+        "id": "real-estate",
+        "name": "Real Estate",
+        "icon": "building",
+        "details": "Monitor property listing interactions, lead submissions, and local campaign conversions for performance optimization."
+      },
+      {
+        "id": "mvp",
+        "name": "MVP",
+        "icon": "zap",
+        "details": "Validate new ideas and marketing strategies quickly with fast-tracked analytics setups for startups and MVPs."
+      }
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Google Analytics Advantages",
+    "subheading": "Clarity, accuracy, and strategy—powered by data that drives action:",
+    "benefits": [
+      {
+        "title": "Accurate Tracking & Insights",
+        "description": "Capture every meaningful user action with precise GA4 and GTM setup for complete data accuracy and reliability."
+      },
+      {
+        "title": "Smarter Marketing Decisions",
+        "description": "Identify high-performing campaigns, channels, and keywords to optimize spend and boost ROI."
+      },
+      {
+        "title": "Seamless Cross-Platform Integration",
+        "description": "Connect GA4 with Google Ads, Search Console, and CRM tools to create a 360° view of performance."
+      },
+      {
+        "title": "Custom Dashboards & Reporting",
+        "description": "Visualize key business metrics with real-time dashboards and reports built in Google Looker Studio."
+      },
+      {
+        "title": "Future-Ready with GA4",
+        "description": "Migrate to GA4 confidently with custom event tracking, audience setup, and predictive metrics for modern analytics."
+      }
+    ]
+  },
+  "form": {
+    "heading": "Unlock Actionable Insights with Google Analytics",
+    "content": "Get end-to-end support for Google Analytics—from setup and tracking to advanced reporting and optimization. Gain accurate data and smarter insights today.",
+    "subContent": "Get a free consultation to audit your current analytics setup or plan your GA4 migration and tracking strategy.",
+    "cta": "Let's discuss your Google Analytics setup.",
+    "formHeading": "Get a Free Google Analytics Consultation",
+    "buttonText": "Get My Consultation"
+  },
+  "content": {
+    "heading": "Complete Google Analytics Setup & Optimization",
+    "text1": "Our Google Analytics experts help businesses unlock the true potential of their data. We ensure your analytics configuration is accurate, efficient, and aligned with your business goals.",
+    "text2": "From GA4 migration and tag management to custom reporting and performance dashboards, we provide complete visibility into your traffic, user behavior, and marketing performance.",
+    "text3": "Whether you're launching a new website or upgrading to GA4, our team ensures a seamless setup, error-free tracking, and actionable insights to guide better decisions.",
+    "image": "ai-seo.jpg",
+    "alt": "Google Analytics Services"
+  },
+  "services": "Google Analytics",
+  "premiumCloudServices": {
+    "title": "Premium Google Analytics Services",
+    "topCards": [
+      {
+        "title": "Advanced GA4 Setup",
+        "description": "Set up GA4 with enhanced event tracking, cross-domain analytics, and accurate data models for in-depth insights."
+      },
+      {
+        "title": "Custom Reporting & Dashboards",
+        "description": "Build real-time Looker Studio dashboards and custom reports that simplify complex data and highlight what matters most."
+      }
+    ],
+    "customApi": {
+      "title": "Custom",
+      "badge": "API",
+      "description": "Integrate Google Analytics data with your CRM, BI tools, and data pipelines via custom APIs and connectors.",
+      "buttonText": "Learn more",
+      "buttonLink": "#"
+    },
+    "maximumCustomization": {
+      "title": "Maximum customization and control",
+      "description": "Fully tailored analytics configurations, dashboards, and reports designed around your unique data and business goals.",
+      "buttonText": "Explore analytics services",
+      "buttonLink": "#plans",
+      "features": [
+        {
+          "title": "Custom Dashboards",
+          "description": "Create powerful visual dashboards that track KPIs and highlight performance trends across your marketing channels."
+        },
+        {
+          "title": "Flexible Deployment",
+          "description": "Choose on-site, hybrid, or fully cloud-based Google Analytics configurations as per your operational requirements."
+        },
+        {
+          "title": "Multi-Platform Support",
+          "description": "Seamlessly integrate with Google Ads, Tag Manager, Search Console, CRM systems, and eCommerce platforms."
+        }
+      ]
+    }
+  },
+  "process": {
+    "steps": [
+      "Analytics Audit & Assessment",
+      "GA4 Setup & Configuration",
+      "Tag Manager Implementation",
+      "Custom Reports & Dashboards",
+      "Monitoring & Optimization"
+    ],
+    "content": [
+      "We begin by auditing your existing analytics and tracking setup to identify errors, data gaps, and opportunities for improvement.",
+      "Set up GA4 properties, events, and goals for accurate tracking across your website, app, and marketing channels.",
+      "Implement and organize Google Tag Manager for scalable, flexible tracking without developer dependency.",
+      "Develop advanced reports and dashboards in Google Looker Studio for real-time performance monitoring.",
+      "Continuously monitor, optimize, and enhance your analytics setup to ensure long-term accuracy and data-driven growth."
+    ]
+  },
+  "features": {
+    "heading": "Why Choose Our Google Analytics Solutions",
+    "subheading": "Comprehensive analytics setup and insights that keep your business data-driven:",
+    "features": [
+      {
+        "title": "End-to-End GA4 Setup",
+        "description": "From basic tracking to complex event and eCommerce configurations, we manage your entire GA4 implementation."
+      },
+      {
+        "title": "Enhanced eCommerce Tracking",
+        "description": "Track product views, cart actions, and checkout behavior with detailed eCommerce event tracking."
+      },
+      {
+        "title": "Cross-Platform Analytics",
+        "description": "Monitor traffic and user journeys across websites, apps, and campaigns with unified cross-domain tracking."
+      },
+      {
+        "title": "Automated Reporting",
+        "description": "Access real-time dashboards and automated reports that simplify data and enable faster decision-making."
+      },
+      {
+        "title": "Data Accuracy Assurance",
+        "description": "We ensure every event, tag, and conversion is tracked accurately through validation and continuous optimization."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "id": "ga4-migration",
+      "name": "GA4 Migration",
+      "title": "GA4 Migration",
+      "description": "Seamlessly transition from Universal Analytics to GA4 with accurate data mapping and event tracking setup.",
+      "image": "/seo/services/ecomm.webp"
+    },
+    {
+      "id": "event-tracking",
+      "name": "Event Tracking",
+      "title": "Event Tracking",
+      "description": "Set up advanced event and conversion tracking using Google Tag Manager and custom GA4 parameters.",
+      "image": "/seo/services/broken-link.webp"
+    },
+    {
+      "id": "custom-dashboards",
+      "name": "Custom Dashboards",
+      "title": "Custom Dashboards",
+      "description": "Build personalized Looker Studio dashboards to visualize real-time metrics and campaign performance.",
+      "image": "/seo/services/productp.webp"
+    },
+    {
+      "id": "analytics-integration",
+      "name": "Analytics Integration",
+      "title": "Analytics Integration",
+      "description": "Connect Google Analytics with Google Ads, Search Console, CRMs, and eCommerce systems for full-funnel insights.",
+      "image": "/seo/services/localcon.webp"
+    }
+  ],
+  "faq": {
+    "serviceName": "Google Analytics",
+    "faqs": [
+      {
+        "q": "What is GA4 and how is it different from Universal Analytics?",
+        "a": "GA4 is Google’s next-generation analytics platform that tracks both web and app interactions with event-based data models, providing more flexibility, cross-platform insights, and privacy compliance."
+      },
+      {
+        "q": "Can you help migrate our existing setup to GA4?",
+        "a": "Yes, we handle complete GA4 migration—from auditing and mapping events to setting up custom conversions, audiences, and reports."
+      },
+      {
+        "q": "Do you provide Google Tag Manager setup as well?",
+        "a": "Absolutely. We implement Google Tag Manager to handle all tracking tags efficiently, enabling faster updates without code changes."
+      },
+      {
+        "q": "Can you build custom reports and dashboards?",
+        "a": "Yes, we create tailored dashboards in Google Looker Studio that consolidate metrics from Analytics, Ads, Search Console, and more."
+      },
+      {
+        "q": "Do you provide ongoing monitoring and optimization?",
+        "a": "Yes, we provide continuous analytics monitoring, validation, and optimization to maintain data accuracy and improve tracking over time."
+      }
+    ]
+  }
+},
+"google-tag-manager": {
+  "hero": {
+    "tagline": "Track. Optimize. Automate your analytics with precision",
+    "heading": "Google Tag Manager Services",
+    "subheading": "Simplify your marketing and analytics tracking with Google Tag Manager implementation, configuration, and automation for accurate, real-time data insights."
+  },
+  "introParagraph": {
+    "heading": "Streamlined Tracking, Smarter Decisions",
+    "problemStatement": "Managing multiple tracking codes manually can cause data inconsistencies, slow site performance, and incomplete analytics. Without a proper tag management system, your marketing insights remain fragmented and unreliable.",
+    "valueProposition": "We provide expert Google Tag Manager (GTM) setup, configuration, and optimization services—enabling seamless tracking across your entire digital ecosystem. From event tracking to advanced eCommerce and conversion tagging, we make your analytics accurate, scalable, and automated."
+  },
+  "painPoints": {
+    "heading": "Tracking & Tag Management Challenges, Solved",
+    "subheading": "We eliminate the complexity of managing analytics, pixels, and marketing tags manually:",
+    "painPoints": [
+      {
+        "problem": "Multiple tracking codes across pages slowing down website performance.",
+        "solution": "We consolidate all your scripts and tracking codes into a single GTM container, optimizing performance and load times."
+      },
+      {
+        "problem": "Inaccurate or duplicate tracking data causing reporting errors.",
+        "solution": "We audit and configure GTM with precise triggers and variables to ensure data accuracy and prevent duplicate tracking."
+      },
+      {
+        "problem": "Difficulty deploying new tracking tags quickly without developer support.",
+        "solution": "Enable marketing teams to deploy and update tags easily through GTM’s user-friendly interface without relying on code changes."
+      },
+      {
+        "problem": "Limited visibility into user behavior and event tracking.",
+        "solution": "We implement detailed event, conversion, and scroll tracking to give you a complete picture of user interactions and engagement."
+      },
+      {
+        "problem": "Complex integrations with Google Analytics, Ads, and third-party tools.",
+        "solution": "Our experts ensure seamless GTM integration with Google Analytics 4, Ads, Meta Pixel, LinkedIn Insight Tag, and other platforms."
+      }
+    ]
+  },
+  "industries": {
+    "heading": "Custom GTM Solutions for Every Industry",
+    "description": "We design tailored Google Tag Manager setups and automation workflows that fit your business goals, ensuring accurate data collection and actionable insights.",
+    "industries": [
+      {
+        "id": "retail-ecommerce",
+        "name": "Retail & eCommerce",
+        "icon": "shoppingCart",
+        "details": "Track product views, add-to-cart actions, and checkout events with enhanced eCommerce GTM setups for precision marketing and sales analytics."
+      },
+      {
+        "id": "financial-fintech",
+        "name": "Financial Services & FinTech",
+        "icon": "dollarSign",
+        "details": "Implement compliant tracking for user interactions, conversions, and funnels while maintaining data privacy and regulatory standards."
+      },
+      {
+        "id": "healthcare",
+        "name": "Healthcare & Life Sciences",
+        "icon": "heart",
+        "details": "Enable HIPAA-compliant analytics tracking and conversion events without exposing personal health information."
+      },
+      {
+        "id": "saas",
+        "name": "SaaS",
+        "icon": "cloudCog",
+        "details": "Track trial signups, feature engagement, and user journeys with event-based tracking across your SaaS platform."
+      },
+      {
+        "id": "manufacturing",
+        "name": "Manufacturing",
+        "icon": "factory",
+        "details": "Measure quote requests, downloads, and partner engagement with precise event tracking that supports lead generation goals."
+      },
+      {
+        "id": "education-edtech",
+        "name": "Education & EdTech",
+        "icon": "graduationCap",
+        "details": "Track form submissions, course signups, and content engagement metrics with event tracking tailored for education platforms."
+      },
+      {
+        "id": "mvp",
+        "name": "MVP",
+        "icon": "zap",
+        "details": "Launch tracking fast for early-stage products—measure conversions, test events, and scale with GTM flexibility."
+      }
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Google Tag Manager Advantages",
+    "subheading": "Simplify, automate, and enhance your tracking accuracy across all platforms:",
+    "benefits": [
+      {
+        "title": "Centralized Tag Management",
+        "description": "Manage all your analytics and marketing tags from a single, easy-to-use GTM dashboard—no code updates required."
+      },
+      {
+        "title": "Accurate Event Tracking",
+        "description": "Get detailed visibility into user behavior with precise event tracking for clicks, scrolls, form submissions, and conversions."
+      },
+      {
+        "title": "Improved Site Performance",
+        "description": "Reduce redundant scripts and enhance site speed by managing all tags through a single optimized GTM container."
+      },
+      {
+        "title": "Seamless Integrations",
+        "description": "Integrate GTM effortlessly with Google Analytics 4, Ads, Meta, LinkedIn, TikTok, and other marketing platforms."
+      },
+      {
+        "title": "Scalable Tracking Infrastructure",
+        "description": "Easily scale your tracking setup as your website, campaigns, and data needs grow—without disrupting existing workflows."
+      }
+    ]
+  },
+  "form": {
+    "heading": "Optimize Tracking with Google Tag Manager Today",
+    "content": "Unlock advanced analytics and marketing automation with our expert GTM setup and optimization services. From tag deployment to conversion tracking, we simplify it all.",
+    "subContent": "Get a free consultation on Google Tag Manager setup, tag automation strategy, and integration with analytics platforms.",
+    "cta": "Let's optimize your tracking setup.",
+    "formHeading": "Get a Free GTM Consultation",
+    "buttonText": "Get My Consultation"
+  },
+  "content": {
+    "heading": "Simplify Tag Management, Amplify Insights",
+    "text1": "Our Google Tag Manager services help you manage, track, and analyze data more efficiently. Whether you need basic tag setup or advanced event tracking, we deliver accuracy, speed, and automation.",
+    "text2": "We integrate GTM with Google Analytics 4, Ads, Meta, and other platforms to ensure your campaigns are always measurable and data-driven.",
+    "text3": "From setup and auditing to ongoing tag management and conversion optimization, we ensure your tracking infrastructure evolves as your business grows.",
+    "image": "ai-seo.jpg",
+    "alt": "Google Tag Manager Services"
+  },
+  "services": "Google Tag Manager",
+  "premiumCloudServices": {
+    "title": "Premium Google Tag Manager Services",
+    "topCards": [
+      {
+        "title": "Advanced event tracking",
+        "description": "Track every user interaction—from button clicks to video plays—with event-based GTM setups customized for your business."
+      },
+      {
+        "title": "Seamless integration",
+        "description": "Integrate GTM effortlessly with Google Analytics, Ads, Meta Pixel, and other marketing tools for end-to-end visibility."
+      }
+    ],
+    "customApi": {
+      "title": "Custom",
+      "badge": "API",
+      "description": "Enable dynamic tracking and API integrations for real-time data exchange between your GTM setup and marketing platforms.",
+      "buttonText": "Learn more",
+      "buttonLink": "#"
+    },
+    "maximumCustomization": {
+      "title": "Maximum customization and control",
+      "description": "Tailored GTM configurations for your site structure, platforms, and business goals—ensuring every event and conversion is tracked perfectly.",
+      "buttonText": "Explore GTM solutions",
+      "buttonLink": "#plans",
+      "features": [
+        {
+          "title": "Custom triggers and variables",
+          "description": "Define event conditions precisely using custom triggers, variables, and data layers for complete control."
+        },
+        {
+          "title": "Multi-environment support",
+          "description": "Manage tags across staging, testing, and production environments without data conflicts or tag duplication."
+        },
+        {
+          "title": "Cross-platform compatibility",
+          "description": "Full support for web, mobile, AMP, and server-side GTM configurations to unify your tracking ecosystem."
+        }
+      ]
+    }
+  },
+  "process": {
+    "steps": [
+      "Tag Audit & Strategy",
+      "Container Setup & Configuration",
+      "Event & Conversion Tracking Implementation",
+      "Testing & Debugging",
+      "Ongoing Optimization & Monitoring"
+    ],
+    "content": [
+      "We begin with a comprehensive audit of your existing tags, tracking setup, and data accuracy to identify improvements.",
+      "Our team configures your GTM container, defines variables, and sets up triggers for events, conversions, and remarketing.",
+      "We implement precise event tracking for user actions, eCommerce activity, and marketing conversions across platforms.",
+      "Each implementation is rigorously tested and debugged to ensure flawless data accuracy and tag firing logic.",
+      "We monitor performance, adjust triggers, and maintain accuracy as new campaigns, pages, or tools are introduced."
+    ]
+  },
+  "features": {
+    "heading": "Why Choose Our GTM Services",
+    "subheading": "We simplify your tag management so you can focus on growth and performance:",
+    "features": [
+      {
+        "title": "Comprehensive Tag Audits",
+        "description": "Identify redundant, missing, or broken tags and fix tracking inconsistencies with our in-depth GTM audits."
+      },
+      {
+        "title": "Advanced Data Layer Setup",
+        "description": "Implement structured data layers to capture complex user actions and deliver precise analytics to GA4 and other tools."
+      },
+      {
+        "title": "Event Tracking Automation",
+        "description": "Automate tracking of key interactions such as clicks, form submissions, video engagement, and downloads."
+      },
+      {
+        "title": "Multi-Platform Integration",
+        "description": "Seamlessly connect GTM with all major analytics, ad, and CRM systems for unified reporting and insights."
+      },
+      {
+        "title": "Scalable & Secure Configuration",
+        "description": "Ensure reliable, high-performance tracking setups that scale effortlessly with your website and marketing operations."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "id": "gtm-setup",
+      "name": "GTM Setup & Configuration",
+      "title": "GTM Setup & Configuration",
+      "description": "End-to-end setup and configuration of Google Tag Manager containers, triggers, and variables for accurate data tracking.",
+      "image": "/seo/services/ecomm.webp"
+    },
+    {
+      "id": "event-tracking",
+      "name": "Event Tracking",
+      "title": "Event Tracking",
+      "description": "Capture user interactions and engagement metrics across your website with precise GTM event configurations.",
+      "image": "/seo/services/broken-link.webp"
+    },
+    {
+      "id": "data-layer",
+      "name": "Data Layer Implementation",
+      "title": "Data Layer Implementation",
+      "description": "Set up and manage data layers that structure information flow from your site to analytics and ad platforms.",
+      "image": "/seo/services/productp.webp"
+    },
+    {
+      "id": "gtm-audit",
+      "name": "GTM Audit & Optimization",
+      "title": "GTM Audit & Optimization",
+      "description": "Audit existing GTM setups, remove redundant tags, fix broken triggers, and optimize tracking accuracy.",
+      "image": "/seo/services/localcon.webp"
+    }
+  ],
+  "faq": {
+    "serviceName": "Google Tag Manager",
+    "faqs": [
+      {
+        "q": "What is Google Tag Manager used for?",
+        "a": "Google Tag Manager simplifies the management of marketing and analytics tags on your website. It allows you to deploy and update tracking codes without modifying site code, ensuring faster and error-free tracking."
+      },
+      {
+        "q": "Can GTM integrate with Google Analytics and Ads?",
+        "a": "Yes, GTM integrates seamlessly with Google Analytics 4, Google Ads, and other marketing tools such as Meta Pixel and LinkedIn Insight Tag."
+      },
+      {
+        "q": "Do you offer GTM setup for eCommerce websites?",
+        "a": "Absolutely. We provide full enhanced eCommerce tracking setup through GTM for platforms like Shopify, WooCommerce, and Magento."
+      },
+      {
+        "q": "How long does GTM setup take?",
+        "a": "A standard GTM implementation takes about 1–2 weeks. Complex setups involving multiple domains or eCommerce integrations may take longer depending on requirements."
+      },
+      {
+        "q": "Do you provide ongoing GTM support?",
+        "a": "Yes, we offer ongoing maintenance, audits, and optimization to ensure your GTM setup continues to deliver accurate and actionable insights as your business evolves."
+      }
+    ]
+  }
+},
   "otherServices": {
     "dataAnalyticsServices": [
-      "Data and Analytics",
       "Conversion Rate Optimization",
       "Call Tracking",
       "Reporting and Dashboards",
@@ -275,7 +1598,6 @@
       "Google Tag Manager"
     ],
     "slugMapping": {
-      "Data and Analytics": "data-and-analytics",
       "Conversion Rate Optimization": "conversion-rate-optimization",
       "Call Tracking": "call-tracking",
       "Reporting and Dashboards": "reporting-and-dashboards",

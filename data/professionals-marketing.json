@@ -124,6 +124,881 @@
       ]
     }
   },
+  "real-estate-marketing-agency": {
+  "hero": {
+    "heading": "Real Estate Marketing Agency",
+    "subheading": "Lead generation, automation, and branding for residential, commercial, and property management firms."
+  },
+  "form": {
+    "heading": "Let’s talk about your real estate marketing goals",
+    "subheading": "Share your property types and growth targets — we’ll design a data-driven plan to scale your listings and leads."
+  },
+  "introParagraph": {
+    "heading": "Marketing built for real estate performance",
+    "paragraphs": [
+      "We help real estate developers, brokers, and property management firms build visibility, capture quality leads, and close more deals through targeted digital strategies.",
+      "From SEO and PPC to listings automation and CRM integration, we deliver systems that connect serious buyers and tenants with your properties."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "subheading": "",
+    "items": [
+      { "title": "Low-quality or unqualified leads", "description": "Target high-intent buyers and tenants through precise audience segmentation and local SEO." },
+      { "title": "Slow response and missed opportunities", "description": "Automate lead capture and follow-up through CRM and marketing automation workflows." },
+      { "title": "Inefficient tracking and reporting", "description": "Centralize analytics across calls, forms, and listings for full visibility into ROI and channel performance." }
+    ]
+  },
+  "premiumCloudServices": {
+    "title": "Marketing programs for real estate growth",
+    "topCards": [
+      {
+        "title": "Lead engine",
+        "description": "High-intent paid search, local SEO, and social ads designed to drive calls, form fills, and bookings."
+      },
+      {
+        "title": "Listing automation",
+        "description": "Integrate your CRM, website, and property portals for real-time updates and streamlined workflows."
+      }
+    ],
+    "customApi": {
+      "title": "Attribution & CRM",
+      "badge": "Data",
+      "description": "Track calls and form leads through to deals with full CRM and campaign attribution.",
+      "buttonText": "View reporting",
+      "buttonLink": "#reporting"
+    },
+    "maximumCustomization": {
+      "title": "Agency-grade execution",
+      "description": "We adapt to your brokerage model, CRM setup, and listing tools for seamless marketing operations.",
+      "buttonText": "How we work",
+      "buttonLink": "#engagement",
+      "features": [
+        { "title": "CRM integration", "description": "Route enquiries instantly to agents and sync status updates to dashboards." },
+        { "title": "Call insights", "description": "Record and tag calls to measure ad performance and improve agent follow-up." },
+        { "title": "Listing optimization", "description": "Audit and enhance listings across portals for better ranking, visibility, and engagement." }
+      ]
+    }
+  },
+  "content": {
+    "heading": "Drive visibility, leads, and sales.",
+    "text1": "We position your agency or development project to attract the right buyers and investors. Our campaigns focus on visibility, lead quality, and conversion performance.",
+    "text2": "From SEO and paid ads to property video content and retargeting, we connect search intent to qualified enquiries that close faster.",
+    "text3": "End-to-end attribution connects every lead and call to its original campaign, ensuring transparency and continuous performance improvement.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Real estate marketing agency illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Strategy",
+      "Launch",
+      "Optimize & Report",
+      "Scale"
+    ],
+    "content": [
+      "Market research, target audience, listings audit, and baseline analytics setup.",
+      "Positioning, messaging, media plan, and KPI framework.",
+      "Website tracking, campaign launch, and listings automation.",
+      "Weekly performance reporting and conversion optimization.",
+      "Expand coverage, refine creative, and increase qualified lead volume."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why partner with us",
+    "subheading": "",
+    "items": [
+      { "title": "Real estate expertise", "description": "Experience across residential, commercial, and mixed-use marketing." },
+      { "title": "Performance-focused", "description": "Always-on systems for consistent, high-quality lead flow." },
+      { "title": "Full-funnel visibility", "description": "Attribution and analytics built in for transparent ROI tracking." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Lead routing", "description": "Instantly assign and track leads to the right agents or offices." },
+      { "title": "Call tracking", "description": "Attribute inbound calls to campaigns and keywords." },
+      { "title": "Performance dashboards", "description": "Real-time metrics on traffic, leads, and conversion rates." }
+    ]
+  },
+  "services": "Real Estate Marketing",
+  "faq": {
+    "serviceName": "Real Estate Marketing",
+    "faqs": [
+      {
+        "q": "How do you generate qualified real estate leads?",
+        "a": "We combine SEO, PPC, and retargeting with hyperlocal targeting to attract serious buyers and tenants. Lead routing and follow-ups ensure fast response and higher conversion."
+      },
+      {
+        "q": "Can you integrate with our CRM or listing tools?",
+        "a": "Yes. We integrate with CRMs like HubSpot, Salesforce, and real estate tools such as Zoho, Propertybase, and custom platforms for seamless lead tracking."
+      },
+      {
+        "q": "Do you handle both residential and commercial campaigns?",
+        "a": "Absolutely. We tailor messaging, creative, and channels based on property type and audience intent, ensuring maximum relevance and ROI."
+      },
+      {
+        "q": "What kind of reporting do we get?",
+        "a": "Custom dashboards track calls, leads, and deal outcomes by source. We deliver weekly insights and quarterly optimization plans."
+      },
+      {
+        "q": "Can you manage listings and ads for multiple locations?",
+        "a": "Yes. We manage multi-location campaigns and listing feeds with centralized analytics to track performance across regions or offices."
+      }
+    ]
+  }
+},
+"mortgage-broker-marketing-agency": {
+  "hero": {
+    "heading": "Mortgage Broker Marketing Agency",
+    "subheading": "Demand, leads, and brand growth for independent brokers, mortgage firms, and lending advisors."
+  },
+  "form": {
+    "heading": "Let’s talk about your mortgage marketing goals",
+    "subheading": "Share your objectives and challenges — we’ll craft a tailored growth plan."
+  },
+  "introParagraph": {
+    "heading": "High-performing marketing for mortgage professionals",
+    "paragraphs": [
+      "We help mortgage brokers and lending advisors generate qualified borrower leads, strengthen trust, and build consistent deal pipelines.",
+      "From compliant ad campaigns to optimized landing pages and CRM-integrated follow-ups, we align every step to your local and national lending goals."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "subheading": "",
+    "items": [
+      { "title": "Low-quality leads", "description": "Refine targeting, messaging, and funnels to attract serious borrowers ready to act." },
+      { "title": "Inconsistent pipeline", "description": "Create always-on SEO, content, and paid systems that keep leads flowing." },
+      { "title": "Limited brand visibility", "description": "Build local trust and recognition with optimized content and reputation management." }
+    ]
+  },
+  "premiumCloudServices": {
+    "title": "Marketing programs for mortgage brokers",
+    "topCards": [
+      {
+        "title": "Lead generation engine",
+        "description": "SEO, local optimization, and paid search campaigns designed to capture high-intent mortgage enquiries."
+      },
+      {
+        "title": "Conversion systems",
+        "description": "Landing pages, lead forms, and automation that increase applications and appointments."
+      }
+    ],
+    "customApi": {
+      "title": "Attribution & CRM integration",
+      "badge": "Data",
+      "description": "Track every call, form, and deal stage directly within your CRM for full ROI visibility.",
+      "buttonText": "View reporting",
+      "buttonLink": "#reporting"
+    },
+    "maximumCustomization": {
+      "title": "Broker-aligned execution",
+      "description": "We adapt to your lenders, compliance standards, and CRM systems without slowing delivery.",
+      "buttonText": "How we work",
+      "buttonLink": "#engagement",
+      "features": [
+        { "title": "CRM integration", "description": "Connect HubSpot, Salesforce, or broker-specific CRMs for lead tracking and routing." },
+        { "title": "Call insights", "description": "Recordings and tagging to assess lead quality and optimize scripts." },
+        { "title": "Offer & proof", "description": "Positioning, landing pages, and testimonials that build borrower confidence." }
+      ]
+    }
+  },
+  "content": {
+    "heading": "Grow your mortgage brand and lead flow.",
+    "text1": "Mortgage marketing thrives on credibility and timing. We help you reach qualified borrowers when they’re actively searching for home loans or refinancing options.",
+    "text2": "From local SEO and lead funnels to targeted paid search and remarketing, our strategies focus on sustainable lead generation and brand authority.",
+    "text3": "Closed-loop reporting connects enquiries and calls to approved loans in your CRM so you can measure ROI accurately and scale confidently.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Mortgage broker marketing illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Strategy",
+      "Launch",
+      "Optimize & Report",
+      "Scale"
+    ],
+    "content": [
+      "Understand target markets, loan types, compliance, and analytics setup.",
+      "Define messaging, offers, ad structure, and tracking framework.",
+      "Deploy campaigns, content, and automation systems live.",
+      "Weekly optimization using CRM and call data insights.",
+      "Scale top-performing campaigns and expand regional coverage."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why partner with us",
+    "subheading": "",
+    "items": [
+      { "title": "Mortgage expertise", "description": "Experience working with brokers, lenders, and financial advisors." },
+      { "title": "Compliance aware", "description": "Adheres to advertising and financial regulations across platforms." },
+      { "title": "End-to-end visibility", "description": "CRM and reporting integrations for accurate lead attribution and ROI." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Lead routing", "description": "Automatically distribute and track leads among your team." },
+      { "title": "Call tracking", "description": "Attribute every call and enquiry to specific campaigns and channels." },
+      { "title": "Reporting dashboards", "description": "Monitor performance metrics in real time." }
+    ]
+  },
+  "services": "Mortgage Broker Marketing",
+  "faq": {
+    "serviceName": "Mortgage Broker Marketing",
+    "faqs": [
+      {
+        "q": "How do you generate qualified mortgage leads?",
+        "a": "We combine SEO, paid ads, and optimized landing pages targeted to high-intent borrower searches. Each campaign is tracked through your CRM to improve conversion rates and deal quality."
+      },
+      {
+        "q": "Do you understand mortgage advertising compliance?",
+        "a": "Yes. We follow all financial advertising regulations and platform guidelines, ensuring disclosures, rate promotions, and copy meet compliance standards."
+      },
+      {
+        "q": "How long does it take to see results?",
+        "a": "Within the first few weeks, we launch campaigns and begin collecting lead and call data. Optimization typically delivers significant improvements in 4–6 weeks."
+      },
+      {
+        "q": "How do you measure ROI?",
+        "a": "We connect calls, forms, and CRM data to actual deals closed — providing transparent dashboards that show channel and campaign performance."
+      },
+      {
+        "q": "Can you integrate with my mortgage CRM?",
+        "a": "Yes. We support integrations with broker-specific CRMs, HubSpot, Salesforce, and others to automate lead routing and performance tracking."
+      }
+    ]
+  }
+},
+"law-firm-marketing-agency": {
+  "hero": {
+    "heading": "Law Firm Marketing Agency",
+    "subheading": "Reputation, visibility, and client acquisition for legal practices and attorneys."
+  },
+  "form": {
+    "heading": "Let’s discuss your law firm’s growth goals",
+    "subheading": "Share your objectives and challenges — we’ll create a tailored strategy for your practice."
+  },
+  "introParagraph": {
+    "heading": "Marketing built for law firms",
+    "paragraphs": [
+      "We help law firms build trust, authority, and consistent pipelines of qualified clients through compliant, data-driven marketing.",
+      "From search visibility to intake optimization, we tailor every strategy to your firm’s areas of practice, target clients, and local regulations."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "subheading": "",
+    "items": [
+      { "title": "Unqualified or low-intent leads", "description": "Refine keywords, messaging, and offers to attract clients ready to engage your services." },
+      { "title": "Inconsistent case pipeline", "description": "Develop steady inbound flow through SEO, local visibility, content, and high-intent paid campaigns." },
+      { "title": "Limited differentiation", "description": "Position your firm’s expertise and results clearly to stand out from competitors in your region or niche." }
+    ]
+  },
+  "premiumCloudServices": {
+    "title": "Marketing programs for law firms",
+    "topCards": [
+      {
+        "title": "Legal demand engine",
+        "description": "SEO, local optimization, and paid campaigns designed to generate high-value consultations for your practice areas."
+      },
+      {
+        "title": "Conversion & intake systems",
+        "description": "Landing pages, intake workflows, and call handling frameworks that increase booked consultations and case sign-ups."
+      }
+    ],
+    "customApi": {
+      "title": "Attribution & CRM",
+      "badge": "Data",
+      "description": "Closed-loop reporting that ties calls and form fills to signed cases in your CRM or case management software.",
+      "buttonText": "View reporting",
+      "buttonLink": "#reporting"
+    },
+    "maximumCustomization": {
+      "title": "Practice-aligned execution",
+      "description": "We adapt to your firm’s ethics rules, approval workflows, and compliance standards while maintaining speed and precision.",
+      "buttonText": "How we work",
+      "buttonLink": "#engagement",
+      "features": [
+        { "title": "CRM/Case management integration", "description": "Sync leads and outcomes with systems like Clio, Lawmatics, or HubSpot for full intake visibility." },
+        { "title": "Call tracking & review", "description": "Monitor intake quality with recordings and tagging for training and conversion optimization." },
+        { "title": "Reputation & proof", "description": "Showcase verified reviews, case studies, and recognitions to strengthen trust and authority." }
+      ]
+    }
+  },
+  "content": {
+    "heading": "Grow your firm’s reputation, visibility, and caseload.",
+    "text1": "Law firms compete on credibility and visibility. We position your brand as the trusted authority in your niche, backed by compliant marketing strategies that deliver real results.",
+    "text2": "Our approach combines SEO, local optimization, content marketing, and paid acquisition to consistently bring in qualified leads while maintaining compliance with bar advertising rules.",
+    "text3": "Transparent reporting connects every call and form submission to actual cases in your CRM, ensuring clear ROI and informed growth decisions.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Law firm marketing illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discovery",
+      "Strategy",
+      "Launch",
+      "Optimize & Report",
+      "Scale"
+    ],
+    "content": [
+      "Understand your practice areas, compliance needs, and existing lead sources.",
+      "Develop positioning, keyword strategy, content roadmap, and measurement framework.",
+      "Launch optimized campaigns, content, and tracking setup across all channels.",
+      "Iterate weekly based on call quality, CRM outcomes, and campaign performance.",
+      "Scale best-performing campaigns, expand practice areas, and refine positioning."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why partner with us",
+    "subheading": "",
+    "items": [
+      { "title": "Legal marketing expertise", "description": "Experience with law firms across practice areas including personal injury, family, corporate, and immigration law." },
+      { "title": "Compliance-ready strategies", "description": "All assets and campaigns adhere to bar advertising guidelines and platform policies." },
+      { "title": "End-to-end visibility", "description": "Integrated tracking and reporting provide full clarity from lead to signed client." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Lead routing", "description": "Instantly route and track enquiries to the right attorney or paralegal." },
+      { "title": "Call tracking", "description": "Attribute calls and chats to channels and campaigns for ROI clarity." },
+      { "title": "Reporting dashboards", "description": "Real-time dashboards show KPIs, conversion rates, and ROI metrics." }
+    ]
+  },
+  "services": "Law Firm Marketing",
+  "faq": {
+    "serviceName": "Law Firm Marketing",
+    "faqs": [
+      {
+        "q": "How do you generate qualified leads for law firms?",
+        "a": "We combine SEO, Google Ads, and local optimization with compliant messaging and optimized landing pages to attract and convert clients actively seeking legal services."
+      },
+      {
+        "q": "Do you handle bar advertising compliance?",
+        "a": "Yes. All content and campaigns are reviewed for compliance with local and state bar advertising rules, including disclaimers and claim limitations."
+      },
+      {
+        "q": "How long before we see results?",
+        "a": "Organic visibility and SEO typically show measurable improvement within 3–6 months, while paid campaigns can generate leads within days of launch."
+      },
+      {
+        "q": "Can you integrate with our CRM or case management system?",
+        "a": "Yes. We integrate with tools like Clio, Lawmatics, and HubSpot for lead tracking, intake management, and closed-loop attribution."
+      },
+      {
+        "q": "How do you measure success?",
+        "a": "We track calls, forms, and signed cases through CRM data and attribution dashboards to calculate ROI and guide ongoing optimization."
+      }
+    ]
+  }
+},
+"accountant-marketing-agency": {
+  "hero": {
+    "heading": "Accountant Marketing Agency",
+    "subheading": "Build trust, drive qualified leads, and grow your accounting or bookkeeping practice with precision marketing."
+  },
+  "form": {
+    "heading": "Let’s talk about your accounting firm",
+    "subheading": "Share your growth goals and challenges — we’ll craft a data-driven marketing plan for your firm."
+  },
+  "introParagraph": {
+    "heading": "Marketing built for accountants and financial professionals",
+    "paragraphs": [
+      "We help accounting firms attract the right clients, showcase credibility, and convert expertise into measurable growth.",
+      "From SEO to paid search and conversion systems, we design campaigns aligned with compliance, trust, and long-term retention."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "subheading": "",
+    "items": [
+      { "title": "Unqualified or low-value leads", "description": "Refine audience targeting, offers, and messaging to attract ideal clients." },
+      { "title": "Inconsistent enquiries", "description": "Build predictable pipelines using SEO, Google Ads, and content marketing." },
+      { "title": "Weak online credibility", "description": "Enhance positioning with reviews, proof, and authority-building content." }
+    ]
+  },
+  "premiumCloudServices": {
+    "title": "Marketing programs for accounting firms",
+    "topCards": [
+      {
+        "title": "Demand engine",
+        "description": "SEO, local search, and paid campaigns designed to drive tax, audit, and advisory leads."
+      },
+      {
+        "title": "Conversion systems",
+        "description": "Optimized landing pages, forms, and call flows that turn visitors into qualified consultations."
+      }
+    ],
+    "customApi": {
+      "title": "Attribution & CRM",
+      "badge": "Data",
+      "description": "Track every enquiry and call through closed-loop CRM attribution for clear ROI.",
+      "buttonText": "View reporting",
+      "buttonLink": "#reporting"
+    },
+    "maximumCustomization": {
+      "title": "Compliance-ready execution",
+      "description": "We work within accounting and financial regulations, ensuring compliance without slowing campaigns.",
+      "buttonText": "How we work",
+      "buttonLink": "#engagement",
+      "features": [
+        { "title": "CRM integration", "description": "Connect HubSpot, Salesforce, or your practice management tools for seamless lead flow." },
+        { "title": "Call tracking", "description": "Understand which campaigns drive calls and consultations." },
+        { "title": "Offer & proof", "description": "Position your accounting services with clarity, trust, and client case stories." }
+      ]
+    }
+  },
+  "content": {
+    "heading": "Grow your accounting practice with confidence.",
+    "text1": "Accounting firms win on expertise and trust. We help you communicate both through data-driven digital marketing and clear value positioning.",
+    "text2": "From SEO and local listings to high-intent paid search, we focus on the right channels that convert financial clients effectively.",
+    "text3": "We integrate tracking and CRM attribution so every call, form, and client outcome is measurable and optimizable.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Accounting firm marketing illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Strategy",
+      "Launch",
+      "Optimize & Report",
+      "Scale"
+    ],
+    "content": [
+      "Understand your firm’s services, compliance boundaries, and growth goals.",
+      "Develop positioning, offer strategy, and marketing channel roadmap.",
+      "Deploy pages, tracking, and campaigns optimized for accounting lead generation.",
+      "Iterate weekly based on analytics, calls, and CRM feedback.",
+      "Expand service lines, regions, and performance for sustainable growth."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why accountants choose us",
+    "subheading": "",
+    "items": [
+      { "title": "Industry-specific expertise", "description": "Deep experience working with accounting, bookkeeping, and financial advisory firms." },
+      { "title": "Regulation ready", "description": "Marketing aligned with financial compliance and ad platform policies." },
+      { "title": "Transparent ROI", "description": "Every lead and conversion tracked to your CRM or call system for full visibility." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Lead routing", "description": "Instantly direct enquiries to the right accountant or department." },
+      { "title": "Call tracking", "description": "Track client calls and connect them to the right marketing source." },
+      { "title": "Performance dashboards", "description": "Daily visibility into lead volume, source, and qualification rate." }
+    ]
+  },
+  "services": "Accountant Marketing",
+  "faq": {
+    "serviceName": "Accountant Marketing",
+    "faqs": [
+      {
+        "q": "How do you help accounting firms generate leads?",
+        "a": "We optimize your website, SEO, and paid search campaigns around high-intent services like tax, audit, and advisory, with clear messaging that drives trust and conversion."
+      },
+      {
+        "q": "Can you work with multi-location or franchise accounting firms?",
+        "a": "Yes. We create localized SEO and paid strategies that drive enquiries to each office while maintaining brand consistency and compliance."
+      },
+      {
+        "q": "What’s included in onboarding?",
+        "a": "We set up analytics, tracking, CRM integration, and campaign frameworks within 2 weeks. Launch follows immediately with rapid iteration for ROI improvement."
+      },
+      {
+        "q": "How do you measure ROI?",
+        "a": "Through dashboards and CRM integration — tracking each call and form to client conversions and revenue outcomes."
+      },
+      {
+        "q": "Do you integrate with accounting CRMs?",
+        "a": "Yes. We integrate with platforms like HubSpot, Salesforce, and accounting-specific CRMs to ensure closed-loop attribution."
+      }
+    ]
+  }
+},
+"financial-advisor-marketing-agency": {
+  "hero": {
+    "heading": "Financial Advisor Marketing Agency",
+    "subheading": "Demand, pipeline, and brand growth for financial advisors, wealth managers, and investment firms."
+  },
+  "form": {
+    "heading": "Let’s talk about your financial advisory marketing goals",
+    "subheading": "Share your objectives and challenges — we’ll craft a tailored plan to attract the right clients."
+  },
+  "introParagraph": {
+    "heading": "Specialised marketing for financial advisors",
+    "paragraphs": [
+      "We help financial advisors, planners, and wealth management firms build trust, attract qualified investors, and grow their book of business.",
+      "From positioning to performance marketing, we tailor strategies that align with compliance, credibility, and client goals."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "subheading": "",
+    "items": [
+      { "title": "Low-quality leads", "description": "Refine ICP, messaging, and funnels to attract affluent and high-intent prospects." },
+      { "title": "Inconsistent pipeline", "description": "Build always-on SEO, content, and paid systems that bring a steady stream of qualified leads." },
+      { "title": "Brand invisibility", "description": "Clarify positioning, highlight expertise, and build a strong digital presence that earns trust." }
+    ]
+  },
+  "premiumCloudServices": {
+    "title": "Marketing programs for financial advisors",
+    "topCards": [
+      {
+        "title": "Demand engine",
+        "description": "SEO, content, and paid search campaigns designed to capture high-intent investor enquiries."
+      },
+      {
+        "title": "Conversion systems",
+        "description": "Landing pages, lead magnets, and email nurture flows that improve qualification and close rates."
+      }
+    ],
+    "customApi": {
+      "title": "Attribution & CRM",
+      "badge": "Data",
+      "description": "Closed-loop tracking for calls and forms mapped directly to your CRM or financial management system.",
+      "buttonText": "View reporting",
+      "buttonLink": "#reporting"
+    },
+    "maximumCustomization": {
+      "title": "Advisor-aligned execution",
+      "description": "We adapt to your compliance requirements, approval processes, and internal tools without slowing delivery.",
+      "buttonText": "How we work",
+      "buttonLink": "#engagement",
+      "features": [
+        { "title": "CRM integration", "description": "Connect your CRM for automated lead routing, tracking, and ROI measurement." },
+        { "title": "Call insights", "description": "Listen to recordings and call data to optimize discovery and qualification." },
+        { "title": "Offer & proof", "description": "Refine messaging, service pages, and testimonials that demonstrate trust and credibility." }
+      ]
+    }
+  },
+  "content": {
+    "heading": "Grow reputation, trust, and assets under management.",
+    "text1": "Financial advisors win on trust, authority, and proof of performance. We help you position your services clearly and attract clients looking for reliable financial guidance.",
+    "text2": "From compliant paid campaigns and content to automated nurture systems, we ensure your marketing builds credibility and converts leads efficiently.",
+    "text3": "Our reporting framework connects every lead and meeting to CRM data, helping you refine campaigns and scale what drives measurable results.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Financial advisor marketing illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Strategy",
+      "Launch",
+      "Optimize & Report",
+      "Scale"
+    ],
+    "content": [
+      "Understand target investors, compliance requirements, and analytics setup.",
+      "Define positioning, offers, and measurement framework across digital channels.",
+      "Launch campaigns, landing pages, and content aligned to your growth goals.",
+      "Weekly optimization using insights from CRM, calls, and conversion data.",
+      "Scale top-performing campaigns and expand audience reach."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why partner with us",
+    "subheading": "",
+    "items": [
+      { "title": "Financial industry expertise", "description": "Deep experience with advisors, planners, and wealth management firms." },
+      { "title": "Compliance aware", "description": "Marketing strategies that respect financial regulations and platform policies." },
+      { "title": "Transparent reporting", "description": "Attribution and CRM insights for clear ROI tracking and optimization." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Lead routing", "description": "Instantly assign leads to advisors based on region, service type, or specialization." },
+      { "title": "Call tracking", "description": "Attribute calls, meetings, and inquiries to specific campaigns and keywords." },
+      { "title": "Reporting dashboards", "description": "Real-time KPI tracking to measure performance and ROI with clarity." }
+    ]
+  },
+  "services": "Financial Advisor Marketing",
+  "faq": {
+    "serviceName": "Financial Advisor Marketing",
+    "faqs": [
+      {
+        "q": "How do you generate qualified leads for financial advisors?",
+        "a": "We combine compliant paid campaigns, SEO, and lead funnels focused on high-intent investors. Our strategies attract prospects actively seeking advisory or wealth management services."
+      },
+      {
+        "q": "Do your campaigns comply with financial regulations?",
+        "a": "Yes. We follow all financial advertising and platform compliance standards, ensuring accurate disclosures and content approvals before launch."
+      },
+      {
+        "q": "What does the onboarding process look like?",
+        "a": "2 weeks: discovery, analytics setup, CRM integration, and campaign plan. Initial launches go live quickly with continuous optimization and reporting updates weekly."
+      },
+      {
+        "q": "How do you measure ROI?",
+        "a": "Our dashboards connect leads, calls, and CRM data to actual booked meetings or clients, giving a full picture of marketing performance and ROI."
+      },
+      {
+        "q": "Can you integrate with my CRM or wealth platform?",
+        "a": "Yes. We integrate with tools like HubSpot, Salesforce, Redtail, and Wealthbox for automated tracking and reporting."
+      }
+    ]
+  }
+},
+"insurance-broker-marketing-agency": {
+  "hero": {
+    "heading": "Insurance Broker Marketing Agency",
+    "subheading": "Generate qualified leads, grow renewals, and strengthen your brokerage brand with data-driven marketing."
+  },
+  "form": {
+    "heading": "Let’s talk about your brokerage growth",
+    "subheading": "Share your goals and challenges — we’ll craft a strategy that drives consistent, compliant results."
+  },
+  "introParagraph": {
+    "heading": "Specialised marketing for insurance brokers",
+    "paragraphs": [
+      "We help insurance brokers and agencies attract, convert, and retain policyholders through compliant, performance-driven marketing programs.",
+      "From digital lead generation to renewal automation, we tailor solutions to your products, audience, and compliance standards."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "subheading": "",
+    "items": [
+      { "title": "Unqualified leads", "description": "Attract prospects with the right intent through precision targeting and compliant messaging." },
+      { "title": "Inconsistent pipeline", "description": "Build predictable, multi-channel lead engines across search, content, and referral networks." },
+      { "title": "Poor visibility", "description": "Implement analytics and attribution to understand ROI across all acquisition channels." }
+    ]
+  },
+  "premiumCloudServices": {
+    "title": "Marketing programs for insurance brokers",
+    "topCards": [
+      {
+        "title": "Lead generation engine",
+        "description": "SEO, paid search, and social campaigns designed to drive qualified quote requests and policy enquiries."
+      },
+      {
+        "title": "Renewal & retention systems",
+        "description": "Automated email and CRM workflows that nurture clients, reduce churn, and increase cross-sell opportunities."
+      }
+    ],
+    "customApi": {
+      "title": "Attribution & CRM integration",
+      "badge": "Data",
+      "description": "Track calls, forms, and renewals across sources and campaigns — connected directly to your CRM or AMS.",
+      "buttonText": "View attribution",
+      "buttonLink": "#reporting"
+    },
+    "maximumCustomization": {
+      "title": "Broker-aligned execution",
+      "description": "Flexible engagement models built to fit your regulatory needs, internal workflows, and preferred CRM/AMS stack.",
+      "buttonText": "How we work",
+      "buttonLink": "#engagement",
+      "features": [
+        { "title": "CRM/AMS integration", "description": "Connect lead data with tools like HubSpot, Salesforce, or Applied Epic." },
+        { "title": "Call tracking & recording", "description": "Gain insight into call sources, qualification, and outcomes to improve conversion." },
+        { "title": "Offer & compliance", "description": "Ensure all messaging meets carrier, platform, and regulatory standards." }
+      ]
+    }
+  },
+  "content": {
+    "heading": "Build a scalable, compliant growth engine.",
+    "text1": "We help brokers build high-intent lead funnels across paid search, SEO, and referral channels — designed for compliant acquisition.",
+    "text2": "From positioning to policy funnel optimisation, we manage every stage of marketing with your compliance and carrier requirements in mind.",
+    "text3": "All activity is tracked through closed-loop reporting so you can see which calls, forms, and campaigns actually drive bound policies.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Insurance broker marketing illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Strategy",
+      "Launch",
+      "Optimize & Report",
+      "Scale"
+    ],
+    "content": [
+      "Audit current lead sources, messaging, and compliance requirements.",
+      "Define positioning, offers, and multi-channel marketing plan with attribution setup.",
+      "Deploy campaigns, landing pages, and tracking integrations.",
+      "Review call and lead data weekly, refine targeting and messaging.",
+      "Scale performing campaigns and expand to new product lines or regions."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why partner with us",
+    "subheading": "",
+    "items": [
+      { "title": "Industry experience", "description": "Specialists in insurance, financial services, and regulated marketing." },
+      { "title": "Compliance-ready", "description": "We build within your carrier, state, and advertising regulations." },
+      { "title": "Transparent performance", "description": "Full-funnel attribution and dashboards to track ROI with confidence." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Lead tracking", "description": "Connect calls, forms, and referrals across campaigns and sources." },
+      { "title": "Attribution dashboards", "description": "Measure which channels drive quotes, calls, and bound policies." },
+      { "title": "Automated workflows", "description": "Follow-ups and renewals triggered automatically through CRM or AMS." }
+    ]
+  },
+  "services": "Insurance Broker Marketing",
+  "faq": {
+    "serviceName": "Insurance Broker Marketing",
+    "faqs": [
+      {
+        "q": "How do you generate quality leads for insurance brokers?",
+        "a": "We run high-intent SEO and paid campaigns with compliant messaging and optimised landing pages. Leads are qualified through forms and tracked in your CRM for follow-up."
+      },
+      {
+        "q": "Do you support regulated insurance marketing?",
+        "a": "Yes. We adhere to compliance requirements for carriers, disclosures, and advertising platforms. All assets go through review before launch."
+      },
+      {
+        "q": "Can you integrate with our CRM or AMS?",
+        "a": "Absolutely. We integrate with systems like HubSpot, Salesforce, and Applied Epic to track lead flow, policy outcomes, and ROI."
+      },
+      {
+        "q": "How do you measure campaign performance?",
+        "a": "Through closed-loop attribution. Every call, form, and quote request is tracked back to its source, enabling precise reporting and optimisation."
+      },
+      {
+        "q": "What does onboarding include?",
+        "a": "A 2-week onboarding covering discovery, tracking setup, CRM integration, compliance review, and campaign plan. Initial launch follows with ongoing optimisation."
+      }
+    ]
+  }
+},
+"consulting-firm-marketing-agency": {
+  "hero": {
+    "heading": "Consulting Firm Marketing Agency",
+    "subheading": "Build authority, generate qualified leads, and scale your consulting practice with data-driven marketing."
+  },
+  "form": {
+    "heading": "Let’s talk about your consulting firm",
+    "subheading": "Share your goals and challenges — we’ll craft a tailored growth strategy."
+  },
+  "introParagraph": {
+    "heading": "Strategic marketing for consulting firms",
+    "paragraphs": [
+      "We help consulting firms differentiate their expertise, attract high-value clients, and establish authority in competitive markets.",
+      "From positioning and thought leadership to lead generation systems, we design strategies aligned with your consulting niche and business model."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "subheading": "",
+    "items": [
+      { "title": "Unclear market positioning", "description": "Clarify your niche, offers, and value proposition to stand out and attract ideal clients." },
+      { "title": "Low lead volume or quality", "description": "Build always-on demand generation through SEO, LinkedIn, and high-intent paid campaigns." },
+      { "title": "Difficulty proving ROI", "description": "Set up end-to-end tracking and attribution to connect marketing spend to client outcomes." }
+    ]
+  },
+  "premiumCloudServices": {
+    "title": "Marketing programs for consulting firms",
+    "topCards": [
+      {
+        "title": "Demand engine",
+        "description": "SEO, content marketing, and paid campaigns that attract decision-makers seeking consulting expertise."
+      },
+      {
+        "title": "Conversion systems",
+        "description": "Landing pages, case studies, and follow-up workflows that turn interest into qualified conversations."
+      }
+    ],
+    "customApi": {
+      "title": "Attribution & CRM",
+      "badge": "Data",
+      "description": "Full-funnel tracking of calls and forms integrated with your CRM for transparent ROI.",
+      "buttonText": "View reporting",
+      "buttonLink": "#reporting"
+    },
+    "maximumCustomization": {
+      "title": "Client-aligned execution",
+      "description": "We adapt to your consulting workflows, proposal cycles, and compliance requirements without slowing delivery.",
+      "buttonText": "How we work",
+      "buttonLink": "#engagement",
+      "features": [
+        { "title": "CRM integration", "description": "Connect HubSpot, Salesforce, or your preferred system for lead management and reporting." },
+        { "title": "Call insights", "description": "Tag and analyze client conversations to refine messaging and qualification." },
+        { "title": "Offer & proof", "description": "Develop case studies, service pages, and proof points that establish credibility and trust." }
+      ]
+    }
+  },
+  "content": {
+    "heading": "Grow reputation, trust, and client pipeline.",
+    "text1": "Consulting firms thrive on credibility and expertise. We position your firm as an authority and build systems that generate qualified, high-value leads.",
+    "text2": "From SEO and thought leadership to LinkedIn and paid search, we focus on the channels where decision-makers engage and convert.",
+    "text3": "Closed-loop reporting connects marketing activities to CRM outcomes so you can scale based on data, not assumptions.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Consulting firm marketing illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Strategy",
+      "Launch",
+      "Optimize & Report",
+      "Scale"
+    ],
+    "content": [
+      "Stakeholder interviews, market analysis, and baseline performance audit.",
+      "Develop positioning, messaging, and a channel plan tailored to your consulting niche.",
+      "Launch SEO, content, and paid campaigns with tracking and analytics enabled.",
+      "Weekly optimization based on data, leads, and CRM feedback.",
+      "Scale winning strategies, expand offers, and compound growth across markets."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why consulting firms choose us",
+    "subheading": "",
+    "items": [
+      { "title": "Industry understanding", "description": "Deep expertise in consulting, advisory, and B2B service sectors." },
+      { "title": "Authority-focused strategy", "description": "Content and campaigns that elevate brand trust and thought leadership." },
+      { "title": "Data transparency", "description": "Built-in reporting and attribution for clear insight into ROI." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Lead routing", "description": "Instantly assign qualified enquiries to the right consultant or team." },
+      { "title": "Call tracking", "description": "Attribute calls and consultations to campaigns and keywords." },
+      { "title": "Reporting dashboards", "description": "Monitor KPIs, conversions, and ROI in real time." }
+    ]
+  },
+  "services": "Consulting Firm Marketing",
+  "faq": {
+    "serviceName": "Consulting Firm Marketing",
+    "faqs": [
+      {
+        "q": "How do you help consulting firms attract clients?",
+        "a": "We combine thought-leadership content, SEO, and paid campaigns to position your firm as an authority and generate qualified enquiries."
+      },
+      {
+        "q": "Can you work with specialized consulting niches?",
+        "a": "Yes. We customize messaging and targeting for management, IT, strategy, HR, and other consulting verticals to reach ideal decision-makers."
+      },
+      {
+        "q": "What’s the typical onboarding process?",
+        "a": "2 weeks for discovery, analytics setup, CRM integration, and campaign planning. We launch quickly and iterate weekly for optimization."
+      },
+      {
+        "q": "How do you measure results?",
+        "a": "Through dashboards tracking calls, forms, and CRM data — showing which channels and campaigns drive revenue growth."
+      },
+      {
+        "q": "Do you integrate with our existing tools?",
+        "a": "Yes. We integrate with CRMs like HubSpot, Salesforce, and analytics platforms to ensure end-to-end visibility and reporting."
+      }
+    ]
+  }
+},
   "otherServices": {
     "professionalsServices": [
         "Real estate agent marketing",
