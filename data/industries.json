@@ -248,6 +248,2122 @@
     ]
   }
 },
+"recruitment-agency-marketing": {
+  "hero": {
+    "heading": "Recruitment Agency Marketing",
+    "subheading": "Attract clients. Place more candidates. Build your brand.",
+    "industries": [
+      { "name": "Executive Search", "slug": "executive-search", "image": "/industry/electrical.webp" },
+      { "name": "IT & Tech Recruitment", "slug": "it-recruitment", "image": "/industry/hvac.webp" },
+      { "name": "Healthcare Staffing", "slug": "healthcare-staffing", "image": "/industry/pestcontrol.webp" },
+      { "name": "Industrial & Trade Staffing", "slug": "industrial-staffing", "image": "/industry/plumber.webp" },
+      { "name": "Finance & Accounting", "slug": "finance-recruitment", "image": "/industry/landscaping.webp" },
+      { "name": "Creative & Marketing", "slug": "creative-recruitment", "image": "/industry/roofing.webp" }
+    ]
+  },
+  "form": {
+    "heading": "Let’s talk about your recruitment marketing",
+    "subheading": "Share your goals and challenges — we’ll propose a tailored plan."
+  },
+  "introParagraph": {
+    "heading": "Industry-specific solutions for recruitment",
+    "paragraphs": [
+      "Recruitment marketing requires a deep understanding of both employers and candidates. We combine data-driven marketing with industry insight to help agencies consistently attract the right leads and talent.",
+      "From employer branding to candidate nurturing, our approach aligns marketing, automation, and analytics to fill roles faster and build lasting client relationships."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "items": [
+      {
+        "title": "Low-quality client or candidate leads",
+        "description": "We optimize targeting, ads, and landing pages to attract qualified employers and jobseekers."
+      },
+      {
+        "title": "Inefficient lead management",
+        "description": "We integrate CRM and automation workflows to ensure no opportunity slips through."
+      },
+      {
+        "title": "Inconsistent brand visibility",
+        "description": "We improve SEO, content, and local visibility to keep your agency top-of-mind year-round."
+      },
+      {
+        "title": "Difficulty tracking placements to marketing spend",
+        "description": "We implement full-funnel tracking so you know which campaigns drive hires and revenue."
+      },
+      {
+        "title": "Slow response times and lost leads",
+        "description": "We add AI assistants and routing automation to ensure every enquiry is answered fast."
+      },
+      {
+        "title": "Seasonal hiring demand fluctuations",
+        "description": "We build continuous candidate pipelines and on-demand campaigns to smooth seasonality."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "title": "Strategy & Roadmapping",
+      "description": "Define your recruitment growth plan — from branding to lead generation.",
+      "slug": "recruitment-agency-marketing"
+    }
+  ],
+  "content": {
+    "heading": "Build a consistent flow of clients and candidates.",
+    "text1": "We align your marketing with the recruitment funnel — helping you attract more employers and candidates while strengthening your brand credibility.",
+    "text2": "From SEO and paid campaigns to landing pages, CRM automation, and call tracking — every part of your marketing is tuned for measurable outcomes.",
+    "text3": "Dashboards and analytics give visibility into lead sources, placements, and ROI so you can double down on what works.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Recruitment agency marketing illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Design",
+      "Launch",
+      "Optimise",
+      "Scale"
+    ],
+    "content": [
+      "Understand your niche, target roles, and placement process.",
+      "Craft messaging, channel strategy, and automation workflows.",
+      "Launch multi-channel campaigns with built-in attribution.",
+      "Refine creatives, CPL, and conversion rates with data insights.",
+      "Scale to new industries, geographies, or role types as results grow."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why partner with us",
+    "items": [
+      { "title": "Recruitment expertise", "description": "Experience across staffing, executive search, and niche recruitment sectors." },
+      { "title": "Quality lead generation", "description": "We attract both employers and jobseekers who fit your focus areas." },
+      { "title": "Performance tracking", "description": "Full visibility from campaign to placement with accurate attribution." },
+      { "title": "Automation built-in", "description": "Integrate CRMs and workflows to nurture candidates and clients automatically." },
+      { "title": "Faster results", "description": "Proven playbooks help you launch and optimise within weeks." },
+      { "title": "Scalable systems", "description": "Add new markets or verticals without reinventing the process." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Secure by default", "description": "Best practices across hosting, data, and integrations." },
+      { "title": "Call tracking", "description": "Track which ads, pages, and keywords generate employer or candidate enquiries." },
+      { "title": "Reporting dashboards", "description": "Real-time visibility into campaigns, leads, and placements." },
+      { "title": "Lead routing", "description": "Automatically assign leads to recruiters or teams with SLA monitoring." }
+    ]
+  },
+  "services": "Recruitment Agency Marketing",
+  "faq": {
+    "serviceName": "Recruitment Agency Marketing",
+    "faqs": [
+      {
+        "q": "Can you help with both client and candidate acquisition?",
+        "a": "Yes — we design campaigns that target both employers and candidates, optimised for your specific roles and industries."
+      },
+      {
+        "q": "Do you integrate with CRMs like Bullhorn or HubSpot?",
+        "a": "Absolutely. We connect your CRM for full lead visibility, automation, and performance tracking."
+      },
+      {
+        "q": "How quickly can we start seeing results?",
+        "a": "Most recruitment marketing programs go live within 10–14 days and start showing measurable improvements within the first month."
+      }
+    ]
+  }
+},
+"hr-marketing-agency": {
+  "hero": {
+    "heading": "HR Marketing Agency",
+    "subheading": "Drive engagement, attract talent, and strengthen your employer brand.",
+    "industries": [
+      { "name": "Corporate HR", "slug": "corporate-hr", "image": "/industry/electrical.webp" },
+      { "name": "Talent Acquisition", "slug": "talent-acquisition", "image": "/industry/hvac.webp" },
+      { "name": "HR Tech & SaaS", "slug": "hr-tech", "image": "/industry/pestcontrol.webp" },
+      { "name": "Staffing Firms", "slug": "staffing-firms", "image": "/industry/plumber.webp" },
+      { "name": "Employer Branding", "slug": "employer-branding", "image": "/industry/landscaping.webp" },
+      { "name": "Recruitment Marketing", "slug": "recruitment-marketing", "image": "/industry/roofing.webp" }
+    ]
+  },
+  "form": {
+    "heading": "Let’s talk about your HR marketing needs",
+    "subheading": "Share your goals and challenges — we’ll propose a tailored plan."
+  },
+  "introParagraph": {
+    "heading": "Marketing solutions built for HR and talent teams",
+    "paragraphs": [
+      "Human Resources plays a vital role in attracting, engaging, and retaining top talent. Our HR marketing solutions empower teams to amplify employer branding, streamline communication, and elevate recruitment performance.",
+      "From candidate campaigns to internal engagement and brand positioning, we combine creative, technology, and analytics to drive measurable results across every HR touchpoint."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "items": [
+      {
+        "title": "Weak employer brand visibility",
+        "description": "We help define and promote your EVP across digital channels to attract top talent."
+      },
+      {
+        "title": "Inefficient recruitment marketing",
+        "description": "We optimize campaigns, creative, and targeting to attract qualified candidates faster."
+      },
+      {
+        "title": "Disjointed HR communication tools",
+        "description": "We integrate platforms for seamless internal and external communication flows."
+      },
+      {
+        "title": "Limited candidate engagement data",
+        "description": "We set up tracking and analytics to measure every campaign’s impact on applications and hires."
+      },
+      {
+        "title": "Manual HR workflows",
+        "description": "We automate repetitive HR processes with AI assistants and smart integrations."
+      },
+      {
+        "title": "Retention and engagement gaps",
+        "description": "We use data-driven communication strategies to boost employee retention and satisfaction."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "title": "Strategy & Roadmapping",
+      "description": "Define clear goals, campaigns, and measurement frameworks for your HR marketing transformation.",
+      "slug": "hr-marketing-agency"
+    }
+  ],
+  "content": {
+    "heading": "Build a stronger employer brand and talent pipeline.",
+    "text1": "We help HR teams combine marketing and analytics to build high-performing recruitment and engagement campaigns that resonate with employees and candidates alike.",
+    "text2": "From employer branding to paid campaigns, automation, and dashboards — every component is built to drive visibility, engagement, and measurable talent outcomes.",
+    "text3": "Real-time reporting connects marketing performance with actual hires, retention, and employee engagement metrics to scale what works.",
+    "image": "wordpress-seo.jpg",
+    "alt": "HR marketing agency illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Design",
+      "Launch",
+      "Optimise",
+      "Scale"
+    ],
+    "content": [
+      "Understand your HR goals, brand position, and talent needs.",
+      "Create campaigns, messaging, and channel plans for key HR initiatives.",
+      "Launch employer brand, recruitment, or engagement campaigns with tracking in place.",
+      "Analyse performance and optimise messaging, targeting, and creative assets.",
+      "Scale successful programs across departments, geographies, and job functions."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why partner with us",
+    "items": [
+      { "title": "HR domain expertise", "description": "Deep experience in employer branding, recruitment marketing, and HR tech." },
+      { "title": "Full-funnel visibility", "description": "Connect campaigns to real HR metrics — applications, hires, retention." },
+      { "title": "Faster execution", "description": "Launch data-driven campaigns using proven frameworks and automation." },
+      { "title": "Stronger employer brand", "description": "Position your organisation as a preferred employer in your industry." },
+      { "title": "Talent engagement focus", "description": "Reach and convert the right candidates through personalised touchpoints." },
+      { "title": "Automation-ready", "description": "Leverage AI and integrations to streamline HR and marketing workflows." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Secure by default", "description": "Best practices across data, HR systems, and integrations." },
+      { "title": "Call tracking", "description": "Attribute inbound candidate or employer leads to the right campaigns." },
+      { "title": "Reporting dashboards", "description": "Track applications, hires, and engagement KPIs in real time." },
+      { "title": "Lead routing", "description": "Automatically route inbound leads or job applications to recruiters or HR managers." }
+    ]
+  },
+  "services": "HR Marketing Agency",
+  "faq": {
+    "serviceName": "HR Marketing Agency",
+    "faqs": [
+      {
+        "q": "Do you work with internal HR teams or agencies?",
+        "a": "Yes — we partner with both in-house HR teams and external recruitment agencies to support their marketing and automation needs."
+      },
+      {
+        "q": "Can you help us improve our employer brand?",
+        "a": "Absolutely. We craft EVP messaging, creative campaigns, and content strategies to elevate your employer presence across digital platforms."
+      },
+      {
+        "q": "How soon can we launch?",
+        "a": "Discovery starts immediately. Most HR marketing campaigns go live within 10–14 days using our tested playbooks."
+      }
+    ]
+  }
+},
+"it-marketing-agency": {
+  "hero": {
+    "heading": "IT & Software Marketing Agency",
+    "subheading": "Choose your IT specialization.",
+    "industries": [
+      { "name": "Managed IT Services", "slug": "managed-it", "image": "/industry/electrical.webp" },
+      { "name": "SaaS", "slug": "saas", "image": "/industry/hvac.webp" },
+      { "name": "Cybersecurity", "slug": "cybersecurity", "image": "/industry/pestcontrol.webp" },
+      { "name": "Cloud Solutions", "slug": "cloud-solutions", "image": "/industry/plumber.webp" },
+      { "name": "IT Consulting", "slug": "it-consulting", "image": "/industry/landscaping.webp" },
+      { "name": "Tech Support", "slug": "tech-support", "image": "/industry/roofing.webp" }
+    ]
+  },
+  "form": {
+    "heading": "Let’s talk about your IT business",
+    "subheading": "Share your goals and challenges — we’ll propose a tailored plan to accelerate your growth."
+  },
+  "introParagraph": {
+    "heading": "Specialized marketing for IT & software companies",
+    "paragraphs": [
+      "We understand the IT and SaaS industries move fast — so should your marketing. Our strategies combine technical expertise, content-driven demand generation, and automation to help you stand out in a crowded market.",
+      "Whether you’re driving inbound demo requests, scaling MRR, or launching new products, we align your campaigns with measurable business outcomes."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "items": [
+      {
+        "title": "Complex technical offerings",
+        "description": "We translate your technical value into clear, compelling messaging that resonates with decision-makers."
+      },
+      {
+        "title": "Long sales cycles",
+        "description": "We nurture leads through the funnel with automated campaigns and remarketing to shorten time-to-close."
+      },
+      {
+        "title": "Low-quality inbound leads",
+        "description": "We refine targeting, content, and paid channels to attract qualified prospects ready to buy."
+      },
+      {
+        "title": "Inefficient tracking and attribution",
+        "description": "We set up advanced analytics to track every conversion and attribute ROI across channels."
+      },
+      {
+        "title": "Limited brand visibility",
+        "description": "We boost awareness through SEO, thought leadership, and targeted ad campaigns to dominate your niche."
+      },
+      {
+        "title": "Scaling demand sustainably",
+        "description": "We build evergreen content and always-on campaigns that drive consistent inbound demand over time."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "title": "Strategy & Roadmapping",
+      "description": "Define clear goals, channels, and performance metrics for your IT marketing roadmap.",
+      "slug": "it-marketing-agency"
+    }
+  ],
+  "content": {
+    "heading": "Accelerate growth in competitive IT markets.",
+    "text1": "Every IT company has a unique model — MSP, SaaS, or consulting. We tailor your marketing strategy to fit your business, audience, and goals.",
+    "text2": "From SEO and LinkedIn ads to content marketing and lead nurturing, we focus on the channels that reliably drive qualified demos and consultations.",
+    "text3": "Our dashboards reveal exactly which campaigns generate pipeline and MRR — so you can double down on what works.",
+    "image": "wordpress-seo.jpg",
+    "alt": "IT marketing illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Design",
+      "Launch",
+      "Optimise",
+      "Scale"
+    ],
+    "content": [
+      "Understand your products, buyer personas, and sales process.",
+      "Develop messaging, content strategy, and campaign architecture tailored to your market.",
+      "Launch campaigns across paid, organic, and automation channels.",
+      "Refine CPL, MQL quality, and funnel conversion rates through data-driven testing.",
+      "Scale your best-performing campaigns and expand into new geographies or verticals."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why partner with us",
+    "items": [
+      { "title": "Tech industry expertise", "description": "Experience with SaaS, IT consulting, MSPs, and enterprise tech brands." },
+      { "title": "ROI-focused strategy", "description": "We measure success through qualified leads, pipeline, and revenue growth." },
+      { "title": "Faster go-to-market", "description": "Proven playbooks and agile execution to launch in days, not months." },
+      { "title": "Content that converts", "description": "SEO and thought leadership content that attracts high-intent prospects." },
+      { "title": "Automation-first approach", "description": "CRM workflows, lead scoring, and marketing automation that scale demand." },
+      { "title": "Transparent reporting", "description": "Real-time dashboards and weekly insights to track performance and ROI." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Secure by default", "description": "Enterprise-grade data handling and security practices." },
+      { "title": "Call tracking", "description": "Attribute calls, demos, and form fills to specific campaigns and keywords." },
+      { "title": "Reporting dashboards", "description": "Real-time campaign data for transparent performance insights." },
+      { "title": "Lead routing", "description": "Instantly route demo requests or inquiries to the right sales rep or region." }
+    ]
+  },
+  "services": "IT Marketing Agency",
+  "faq": {
+    "serviceName": "IT Marketing Agency",
+    "faqs": [
+      {
+        "q": "Do you work with both B2B and B2C IT businesses?",
+        "a": "Yes — we tailor strategies for both, from B2B SaaS lead generation to consumer tech adoption campaigns."
+      },
+      {
+        "q": "Can you integrate with our CRM or marketing tools?",
+        "a": "Absolutely. We integrate seamlessly with HubSpot, Salesforce, Pipedrive, and other major platforms."
+      },
+      {
+        "q": "How long until we see results?",
+        "a": "Most clients see meaningful pipeline growth and lead quality improvement within 30–60 days of launch."
+      }
+    ]
+  }
+},
+"wreckers-marketing-agency": {
+  "hero": {
+    "heading": "Wreckers Marketing Agency",
+    "subheading": "Generate more calls, tow jobs, and salvage leads — every day.",
+    "industries": [
+      { "name": "Towing Services", "slug": "towing-services", "image": "/industry/electrical.webp" },
+      { "name": "Auto Wreckers", "slug": "auto-wreckers", "image": "/industry/hvac.webp" },
+      { "name": "Scrap Car Removal", "slug": "scrap-car-removal", "image": "/industry/pestcontrol.webp" },
+      { "name": "Used Auto Parts", "slug": "used-auto-parts", "image": "/industry/plumber.webp" },
+      { "name": "Salvage Yards", "slug": "salvage-yards", "image": "/industry/landscaping.webp" },
+      { "name": "Cash for Cars", "slug": "cash-for-cars", "image": "/industry/roofing.webp" }
+    ]
+  },
+  "form": {
+    "heading": "Let’s talk about your wrecker business",
+    "subheading": "Share your goals and challenges — we’ll propose a tailored plan."
+  },
+  "introParagraph": {
+    "heading": "Marketing built for auto wreckers and towing services",
+    "paragraphs": [
+      "We understand the fast-paced, local nature of towing and wrecking businesses. Our marketing strategies focus on high-intent local visibility — helping you get more calls, jobs, and leads when it matters most.",
+      "From paid ads to Google Business optimisation, we connect your services with customers searching for help now, while building long-term trust and brand recognition."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "items": [
+      {
+        "title": "Low call volume or inconsistent leads",
+        "description": "We create high-intent campaigns and local SEO setups that bring in steady daily enquiries."
+      },
+      {
+        "title": "Poor local visibility",
+        "description": "We optimise your Google Business Profile, maps presence, and service area listings to dominate local searches."
+      },
+      {
+        "title": "Untracked calls and missed opportunities",
+        "description": "We implement call tracking, routing, and performance dashboards to see which ads or listings drive revenue."
+      },
+      {
+        "title": "Weak website performance",
+        "description": "We build and optimise landing pages designed to convert visitors into phone calls and quote requests."
+      },
+      {
+        "title": "High ad spend with low ROI",
+        "description": "We fine-tune keywords, targeting, and bidding to ensure every dollar drives measurable results."
+      },
+      {
+        "title": "Seasonal slowdowns",
+        "description": "We design always-on campaigns and promos that keep your phone ringing year-round."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "title": "Strategy & Roadmapping",
+      "description": "Define clear goals, channels, and performance metrics for your wrecker marketing growth.",
+      "slug": "wreckers-marketing-agency"
+    }
+  ],
+  "content": {
+    "heading": "Dominate your local service areas.",
+    "text1": "In the wrecker and towing industry, timing is everything. We make sure you’re the first choice when people search for ‘car removal’ or ‘tow truck near me.’",
+    "text2": "From SEO and Google Ads to local maps and call tracking — our approach drives high-intent leads from customers ready to book now.",
+    "text3": "Real-time dashboards show which campaigns and keywords generate the most calls and revenue, helping you scale with confidence.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Wreckers marketing agency illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Design",
+      "Launch",
+      "Optimise",
+      "Scale"
+    ],
+    "content": [
+      "Understand your services, service areas, and existing marketing setup.",
+      "Design a channel plan with clear messaging, tracking, and call flows.",
+      "Launch high-intent local campaigns and map optimisations with fast setup.",
+      "Continuously improve cost-per-lead, ad creative, and keyword targeting.",
+      "Expand coverage to new areas and scale the campaigns that drive the most calls."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why partner with us",
+    "items": [
+      { "title": "Industry expertise", "description": "Experience across towing, wrecking, and auto recycling businesses." },
+      { "title": "Proven ROI", "description": "Campaigns engineered for measurable call volume and booked jobs." },
+      { "title": "Faster results", "description": "Get live campaigns and inbound leads within 10–14 days." },
+      { "title": "Local-first SEO", "description": "Rank in maps and organic for every service and location you offer." },
+      { "title": "High-converting landing pages", "description": "Custom-built pages to turn searchers into paying customers." },
+      { "title": "Automation-ready", "description": "Use AI and integrations to track, route, and respond to leads instantly." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Secure by default", "description": "Best practices across hosting, analytics, and automation." },
+      { "title": "Call tracking", "description": "Know exactly which ads, keywords, and listings generate calls and jobs." },
+      { "title": "Reporting dashboards", "description": "Track ROI with real-time performance dashboards." },
+      { "title": "Lead routing", "description": "Automatically route calls or form leads to the right location or team." }
+    ]
+  },
+  "services": "Wreckers Marketing Agency",
+  "faq": {
+    "serviceName": "Wreckers Marketing Agency",
+    "faqs": [
+      {
+        "q": "Do you work with independent tow operators and multi-location wreckers?",
+        "a": "Yes — we support both single-location operators and multi-yard businesses with tailored marketing strategies."
+      },
+      {
+        "q": "Can you help us rank higher on Google Maps?",
+        "a": "Absolutely. We specialise in local SEO and GBP optimisation to boost visibility for searches like ‘tow truck near me’ and ‘cash for cars.’"
+      },
+      {
+        "q": "How quickly can we start getting more calls?",
+        "a": "Most clients see results within 1–2 weeks after launch, with immediate call increases from paid and map campaigns."
+      }
+    ]
+  }
+},
+"automotive-repair-marketing-agency": {
+  "hero": {
+    "heading": "Automotive Repair Marketing Agency",
+    "subheading": "Choose your service type.",
+    "industries": [
+      { "name": "Auto Repair", "slug": "auto-repair", "image": "/industry/electrical.webp" },
+      { "name": "Collision & Body Shop", "slug": "collision-repair", "image": "/industry/hvac.webp" },
+      { "name": "Tire & Wheel Services", "slug": "tire-services", "image": "/industry/pestcontrol.webp" },
+      { "name": "Transmission Repair", "slug": "transmission-repair", "image": "/industry/plumber.webp" },
+      { "name": "Oil Change & Maintenance", "slug": "oil-change", "image": "/industry/landscaping.webp" },
+      { "name": "Brake & Suspension", "slug": "brake-repair", "image": "/industry/roofing.webp" }
+    ]
+  },
+  "form": {
+    "heading": "Let’s talk about your automotive repair business",
+    "subheading": "Share your goals and challenges — we’ll propose a tailored marketing plan."
+  },
+  "introParagraph": {
+    "heading": "Specialised marketing for automotive repair shops",
+    "paragraphs": [
+      "Auto repair businesses depend on steady local demand and repeat customers. We help you build visibility, trust, and bookings through strategic digital marketing built for the automotive industry.",
+      "From Google Maps to paid ads and review management, we align every channel to help your shop stay busy and profitable year-round."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "items": [
+      {
+        "title": "Low local visibility",
+        "description": "We optimise your Google Business Profile, citations, and SEO to ensure you appear when drivers need you most."
+      },
+      {
+        "title": "Inconsistent lead flow",
+        "description": "We create always-on campaigns to generate steady service bookings, not just seasonal spikes."
+      },
+      {
+        "title": "High competition in local search",
+        "description": "We craft hyper-local campaigns that outshine competitors in maps and search results."
+      },
+      {
+        "title": "Poor review management",
+        "description": "We implement systems to collect, monitor, and respond to customer reviews for trust and ranking gains."
+      },
+      {
+        "title": "Limited marketing tracking",
+        "description": "We set up tracking for calls, forms, and appointments so you know which campaigns drive real jobs."
+      },
+      {
+        "title": "Underperforming ads",
+        "description": "We fine-tune keywords, creative, and landing pages to improve conversion rates and lower CPL."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "title": "Strategy & Roadmapping",
+      "description": "Define clear marketing goals, KPIs, and ROI for your automotive repair business.",
+      "slug": "automotive-repair-marketing-agency"
+    }
+  ],
+  "content": {
+    "heading": "Drive more bookings and repeat business.",
+    "text1": "Every automotive shop serves a unique local market. We tailor campaigns to your services, service area, and seasonality to attract qualified leads.",
+    "text2": "From Google Maps optimization to paid search and social campaigns, we help you dominate high-intent search results and convert more calls and appointments.",
+    "text3": "Real-time dashboards track which campaigns drive the most revenue — helping you scale what works best.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Automotive repair marketing illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Design",
+      "Launch",
+      "Optimise",
+      "Scale"
+    ],
+    "content": [
+      "Understand your shop’s goals, service mix, and local market competition.",
+      "Develop a marketing plan including SEO, ads, and review strategy tailored to your area.",
+      "Launch campaigns, local SEO, and reporting tools with quick feedback loops.",
+      "Refine ad targeting, keywords, and landing pages to improve conversion rates.",
+      "Expand to more service areas, add channels, and scale top-performing campaigns."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why partner with us",
+    "items": [
+      { "title": "Automotive industry expertise", "description": "Experience across auto repair, collision, tire, and service center marketing." },
+      { "title": "Proven ROI", "description": "We focus on measurable results — more calls, more bookings, and higher retention." },
+      { "title": "Faster launch", "description": "Launch tested campaigns in days with templates built for automotive services." },
+      { "title": "Local SEO dominance", "description": "Rank higher on maps and search for repair services in your service area." },
+      { "title": "Conversion-driven ads", "description": "High-intent PPC and display campaigns optimised for car owners seeking repairs." },
+      { "title": "Automation-ready workflows", "description": "CRM, review requests, and call tracking integrated for efficiency." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Secure by default", "description": "Data privacy and campaign integrity built in." },
+      { "title": "Call tracking", "description": "Identify which keywords and campaigns generate repair bookings." },
+      { "title": "Reporting dashboards", "description": "Daily performance insights with transparent ROI tracking." },
+      { "title": "Lead routing", "description": "Automatically route calls and messages to the right service advisor." }
+    ]
+  },
+  "services": "Automotive Repair Marketing Agency",
+  "faq": {
+    "serviceName": "Automotive Repair Marketing Agency",
+    "faqs": [
+      {
+        "q": "Do you work with single-location and multi-location repair shops?",
+        "a": "Yes — we support both small independent garages and multi-location franchises with tailored local SEO and ad structures."
+      },
+      {
+        "q": "How soon can we start seeing results?",
+        "a": "Most shops notice increased call volume and bookings within 2–4 weeks of campaign launch."
+      },
+      {
+        "q": "Can you help manage our Google reviews and reputation?",
+        "a": "Absolutely. We set up automated review requests and response systems to boost your shop’s reputation and rankings."
+      }
+    ]
+  }
+},
+"construction-marketing-agency": {
+  "hero": {
+    "heading": "Construction Marketing Agency",
+    "subheading": "Build visibility, demand, and reputation in your market.",
+    "industries": [
+      { "name": "General Contractors", "slug": "general-contractors", "image": "/industry/electrical.webp" },
+      { "name": "Home Builders", "slug": "home-builders", "image": "/industry/hvac.webp" },
+      { "name": "Remodeling", "slug": "remodeling", "image": "/industry/pestcontrol.webp" },
+      { "name": "Roofing", "slug": "roofing", "image": "/industry/roofing.webp" },
+      { "name": "Concrete & Masonry", "slug": "concrete-masonry", "image": "/industry/landscaping.webp" },
+      { "name": "Commercial Construction", "slug": "commercial-construction", "image": "/industry/plumber.webp" }
+    ]
+  },
+  "form": {
+    "heading": "Let’s talk about your construction business",
+    "subheading": "Share your goals and challenges — we’ll propose a tailored marketing plan to help you scale."
+  },
+  "introParagraph": {
+    "heading": "Marketing built for construction growth",
+    "paragraphs": [
+      "From local builders to national contractors, we understand what drives construction demand. Our data-driven strategies connect your business with property owners, developers, and decision-makers ready to start their next project.",
+      "We combine search visibility, performance ads, and CRM automation to help you fill your pipeline with high-value leads and bid opportunities year-round."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "items": [
+      {
+        "title": "Low online visibility",
+        "description": "We help you dominate local and project-specific searches to attract qualified leads."
+      },
+      {
+        "title": "Unpredictable lead flow",
+        "description": "Always-on SEO and paid strategies reduce dependence on seasonality or referrals alone."
+      },
+      {
+        "title": "Poor conversion rates",
+        "description": "We optimize landing pages, CTAs, and follow-ups to increase booked site visits and project consultations."
+      },
+      {
+        "title": "Fragmented marketing tools",
+        "description": "We unify your lead tracking, CRM, and analytics so your sales data tells one clear story."
+      },
+      {
+        "title": "Long sales cycles",
+        "description": "We design nurturing sequences and retargeting campaigns to keep your brand top-of-mind throughout the decision process."
+      },
+      {
+        "title": "Inefficient ad spend",
+        "description": "Our data-backed bidding strategies focus budget only on the keywords and audiences that deliver ROI."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "title": "Construction Marketing Strategy",
+      "description": "Blueprint your digital growth — from SEO and ads to branding and automation.",
+      "slug": "construction-marketing-agency"
+    }
+  ],
+  "content": {
+    "heading": "Generate more project leads and bids.",
+    "text1": "Construction projects often start with research — we make sure your company is visible where those searches begin. From local SEO to PPC and lead nurturing, every touchpoint is engineered to attract high-intent prospects.",
+    "text2": "We build landing pages, optimize Google Business Profiles, and integrate call tracking so you know exactly which campaigns drive form fills, phone calls, and estimates.",
+    "text3": "With real-time dashboards and transparent reporting, you’ll see how marketing translates into new projects, quotes, and contracts.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Construction marketing illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Design",
+      "Launch",
+      "Optimise",
+      "Scale"
+    ],
+    "content": [
+      "Analyze your services, project types, competition, and market area.",
+      "Create a campaign plan that blends SEO, ads, and conversion strategy.",
+      "Launch campaigns, content, and tracking infrastructure quickly.",
+      "Refine keywords, creative, and bidding to lower CPL and improve ROI.",
+      "Expand reach, add new geographies, and scale winning channels."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why construction brands choose us",
+    "items": [
+      { "title": "Industry experience", "description": "Proven success with builders, contractors, and remodelers." },
+      { "title": "Local SEO dominance", "description": "Rank for the project types and cities that matter most." },
+      { "title": "Lead quality focus", "description": "Qualified calls and form leads from property owners ready to build." },
+      { "title": "CRM & call tracking integration", "description": "Full visibility into which sources drive real revenue." },
+      { "title": "Faster time-to-launch", "description": "Pre-built frameworks customized to your construction niche." },
+      { "title": "Data-driven optimization", "description": "Ongoing testing to continually improve ROI." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Secure by default", "description": "Robust infrastructure and data protection." },
+      { "title": "Call tracking", "description": "Know which channels and campaigns generate real projects." },
+      { "title": "Reporting dashboards", "description": "Track job leads, conversions, and cost-per-project in real time." },
+      { "title": "Lead routing", "description": "Automatically assign enquiries to the right estimator or region." }
+    ]
+  },
+  "services": "Construction Marketing Agency",
+  "faq": {
+    "serviceName": "Construction Marketing Agency",
+    "faqs": [
+      {
+        "q": "Do you work with both residential and commercial contractors?",
+        "a": "Yes — we tailor campaigns for both segments, ensuring each targets the right audience and project size."
+      },
+      {
+        "q": "Can you help with lead tracking and CRM integration?",
+        "a": "Absolutely. We integrate call tracking, forms, and CRM systems to give you full lead visibility and performance data."
+      },
+      {
+        "q": "How long until we start seeing results?",
+        "a": "Most clients see lead flow improvements within the first 30–45 days, with full optimization achieved in 90 days."
+      }
+    ]
+  }
+},
+"florist-marketing-agency": {
+  "hero": {
+    "heading": "Florist Marketing Agency",
+    "subheading": "Grow your floral business with smart, local-first marketing.",
+    "industries": [
+      { "name": "Wedding Florists", "slug": "wedding-florists", "image": "/industry/electrical.webp" },
+      { "name": "Retail Flower Shops", "slug": "retail-flower-shops", "image": "/industry/landscaping.webp" },
+      { "name": "Online Flower Delivery", "slug": "online-flower-delivery", "image": "/industry/roofing.webp" },
+      { "name": "Event Florists", "slug": "event-florists", "image": "/industry/plumber.webp" },
+      { "name": "Corporate Florists", "slug": "corporate-florists", "image": "/industry/pestcontrol.webp" },
+      { "name": "Corporate Florists", "slug": "corporate-florists", "image": "/industry/hvac.webp" }
+    ]
+  },
+  "form": {
+    "heading": "Let’s talk about your floral business",
+    "subheading": "Share your goals and challenges — we’ll propose a tailored marketing plan."
+  },
+  
+  "introParagraph": {
+    "heading": "Marketing tailored for florists",
+    "paragraphs": [
+      "The floral industry thrives on emotion, timing, and presentation. We help florists build strong digital visibility, ensuring your arrangements are seen by customers when it matters most.",
+      "From local SEO to online delivery campaigns, we craft strategies that highlight your creativity, drive new orders, and grow recurring business."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "items": [
+      {
+        "title": "Low local visibility",
+        "description": "We optimise your Google Business Profile and citations so nearby buyers can easily find your shop."
+      },
+      {
+        "title": "Unpredictable seasonal demand",
+        "description": "We create campaign calendars for holidays, weddings, and events to balance your order flow year-round."
+      },
+      {
+        "title": "High competition from marketplaces",
+        "description": "We strengthen your brand presence and paid strategy to compete effectively with large delivery platforms."
+      },
+      {
+        "title": "Limited online sales tracking",
+        "description": "We implement conversion and call tracking so you know which campaigns generate real orders."
+      },
+      {
+        "title": "Weak social engagement",
+        "description": "We produce platform-specific creative that showcases your floral designs and drives organic reach."
+      },
+      {
+        "title": "Poor website conversion rates",
+        "description": "We improve your site’s speed, UX, and checkout flow to turn visitors into paying customers."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "title": "Strategy & Roadmapping",
+      "description": "Define clear outcomes, seasonal plans, and ROI targets for your marketing transformation.",
+      "slug": "florist-marketing-agency"
+    }
+  ],
+  "content": {
+    "heading": "Bloom online with data-driven marketing.",
+    "text1": "We tailor every marketing plan around your service area, product mix, and customer behavior — from weddings to daily deliveries.",
+    "text2": "Our proven frameworks blend local SEO, high-intent paid ads, and conversion-focused landing pages to drive qualified orders and calls.",
+    "text3": "You’ll have full visibility into which campaigns grow revenue through detailed dashboards and reports.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Florist marketing illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Design",
+      "Launch",
+      "Optimise",
+      "Scale"
+    ],
+    "content": [
+      "Understand your floral services, seasonality, and target audience.",
+      "Build channel plans, creative messaging, and landing pages that fit your market.",
+      "Launch search, local, and social campaigns to capture intent-driven traffic.",
+      "Improve CPL and ROI through A/B testing, ad optimization, and local SEO tuning.",
+      "Expand your coverage, open new delivery zones, and scale top-performing campaigns."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why partner with us",
+    "items": [
+      { "title": "Floral industry expertise", "description": "We understand the marketing cycles of local and online florists." },
+      { "title": "Results you can measure", "description": "Transparent performance dashboards with call and order tracking." },
+      { "title": "Fast setup", "description": "Get campaigns live in under two weeks using proven playbooks." },
+      { "title": "Local-first SEO", "description": "Rank in Google Maps and local searches for key floral terms." },
+      { "title": "Seasonal campaign planning", "description": "Be ready for Valentine’s, Mother’s Day, and wedding season ahead of time." },
+      { "title": "Automation-ready", "description": "Leverage AI tools and automations to handle quotes, leads, and reminders." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Secure by default", "description": "Data protection and reliability built into every layer." },
+      { "title": "Call tracking", "description": "See which keywords, ads, and pages drive phone and online orders." },
+      { "title": "Reporting dashboards", "description": "Daily performance data for campaigns and channels." },
+      { "title": "Lead routing", "description": "Instantly route leads or online orders to your team for faster response." }
+    ]
+  },
+  "services": "Florist Marketing Agency",
+  "faq": {
+    "serviceName": "Florist Marketing Agency",
+    "faqs": [
+      {
+        "q": "Do you specialize in local florist marketing?",
+        "a": "Yes — we focus on helping local and regional florists grow through targeted local SEO, ads, and social media."
+      },
+      {
+        "q": "Can you help with online flower delivery campaigns?",
+        "a": "Absolutely. We design and manage delivery-focused PPC, Meta Ads, and retargeting campaigns for higher conversions."
+      },
+      {
+        "q": "How quickly can results be seen?",
+        "a": "Initial campaign traction often appears within 2–3 weeks, with measurable ROI growth as optimization cycles progress."
+      }
+    ]
+  }
+},
+"daycare-marketing-agency": {
+  "hero": {
+    "heading": "Daycare Marketing Agency",
+    "subheading": "Grow enrolments and build trust with local families.",
+    "industries": [
+      { "name": "Childcare Centers", "slug": "childcare-centers", "image": "/industry/electrical.webp" },
+      { "name": "Preschools", "slug": "preschools", "image": "/industry/hvac.webp" },
+      { "name": "Montessori Schools", "slug": "montessori-schools", "image": "/industry/pestcontrol.webp" },
+      { "name": "After-School Programs", "slug": "after-school-programs", "image": "/industry/plumber.webp" },
+      { "name": "Nurseries", "slug": "nurseries", "image": "/industry/landscaping.webp" },
+      { "name": "Early Learning Centers", "slug": "early-learning-centers", "image": "/industry/roofing.webp" }
+    ]
+  },
+  "form": {
+    "heading": "Let’s talk about your daycare business",
+    "subheading": "Share your goals and challenges — we’ll design a growth plan to increase enrolments and visibility."
+  },
+  "introParagraph": {
+    "heading": "Marketing made for childcare providers",
+    "paragraphs": [
+      "Parents today research and compare daycares online before ever making a call. We help your center appear at the top of those searches, communicate your care standards, and turn interest into enrolments.",
+      "Our daycare marketing programs combine local SEO, ads, and automation to keep your classrooms full and your reputation growing in the community."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "items": [
+      {
+        "title": "Low local visibility",
+        "description": "We optimize your Google Business Profile, reviews, and SEO to help families find you first."
+      },
+      {
+        "title": "Empty spots and fluctuating enrolments",
+        "description": "We build always-on campaigns that drive steady inquiries and registrations throughout the year."
+      },
+      {
+        "title": "Weak online presence",
+        "description": "We design websites and landing pages that showcase your center’s safety, programs, and values."
+      },
+      {
+        "title": "Unclear marketing ROI",
+        "description": "Call tracking and lead dashboards show which campaigns drive actual enrolments."
+      },
+      {
+        "title": "Limited staff time for marketing",
+        "description": "We automate follow-ups, tour scheduling, and enquiry management so your team can focus on care."
+      },
+      {
+        "title": "Competition from larger centers",
+        "description": "We highlight your strengths — local trust, personal care, and community presence — in every campaign."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "title": "Daycare Growth Strategy",
+      "description": "Create a marketing plan that fills your classrooms and builds parent trust.",
+      "slug": "daycare-marketing-agency"
+    }
+  ],
+  "content": {
+    "heading": "Fill your classrooms and grow your waitlist.",
+    "text1": "Families want trustworthy care, and your marketing should reflect that. We help your daycare stand out online through optimized listings, parent-focused messaging, and proven digital ad strategies.",
+    "text2": "From SEO and Google Ads to nurturing email sequences, every tactic works together to keep enrolments steady — even in slower seasons.",
+    "text3": "Real-time dashboards and analytics show exactly how your marketing efforts drive calls, tours, and enrolments.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Daycare marketing illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Design",
+      "Launch",
+      "Optimise",
+      "Scale"
+    ],
+    "content": [
+      "Learn about your daycare programs, enrolment goals, and local competition.",
+      "Plan messaging, channels, and tracking tailored to your parent audience.",
+      "Launch SEO, ads, and automation to attract and convert families.",
+      "Refine campaigns and content to improve cost-per-enquiry and conversion rates.",
+      "Expand into new service areas or add capacity as your brand grows."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why daycare centers choose us",
+    "items": [
+      { "title": "Childcare marketing expertise", "description": "Proven results for preschools, early learning, and daycare centers." },
+      { "title": "Consistent enrolment growth", "description": "Keep classrooms full year-round with targeted local campaigns." },
+      { "title": "Parent-focused messaging", "description": "Communicate safety, care quality, and trust through optimized content." },
+      { "title": "Local SEO excellence", "description": "Rank in maps and search results when parents look for childcare nearby." },
+      { "title": "Tracking that matters", "description": "Understand how marketing drives tours, calls, and registrations." },
+      { "title": "Automation-ready solutions", "description": "Free your staff from manual follow-ups and focus on nurturing families." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Secure by default", "description": "Data protection and best practices across the stack." },
+      { "title": "Call tracking", "description": "Identify which channels generate real parent enquiries and tours." },
+      { "title": "Reporting dashboards", "description": "Track leads, tours, and enrolments with real-time visibility." },
+      { "title": "Lead routing", "description": "Instantly assign new enquiries to your admissions or front-desk staff." }
+    ]
+  },
+  "services": "Daycare Marketing Agency",
+  "faq": {
+    "serviceName": "Daycare Marketing Agency",
+    "faqs": [
+      {
+        "q": "Do you work with single-location and multi-location daycares?",
+        "a": "Yes — we support both. Multi-location centers benefit from scalable SEO and ad structures for each site."
+      },
+      {
+        "q": "Can you help improve our local reputation and reviews?",
+        "a": "Absolutely. We implement review generation campaigns that build credibility and boost local rankings."
+      },
+      {
+        "q": "How quickly can we start seeing new enrolments?",
+        "a": "Most clients begin seeing measurable enquiry growth within the first 30 days, with full optimization achieved by 90 days."
+      }
+    ]
+  }
+},
+"mobile-repair-marketing-agency": {
+  "hero": {
+    "heading": "Mobile Repair Marketing Agency",
+    "subheading": "Drive more repair jobs and walk-ins through digital growth strategies.",
+    "industries": [
+      { "name": "iPhone Repair", "slug": "iphone-repair", "image": "/industry/electrical.webp" },
+      { "name": "Android Repair", "slug": "android-repair", "image": "/industry/hvac.webp" },
+      { "name": "Laptop Repair", "slug": "laptop-repair", "image": "/industry/landscaping.webp" },
+      { "name": "Tablet Repair", "slug": "tablet-repair", "image": "/industry/pestcontrol.webp" },
+      { "name": "Game Console Repair", "slug": "game-console-repair", "image": "/industry/plumber.webp" },
+      { "name": "Smartwatch Repair", "slug": "smartwatch-repair", "image": "/industry/roofing.webp" }
+    ]
+  },
+  "form": {
+    "heading": "Let’s talk about your repair business",
+    "subheading": "Share your goals and challenges — we’ll create a marketing plan built for results."
+  },
+  
+  "introParagraph": {
+    "heading": "Marketing that keeps your repair shop busy",
+    "paragraphs": [
+      "We help mobile repair businesses attract consistent walk-ins and online leads with data-driven marketing built around your location, audience, and services.",
+      "Whether you specialize in iPhone screens or full device refurbishments, we design campaigns that turn local intent into booked repairs."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "items": [
+      {
+        "title": "Low local visibility",
+        "description": "We optimize Google Business Profiles and local listings to help customers find your repair shop fast."
+      },
+      {
+        "title": "Irregular foot traffic",
+        "description": "We build ongoing campaigns that attract consistent repair requests throughout the month."
+      },
+      {
+        "title": "Poor online reputation",
+        "description": "We improve review management and highlight positive feedback to boost trust and conversions."
+      },
+      {
+        "title": "Limited lead tracking",
+        "description": "We set up call and form tracking so you can see exactly which campaigns bring paying customers."
+      },
+      {
+        "title": "Weak ad performance",
+        "description": "We run high-intent search and social campaigns focused on urgent repair queries like ‘iPhone screen fix near me.’"
+      },
+      {
+        "title": "Website not converting",
+        "description": "We optimize landing pages and forms to increase inquiries and booked repairs."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "title": "Strategy & Roadmapping",
+      "description": "Define clear goals, service priorities, and ROI targets for your digital marketing journey.",
+      "slug": "mobile-repair-marketing-agency"
+    }
+  ],
+  "content": {
+    "heading": "Win local repair searches and boost your bookings.",
+    "text1": "Every repair shop serves a unique market — we tailor strategy around your location, competition, and device focus.",
+    "text2": "Our approach combines local SEO, paid search, and conversion optimization to drive high-intent leads ready to book repairs.",
+    "text3": "Dashboards show which ads, keywords, and pages generate calls and repair appointments — so we can scale what works.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Mobile repair marketing illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Design",
+      "Launch",
+      "Optimise",
+      "Scale"
+    ],
+    "content": [
+      "Understand your service mix, audience behavior, and repair demand patterns.",
+      "Plan ad campaigns, SEO structure, and tracking for each key repair service.",
+      "Launch fast with local SEO, PPC, and social campaigns designed for quick traction.",
+      "Refine bids, creatives, and on-site content to improve CPL and conversion rates.",
+      "Expand reach by targeting nearby cities and scaling top-performing campaigns."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why partner with us",
+    "items": [
+      { "title": "Repair industry expertise", "description": "We know the mobile repair market inside out — from iPhones to laptops." },
+      { "title": "Results you can measure", "description": "Transparent dashboards track every call, form, and repair lead." },
+      { "title": "Fast time-to-value", "description": "Get proven campaigns live in under two weeks." },
+      { "title": "Local SEO specialists", "description": "Rank at the top of Google Maps and local searches for key repair terms." },
+      { "title": "High-intent lead generation", "description": "Target people actively searching for urgent device repair services." },
+      { "title": "Automation-ready", "description": "AI-powered tools and workflows reduce manual scheduling and follow-ups." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Secure by default", "description": "Your data and leads protected with industry-standard security." },
+      { "title": "Call tracking", "description": "Know which ads and keywords drive real customer calls." },
+      { "title": "Reporting dashboards", "description": "Transparent metrics updated daily for full visibility." },
+      { "title": "Lead routing", "description": "Send calls and form inquiries instantly to the right technician or store." }
+    ]
+  },
+  "services": "Mobile Repair Marketing Agency",
+  "faq": {
+    "serviceName": "Mobile Repair Marketing Agency",
+    "faqs": [
+      {
+        "q": "Do you work with single and multi-location repair shops?",
+        "a": "Yes — we help both independent repair shops and franchises with local and regional SEO and ads."
+      },
+      {
+        "q": "Can you help us get more walk-ins and online leads?",
+        "a": "Absolutely. We focus on high-intent marketing strategies to bring real customers into your shop or website."
+      },
+      {
+        "q": "How soon can we start seeing results?",
+        "a": "Most clients see measurable traffic and lead growth within 2–3 weeks of campaign launch."
+      }
+    ]
+  }
+},
+"supermarket-marketing-agency": {
+  "hero": {
+    "heading": "Supermarket Marketing Agency",
+    "subheading": "Drive more foot traffic and online orders for your grocery business.",
+    "industries": [
+      { "name": "Supermarkets", "slug": "supermarket", "image": "/industry/electrical.webp" },
+      { "name": "Grocery Stores", "slug": "grocery-stores", "image": "/industry/hvac.webp" },
+      { "name": "Organic Markets", "slug": "organic-markets", "image": "/industry/pestcontrol.webp" },
+      { "name": "Mini Marts", "slug": "mini-marts", "image": "/industry/plumber.webp" },
+      { "name": "Convenience Stores", "slug": "convenience-stores", "image": "/industry/landscaping.webp" },
+      { "name": "Hypermarkets", "slug": "hypermarkets", "image": "/industry/roofing.webp" }
+    ]
+  },
+  "form": {
+    "heading": "Let’s talk about your supermarket marketing goals",
+    "subheading": "Share your objectives — we’ll create a plan that increases both in-store and online sales."
+  },
+  
+  "introParagraph": {
+    "heading": "Retail-specific marketing that delivers results",
+    "paragraphs": [
+      "Supermarkets operate in highly competitive, price-sensitive markets. We craft campaigns that boost visibility, loyalty, and revenue through digital precision and local engagement.",
+      "From Google Maps visibility to coupon campaigns and delivery app optimization — we tailor strategies that align with shopper behavior and location demand."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "items": [
+      {
+        "title": "Low in-store footfall",
+        "description": "We increase visits through hyperlocal SEO, maps, and loyalty promotions."
+      },
+      {
+        "title": "Fragmented online presence",
+        "description": "We unify your listings, website, and delivery platforms for consistent visibility."
+      },
+      {
+        "title": "Unoptimized ad spend",
+        "description": "We focus budgets on high-intent channels that drive measurable sales uplift."
+      },
+      {
+        "title": "Weak customer retention",
+        "description": "We build automated loyalty campaigns and email sequences to bring shoppers back."
+      },
+      {
+        "title": "Limited performance insights",
+        "description": "We implement dashboards and tracking to show which campaigns actually drive sales."
+      },
+      {
+        "title": "Competition from chains and aggregators",
+        "description": "We help you stand out with strong local branding and personalized community engagement."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "title": "Strategy & Roadmapping",
+      "description": "Define clear growth objectives, performance KPIs, and omnichannel strategies.",
+      "slug": "supermarket-marketing-agency"
+    }
+  ],
+  "content": {
+    "heading": "Grow store traffic and digital orders.",
+    "text1": "Supermarket shoppers expect convenience, trust, and local relevance. We optimize your brand presence across local search, maps, and digital ads to meet customers where they shop.",
+    "text2": "From SEO and paid ads to delivery integrations and seasonal campaigns — we focus on proven levers that increase traffic, cart size, and repeat orders.",
+    "text3": "Real-time dashboards help track which campaigns drive in-store visits, online orders, and revenue uplift — empowering data-driven scaling.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Supermarket marketing illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Design",
+      "Launch",
+      "Optimise",
+      "Scale"
+    ],
+    "content": [
+      "Understand your store network, local competition, and shopper demographics.",
+      "Develop messaging, ad structures, and seasonal promotion plans.",
+      "Deploy multi-channel campaigns across search, social, and delivery platforms.",
+      "Refine targeting, creatives, and offers to reduce CPA and increase ROI.",
+      "Scale winning campaigns and replicate success across new locations."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why partner with us",
+    "items": [
+      { "title": "Retail expertise", "description": "Experience across grocery chains, supermarkets, and convenience stores." },
+      { "title": "Omnichannel growth", "description": "Drive both physical footfall and online sales through integrated campaigns." },
+      { "title": "Faster ROI", "description": "Launch proven playbooks optimized for high-frequency retail environments." },
+      { "title": "Local SEO mastery", "description": "Dominate map packs and search results in your delivery and service areas." },
+      { "title": "Performance marketing", "description": "High-intent ads and remarketing to convert browsers into loyal shoppers." },
+      { "title": "Automation-ready", "description": "Automated promotions, CRM, and loyalty integrations to save time and cost." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Secure by default", "description": "Your campaigns and data follow best security practices." },
+      { "title": "Call & order tracking", "description": "Measure which campaigns drive orders, calls, and in-store visits." },
+      { "title": "Live dashboards", "description": "Daily performance insights for clear decision-making." },
+      { "title": "Promo automation", "description": "Trigger local campaigns and offers based on inventory or seasonality." }
+    ]
+  },
+  "services": "Supermarket Marketing Agency",
+  "faq": {
+    "serviceName": "Supermarket Marketing Agency",
+    "faqs": [
+      {
+        "q": "Can you help us attract both in-store and online customers?",
+        "a": "Yes — our omnichannel strategies cover both walk-in shoppers and online delivery customers."
+      },
+      {
+        "q": "Do you work with franchise or independent grocery stores?",
+        "a": "We support both, with frameworks for multi-location management and local SEO optimization."
+      },
+      {
+        "q": "How quickly can we launch?",
+        "a": "Our discovery starts immediately. Most supermarkets go live within 10–14 days with proven retail playbooks."
+      }
+    ]
+  }
+},
+"window-tinting-marketing-agency": {
+  "hero": {
+    "heading": "Window Tinting Marketing Agency",
+    "subheading": "Marketing solutions designed for window tinting professionals.",
+    "industries": [
+      { "name": "Automotive Tinting", "slug": "automotive-tinting", "image": "/industry/electrical.webp" },
+      { "name": "Residential Tinting", "slug": "residential-tinting", "image": "/industry/hvac.webp" },
+      { "name": "Commercial Tinting", "slug": "commercial-tinting", "image": "/industry/pestcontrol.webp" },
+      { "name": "Decorative Films", "slug": "decorative-films", "image": "/industry/plumber.webp" },
+      { "name": "Security Films", "slug": "security-films", "image": "/industry/landscaping.webp" },
+      { "name": "Marine Tinting", "slug": "marine-tinting", "image": "/industry/roofing.webp" }
+    ]
+  },
+  "form": {
+    "heading": "Let’s talk about your tinting business",
+    "subheading": "Share your growth goals and challenges — we’ll craft a strategy built to drive qualified bookings."
+  },
+  "introParagraph": {
+    "heading": "Specialized marketing for window tinting pros",
+    "paragraphs": [
+      "Every tinting business—auto, residential, or commercial—has unique audiences and buying triggers. Our tailored strategies blend industry expertise with proven digital tactics to drive measurable growth.",
+      "From lead generation to repeat customers, we optimize campaigns around your service mix, geography, and seasonality to consistently maximize ROI."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "items": [
+      {
+        "title": "Low local visibility",
+        "description": "We optimize Google Business Profiles, SEO, and paid search to dominate your service area."
+      },
+      {
+        "title": "Inconsistent leads",
+        "description": "We refine targeting and landing pages to attract high-intent customers ready to book."
+      },
+      {
+        "title": "Limited tracking and attribution",
+        "description": "We implement call tracking and analytics to link campaigns directly to booked jobs."
+      },
+      {
+        "title": "Seasonal demand drops",
+        "description": "We design evergreen and promotional campaigns to smooth demand across the year."
+      },
+      {
+        "title": "Unoptimized ad spend",
+        "description": "We continuously test creative, bids, and audiences to improve cost per lead and conversion rates."
+      },
+      {
+        "title": "Lack of brand differentiation",
+        "description": "We craft compelling brand messaging to set your tinting service apart from competitors."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "title": "Strategy & Roadmapping",
+      "description": "Define clear marketing objectives, channel strategy, and ROI projections for your tinting business.",
+      "slug": "window-tinting-marketing-agency"
+    }
+  ],
+  "content": {
+    "heading": "Get more tinting jobs in your local area.",
+    "text1": "Every tinting shop and installer has different customer types — from car owners to property managers. We tailor ad strategy, creative, and spend based on your market and services.",
+    "text2": "From Google Maps and local SEO to high-intent ads, landing pages, and call tracking — your campaigns focus on what consistently generates quality enquiries and bookings.",
+    "text3": "Dashboards show which channels drive calls and confirmed appointments so we can iterate fast and scale what delivers results.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Window tinting marketing illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Design",
+      "Launch",
+      "Optimise",
+      "Scale"
+    ],
+    "content": [
+      "Understand your tinting services, target audience, and demand cycles.",
+      "Plan messaging, channels, tracking, and landing pages aligned to your goals.",
+      "Launch paid, organic, and local SEO campaigns with fast optimization loops.",
+      "Refine ad creative, bids, and targeting to improve CPL and bookings.",
+      "Scale winning campaigns and expand reach across new service areas."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why partner with us",
+    "items": [
+      { "title": "Tinting industry expertise", "description": "We understand the unique dynamics of auto, residential, and commercial tinting markets." },
+      { "title": "Performance-driven", "description": "Clear KPIs and transparent reporting for every campaign." },
+      { "title": "Faster results", "description": "Launch high-converting campaigns within days using proven frameworks." },
+      { "title": "Local-first SEO", "description": "Rank in maps and search for tinting services in your area." },
+      { "title": "High-quality leads", "description": "Attract real customers — not tire kickers — ready to book services." },
+      { "title": "Automation-ready systems", "description": "Integrate AI assistants, lead routing, and CRM workflows to reduce manual work." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Secure by default", "description": "Following best practices across all tools and integrations." },
+      { "title": "Call tracking", "description": "Identify which ads, keywords, and channels generate real appointments." },
+      { "title": "Reporting dashboards", "description": "See live KPIs with clear attribution and ROI insights." },
+      { "title": "Lead routing", "description": "Automatically route leads to your team for faster follow-up and conversions." }
+    ]
+  },
+  "services": "Window Tinting Marketing Agency",
+  "faq": {
+    "serviceName": "Window Tinting Marketing Agency",
+    "faqs": [
+      {
+        "q": "Do you handle marketing for both auto and residential tinting services?",
+        "a": "Yes — we specialize in campaigns for automotive, residential, and commercial tinting businesses."
+      },
+      {
+        "q": "Can you manage our Google Ads and SEO together?",
+        "a": "Absolutely. We combine paid search, maps optimization, and SEO for maximum visibility and lead flow."
+      },
+      {
+        "q": "How quickly can we start seeing results?",
+        "a": "Most clients start seeing consistent lead flow within 10–14 days after campaign launch."
+      }
+    ]
+  }
+},
+"fencing-marketing-agency": {
+  "hero": {
+    "heading": "Fencing Marketing Agency",
+    "subheading": "Marketing solutions for fencing contractors and installation professionals.",
+    "industries": [
+      { "name": "Residential Fencing", "slug": "residential-fencing", "image": "/industry/electrical.webp" },
+      { "name": "Commercial Fencing", "slug": "commercial-fencing", "image": "/industry/hvac.webp" },
+      { "name": "Security Fencing", "slug": "security-fencing", "image": "/industry/pestcontrol.webp" },
+      { "name": "Vinyl & Wood Fencing", "slug": "vinyl-wood-fencing", "image": "/industry/plumber.webp" },
+      { "name": "Chain Link Fencing", "slug": "chain-link-fencing", "image": "/industry/landscaping.webp" },
+      { "name": "Custom Gates & Railings", "slug": "custom-gates-railings", "image": "/industry/roofing.webp" }
+    ]
+  },
+  "form": {
+    "heading": "Let’s talk about your fencing business",
+    "subheading": "Share your goals and challenges — we’ll craft a marketing plan that builds steady, qualified demand."
+  },
+  "introParagraph": {
+    "heading": "Marketing built for fencing companies",
+    "paragraphs": [
+      "From residential fence installations to large-scale commercial projects, fencing businesses compete locally and seasonally. Our tailored marketing solutions focus on increasing qualified leads, visibility, and booked projects year-round.",
+      "We combine industry expertise, automation, and performance marketing to help fencing contractors grow consistently and profitably."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "items": [
+      {
+        "title": "Poor local visibility",
+        "description": "We optimise Google Business Profiles, citations, and local SEO to make your business the first choice in your service area."
+      },
+      {
+        "title": "Unpredictable lead flow",
+        "description": "We create evergreen ad campaigns and seasonal promos to maintain steady leads throughout the year."
+      },
+      {
+        "title": "Low-quality enquiries",
+        "description": "We refine targeting, messaging, and landing pages to attract serious homeowners and project managers ready to buy."
+      },
+      {
+        "title": "Inefficient ad spend",
+        "description": "We continuously optimise campaigns to improve cost per lead and increase ROI."
+      },
+      {
+        "title": "Limited tracking visibility",
+        "description": "We implement call tracking, CRM integration, and dashboards to clearly link marketing to booked jobs."
+      },
+      {
+        "title": "Long response times",
+        "description": "We integrate lead routing and automation to ensure fast follow-up and higher conversion rates."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "title": "Strategy & Roadmapping",
+      "description": "Define your goals, service focus, and ROI-driven marketing roadmap for predictable growth.",
+      "slug": "fencing-marketing-agency"
+    }
+  ],
+  "content": {
+    "heading": "Build a steady flow of fencing leads and jobs.",
+    "text1": "Every fencing company has unique offerings — from decorative fences to high-security installations. We tailor your marketing plan to the projects and locations that drive the most profit.",
+    "text2": "From Google Maps and local SEO to paid search, landing pages, and call tracking — your campaigns focus on the channels that deliver real project enquiries.",
+    "text3": "Our live dashboards show which ads and campaigns generate booked jobs, so we can optimise quickly and scale results.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Fencing marketing illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Design",
+      "Launch",
+      "Optimise",
+      "Scale"
+    ],
+    "content": [
+      "Understand your fencing services, target areas, and current marketing performance.",
+      "Develop a channel strategy, messaging, and tracking setup aligned with your goals.",
+      "Launch campaigns, SEO, and tracking systems with fast feedback loops.",
+      "Improve lead quality and cost per lead through ongoing optimisation.",
+      "Expand service areas, add new offerings, and scale winning campaigns."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why partner with us",
+    "items": [
+      { "title": "Fencing industry expertise", "description": "Proven experience with residential, commercial, and security fencing businesses." },
+      { "title": "Results-focused strategy", "description": "Every campaign is designed around clear, measurable KPIs." },
+      { "title": "Fast launch timelines", "description": "Go live within days using refined, industry-tested playbooks." },
+      { "title": "Local-first SEO", "description": "Dominate your map listings and search results in your service areas." },
+      { "title": "High-quality lead generation", "description": "Attract homeowners and businesses actively looking for fencing solutions." },
+      { "title": "Automation and AI tools", "description": "Use AI-powered workflows and follow-ups to boost response rates and close more jobs." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Secure by default", "description": "Industry-standard security and reliable infrastructure across your marketing stack." },
+      { "title": "Call tracking", "description": "See which ads, keywords, and sources generate real project leads." },
+      { "title": "Reporting dashboards", "description": "Access daily performance metrics with transparent ROI tracking." },
+      { "title": "Lead routing", "description": "Automatically route form and call leads to the right sales team for faster response." }
+    ]
+  },
+  "services": "Fencing Marketing Agency",
+  "faq": {
+    "serviceName": "Fencing Marketing Agency",
+    "faqs": [
+      {
+        "q": "Do you work with both residential and commercial fencing companies?",
+        "a": "Yes — we manage campaigns for all fencing types, including residential, commercial, and industrial projects."
+      },
+      {
+        "q": "Can you help us rank locally on Google?",
+        "a": "Absolutely. We specialise in local SEO and Google Business Profile optimisation to improve your visibility in search results and maps."
+      },
+      {
+        "q": "How fast can we start generating leads?",
+        "a": "Most fencing contractors start seeing qualified leads within 10–14 days after launch, depending on budget and service area size."
+      }
+    ]
+  }
+},
+"movers-marketing-agency": {
+  "hero": {
+    "heading": "Movers Marketing Agency",
+    "subheading": "Drive more moving leads and booked jobs.",
+    "industries": [
+      { "name": "Residential Moving", "slug": "residential-moving", "image": "/industry/electrical.webp" },
+      { "name": "Commercial Moving", "slug": "commercial-moving", "image": "/industry/hvac.webp" },
+      { "name": "Long Distance Moving", "slug": "long-distance-moving", "image": "/industry/pestcontrol.webp" },
+      { "name": "Storage & Logistics", "slug": "storage-logistics", "image": "/industry/plumber.webp" },
+      { "name": "Packing Services", "slug": "packing-services", "image": "/industry/landscaping.webp" },
+      { "name": "Specialty Moving", "slug": "specialty-moving", "image": "/industry/roofing.webp" }
+    ]
+  },
+  "form": {
+    "heading": "Let’s talk about your moving business",
+    "subheading": "Share your goals and challenges — we’ll propose a tailored plan to fill your booking calendar."
+  },
+  
+  "introParagraph": {
+    "heading": "Marketing strategies built for moving companies",
+    "paragraphs": [
+      "The moving industry thrives on trust, timing, and local visibility. We combine data-driven marketing with proven service strategies to help you win more high-value moving jobs.",
+      "From local SEO to paid ads, automation, and reputation management — our team ensures every campaign drives measurable ROI and steady bookings."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "items": [
+      {
+        "title": "Inconsistent lead flow",
+        "description": "We build campaigns that generate steady, high-quality leads year-round."
+      },
+      {
+        "title": "Low online visibility",
+        "description": "We optimize your Google Business Profile, reviews, and local SEO to dominate local searches."
+      },
+      {
+        "title": "High cost per lead",
+        "description": "We refine ad targeting, keywords, and landing pages to reduce CPL and improve ROI."
+      },
+      {
+        "title": "Poor conversion rates",
+        "description": "We enhance landing page design, copy, and tracking to turn more visitors into booked jobs."
+      },
+      {
+        "title": "Limited performance insights",
+        "description": "We implement analytics and call tracking so you can see exactly where your best leads come from."
+      },
+      {
+        "title": "Seasonal demand drops",
+        "description": "We design retention and referral campaigns to stabilize bookings during slower months."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "title": "Strategy & Roadmapping",
+      "description": "Define clear goals, campaign phases, and revenue outcomes for your moving business.",
+      "slug": "movers-marketing-agency"
+    }
+  ],
+  "content": {
+    "heading": "Win more local moving jobs.",
+    "text1": "Every moving company faces different challenges — competition, seasonality, and lead quality. We tailor your strategy to local intent and high-conversion opportunities.",
+    "text2": "From local SEO and paid ads to review management, maps optimization, and automation — your marketing focuses on channels that consistently generate booked moves.",
+    "text3": "Dashboards track calls, form fills, and booked jobs so we can continuously improve performance and scale your best campaigns.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Movers marketing illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Design",
+      "Launch",
+      "Optimise",
+      "Scale"
+    ],
+    "content": [
+      "Understand your service areas, competitors, and booking goals.",
+      "Plan messaging, landing pages, and ad structures aligned with moving seasons.",
+      "Launch local campaigns, SEO, and call tracking for rapid insights.",
+      "Test creative, bids, and audience segments to improve cost per lead.",
+      "Expand into new service areas and scale high-performing campaigns."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why partner with us",
+    "items": [
+      { "title": "Industry expertise", "description": "Experience working with local and national moving companies." },
+      { "title": "Lead quality focus", "description": "We prioritize leads that convert into profitable moving jobs." },
+      { "title": "Quick launch", "description": "Proven moving marketing playbooks deployed in days, not months." },
+      { "title": "Local-first SEO", "description": "Dominate local searches and map results for moving-related keywords." },
+      { "title": "Conversion-driven design", "description": "Landing pages and ads optimized to convert inquiries into bookings." },
+      { "title": "Automation-ready", "description": "Workflows for follow-ups, reviews, and lead nurturing to save time." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Secure by default", "description": "Built with privacy and data protection best practices." },
+      { "title": "Call tracking", "description": "See which campaigns drive real inquiries and booked moves." },
+      { "title": "Performance dashboards", "description": "Daily reporting on KPIs for total marketing transparency." },
+      { "title": "Lead routing", "description": "Instantly send inquiries to your team for faster response times." }
+    ]
+  },
+  "services": "Movers Marketing Agency",
+  "faq": {
+    "serviceName": "Movers Marketing Agency",
+    "faqs": [
+      {
+        "q": "Do you help with both local and long-distance moving leads?",
+        "a": "Yes — we design campaigns for both local and interstate moving services, optimized for intent and geography."
+      },
+      {
+        "q": "Can you improve our Google Maps visibility?",
+        "a": "Absolutely. We optimize your Google Business Profile, categories, and reviews to help you rank higher in map results."
+      },
+      {
+        "q": "How fast can campaigns go live?",
+        "a": "Discovery begins right away. Most moving companies go live within 10–14 days using proven, high-performing templates."
+      }
+    ]
+  }
+},
+"travel-marketing-agency": {
+  "hero": {
+    "heading": "Travel Marketing Agency",
+    "subheading": "Grow bookings, awareness, and loyalty in travel and tourism.",
+    "industries": [
+      { "name": "Hotels & Resorts", "slug": "hotels-resorts", "image": "/industry/electrical.webp" },
+      { "name": "Tour Operators", "slug": "tour-operators", "image": "/industry/hvac.webp" },
+      { "name": "Travel Agencies", "slug": "travel-agencies", "image": "/industry/pestcontrol.webp" },
+      { "name": "Destination Marketing", "slug": "destination-marketing", "image": "/industry/plumber.webp" },
+      { "name": "Transport & Car Rentals", "slug": "transport-car-rentals", "image": "/industry/landscaping.webp" },
+      { "name": "Adventure Travel", "slug": "adventure-travel", "image": "/industry/roofing.webp" }
+    ]
+  },
+  "form": {
+    "heading": "Let’s talk about your travel business",
+    "subheading": "Share your growth goals — we’ll craft a marketing plan that drives bookings and brand visibility."
+  },
+  
+  "introParagraph": {
+    "heading": "Industry-specific travel marketing solutions",
+    "paragraphs": [
+      "We understand the travel industry’s unique mix of seasonality, competition, and evolving consumer behavior. Our strategies blend creativity, technology, and analytics to maximize bookings and ROI.",
+      "Whether you’re promoting destinations, accommodations, or experiences, we align your marketing to where travelers search, plan, and book."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "items": [
+      {
+        "title": "Seasonal demand fluctuations",
+        "description": "We design campaigns to balance bookings throughout the year using promos, retargeting, and automation."
+      },
+      {
+        "title": "Low booking conversion rates",
+        "description": "We improve landing pages, offers, and booking funnels to maximize conversion from site visits to reservations."
+      },
+      {
+        "title": "Limited brand visibility",
+        "description": "We elevate your brand through SEO, paid media, and social storytelling that captures traveler intent."
+      },
+      {
+        "title": "Complex attribution",
+        "description": "We implement tracking to understand which channels actually drive inquiries, calls, and bookings."
+      },
+      {
+        "title": "Rising competition",
+        "description": "We identify your niche and positioning to stand out across Google, OTAs, and social platforms."
+      },
+      {
+        "title": "Manual follow-ups and missed leads",
+        "description": "We automate lead nurturing and CRM workflows to ensure no traveler inquiry is left behind."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "title": "Strategy & Roadmapping",
+      "description": "Define a scalable marketing roadmap to grow bookings and brand loyalty.",
+      "slug": "travel-marketing-agency"
+    }
+  ],
+  "content": {
+    "heading": "Drive more bookings across destinations.",
+    "text1": "Travel decisions are emotional, research-driven, and highly seasonal. We tailor strategy, content, and spend to match traveler intent and timing.",
+    "text2": "From SEO and paid search to social campaigns, email nurturing, and retargeting—we focus on the channels that consistently deliver high-quality leads and bookings.",
+    "text3": "Dashboards reveal which campaigns bring inquiries, bookings, and repeat travelers, so we can optimize continuously for ROI.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Travel marketing illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Design",
+      "Launch",
+      "Optimise",
+      "Scale"
+    ],
+    "content": [
+      "Understand your travel products, destinations, and booking patterns.",
+      "Plan messaging, channels, and tracking aligned to traveler intent.",
+      "Launch campaigns with smart targeting and measurable KPIs.",
+      "Refine creative, bids, and audiences to improve booking efficiency.",
+      "Scale top-performing campaigns across new destinations or markets."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why partner with us",
+    "items": [
+      { "title": "Travel industry expertise", "description": "Experience with hotels, destinations, and tour operators worldwide." },
+      { "title": "Performance-driven", "description": "Campaigns built for measurable ROI — not vanity metrics." },
+      { "title": "Fast go-live", "description": "Activate proven frameworks and ads within two weeks." },
+      { "title": "SEO & content specialists", "description": "Rank for traveler intent keywords that drive high-value traffic." },
+      { "title": "Conversion optimization", "description": "We turn interest into bookings through testing and personalization." },
+      { "title": "Automation-ready", "description": "AI workflows for lead follow-up, reminders, and re-engagement." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Secure by default", "description": "Best practices across the stack." },
+      { "title": "Call tracking", "description": "Know which campaigns and destinations drive actual bookings." },
+      { "title": "Reporting dashboards", "description": "Daily KPIs showing leads, bookings, and cost per reservation." },
+      { "title": "Lead routing", "description": "Automatically route inquiries to your sales or booking team." }
+    ]
+  },
+  "services": "Travel Marketing Agency",
+  "faq": {
+    "serviceName": "Travel Marketing Agency",
+    "faqs": [
+      {
+        "q": "Do you handle marketing for hotels and destinations?",
+        "a": "Yes — we work with hotels, resorts, DMCs, and tourism boards to drive direct bookings and awareness."
+      },
+      {
+        "q": "Can you help with OTA dependence reduction?",
+        "a": "Absolutely. We build direct booking strategies to reduce reliance on third-party platforms."
+      },
+      {
+        "q": "How quickly can we see results?",
+        "a": "Most clients begin seeing traction within 2–4 weeks after launch, with full performance gains within 60 days."
+      }
+    ]
+  }
+},
+"auto-marketing-agency": {
+  "hero": {
+    "heading": "Auto Marketing Agency",
+    "subheading": "Drive leads and bookings for your auto business.",
+    "industries": [
+      { "name": "Car Dealerships", "slug": "car-dealerships", "image": "/industry/roofing.webp" },
+      { "name": "Auto Repair", "slug": "auto-repair", "image": "/industry/plumber.webp" },
+      { "name": "Car Wash & Detailing", "slug": "car-wash-detailing", "image": "/industry/hvac.webp" },
+      { "name": "Tire & Wheel Shops", "slug": "tire-wheel-shops", "image": "/industry/electrical.webp" },
+      { "name": "Auto Parts Stores", "slug": "auto-parts", "image": "/industry/pestcontrol.webp" },
+      { "name": "Body & Paint Shops", "slug": "body-paint-shops", "image": "/industry/landscaping.webp" }
+    ]
+  },
+  "form": {
+    "heading": "Let’s talk about your auto business",
+    "subheading": "Share your goals and challenges — we’ll propose a tailored plan."
+  },
+
+  "introParagraph": {
+    "heading": "Performance-driven marketing for the auto industry",
+    "paragraphs": [
+      "Every auto business operates in a competitive local market. We help you attract high-intent customers looking for your exact services — from repair to sales.",
+      "Our full-funnel marketing strategies focus on driving measurable ROI through lead generation, booking optimization, and repeat business."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "items": [
+      {
+        "title": "Low visibility in local search",
+        "description": "We optimize your Google Business Profile, citations, and SEO to rank for high-intent local keywords."
+      },
+      {
+        "title": "Unqualified or inconsistent leads",
+        "description": "We improve targeting and conversion strategy to attract ready-to-buy customers."
+      },
+      {
+        "title": "Limited marketing bandwidth",
+        "description": "We automate campaigns and workflows so you can focus on service delivery."
+      },
+      {
+        "title": "Poor tracking and ROI clarity",
+        "description": "We implement call tracking, form tracking, and dashboards to connect spend to revenue."
+      },
+      {
+        "title": "Seasonal slowdowns",
+        "description": "We build year-round campaigns and promotions to maintain consistent demand."
+      },
+      {
+        "title": "Fragmented tools and data",
+        "description": "We unify your CRM, booking, and marketing data into a single view for better insights."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "title": "Strategy & Roadmapping",
+      "description": "Define clear goals, campaigns, and ROI milestones for sustainable growth.",
+      "slug": "auto-marketing-agency"
+    }
+  ],
+  "content": {
+    "heading": "Accelerate leads and revenue for your auto business.",
+    "text1": "We tailor every campaign around your services — from repairs and detailing to parts and sales — so you reach people actively searching for what you offer.",
+    "text2": "Local SEO, maps optimization, paid ads, and high-converting landing pages work together to fill your pipeline with qualified inquiries.",
+    "text3": "Track every call, booking, and quote with full transparency to optimize what drives real business growth.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Auto marketing illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Design",
+      "Launch",
+      "Optimise",
+      "Scale"
+    ],
+    "content": [
+      "Understand your services, seasonality, and customer journey from search to sale.",
+      "Develop channel mix, creative, and tracking setup aligned with your objectives.",
+      "Launch paid, organic, and local campaigns with measurable KPIs.",
+      "Continuously optimize performance through A/B testing and attribution insights.",
+      "Scale winning campaigns, expand targeting, and maximize ROI over time."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why partner with us",
+    "items": [
+      { "title": "Auto industry expertise", "description": "Experience across dealerships, repair, detailing, and service centers." },
+      { "title": "Measurable growth", "description": "Track every lead and conversion with end-to-end attribution." },
+      { "title": "Fast deployment", "description": "Launch optimized campaigns in days using proven playbooks." },
+      { "title": "Local SEO advantage", "description": "Dominate maps and organic results for high-intent auto searches." },
+      { "title": "High-intent lead gen", "description": "Data-driven creative and CRO focused on lead quality and conversions." },
+      { "title": "Automation-ready", "description": "Integrate booking systems, CRMs, and AI workflows to save time." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Secure by default", "description": "Best practices across all marketing and data integrations." },
+      { "title": "Call tracking", "description": "Identify which ads, keywords, and campaigns drive calls and revenue." },
+      { "title": "Reporting dashboards", "description": "Daily performance tracking with full transparency." },
+      { "title": "Lead routing", "description": "Instantly route calls and forms to the right location or service team." }
+    ]
+  },
+  "services": "Auto Marketing Agency",
+  "faq": {
+    "serviceName": "Auto Marketing Agency",
+    "faqs": [
+      {
+        "q": "Do you specialize in local auto businesses?",
+        "a": "Yes — we work with dealerships, repair shops, and service centers to increase leads and bookings in their local area."
+      },
+      {
+        "q": "Can you help track which campaigns drive calls and bookings?",
+        "a": "Absolutely. We implement call tracking, UTM tagging, and analytics to measure ROI across all channels."
+      },
+      {
+        "q": "How quickly can we get started?",
+        "a": "Discovery begins immediately, and most campaigns launch within 10–14 days using proven industry frameworks."
+      }
+    ]
+  }
+},
+"jewellery-marketing-agency": {
+  "hero": {
+    "heading": "Jewellery Marketing Agency",
+    "subheading": "Shine brighter. Attract buyers who value your craft.",
+    "industries": [
+      { "name": "Fine Jewellery", "slug": "fine-jewellery", "image": "/industry/electrical.webp" },
+      { "name": "Bridal & Engagement", "slug": "bridal-engagement", "image": "/industry/hvac.webp" },
+      { "name": "Luxury Watches", "slug": "luxury-watches", "image": "/industry/pestcontrol.webp" },
+      { "name": "Gold & Diamond", "slug": "gold-diamond", "image": "/industry/plumber.webp" },
+      { "name": "Custom Designers", "slug": "custom-designers", "image": "/industry/landscaping.webp" },
+      { "name": "Jewellery Retail Chains", "slug": "jewellery-retail-chains", "image": "/industry/roofing.webp" }
+    ]
+  },
+  "form": {
+    "heading": "Let’s talk about your jewellery brand",
+    "subheading": "Share your goals and challenges — we’ll propose a tailored plan."
+  },
+
+  "introParagraph": {
+    "heading": "Jewellery marketing that sparkles with results",
+    "paragraphs": [
+      "The jewellery market thrives on trust, emotion, and storytelling. We help you capture hearts and high-intent buyers through precise digital marketing strategies.",
+      "From luxury branding to local visibility and online conversions, we tailor campaigns that make your jewellery business shine across every touchpoint."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "items": [
+      {
+        "title": "Low brand visibility online",
+        "description": "We enhance your online presence through SEO, Google Ads, and social storytelling."
+      },
+      {
+        "title": "Unclear brand differentiation",
+        "description": "We position your brand around craftsmanship, trust, and emotional value to stand out."
+      },
+      {
+        "title": "Inconsistent leads and foot traffic",
+        "description": "We drive consistent enquiries and store visits through location-based marketing and remarketing."
+      },
+      {
+        "title": "Inefficient ad spend",
+        "description": "We focus budget on high-intent buyers and keywords that convert into real purchases."
+      },
+      {
+        "title": "Limited online sales integration",
+        "description": "We optimize your website and eCommerce experience for smooth, high-converting customer journeys."
+      },
+      {
+        "title": "Seasonal sales fluctuations",
+        "description": "We create evergreen campaigns and festival-specific promotions to stabilize demand year-round."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "title": "Strategy & Roadmapping",
+      "description": "Define your growth plan — from digital visibility to luxury brand positioning.",
+      "slug": "jewellery-marketing-agency"
+    }
+  ],
+  "content": {
+    "heading": "Attract more customers to your jewellery brand.",
+    "text1": "Jewellery is about trust and timelessness — we combine data and storytelling to attract customers who appreciate your work.",
+    "text2": "From SEO, Google Ads, and social campaigns to influencer collaborations and eCommerce optimization, we drive measurable demand and engagement.",
+    "text3": "Custom dashboards give you clarity on what campaigns, creatives, and keywords generate the most profitable sales and bookings.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Jewellery marketing illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Design",
+      "Launch",
+      "Optimise",
+      "Scale"
+    ],
+    "content": [
+      "Understand your brand, target audience, and unique jewellery collections.",
+      "Develop messaging, channel mix, and visuals aligned with your brand identity.",
+      "Launch search, social, and local campaigns optimized for visibility and conversion.",
+      "Refine creatives, keywords, and bidding to improve ROI month over month.",
+      "Scale winning campaigns and expand into new regions, audiences, and markets."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why partner with us",
+    "items": [
+      { "title": "Jewellery market expertise", "description": "Experience across fine jewellery, bridal, and luxury retail brands." },
+      { "title": "Measurable performance", "description": "Track every enquiry, call, and sale with transparent attribution." },
+      { "title": "Faster results", "description": "Launch proven jewellery marketing playbooks within days." },
+      { "title": "Luxury brand positioning", "description": "Build emotional storytelling and premium perception online." },
+      { "title": "High-intent lead generation", "description": "Target ready-to-buy customers across Google, Meta, and influencer platforms." },
+      { "title": "Automation-ready", "description": "Integrate CRM, chatbots, and retargeting workflows to streamline marketing." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Secure by default", "description": "Best practices and data protection across the marketing stack." },
+      { "title": "Call tracking", "description": "Track which ads and campaigns drive the highest-value leads." },
+      { "title": "Reporting dashboards", "description": "Real-time performance metrics for transparency and insights." },
+      { "title": "Lead routing", "description": "Instantly route enquiries to sales teams or store locations." }
+    ]
+  },
+  "services": "Jewellery Marketing Agency",
+  "faq": {
+    "serviceName": "Jewellery Marketing Agency",
+    "faqs": [
+      {
+        "q": "Do you specialize in luxury jewellery brands?",
+        "a": "Yes — we work with fine, bridal, and luxury jewellery brands to increase visibility, leads, and conversions."
+      },
+      {
+        "q": "Can you help promote both online and in-store sales?",
+        "a": "Absolutely. We combine local SEO, paid ads, and eCommerce optimization to drive store traffic and online purchases together."
+      },
+      {
+        "q": "How long before we start seeing results?",
+        "a": "Most clients see measurable engagement and lead growth within the first 30 days of campaign launch."
+      }
+    ]
+  }
+},
+"cleaning-marketing-agency": {
+  "hero": {
+    "heading": "Cleaning Marketing Agency",
+    "subheading": "Grow your cleaning business with more leads, loyal customers, and local visibility.",
+    "industries": [
+      { "name": "Residential Cleaning", "slug": "residential-cleaning", "image": "/industry/electrical.webp" },
+      { "name": "Commercial Cleaning", "slug": "commercial-cleaning", "image": "/industry/hvac.webp" },
+      { "name": "Carpet & Upholstery Cleaning", "slug": "carpet-upholstery-cleaning", "image": "/industry/pestcontrol.webp" },
+      { "name": "Window Cleaning", "slug": "window-cleaning", "image": "/industry/plumber.webp" },
+      { "name": "Pressure Washing", "slug": "pressure-washing", "image": "/industry/landscaping.webp" },
+      { "name": "Janitorial Services", "slug": "janitorial-services", "image": "/industry/roofing.webp" }
+    ]
+  },
+  "form": {
+    "heading": "Let’s talk about your cleaning business",
+    "subheading": "Share your goals and challenges — we’ll build a growth plan that brings in consistent clients."
+  },
+  
+  "introParagraph": {
+    "heading": "Industry-specific marketing for cleaning companies",
+    "paragraphs": [
+      "We understand the cleaning industry’s challenges — from local competition to client retention and seasonal demand. Our team builds data-driven strategies that fill your schedule and strengthen your brand reputation.",
+      "Whether you’re serving homes or businesses, we tailor campaigns around your services, geography, and audience to deliver consistent ROI."
+    ]
+  },
+  "painPoints": {
+    "heading": "Common challenges we solve",
+    "items": [
+      {
+        "title": "Unsteady flow of new leads",
+        "description": "We build multi-channel lead systems to generate steady inbound calls and form submissions."
+      },
+      {
+        "title": "Low local visibility",
+        "description": "We optimize your Google Business Profile, citations, and reviews to dominate your service area."
+      },
+      {
+        "title": "Price-based competition",
+        "description": "We refine your brand messaging and offers to compete on quality, not price alone."
+      },
+      {
+        "title": "Manual scheduling and follow-ups",
+        "description": "We automate appointment booking, reminders, and client follow-ups to save you hours weekly."
+      },
+      {
+        "title": "Limited marketing insights",
+        "description": "We implement call tracking and dashboards so you can see which campaigns drive revenue."
+      },
+      {
+        "title": "Low repeat bookings",
+        "description": "We create retention workflows and promotions that turn one-time clients into long-term accounts."
+      }
+    ]
+  },
+  "serviceCards": [
+    {
+      "title": "Strategy & Roadmapping",
+      "description": "Define goals, KPIs, and campaign phases to grow bookings and brand recognition.",
+      "slug": "cleaning-marketing-agency"
+    }
+  ],
+  "content": {
+    "heading": "Win more local cleaning jobs.",
+    "text1": "Every cleaning company has unique audiences and seasonality. We tailor marketing strategies to match your services — from deep cleaning to ongoing maintenance.",
+    "text2": "From local SEO and paid ads to review generation and lead nurturing — your campaigns focus on generating qualified, ready-to-book customers.",
+    "text3": "Our dashboards show which ads and keywords generate calls, quotes, and repeat bookings so we can scale what drives ROI.",
+    "image": "wordpress-seo.jpg",
+    "alt": "Cleaning marketing illustration"
+  },
+  "process": {
+    "heading": "Our process",
+    "steps": [
+      "Discover",
+      "Design",
+      "Launch",
+      "Optimise",
+      "Scale"
+    ],
+    "content": [
+      "Understand your cleaning services, target areas, and current marketing setup.",
+      "Develop a channel plan, creative messaging, and local SEO strategy.",
+      "Launch ads, SEO, and automation tools for fast lead generation.",
+      "Optimize keywords, bids, and offers to lower CPL and increase conversions.",
+      "Scale winning campaigns and expand into nearby service areas."
+    ]
+  },
+  "keyBenefits": {
+    "heading": "Why partner with us",
+    "items": [
+      { "title": "Cleaning industry expertise", "description": "Proven experience across residential, commercial, and specialty cleaning niches." },
+      { "title": "Local lead generation", "description": "Dominate maps, search, and social for cleaning services in your city." },
+      { "title": "Faster ROI", "description": "Go live in days with campaigns built on proven playbooks." },
+      { "title": "Reputation management", "description": "Grow and showcase your 5-star reviews across platforms." },
+      { "title": "Conversion optimization", "description": "Turn more inquiries into booked jobs with CRO-focused landing pages." },
+      { "title": "Automation-ready", "description": "Use AI tools for instant lead follow-up and rebooking reminders." }
+    ]
+  },
+  "features": {
+    "heading": "Platform features",
+    "items": [
+      { "title": "Secure by default", "description": "Best practices across the stack." },
+      { "title": "Call tracking", "description": "Know which campaigns and keywords generate actual booked cleanings." },
+      { "title": "Reporting dashboards", "description": "Transparent KPIs updated daily for full visibility into performance." },
+      { "title": "Lead routing", "description": "Automatically send new leads to the right team or cleaner with SLAs." }
+    ]
+  },
+  "services": "Cleaning Marketing Agency",
+  "faq": {
+    "serviceName": "Cleaning Marketing Agency",
+    "faqs": [
+      {
+        "q": "Do you work with both residential and commercial cleaning companies?",
+        "a": "Yes — we help cleaning businesses of all types grow through SEO, ads, and automation."
+      },
+      {
+        "q": "Can you help us get more recurring clients?",
+        "a": "Absolutely. We build retention programs and email automations that encourage repeat bookings."
+      },
+      {
+        "q": "How fast can we start seeing results?",
+        "a": "Most clients see an increase in calls and form fills within 2–3 weeks after campaign launch."
+      }
+    ]
+  }
+},
   "otherServices": {
     "industriesServices": [
       "Architect marketing",
