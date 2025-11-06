@@ -231,7 +231,7 @@ export default function DataAnalyticsServices({
 													}
 													className={`w-full text-left rounded-[64px] transition-all duration-300 font-medium ${
 														isActive
-															? "px-8 py-8 md:py-10 text-xl md:text-2xl bg-yellow text-black shadow-xl"
+															? "px-8 py-5 md:py-6 text-xl md:text-xl bg-yellow text-black shadow-xl"
 															: "px-2 md:px-3 py-3 md:py-4 text-white/95 hover:text-white"
 													}`}
 												>
@@ -295,7 +295,7 @@ export default function DataAnalyticsServices({
 
 								{/* Image */}
 								<div>
-									<div className="relative w-full h-[300px] md:h-[420px] rounded-[32px] overflow-hidden bg-black flex items-center justify-center">
+									<div className="relative w-full h-[300px] md:h-[420px] rounded-[32px] overflow-hidden flex items-center justify-center">
 										<Image
 											src={
 												activeService.image

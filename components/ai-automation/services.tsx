@@ -174,7 +174,7 @@ export default function AiAutomationServices({
 								>
 									{/* Image */}
 									<div
-										className={`relative w-full h-[400px] md:h-[500px] lg:h-[600px] ${
+										className={`relative w-full h-[300px] md:h-[350px] lg:h-[400px] ${
 											isEven
 												? "lg:order-1"
 												: "lg:order-2"

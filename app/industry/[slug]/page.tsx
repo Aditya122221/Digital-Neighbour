@@ -127,7 +127,7 @@ export default async function IndustryServicePage({
 	<PainPoints data={painData} />
 	<IndustryBrowserSection />
 	<Content data={currentData?.content} imagePathPrefix="/seo/content" />
-<CreativeShowcase speedMsPerLoop={ 3000 } />
+<CreativeShowcase speedMsPerLoop={ 5500 } />
 	< CaseStudy />
 	<Process2
 		data={"industries"}
