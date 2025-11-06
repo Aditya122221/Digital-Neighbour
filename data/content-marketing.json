@@ -12,6 +12,43 @@
       "formHeading": "Request your free content marketing audit",
       "buttonText": "Get My Audit"
     },
+    "introParagraph": {
+      "heading": "The Content Marketing Challenge",
+      "paragraphs": [
+        "Creating content without strategy leads to inconsistent quality, poor performance, and wasted resources across channels.",
+        "We build comprehensive content systems that align strategy, creation, and distribution—so content becomes a reliable growth engine."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with content that doesn't deliver?",
+      "subheading": "Common content marketing challenges and how we solve them.",
+      "items": [
+        { "title": "Content doesn't drive leads or conversions despite regular publishing?", "description": "We align content strategy with conversion paths, optimize for both SEO and engagement, and track performance to identify what drives results." },
+        { "title": "No clear content strategy or editorial calendar?", "description": "We develop comprehensive content strategies with detailed editorial calendars, content pillars, and publishing schedules aligned to your goals." },
+        { "title": "Inconsistent quality and brand voice across content?", "description": "We establish brand guidelines, content standards, and quality control processes to ensure consistent, on-brand content delivery." },
+        { "title": "Content creation is time-consuming and resource-intensive?", "description": "We implement efficient workflows, templates, and production systems that scale output without sacrificing quality." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "Content marketing that drives measurable results.",
+      "items": [
+        { "title": "Strategic Planning", "description": "Comprehensive content strategies aligned with business goals and audience needs." },
+        { "title": "Quality Production", "description": "High-quality content creation across formats optimized for engagement and SEO." },
+        { "title": "Multi-Channel Distribution", "description": "Strategic distribution across channels to maximize reach and impact." }
+      ]
+    },
+    "features": {
+      "heading": "What You Get",
+      "subheading": "Everything needed to run a successful content marketing program.",
+      "features": [
+        { "title": "Content Strategy", "description": "Comprehensive strategies with editorial calendars and content roadmaps.", "icon": "📋" },
+        { "title": "Content Creation", "description": "High-quality content across blogs, social, email, and video formats.", "icon": "✍️" },
+        { "title": "SEO Optimization", "description": "Content optimized for search engines and user engagement.", "icon": "🔍" },
+        { "title": "Distribution Strategy", "description": "Multi-channel distribution to maximize reach and engagement.", "icon": "📢" },
+        { "title": "Performance Analytics", "description": "Comprehensive tracking and reporting to optimize results.", "icon": "📊" }
+      ]
+    },
     "services": "Content Marketing",
     "process": {
       "steps": [
@@ -101,6 +138,43 @@
       "cta": "Request a free content strategy consultation and audit. Our comprehensive analysis covers your current content performance, content gaps, audience insights, and strategic recommendations to improve your content marketing effectiveness.",
       "formHeading": "Free Content Strategy Audit",
       "buttonText": "Get My Audit"
+    },
+    "introParagraph": {
+      "heading": "Your Content Strategy Challenge",
+      "paragraphs": [
+        "Without a clear strategy, content creation becomes reactive and inconsistent—wasting resources and missing opportunities.",
+        "We develop comprehensive content strategies that align planning, execution, and measurement for sustainable growth."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with content planning?",
+      "subheading": "Common content strategy challenges and our solutions.",
+      "items": [
+        { "title": "No clear content roadmap or strategic direction?", "description": "We develop comprehensive content strategies with clear roadmaps, content pillars, and strategic frameworks aligned to your goals." },
+        { "title": "Content doesn't align with business objectives?", "description": "We ensure every piece of content serves clear business goals through strategic planning and alignment frameworks." },
+        { "title": "Inconsistent content themes and messaging?", "description": "We establish content pillars, messaging frameworks, and brand guidelines to ensure consistent, strategic content delivery." },
+        { "title": "No editorial calendar or content planning system?", "description": "We create detailed editorial calendars with publishing schedules, content themes, and strategic planning processes." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "Strategic content planning that drives results.",
+      "items": [
+        { "title": "Clear Roadmap", "description": "Comprehensive content strategies with detailed roadmaps and editorial calendars." },
+        { "title": "Strategic Alignment", "description": "Content plans aligned with business objectives and audience needs." },
+        { "title": "Performance Framework", "description": "Clear KPIs and measurement systems to track content effectiveness." }
+      ]
+    },
+    "features": {
+      "heading": "Content Strategy Capabilities",
+      "subheading": "Everything needed to plan and execute strategic content.",
+      "features": [
+        { "title": "Content Audits", "description": "Comprehensive analysis of existing content performance and opportunities.", "icon": "🔍" },
+        { "title": "Strategic Planning", "description": "Content strategies with clear objectives, pillars, and roadmaps.", "icon": "📋" },
+        { "title": "Editorial Calendars", "description": "Detailed calendars with publishing schedules and content themes.", "icon": "📅" },
+        { "title": "Audience Research", "description": "Deep audience insights to inform content strategy and planning.", "icon": "👥" },
+        { "title": "Performance Frameworks", "description": "KPIs and measurement systems to track content success.", "icon": "📊" }
+      ]
     },
     "services": "Content Strategy",
     "process": {
@@ -192,6 +266,43 @@
       "formHeading": "Free Copywriting Audit",
       "buttonText": "Get My Audit"
     },
+    "introParagraph": {
+      "heading": "Your Copywriting Challenge",
+      "paragraphs": [
+        "Weak copy fails to engage, convert, or communicate value—wasting marketing spend and missing opportunities.",
+        "We create conversion-focused copy that combines persuasive writing with strategic messaging to drive results."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with copy that doesn't convert?",
+      "subheading": "Common copywriting challenges and our solutions.",
+      "items": [
+        { "title": "Copy doesn't drive conversions or engagement?", "description": "We create conversion-focused copy using proven persuasion techniques and strategic messaging that drives action." },
+        { "title": "Inconsistent brand voice across copy?", "description": "We establish brand voice guidelines and ensure all copy maintains consistent, on-brand messaging." },
+        { "title": "Copy doesn't resonate with target audience?", "description": "We conduct deep audience research and craft copy that speaks directly to your audience's needs and pain points." },
+        { "title": "No clear messaging strategy or value proposition?", "description": "We develop clear messaging frameworks and value propositions that communicate your unique benefits effectively." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "Copywriting that drives conversions and engagement.",
+      "items": [
+        { "title": "Conversion-Focused", "description": "Persuasive copy optimized for conversions and engagement across channels." },
+        { "title": "Brand Consistency", "description": "Consistent brand voice and messaging across all copy touchpoints." },
+        { "title": "Strategic Messaging", "description": "Clear value propositions and messaging frameworks that resonate." }
+      ]
+    },
+    "features": {
+      "heading": "Copywriting Capabilities",
+      "subheading": "Everything needed to create compelling, conversion-focused copy.",
+      "features": [
+        { "title": "Copy Strategy", "description": "Messaging development and copy strategies aligned to business goals.", "icon": "📝" },
+        { "title": "Multi-Channel Copy", "description": "Copy for websites, emails, ads, and marketing materials.", "icon": "✍️" },
+        { "title": "SEO Integration", "description": "Copy optimized for both search engines and user engagement.", "icon": "🔍" },
+        { "title": "A/B Testing", "description": "Testing frameworks to optimize copy performance and conversions.", "icon": "🧪" },
+        { "title": "Performance Analysis", "description": "Tracking and analysis to refine copy strategies over time.", "icon": "📊" }
+      ]
+    },
     "services": "Copywriting",
     "process": {
       "steps": [
@@ -281,6 +392,43 @@
       "cta": "Request a free design audit and consultation. We review your visual assets, brand consistency, design effectiveness, and share strategic recommendations to improve communication and recognition.",
       "formHeading": "Free Graphic Design Audit",
       "buttonText": "Get My Audit"
+    },
+    "introParagraph": {
+      "heading": "Your Graphic Design Challenge",
+      "paragraphs": [
+        "Weak visuals fail to capture attention or communicate your brand—missing opportunities to engage and convert.",
+        "We create compelling visual designs that combine creative excellence with strategic thinking to elevate your brand."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with visuals that don't engage?",
+      "subheading": "Common graphic design challenges and our solutions.",
+      "items": [
+        { "title": "Designs don't capture attention or drive engagement?", "description": "We create visually compelling designs that capture attention, communicate effectively, and drive engagement across channels." },
+        { "title": "Inconsistent brand visuals across materials?", "description": "We establish brand guidelines and ensure consistent visual identity across all design touchpoints." },
+        { "title": "Designs don't align with marketing objectives?", "description": "We ensure every design element serves clear marketing goals through strategic planning and alignment." },
+        { "title": "Slow design turnaround and production bottlenecks?", "description": "We implement efficient design workflows and production systems that deliver quality designs on time." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "Graphic design that elevates your brand and drives results.",
+      "items": [
+        { "title": "Creative Excellence", "description": "Visually compelling designs that capture attention and communicate effectively." },
+        { "title": "Brand Consistency", "description": "Consistent visual identity across all design materials and touchpoints." },
+        { "title": "Strategic Design", "description": "Designs aligned with marketing objectives and business goals." }
+      ]
+    },
+    "features": {
+      "heading": "Graphic Design Capabilities",
+      "subheading": "Everything needed to create compelling visual content.",
+      "features": [
+        { "title": "Brand Identity", "description": "Logo design, brand guidelines, and visual identity systems.", "icon": "🎨" },
+        { "title": "Marketing Materials", "description": "Brochures, flyers, social graphics, and promotional materials.", "icon": "📄" },
+        { "title": "Digital Graphics", "description": "Web graphics, email templates, and digital marketing assets.", "icon": "💻" },
+        { "title": "Design Systems", "description": "Reusable design components and templates for efficiency.", "icon": "🔧" },
+        { "title": "Performance Tracking", "description": "Design performance analysis to optimize visual effectiveness.", "icon": "📊" }
+      ]
     },
     "services": "Graphic Designing",
     "process": {
@@ -372,6 +520,43 @@
       "formHeading": "Free Video Editing Consultation",
       "buttonText": "Get My Consultation"
     },
+    "introParagraph": {
+      "heading": "Your Video Editing Challenge",
+      "paragraphs": [
+        "Raw footage without professional editing fails to engage or convert—missing opportunities to tell your story effectively.",
+        "We transform footage into compelling video content through expert editing and creative enhancement."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with video content that doesn't engage?",
+      "subheading": "Common video editing challenges and our solutions.",
+      "items": [
+        { "title": "Videos don't capture attention or maintain engagement?", "description": "We create engaging video narratives with professional editing, pacing, and visual variety that keeps viewers watching." },
+        { "title": "Poor video quality and production value?", "description": "We enhance videos with color grading, sound design, and professional polish that elevates production value." },
+        { "title": "Videos aren't optimized for different platforms?", "description": "We optimize videos for each platform's requirements, formats, and best practices to maximize reach and engagement." },
+        { "title": "Slow editing turnaround and production delays?", "description": "We implement efficient editing workflows and production systems that deliver quality videos on schedule." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "Video editing that transforms footage into compelling content.",
+      "items": [
+        { "title": "Professional Editing", "description": "Expert editing with color grading, sound design, and creative enhancement." },
+        { "title": "Platform Optimization", "description": "Videos optimized for each platform's requirements and best practices." },
+        { "title": "Engaging Narratives", "description": "Compelling video stories that capture attention and maintain engagement." }
+      ]
+    },
+    "features": {
+      "heading": "Video Editing Capabilities",
+      "subheading": "Everything needed to create professional video content.",
+      "features": [
+        { "title": "Professional Editing", "description": "Expert editing with pacing, transitions, and narrative structure.", "icon": "✂️" },
+        { "title": "Color Grading", "description": "Professional color correction and grading for visual excellence.", "icon": "🎨" },
+        { "title": "Sound Design", "description": "Audio enhancement, music integration, and sound design.", "icon": "🔊" },
+        { "title": "Motion Graphics", "description": "Graphics, effects, and visual elements to enhance storytelling.", "icon": "✨" },
+        { "title": "Platform Optimization", "description": "Format optimization for web, social media, and broadcast.", "icon": "📱" }
+      ]
+    },
     "services": "Video Editing",
     "process": {
       "steps": [
@@ -461,6 +646,43 @@
       "cta": "Request a free photography consultation and portfolio review. We discuss your vision, review requirements, and share strategic recommendations to maximize your shoot's impact.",
       "formHeading": "Free Photography Consultation",
       "buttonText": "Get My Consultation"
+    },
+    "introParagraph": {
+      "heading": "Your Photo Shoot Challenge",
+      "paragraphs": [
+        "Weak photography fails to showcase your brand or products effectively—missing opportunities to engage and convert.",
+        "We capture stunning images through professional photography that elevates your brand and drives marketing success."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with photography that doesn't showcase your brand?",
+      "subheading": "Common photo shoot challenges and our solutions.",
+      "items": [
+        { "title": "Photos don't capture your brand essence or products effectively?", "description": "We conduct professional photo shoots with creative direction that captures your brand essence and showcases products beautifully." },
+        { "title": "Inconsistent photo quality and visual style?", "description": "We maintain consistent quality and visual style across all photography to build strong brand recognition." },
+        { "title": "Photos aren't optimized for different use cases?", "description": "We deliver photos optimized for print, web, and social media use cases to maximize versatility." },
+        { "title": "Slow photo production and delivery timelines?", "description": "We implement efficient photo shoot workflows and post-production processes that deliver quality images on schedule." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "Professional photography that elevates your brand.",
+      "items": [
+        { "title": "Professional Quality", "description": "High-quality photography with professional equipment and techniques." },
+        { "title": "Brand Consistency", "description": "Consistent visual style and quality across all photography." },
+        { "title": "Versatile Assets", "description": "Photos optimized for multiple use cases and platforms." }
+      ]
+    },
+    "features": {
+      "heading": "Photo Shoot Capabilities",
+      "subheading": "Everything needed to capture stunning brand photography.",
+      "features": [
+        { "title": "Professional Photography", "description": "Product, brand, event, and lifestyle photography services.", "icon": "📸" },
+        { "title": "Creative Direction", "description": "Creative direction and styling to capture your brand essence.", "icon": "🎨" },
+        { "title": "Post-Production", "description": "Professional editing, color correction, and retouching.", "icon": "✨" },
+        { "title": "Multi-Format Delivery", "description": "High-res and web-optimized formats for all use cases.", "icon": "📦" },
+        { "title": "Asset Organization", "description": "Organized image libraries for easy access and usage.", "icon": "📁" }
+      ]
     },
     "services": "Photo Shoot",
     "process": {
@@ -552,6 +774,43 @@
       "formHeading": "Free Video Production Consultation",
       "buttonText": "Get My Consultation"
     },
+    "introParagraph": {
+      "heading": "Your Video Shoot Challenge",
+      "paragraphs": [
+        "Poor video production fails to tell your story or showcase your brand—missing opportunities to engage and convert.",
+        "We produce compelling video content through professional filming and post-production that drives marketing success."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with video production that doesn't engage?",
+      "subheading": "Common video shoot challenges and our solutions.",
+      "items": [
+        { "title": "Videos don't tell your story or showcase your brand effectively?", "description": "We conduct professional video shoots with creative direction that captures your story and showcases your brand beautifully." },
+        { "title": "Poor video quality and production value?", "description": "We use professional equipment and techniques to capture high-quality footage with proper lighting, audio, and creative direction." },
+        { "title": "Videos aren't optimized for different platforms?", "description": "We deliver videos optimized for web, social media, and broadcast platforms to maximize reach and engagement." },
+        { "title": "Slow production timelines and delivery delays?", "description": "We implement efficient production workflows and post-production processes that deliver quality videos on schedule." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "Video production that tells your story and drives results.",
+      "items": [
+        { "title": "Professional Production", "description": "High-quality video production with professional equipment and techniques." },
+        { "title": "Creative Storytelling", "description": "Compelling video narratives that tell your story effectively." },
+        { "title": "Platform Optimization", "description": "Videos optimized for multiple platforms and use cases." }
+      ]
+    },
+    "features": {
+      "heading": "Video Shoot Capabilities",
+      "subheading": "Everything needed to produce compelling video content.",
+      "features": [
+        { "title": "Pre-Production", "description": "Comprehensive planning including scripts, shot lists, and logistics.", "icon": "📋" },
+        { "title": "Professional Filming", "description": "High-quality video production with multiple cameras and professional audio.", "icon": "🎬" },
+        { "title": "Post-Production", "description": "Expert editing, color grading, and sound design.", "icon": "✂️" },
+        { "title": "Multi-Format Delivery", "description": "Videos delivered in formats optimized for all platforms.", "icon": "📦" },
+        { "title": "Creative Direction", "description": "Creative direction and storytelling to maximize video impact.", "icon": "🎨" }
+      ]
+    },
     "services": "Video Shoot",
     "process": {
       "steps": [
@@ -641,6 +900,43 @@
       "cta": "Request a free infographic design consultation. We analyze your information, discuss visual approaches, and share recommendations to maximize impact.",
       "formHeading": "Free Infographic Consultation",
       "buttonText": "Get My Consultation"
+    },
+    "introParagraph": {
+      "heading": "Your Infographic Design Challenge",
+      "paragraphs": [
+        "Complex information without visual design fails to communicate or engage—missing opportunities to simplify and educate.",
+        "We create compelling infographics that combine data analysis with creative design to communicate effectively."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with infographics that don't communicate?",
+      "subheading": "Common infographic design challenges and our solutions.",
+      "items": [
+        { "title": "Infographics don't simplify complex information effectively?", "description": "We analyze complex data and create visual designs that make information accessible and engaging for your audience." },
+        { "title": "Infographics don't align with your brand or marketing goals?", "description": "We ensure all infographics align with your brand guidelines and serve clear marketing objectives." },
+        { "title": "Infographics aren't optimized for different platforms?", "description": "We deliver infographics optimized for web, social media, and print use cases to maximize versatility." },
+        { "title": "Slow design turnaround and production bottlenecks?", "description": "We implement efficient design workflows and production systems that deliver quality infographics on schedule." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "Infographic design that communicates clearly and drives engagement.",
+      "items": [
+        { "title": "Visual Communication", "description": "Compelling visual designs that simplify complex information effectively." },
+        { "title": "Data Analysis", "description": "Thorough data analysis to identify key insights and visualization opportunities." },
+        { "title": "Platform Optimization", "description": "Infographics optimized for multiple platforms and use cases." }
+      ]
+    },
+    "features": {
+      "heading": "Infographic Design Capabilities",
+      "subheading": "Everything needed to create compelling visual data communication.",
+      "features": [
+        { "title": "Data Analysis", "description": "Comprehensive analysis to identify key insights and visualization opportunities.", "icon": "📊" },
+        { "title": "Visual Design", "description": "Creative designs that simplify complex information effectively.", "icon": "🎨" },
+        { "title": "Information Design", "description": "Clear visual hierarchies and information architecture.", "icon": "📐" },
+        { "title": "Multi-Format Delivery", "description": "Infographics delivered in formats optimized for all platforms.", "icon": "📦" },
+        { "title": "Brand Alignment", "description": "Designs aligned with brand guidelines and marketing objectives.", "icon": "🎯" }
+      ]
     },
     "services": "Infographic Design",
     "process": {
@@ -732,6 +1028,43 @@
       "formHeading": "Free Website Copy Audit",
       "buttonText": "Get My Audit"
     },
+    "introParagraph": {
+      "heading": "Your Website Copy Challenge",
+      "paragraphs": [
+        "Weak website copy fails to communicate value or guide visitors—missing opportunities to convert and drive revenue.",
+        "We create conversion-focused website copy that combines persuasive writing with SEO optimization to drive results."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with website copy that doesn't convert?",
+      "subheading": "Common website copywriting challenges and our solutions.",
+      "items": [
+        { "title": "Website copy doesn't drive conversions or guide visitors?", "description": "We create conversion-focused copy with clear value propositions, strategic CTAs, and user journey optimization that drives action." },
+        { "title": "Copy doesn't rank well in search engines?", "description": "We integrate SEO best practices into all website copy while maintaining readability and conversion effectiveness." },
+        { "title": "Inconsistent messaging across website pages?", "description": "We ensure consistent brand voice and messaging across all website pages to create cohesive user experiences." },
+        { "title": "Copy doesn't communicate your unique value effectively?", "description": "We develop clear value propositions and messaging that communicate your unique benefits and differentiate you from competitors." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "Website copy that converts visitors into customers.",
+      "items": [
+        { "title": "Conversion-Focused", "description": "Persuasive copy optimized for conversions and user engagement." },
+        { "title": "SEO Optimized", "description": "Copy optimized for search engines while maintaining readability." },
+        { "title": "User Journey Optimized", "description": "Copy that guides visitors through the conversion funnel effectively." }
+      ]
+    },
+    "features": {
+      "heading": "Website Copywriting Capabilities",
+      "subheading": "Everything needed to create compelling website copy.",
+      "features": [
+        { "title": "Homepage Copy", "description": "Compelling homepage copy that captures attention and communicates value.", "icon": "🏠" },
+        { "title": "Service Pages", "description": "Service page copy that communicates benefits and drives conversions.", "icon": "📄" },
+        { "title": "Product Descriptions", "description": "Product copy that sells and drives purchase decisions.", "icon": "🛍️" },
+        { "title": "SEO Integration", "description": "SEO-optimized copy that ranks well and converts.", "icon": "🔍" },
+        { "title": "Conversion Optimization", "description": "A/B testing and optimization to maximize conversion rates.", "icon": "📊" }
+      ]
+    },
     "services": "Website Copywriting",
     "process": {
       "steps": [
@@ -821,6 +1154,43 @@
       "cta": "Request a free sales copy audit. Our comprehensive analysis covers your current sales materials, conversion opportunities, messaging effectiveness, and strategic recommendations to improve sales performance.",
       "formHeading": "Free Sales Copy Audit",
       "buttonText": "Get My Audit"
+    },
+    "introParagraph": {
+      "heading": "Your Sales Copy Challenge",
+      "paragraphs": [
+        "Weak sales copy fails to persuade or close deals—missing opportunities to convert prospects and drive revenue.",
+        "We create persuasive sales copy that combines proven sales techniques with strategic messaging to drive conversions."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with sales copy that doesn't close?",
+      "subheading": "Common sales copywriting challenges and our solutions.",
+      "items": [
+        { "title": "Sales copy doesn't persuade or drive conversions?", "description": "We create persuasive sales copy using proven techniques including benefit-driven messaging, social proof, and strong CTAs that drive action." },
+        { "title": "No clear value proposition or messaging strategy?", "description": "We develop clear value propositions and messaging frameworks that communicate unique benefits and drive sales." },
+        { "title": "Sales materials don't address objections effectively?", "description": "We incorporate objection handling and trust-building elements into sales copy to overcome resistance and close deals." },
+        { "title": "No testing or optimization of sales copy performance?", "description": "We implement A/B testing frameworks and performance analysis to optimize sales copy and maximize conversions." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "Sales copy that closes deals and drives revenue.",
+      "items": [
+        { "title": "Persuasive Writing", "description": "Sales copy using proven persuasion techniques that drive action." },
+        { "title": "Conversion-Focused", "description": "Copy optimized for conversions with clear value propositions and CTAs." },
+        { "title": "Performance Optimized", "description": "Testing and optimization to maximize sales copy effectiveness." }
+      ]
+    },
+    "features": {
+      "heading": "Sales Copywriting Capabilities",
+      "subheading": "Everything needed to create persuasive sales content.",
+      "features": [
+        { "title": "Sales Pages", "description": "Compelling sales pages that persuade and convert.", "icon": "📄" },
+        { "title": "Email Sequences", "description": "Sales email sequences that nurture and close deals.", "icon": "📧" },
+        { "title": "Proposals", "description": "Winning proposals that communicate value and close deals.", "icon": "📋" },
+        { "title": "Sales Letters", "description": "Persuasive sales letters that drive action.", "icon": "✉️" },
+        { "title": "A/B Testing", "description": "Testing frameworks to optimize sales copy performance.", "icon": "🧪" }
+      ]
     },
     "services": "Sales Copywriting",
     "process": {
@@ -912,6 +1282,43 @@
       "formHeading": "Free Logo Design Consultation",
       "buttonText": "Get My Consultation"
     },
+    "introParagraph": {
+      "heading": "Your Logo Design Challenge",
+      "paragraphs": [
+        "Weak logos fail to represent your brand or build recognition—missing opportunities to establish memorable brand identity.",
+        "We create distinctive logos that combine creative excellence with strategic thinking to build strong brand recognition."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with logos that don't represent your brand?",
+      "subheading": "Common logo design challenges and our solutions.",
+      "items": [
+        { "title": "Logo doesn't capture your brand essence or resonate with audience?", "description": "We conduct comprehensive brand research and create logos that capture your brand essence and appeal to your target audience." },
+        { "title": "Logo isn't versatile across different applications?", "description": "We design logos that work across all applications from business cards to billboards to digital platforms." },
+        { "title": "No brand guidelines for logo usage?", "description": "We provide comprehensive brand guidelines that document logo usage, colors, and best practices for consistent application." },
+        { "title": "Logo looks generic or similar to competitors?", "description": "We create unique, distinctive logos that differentiate your brand and build memorable recognition." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "Logo design that builds memorable brand recognition.",
+      "items": [
+        { "title": "Memorable Design", "description": "Distinctive logos that capture brand essence and build recognition." },
+        { "title": "Versatile Application", "description": "Logos that work across all applications and platforms." },
+        { "title": "Brand Guidelines", "description": "Comprehensive guidelines for consistent logo usage." }
+      ]
+    },
+    "features": {
+      "heading": "Logo Design Capabilities",
+      "subheading": "Everything needed to create memorable brand logos.",
+      "features": [
+        { "title": "Brand Research", "description": "Comprehensive research to inform logo design direction.", "icon": "🔍" },
+        { "title": "Concept Development", "description": "Multiple logo concepts exploring different visual approaches.", "icon": "💡" },
+        { "title": "Design Refinement", "description": "Iterative refinement to perfect logo details and execution.", "icon": "✨" },
+        { "title": "Multi-Format Delivery", "description": "Logos delivered in all formats for versatile application.", "icon": "📦" },
+        { "title": "Brand Guidelines", "description": "Comprehensive guidelines for consistent logo usage.", "icon": "📋" }
+      ]
+    },
     "services": "Logo Design",
     "process": {
       "steps": [
@@ -1001,6 +1408,43 @@
       "cta": "Request a free branding consultation. Our team discusses your vision, reviews your market position, and provides strategic recommendations to create a brand identity that truly represents your business.",
       "formHeading": "Free Branding Consultation",
       "buttonText": "Get My Consultation"
+    },
+    "introParagraph": {
+      "heading": "Your Branding Challenge",
+      "paragraphs": [
+        "Weak brand identities fail to differentiate or build recognition—missing opportunities to establish strong market presence.",
+        "We create comprehensive brand identities that combine strategic thinking with creative excellence to build lasting brand recognition."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with brand identity that doesn't resonate?",
+      "subheading": "Common branding challenges and our solutions.",
+      "items": [
+        { "title": "Brand identity doesn't differentiate you from competitors?", "description": "We develop unique brand identities that communicate your values and differentiate you from competitors effectively." },
+        { "title": "Inconsistent brand application across touchpoints?", "description": "We create comprehensive brand guidelines and ensure consistent application across all marketing materials and touchpoints." },
+        { "title": "No clear brand strategy or positioning?", "description": "We develop comprehensive brand strategies with clear positioning, values, and messaging frameworks." },
+        { "title": "Brand doesn't resonate with target audience?", "description": "We conduct audience research and create brand identities that resonate with your target audience and build meaningful connections." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "Branding that builds strong market presence.",
+      "items": [
+        { "title": "Strategic Identity", "description": "Comprehensive brand identities aligned with business objectives." },
+        { "title": "Consistent Application", "description": "Consistent brand application across all touchpoints and materials." },
+        { "title": "Brand Guidelines", "description": "Comprehensive guidelines for consistent brand implementation." }
+      ]
+    },
+    "features": {
+      "heading": "Branding Capabilities",
+      "subheading": "Everything needed to create comprehensive brand identities.",
+      "features": [
+        { "title": "Brand Strategy", "description": "Comprehensive brand strategies with positioning and messaging.", "icon": "📋" },
+        { "title": "Visual Identity", "description": "Complete visual identity systems including logos, colors, and typography.", "icon": "🎨" },
+        { "title": "Brand Guidelines", "description": "Comprehensive guidelines for consistent brand application.", "icon": "📖" },
+        { "title": "Implementation", "description": "Brand application across key marketing materials and touchpoints.", "icon": "🚀" },
+        { "title": "Brand Management", "description": "Ongoing brand management and evolution support.", "icon": "🔄" }
+      ]
     },
     "services": "Branding",
     "process": {
@@ -1092,6 +1536,43 @@
       "formHeading": "Free Press Release Consultation",
       "buttonText": "Get My Consultation"
     },
+    "introParagraph": {
+      "heading": "Your Press Release Challenge",
+      "paragraphs": [
+        "Weak press releases fail to capture media attention or communicate news effectively—missing opportunities to build awareness and credibility.",
+        "We create compelling press releases that combine newsworthy angles with professional writing to maximize media coverage."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with press releases that don't get coverage?",
+      "subheading": "Common press release challenges and our solutions.",
+      "items": [
+        { "title": "Press releases don't capture media attention or get coverage?", "description": "We develop compelling news angles and craft press releases using journalistic best practices that appeal to media professionals." },
+        { "title": "No clear news angle or newsworthy story?", "description": "We identify the most newsworthy aspects of your announcements and position stories to maximize media interest." },
+        { "title": "Press releases aren't distributed effectively?", "description": "We distribute press releases through appropriate channels and pitch directly to key media contacts to maximize coverage." },
+        { "title": "No tracking or measurement of press release performance?", "description": "We track distribution metrics, media pickups, and coverage to measure impact and optimize future PR efforts." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "Press releases that capture media attention and drive coverage.",
+      "items": [
+        { "title": "Newsworthy Content", "description": "Compelling press releases with newsworthy angles that capture media attention." },
+        { "title": "Strategic Distribution", "description": "Distribution through appropriate channels and direct media pitching." },
+        { "title": "Coverage Tracking", "description": "Comprehensive tracking and reporting to measure PR impact." }
+      ]
+    },
+    "features": {
+      "heading": "Press Release Capabilities",
+      "subheading": "Everything needed to create compelling PR content.",
+      "features": [
+        { "title": "News Angle Development", "description": "Identifying compelling angles from your announcements and achievements.", "icon": "📰" },
+        { "title": "Professional Writing", "description": "Press releases using journalistic best practices and engaging content.", "icon": "✍️" },
+        { "title": "Media Targeting", "description": "Identifying and targeting relevant media contacts and publications.", "icon": "🎯" },
+        { "title": "Distribution & Pitching", "description": "Strategic distribution and personalized pitching to maximize coverage.", "icon": "📢" },
+        { "title": "Coverage Tracking", "description": "Tracking distribution metrics and media pickups to measure impact.", "icon": "📊" }
+      ]
+    },
     "services": "Press Release Writing",
     "process": {
       "steps": [
@@ -1181,6 +1662,43 @@
       "cta": "Request a free ad copy audit. Our team analyzes your current ads, reviews performance data, and provides strategic recommendations to improve your ad copy effectiveness.",
       "formHeading": "Free Ad Copy Audit",
       "buttonText": "Get My Audit"
+    },
+    "introParagraph": {
+      "heading": "Your Ad Copy Challenge",
+      "paragraphs": [
+        "Weak ad copy fails to capture attention or convert—wasting ad spend and missing opportunities to drive revenue.",
+        "We create conversion-focused ad copy that combines persuasive writing with strategic testing to maximize ROI."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with ad copy that doesn't convert?",
+      "subheading": "Common ad copywriting challenges and our solutions.",
+      "items": [
+        { "title": "Ad copy doesn't drive clicks or conversions?", "description": "We create compelling headlines and persuasive copy optimized for each platform that drives clicks and conversions." },
+        { "title": "No A/B testing or optimization of ad performance?", "description": "We implement comprehensive A/B testing frameworks to identify winning ad combinations and optimize performance." },
+        { "title": "Ad copy doesn't align with platform requirements?", "description": "We create platform-optimized copy that adheres to character limits and best practices for each advertising platform." },
+        { "title": "No clear value proposition or messaging strategy?", "description": "We develop clear value propositions and messaging that communicate benefits effectively and drive action." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "Ad copy that drives clicks and maximizes ROI.",
+      "items": [
+        { "title": "Conversion-Focused", "description": "Persuasive ad copy optimized for conversions across all platforms." },
+        { "title": "Platform Optimized", "description": "Copy optimized for each platform's requirements and best practices." },
+        { "title": "Performance Tested", "description": "A/B testing and optimization to maximize ad performance and ROI." }
+      ]
+    },
+    "features": {
+      "heading": "Ad Copywriting Capabilities",
+      "subheading": "Everything needed to create compelling advertising copy.",
+      "features": [
+        { "title": "Headline Development", "description": "Multiple headline variations tested to identify highest performers.", "icon": "📝" },
+        { "title": "Platform Copy", "description": "Copy optimized for Google Ads, Facebook Ads, LinkedIn, and more.", "icon": "📱" },
+        { "title": "A/B Testing", "description": "Comprehensive testing frameworks to optimize ad performance.", "icon": "🧪" },
+        { "title": "Keyword Integration", "description": "Strategic keyword integration for search ads while maintaining readability.", "icon": "🔍" },
+        { "title": "Performance Analysis", "description": "Tracking CTR, conversions, and ROI to refine ad copy strategies.", "icon": "📊" }
+      ]
     },
     "services": "Ad Copywriting",
     "process": {
@@ -1272,6 +1790,43 @@
       "formHeading": "Free Email Marketing Audit",
       "buttonText": "Get My Audit"
     },
+    "introParagraph": {
+      "heading": "Your Email Marketing Challenge",
+      "paragraphs": [
+        "Poor email campaigns fail to engage, nurture, or convert—wasting opportunities to build relationships and drive revenue.",
+        "We create strategic email campaigns that combine targeted segmentation with compelling content to drive engagement and conversions."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with email campaigns that don't convert?",
+      "subheading": "Common email marketing challenges and our solutions.",
+      "items": [
+        { "title": "Low open rates and engagement despite regular sends?", "description": "We create compelling subject lines, segment audiences effectively, and optimize send times to maximize open rates and engagement." },
+        { "title": "No email automation or nurture sequences?", "description": "We set up sophisticated automation workflows and nurture sequences that guide leads through the customer journey." },
+        { "title": "Emails don't drive conversions or revenue?", "description": "We create conversion-focused email content with clear CTAs and strategic messaging that drives action." },
+        { "title": "Poor deliverability and email performance?", "description": "We implement best practices for deliverability, list hygiene, and performance optimization to maximize email effectiveness." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "Email marketing that nurtures leads and drives conversions.",
+      "items": [
+        { "title": "Strategic Campaigns", "description": "Targeted email campaigns aligned with business goals and customer journey stages." },
+        { "title": "Automation & Segmentation", "description": "Sophisticated automation and segmentation to deliver relevant, timely messages." },
+        { "title": "Performance Optimization", "description": "Continuous testing and optimization to maximize engagement and conversions." }
+      ]
+    },
+    "features": {
+      "heading": "Email Marketing Capabilities",
+      "subheading": "Everything needed to run successful email campaigns.",
+      "features": [
+        { "title": "Campaign Strategy", "description": "Email strategies aligned with business goals and customer journey.", "icon": "📧" },
+        { "title": "Automation Setup", "description": "Welcome series, nurture sequences, and behavior-triggered emails.", "icon": "⚙️" },
+        { "title": "List Segmentation", "description": "Audience segmentation for targeted, relevant messaging.", "icon": "👥" },
+        { "title": "Content Creation", "description": "Compelling email content with clear CTAs and conversion optimization.", "icon": "✍️" },
+        { "title": "Performance Analytics", "description": "Comprehensive tracking and reporting to optimize email effectiveness.", "icon": "📊" }
+      ]
+    },
     "services": "Email Marketing",
     "process": {
       "steps": [
@@ -1345,6 +1900,43 @@
       "cta": "Request a free PR consultation. Our team discusses your goals, reviews your story opportunities, and provides strategic recommendations to maximize your media coverage.",
       "formHeading": "Free PR Outreach Consultation",
       "buttonText": "Get My Consultation"
+    },
+    "introParagraph": {
+      "heading": "Your PR Outreach Challenge",
+      "paragraphs": [
+        "Weak PR outreach fails to build relationships or secure coverage—missing opportunities to build awareness and credibility.",
+        "We build strategic PR programs that combine media relationship building with compelling story pitching to secure valuable coverage."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with PR that doesn't secure coverage?",
+      "subheading": "Common PR outreach challenges and our solutions.",
+      "items": [
+        { "title": "PR pitches don't get accepted or secure coverage?", "description": "We develop compelling story angles and craft personalized pitches that resonate with journalists and increase acceptance rates." },
+        { "title": "No relationships with relevant journalists or media contacts?", "description": "We build relationships with relevant journalists through personalized outreach and value provision to establish trust." },
+        { "title": "Press releases aren't distributed effectively?", "description": "We distribute press releases through appropriate channels and pitch directly to targeted media contacts." },
+        { "title": "No tracking or measurement of PR performance?", "description": "We track pitch outcomes, coverage secured, and media mentions to measure PR impact and ROI." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "PR outreach that secures valuable media coverage.",
+      "items": [
+        { "title": "Media Relationships", "description": "Strategic relationship building with relevant journalists and media contacts." },
+        { "title": "Compelling Pitches", "description": "Story development and personalized pitching that secures coverage." },
+        { "title": "Coverage Tracking", "description": "Comprehensive tracking and reporting to measure PR performance." }
+      ]
+    },
+    "features": {
+      "heading": "PR Outreach Capabilities",
+      "subheading": "Everything needed to secure valuable press coverage.",
+      "features": [
+        { "title": "Media Relationship Building", "description": "Building relationships with relevant journalists and media contacts.", "icon": "🤝" },
+        { "title": "Story Development", "description": "Developing compelling story angles and crafting personalized pitches.", "icon": "📝" },
+        { "title": "Press Release Distribution", "description": "Strategic distribution through wire services and direct outreach.", "icon": "📢" },
+        { "title": "Follow-up & Engagement", "description": "Systematic follow-up to maintain engagement and maximize coverage.", "icon": "💬" },
+        { "title": "Coverage Tracking", "description": "Tracking pitch outcomes, coverage, and media mentions to measure impact.", "icon": "📊" }
+      ]
     },
     "services": "PR Outreach",
     "process": {
@@ -1436,6 +2028,43 @@
       "formHeading": "Free Video Content Consultation",
       "buttonText": "Get My Consultation"
     },
+    "introParagraph": {
+      "heading": "Your Video Content Challenge",
+      "paragraphs": [
+        "Weak video content fails to engage or convert—missing opportunities to tell your story and drive results.",
+        "We produce professional video content that combines creative storytelling with strategic distribution to engage audiences."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with video content that doesn't engage?",
+      "subheading": "Common video content challenges and our solutions.",
+      "items": [
+        { "title": "Videos don't capture attention or maintain engagement?", "description": "We create engaging video content with professional production, compelling narratives, and visual variety that keeps viewers watching." },
+        { "title": "No video strategy or content planning?", "description": "We develop comprehensive video strategies aligned with marketing goals and audience preferences." },
+        { "title": "Videos aren't optimized for different platforms?", "description": "We optimize videos for each platform's requirements, formats, and best practices to maximize reach." },
+        { "title": "No tracking or measurement of video performance?", "description": "We track video performance metrics and analyze engagement to optimize future content." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "Video content that engages audiences and drives results.",
+      "items": [
+        { "title": "Professional Production", "description": "High-quality video production with expert editing and creative enhancement." },
+        { "title": "Strategic Distribution", "description": "Platform-optimized distribution to maximize reach and engagement." },
+        { "title": "Performance Optimization", "description": "Tracking and optimization to maximize video effectiveness." }
+      ]
+    },
+    "features": {
+      "heading": "Video Content Capabilities",
+      "subheading": "Everything needed to create compelling video content.",
+      "features": [
+        { "title": "Video Strategy", "description": "Comprehensive strategies aligned with marketing goals and audience.", "icon": "📋" },
+        { "title": "Professional Production", "description": "High-quality filming with expert editing and creative enhancement.", "icon": "🎬" },
+        { "title": "Platform Optimization", "description": "Videos optimized for YouTube, social media, and web platforms.", "icon": "📱" },
+        { "title": "Content Distribution", "description": "Strategic distribution across relevant platforms and channels.", "icon": "📢" },
+        { "title": "Performance Analytics", "description": "Tracking views, engagement, and conversions to optimize content.", "icon": "📊" }
+      ]
+    },
     "services": "Video Content",
     "process": {
       "steps": [
@@ -1525,6 +2154,43 @@
       "cta": "Request a free infographic consultation. Our team analyzes your information, discusses visual approaches, and provides strategic recommendations to maximize your infographic impact.",
       "formHeading": "Free Infographic Consultation",
       "buttonText": "Get My Consultation"
+    },
+    "introParagraph": {
+      "heading": "Your Infographic Challenge",
+      "paragraphs": [
+        "Complex information without visual design fails to communicate or engage—missing opportunities to simplify and educate.",
+        "We create compelling infographics that combine data analysis with creative design to communicate effectively."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with infographics that don't communicate?",
+      "subheading": "Common infographic challenges and our solutions.",
+      "items": [
+        { "title": "Infographics don't simplify complex information effectively?", "description": "We analyze complex data and create visual designs that make information accessible and engaging for your audience." },
+        { "title": "Infographics don't align with your brand or marketing goals?", "description": "We ensure all infographics align with your brand guidelines and serve clear marketing objectives." },
+        { "title": "Infographics aren't optimized for different platforms?", "description": "We deliver infographics optimized for web, social media, and print use cases to maximize versatility." },
+        { "title": "Slow design turnaround and production bottlenecks?", "description": "We implement efficient design workflows and production systems that deliver quality infographics on schedule." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "Infographics that communicate clearly and drive engagement.",
+      "items": [
+        { "title": "Visual Communication", "description": "Compelling visual designs that simplify complex information effectively." },
+        { "title": "Data Analysis", "description": "Thorough data analysis to identify key insights and visualization opportunities." },
+        { "title": "Platform Optimization", "description": "Infographics optimized for multiple platforms and use cases." }
+      ]
+    },
+    "features": {
+      "heading": "Infographic Capabilities",
+      "subheading": "Everything needed to create compelling visual data communication.",
+      "features": [
+        { "title": "Data Analysis", "description": "Comprehensive analysis to identify key insights and visualization opportunities.", "icon": "📊" },
+        { "title": "Visual Design", "description": "Creative designs that simplify complex information effectively.", "icon": "🎨" },
+        { "title": "Information Design", "description": "Clear visual hierarchies and information architecture.", "icon": "📐" },
+        { "title": "Multi-Format Delivery", "description": "Infographics delivered in formats optimized for all platforms.", "icon": "📦" },
+        { "title": "Brand Alignment", "description": "Designs aligned with brand guidelines and marketing objectives.", "icon": "🎯" }
+      ]
     },
     "services": "Infographics",
     "process": {
@@ -1616,6 +2282,43 @@
       "formHeading": "Free Whitepaper Consultation",
       "buttonText": "Get My Consultation"
     },
+    "introParagraph": {
+      "heading": "Your Whitepaper Challenge",
+      "paragraphs": [
+        "Weak whitepapers fail to establish authority or generate leads—missing opportunities to build credibility and drive pipeline.",
+        "We create comprehensive whitepapers that combine thorough research with compelling writing to establish thought leadership."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with whitepapers that don't generate leads?",
+      "subheading": "Common whitepaper challenges and our solutions.",
+      "items": [
+        { "title": "Whitepapers don't establish thought leadership or generate leads?", "description": "We create comprehensive whitepapers with original research and authoritative analysis that establish authority and generate qualified leads." },
+        { "title": "No original research or unique insights?", "description": "We conduct comprehensive research including industry analysis, data gathering, and expert interviews to provide unique insights." },
+        { "title": "Whitepapers aren't designed professionally?", "description": "We provide professional whitepaper design with layouts, typography, and visualizations that enhance readability." },
+        { "title": "No promotion or lead generation setup?", "description": "We help distribute whitepapers and set up lead generation systems including landing pages and email campaigns." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "Whitepapers that establish thought leadership and generate leads.",
+      "items": [
+        { "title": "Authoritative Content", "description": "Comprehensive whitepapers with original research and insights." },
+        { "title": "Professional Design", "description": "Professional layouts and design that enhance readability and authority." },
+        { "title": "Lead Generation", "description": "Strategic distribution and lead capture setup to maximize downloads." }
+      ]
+    },
+    "features": {
+      "heading": "Whitepaper Capabilities",
+      "subheading": "Everything needed to create authoritative B2B content.",
+      "features": [
+        { "title": "Research & Analysis", "description": "Comprehensive research including industry analysis and data gathering.", "icon": "🔍" },
+        { "title": "Content Writing", "description": "Authoritative writing with clear insights and strategic recommendations.", "icon": "✍️" },
+        { "title": "Professional Design", "description": "Professional layouts, typography, and visualizations.", "icon": "🎨" },
+        { "title": "Review & Refinement", "description": "Thorough reviews and refinements to ensure accuracy and impact.", "icon": "✅" },
+        { "title": "Distribution & Lead Gen", "description": "Strategic distribution and lead capture setup to maximize downloads.", "icon": "📢" }
+      ]
+    },
     "services": "Whitepapers",
     "process": {
       "steps": [
@@ -1705,6 +2408,43 @@
       "cta": "Request a free case study consultation. Our team discusses your success stories, reviews your objectives, and provides strategic recommendations to maximize your case study impact.",
       "formHeading": "Free Case Study Consultation",
       "buttonText": "Get My Consultation"
+    },
+    "introParagraph": {
+      "heading": "Your Case Study Challenge",
+      "paragraphs": [
+        "Weak case studies fail to demonstrate value or build trust—missing opportunities to convert prospects and close deals.",
+        "We create compelling case studies that combine compelling storytelling with proven results to build credibility."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with case studies that don't convert?",
+      "subheading": "Common case study challenges and our solutions.",
+      "items": [
+        { "title": "Case studies don't demonstrate value or build trust?", "description": "We create compelling case studies using proven storytelling techniques that demonstrate value and provide social proof." },
+        { "title": "No clear structure or measurable results?", "description": "We document real challenges, solutions, and measurable results in structured narratives that build credibility." },
+        { "title": "Case studies aren't designed professionally?", "description": "We enhance case studies with professional design and data visualizations that make them more engaging." },
+        { "title": "No promotion or distribution strategy?", "description": "We help distribute and promote case studies across relevant channels to maximize reach and impact." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "Case studies that build trust and convert prospects.",
+      "items": [
+        { "title": "Compelling Stories", "description": "Engaging narratives that demonstrate value and build credibility." },
+        { "title": "Proven Results", "description": "Documented results and measurable outcomes that provide social proof." },
+        { "title": "Strategic Distribution", "description": "Distribution across relevant channels to maximize reach and impact." }
+      ]
+    },
+    "features": {
+      "heading": "Case Study Capabilities",
+      "subheading": "Everything needed to create compelling success stories.",
+      "features": [
+        { "title": "Client Interviews", "description": "Thorough interviews to gather success story details and results.", "icon": "🎤" },
+        { "title": "Story Development", "description": "Compelling narratives using proven storytelling techniques.", "icon": "📝" },
+        { "title": "Data Visualization", "description": "Professional design and data visualizations to enhance impact.", "icon": "📊" },
+        { "title": "Review & Approval", "description": "Comprehensive reviews and client approvals before publication.", "icon": "✅" },
+        { "title": "Distribution & Promotion", "description": "Strategic distribution across website, sales materials, and channels.", "icon": "📢" }
+      ]
     },
     "services": "Case Studies",
     "process": {
@@ -1796,6 +2536,43 @@
       "formHeading": "Free Ebook Consultation",
       "buttonText": "Get My Consultation"
     },
+    "introParagraph": {
+      "heading": "Your Ebook Challenge",
+      "paragraphs": [
+        "Weak ebooks fail to educate or capture leads—missing opportunities to establish authority and drive pipeline.",
+        "We create comprehensive ebooks that combine in-depth content with strategic lead capture to generate qualified leads."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with ebooks that don't generate leads?",
+      "subheading": "Common ebook challenges and our solutions.",
+      "items": [
+        { "title": "Ebooks don't generate leads or establish authority?", "description": "We create comprehensive ebooks with valuable insights that position your brand as an authority and capture qualified leads." },
+        { "title": "No lead capture setup or landing pages?", "description": "We set up complete lead capture systems including landing pages, forms, and email automation to maximize downloads." },
+        { "title": "Ebooks aren't designed professionally?", "description": "We provide professional ebook design with attractive covers, layouts, and formatting that enhances perceived value." },
+        { "title": "No promotion or distribution strategy?", "description": "We help promote ebooks through social media, email campaigns, and content marketing to maximize downloads." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "Ebooks that generate leads and establish authority.",
+      "items": [
+        { "title": "Comprehensive Content", "description": "In-depth content that educates audiences and establishes authority." },
+        { "title": "Lead Capture", "description": "Strategic lead capture setup to maximize downloads and lead generation." },
+        { "title": "Professional Design", "description": "Professional design that enhances perceived value and download rates." }
+      ]
+    },
+    "features": {
+      "heading": "Ebook Capabilities",
+      "subheading": "Everything needed to create lead-generating ebooks.",
+      "features": [
+        { "title": "Topic Research", "description": "Research and planning to identify topics that attract qualified leads.", "icon": "🔍" },
+        { "title": "Content Writing", "description": "Comprehensive content with in-depth coverage and valuable insights.", "icon": "✍️" },
+        { "title": "Design & Layout", "description": "Professional formatting with attractive covers and interior layouts.", "icon": "🎨" },
+        { "title": "Review & Refinement", "description": "Thorough reviews and refinements to ensure quality and impact.", "icon": "✅" },
+        { "title": "Lead Capture Setup", "description": "Landing pages, forms, and email automation to maximize downloads.", "icon": "📥" }
+      ]
+    },
     "services": "Ebooks",
     "process": {
       "steps": [
@@ -1885,6 +2662,43 @@
       "cta": "Request a free podcast consultation. Our team discusses your concept, reviews your objectives, and provides strategic recommendations to launch a successful podcast.",
       "formHeading": "Free Podcast Consultation",
       "buttonText": "Get My Consultation"
+    },
+    "introParagraph": {
+      "heading": "Your Podcast Challenge",
+      "paragraphs": [
+        "Weak podcasts fail to build audience or strengthen brand—missing opportunities to establish authority and drive engagement.",
+        "We create engaging podcast content that combines professional production with strategic distribution to grow audience and brand."
+      ]
+    },
+    "painPoints": {
+      "heading": "Struggling with podcasts that don't grow audience?",
+      "subheading": "Common podcast challenges and our solutions.",
+      "items": [
+        { "title": "Podcasts don't grow audience or build community?", "description": "We create engaging podcast content with professional production and strategic distribution that grows audience and builds community." },
+        { "title": "No podcast strategy or content planning?", "description": "We develop comprehensive podcast strategies with format selection, topic ideation, and growth strategies." },
+        { "title": "Poor audio quality or production value?", "description": "We provide professional recording and editing services that ensure high-quality audio and production value." },
+        { "title": "No distribution or promotion strategy?", "description": "We distribute podcasts across major platforms and implement promotion strategies to maximize reach." }
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Key Benefits",
+      "subheading": "Podcasts that grow audience and strengthen brand.",
+      "items": [
+        { "title": "Professional Production", "description": "High-quality recording and editing that ensures professional sound quality." },
+        { "title": "Strategic Distribution", "description": "Distribution across major platforms to maximize reach and accessibility." },
+        { "title": "Audience Growth", "description": "Content and promotion strategies that grow loyal listener base." }
+      ]
+    },
+    "features": {
+      "heading": "Podcast Content Capabilities",
+      "subheading": "Everything needed to launch and grow successful podcasts.",
+      "features": [
+        { "title": "Podcast Strategy", "description": "Comprehensive strategies with format selection and growth plans.", "icon": "📋" },
+        { "title": "Content Development", "description": "Engaging content and scripts that captivate listeners.", "icon": "✍️" },
+        { "title": "Recording & Production", "description": "Professional recording and expert editing for quality audio.", "icon": "🎙️" },
+        { "title": "Post-Production", "description": "Audio editing, sound design, and music integration.", "icon": "✂️" },
+        { "title": "Distribution & Promotion", "description": "Platform distribution and promotion strategies to maximize growth.", "icon": "📢" }
+      ]
     },
     "services": "Podcast Content",
     "process": {
