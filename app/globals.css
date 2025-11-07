@@ -18,7 +18,6 @@
   --green5: #bef19f;
   --pink: #fcf0e7;
 
-
   /* Semantic Design Tokens */
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
@@ -152,8 +151,18 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    overflow-x: hidden;
+  }
   body {
     @apply bg-background text-foreground;
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+  #__next,
+  main,
+  section {
+    overflow-x: hidden;
   }
 }
 
@@ -220,7 +229,6 @@ body {
 .animate-marquee-slow {
   animation: marquee-slow 40s linear infinite;
 }
-
 
 /* Adding scrollbar hiding utility class */
 .scrollbar-hide {
