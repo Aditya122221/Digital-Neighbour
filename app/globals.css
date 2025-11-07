@@ -179,10 +179,17 @@
   z-index: 5;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* Hide cursor circle on mobile screens */
 @media (max-width: 768px) {
   .cursor-circle {
     display: none;
+  }
+  body {
+    overflow-x: hidden;
   }
 }
 
