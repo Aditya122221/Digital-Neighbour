@@ -1,0 +1,129 @@
+{
+  "marketing-agency": {
+    "hero": {
+      "heading": "Full-Funnel Marketing Agency for Compounding Growth",
+      "subheading": "We blend brand, content, and performance marketing to build predictable demand engines that keep your pipeline full of ideal customers."
+    },
+    "form": {
+      "heading": "Ready to unlock faster marketing wins?",
+      "content": "Most teams are stuck juggling disconnected campaigns, inconsistent messaging, and underperforming channels. We audit your marketing ecosystem end-to-end so you can see exactly what is slowing down growth and how to fix it fast.",
+      "subContent": "We surface the signal from the noise to prioritise the campaigns and channels that will move revenue now, then build a roadmap that compounds results quarter after quarter.",
+      "cta": "Claim a free growth audit so we can map out the next 90 days of high-leverage actions for your marketing team.",
+      "formHeading": "Claim Your 90-Day Growth Marketing Roadmap",
+      "buttonText": "Get My Growth Plan"
+    },
+    "introParagraph": {
+      "heading": "The Marketing Challenge: Are Your Campaigns Stalling Out?",
+      "problemStatement": "Budgets are being spent, campaigns are shipping, yet pipeline is flat. Without a clear go-to-market narrative and connected channel strategy, you're leaving qualified demand on the table while competitors overtake.",
+      "valueProposition": "We architect full-funnel marketing systems—grounded in research, creative storytelling, and measurable demand capture—that deliver a steady stream of sales-ready opportunities and long-term brand lift."
+    },
+    "painPoints": {
+      "heading": "We Fix the Most Common Marketing Bottlenecks",
+      "subheading": "From strategy debt to underperforming campaigns, our team has scaled growth for SaaS, eCommerce, and service brands globally.",
+      "painPoints": [
+        {
+          "problem": "Your positioning is fuzzy so every campaign feels like a one-off experiment instead of a cohesive customer journey.",
+          "solution": "We clarify your value proposition, ICP, and messaging hierarchy to anchor every touchpoint in the same compelling story."
+        },
+        {
+          "problem": "Channels perform in silos, making reporting messy and multi-touch attribution a guessing game.",
+          "solution": "We connect your analytics stack, define leading indicators, and stand up dashboards so marketing and revenue teams have a shared source of truth."
+        },
+        {
+          "problem": "Paid spend is rising while CAC keeps climbing because lifecycle nurture and retention tactics lag behind acquisition.",
+          "solution": "We build lifecycle programs—across email, community, and product education—that improve conversion, expansion, and retention metrics."
+        }
+      ]
+    },
+    "services": "Marketing Agency",
+    "process": {
+      "steps": [
+        "Insight & Alignment",
+        "Customer Journey Design",
+        "Channel Activation",
+        "Experimentation & Optimization",
+        "Revenue Expansion"
+      ],
+      "content": [
+        "We run workshops with leadership, marketing, and sales to align on growth goals, ICPs, and positioning. Then we audit performance data, tooling, and creative to establish the starting point.",
+        "We map the buying committee, craft messaging pillars, and define the narrative arcs for each stage of the journey so creative and campaigns feel cohesive across channels.",
+        "Paid, owned, and earned motions go live in coordinated waves. We deploy campaign playbooks, creative assets, and automation that deliver consistent experiences wherever prospects engage.",
+        "We run weekly optimization sprints to test offers, creative, targeting, and landing pages. Wins scale quickly, underperformers get iterated or sunset to protect efficiency.",
+        "Insights loop back into retention, expansion, and advocacy programs. Marketing, sales, and success teams operate from shared dashboards to compound revenue impact."
+      ]
+    },
+    "keyBenefits": {
+      "heading": "Why Teams Choose Our Marketing Leadership",
+      "subheading": "Your marketing org gets a senior partner focused on revenue, not vanity metrics.",
+      "items": [
+        {
+          "title": "Strategic Leadership",
+          "description": "A senior marketing lead embedded with your team to keep positioning sharp, campaigns on track, and executive stakeholders aligned.",
+          "icon": "🎯"
+        },
+        {
+          "title": "Channel Specialists",
+          "description": "Paid media, lifecycle, and content experts coordinate execution so you can scale without hiring an entire in-house department.",
+          "icon": "🧠"
+        },
+        {
+          "title": "Insights & Reporting",
+          "description": "Revenue dashboards, leading indicators, and narrative reporting show exactly what is moving pipeline and where to double down next.",
+          "icon": "📊"
+        }
+      ]
+    },
+    "features": {
+      "heading": "A Marketing Operating System That Adapts",
+      "subheading": "Our playbooks are proven, yet flexible enough to meet the realities of your market, product, and internal resources.",
+      "features": [
+        {
+          "title": "Research-Driven Narrative",
+          "description": "Voice-of-customer research and competitive intelligence ensure messaging lands with precision across every channel.",
+          "icon": "🔍"
+        },
+        {
+          "title": "Creative Velocity",
+          "description": "Modular creative systems get ads, landing pages, and nurture sequences into market faster without sacrificing quality.",
+          "icon": "⚡"
+        },
+        {
+          "title": "Data Integrity",
+          "description": "Clean data pipelines and connected attribution give leadership confidence to invest in the plays that work.",
+          "icon": "🧭"
+        },
+        {
+          "title": "Cross-Team Alignment",
+          "description": "Revenue, marketing, and product collaborate on shared scorecards so GTM decisions happen with context, not guesswork.",
+          "icon": "🤝"
+        },
+        {
+          "title": "Scalable Tooling",
+          "description": "We optimise your Martech stack—CRM, MAP, analytics—to support growth today while staying flexible for tomorrow's needs.",
+          "icon": "🛠️"
+        }
+      ]
+    },
+    "faq": {
+      "serviceName": "Marketing Agency",
+      "faqs": [
+        {
+          "q": "What industries do you specialise in?",
+          "a": "We partner with B2B SaaS, technology, and service brands that rely on considered buying journeys. Our playbooks adapt to mid-market and enterprise dynamics."
+        },
+        {
+          "q": "How quickly can we launch new campaigns?",
+          "a": "Discovery and roadmap work happens in the first 2-3 weeks. Initial integrated campaigns typically go live within 30 days of kickoff with ongoing optimisation sprints."
+        },
+        {
+          "q": "Can you work alongside our internal team?",
+          "a": "Yes. We slot in as strategic leadership plus channel specialists, collaborating with your internal marketers, sales team, or existing agencies."
+        },
+        {
+          "q": "How do you measure success?",
+          "a": "We align on leading indicators and revenue targets during onboarding. Dashboards show pipeline impact, CAC efficiency, and retention gains tied directly to marketing programs."
+        }
+      ]
+    }
+  }
+}
