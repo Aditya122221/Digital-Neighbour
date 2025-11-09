@@ -1,11 +1,14 @@
 // import Hero from "@/components/homepage/hero"
 // import Banner from "@/components/homepage/banner"
 import BrandsMarquee from "@/components/homepage/brandsmarquee"
+import BrandInfo from "@/components/homepage/brandInfo"
 import Services from "@/components/homepage/services"
 import KeepYourStack from "@/components/homepage/keepyourstack"
 import CaseStudy from "@/components/homepage/casestudy"
+import FeatureSection from "@/components/homepage/contentSection"
 import Blogs from "@/components/homepage/blogs"
 import Testimonials from "@/components/homepage/testimonials"
+import TestimonalTwo from "@/components/homepage/testimonalTwo"
 import BookACall from "@/components/homepage/bookacall"
 import Footer from "@/components/core/footer"
 import Navbar from "@/components/core/navbar"
@@ -26,15 +29,17 @@ export default function HomePage() {
     {/* <Hero5 /> */}
       </div>
       {/* <Banner /> */}
-      <BrandsMarquee />
+  <BrandsMarquee />
+      <BrandInfo />
       {/* <RevealCursor /> */}
-      <Services />
+  <Services />
+    < KeepYourStack />
+    <CaseStudy />
+  <FeatureSection />
+      < Apart />
+      <TestimonalTwo />
       <Process2 />
-      <KeepYourStack />
-      <CaseStudy />
-      <Apart />
       <Blogs />
-      <Testimonials />
       <BookACall />
       <Footer />
     </main>

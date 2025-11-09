@@ -19,6 +19,7 @@ import Faq from "@/components/commonSections/faq"
 import OtherServices from "@/components/commonSections/otherservices"
 import Blogs from "@/components/homepage/blogs"
 import Testimonials from "@/components/homepage/testimonials"
+import TestimonalTwo from "@/components/homepage/testimonalTwo"
 import BookACall from "@/components/homepage/bookacall"
 
 const seoOverview = (seoData as any)["search-engine-optimisation"] as any
@@ -59,7 +60,7 @@ export default function SeoOverviewPage() {
 			<Faq data={seoOverview?.faq} />
 			<OtherServices />
 			<Blogs />
-			<Testimonials />
+			<TestimonalTwo />
 			<BookACall />
 			<Footer />
 		</main>

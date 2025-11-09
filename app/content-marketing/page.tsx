@@ -87,7 +87,6 @@ export default function ContentMarketingPage() {
     />
     < KeyBenefits data = { benefitsData } />
   <Features data={ currentData?.features } />
-  Marketing agency
   <Faq data={currentData?.faq} />
 			<OtherServices />
 			<Cta data={currentData?.services} />

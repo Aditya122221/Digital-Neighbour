@@ -127,20 +127,13 @@ export default function DataAnalyticsServices({
 						</div>
 
 						<motion.div
-							key={`m-${activeTab}`}
-							initial={{
-								opacity: 0,
-								y: 12,
-							}}
-							whileInView={{
+							initial={false}
+							animate={{
 								opacity: 1,
 								y: 0,
 							}}
-							viewport={{
-								once: true,
-							}}
 							transition={{
-								duration: 0.4,
+								duration: 0.2,
 								ease: "easeOut",
 							}}
 							className="mt-4 bg-[#f7f7fa] rounded-2xl p-4"
@@ -187,16 +180,11 @@ export default function DataAnalyticsServices({
 				{/* Desktop layout */}
 				{activeService && (
 					<motion.div
-						key={activeTab}
 						className="hidden lg:grid lg:grid-cols-12"
-						initial={{ opacity: 0, y: 20 }}
-						whileInView={{
-							opacity: 1,
-							y: 0,
-						}}
-						viewport={{ once: true }}
+						initial={false}
+						animate={{ opacity: 1, y: 0 }}
 						transition={{
-							duration: 0.6,
+							duration: 0.25,
 							ease: "easeOut",
 						}}
 					>
@@ -260,16 +248,15 @@ export default function DataAnalyticsServices({
 								<div className="space-y-6">
 									<motion.h2
 										className="text-3xl md:text-4xl lg:text-5xl font-light text-blackbrown font-cal-sans"
-										initial={{
-											opacity: 0,
-											y: 20,
-										}}
+										initial={
+											false
+										}
 										animate={{
 											opacity: 1,
 											y: 0,
 										}}
 										transition={{
-											duration: 0.5,
+											duration: 0.25,
 											ease: "easeOut",
 										}}
 									>

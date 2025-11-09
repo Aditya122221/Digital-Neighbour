@@ -100,38 +100,37 @@ export default function ContentMarketingSlugPage({
 
 	return (
 		<main>
-		<div className="relative">
-		<Navbar />
-		<ContentMarketingHero
-			data={
-				currentData?.hero || {
-					heading: "Strategic Content Marketing",
-					subheading: "We create compelling content that drives engagement, builds authority, and converts visitors into customers.",
-				}
-			}
-		/>
-	</div>
-	<Form data={currentData?.form} />
-	<BrandsMarquee />
-< IntroParagraph data = { introData } />
-<PainPoints data={ painData } />
-<Apart />
-< CaseStudy />
-<Process2
-		data={currentData?.services}
-		processData={currentData?.process}
-  />
-  <Content
-data={currentData?.content}
-imagePathPrefix="/seo/content"
-/>
-< KeyBenefits data = { benefitsData } />
-<Features data={ currentData?.features } />
-Marketing agency
-<Faq data={currentData?.faq} />
-	<OtherServices />
-	<Cta data={currentData?.services} />
-	<Footer />
+			<div className="relative">
+				<Navbar />
+				<ContentMarketingHero
+					data={
+						currentData?.hero || {
+							heading: "Strategic Content Marketing",
+							subheading: "We create compelling content that drives engagement, builds authority, and converts visitors into customers.",
+						}
+					}
+				/>
+			</div>
+			<Form data={currentData?.form} />
+			<BrandsMarquee />
+			<IntroParagraph data={introData} />
+			<PainPoints data={painData} />
+			<Apart />
+			<CaseStudy />
+			<Process2
+				data={currentData?.services}
+				processData={currentData?.process}
+			/>
+			<Content
+				data={currentData?.content}
+				imagePathPrefix="/seo/content"
+			/>
+			<KeyBenefits data={benefitsData} />
+			<Features data={currentData?.features} />
+			<Faq data={currentData?.faq} />
+			<OtherServices />
+			<Cta data={currentData?.services} />
+			<Footer />
 		</main>
 	)
 }

@@ -15,6 +15,7 @@ import Faq from "@/components/commonSections/faq"
 import CaseStudy from "@/components/homepage/casestudy"
 import Blogs from "@/components/homepage/blogs"
 import Testimonials from "@/components/homepage/testimonials"
+import TestimonalTwo from "@/components/homepage/testimonalTwo"
 import BookACall from "@/components/homepage/bookacall"
 import IntroParagraph from "@/components/commonSections/introparagraph"
 import PainPoints from "@/components/commonSections/painpoints"
@@ -89,7 +90,7 @@ export default function SeoSlugPage({ params }: { params: { slug: string } }) {
 			<Faq data={currentSeoData?.faq} />
 			<OtherServices />
 			<Blogs />
-			<Testimonials />
+			<TestimonalTwo />
 			<BookACall />
 			<Footer />
 		</main>
