@@ -4,8 +4,21 @@ import { readFile } from "node:fs/promises";
 import {
   getAllowedLocationsForService,
   isLocationEnabledForService,
+  type ServiceKey,
 } from "@/config/location-service-map";
+import {
+  CONTENT_SERVICE_LABELS,
+  type ContentServiceSlug,
+} from "@/config/content-services";
+import {
+  PAID_ADS_SERVICE_LABELS,
+  type PaidAdsServiceSlug,
+} from "@/config/paid-services";
 import { SEO_SERVICE_LABELS, type SeoServiceSlug } from "@/config/seo-services";
+import {
+  SOCIAL_SERVICE_LABELS,
+  type SocialServiceSlug,
+} from "@/config/social-services";
 import {
   formatLocationPath,
   getDescendantSlugs,
@@ -13,8 +26,6 @@ import {
   listAllLocationSlugs,
   slugify,
 } from "@/data/locations";
-
-type ServiceKey = "seo";
 
 const LOCATION_DATA_ROOT = path.join(process.cwd(), "data", "locations");
 
@@ -69,7 +80,7 @@ export function ensureLocationForService(
 
 export async function getLocationPageData<T>(
   service: ServiceKey,
-  slug: SeoServiceSlug,
+  slug: string,
   location: LocationSlug,
   defaultData: T,
 ): Promise<T> {
@@ -176,8 +187,39 @@ export function getLocationTitleParts(slug: LocationSlug): string[] {
   return getLocationBreadcrumb(slug);
 }
 
-export function getServiceDisplayName(slug: SeoServiceSlug): string {
-  return SEO_SERVICE_LABELS[slug];
+export function getServiceDisplayName(
+  service: ServiceKey,
+  slug: string,
+): string {
+  if (service === "seo") {
+    return (
+      SEO_SERVICE_LABELS[slug as SeoServiceSlug] ??
+      slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
+    );
+  }
+
+  if (service === "paidAds") {
+    return (
+      PAID_ADS_SERVICE_LABELS[slug as PaidAdsServiceSlug] ??
+      slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
+    );
+  }
+
+  if (service === "social") {
+    return (
+      SOCIAL_SERVICE_LABELS[slug as SocialServiceSlug] ??
+      slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
+    );
+  }
+
+  if (service === "content") {
+    return (
+      CONTENT_SERVICE_LABELS[slug as ContentServiceSlug] ??
+      slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
+    );
+  }
+
+  return slug;
 }
 
 export function getSeoLocationMetadata(
@@ -185,7 +227,7 @@ export function getSeoLocationMetadata(
   location: LocationSlug,
 ) {
   const locationMeta = getLocationMeta(location);
-  const serviceName = getServiceDisplayName(slug);
+  const serviceName = getServiceDisplayName("seo", slug);
   const locationName = locationMeta?.name ?? location;
   const path = formatLocationPath(location);
   const region = path.length > 1 ? path[path.length - 2] : undefined;
@@ -194,6 +236,75 @@ export function getSeoLocationMetadata(
   const description = `Get expert ${serviceName.toLowerCase()} in ${locationName}${
     region ? `, ${region}` : ""
   }. Partner with Digital Neighbour to rank higher, get found faster, and grow locally.`;
+
+  return {
+    title,
+    description,
+    locationName,
+    region,
+  };
+}
+
+export function getPaidAdsLocationMetadata(
+  slug: PaidAdsServiceSlug,
+  location: LocationSlug,
+) {
+  const locationMeta = getLocationMeta(location);
+  const serviceName = getServiceDisplayName("paidAds", slug);
+  const locationName = locationMeta?.name ?? location;
+  const path = formatLocationPath(location);
+  const region = path.length > 1 ? path[path.length - 2] : undefined;
+
+  const title = `${serviceName} in ${locationName} | Digital Neighbour`;
+  const description = `Run high-performing ${serviceName.toLowerCase()} in ${locationName}${
+    region ? `, ${region}` : ""
+  }. Work with Digital Neighbour to capture demand, improve ROAS, and scale efficiently.`;
+
+  return {
+    title,
+    description,
+    locationName,
+    region,
+  };
+}
+
+export function getSocialLocationMetadata(
+  slug: SocialServiceSlug,
+  location: LocationSlug,
+) {
+  const locationMeta = getLocationMeta(location);
+  const serviceName = getServiceDisplayName("social", slug);
+  const locationName = locationMeta?.name ?? location;
+  const path = formatLocationPath(location);
+  const region = path.length > 1 ? path[path.length - 2] : undefined;
+
+  const title = `${serviceName} in ${locationName} | Digital Neighbour`;
+  const description = `${serviceName} programs tailored for ${locationName}${
+    region ? `, ${region}` : ""
+  }. Build platform-native content, grow community, and convert attention into demand with Digital Neighbour.`;
+
+  return {
+    title,
+    description,
+    locationName,
+    region,
+  };
+}
+
+export function getContentLocationMetadata(
+  slug: ContentServiceSlug,
+  location: LocationSlug,
+) {
+  const locationMeta = getLocationMeta(location);
+  const serviceName = getServiceDisplayName("content", slug);
+  const locationName = locationMeta?.name ?? location;
+  const path = formatLocationPath(location);
+  const region = path.length > 1 ? path[path.length - 2] : undefined;
+
+  const title = `${serviceName} in ${locationName} | Digital Neighbour`;
+  const description = `${serviceName} solutions tailored for ${locationName}${
+    region ? `, ${region}` : ""
+  }. Work with Digital Neighbour to plan, create, and design content that converts.`;
 
   return {
     title,
@@ -215,17 +326,34 @@ export function expandLocationsWithDescendants(slugs: string[]): string[] {
   return Array.from(result);
 }
 
-export function getAllSeoLocationParams(
-  slugs: SeoServiceSlug[],
-): Array<{ slug: SeoServiceSlug; location: string }> {
-  const combos: Array<{ slug: SeoServiceSlug; location: string }> = [];
+export function getAllServiceLocationParams<T extends string>(
+  service: ServiceKey,
+  slugs: T[],
+): Array<{ slug: T; location: string }> {
+  const combos: Array<{ slug: T; location: string }> = [];
 
   slugs.forEach((serviceSlug) => {
-    const locations = getAllowedLocationsForService("seo", serviceSlug);
+    const locations = getAllowedLocationsForService(service, serviceSlug);
     locations.forEach((location) => {
       combos.push({ slug: serviceSlug, location });
     });
   });
 
   return combos;
+}
+
+export function getAllSeoLocationParams(slugs: SeoServiceSlug[]) {
+  return getAllServiceLocationParams("seo", slugs);
+}
+
+export function getAllPaidAdsLocationParams(slugs: PaidAdsServiceSlug[]) {
+  return getAllServiceLocationParams("paidAds", slugs);
+}
+
+export function getAllSocialLocationParams(slugs: SocialServiceSlug[]) {
+  return getAllServiceLocationParams("social", slugs);
+}
+
+export function getAllContentLocationParams(slugs: ContentServiceSlug[]) {
+  return getAllServiceLocationParams("content", slugs);
 }

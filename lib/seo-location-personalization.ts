@@ -19,8 +19,18 @@ export function personalizeSeoData(
     location,
     ["heading"],
   );
+  result.introparagraph = personalizeTextFields(
+    result.introparagraph,
+    location,
+    ["heading"],
+  );
   if (Array.isArray(result.introParagraph?.paragraphs)) {
     result.introParagraph.paragraphs = result.introParagraph.paragraphs.map(
+      (paragraph: string) => injectLocation(paragraph, location),
+    );
+  }
+  if (Array.isArray(result.introparagraph?.paragraphs)) {
+    result.introparagraph.paragraphs = result.introparagraph.paragraphs.map(
       (paragraph: string) => injectLocation(paragraph, location),
     );
   }
@@ -28,8 +38,18 @@ export function personalizeSeoData(
     "heading",
     "subheading",
   ]);
+  result.painpoints = personalizeCollection(result.painpoints, location, [
+    "heading",
+    "subheading",
+  ]);
   if (Array.isArray(result.painPoints?.painPoints)) {
     result.painPoints.painPoints = result.painPoints.painPoints.map(
+      (item: any) =>
+        personalizeTextFields(item, location, ["problem", "solution"]),
+    );
+  }
+  if (Array.isArray(result.painpoints?.painPoints)) {
+    result.painpoints.painPoints = result.painpoints.painPoints.map(
       (item: any) =>
         personalizeTextFields(item, location, ["problem", "solution"]),
     );
@@ -49,12 +69,25 @@ export function personalizeSeoData(
     "text2",
     "text3",
   ]);
+  result.strategic = personalizeCollection(result.strategic, location, [
+    "heading",
+    "subheading",
+  ]);
   result.keyBenefits = personalizeCollection(result.keyBenefits, location, [
+    "heading",
+    "subheading",
+  ]);
+  result.keybenefits = personalizeCollection(result.keybenefits, location, [
     "heading",
     "subheading",
   ]);
   if (Array.isArray(result.keyBenefits?.benefits)) {
     result.keyBenefits.benefits = result.keyBenefits.benefits.map((item: any) =>
+      personalizeTextFields(item, location, ["title", "description"]),
+    );
+  }
+  if (Array.isArray(result.keybenefits?.benefits)) {
+    result.keybenefits.benefits = result.keybenefits.benefits.map((item: any) =>
       personalizeTextFields(item, location, ["title", "description"]),
     );
   }
@@ -69,6 +102,11 @@ export function personalizeSeoData(
   if (Array.isArray(result.faq?.items)) {
     result.faq.items = result.faq.items.map((item: any) =>
       personalizeTextFields(item, location, ["question", "answer"]),
+    );
+  }
+  if (Array.isArray(result.faq?.faqs)) {
+    result.faq.faqs = result.faq.faqs.map((item: any) =>
+      personalizeTextFields(item, location, ["q", "a"]),
     );
   }
 
