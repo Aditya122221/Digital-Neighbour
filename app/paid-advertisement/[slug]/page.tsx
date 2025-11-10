@@ -1,5 +1,11 @@
 import { notFound, redirect } from "next/navigation";
-import { normalizeLocationSlug } from "@/lib/location-data";
+import {
+  ensureLocationForService,
+  getLocationDisplayName,
+  getLocationPageData,
+  normalizeLocationSlug,
+} from "@/lib/location-data";
+import { personalizeSeoData } from "@/lib/seo-location-personalization";
 import paidAdsData from "@/data/paid-ads.json";
 import PaidAdsHero from "@/components/paid-ads/hero";
 import Strategic from "@/components/paid-ads/strategic";
@@ -41,16 +47,44 @@ const allowedSlugs = [
   "pinterest-ads",
 ];
 
-export default function PaidAdsSlugPage({
+const DEFAULT_PAID_SLUG = "google-ads" as const;
+
+export default async function PaidAdsSlugPage({
   params,
 }: {
   params: { slug: string };
 }) {
+  if (params.slug === "paid-advertisement") {
+    redirect("/paid-advertisement");
+  }
+
+  const locationSlug = normalizeLocationSlug(params.slug);
+
   if (!allowedSlugs.includes(params.slug)) {
-    const locationSlug = normalizeLocationSlug(params.slug);
     if (locationSlug) {
-      redirect(`/paid-advertisement/google-ads/${locationSlug}`);
+      const ensuredLocation = ensureLocationForService(
+        "paidAds",
+        DEFAULT_PAID_SLUG,
+        locationSlug,
+      );
+      if (!ensuredLocation) {
+        notFound();
+      }
+
+      const baseData = paidAdsData[DEFAULT_PAID_SLUG] as any;
+      const localizedBase = await getLocationPageData(
+        "paidAds",
+        DEFAULT_PAID_SLUG,
+        ensuredLocation,
+        baseData,
+      );
+      const locationName =
+        getLocationDisplayName(ensuredLocation) ?? ensuredLocation;
+      const personalizedData = personalizeSeoData(localizedBase, locationName);
+
+      return renderPaidAdsPage(personalizedData);
     }
+
     notFound();
   }
 
@@ -58,6 +92,10 @@ export default function PaidAdsSlugPage({
     params.slug as keyof typeof paidAdsData
   ] as any;
 
+  return renderPaidAdsPage(currentData);
+}
+
+function renderPaidAdsPage(currentData: any) {
   return (
     <main>
       <div className="relative">

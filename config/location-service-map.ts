@@ -5,18 +5,20 @@ import {
   listAllLocationSlugs,
 } from "@/data/locations";
 
+import type { AppServiceSlug } from "./app-services";
 import type { ContentServiceSlug } from "./content-services";
 import type { PaidAdsServiceSlug } from "./paid-services";
 import type { SeoServiceSlug } from "./seo-services";
 import type { SocialServiceSlug } from "./social-services";
 
-export type ServiceKey = "seo" | "paidAds" | "social" | "content";
+export type ServiceKey = "seo" | "paidAds" | "social" | "content" | "app";
 
 type ServiceLocationRules = {
   seo: Partial<Record<SeoServiceSlug, string[]>>;
   paidAds: Partial<Record<PaidAdsServiceSlug, string[]>>;
   social: Partial<Record<SocialServiceSlug, string[]>>;
   content: Partial<Record<ContentServiceSlug, string[]>>;
+  app: Partial<Record<AppServiceSlug, string[]>>;
 };
 
 const SERVICE_LOCATION_RULES: ServiceLocationRules = {
@@ -40,6 +42,11 @@ const SERVICE_LOCATION_RULES: ServiceLocationRules = {
     "content-marketing": ["north-island", "south-island"],
     copywriting: ["north-island", "south-island"],
     "graphic-designing": ["north-island", "south-island"],
+  },
+  app: {
+    "app-development": ["north-island", "south-island"],
+    "ios-app-development": ["north-island", "south-island"],
+    "software-development": ["north-island", "south-island"],
   },
 };
 

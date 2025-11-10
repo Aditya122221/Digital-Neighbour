@@ -6,6 +6,7 @@ import {
   isLocationEnabledForService,
   type ServiceKey,
 } from "@/config/location-service-map";
+import { APP_SERVICE_LABELS, type AppServiceSlug } from "@/config/app-services";
 import {
   CONTENT_SERVICE_LABELS,
   type ContentServiceSlug,
@@ -219,6 +220,13 @@ export function getServiceDisplayName(
     );
   }
 
+  if (service === "app") {
+    return (
+      APP_SERVICE_LABELS[slug as AppServiceSlug] ??
+      slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
+    );
+  }
+
   return slug;
 }
 
@@ -314,6 +322,29 @@ export function getContentLocationMetadata(
   };
 }
 
+export function getAppLocationMetadata(
+  slug: AppServiceSlug,
+  location: LocationSlug,
+) {
+  const locationMeta = getLocationMeta(location);
+  const serviceName = getServiceDisplayName("app", slug);
+  const locationName = locationMeta?.name ?? location;
+  const path = formatLocationPath(location);
+  const region = path.length > 1 ? path[path.length - 2] : undefined;
+
+  const title = `${serviceName} in ${locationName} | Digital Neighbour`;
+  const description = `${serviceName} experts in ${locationName}${
+    region ? `, ${region}` : ""
+  }. Partner with Digital Neighbour to design, build, and scale custom applications tailored to your market.`;
+
+  return {
+    title,
+    description,
+    locationName,
+    region,
+  };
+}
+
 export function expandLocationsWithDescendants(slugs: string[]): string[] {
   const result = new Set<string>();
 
@@ -356,4 +387,8 @@ export function getAllSocialLocationParams(slugs: SocialServiceSlug[]) {
 
 export function getAllContentLocationParams(slugs: ContentServiceSlug[]) {
   return getAllServiceLocationParams("content", slugs);
+}
+
+export function getAllAppLocationParams(slugs: AppServiceSlug[]) {
+  return getAllServiceLocationParams("app", slugs);
 }

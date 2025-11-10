@@ -1,5 +1,11 @@
 import { notFound, redirect } from "next/navigation";
-import { normalizeLocationSlug } from "@/lib/location-data";
+import {
+  ensureLocationForService,
+  getLocationDisplayName,
+  getLocationPageData,
+  normalizeLocationSlug,
+} from "@/lib/location-data";
+import { personalizeSeoData } from "@/lib/seo-location-personalization";
 import contentMarketingData from "@/data/content-marketing.json";
 import ContentMarketingHero from "@/components/content-marketing/hero";
 import IntroParagraph from "@/components/commonSections/introparagraph";
@@ -44,7 +50,9 @@ const allowedSlugs = [
   "branding",
 ];
 
-export default function ContentMarketingSlugPage({
+const DEFAULT_CONTENT_SLUG = "content-marketing" as const;
+
+export default async function ContentMarketingSlugPage({
   params,
 }: {
   params: { slug: string };
@@ -57,8 +65,29 @@ export default function ContentMarketingSlugPage({
 
   if (!allowedSlugs.includes(params.slug)) {
     if (locationSlug) {
-      redirect(`/content-marketing/content-marketing/${locationSlug}`);
+      const ensuredLocation = ensureLocationForService(
+        "content",
+        DEFAULT_CONTENT_SLUG,
+        locationSlug,
+      );
+      if (!ensuredLocation) {
+        notFound();
+      }
+
+      const baseData = contentMarketingData[DEFAULT_CONTENT_SLUG] as any;
+      const localizedBase = await getLocationPageData(
+        "content",
+        DEFAULT_CONTENT_SLUG,
+        ensuredLocation,
+        baseData,
+      );
+      const locationName =
+        getLocationDisplayName(ensuredLocation) ?? ensuredLocation;
+      const personalizedData = personalizeSeoData(localizedBase, locationName);
+
+      return renderContentPage(personalizedData);
     }
+
     notFound();
   }
 
@@ -66,28 +95,32 @@ export default function ContentMarketingSlugPage({
     params.slug as keyof typeof contentMarketingData
   ] as any;
 
-  const introData = currentData?.introParagraph
+  return renderContentPage(currentData);
+}
+
+function renderContentPage(data: any) {
+  const introData = data?.introParagraph
     ? {
-        heading: currentData.introParagraph.heading,
-        problemStatement: currentData.introParagraph?.paragraphs?.[0],
-        valueProposition: currentData.introParagraph?.paragraphs?.[1],
+        heading: data.introParagraph.heading,
+        problemStatement: data.introParagraph?.paragraphs?.[0],
+        valueProposition: data.introParagraph?.paragraphs?.[1],
       }
     : undefined;
-  const painData = currentData?.painPoints
+  const painData = data?.painPoints
     ? {
-        heading: currentData.painPoints.heading,
-        subheading: currentData.painPoints.subheading,
-        painPoints: (currentData.painPoints.items || []).map((p: any) => ({
+        heading: data.painPoints.heading,
+        subheading: data.painPoints.subheading,
+        painPoints: (data.painPoints.items || []).map((p: any) => ({
           problem: p.title,
           solution: p.description,
         })),
       }
     : undefined;
-  const benefitsData = currentData?.keyBenefits
+  const benefitsData = data?.keyBenefits
     ? {
-        heading: currentData.keyBenefits.heading,
-        subheading: currentData.keyBenefits.subheading,
-        benefits: (currentData.keyBenefits.items || []).map((b: any) => ({
+        heading: data.keyBenefits.heading,
+        subheading: data.keyBenefits.subheading,
+        benefits: (data.keyBenefits.items || []).map((b: any) => ({
           title: b.title,
           description: b.description,
           icon: b.icon,
@@ -102,7 +135,7 @@ export default function ContentMarketingSlugPage({
         <Navbar />
         <ContentMarketingHero
           data={
-            currentData?.hero || {
+            data?.hero || {
               heading: "Strategic Content Marketing",
               subheading:
                 "We create compelling content that drives engagement, builds authority, and converts visitors into customers.",
@@ -110,22 +143,19 @@ export default function ContentMarketingSlugPage({
           }
         />
       </div>
-      <Form data={currentData?.form} />
+      <Form data={data?.form} />
       <BrandsMarquee />
       <IntroParagraph data={introData} />
       <PainPoints data={painData} />
       <Apart />
       <CaseStudy />
-      <Process2
-        data={currentData?.services}
-        processData={currentData?.process}
-      />
-      <Content data={currentData?.content} imagePathPrefix="/seo/content" />
+      <Process2 data={data?.services} processData={data?.process} />
+      <Content data={data?.content} imagePathPrefix="/seo/content" />
       <KeyBenefits data={benefitsData} />
-      <Features data={currentData?.features} />
-      <Faq data={currentData?.faq} />
+      <Features data={data?.features} />
+      <Faq data={data?.faq} />
       <OtherServices />
-      <Cta data={currentData?.services} />
+      <Cta data={data?.services} />
       <Footer />
     </main>
   );

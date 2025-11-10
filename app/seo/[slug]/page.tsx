@@ -1,5 +1,11 @@
 import { notFound, redirect } from "next/navigation";
-import { normalizeLocationSlug } from "@/lib/location-data";
+import {
+  ensureLocationForService,
+  getLocationDisplayName,
+  getLocationPageData,
+  normalizeLocationSlug,
+} from "@/lib/location-data";
+import { personalizeSeoData } from "@/lib/seo-location-personalization";
 import seoData from "@/data/seo.json";
 import SeoHero from "@/components/seo/hero";
 import Content from "@/components/commonSections/content";
@@ -30,7 +36,13 @@ const slugAliases: Record<string, keyof typeof seoData> = {
   orm: "online-reputation-management",
 };
 
-export default function SeoSlugPage({ params }: { params: { slug: string } }) {
+const DEFAULT_SEO_SLUG = "search-engine-optimisation" as const;
+
+export default async function SeoSlugPage({
+  params,
+}: {
+  params: { slug: string };
+}) {
   const requestedSlug = params.slug;
 
   const resolvedKey = (
@@ -51,20 +63,45 @@ export default function SeoSlugPage({ params }: { params: { slug: string } }) {
 
   if (!resolvedKey || !seoData[resolvedKey]) {
     if (locationSlug) {
-      redirect(`/seo/search-engine-optimisation/${locationSlug}`);
+      const ensuredLocation = ensureLocationForService(
+        "seo",
+        DEFAULT_SEO_SLUG,
+        locationSlug,
+      );
+      if (!ensuredLocation) {
+        notFound();
+      }
+
+      const baseData = seoData[DEFAULT_SEO_SLUG] as any;
+      const localizedBase = await getLocationPageData(
+        "seo",
+        DEFAULT_SEO_SLUG,
+        ensuredLocation,
+        baseData,
+      );
+      const locationName =
+        getLocationDisplayName(ensuredLocation) ?? ensuredLocation;
+      const personalizedData = personalizeSeoData(localizedBase, locationName);
+
+      return renderSeoPage(personalizedData);
     }
+
     notFound();
   }
 
   const currentSeoData = seoData[resolvedKey] as any;
 
+  return renderSeoPage(currentSeoData);
+}
+
+function renderSeoPage(data: any) {
   return (
     <main>
       <div className="relative">
         <Navbar />
         <SeoHero
           data={
-            currentSeoData?.hero || {
+            data?.hero || {
               heading: "Award-Winning SEO Marketing Agency",
               subheading:
                 "We've helped leading and emerging brands scale their traffic and revenue organically for over a decade with our experience in seo consulting.",
@@ -72,28 +109,22 @@ export default function SeoSlugPage({ params }: { params: { slug: string } }) {
           }
         />
       </div>
-      <Form data={currentSeoData?.form} />
+      <Form data={data?.form} />
       <BrandsMarquee />
-      <IntroParagraph data={currentSeoData?.introParagraph} />
-      <PainPoints data={currentSeoData?.painPoints} />
-      <Services
-        data={currentSeoData?.services}
-        serviceCards={currentSeoData?.serviceCards}
-      />
-      <Content data={currentSeoData?.content} imagePathPrefix="/seo/content" />
-      <Cta data={currentSeoData?.services} />
+      <IntroParagraph data={data?.introParagraph} />
+      <PainPoints data={data?.painPoints} />
+      <Services data={data?.services} serviceCards={data?.serviceCards} />
+      <Content data={data?.content} imagePathPrefix="/seo/content" />
+      <Cta data={data?.services} />
       <Apart />
       <Process2
-        data={currentSeoData?.services}
-        processData={
-          currentSeoData?.process ||
-          seoData["search-engine-optimisation"]?.process
-        }
+        data={data?.services}
+        processData={data?.process || seoData[DEFAULT_SEO_SLUG]?.process}
       />
-      <KeyBenefits data={currentSeoData?.keyBenefits} />
-      <Features data={currentSeoData?.features} />
+      <KeyBenefits data={data?.keyBenefits} />
+      <Features data={data?.features} />
       <CaseStudy />
-      <Faq data={currentSeoData?.faq} />
+      <Faq data={data?.faq} />
       <OtherServices />
       <Blogs />
       <TestimonalTwo />
