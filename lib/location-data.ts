@@ -12,6 +12,10 @@ import {
   type ContentServiceSlug,
 } from "@/config/content-services";
 import {
+  HOSTING_SERVICE_LABELS,
+  type HostingServiceSlug,
+} from "@/config/hosting-services";
+import {
   PAID_ADS_SERVICE_LABELS,
   type PaidAdsServiceSlug,
 } from "@/config/paid-services";
@@ -20,6 +24,10 @@ import {
   SOCIAL_SERVICE_LABELS,
   type SocialServiceSlug,
 } from "@/config/social-services";
+import {
+  WEBDEV_SERVICE_LABELS,
+  type WebDevServiceSlug,
+} from "@/config/webdev-services";
 import {
   formatLocationPath,
   getDescendantSlugs,
@@ -227,6 +235,20 @@ export function getServiceDisplayName(
     );
   }
 
+  if (service === "hosting") {
+    return (
+      HOSTING_SERVICE_LABELS[slug as HostingServiceSlug] ??
+      slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
+    );
+  }
+
+  if (service === "webDev") {
+    return (
+      WEBDEV_SERVICE_LABELS[slug as WebDevServiceSlug] ??
+      slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
+    );
+  }
+
   return slug;
 }
 
@@ -345,6 +367,52 @@ export function getAppLocationMetadata(
   };
 }
 
+export function getHostingLocationMetadata(
+  slug: HostingServiceSlug,
+  location: LocationSlug,
+) {
+  const locationMeta = getLocationMeta(location);
+  const serviceName = getServiceDisplayName("hosting", slug);
+  const locationName = locationMeta?.name ?? location;
+  const path = formatLocationPath(location);
+  const region = path.length > 1 ? path[path.length - 2] : undefined;
+
+  const title = `${serviceName} in ${locationName} | Digital Neighbour`;
+  const description = `${serviceName} solutions tailored for ${locationName}${
+    region ? `, ${region}` : ""
+  }. Secure, high-performance hosting and IT security delivered by Digital Neighbour.`;
+
+  return {
+    title,
+    description,
+    locationName,
+    region,
+  };
+}
+
+export function getWebDevLocationMetadata(
+  slug: WebDevServiceSlug,
+  location: LocationSlug,
+) {
+  const locationMeta = getLocationMeta(location);
+  const serviceName = getServiceDisplayName("webDev", slug);
+  const locationName = locationMeta?.name ?? location;
+  const path = formatLocationPath(location);
+  const region = path.length > 1 ? path[path.length - 2] : undefined;
+
+  const title = `${serviceName} in ${locationName} | Digital Neighbour`;
+  const description = `${serviceName} solutions tailored for ${locationName}${
+    region ? `, ${region}` : ""
+  }. Build high-performing websites with Digital Neighbour's expert team.`;
+
+  return {
+    title,
+    description,
+    locationName,
+    region,
+  };
+}
+
 export function expandLocationsWithDescendants(slugs: string[]): string[] {
   const result = new Set<string>();
 
@@ -391,4 +459,12 @@ export function getAllContentLocationParams(slugs: ContentServiceSlug[]) {
 
 export function getAllAppLocationParams(slugs: AppServiceSlug[]) {
   return getAllServiceLocationParams("app", slugs);
+}
+
+export function getAllHostingLocationParams(slugs: HostingServiceSlug[]) {
+  return getAllServiceLocationParams("hosting", slugs);
+}
+
+export function getAllWebDevLocationParams(slugs: WebDevServiceSlug[]) {
+  return getAllServiceLocationParams("webDev", slugs);
 }

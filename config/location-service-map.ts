@@ -7,11 +7,20 @@ import {
 
 import type { AppServiceSlug } from "./app-services";
 import type { ContentServiceSlug } from "./content-services";
+import type { HostingServiceSlug } from "./hosting-services";
 import type { PaidAdsServiceSlug } from "./paid-services";
 import type { SeoServiceSlug } from "./seo-services";
 import type { SocialServiceSlug } from "./social-services";
+import type { WebDevServiceSlug } from "./webdev-services";
 
-export type ServiceKey = "seo" | "paidAds" | "social" | "content" | "app";
+export type ServiceKey =
+  | "seo"
+  | "paidAds"
+  | "social"
+  | "content"
+  | "app"
+  | "hosting"
+  | "webDev";
 
 type ServiceLocationRules = {
   seo: Partial<Record<SeoServiceSlug, string[]>>;
@@ -19,6 +28,8 @@ type ServiceLocationRules = {
   social: Partial<Record<SocialServiceSlug, string[]>>;
   content: Partial<Record<ContentServiceSlug, string[]>>;
   app: Partial<Record<AppServiceSlug, string[]>>;
+  hosting: Partial<Record<HostingServiceSlug, string[]>>;
+  webDev: Partial<Record<WebDevServiceSlug, string[]>>;
 };
 
 const SERVICE_LOCATION_RULES: ServiceLocationRules = {
@@ -47,6 +58,14 @@ const SERVICE_LOCATION_RULES: ServiceLocationRules = {
     "app-development": ["north-island", "south-island"],
     "ios-app-development": ["north-island", "south-island"],
     "software-development": ["north-island", "south-island"],
+  },
+  hosting: {
+    "hosting-it-security": ["north-island", "south-island"],
+    "web-hosting": ["north-island", "south-island"],
+    "wordpress-hosting": ["north-island", "south-island"],
+  },
+  webDev: {
+    "web-development": ["north-island", "south-island"],
   },
 };
 
