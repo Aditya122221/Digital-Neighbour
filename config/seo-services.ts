@@ -1,0 +1,61 @@
+export const SEO_SERVICE_SLUGS = [
+  "search-engine-optimisation",
+  "local-seo",
+  "wordpress-seo",
+  "ecom-seo",
+  "ai-seo",
+  "shopify-seo",
+  "seo-audits",
+  "online-reputation-management",
+  "seo-migration",
+  "small-business-seo",
+  "lead-generation",
+  "link-building",
+  "international-seo",
+  "mobile-seo",
+  "voice-search-optimisation",
+  "video-seo",
+  "youtube-seo",
+  "seo-strategy",
+  "geo",
+  "sge",
+  "app-store-optimisation",
+  "guest-posting",
+  "local-citations",
+  "penalty-recovery",
+  "multilingual-seo",
+] as const;
+
+export type SeoServiceSlug = (typeof SEO_SERVICE_SLUGS)[number];
+
+export const SEO_SERVICE_LABELS: Record<SeoServiceSlug, string> = {
+  "search-engine-optimisation": "SEO Services",
+  "local-seo": "Local SEO Services",
+  "wordpress-seo": "WordPress SEO Services",
+  "ecom-seo": "Ecommerce SEO Services",
+  "ai-seo": "AI SEO Services",
+  "shopify-seo": "Shopify SEO Services",
+  "seo-audits": "SEO Audit Services",
+  "online-reputation-management": "Online Reputation Management",
+  "seo-migration": "SEO Migration Services",
+  "small-business-seo": "Small Business SEO Services",
+  "lead-generation": "Lead Generation SEO",
+  "link-building": "Link Building Services",
+  "international-seo": "International SEO Services",
+  "mobile-seo": "Mobile SEO Services",
+  "voice-search-optimisation": "Voice Search Optimisation",
+  "video-seo": "Video SEO Services",
+  "youtube-seo": "YouTube SEO Services",
+  "seo-strategy": "SEO Strategy Consulting",
+  geo: "Generative Engine Optimisation",
+  sge: "Search Generative Experience Optimisation",
+  "app-store-optimisation": "App Store Optimisation",
+  "guest-posting": "Guest Posting Services",
+  "local-citations": "Local Citation Services",
+  "penalty-recovery": "SEO Penalty Recovery",
+  "multilingual-seo": "Multilingual SEO Services",
+};
+
+export function isSeoServiceSlug(slug: string): slug is SeoServiceSlug {
+  return SEO_SERVICE_SLUGS.includes(slug as SeoServiceSlug);
+}
