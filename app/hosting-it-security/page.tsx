@@ -52,7 +52,10 @@ export default function HostingItSecurityPage() {
 			/>
 			<Apart />
 			<CaseStudy />
-			<HostingProcess />
+			<Process2
+        data={currentData?.services}
+        processData={currentData?.process}
+      />
 			<KeyBenefits data={currentData?.keyBenefits} />
 			<Features data={currentData?.features} />
 			<Faq data={currentData?.faq} />

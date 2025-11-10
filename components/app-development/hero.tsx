@@ -17,27 +17,27 @@ export default function AppDevHero({ data }: AppDevHeroProps) {
 		() => [
 			{
 				id: "slide-1",
-				image: "/app-development/HeroImageOne.png",
+				image: "/app-development/HeroImageOne.webp",
 				alt: "Account information dashboard",
 			},
 			{
 				id: "slide-2",
-				image: "/app-development/HeroImageTwo.png",
+				image: "/app-development/HeroImageTwo.webp",
 				alt: "Loan details dashboard",
 			},
 			{
 				id: "slide-3",
-				image: "/app-development/HeroImageThree.png",
+				image: "/app-development/HeroImageThree.webp",
 				alt: "Construction services dashboard",
 			},
 			{
 				id: "slide-4",
-				image: "/app-development/HeroImageFour.png",
+				image: "/app-development/HeroImageFour.webp",
 				alt: "Local key metrics dashboard",
 			},
 			{
 				id: "slide-5",
-				image: "/app-development/HeroImageFive.png",
+				image: "/app-development/HeroImageFive.webp",
 				alt: "Local link analysis dashboard",
 			},
 		],

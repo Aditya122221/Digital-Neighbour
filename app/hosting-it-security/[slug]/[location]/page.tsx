@@ -203,7 +203,10 @@ export default async function HostingItSecurityLocationPage({
       />
       <Apart />
       <CaseStudy />
-      <HostingProcess />
+      <Process2
+        data={personalizedData?.services}
+        processData={personalizedData?.process}
+      />
       <KeyBenefits
         data={personalizedData?.keyBenefits || personalizedData?.keybenefits}
       />
