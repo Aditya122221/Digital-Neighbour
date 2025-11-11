@@ -84,7 +84,7 @@ export default function SocialMediaHero({ data }: SocialMediaHeroProps) {
                 <video
                   ref={videoRef}
                   className="h-full w-full object-cover pointer-events-none rounded-4xl"
-                  src="/socialMedia/heroVideo.mp4"
+                  src="/socialMedia/heroVideo.webm"
                   muted
                   playsInline
                   loop
