@@ -1,9 +1,9 @@
 import type { Metadata } from "next"
 import { buildMetadata } from "@/lib/site-metadata"
 import industriesData from "@/data/industries.json"
-import IndustriesHero from "@/components/industries/hero"
+import IndustriesHero from "@/components/industries/mainHero"
+
 import Content from "@/components/commonSections/content"
-import DataAnalyticsServices from "@/components/data-analytics/services"
 import Form from "@/components/commonSections/form"
 import Navbar from "@/components/core/navbar"
 import Footer from "@/components/core/footer"

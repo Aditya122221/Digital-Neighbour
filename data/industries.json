@@ -6,32 +6,32 @@
       "industries": [
         {
           "name": "Electrical",
-          "slug": "electrical",
+          "slug": "electrical-marketing-agency",
           "image": "/industry/electrical.webp"
         },
         {
           "name": "HVAC",
-          "slug": "hvac",
+          "slug": "hvac-marketing-agency",
           "image": "/industry/hvac.webp"
         },
         {
           "name": "Pest Control",
-          "slug": "pest-control",
+          "slug": "pest-control-marketing-agency",
           "image": "/industry/pestcontrol.webp"
         },
         {
           "name": "Plumbing",
-          "slug": "plumbing",
+          "slug": "plumbing-marketing-agency",
           "image": "/industry/plumber.webp"
         },
         {
           "name": "Landscaping",
-          "slug": "landscaping",
+          "slug": "landscaping-marketing-agency",
           "image": "/industry/landscaping.webp"
         },
         {
           "name": "Roofing",
-          "slug": "roofing",
+          "slug": "roofing-marketing-agency",
           "image": "/industry/roofing.webp"
         }
       ]
