@@ -1,4 +1,6 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { buildMetadata, humanizeSlug } from "@/lib/site-metadata";
 import dataAnalyticsData from "@/data/data-analytics.json";
 import DataAnalyticsHero from "@/components/data-analytics/hero";
 import Content from "@/components/commonSections/content";
@@ -27,6 +29,41 @@ const allowedSlugs = [
   "google-analytics",
   "google-tag-manager",
 ];
+
+export function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Metadata {
+  const { slug } = params;
+
+  if (!allowedSlugs.includes(slug)) {
+    return {
+      title: "Page Not Found",
+    };
+  }
+
+  const currentData = dataAnalyticsData[
+    slug as keyof typeof dataAnalyticsData
+  ] as any;
+  const heading =
+    currentData?.hero?.heading ?? `${humanizeSlug(slug)} Services`;
+  const description =
+    currentData?.hero?.subheading ??
+    currentData?.introParagraph?.heading ??
+    `Unlock insights with Digital Neighbour's ${humanizeSlug(
+      slug
+    ).toLowerCase()} expertise.`;
+
+  const path =
+    slug === "data-analytics" ? "/data-analytics" : `/data-analytics/${slug}`;
+
+  return buildMetadata({
+    title: heading,
+    description,
+    path,
+  });
+}
 
 export default function DataAnalyticsSlugPage({
   params,

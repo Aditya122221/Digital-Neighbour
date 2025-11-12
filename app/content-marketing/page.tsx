@@ -1,3 +1,5 @@
+import type { Metadata } from "next"
+import { buildMetadata } from "@/lib/site-metadata"
 import contentMarketingData from "@/data/content-marketing.json"
 import ContentMarketingHero from "@/components/content-marketing/hero"
 import IntroParagraph from "@/components/commonSections/introparagraph"
@@ -17,8 +19,21 @@ import OtherServices from "@/components/commonSections/otherservices"
 import Faq from "@/components/commonSections/faq"
 import CaseStudy from "@/components/homepage/casestudy"
 
+const contentOverview = contentMarketingData["content-marketing"] as any
+const contentHeading =
+	contentOverview?.hero?.heading ?? "Content Marketing Services"
+const contentDescription =
+	contentOverview?.hero?.subheading ??
+	"Plan, create, and distribute high-performing content that builds authority and converts with Digital Neighbour’s content marketing team."
+
+export const metadata: Metadata = buildMetadata({
+	title: contentHeading,
+	description: contentDescription,
+	path: "/content-marketing",
+})
+
 export default function ContentMarketingPage() {
-	const currentData = contentMarketingData["content-marketing"] as any
+	const currentData = contentOverview as any
 
 	const introData = currentData?.introParagraph
 		? {

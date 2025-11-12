@@ -1,3 +1,5 @@
+import type { Metadata } from "next"
+import { buildMetadata } from "@/lib/site-metadata"
 import professionalsData from "@/data/professionals-marketing.json"
 import IndustriesHero from "@/components/industries/hero"
 import Content from "@/components/commonSections/content"
@@ -18,8 +20,22 @@ import Apart from "@/components/homepage/apart"
 import CreativeShowcase from "@/components/industries/creative-showcase"
 import HostingServices from "@/components/hosting-it-security/services"
 
+const professionalsOverview = (professionalsData as any)["professionals"]
+const professionalsHeading =
+	professionalsOverview?.hero?.heading ??
+	"Marketing Agency for Professionals"
+const professionalsDescription =
+	professionalsOverview?.hero?.subheading ??
+	"Drive demand, retention, and reputation for professional services brands with Digital Neighbour’s specialised marketing squads."
+
+export const metadata: Metadata = buildMetadata({
+	title: professionalsHeading,
+	description: professionalsDescription,
+	path: "/professionals-marketing-agency",
+})
+
 export default function ProfessionalsMarketingPage() {
-	const currentData = (professionalsData as any)["professionals"]
+	const currentData = professionalsOverview
 	const introData = currentData?.introParagraph
 		? {
 				heading: currentData.introParagraph.heading,

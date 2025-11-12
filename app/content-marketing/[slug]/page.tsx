@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
 import {
   ensureLocationForService,
@@ -6,6 +7,7 @@ import {
   normalizeLocationSlug,
 } from "@/lib/location-data";
 import { personalizeSeoData } from "@/lib/seo-location-personalization";
+import { buildMetadata, humanizeSlug } from "@/lib/site-metadata";
 import contentMarketingData from "@/data/content-marketing.json";
 import ContentMarketingHero from "@/components/content-marketing/hero";
 import IntroParagraph from "@/components/commonSections/introparagraph";
@@ -51,6 +53,94 @@ const allowedSlugs = [
 ];
 
 const DEFAULT_CONTENT_SLUG = "content-marketing" as const;
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
+  const { slug } = params;
+
+  const baseData = contentMarketingData[DEFAULT_CONTENT_SLUG] as any;
+  const baseHeading =
+    baseData?.hero?.heading ?? "Content Marketing Services";
+  const baseDescription =
+    baseData?.hero?.subheading ??
+    "Create, launch, and scale content programmes that build authority and convert with Digital Neighbour.";
+
+  if (slug === DEFAULT_CONTENT_SLUG) {
+    return buildMetadata({
+      title: baseHeading,
+      description: baseDescription,
+      path: "/content-marketing",
+    });
+  }
+
+  const locationSlug = normalizeLocationSlug(slug);
+
+  if (!allowedSlugs.includes(slug)) {
+    if (locationSlug) {
+      const ensuredLocation = ensureLocationForService(
+        "content",
+        DEFAULT_CONTENT_SLUG,
+        locationSlug,
+      );
+      if (!ensuredLocation) {
+        return {
+          title: "Page Not Found",
+        };
+      }
+
+      const localizedBase = await getLocationPageData(
+        "content",
+        DEFAULT_CONTENT_SLUG,
+        ensuredLocation,
+        baseData,
+      );
+      const locationName =
+        getLocationDisplayName(ensuredLocation) ??
+        humanizeSlug(ensuredLocation);
+      const personalizedData = personalizeSeoData(
+        localizedBase,
+        locationName,
+      );
+
+      const heading =
+        personalizedData?.hero?.heading ??
+        `Content Marketing in ${locationName}`;
+      const description =
+        personalizedData?.hero?.subheading ??
+        `Plan and produce content marketing campaigns tailored for ${locationName} with Digital Neighbour.`;
+
+      return buildMetadata({
+        title: heading,
+        description,
+        path: `/content-marketing/${slug}`,
+      });
+    }
+
+    return {
+      title: "Page Not Found",
+    };
+  }
+
+  const currentData = contentMarketingData[
+    slug as keyof typeof contentMarketingData
+  ] as any;
+  const heading =
+    currentData?.hero?.heading ??
+    `${humanizeSlug(slug)} Services`;
+  const description =
+    currentData?.hero?.subheading ??
+    currentData?.introParagraph?.heading ??
+    `Discover ${humanizeSlug(slug)} solutions from Digital Neighbour.`;
+
+  return buildMetadata({
+    title: heading,
+    description,
+    path: `/content-marketing/${slug}`,
+  });
+}
 
 export default async function ContentMarketingSlugPage({
   params,

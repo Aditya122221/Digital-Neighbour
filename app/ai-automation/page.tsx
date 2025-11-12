@@ -1,3 +1,5 @@
+import type { Metadata } from "next"
+import { buildMetadata } from "@/lib/site-metadata"
 import aiAutomationData from "@/data/ai-automation.json"
 import AiAutomationHero from "@/components/ai-automation/hero"
 import Content from "@/components/commonSections/content"
@@ -19,8 +21,21 @@ import KeyBenefits from "@/components/commonSections/keybenefits"
 import Features from "@/components/commonSections/features"
 import Apart from "@/components/homepage/apart"
 
+const aiAutomationOverview = aiAutomationData["ai-automation"] as any
+const aiAutomationHeading =
+	aiAutomationOverview?.hero?.heading ?? "AI & Automation Services"
+const aiAutomationDescription =
+	aiAutomationOverview?.hero?.subheading ??
+	"Deploy intelligent automation, machine learning, and AI assistants that streamline operations, unlock insights, and drive innovation."
+
+export const metadata: Metadata = buildMetadata({
+	title: aiAutomationHeading,
+	description: aiAutomationDescription,
+	path: "/ai-automation",
+})
+
 export default function AiAutomationPage() {
-	const currentData = aiAutomationData["ai-automation"] as any
+	const currentData = aiAutomationOverview as any
 
 	return (
 		<main>

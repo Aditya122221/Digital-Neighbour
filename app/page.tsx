@@ -1,3 +1,5 @@
+import type { Metadata } from "next"
+import { buildMetadata } from "@/lib/site-metadata"
 // import Hero from "@/components/homepage/hero"
 // import Banner from "@/components/homepage/banner"
 import BrandsMarquee from "@/components/homepage/brandsmarquee"
@@ -20,28 +22,36 @@ import Form from "@/components/commonSections/form"
 import HeroSix from "@/components/homepage/herosix"
 //mport Hero5 from "@/components/homepage/hero4"
 
+export const metadata: Metadata = buildMetadata({
+	title: "Growth Marketing & Digital Experience Agency",
+	description:
+		"Digital Neighbour blends strategy, creativity, and technology to deliver end-to-end marketing, product, and growth programs that scale ambitious brands.",
+	path: "/",
+})
+
 export default function HomePage() {
-  return (
-    <main>
-      <div className="relative">
-        <Navbar />
-        < HeroSix />
-    {/* <Hero5 /> */}
-      </div>
-      {/* <Banner /> */}
-  <BrandsMarquee />
-      <BrandInfo />
-      {/* <RevealCursor /> */}
-  <Services />
-    < KeepYourStack />
-    <CaseStudy />
-  <FeatureSection />
-      < Apart />
-      <TestimonalTwo />
-      <Process2 />
-      <Blogs />
-      <BookACall />
-      <Footer />
-    </main>
-  )
+	return (
+		<main>
+			<div className="relative">
+				<Navbar />
+				<HeroSix />
+				{/* <Hero5 /> */}
+			</div>
+			{/* <Banner /> */}
+			<BrandsMarquee />
+			<BrandInfo />
+			{/* <RevealCursor /> */}
+			<Services />
+			<KeepYourStack />
+			<CaseStudy />
+			<FeatureSection />
+			<Apart />
+			<Testimonials />
+			<TestimonalTwo />
+			<Process2 />
+			<Blogs />
+			<BookACall />
+			<Footer />
+		</main>
+	)
 }

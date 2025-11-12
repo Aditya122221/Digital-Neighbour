@@ -1,3 +1,5 @@
+import type { Metadata } from "next"
+import { buildMetadata } from "@/lib/site-metadata"
 import industriesData from "@/data/industries.json"
 import IndustriesHero from "@/components/industries/hero"
 import Content from "@/components/commonSections/content"
@@ -19,8 +21,21 @@ import Apart from "@/components/homepage/apart"
 import IndustryBrowserSection from "@/components/industries/industry-browser"
 import CreativeShowcase from "@/components/industries/creative-showcase"
 
+const industriesOverview = industriesData["industries"] as any
+const industriesHeading =
+	industriesOverview?.hero?.heading ?? "Industry Marketing Solutions"
+const industriesDescription =
+	industriesOverview?.hero?.subheading ??
+	"Tailored marketing, product, and growth programmes engineered for the sectors shaping the digital economy."
+
+export const metadata: Metadata = buildMetadata({
+	title: industriesHeading,
+	description: industriesDescription,
+	path: "/industry",
+})
+
 export default function IndustryPage() {
-	const currentData = industriesData["industries"] as any
+	const currentData = industriesOverview as any
 	const introData = currentData?.introParagraph
 		? {
 				heading: currentData.introParagraph.heading,

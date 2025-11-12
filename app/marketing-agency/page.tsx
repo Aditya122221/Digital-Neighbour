@@ -1,3 +1,5 @@
+import type { Metadata } from "next"
+import { buildMetadata } from "@/lib/site-metadata"
 import MarketingHero from "@/components/marketing/hero"
 import BrandsMarquee from "@/components/homepage/brandsmarquee"
 import Navbar from "@/components/core/navbar"
@@ -32,7 +34,19 @@ const keyBenefitsData = marketingData?.keyBenefits
 				})
 			),
 	  }
-	: undefined
+: undefined
+
+const marketingHeading =
+	marketingData?.hero?.heading ?? "Full-Service Marketing Agency"
+const marketingDescription =
+	marketingData?.hero?.subheading ??
+	"Partner with Digital Neighbour to deliver brand, demand, and digital programs that compound growth across every channel."
+
+export const metadata: Metadata = buildMetadata({
+	title: marketingHeading,
+	description: marketingDescription,
+	path: "/marketing-agency",
+})
 
 export default function MarketingAgencyPage() {
 	return (

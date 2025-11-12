@@ -1,3 +1,5 @@
+import type { Metadata } from "next"
+import { buildMetadata } from "@/lib/site-metadata"
 import appDevData from "@/data/app-development.json"
 import AppDevHero from "@/components/app-development/hero"
 import Certificates from "@/components/app-development/certificates"
@@ -18,8 +20,21 @@ import PainPoints from "@/components/commonSections/painpoints"
 import KeyBenefits from "@/components/commonSections/keybenefits"
 import Features from "@/components/commonSections/features"
 
+const appDevOverview = appDevData["app-development"] as any
+const appDevHeading =
+	appDevOverview?.hero?.heading ?? "App Development Services"
+const appDevDescription =
+	appDevOverview?.hero?.subheading ??
+	"Design, build, and scale customer-ready web and mobile applications with Digital Neighbour’s end-to-end product teams."
+
+export const metadata: Metadata = buildMetadata({
+	title: appDevHeading,
+	description: appDevDescription,
+	path: "/app-development",
+})
+
 export default function AppDevelopmentPage() {
-	const currentData = appDevData["app-development"] as any
+	const currentData = appDevOverview as any
 
 	return (
 		<main>

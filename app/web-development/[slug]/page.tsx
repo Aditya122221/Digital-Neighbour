@@ -1,4 +1,5 @@
 import React from "react";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import {
   ensureLocationForService,
@@ -8,6 +9,7 @@ import {
 } from "@/lib/location-data";
 import { personalizeSeoData } from "@/lib/seo-location-personalization";
 import webDevData from "@/data/web-development.json";
+import { buildMetadata, humanizeSlug } from "@/lib/site-metadata";
 import WebDevHero from "@/components/web-development/hero";
 import IntroParagraph from "@/components/commonSections/introparagraph";
 import PainPoints from "@/components/commonSections/painpoints";
@@ -167,6 +169,101 @@ function renderWebDevPage(data: any, slug: string) {
       <Footer />
     </main>
   );
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
+  const { slug } = params;
+  const allowed = getAllowedSlugs();
+
+  const baseData = resolveDataForSlug(DEFAULT_WEBDEV_SLUG);
+  const baseHeading =
+    baseData?.hero?.heading ?? "Web Development Services";
+  const baseDescription =
+    baseData?.hero?.subheading ??
+    "Design and ship high-performing websites, web apps, and digital platforms with Digital Neighbour.";
+
+  if (slug === DEFAULT_WEBDEV_SLUG) {
+    return buildMetadata({
+      title: baseHeading,
+      description: baseDescription,
+      path: "/web-development",
+    });
+  }
+
+  if (allowed.has(slug)) {
+    const currentData = resolveDataForSlug(slug);
+    if (!currentData) {
+      return {
+        title: "Page Not Found",
+      };
+    }
+
+    const heading =
+      currentData?.hero?.heading ?? fromKebabToTitle(slug);
+    const description =
+      currentData?.hero?.subheading ??
+      currentData?.introParagraph?.heading ??
+      `Explore ${fromKebabToTitle(
+        slug
+      )} solutions created by Digital Neighbour.`;
+
+    return buildMetadata({
+      title: heading,
+      description,
+      path: `/web-development/${slug}`,
+    });
+  }
+
+  const locationSlug = normalizeLocationSlug(slug);
+
+  if (locationSlug) {
+    const ensuredLocation = ensureLocationForService(
+      "webDev",
+      DEFAULT_WEBDEV_SLUG,
+      locationSlug,
+    );
+
+    if (!ensuredLocation || !baseData) {
+      return {
+        title: "Page Not Found",
+      };
+    }
+
+    const localizedBase = await getLocationPageData(
+      "webDev",
+      DEFAULT_WEBDEV_SLUG,
+      ensuredLocation,
+      baseData,
+    );
+    const locationName =
+      getLocationDisplayName(ensuredLocation) ??
+      humanizeSlug(ensuredLocation);
+    const personalizedData = personalizeSeoData(
+      localizedBase,
+      locationName,
+    );
+
+    const heading =
+      personalizedData?.hero?.heading ??
+      `Web Development in ${locationName}`;
+    const description =
+      personalizedData?.hero?.subheading ??
+      `Build and launch digital experiences in ${locationName} with Digital Neighbour.`;
+
+    return buildMetadata({
+      title: heading,
+      description,
+      path: `/web-development/${slug}`,
+    });
+  }
+
+  return {
+    title: "Page Not Found",
+  };
 }
 
 export async function generateStaticParams() {

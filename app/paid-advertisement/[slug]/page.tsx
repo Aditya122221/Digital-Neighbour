@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
 import {
   ensureLocationForService,
@@ -6,6 +7,7 @@ import {
   normalizeLocationSlug,
 } from "@/lib/location-data";
 import { personalizeSeoData } from "@/lib/seo-location-personalization";
+import { buildMetadata, humanizeSlug } from "@/lib/site-metadata";
 import paidAdsData from "@/data/paid-ads.json";
 import PaidAdsHero from "@/components/paid-ads/hero";
 import Strategic from "@/components/paid-ads/strategic";
@@ -48,6 +50,95 @@ const allowedSlugs = [
 ];
 
 const DEFAULT_PAID_SLUG = "google-ads" as const;
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
+  const { slug } = params;
+
+  const baseData = paidAdsData["paid-advertisement"] as any;
+  const baseHeading =
+    baseData?.hero?.heading ?? "Paid Advertising Services";
+  const baseDescription =
+    baseData?.hero?.subheading ??
+    "Plan, launch, and optimise high-performing paid media across Google, Meta, LinkedIn, and YouTube with Digital Neighbour.";
+
+  if (slug === "paid-advertisement") {
+    return buildMetadata({
+      title: baseHeading,
+      description: baseDescription,
+      path: "/paid-advertisement",
+    });
+  }
+
+  const locationSlug = normalizeLocationSlug(slug);
+
+  if (!allowedSlugs.includes(slug)) {
+    if (locationSlug) {
+      const ensuredLocation = ensureLocationForService(
+        "paidAds",
+        DEFAULT_PAID_SLUG,
+        locationSlug,
+      );
+      if (!ensuredLocation) {
+        return {
+          title: "Page Not Found",
+        };
+      }
+
+      const basePaidData = paidAdsData[DEFAULT_PAID_SLUG] as any;
+      const localizedBase = await getLocationPageData(
+        "paidAds",
+        DEFAULT_PAID_SLUG,
+        ensuredLocation,
+        basePaidData,
+      );
+      const locationName =
+        getLocationDisplayName(ensuredLocation) ??
+        humanizeSlug(ensuredLocation);
+      const personalizedData = personalizeSeoData(
+        localizedBase,
+        locationName,
+      );
+
+      const heading =
+        personalizedData?.hero?.heading ??
+        `Paid Advertising in ${locationName}`;
+      const description =
+        personalizedData?.hero?.subheading ??
+        `Run profitable paid media campaigns in ${locationName} with Digital Neighbour.`;
+
+      return buildMetadata({
+        title: heading,
+        description,
+        path: `/paid-advertisement/${slug}`,
+      });
+    }
+
+    return {
+      title: "Page Not Found",
+    };
+  }
+
+  const currentData = paidAdsData[
+    slug as keyof typeof paidAdsData
+  ] as any;
+  const heading =
+    currentData?.hero?.heading ??
+    `${humanizeSlug(slug)} Services`;
+  const description =
+    currentData?.hero?.subheading ??
+    currentData?.introparagraph?.heading ??
+    `Discover ${humanizeSlug(slug)} programmes crafted by Digital Neighbour.`;
+
+  return buildMetadata({
+    title: heading,
+    description,
+    path: `/paid-advertisement/${slug}`,
+  });
+}
 
 export default async function PaidAdsSlugPage({
   params,

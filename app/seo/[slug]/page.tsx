@@ -1,4 +1,6 @@
+import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
+import { buildMetadata, humanizeSlug } from "@/lib/site-metadata";
 import {
   ensureLocationForService,
   getLocationDisplayName,
@@ -37,6 +39,101 @@ const slugAliases: Record<string, keyof typeof seoData> = {
 };
 
 const DEFAULT_SEO_SLUG = "search-engine-optimisation" as const;
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
+  const requestedSlug = params.slug;
+
+  const resolvedKey = (
+    Object.prototype.hasOwnProperty.call(seoData, requestedSlug)
+      ? requestedSlug
+      : slugAliases[requestedSlug]
+  ) as keyof typeof seoData | undefined;
+
+  const baseData = seoData[DEFAULT_SEO_SLUG] as any;
+  const baseHeading =
+    baseData?.hero?.heading ?? "SEO Services";
+  const baseDescription =
+    baseData?.hero?.subheading ??
+    "Scale organic traffic, visibility, and revenue with full-funnel SEO programmes built by Digital Neighbour.";
+
+  if (
+    requestedSlug === DEFAULT_SEO_SLUG ||
+    resolvedKey === DEFAULT_SEO_SLUG
+  ) {
+    return buildMetadata({
+      title: baseHeading,
+      description: baseDescription,
+      path: "/seo",
+    });
+  }
+
+  const locationSlug = normalizeLocationSlug(requestedSlug);
+
+  if (!resolvedKey || !seoData[resolvedKey]) {
+    if (locationSlug) {
+      const ensuredLocation = ensureLocationForService(
+        "seo",
+        DEFAULT_SEO_SLUG,
+        locationSlug,
+      );
+      if (!ensuredLocation) {
+        return {
+          title: "Page Not Found",
+        };
+      }
+
+      const localizedBase = await getLocationPageData(
+        "seo",
+        DEFAULT_SEO_SLUG,
+        ensuredLocation,
+        baseData,
+      );
+      const locationName =
+        getLocationDisplayName(ensuredLocation) ??
+        humanizeSlug(ensuredLocation);
+      const personalizedData = personalizeSeoData(
+        localizedBase,
+        locationName,
+      );
+
+      const heading =
+        personalizedData?.hero?.heading ??
+        `SEO Services in ${locationName}`;
+      const description =
+        personalizedData?.hero?.subheading ??
+        `Partner with Digital Neighbour for SEO programmes tailored to ${locationName}.`;
+
+      return buildMetadata({
+        title: heading,
+        description,
+        path: `/seo/${requestedSlug}`,
+      });
+    }
+
+    return {
+      title: "Page Not Found",
+    };
+  }
+
+  const currentSeoData = seoData[resolvedKey] as any;
+  const heading =
+    currentSeoData?.hero?.heading ??
+    `${humanizeSlug(resolvedKey)} Services`;
+  const description =
+    currentSeoData?.hero?.subheading ??
+    currentSeoData?.introParagraph?.heading ??
+    `Explore ${humanizeSlug(resolvedKey)} programmes delivered by Digital Neighbour.`;
+
+  return buildMetadata({
+    title: heading,
+    description,
+    path: `/seo/${requestedSlug}`,
+  });
+}
 
 export default async function SeoSlugPage({
   params,

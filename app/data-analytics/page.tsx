@@ -1,3 +1,5 @@
+import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/site-metadata";
 import dataAnalyticsData from "@/data/data-analytics.json";
 import DataAnalyticsHero from "@/components/data-analytics/hero";
 import Content from "@/components/commonSections/content";
@@ -18,8 +20,21 @@ import KeyBenefits from "@/components/commonSections/keybenefits";
 import Features from "@/components/commonSections/features";
 import Apart from "@/components/homepage/apart";
 
+const dataAnalyticsOverview = dataAnalyticsData["data-analytics"] as any;
+const dataAnalyticsHeading =
+	dataAnalyticsOverview?.hero?.heading ?? "Data & Analytics Services";
+const dataAnalyticsDescription =
+	dataAnalyticsOverview?.hero?.subheading ??
+	"Operationalise data, analytics, and business intelligence to deliver insights, automation, and growth with Digital Neighbour.";
+
+export const metadata: Metadata = buildMetadata({
+	title: dataAnalyticsHeading,
+	description: dataAnalyticsDescription,
+	path: "/data-analytics",
+});
+
 export default function DataAnalyticsPage() {
-  const currentData = dataAnalyticsData["data-analytics"] as any;
+  const currentData = dataAnalyticsOverview as any;
 
   return (
     <main>

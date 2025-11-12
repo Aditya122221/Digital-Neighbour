@@ -1,4 +1,6 @@
+import type { Metadata } from "next"
 import { notFound } from "next/navigation"
+import { buildMetadata, humanizeSlug } from "@/lib/site-metadata"
 import aiAutomationData from "@/data/ai-automation.json"
 import AiAutomationHero from "@/components/ai-automation/hero"
 import Content from "@/components/commonSections/content"
@@ -53,6 +55,41 @@ const allowedSlugs = [
 	"generative-ai",
 	"ai-transcription",
 ]
+
+export function generateMetadata({
+	params,
+}: {
+	params: { slug: string }
+}): Metadata {
+	const { slug } = params
+
+	if (!allowedSlugs.includes(slug)) {
+		return {
+			title: "Page Not Found",
+		}
+	}
+
+	const currentData = aiAutomationData[
+		slug as keyof typeof aiAutomationData
+	] as any
+	const heading =
+		currentData?.hero?.heading ?? `${humanizeSlug(slug)} Services`
+	const description =
+		currentData?.hero?.subheading ??
+		currentData?.introParagraph?.heading ??
+		`Explore ${humanizeSlug(
+			slug
+		)} programmes designed by Digital Neighbour.`
+
+	const path =
+		slug === "ai-automation" ? "/ai-automation" : `/ai-automation/${slug}`
+
+	return buildMetadata({
+		title: heading,
+		description,
+		path,
+	})
+}
 
 export default function AiAutomationSlugPage({
 	params,

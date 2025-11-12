@@ -1,3 +1,5 @@
+import type { Metadata } from "next"
+import { buildMetadata } from "@/lib/site-metadata"
 import hostingData from "@/data/hosting-it-security.json"
 import HostingHero from "@/components/hosting-it-security/hero"
 import Content from "@/components/commonSections/content"
@@ -18,8 +20,21 @@ import Features from "@/components/commonSections/features"
 import Apart from "@/components/homepage/apart"
 import HostingProcess from "@/components/hosting-it-security/hostingProcess"
 
+const hostingOverview = hostingData["hosting-it-security"] as any
+const hostingHeading =
+	hostingOverview?.hero?.heading ?? "Hosting, IT & Security Services"
+const hostingDescription =
+	hostingOverview?.hero?.subheading ??
+	"Protect, optimise, and manage your digital infrastructure with secure hosting, managed IT, and cyber security services from Digital Neighbour."
+
+export const metadata: Metadata = buildMetadata({
+	title: hostingHeading,
+	description: hostingDescription,
+	path: "/hosting-it-security",
+})
+
 export default function HostingItSecurityPage() {
-	const currentData = hostingData["hosting-it-security"] as any
+	const currentData = hostingOverview as any
 
 	return (
 		<main>

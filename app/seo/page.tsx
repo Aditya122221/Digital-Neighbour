@@ -1,3 +1,5 @@
+import type { Metadata } from "next"
+import { buildMetadata } from "@/lib/site-metadata"
 import seoData from "@/data/seo.json"
 import SeoHero from "@/components/seo/hero"
 import Form from "@/components/commonSections/form"
@@ -18,11 +20,22 @@ import CaseStudy from "@/components/homepage/casestudy"
 import Faq from "@/components/commonSections/faq"
 import OtherServices from "@/components/commonSections/otherservices"
 import Blogs from "@/components/homepage/blogs"
-import Testimonials from "@/components/homepage/testimonials"
 import TestimonalTwo from "@/components/homepage/testimonalTwo"
 import BookACall from "@/components/homepage/bookacall"
 
 const seoOverview = (seoData as any)["search-engine-optimisation"] as any
+
+const overviewHeading =
+	seoOverview?.hero?.heading ?? "SEO Services"
+const overviewDescription =
+	seoOverview?.hero?.subheading ??
+	"Grow organic visibility, traffic, and revenue with full-funnel SEO programmes built for ambitious brands."
+
+export const metadata: Metadata = buildMetadata({
+	title: overviewHeading,
+	description: overviewDescription,
+	path: "/seo",
+})
 
 export default function SeoOverviewPage() {
 	const specialisations = seoOverview?.specialisations || []

@@ -1,4 +1,6 @@
 import React from "react"
+import type { Metadata } from "next"
+import { buildMetadata } from "@/lib/site-metadata"
 import webDevData from "@/data/web-development.json"
 import WebDevHero from "@/components/web-development/hero"
 import IntroParagraph from "@/components/commonSections/introparagraph"
@@ -19,8 +21,21 @@ import OtherServices from "@/components/commonSections/otherservices"
 import Faq from "@/components/commonSections/faq"
 import CaseStudy from "@/components/homepage/casestudy"
 
+const webDevOverview = (webDevData as any)["web-development"] as any
+const webDevHeading =
+	webDevOverview?.hero?.heading ?? "Web Development Services"
+const webDevDescription =
+	webDevOverview?.hero?.subheading ??
+	"Design and ship high-performing websites, web apps, and digital platforms with Digital Neighbour’s full-stack web development team."
+
+export const metadata: Metadata = buildMetadata({
+	title: webDevHeading,
+	description: webDevDescription,
+	path: "/web-development",
+})
+
 export default function WebDevelopmentPage() {
-	const currentData = (webDevData as any)["web-development"] as any
+	const currentData = webDevOverview as any
 
 	const introData = currentData?.introParagraph
 		? {

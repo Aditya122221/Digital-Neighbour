@@ -1,3 +1,5 @@
+import type { Metadata } from "next"
+import { buildMetadata } from "@/lib/site-metadata"
 import socialData from "@/data/social-media.json"
 import SocialMediaHero from "@/components/social-media/hero"
 import IntroParagraph from "@/components/commonSections/introparagraph"
@@ -19,8 +21,22 @@ import Faq from "@/components/commonSections/faq"
 import CaseStudy from "@/components/homepage/casestudy"
 import WhyWork from "@/components/social-media/whywork"
 
+const socialOverview = (socialData as any)["social-media-marketing"] as any
+const socialHeading =
+	socialOverview?.hero?.heading ??
+	"Social Media Marketing that Drives Growth"
+const socialDescription =
+	socialOverview?.hero?.subheading ??
+	"Plan, create, and optimise social media programmes that grow community, engagement, and demand across Meta, LinkedIn, TikTok, and more."
+
+export const metadata: Metadata = buildMetadata({
+	title: socialHeading,
+	description: socialDescription,
+	path: "/social-media-marketing",
+})
+
 export default function SocialMediaMarketingPage() {
-	const currentData = (socialData as any)["social-media-marketing"] as any
+	const currentData = socialOverview as any
 	const introData = currentData?.introParagraph
 		? {
 				heading: currentData.introParagraph.heading,

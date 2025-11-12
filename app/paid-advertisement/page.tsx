@@ -1,3 +1,5 @@
+import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/site-metadata";
 import paidAdsData from "@/data/paid-ads.json";
 import PaidAdsHero from "@/components/paid-ads/hero";
 import Strategic from "@/components/paid-ads/strategic";
@@ -18,8 +20,21 @@ import PainPoints from "@/components/commonSections/painpoints";
 import KeyBenefits from "@/components/commonSections/keybenefits";
 import Features from "@/components/commonSections/features";
 
+const paidAdsOverview = paidAdsData["paid-advertisement"] as any;
+const paidAdsHeading =
+	paidAdsOverview?.hero?.heading ?? "Paid Advertising Services";
+const paidAdsDescription =
+	paidAdsOverview?.hero?.subheading ??
+	"Launch and optimise high-ROI paid media programmes across Google, Meta, LinkedIn, and YouTube with Digital Neighbour.";
+
+export const metadata: Metadata = buildMetadata({
+	title: paidAdsHeading,
+	description: paidAdsDescription,
+	path: "/paid-advertisement",
+});
+
 export default function PaidAdvertisementPage() {
-  const currentData = paidAdsData["paid-advertisement"] as any;
+  const currentData = paidAdsOverview as any;
 
   return (
     <main>

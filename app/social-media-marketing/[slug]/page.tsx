@@ -1,6 +1,8 @@
+import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
 import socialData from "@/data/social-media.json";
 import { normalizeLocationSlug } from "@/lib/location-data";
+import { buildMetadata, humanizeSlug } from "@/lib/site-metadata";
 import SocialMediaHero from "@/components/social-media/hero";
 import IntroParagraph from "@/components/commonSections/introparagraph";
 import PainPoints from "@/components/commonSections/painpoints";
@@ -45,6 +47,59 @@ const allowedSlugs = [
   "pinterest-management",
   "youtube-community-management",
 ];
+
+const socialBaseData = (socialData as any)["social-media-marketing"] as any;
+const socialBaseHeading =
+  socialBaseData?.hero?.heading ??
+  "Social Media Marketing that Drives Growth";
+const socialBaseDescription =
+  socialBaseData?.hero?.subheading ??
+  "Build community, grow engagement, and convert attention into demand with Digital Neighbour’s social media specialists.";
+
+export function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Metadata {
+  const { slug } = params;
+
+  if (!allowedSlugs.includes(slug)) {
+    const locationSlug = normalizeLocationSlug(slug);
+
+    if (locationSlug) {
+      return buildMetadata({
+        title: socialBaseHeading,
+        description: socialBaseDescription,
+        path: `/social-media-marketing/${slug}`,
+      });
+    }
+
+    return {
+      title: "Page Not Found",
+    };
+  }
+
+  const currentData = (socialData as any)[
+    slug as keyof typeof socialData
+  ] as any;
+  const heading =
+    currentData?.hero?.heading ??
+    `${humanizeSlug(slug)} Services`;
+  const description =
+    currentData?.hero?.subheading ??
+    currentData?.introParagraph?.heading ??
+    `Discover ${humanizeSlug(slug)} programmes crafted by Digital Neighbour.`;
+  const path =
+    slug === "social-media-marketing"
+      ? "/social-media-marketing"
+      : `/social-media-marketing/${slug}`;
+
+  return buildMetadata({
+    title: heading,
+    description,
+    path,
+  });
+}
 
 export default function SocialMediaMarketingSlugPage({
   params,
