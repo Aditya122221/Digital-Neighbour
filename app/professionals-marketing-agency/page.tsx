@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import { buildMetadata } from "@/lib/site-metadata"
 import professionalsData from "@/data/professionals-marketing.json"
-import IndustriesHero from "@/components/industries/hero"
+import IndustriesHero from "@/components/professionals-marketing/mainHero"
 import Content from "@/components/commonSections/content"
 import Form from "@/components/commonSections/form"
 import Navbar from "@/components/core/navbar"
@@ -122,7 +122,10 @@ export default function ProfessionalsMarketingPage() {
 					currentData?.premiumCloudServices
 				}
 			/>
-			<Content data={currentData?.content} imagePathPrefix="/seo/content" />
+			<Content
+				data={currentData?.content}
+				imagePathPrefix="/seo/content"
+			/>
 			<Apart />
 			<CaseStudy />
 			<Process2
