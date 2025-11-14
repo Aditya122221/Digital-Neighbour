@@ -1,49 +1,40 @@
 "use client"
 
-import type { LucideIcon } from "lucide-react"
 import { Lightbulb, Rocket, ShieldCheck, Users } from "lucide-react"
 
-const contentSectionData = {
-	heading: "The Impact Digital Neighbour Brings",
-	subheading: "Every engagement is engineered to compound. These are the measurable shifts clients feel within the first ninety days of partnering with our team.",
-	benefits: [
-		{
-			id: 1,
-			title: "Faster Growth Sprints",
-			description:
-				"Launch campaigns in weeks, not months. Our cross-functional pods remove handoffs so you see compounding results sooner.",
-			icon: Rocket,
-			stat: "3x quicker go-to-market",
-		},
-		{
-			id: 2,
-			title: "Conversion-First Experiences",
-			description:
-				"Every touchpoint is tested against revenue goals. From copy to UX, we optimise continuously to lift pipeline quality.",
-			icon: ShieldCheck,
-			stat: "28% lift in qualified leads",
-		},
-		{
-			id: 3,
-			title: "Insight-Driven Decisions",
-			description:
-				"Weekly dashboards translate complex data into next steps, keeping your leadership confident about every investment.",
-			icon: Lightbulb,
-			stat: "95% reporting adoption",
-		},
-		{
-			id: 4,
-			title: "Embedded Partner Support",
-			description:
-				"We work as an extension of your team with proactive stand-ups, transparent roadmaps, and on-call specialists.",
-			icon: Users,
-			stat: "12+ dedicated experts",
-		},
-	],
+const iconMap = {
+	Rocket,
+	ShieldCheck,
+	Lightbulb,
+	Users,
 }
 
-export default function ContentSection() {
-	const { heading, subheading, benefits } = contentSectionData
+type IconName = keyof typeof iconMap
+
+type ContentSectionBenefit = {
+	id: number
+	title: string
+	description: string
+	stat: string
+	icon?: string
+}
+
+type ContentSectionData = {
+	heading: string
+	subheading: string
+	benefits: ContentSectionBenefit[]
+}
+
+type ContentSectionProps = {
+	data?: ContentSectionData
+}
+
+export default function ContentSection({ data }: ContentSectionProps) {
+	if (!data) {
+		return null
+	}
+
+	const { heading, subheading, benefits = [] } = data
 
 	const highlightHeading = () => {
 		if (!heading) {
@@ -97,42 +88,51 @@ export default function ContentSection() {
 					{benefits.map(
 						({
 							id,
-							icon: Icon,
+							icon,
 							title,
 							description,
 							stat,
-						}) => (
-							<article
-								key={id}
-								className="flex h-full flex-col gap-6 rounded-[28px] bg-yellow/10 p-8"
-							>
-								<div className="flex items-center gap-4">
-									<span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-yellow text-black">
-										<Icon
-											className="h-6 w-6"
-											aria-hidden="true"
-										/>
-									</span>
-									<div>
-										<h3 className="text-xl font-semibold text-black">
-											{
-												title
-											}
-										</h3>
-										<p className="mt-1 text-sm font-medium uppercase tracking-[0.2em] text-black/70">
-											{
-												stat
-											}
-										</p>
+						}) => {
+							const iconKey = (icon ??
+								"Lightbulb") as IconName
+							const IconComponent =
+								iconMap[
+									iconKey
+								] ?? Lightbulb
+
+							return (
+								<article
+									key={id}
+									className="flex h-full flex-col gap-6 rounded-[28px] bg-yellow/10 p-8"
+								>
+									<div className="flex items-center gap-4">
+										<span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-yellow text-black">
+											<IconComponent
+												className="h-6 w-6"
+												aria-hidden="true"
+											/>
+										</span>
+										<div>
+											<h3 className="text-xl font-semibold text-black">
+												{
+													title
+												}
+											</h3>
+											<p className="mt-1 text-sm font-medium uppercase tracking-[0.2em] text-black/70">
+												{
+													stat
+												}
+											</p>
+										</div>
 									</div>
-								</div>
-								<p className="text-base leading-relaxed text-black">
-									{
-										description
-									}
-								</p>
-							</article>
-						)
+									<p className="text-base leading-relaxed text-black">
+										{
+											description
+										}
+									</p>
+								</article>
+							)
+						}
 					)}
 				</div>
 			</div>

@@ -20,6 +20,7 @@ import Process2 from "@/components/homepage/process2"
 import Form from "@/components/commonSections/form"
 import HeroSix from "@/components/homepage/herosix"
 //mport Hero5 from "@/components/homepage/hero4"
+import homeData from "@/data/home.json"
 
 export const metadata: Metadata = buildMetadata({
 	title: "Growth Marketing & Digital Experience Agency",
@@ -33,20 +34,23 @@ export default function HomePage() {
 		<main>
 			<div className="relative">
 				<Navbar />
-				<HeroSix />
+				<HeroSix data={homeData.hero} />
 				{/* <Hero5 /> */}
 			</div>
 			{/* <Banner /> */}
 			<BrandsMarquee />
-			<BrandInfo />
+			<BrandInfo data={homeData.brandInfo} />
 			{/* <RevealCursor /> */}
-			<Services />
-			<KeepYourStack />
-			<CaseStudy />
-			<FeatureSection />
-			<Apart />
+			<Services data={homeData.services} />
+			<KeepYourStack data={homeData.keepYourStack} />
+			<CaseStudy data={homeData.caseStudies} />
+			<FeatureSection data={homeData.contentSection} />
+			<Apart data={homeData.apart} />
 			<TestimonalTwo />
-			<Process2 />
+			<Process2
+				data={homeData.process?.label}
+				processData={homeData.process}
+			/>
 			<Blogs />
 			<BookACall />
 			<Footer />

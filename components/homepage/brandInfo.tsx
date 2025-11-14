@@ -2,55 +2,58 @@
 
 import { Sparkles, Target, TrendingUp, Users2 } from "lucide-react"
 
-const heroData = {
-	"main": {
-		"heading": "The Impact marketing agency brands trust to grow.",
-		"subheading": "Digital Neighbour is the embedded marketing partner for ambitious teams. We unite strategy, storytelling, and performance into one streamlined crew that ships ideas fast, measures what matters, and keeps momentum on your side."
-	},
-	"differentiators": [
-		{
-			id: 1,
-			title: "Full-Funnel Strategy",
-			description:
-				"Campaigns engineered around revenue targets—from awareness to retention—so every touchpoint pays off.",
-			icon: Target,
-		},
-		{
-			id: 2,
-			title: "Human + Data Approach",
-			description:
-				"Our strategists blend behavioural insights with live performance dashboards to steer decisions in real time.",
-			icon: Users2,
-		},
-		{
-			id: 3,
-			title: "Momentum Mindset",
-			description:
-				"Rapid testing sprints, weekly learnings, and constant optimisation keep your brand out in front.",
-			icon: TrendingUp,
-		},
-	],
-	"rightCard": {
-		"heading": "Partners, not vendors.",
-		"description": "We plug into your weekly cadences, share dashboards in plain language, and make the creative + data decisions you don't have time to juggle.",
-		"stats": [
-			{ id: "years", value: "12+", label: "Years empowering growth brands" },
-			{ id: "markets", value: "18", label: "Industries scaled globally" },
-			{ id: "roi", value: "4.7x", label: "Average paid + organic ROI" },
-		]
+const iconMap = {
+	Target,
+	Users2,
+	TrendingUp,
+}
+
+type IconName = keyof typeof iconMap
+
+type Differentiator = {
+	id: number
+	title: string
+	description: string
+	icon?: string
+}
+
+type Stat = {
+	id: string
+	value: string
+	label: string
+}
+
+type BrandInfoData = {
+	main: {
+		heading: string
+		subheading: string
+	}
+	differentiators: Differentiator[]
+	rightCard: {
+		heading: string
+		description: string
+		stats: Stat[]
 	}
 }
 
-export default function BrandInfo() {
+type BrandInfoProps = {
+	data?: BrandInfoData
+}
+
+export default function BrandInfo({ data }: BrandInfoProps) {
+	if (!data) {
+		return null
+	}
+
 	return (
 		<section className="py-20">
 			<div className="mx-auto flex max-w-6xl flex-col gap-16 px-6 lg:px-12">
 				<header className="max-w-4xl space-y-6">
 					<h2 className="text-3xl font-semibold leading-tight md:text-4xl lg:text-5xl font-cal-sans">
-						{heroData.main.heading}
+						{data.main.heading}
 					</h2>
 					<p className="text-base text-black/70 md:text-lg">
-						{heroData.main.subheading}
+						{data.main.subheading}
 					</p>
 				</header>
 
@@ -65,50 +68,52 @@ export default function BrandInfo() {
 							</span>
 							<div>
 								<h3 className="text-xl font-semibold text-black">
-									Why
-									brands
-									choose
-									us
+									Why brands choose us
 								</h3>
 								<p className="text-sm uppercase tracking-[0.25em] text-black/60">
-									We stay
-									embedded
+									We stay embedded
 								</p>
 							</div>
 						</div>
 
 						<div className="grid gap-6 md:grid-cols-2">
-							{heroData.differentiators.map(
+							{data.differentiators.map(
 								({
 									id,
 									title,
 									description,
-									icon: Icon,
-								}) => (
-									<article
-										key={
-											id
-										}
-										className="flex flex-col gap-4 rounded-2xl bg-white p-6 text-black"
-									>
-										<div className="flex items-center gap-3 text-black">
-											<Icon
-												className="h-5 w-5"
-												aria-hidden="true"
-											/>
-											<h4 className="text-lg font-semibold">
+									icon,
+								}) => {
+									const IconComponent =
+										iconMap[
+											(icon as IconName) ??
+												"Target"
+										] ?? Target
+
+									return (
+										<article
+											key={id}
+											className="flex flex-col gap-4 rounded-2xl bg-white p-6 text-black"
+										>
+											<div className="flex items-center gap-3 text-black">
+												<IconComponent
+													className="h-5 w-5"
+													aria-hidden="true"
+												/>
+												<h4 className="text-lg font-semibold">
+													{
+														title
+													}
+												</h4>
+											</div>
+											<p className="text-sm leading-relaxed text-black/70">
 												{
-													title
+													description
 												}
-											</h4>
-										</div>
-										<p className="text-sm leading-relaxed text-black/70">
-											{
-												description
-											}
-										</p>
-									</article>
-								)
+											</p>
+										</article>
+									)
+								}
 							)}
 						</div>
 					</div>
@@ -116,34 +121,24 @@ export default function BrandInfo() {
 					<aside className="flex flex-col justify-between gap-6 rounded-b-[32px] bg-black p-8 text-white lg:rounded-bl-none lg:rounded-br-[32px] lg:rounded-tl-none lg:rounded-tr-[32px]">
 						<div>
 							<h3 className="text-2xl font-semibold">
-								{heroData.rightCard.heading}
+								{data.rightCard.heading}
 							</h3>
 							<p className="mt-4 text-sm leading-relaxed text-white/70">
-								{heroData.rightCard.description}
+								{data.rightCard.description}
 							</p>
 						</div>
 						<ul className="grid gap-6">
-							{heroData.rightCard.stats.map(
-								({
-									id,
-									value,
-									label,
-								}) => (
+							{data.rightCard.stats.map(
+								({ id, value, label }) => (
 									<li
-										key={
-											id
-										}
+										key={id}
 										className="rounded-2xl bg-white p-5 text-black"
 									>
 										<p className="text-3xl font-semibold">
-											{
-												value
-											}
+											{value}
 										</p>
 										<p className="mt-2 text-sm text-black/70">
-											{
-												label
-											}
+											{label}
 										</p>
 									</li>
 								)

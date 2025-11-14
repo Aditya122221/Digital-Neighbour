@@ -454,9 +454,146 @@ async function seedService(
 	}
 }
 
+async function seedHomePage(dataDir: string) {
+	const filePath = path.join(dataDir, "home.json")
+
+	if (!fs.existsSync(filePath)) {
+		console.warn("⚠ File not found: home.json")
+		return
+	}
+
+	const homeJson = JSON.parse(fs.readFileSync(filePath, "utf-8"))
+	const transformed = transformHomeData(homeJson)
+
+	try {
+		const existing = await retryWithBackoff(async () => {
+			return await client.fetch(`*[_type == "homePage"][0]`)
+		})
+
+		if (existing) {
+			await retryWithBackoff(async () => {
+				await client
+					.patch(existing._id)
+					.set(transformed)
+					.commit()
+			})
+			console.log("✓ Updated: Homepage content")
+		} else {
+			await retryWithBackoff(async () => {
+				await client.create({
+					_type: "homePage",
+					...transformed,
+				})
+			})
+			console.log("✓ Created: Homepage content")
+		}
+	} catch (error) {
+		console.error("✗ Error seeding homepage:", error)
+		throw error
+	}
+}
+
+function transformHomeData(homeData: any) {
+	const defaultMetadataTitle = "Growth Marketing & Digital Experience Agency"
+	const defaultMetadataDescription =
+		"Digital Neighbour blends strategy, creativity, and technology to deliver end-to-end marketing, product, and growth programs that scale ambitious brands."
+
+	const addKeys = <T extends Record<string, any>>(
+		items: T[] = [],
+		keyPrefix: string
+	) =>
+		items.map((item, index) => ({
+			_key: item._key || `${keyPrefix}-${index}`,
+			...item,
+		}))
+
+	return {
+		metadata: homeData.metadata || defaultMetadataTitle,
+		description: homeData.description || defaultMetadataDescription,
+		hero: {
+			heading: homeData.hero?.heading || "",
+			subheading: homeData.hero?.subheading || "",
+			images: homeData.hero?.images || [],
+		},
+		brandInfo: {
+			main: {
+				heading: homeData.brandInfo?.main?.heading || "",
+				subheading: homeData.brandInfo?.main?.subheading || "",
+			},
+			differentiators: addKeys(
+				homeData.brandInfo?.differentiators || [],
+				"brand-diff"
+			),
+			rightCard: {
+				heading: homeData.brandInfo?.rightCard?.heading || "",
+				description: homeData.brandInfo?.rightCard?.description || "",
+				stats: addKeys(
+					homeData.brandInfo?.rightCard?.stats || [],
+					"brand-stat"
+				),
+			},
+		},
+		services: {
+			heading: homeData.services?.heading || "",
+			subheading: homeData.services?.subheading || "",
+			cards: addKeys(
+				(homeData.services?.rightCard || []).map((card: any) => ({
+					title: card.title || "",
+					video: card.video || "",
+					subheading: card.subheading || [],
+				})),
+				"service-card"
+			),
+		},
+		keepYourStack: {
+			heading: homeData.keepYourStack?.heading || "",
+			highlight: homeData.keepYourStack?.highlight || "",
+			description: homeData.keepYourStack?.description || "",
+			logos: addKeys(homeData.keepYourStack?.logos || [], "stack-logo"),
+		},
+		caseStudies: {
+			heading: homeData.caseStudies?.heading || "",
+			items: addKeys(
+				(homeData.caseStudies?.items || []).map((item: any) => ({
+					title: item.title || "",
+					textColor: item.textColor || "text-white",
+					isNew: !!item.isNew,
+					services: item.services || [],
+					bgImages: item.bgImages || [],
+					metrics: addKeys(item.metrics || [], "case-metric"),
+				})),
+				"case-item"
+			),
+		},
+		contentSection: {
+			heading: homeData.contentSection?.heading || "",
+			subheading: homeData.contentSection?.subheading || "",
+			benefits: addKeys(
+				homeData.contentSection?.benefits || [],
+				"impact-benefit"
+			),
+		},
+		apart: {
+			heading: homeData.apart?.heading || "",
+			highlightTarget: homeData.apart?.highlightTarget || "",
+			tagline: homeData.apart?.tagline || "",
+			oursTitle: homeData.apart?.oursTitle || "",
+			othersTitle: homeData.apart?.othersTitle || "",
+			ours: homeData.apart?.ours || [],
+			others: homeData.apart?.others || [],
+		},
+		process: {
+			label: homeData.process?.label || "",
+			steps: homeData.process?.steps || [],
+			content: homeData.process?.content || [],
+		},
+	}
+}
+
 // Main seed function
 async function seedAllServices() {
 	const dataDir = path.join(process.cwd(), "data")
+	await seedHomePage(dataDir)
 	const jsonFiles = [
 		"seo.json",
 		"paid-ads.json",

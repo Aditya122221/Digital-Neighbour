@@ -4,13 +4,10 @@ import { useRef } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
 import { CustomButton } from "@/components/core/button"
 
-const heroData = {
-	heading: "Borderless Marketing",
-	subheading: "Transform your business into a digital success story with our expert marketing services.",
-	image: "/homepage/hero/1.jpg",
-	image2: "/homepage/hero/2.jpg",
-	image3: "/homepage/hero/3.jpg",
-	image4: "/homepage/hero/4.jpg",
+type HeroData = {
+	heading: string
+	subheading: string
+	images: string[]
 }
 
 type AnimatedTextConfig = {
@@ -76,9 +73,18 @@ const renderAnimatedText = ({
 	})
 }
 
-export default function Hero4() {
+type HeroSixProps = {
+	data?: HeroData
+}
+
+export default function HeroSix({ data }: HeroSixProps) {
+	if (!data) {
+		return null
+	}
+
 	const heroRef = useRef<HTMLDivElement>(null)
-	const { heading, subheading, image, image2, image3, image4 } = heroData
+	const { heading, subheading, images = [] } = data
+	const [primaryImage, ...inlineImages] = images
 
 	const headingWords = heading.trim().split(/\s+/)
 	const headingPrimary = headingWords.shift() ?? ""
@@ -108,7 +114,8 @@ export default function Hero4() {
 		},
 	]
 
-	const inlineImageConfigs = [image2, image3, image4]
+	const inlineImageConfigs = inlineImages
+		.slice(0, 3)
 		.filter(Boolean)
 		.map((src, index) => ({
 			src: src as string,
@@ -176,47 +183,51 @@ export default function Hero4() {
 						baseDelay: 0.5,
 						keyPrefix: "heading-primary",
 					})}
-					<motion.span
-						className="inline-block w-8 h-10 md:w-12 md:h-12 lg:w-32 lg:h-18 -mb-1 md:-mb-2 rounded-full overflow-hidden bg-white/20 backdrop-blur-sm border-2 border-white/30 mx-2"
-						initial={{ opacity: 0, x: 50 }}
-						animate={{
-							opacity: 1,
-							x: [0, 2, -1, 1, 0],
-							y: [0, -1, 2, -1, 0],
-						}}
-						transition={{
-							opacity: {
-								duration: 0.6,
-								delay: 0.3,
-								ease: [
-									0.25,
-									0.1,
-									0.25, 1,
-								],
-							},
-							x: {
-								duration: 0.6,
-								delay: 0.3,
-								ease: [
-									0.25,
-									0.1,
-									0.25, 1,
-								],
-							},
-							y: {
-								duration: 4,
-								repeat: Infinity,
-								ease: "easeInOut",
-								delay: 4,
-							},
-						}}
-					>
-						<img
-							src={image}
-							alt={`${heading} primary visual`}
-							className="w-full h-full object-cover"
-						/>
-					</motion.span>
+					{primaryImage && (
+						<motion.span
+							className="inline-block w-8 h-10 md:w-12 md:h-12 lg:w-32 lg:h-18 -mb-1 md:-mb-2 rounded-full overflow-hidden bg-white/20 backdrop-blur-sm border-2 border-white/30 mx-2"
+							initial={{ opacity: 0, x: 50 }}
+							animate={{
+								opacity: 1,
+								x: [0, 2, -1, 1, 0],
+								y: [0, -1, 2, -1, 0],
+							}}
+							transition={{
+								opacity: {
+									duration: 0.6,
+									delay: 0.3,
+									ease: [
+										0.25,
+										0.1,
+										0.25,
+										1,
+									],
+								},
+								x: {
+									duration: 0.6,
+									delay: 0.3,
+									ease: [
+										0.25,
+										0.1,
+										0.25,
+										1,
+									],
+								},
+								y: {
+									duration: 4,
+									repeat: Infinity,
+									ease: "easeInOut",
+									delay: 4,
+								},
+							}}
+						>
+							<img
+								src={primaryImage}
+								alt={`${heading} primary visual`}
+								className="w-full h-full object-cover"
+							/>
+						</motion.span>
+					)}
 					{renderAnimatedText({
 						text: headingSecondary,
 						baseDelay: 0.9,

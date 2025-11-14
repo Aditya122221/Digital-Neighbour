@@ -4,9 +4,19 @@ import { useRef } from "react"
 import { motion, useScroll, useTransform, useSpring } from "framer-motion"
 import { useIsMobile } from "@/hooks/use-mobile"
 
-const apartData = {
+type ApartData = {
+	ours: string[]
+	others: string[]
+}
+
+const defaultApartData: ApartData = {
+	heading: "What sets us apart from others",
+	highlightTarget: "apart",
+	tagline: "We don't settle for average, and neither should you.",
+	oursTitle: "Digital Neighbour",
+	othersTitle: "Other Agencies",
 	ours: [
-		"Generic, one-size-fits-all",
+		"Tailored, insight-led strategy",
 		"Clear pricing, no hidden fees",
 		"Agile, efficient, no delays",
 		"Flexible terms, no long contracts",
@@ -21,18 +31,30 @@ const apartData = {
 	],
 }
 
-const SECTION_HEADING = "What sets us apart from others"
-const SECTION_TAGLINE = "We don't settle for average, and neither should you."
-const OURS_TITLE = "Digital Neighbour"
-const OTHERS_TITLE = "Other Agencies"
+type ApartProps = {
+	data?: ApartData
+}
 
-export default function Apart() {
+export default function Apart({ data }: ApartProps) {
 	const isMobile = useIsMobile()
 	const sectionRef = useRef<HTMLDivElement | null>(null)
 	const { scrollYProgress } = useScroll({
 		target: sectionRef,
 		offset: ["start start", "end end"],
 	})
+
+	const {
+		heading = "What sets us apart from others",
+		highlightTarget = "apart",
+		tagline = "We don't settle for average, and neither should you.",
+		oursTitle = "Digital Neighbour",
+		othersTitle = "Other Agencies",
+		ours,
+		others,
+	} = {
+		...defaultApartData,
+		...data,
+	}
 
 	// Split text animations (wider range + spring smoothing)
 	const rawLeftX = useTransform(
@@ -84,30 +106,26 @@ export default function Apart() {
 		damping: 22,
 	})
 
-	const { ours, others } = apartData
-
 	const headingParts = (() => {
-		const target = "apart"
-		const lowerHeading = SECTION_HEADING.toLowerCase()
-		const matchIndex = lowerHeading.indexOf(target)
+		const lowerHeading = heading.toLowerCase()
+		const target = highlightTarget?.toLowerCase() ?? ""
+		const matchIndex = target ? lowerHeading.indexOf(target) : -1
 
 		if (matchIndex === -1) {
 			return {
-				before: SECTION_HEADING,
+				before: heading,
 				highlight: "",
 				after: "",
 			}
 		}
 
 		return {
-			before: SECTION_HEADING.slice(0, matchIndex),
-			highlight: SECTION_HEADING.slice(
+			before: heading.slice(0, matchIndex),
+			highlight: heading.slice(
 				matchIndex,
 				matchIndex + target.length
 			),
-			after: SECTION_HEADING.slice(
-				matchIndex + target.length
-			),
+			after: heading.slice(matchIndex + target.length),
 		}
 	})()
 
@@ -146,7 +164,7 @@ export default function Apart() {
 
 				{/* Tagline above cards */}
 				<p className="text-lg font-light text-gray-700 text-center mb-8">
-					{SECTION_TAGLINE}
+					{tagline}
 				</p>
 
 				{/* Cards row */}
@@ -154,7 +172,7 @@ export default function Apart() {
 					{/* First Card */}
 					<div className="w-full max-w-sm bg-black rounded-2xl shadow-xl p-8">
 						<h3 className="text-2xl font-semibold mb-6 text-yellow">
-							{OURS_TITLE}
+							{oursTitle}
 						</h3>
 						<ul className="space-y-4 text-base text-bone">
 							{ours.map(
@@ -202,7 +220,7 @@ export default function Apart() {
 					{/* Second Card */}
 					<div className="w-full max-w-sm bg-gray-50 rounded-2xl shadow-xl p-8">
 						<h3 className="text-2xl font-semibold mb-6 text-yellow">
-							{OTHERS_TITLE}
+							{othersTitle}
 						</h3>
 						<ul className="space-y-4 text-base text-gray-700">
 							{others.map(
@@ -281,7 +299,7 @@ export default function Apart() {
 					style={{ opacity: cardOpacity }}
 					className="mt-8 text-lg md:text-3xl font-light text-gray-700 text-center"
 				>
-					{SECTION_TAGLINE}
+					{tagline}
 				</motion.p>
 
 				{/* Cards row */}
@@ -295,7 +313,7 @@ export default function Apart() {
 						className="w-96 bg-black rounded-2xl shadow-xl p-8 z-10"
 					>
 						<h3 className="text-2xl font-semibold mb-6 text-yellow">
-							{OURS_TITLE}
+							{oursTitle}
 						</h3>
 						<ul className="space-y-4 text-base text-white">
 							{ours.map(
@@ -349,7 +367,7 @@ export default function Apart() {
 						className="w-96 bg-gray-50 rounded-2xl shadow-xl p-8"
 					>
 						<h3 className="text-2xl font-semibold mb-6">
-							{OTHERS_TITLE}
+							{othersTitle}
 						</h3>
 						<ul className="space-y-4 text-base text-gray-700">
 							{others.map(

@@ -4,83 +4,120 @@ import { useState, useEffect } from "react"
 import { ChevronLeft, ChevronRight, ArrowUpRight } from "lucide-react"
 import { motion } from "framer-motion"
 
-const caseStudies = [
-  {
-    id: 1,
-    title: "Festive Green",
-    bgImages: [
-      "https://images.pexels.com/photos/1671643/pexels-photo-1671643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/29646117/pexels-photo-29646117.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/17183905/pexels-photo-17183905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/11809060/pexels-photo-11809060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    ],
-    textColor: "text-white",
-    services: ["Website", "Brand Identity"],
-    isNew: false,
-    metrics: [
-      { number: "44+", text: "users increased" },
-      { number: "20%", text: "engagement increased" },
-      { number: "3x", text: "conversion rate" }
-    ]
-  },
-  {
-    id: 2,
-    title: "Dyslexia South",
-    bgImages: [
-      "https://images.pexels.com/photos/1036642/pexels-photo-1036642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/15969201/pexels-photo-15969201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/18091792/pexels-photo-18091792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    ],
-    textColor: "text-black",
-    services: ["Website", "Brand Identity", "Brand Implementation"],
-    isNew: false,
-    metrics: [
-      { number: "67%", text: "accessibility improved" },
-      { number: "150+", text: "new members" },
-      { number: "85%", text: "user satisfaction" }
-    ]
-  },
-  {
-    id: 3,
-    title: "Evolve [25]",
-    bgImages: [
-      "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/7634159/pexels-photo-7634159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/27552013/pexels-photo-27552013.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/33206676/pexels-photo-33206676.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    ],
-    textColor: "text-white",
-    services: ["Website", "Brand Identity", "Brand Implementation"],
-    isNew: true,
-    metrics: [
-      { number: "2.5x", text: "brand recognition" },
-      { number: "90%", text: "lead generation" },
-      { number: "35%", text: "cost reduction" }
-    ]
-  },
-  {
-    id: 4,
-    title: "Creative Studio",
-    bgImages: [
-      "https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/7858745/pexels-photo-7858745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/14263450/pexels-photo-14263450.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    ],
-    textColor: "text-white",
-    services: ["Website", "Brand Identity"],
-    isNew: false,
-    metrics: [
-      { number: "78%", text: "portfolio views" },
-      { number: "45+", text: "new clients" },
-      { number: "60%", text: "social engagement" }
-    ]
-  },
-]
+type CaseStudyMetric = {
+	number: string
+	text: string
+}
 
-export default function CaseStudy() {
+type CaseStudyItem = {
+	id: number
+	title: string
+	bgImages: string[]
+	textColor: string
+	services: string[]
+	isNew?: boolean
+	metrics: CaseStudyMetric[]
+}
+
+type CaseStudiesData = {
+	heading: string
+	items: CaseStudyItem[]
+}
+
+type CaseStudyProps = {
+	data?: CaseStudiesData
+}
+
+const defaultCaseStudies: CaseStudiesData = {
+	heading: "Latest work",
+	items: [
+		{
+			id: 1,
+			title: "Festive Green",
+			bgImages: [
+				"https://images.pexels.com/photos/1671643/pexels-photo-1671643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+				"https://images.pexels.com/photos/29646117/pexels-photo-29646117.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+				"https://images.pexels.com/photos/17183905/pexels-photo-17183905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+				"https://images.pexels.com/photos/11809060/pexels-photo-11809060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			],
+			textColor: "text-white",
+			services: ["Website", "Brand Identity"],
+			isNew: false,
+			metrics: [
+				{ number: "44+", text: "users increased" },
+				{ number: "20%", text: "engagement increased" },
+				{ number: "3x", text: "conversion rate" },
+			],
+		},
+		{
+			id: 2,
+			title: "Dyslexia South",
+			bgImages: [
+				"https://images.pexels.com/photos/1036642/pexels-photo-1036642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+				"https://images.pexels.com/photos/15969201/pexels-photo-15969201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+				"https://images.pexels.com/photos/18091792/pexels-photo-18091792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			],
+			textColor: "text-black",
+			services: ["Website", "Brand Identity", "Brand Implementation"],
+			isNew: false,
+			metrics: [
+				{ number: "67%", text: "accessibility improved" },
+				{ number: "150+", text: "new members" },
+				{ number: "85%", text: "user satisfaction" },
+			],
+		},
+		{
+			id: 3,
+			title: "Evolve [25]",
+			bgImages: [
+				"https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+				"https://images.pexels.com/photos/7634159/pexels-photo-7634159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+				"https://images.pexels.com/photos/27552013/pexels-photo-27552013.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+				"https://images.pexels.com/photos/33206676/pexels-photo-33206676.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			],
+			textColor: "text-white",
+			services: ["Website", "Brand Identity", "Brand Implementation"],
+			isNew: true,
+			metrics: [
+				{ number: "2.5x", text: "brand recognition" },
+				{ number: "90%", text: "lead generation" },
+				{ number: "35%", text: "cost reduction" },
+			],
+		},
+		{
+			id: 4,
+			title: "Creative Studio",
+			bgImages: [
+				"https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+				"https://images.pexels.com/photos/7858745/pexels-photo-7858745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+				"https://images.pexels.com/photos/14263450/pexels-photo-14263450.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			],
+			textColor: "text-white",
+			services: ["Website", "Brand Identity"],
+			isNew: false,
+			metrics: [
+				{ number: "78%", text: "portfolio views" },
+				{ number: "45+", text: "new clients" },
+				{ number: "60%", text: "social engagement" },
+			],
+		},
+	],
+}
+
+export default function CaseStudy({ data }: CaseStudyProps) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [hoveredCard, setHoveredCard] = useState<number | null>(null)
   const [currentImageIndex, setCurrentImageIndex] = useState<{[key: number]: number}>({})
+
+  const caseStudies =
+    data?.items && data.items.length > 0
+      ? data.items
+      : defaultCaseStudies.items
+  const sectionHeading = data?.heading ?? defaultCaseStudies.heading
+
+  if (!caseStudies.length) {
+    return null
+  }
 
   const nextSlide = () => {
     setCurrentIndex((prev) => (prev + 1) % caseStudies.length)
@@ -148,7 +185,7 @@ export default function CaseStudy() {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <h2 className="text-4xl md:text-6xl font-regular text-blackbrown mb-6 text-balance font-cal-sans tracking-wide">
-            Latest work
+            Latest Work
           </h2>
         </motion.div>
 
