@@ -1,5 +1,98 @@
 import { groq } from "next-sanity"
 
+export const homePageQuery = groq`
+  *[_type == "homePage"][0]{
+    metadata,
+    description,
+    hero{
+      heading,
+      subheading,
+      images
+    },
+    brandInfo{
+      main{
+        heading,
+        subheading
+      },
+      differentiators[]{
+        _key,
+        id,
+        title,
+        description,
+        icon
+      },
+      rightCard{
+        heading,
+        description,
+        stats[]{
+          _key,
+          id,
+          value,
+          label
+        }
+      }
+    },
+    services{
+      heading,
+      subheading,
+      cards[]{
+        _key,
+        title,
+        video,
+        subheading
+      }
+    },
+    keepYourStack{
+      heading,
+      highlight,
+      description,
+      logos[]{
+        _key,
+        name,
+        svg
+      }
+    },
+    caseStudies{
+      heading,
+      items[]{
+        _key,
+        id,
+        title,
+        textColor,
+        isNew,
+        services,
+        bgImages,
+        metrics[]{
+          _key,
+          number,
+          text
+        }
+      }
+    },
+    contentSection{
+      heading,
+      subheading,
+      benefits[]{
+        _key,
+        id,
+        title,
+        description,
+        stat,
+        icon
+      }
+    },
+    apart{
+      ours,
+      others
+    },
+    process{
+      label,
+      steps,
+      content
+    }
+  }
+`
+
 export const pageBySlugQuery = groq`
   *[_type == "page" && slug.current == $slug][0]{
     _id,

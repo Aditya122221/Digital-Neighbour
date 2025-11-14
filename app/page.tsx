@@ -20,16 +20,28 @@ import Process2 from "@/components/homepage/process2"
 import Form from "@/components/commonSections/form"
 import HeroSix from "@/components/homepage/herosix"
 //mport Hero5 from "@/components/homepage/hero4"
-import homeData from "@/data/home.json"
+import { getHomePageData } from "@/lib/home-page-data"
 
-export const metadata: Metadata = buildMetadata({
-	title: "Growth Marketing & Digital Experience Agency",
-	description:
-		"Digital Neighbour blends strategy, creativity, and technology to deliver end-to-end marketing, product, and growth programs that scale ambitious brands.",
-	path: "/",
-})
+const FALLBACK_TITLE = "Growth Marketing & Digital Experience Agency"
+const FALLBACK_DESCRIPTION =
+	"Digital Neighbour blends strategy, creativity, and technology to deliver end-to-end marketing, product, and growth programs that scale ambitious brands."
 
-export default function HomePage() {
+export async function generateMetadata(): Promise<Metadata> {
+	const homeData = await getHomePageData()
+
+	return buildMetadata({
+		title: homeData.metadata ?? FALLBACK_TITLE,
+		description: homeData.description ?? FALLBACK_DESCRIPTION,
+		path: "/",
+	})
+}
+
+export const dynamic = "force-dynamic"
+export const revalidate = 0
+
+export default async function HomePage() {
+	const homeData = await getHomePageData()
+
 	return (
 		<main>
 			<div className="relative">
