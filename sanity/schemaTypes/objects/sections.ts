@@ -10,6 +10,11 @@ const stringField = (
 		title,
 		type: "string",
 		...options,
+		...(name === "icon"
+			? {
+					readOnly: true,
+			  }
+			: {}),
 	})
 
 const textField = (name: string, title: string) =>

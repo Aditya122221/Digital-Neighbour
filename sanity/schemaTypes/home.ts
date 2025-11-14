@@ -36,14 +36,30 @@ export const homePageType = defineType({
 					title: "Subheading",
 					type: "text",
 					rows: 3,
+					validation: (rule) => rule.required(),
 				}),
 				defineField({
 					name: "images",
 					title: "Hero Images",
 					type: "array",
-					of: [{ type: "string" }],
+					of: [
+						{
+							type: "image",
+							options: {
+								hotspot: true,
+							},
+						},
+					],
 					description:
-						"Paths or URLs used in the animated hero bubbles.",
+						"Upload exactly 4 images used in the animated hero bubbles.",
+					validation: (rule) =>
+						rule
+							.required()
+							.min(4)
+							.max(4)
+							.error(
+								"Please upload exactly four hero images."
+							),
 				}),
 			],
 		}),
@@ -61,12 +77,16 @@ export const homePageType = defineType({
 							name: "heading",
 							title: "Heading",
 							type: "string",
+							validation: (rule) =>
+								rule.required(),
 						}),
 						defineField({
 							name: "subheading",
 							title: "Subheading",
 							type: "text",
 							rows: 4,
+							validation: (rule) =>
+								rule.required(),
 						}),
 					],
 				}),
@@ -83,12 +103,20 @@ export const homePageType = defineType({
 									name: "title",
 									title: "Title",
 									type: "string",
+									validation: (
+										rule
+									) =>
+										rule.required(),
 								}),
 								defineField({
 									name: "description",
 									title: "Description",
 									type: "text",
 									rows: 3,
+									validation: (
+										rule
+									) =>
+										rule.required(),
 								}),
 								defineField({
 									name: "icon",
@@ -96,6 +124,10 @@ export const homePageType = defineType({
 									type: "string",
 									description:
 										"Name of the Lucide icon used in the UI.",
+									validation: (
+										rule
+									) =>
+										rule.required(),
 								}),
 							],
 						}),
@@ -110,12 +142,16 @@ export const homePageType = defineType({
 							name: "heading",
 							title: "Heading",
 							type: "string",
+							validation: (rule) =>
+								rule.required(),
 						}),
 						defineField({
 							name: "description",
 							title: "Description",
 							type: "text",
 							rows: 3,
+							validation: (rule) =>
+								rule.required(),
 						}),
 						defineField({
 							name: "stats",
@@ -126,16 +162,28 @@ export const homePageType = defineType({
 									name: "stat",
 									type: "object",
 									fields: [
-										defineField({
-											name: "value",
-											title: "Value",
-											type: "string",
-										}),
-										defineField({
-											name: "label",
-											title: "Label",
-											type: "string",
-										}),
+										defineField(
+											{
+												name: "value",
+												title: "Value",
+												type: "string",
+												validation: (
+													rule
+												) =>
+													rule.required(),
+											}
+										),
+										defineField(
+											{
+												name: "label",
+												title: "Label",
+												type: "string",
+												validation: (
+													rule
+												) =>
+													rule.required(),
+											}
+										),
 									],
 								}),
 							],
@@ -160,34 +208,52 @@ export const homePageType = defineType({
 					title: "Subheading",
 					type: "text",
 					rows: 4,
+					validation: (rule) => rule.required(),
 				}),
 				defineField({
 					name: "cards",
 					title: "Service Cards",
 					type: "array",
+					validation: (rule) => rule.required(),
 					of: [
 						defineField({
 							name: "card",
 							type: "object",
+							validation: (rule) =>
+								rule.required(),
 							fields: [
 								defineField({
 									name: "title",
 									title: "Title",
 									type: "string",
-									validation: (rule) => rule.required(),
+									validation: (
+										rule
+									) =>
+										rule.required(),
 								}),
 								defineField({
 									name: "video",
-									title: "Video URL",
-									type: "string",
+									title: "Background Video",
+									type: "file",
+									options: {
+										accept: "video/*",
+									},
 									description:
-										"Video path or URL for the card background.",
+										"Upload the MP4/WebM clip used for the card background.",
+									validation: (
+										rule
+									) =>
+										rule.required(),
 								}),
 								defineField({
 									name: "subheading",
 									title: "Bullet Points",
 									type: "array",
-									of: [{ type: "string" }],
+									of: [
+										{
+											type: "string",
+										},
+									],
 								}),
 							],
 						}),
@@ -199,6 +265,7 @@ export const homePageType = defineType({
 			name: "keepYourStack",
 			title: "Keep Your Stack Section",
 			type: "object",
+			validation: (rule) => rule.required(),
 			fields: [
 				defineField({
 					name: "logos",
@@ -213,13 +280,24 @@ export const homePageType = defineType({
 									name: "name",
 									title: "Name",
 									type: "string",
+									validation: (
+										rule
+									) =>
+										rule.required(),
 								}),
 								defineField({
 									name: "svg",
-									title: "Logo Path",
-									type: "string",
+									title: "Logo",
+									type: "image",
 									description:
-										"Path or URL to the logo asset.",
+										"Upload the logo asset.",
+									options: {
+										hotspot: false,
+									},
+									validation: (
+										rule
+									) =>
+										rule.required(),
 								}),
 							],
 						}),
@@ -262,37 +340,54 @@ export const homePageType = defineType({
 									name: "services",
 									title: "Services Tags",
 									type: "array",
-									of: [{ type: "string" }],
+									of: [
+										{
+											type: "string",
+										},
+									],
 								}),
 								defineField({
 									name: "bgImages",
 									title: "Background Images",
 									type: "array",
-									of: [{ type: "string" }],
+									of: [
+										{
+											type: "image",
+											options: {
+												hotspot: true,
+											},
+										},
+									],
 									description:
-										"URLs used for the hover slideshow.",
+										"Upload the images used for the hover slideshow.",
 								}),
 								defineField({
 									name: "metrics",
 									title: "Hover Metrics",
 									type: "array",
 									of: [
-										defineField({
-											name: "metric",
-											type: "object",
-											fields: [
-												defineField({
-													name: "number",
-													title: "Number",
-													type: "string",
-												}),
-												defineField({
-													name: "text",
-													title: "Label",
-													type: "string",
-												}),
-											],
-										}),
+										defineField(
+											{
+												name: "metric",
+												type: "object",
+												fields: [
+													defineField(
+														{
+															name: "number",
+															title: "Number",
+															type: "string",
+														}
+													),
+													defineField(
+														{
+															name: "text",
+															title: "Label",
+															type: "string",
+														}
+													),
+												],
+											}
+										),
 									],
 								}),
 							],
@@ -310,17 +405,27 @@ export const homePageType = defineType({
 					name: "heading",
 					title: "Heading",
 					type: "string",
+					validation: (rule) => rule.required(),
 				}),
 				defineField({
 					name: "subheading",
 					title: "Subheading",
 					type: "text",
 					rows: 3,
+					validation: (rule) => rule.required(),
 				}),
 				defineField({
 					name: "benefits",
 					title: "Benefits",
 					type: "array",
+					validation: (rule) =>
+						rule
+							.required()
+							.min(4)
+							.max(4)
+							.error(
+								"Please provide exactly four benefits."
+							),
 					of: [
 						defineField({
 							name: "benefit",
@@ -330,24 +435,37 @@ export const homePageType = defineType({
 									name: "title",
 									title: "Title",
 									type: "string",
+									validation: (
+										rule
+									) =>
+										rule.required(),
 								}),
 								defineField({
 									name: "description",
 									title: "Description",
 									type: "text",
 									rows: 3,
+									validation: (
+										rule
+									) =>
+										rule.required(),
 								}),
 								defineField({
 									name: "stat",
 									title: "Stat / Supporting Detail",
 									type: "string",
+									validation: (
+										rule
+									) =>
+										rule.required(),
 								}),
 								defineField({
 									name: "icon",
-									title: "Icon Name",
+									title: "Icon",
 									type: "string",
 									description:
 										"Optional identifier to map to a Lucide icon in code.",
+									readOnly: true,
 								}),
 							],
 						}),
@@ -359,20 +477,35 @@ export const homePageType = defineType({
 			name: "apart",
 			title: "What Sets Us Apart",
 			type: "object",
+			validation: (rule) => rule.required(),
 			fields: [
 				defineField({
 					name: "ours",
 					title: "Our Attributes",
 					type: "array",
 					of: [{ type: "string" }],
-					validation: (rule) => rule.min(1),
+					validation: (rule) =>
+						rule
+							.required()
+							.min(5)
+							.max(5)
+							.error(
+								"Please provide exactly five items."
+							),
 				}),
 				defineField({
 					name: "others",
 					title: "Other Agencies",
 					type: "array",
 					of: [{ type: "string" }],
-					validation: (rule) => rule.min(1),
+					validation: (rule) =>
+						rule
+							.required()
+							.min(5)
+							.max(5)
+							.error(
+								"Please provide exactly five items."
+							),
 				}),
 			],
 		}),
@@ -386,7 +519,14 @@ export const homePageType = defineType({
 					title: "Steps",
 					type: "array",
 					of: [{ type: "string" }],
-					validation: (rule) => rule.min(1),
+					validation: (rule) =>
+						rule
+							.required()
+							.min(5)
+							.max(5)
+							.error(
+								"Please provide exactly five steps."
+							),
 				}),
 				defineField({
 					name: "content",
@@ -395,6 +535,14 @@ export const homePageType = defineType({
 					of: [{ type: "text" }],
 					description:
 						"Each entry should align with a step to power the process cards.",
+					validation: (rule) =>
+						rule
+							.required()
+							.min(5)
+							.max(5)
+							.error(
+								"Please provide exactly five descriptions."
+							),
 				}),
 			],
 		}),

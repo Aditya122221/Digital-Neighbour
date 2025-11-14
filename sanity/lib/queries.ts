@@ -7,7 +7,7 @@ export const homePageQuery = groq`
     hero{
       heading,
       subheading,
-      images
+      "images": images[].asset->url
     },
     brandInfo{
       main{
@@ -38,7 +38,7 @@ export const homePageQuery = groq`
       cards[]{
         _key,
         title,
-        video,
+        "video": coalesce(video.asset->url, ""),
         subheading
       }
     },
@@ -49,7 +49,7 @@ export const homePageQuery = groq`
       logos[]{
         _key,
         name,
-        svg
+        "svg": coalesce(svg.asset->url, "")
       }
     },
     caseStudies{
@@ -61,7 +61,7 @@ export const homePageQuery = groq`
         textColor,
         isNew,
         services,
-        bgImages,
+        "bgImages": bgImages[].asset->url,
         metrics[]{
           _key,
           number,
