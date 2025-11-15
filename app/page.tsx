@@ -30,8 +30,9 @@ export async function generateMetadata(): Promise<Metadata> {
 	const homeData = await getHomePageData()
 
 	return buildMetadata({
-		title: homeData.metadata ?? FALLBACK_TITLE,
-		description: homeData.description ?? FALLBACK_DESCRIPTION,
+		title: homeData.homeData.metadata ?? FALLBACK_TITLE,
+		description:
+			homeData.homeData.description ?? FALLBACK_DESCRIPTION,
 		path: "/",
 	})
 }
@@ -46,23 +47,22 @@ export default async function HomePage() {
 		<main>
 			<div className="relative">
 				<Navbar />
-				<HeroSix data={homeData.hero} />
+				<HeroSix data={homeData.homeData.hero} />
 				{/* <Hero5 /> */}
 			</div>
 			{/* <Banner /> */}
 			<BrandsMarquee />
-			<BrandInfo data={homeData.brandInfo} />
+			<BrandInfo data={homeData.homeData.brandInfo} />
 			{/* <RevealCursor /> */}
-			<Services data={homeData.services} />
-			<KeepYourStack data={homeData.keepYourStack} />
-			<CaseStudy data={homeData.caseStudies} />
-			<FeatureSection data={homeData.contentSection} />
-			<Apart data={homeData.apart} />
-			<TestimonalTwo />
-			<Process2
-				data={homeData.process?.label}
-				processData={homeData.process}
+			<Services data={homeData.homeData.services} />
+			<KeepYourStack data={homeData.homeData.keepYourStack} />
+			<CaseStudy />
+			<FeatureSection
+				data={homeData.homeData.contentSection}
 			/>
+			<Apart />
+			<TestimonalTwo />
+			<Process2 processData={homeData.homeData.process} />
 			<Blogs />
 			<BookACall />
 			<Footer />

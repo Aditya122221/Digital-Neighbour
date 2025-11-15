@@ -1,5 +1,6 @@
 {
-  "metadata": "Growth Marketing & Digital Experience Agency",
+  "homeData": {
+    "metadata": "Growth Marketing & Digital Experience Agency",
   "description": "Digital Neighbour blends strategy, creativity, and technology to deliver end-to-end marketing, product, and growth programs that scale ambitious brands.",
   "hero": {
     "heading": "Borderless Marketing",
@@ -141,22 +142,6 @@
       }
     ]
   },
-  "apart": {
-    "ours": [
-      "Tailored, insight-led strategy",
-      "Clear pricing, no hidden fees",
-      "Agile, efficient, no delays",
-      "Flexible terms, no long contracts",
-      "Direct access to experts"
-    ],
-    "others": [
-      "Generic, one-size-fits-all",
-      "Vague reports, surprise costs",
-      "Slow processes, missed deadlines",
-      "Locked into lengthy agreements",
-      "Generic account managers"
-    ]
-  },
   "process": {
     "steps": [
       "Discovery & Research",
@@ -171,6 +156,23 @@
       "We deliver a comprehensive strategy to you and your team over multiple strategy deep-dive calls that go in-depth into each area of your SaaS marketing, educating you on our recommendations and why they are important.<br><br>Then we find the best course to implement those recommendations.",
       "When you have a solid marketing strategy, there's only one thing left to do - execute.<br><br>We help your team prioritize, optimize, create, and promote content that aligns with your target ICP's pain points, concerns, and search patterns to attract customers at each stage in the buyer's journey. We either produce content for you, or guide your team through the production process, then promote it for you.",
       "One of the most important things you can do with any growth project is to keep a close eye on the performance, and use data to adapt over time.<br><br>We provide deep monthly reports with the metrics that matter most to your SaaS growth and analyze them for future opportunities. We continually iterate on our actions, adjusting course when needed to achieve your goals as efficiently as possible."
+    ]
+    }
+  },
+  "apart": {
+    "ours": [
+      "Tailored, insight-led strategy",
+      "Clear pricing, no hidden fees",
+      "Agile, efficient, no delays",
+      "Flexible terms, no long contracts",
+      "Direct access to experts"
+    ],
+    "others": [
+      "Generic, one-size-fits-all",
+      "Vague reports, surprise costs",
+      "Slow processes, missed deadlines",
+      "Locked into lengthy agreements",
+      "Generic account managers"
     ]
   },
   "caseStudies": {

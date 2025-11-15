@@ -1,5 +1,7 @@
 import { type SchemaTypeDefinition } from "sanity"
 
+import { apartSectionType } from "./apart"
+import { caseStudiesSectionType } from "./casestudy"
 import { homePageType } from "./home"
 import { sectionTypes } from "./objects/sections"
 import { seoServiceType } from "./seo"
@@ -17,6 +19,8 @@ import { marketingAgencyPageType } from "./marketingAgency"
 
 export const schemaTypes: SchemaTypeDefinition[] = [
 	homePageType,
+	apartSectionType,
+	caseStudiesSectionType,
 	marketingAgencyPageType,
 	seoServiceType,
 	paidAdvertisingServiceType,

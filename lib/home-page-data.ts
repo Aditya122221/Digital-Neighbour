@@ -97,6 +97,11 @@ type SanityHomePageData = {
     >;
   };
   apart?: {
+    heading?: string;
+    highlightTarget?: string;
+    tagline?: string;
+    oursTitle?: string;
+    othersTitle?: string;
     ours?: string[];
     others?: string[];
   };
@@ -296,6 +301,11 @@ const normalizeHomePageData = (
 
   if (data.apart) {
     normalized.apart = {
+      heading: data.apart.heading,
+      highlightTarget: data.apart.highlightTarget,
+      tagline: data.apart.tagline,
+      oursTitle: data.apart.oursTitle,
+      othersTitle: data.apart.othersTitle,
       ours: data.apart.ours,
       others: data.apart.others,
     };

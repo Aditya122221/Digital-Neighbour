@@ -268,6 +268,24 @@ export const homePageType = defineType({
 			validation: (rule) => rule.required(),
 			fields: [
 				defineField({
+					name: "heading",
+					title: "Heading",
+					type: "string",
+					validation: (rule) => rule.required(),
+				}),
+				defineField({
+					name: "highlight",
+					title: "Highlight",
+					type: "string",
+				}),
+				defineField({
+					name: "description",
+					title: "Description",
+					type: "text",
+					rows: 3,
+					validation: (rule) => rule.required(),
+				}),
+				defineField({
 					name: "logos",
 					title: "Tech Logos",
 					type: "array",
@@ -298,97 +316,6 @@ export const homePageType = defineType({
 										rule
 									) =>
 										rule.required(),
-								}),
-							],
-						}),
-					],
-				}),
-			],
-		}),
-		defineField({
-			name: "caseStudies",
-			title: "Case Studies Section",
-			type: "object",
-			fields: [
-				defineField({
-					name: "items",
-					title: "Case Studies",
-					type: "array",
-					of: [
-						defineField({
-							name: "item",
-							type: "object",
-							fields: [
-								defineField({
-									name: "title",
-									title: "Title",
-									type: "string",
-								}),
-								defineField({
-									name: "textColor",
-									title: "Text Color Utility",
-									type: "string",
-									description:
-										"Tailwind class controlling text color on the card.",
-								}),
-								defineField({
-									name: "isNew",
-									title: "Mark as New",
-									type: "boolean",
-								}),
-								defineField({
-									name: "services",
-									title: "Services Tags",
-									type: "array",
-									of: [
-										{
-											type: "string",
-										},
-									],
-								}),
-								defineField({
-									name: "bgImages",
-									title: "Background Images",
-									type: "array",
-									of: [
-										{
-											type: "image",
-											options: {
-												hotspot: true,
-											},
-										},
-									],
-									description:
-										"Upload the images used for the hover slideshow.",
-								}),
-								defineField({
-									name: "metrics",
-									title: "Hover Metrics",
-									type: "array",
-									of: [
-										defineField(
-											{
-												name: "metric",
-												type: "object",
-												fields: [
-													defineField(
-														{
-															name: "number",
-															title: "Number",
-															type: "string",
-														}
-													),
-													defineField(
-														{
-															name: "text",
-															title: "Label",
-															type: "string",
-														}
-													),
-												],
-											}
-										),
-									],
 								}),
 							],
 						}),
@@ -474,46 +401,15 @@ export const homePageType = defineType({
 			],
 		}),
 		defineField({
-			name: "apart",
-			title: "What Sets Us Apart",
-			type: "object",
-			validation: (rule) => rule.required(),
-			fields: [
-				defineField({
-					name: "ours",
-					title: "Our Attributes",
-					type: "array",
-					of: [{ type: "string" }],
-					validation: (rule) =>
-						rule
-							.required()
-							.min(5)
-							.max(5)
-							.error(
-								"Please provide exactly five items."
-							),
-				}),
-				defineField({
-					name: "others",
-					title: "Other Agencies",
-					type: "array",
-					of: [{ type: "string" }],
-					validation: (rule) =>
-						rule
-							.required()
-							.min(5)
-							.max(5)
-							.error(
-								"Please provide exactly five items."
-							),
-				}),
-			],
-		}),
-		defineField({
 			name: "process",
 			title: "Process Section",
 			type: "object",
 			fields: [
+				defineField({
+					name: "label",
+					title: "Section Label",
+					type: "string",
+				}),
 				defineField({
 					name: "steps",
 					title: "Steps",

@@ -9,9 +9,9 @@ type TechLogo = {
 }
 
 type KeepYourStackData = {
-	heading: string
-	highlight: string
-	description: string
+	heading?: string
+	highlight?: string
+	description?: string
 	logos: TechLogo[]
 }
 
@@ -50,7 +50,9 @@ export default function KeepYourStack({ data }: KeepYourStackProps) {
 						</span>
 					</h2>
 					<p className="text-lg md:text-xl font-light text-blackbrown/80 max-w-2xl mx-auto text-pretty">
-					We work with your platforms, meaning we seamlessly slot into your team
+						We work with your platforms,
+						meaning we seamlessly slot into
+						your team
 					</p>
 				</motion.div>
 

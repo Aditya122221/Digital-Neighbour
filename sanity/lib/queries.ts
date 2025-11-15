@@ -82,6 +82,11 @@ export const homePageQuery = groq`
       }
     },
     apart{
+      heading,
+      highlightTarget,
+      tagline,
+      oursTitle,
+      othersTitle,
       ours,
       others
     },
@@ -90,6 +95,40 @@ export const homePageQuery = groq`
       steps,
       content
     }
+  }
+`;
+
+export const caseStudiesSectionQuery = groq`
+  *[_type == "caseStudiesSection"][0]{
+    heading,
+    items[]{
+      _key,
+      id,
+      title,
+      textColor,
+      isNew,
+      services,
+      "bgImages": bgImages[]{
+        coalesce(image.asset->url, externalUrl, "")
+      },
+      metrics[]{
+        _key,
+        number,
+        text
+      }
+    }
+  }
+`;
+
+export const apartSectionQuery = groq`
+  *[_type == "apartSection"][0]{
+    heading,
+    highlightTarget,
+    tagline,
+    oursTitle,
+    othersTitle,
+    ours,
+    others
   }
 `;
 
