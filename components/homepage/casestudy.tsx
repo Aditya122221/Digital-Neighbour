@@ -1,6 +1,7 @@
 import CaseStudyClient from "./casestudy-client"
-import caseStudiesData from "@/data/case.json"
+import { getCasePageData } from "@/lib/case-data"
 
-export default function CaseStudy() {
+export default async function CaseStudy() {
+	const caseStudiesData = await getCasePageData()
 	return <CaseStudyClient caseStudiesList={caseStudiesData} />
 }

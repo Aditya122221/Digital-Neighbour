@@ -119,6 +119,99 @@ export const marketingAgencyPageQuery = groq`
   }
 `;
 
+export const homePageQuery = groq`
+  *[_type == "homePage"][0]{
+    metadata,
+    description,
+    hero{
+      heading,
+      subheading,
+      images[]{
+        asset->{
+          _id,
+          url
+        }
+      }
+    },
+    brandInfo{
+      main{
+        heading,
+        subheading
+      },
+      differentiators[]{
+        title,
+        description,
+        icon
+      },
+      rightCard{
+        heading,
+        description,
+        stats[]{
+          value,
+          label
+        }
+      }
+    },
+    services{
+      heading,
+      subheading,
+      rightCard[]{
+        "video": video.asset->url,
+        title,
+        subheading
+      }
+    },
+    keepYourStack{
+      logos[]{
+        name,
+        "svg": svg.asset->url
+      }
+    },
+    contentSection{
+      heading,
+      subheading,
+      benefits[]{
+        title,
+        description,
+        icon,
+        stat
+      }
+    },
+    process{
+      steps,
+      content
+    }
+  }
+`;
+
+export const apartPageQuery = groq`
+  *[_type == "apartPage"][0]{
+    ours,
+    others
+  }
+`;
+
+export const casePageQuery = groq`
+  *[_type == "casePage"][0]{
+    caseStudies[]{
+      title,
+      textColor,
+      bgImages[]{
+        asset->{
+          _id,
+          url
+        }
+      },
+      metrics[]{
+        number,
+        text
+      },
+      services,
+      isNew
+    }
+  }
+`;
+
 export const resourcesPageContentQuery = groq`
   *[_type == "resourcesPage"][0]{
     title,

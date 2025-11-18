@@ -1,11 +1,12 @@
 import ApartClient from "./apart-client"
-import apartData from "@/data/apart.json"
+import { getApartPageData } from "@/lib/apart-data"
 
-export default function Apart() {
+export default async function Apart() {
+	const apartData = await getApartPageData()
 	return (
 		<ApartClient
-			oursList={apartData.ours}
-			othersList={apartData.others}
+			oursList={apartData.ours || []}
+			othersList={apartData.others || []}
 		/>
 	)
 }
