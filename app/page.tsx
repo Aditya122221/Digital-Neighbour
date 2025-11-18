@@ -26,8 +26,12 @@ const FALLBACK_TITLE = "Growth Marketing & Digital Experience Agency"
 const FALLBACK_DESCRIPTION =
 	"Digital Neighbour blends strategy, creativity, and technology to deliver end-to-end marketing, product, and growth programs that scale ambitious brands."
 
+// Force dynamic rendering to always fetch fresh data from Sanity
+export const dynamic = "force-dynamic"
+export const revalidate = 0
+
 export async function generateMetadata(): Promise<Metadata> {
-	const homeData = await getHomePageData();
+	const homeData = await getHomePageData()
 	return buildMetadata({
 		title: homeData.metadata || FALLBACK_TITLE,
 		description: homeData.description || FALLBACK_DESCRIPTION,
@@ -36,7 +40,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function HomePage() {
-	const homeData = await getHomePageData();
+	const homeData = await getHomePageData()
 
 	return (
 		<main>

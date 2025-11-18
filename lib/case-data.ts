@@ -53,8 +53,10 @@ function transformSanityData(sanityData: any): CasePageData | null {
 
 export async function getCasePageData(): Promise<CaseStudy[]> {
   try {
+    // Fetch fresh data from Sanity
     const sanityData = await sanityFetch(casePageQuery);
     const transformed = transformSanityData(sanityData);
+    // Return Sanity data if it exists, even if array is empty
     if (transformed && transformed.caseStudies) {
       return transformed.caseStudies;
     }

@@ -143,9 +143,10 @@ function transformSanityData(sanityData: any): HomePageData | null {
 
 export async function getHomePageData(): Promise<HomePageData> {
   try {
+    // Fetch fresh data from Sanity (no caching due to page-level dynamic config)
     const sanityData = await sanityFetch(homePageQuery);
     const transformed = transformSanityData(sanityData);
-    if (transformed) {
+    if (transformed && transformed.metadata) {
       return transformed;
     }
   } catch (error) {
