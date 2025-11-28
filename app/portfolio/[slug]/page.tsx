@@ -18,8 +18,9 @@ function summarizeContent(input?: string, limit = 160) {
 		: normalized
 }
 
-export function generateStaticParams() {
-	return getPortfolioProjects().map((project) => ({ slug: project.slug }))
+export async function generateStaticParams() {
+	const projects = await getPortfolioProjects()
+	return projects.map((project) => ({ slug: project.slug }))
 }
 
 export async function generateMetadata({
@@ -28,7 +29,7 @@ export async function generateMetadata({
 	params: { slug: string }
 }): Promise<Metadata> {
 	const { slug } = params
-	const currentProject = getPortfolioProjectBySlug(slug)
+	const currentProject = await getPortfolioProjectBySlug(slug)
 
 	if (!currentProject) {
 		return buildMetadata({
@@ -61,14 +62,15 @@ export default async function PortfolioSlugPage({
 }: {
 	params: { slug: string }
 }) {
-	const currentProject = getPortfolioProjectBySlug(params.slug)
+	const currentProject = await getPortfolioProjectBySlug(params.slug)
 
 	if (!currentProject) {
 		notFound()
 	}
 
 	// Get 3 other projects (excluding current one)
-	const otherProjects = getPortfolioProjects()
+	const allProjects = await getPortfolioProjects()
+	const otherProjects = allProjects
 		.filter((p) => p.slug !== params.slug)
 		.slice(0, 3)
 

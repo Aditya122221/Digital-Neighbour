@@ -31,55 +31,104 @@ export default function Services({ data }: ServicesProps) {
 			return null
 		}
 
-		// Common important words to highlight
+		// Split by newline to handle line breaks
+		const lines = data.heading.split("\n")
+
+		// Common important phrases and words to highlight (phrases first, then words)
+		const highlightPhrases = ["your business"]
 		const highlightWords = [
 			"services",
 			"growth",
 			"business",
-			"digital",
 			"marketing",
 			"solutions",
 		]
-		const lowerHeading = data.heading.toLowerCase()
-
-		// Find the first important word to highlight
-		let highlightIndex = -1
-		let highlightLength = 0
-		let highlightWord = ""
-
-		for (const word of highlightWords) {
-			const index = lowerHeading.indexOf(word)
-			if (index !== -1) {
-				highlightIndex = index
-				highlightLength = word.length
-				highlightWord = word
-				break
-			}
-		}
-
-		if (highlightIndex === -1) {
-			return data.heading
-		}
-
-		const before = data.heading.slice(0, highlightIndex)
-		const highlighted = data.heading.slice(
-			highlightIndex,
-			highlightIndex + highlightLength
-		)
-		const after = data.heading.slice(
-			highlightIndex + highlightLength
-		)
 
 		return (
 			<>
-				{before}
-				<span className="relative inline-block">
-					<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow" />
-					<span className="relative z-10 font-semibold">
-						{highlighted}
-					</span>
-				</span>
-				{after}
+				{lines.map((line, lineIndex) => {
+					const lowerHeading = line.toLowerCase()
+
+					// First check for phrases
+					let highlightIndex = -1
+					let highlightLength = 0
+					let highlightText = ""
+
+					for (const phrase of highlightPhrases) {
+						const index =
+							lowerHeading.indexOf(
+								phrase
+							)
+						if (index !== -1) {
+							highlightIndex = index
+							highlightLength =
+								phrase.length
+							highlightText = phrase
+							break
+						}
+					}
+
+					// If no phrase found, check for individual words
+					if (highlightIndex === -1) {
+						for (const word of highlightWords) {
+							const index =
+								lowerHeading.indexOf(
+									word
+								)
+							if (index !== -1) {
+								highlightIndex =
+									index
+								highlightLength =
+									word.length
+								highlightText =
+									word
+								break
+							}
+						}
+					}
+
+					if (highlightIndex === -1) {
+						return (
+							<span key={lineIndex}>
+								{lineIndex >
+									0 && (
+									<br />
+								)}
+								{line}
+							</span>
+						)
+					}
+
+					const before = line.slice(
+						0,
+						highlightIndex
+					)
+					const highlighted = line.slice(
+						highlightIndex,
+						highlightIndex + highlightLength
+					)
+					const after = line.slice(
+						highlightIndex + highlightLength
+					)
+
+					return (
+						<span key={lineIndex}>
+							{lineIndex > 0 && (
+								<br />
+							)}
+							{before}
+							<span className="relative inline-block">
+								<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow" />
+								<span className="relative z-10 font-semibold">
+									{
+										highlighted
+									}
+								</span>
+							</span>
+							{after}
+						</span>
+					)
+				})}
 			</>
 		)
 	}

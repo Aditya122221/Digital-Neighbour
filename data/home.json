@@ -2,14 +2,22 @@
   "metadata": "Growth Marketing & Digital Experience Agency",
   "description": "Digital Neighbour blends strategy, creativity, and technology to deliver end-to-end marketing, product, and growth programs that scale ambitious brands.",
   "hero": {
-    "heading": "Borderless Marketing",
-    "subheading": "Transform your business into a digital success story with our expert marketing services.",
-    "images": [
-      "/homepage/hero/1.jpg",
-      "/homepage/hero/2.jpg",
-      "/homepage/hero/3.jpg",
-      "/homepage/hero/4.jpg"
-    ]
+    "heading": "Effortless Design for Design Startups based in Auckland NZ",
+    "subheading": "We make it easy for startups to launch, grow, and scale with clean, conversion focused designs —no delays, no drama.",
+    "trustedBy": {
+      "text": "Trusted by founders",
+      "profiles": [
+        "/homepage/hero/1.jpg",
+        "/homepage/hero/2.jpg",
+        "/homepage/hero/3.jpg"
+      ]
+    },
+    "images": {
+      "effortlessO": "/homepage/hero/1.jpg",
+      "designD": "/homepage/hero/2.jpg",
+      "aucklandO": "/homepage/hero/3.jpg"
+    },
+    "buttonText": "Call Now"
   },
   "brandInfo": {
     "main": {
@@ -59,7 +67,7 @@
     }
   },
   "services": {
-    "heading": "Services",
+    "heading": "Digital Inovation, Tailored for\nYour Business",
     "subheading": "We offer big agency services at small agency prices. Focused on three core disciplines we use our expertise to help you uncover your business needs, create traction and accelerate growth.",
     "rightCard": [
       {
