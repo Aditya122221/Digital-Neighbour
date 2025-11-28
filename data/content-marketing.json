@@ -2,7 +2,8 @@
   "content-marketing": {
     "hero": {
       "heading": "Content Marketing Services | Strategic Content Marketing Company",
-      "subheading": "Drive engagement, build authority, and convert visitors into customers with a creative marketing company you can trust. As a results-driven content marketing company, we deliver comprehensive content marketing services—strategy, creation, and distribution—that resonate with your audience and produce measurable growth across blogs, social, email, and video."
+      "subheading": "Drive engagement, build authority, and convert visitors into customers with a creative marketing company you can trust. As a results-driven content marketing company, we deliver comprehensive content marketing services—strategy, creation, and distribution—that resonate with your audience and produce measurable growth across blogs, social, email, and video.",
+      "bgVideo": "/socialMedia/contentBGVideo.mp4"
     },
     "form": {
       "heading": "Scale with Content Marketing Services",

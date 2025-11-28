@@ -12,8 +12,8 @@ function StrategicBlock({ icon, title, description }: StrategicBlockProps) {
     <div className="flex flex-col items-center text-center space-y-4">
       {/* Icon */}
       <div className="relative">
-        <div className="w-20 h-20 rounded-full border-2 flex items-center justify-center" style={{ borderColor: '#ffbe11', backgroundColor: 'rgba(255, 190, 17, 0.1)' }}>
-          <div className="text-2xl" style={{ color: '#ffbe11' }}>
+        <div className="w-20 h-20 rounded-full flex items-center justify-center bg-[#0e0e59]">
+          <div className="text-2xl text-white">
             {icon}
           </div>
         </div>
@@ -21,7 +21,7 @@ function StrategicBlock({ icon, title, description }: StrategicBlockProps) {
       
       {/* Content */}
       <div className="space-y-4 max-w-sm">
-        <h3 className="font-semibold text-xl leading-tight" style={{ color: '#ffbe11' }}>
+        <h3 className="font-semibold text-xl leading-tight text-black">
           {title}
         </h3>
         <p className="text-white text-base leading-relaxed">
@@ -54,7 +54,7 @@ export default function Strategic({ data, serviceName }: { data?: StrategicSecti
       <div 
         className="absolute inset-0 md:rounded-tl-[10%] md:rounded-tr-[10%]"
         style={{
-          backgroundColor: '#1a1a1a',
+          backgroundColor: '#5D50EB',
           backgroundImage: `url('/bullets-bg.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
@@ -66,7 +66,7 @@ export default function Strategic({ data, serviceName }: { data?: StrategicSecti
       <div className="relative z-10 container mx-auto px-6 lg:px-12">
         {/* Main Title */}
         <div className="text-center mb-16 md:mb-20">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight font-cal-sans" style={{ color: 'white' }}>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight font-cal-sans text-black">
             {heading}
           </h2>
         </div>

@@ -106,15 +106,17 @@ export default function Industries() {
 									}
 									className="shrink-0 w-1/2 md:w-1/3 xl:w-1/5 px-2 md:px-5"
 								>
-									<div className="bg-[#212121] text-center flex flex-col items-center justify-center px-3 h-full group relative rounded-md">
+									<div className="bg-[#5D50EB] text-center flex flex-col items-center justify-center px-3 h-full group relative rounded-md">
 										<div className="flex flex-col items-center justify-center py-4 md:py-0 md:group-hover:opacity-0 md:absolute md:inset-0 md:flex md:flex-col md:items-center md:justify-center">
-											<Icon
-												size={
-													48
-												}
-												className="mb-2 text-yellow items-center justify-center"
-												aria-hidden="true"
-											/>
+											<div className="mb-2 w-12 h-12 rounded-full bg-[#0e0e59] flex items-center justify-center">
+												<Icon
+													size={
+														24
+													}
+													className="text-white items-center justify-center"
+													aria-hidden="true"
+												/>
+											</div>
 											<p className="rfs:text-base font-semibold text-white">
 												{
 													title

@@ -52,10 +52,10 @@ export default function SocialMediaHero({ data }: SocialMediaHeroProps) {
 	return (
 		<section className="relative pt-20 md:pt-24 lg:pt-28 pb-0 overflow-x-hidden">
 			{/* Background */}
-			<div className="absolute inset-0 bg-black" />
+			<div className="absolute inset-0 bg-white" />
 
 			{/* Subtle vignette for depth */}
-			<div className="absolute inset-0 pointer-events-none [background:radial-gradient(70%_60%_at_50%_10%,rgba(255,224,49,0.15)_0%,transparent_60%)]" />
+			<div className="absolute inset-0 pointer-events-none" />
 
 			{/* Content */}
 			<div className="relative z-10 container mx-auto px-6 lg:px-12">
@@ -69,8 +69,45 @@ export default function SocialMediaHero({ data }: SocialMediaHeroProps) {
 						}}
 						className="text-center space-y-6 max-w-6xl mx-auto"
 					>
-						<h1 className="font-cal-sans font-semibold text-white leading-[0.95] text-[32px] md:text-5xl lg:text-6xl xl:text-7xl">
-							{heading}
+						<h1 className="font-cal-sans font-semibold text-black leading-[0.95] text-[32px] md:text-5xl lg:text-6xl xl:text-7xl">
+							{(() => {
+								const words =
+									heading.split(
+										/\s+/
+									)
+								const firstWord =
+									words[0] ||
+									""
+								const restWords =
+									words
+										.slice(
+											1
+										)
+										.join(
+											" "
+										)
+								return (
+									<>
+										<span
+											style={{
+												color: "#5D50EB",
+											}}
+										>
+											{
+												firstWord
+											}
+										</span>
+										{restWords && (
+											<span>
+												{" "}
+												{
+													restWords
+												}
+											</span>
+										)}
+									</>
+								)
+							})()}
 						</h1>
 						<p className="text-white/80 text-base md:text-lg lg:text-xl max-w-3xl mx-auto">
 							{subheading}
@@ -78,8 +115,8 @@ export default function SocialMediaHero({ data }: SocialMediaHeroProps) {
 						<CustomButton
 							text={ctaText}
 							href="/contact"
-							textColor="white"
-							borderColor="white"
+							textColor="#5D50EB"
+							borderColor="#5D50EB"
 							className="mt-4"
 						/>
 
