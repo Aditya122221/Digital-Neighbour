@@ -15,7 +15,7 @@ export default function Cta({ data }: CtaProps) {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="max-w-7xl mx-auto rounded-3xl bg-black text-white p-8 md:p-12 lg:p-16"
+        className="max-w-7xl mx-auto rounded-3xl bg-[#5D50EB] text-white p-8 md:p-12 lg:p-16"
       >
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           {/* Left copy */}

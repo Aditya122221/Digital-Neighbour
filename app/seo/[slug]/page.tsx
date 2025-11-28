@@ -70,8 +70,8 @@ const allowedSlugs = [
 const DEFAULT_SEO_SLUG = "search-engine-optimisation" as const
 
 // Force dynamic rendering to always fetch fresh data from Sanity
-export const dynamic = "force-dynamic";
-export const revalidate = 0;
+export const dynamic = "force-dynamic"
+export const revalidate = 0
 
 export async function generateMetadata({
 	params,
@@ -115,12 +115,15 @@ export async function generateMetadata({
 				DEFAULT_SEO_SLUG,
 				locationSlug
 			)
-			
+
 			// If not enabled for service, but it's a valid location slug, use it anyway
-			if (!ensuredLocation && isValidLocationSlug(locationSlug)) {
+			if (
+				!ensuredLocation &&
+				isValidLocationSlug(locationSlug)
+			) {
 				ensuredLocation = locationSlug
 			}
-			
+
 			if (!ensuredLocation) {
 				return {
 					title: "Page Not Found",
@@ -215,12 +218,15 @@ export default async function SeoSlugPage({
 				DEFAULT_SEO_SLUG,
 				locationSlug
 			)
-			
+
 			// If not enabled for service, but it's a valid location slug, use it anyway
-			if (!ensuredLocation && isValidLocationSlug(locationSlug)) {
+			if (
+				!ensuredLocation &&
+				isValidLocationSlug(locationSlug)
+			) {
 				ensuredLocation = locationSlug
 			}
-			
+
 			if (!ensuredLocation) {
 				notFound()
 			}
@@ -299,9 +305,9 @@ function renderSeoPage(data: SeoPageData) {
 			<CaseStudy />
 			<Faq data={data?.faq} />
 			<OtherServices />
-			<Blogs />
 			<TestimonalTwo />
 			<BookACall />
+			<Blogs />
 			<Footer />
 		</main>
 	)

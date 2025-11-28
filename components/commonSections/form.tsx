@@ -140,8 +140,8 @@ export default function Form({ data }: FormProps) {
                 <CustomButton
                   text={data?.buttonText || "Get My Audit"}
                   onClick={handleSubmit}
-                  textColor="black"
-                  borderColor="black"
+                  textColor="#5D50EB"
+                  borderColor="#5D50EB"
                   className="w-auto"
                 />
               </div>

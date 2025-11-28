@@ -163,18 +163,14 @@ export default function PainPoints({ data }: PainPointsProps) {
 						className="p-4 sm:p-6 md:p-8 space-y-0 rounded-t-2xl lg:rounded-tr-none lg:rounded-br-none lg:rounded-tl-[20px] lg:rounded-bl-[20px]"
 						style={{
 							backgroundColor:
-								"#1a1a1a",
+								"#5D50EB",
 						}}
 					>
 						<div className="flex items-center gap-3 sm:gap-4 mb-4 md:mb-6">
 							<div
-								className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg flex items-center justify-center flex-shrink-0"
-								style={{
-									backgroundColor:
-										"#ffbe11",
-								}}
+								className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg flex items-center justify-center flex-shrink-0 bg-[#0e0e59]"
 							>
-								<AlertCircle className="w-5 h-5 sm:w-6 sm:h-6 text-black" />
+								<AlertCircle className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
 							</div>
 							<h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-white">
 								Common
@@ -191,13 +187,9 @@ export default function PainPoints({ data }: PainPointsProps) {
 								>
 									<div className="flex items-start gap-3 sm:gap-4">
 										<div
-											className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg flex items-center justify-center flex-shrink-0"
-											style={{
-												backgroundColor:
-													"#ffbe11",
-											}}
+											className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg flex items-center justify-center flex-shrink-0 bg-[#0e0e59]"
 										>
-											<AlertCircle className="w-4 h-4 sm:w-5 sm:h-5 text-black" />
+											<AlertCircle className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
 										</div>
 										<span className="text-sm sm:text-base md:text-lg font-medium text-white leading-relaxed">
 											{
@@ -219,13 +211,9 @@ export default function PainPoints({ data }: PainPointsProps) {
 					<div className="bg-white p-4 sm:p-6 md:p-8 border border-gray-200 shadow-lg rounded-b-2xl lg:rounded-tl-none lg:rounded-bl-none lg:rounded-tr-[20px] lg:rounded-br-[20px]">
 						<div className="flex items-center gap-3 sm:gap-4 mb-4 md:mb-6">
 							<div
-								className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg flex items-center justify-center flex-shrink-0"
-								style={{
-									backgroundColor:
-										"#ffbe11",
-								}}
+								className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg flex items-center justify-center flex-shrink-0 bg-[#0e0e59]"
 							>
-								<CheckCircle2 className="w-5 h-5 sm:w-6 sm:h-6 text-black" />
+								<CheckCircle2 className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
 							</div>
 							<h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-blackbrown">
 								Our Solutions

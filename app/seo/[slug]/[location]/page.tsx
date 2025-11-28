@@ -207,10 +207,10 @@ export default async function SeoLocationPage({
       <CaseStudy />
       <Faq data={personalizedData?.faq} />
       <OtherServices />
-      <Blogs />
       <Testimonials />
       <TestimonalTwo />
-      <BookACall />
+        <BookACall />
+        <Blogs />
       <Footer />
     </main>
   );

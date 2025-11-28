@@ -278,10 +278,10 @@ html {
 
 /* Text selection color */
 ::selection {
-  background: #5D50EB;
+  background: #ffbe11;
   color: white;
 }
 ::-moz-selection {
-  background: #5D50EB;
+  background: #ffbe11;
   color: white;
 }

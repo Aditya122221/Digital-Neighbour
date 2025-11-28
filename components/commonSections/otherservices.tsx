@@ -87,7 +87,8 @@ export default function OtherServices() {
 				.contentMarketingServices,
 			slugMapping: (contentMarketingData as any).otherServices
 				.slugMapping,
-			config: (contentMarketingData as any).otherServices.config,
+			config: (contentMarketingData as any).otherServices
+				.config,
 		}
 	} else if (pathname.startsWith("/web-development")) {
 		// Use web development data
@@ -126,7 +127,7 @@ export default function OtherServices() {
 				.slugMapping,
 			config: (aiAutomationData as any).otherServices.config,
 		}
-    } else if (pathname.startsWith("/data-analytics")) {
+	} else if (pathname.startsWith("/data-analytics")) {
 		data = {
 			services: (dataAnalyticsData as any).otherServices
 				.dataAnalyticsServices,
@@ -134,22 +135,22 @@ export default function OtherServices() {
 				.slugMapping,
 			config: (dataAnalyticsData as any).otherServices.config,
 		}
-    } else if (pathname.startsWith("/industry")) {
-        data = {
-            services: (industriesData as any).otherServices
-                .industriesServices,
-            slugMapping: (industriesData as any).otherServices
-                .slugMapping,
-            config: (industriesData as any).otherServices.config,
-        }
-    } else if (pathname.startsWith("/professionals-marketing-agency")) {
-        data = {
-            services: (professionalsData as any).otherServices
-                .professionalsServices,
-            slugMapping: (professionalsData as any).otherServices
-                .slugMapping,
-            config: (professionalsData as any).otherServices.config,
-        }
+	} else if (pathname.startsWith("/industry")) {
+		data = {
+			services: (industriesData as any).otherServices
+				.industriesServices,
+			slugMapping: (industriesData as any).otherServices
+				.slugMapping,
+			config: (industriesData as any).otherServices.config,
+		}
+	} else if (pathname.startsWith("/professionals-marketing-agency")) {
+		data = {
+			services: (professionalsData as any).otherServices
+				.professionalsServices,
+			slugMapping: (professionalsData as any).otherServices
+				.slugMapping,
+			config: (professionalsData as any).otherServices.config,
+		}
 	} else {
 		// Default to SEO data (for /seo routes)
 		data = {
@@ -199,8 +200,8 @@ export default function OtherServices() {
 						config.columns === 3
 							? "lg:grid-cols-3"
 							: config.columns === 4
-							? "lg:grid-cols-4"
-							: "lg:grid-cols-2"
+								? "lg:grid-cols-4"
+								: "lg:grid-cols-2"
 					} gap-10`}
 				>
 					{serviceColumns.map(
@@ -241,7 +242,7 @@ export default function OtherServices() {
 												}
 												className="flex items-center gap-3 text-blackbrown/90"
 											>
-												<span className="w-2 h-2 rounded-full bg-yellow inline-block flex-shrink-0" />
+												<span className="w-2 h-2 rounded-full bg-[#5D50EB] inline-block flex-shrink-0" />
 												<Link
 													href={`${
 														config.baseUrl
@@ -267,4 +268,3 @@ export default function OtherServices() {
 		</section>
 	)
 }
-

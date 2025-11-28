@@ -47,7 +47,10 @@ export default function Features({ data }: FeaturesProps) {
 		},
 	]
 
-	const features = data?.features && data.features.length > 0 ? data.features : fallbackFeatures
+	const features =
+		data?.features && data.features.length > 0
+			? data.features
+			: fallbackFeatures
 
 	return (
 		<section className="relative py-16 md:py-24 lg:py-32">
@@ -55,7 +58,7 @@ export default function Features({ data }: FeaturesProps) {
 			<div
 				className="absolute inset-0 md:rounded-tl-[10%] md:rounded-tr-[10%]"
 				style={{
-					backgroundColor: "#1a1a1a",
+					backgroundColor: "#5D50EB",
 					backgroundImage: `url('/bullets-bg.png')`,
 					backgroundSize: "cover",
 					backgroundPosition: "center",
@@ -77,14 +80,17 @@ export default function Features({ data }: FeaturesProps) {
 					className="text-center mb-16 md:mb-20"
 				>
 					{data?.heading && (
-						<h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight font-cal-sans mb-4">
-							<span style={{ color: "white" }}>
-								{data.heading}
-							</span>
+						<h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight font-cal-sans mb-4 text-black">
+							{data.heading}
 						</h2>
 					)}
 					{data?.subheading && (
-						<p className="text-base md:text-lg leading-relaxed max-w-3xl mx-auto" style={{ color: "white" }}>
+						<p
+							className="text-base md:text-lg leading-relaxed max-w-3xl mx-auto"
+							style={{
+								color: "white",
+							}}
+						>
 							{data.subheading}
 						</p>
 					)}
@@ -94,107 +100,136 @@ export default function Features({ data }: FeaturesProps) {
 				<div className="space-y-12 md:space-y-16">
 					{/* Top Row - 3 blocks */}
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
-						{features.slice(0, 3).map((feature, index) => (
-							<motion.div
-								key={index}
-								initial={{ opacity: 0, y: 30 }}
-								whileInView={{ opacity: 1, y: 0 }}
-								viewport={{ once: true }}
-								transition={{
-									duration: 0.6,
-									ease: "easeOut",
-									delay: index * 0.1,
-								}}
-								className="flex flex-col items-center text-center space-y-4"
-							>
-								{/* Icon */}
-								<div className="relative">
-									<div
-										className="w-20 h-20 rounded-full border-2 flex items-center justify-center"
-										style={{
-											borderColor: "#ffbe11",
-											backgroundColor: "rgba(255, 190, 17, 0.1)",
+						{features
+							.slice(0, 3)
+							.map(
+								(
+									feature,
+									index
+								) => (
+									<motion.div
+										key={
+											index
+										}
+										initial={{
+											opacity: 0,
+											y: 30,
 										}}
+										whileInView={{
+											opacity: 1,
+											y: 0,
+										}}
+										viewport={{
+											once: true,
+										}}
+										transition={{
+											duration: 0.6,
+											ease: "easeOut",
+											delay:
+												index *
+												0.1,
+										}}
+										className="flex flex-col items-center text-center space-y-4"
 									>
-										<span className="text-4xl">
-											{feature.icon ? (
-												feature.icon
-											) : (
-												defaultIcons[index % defaultIcons.length]
-											)}
-										</span>
-									</div>
-								</div>
+										{/* Icon */}
+										<div className="relative">
+											<div className="w-20 h-20 rounded-full flex items-center justify-center bg-[#0e0e59]">
+												<span className="text-4xl">
+													{feature.icon
+														? feature.icon
+														: defaultIcons[
+																index %
+																	defaultIcons.length
+															]}
+												</span>
+											</div>
+										</div>
 
-								{/* Content */}
-								<div className="space-y-3 max-w-sm">
-									<h3
-										className="font-semibold text-xl leading-tight"
-										style={{ color: "#ffbe11" }}
-									>
-										{feature.title}
-									</h3>
-									<p
-										className="text-white text-base leading-relaxed"
-									>
-										{feature.description}
-									</p>
-								</div>
-							</motion.div>
-						))}
+										{/* Content */}
+										<div className="space-y-3 max-w-sm">
+											<h3 className="font-semibold text-xl leading-tight text-black">
+												{
+													feature.title
+												}
+											</h3>
+											<p className="text-white text-base leading-relaxed">
+												{
+													feature.description
+												}
+											</p>
+										</div>
+									</motion.div>
+								)
+							)}
 					</div>
 
 					{/* Bottom Row - 2 blocks centered */}
 					<div className="flex justify-center">
 						<div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 max-w-5xl">
-							{features.slice(3, 5).map((feature, index) => (
-								<motion.div
-									key={index + 3}
-									initial={{ opacity: 0, y: 30 }}
-									whileInView={{ opacity: 1, y: 0 }}
-									viewport={{ once: true }}
-									transition={{
-										duration: 0.6,
-										ease: "easeOut",
-										delay: (index + 3) * 0.1,
-									}}
-									className="flex flex-col items-center text-center space-y-4"
-								>
-									{/* Icon */}
-									<div className="relative">
-										<div
-											className="w-20 h-20 rounded-full border-2 flex items-center justify-center"
-											style={{
-												borderColor: "#ffbe11",
-												backgroundColor: "rgba(255, 190, 17, 0.1)",
+							{features
+								.slice(3, 5)
+								.map(
+									(
+										feature,
+										index
+									) => (
+										<motion.div
+											key={
+												index +
+												3
+											}
+											initial={{
+												opacity: 0,
+												y: 30,
 											}}
+											whileInView={{
+												opacity: 1,
+												y: 0,
+											}}
+											viewport={{
+												once: true,
+											}}
+											transition={{
+												duration: 0.6,
+												ease: "easeOut",
+												delay:
+													(index +
+														3) *
+													0.1,
+											}}
+											className="flex flex-col items-center text-center space-y-4"
 										>
-											<span className="text-4xl">
-												{feature.icon ? (
-													feature.icon
-												) : (
-													defaultIcons[(index + 3) % defaultIcons.length]
-												)}
-											</span>
-										</div>
-									</div>
+											{/* Icon */}
+											<div className="relative">
+												<div className="w-20 h-20 rounded-full flex items-center justify-center bg-[#0e0e59]">
+													<span className="text-4xl">
+														{feature.icon
+															? feature.icon
+															: defaultIcons[
+																	(index +
+																		3) %
+																		defaultIcons.length
+																]}
+													</span>
+												</div>
+											</div>
 
-									{/* Content */}
-									<div className="space-y-3 max-w-sm">
-										<h3
-											className="font-semibold text-xl leading-tight"
-											style={{ color: "#ffbe11" }}
-										>
-											{feature.title}
-										</h3>
-										<p
-											className="text-white text-base leading-relaxed"
-										>
-											{feature.description}
-										</p>
-									</div>
-								</motion.div>
-							))}
+											{/* Content */}
+											<div className="space-y-3 max-w-sm">
+												<h3 className="font-semibold text-xl leading-tight text-black">
+													{
+														feature.title
+													}
+												</h3>
+												<p className="text-white text-base leading-relaxed">
+													{
+														feature.description
+													}
+												</p>
+											</div>
+										</motion.div>
+									)
+								)}
 						</div>
 					</div>
 				</div>

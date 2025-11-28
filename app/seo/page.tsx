@@ -24,14 +24,13 @@ import TestimonalTwo from "@/components/homepage/testimonalTwo"
 import BookACall from "@/components/homepage/bookacall"
 
 // Force dynamic rendering to always fetch fresh data from Sanity
-export const dynamic = "force-dynamic";
-export const revalidate = 0;
+export const dynamic = "force-dynamic"
+export const revalidate = 0
 
 export async function generateMetadata(): Promise<Metadata> {
 	const seoOverview = await loadSeoPageData("seo")
 
-	const overviewHeading =
-		seoOverview?.hero?.heading ?? "SEO Services"
+	const overviewHeading = seoOverview?.hero?.heading ?? "SEO Services"
 	const overviewDescription =
 		seoOverview?.hero?.subheading ??
 		"Grow organic visibility, traffic, and revenue with full-funnel SEO programmes built for ambitious brands."
@@ -65,21 +64,25 @@ export default async function SeoOverviewPage() {
 				serviceCards={seoOverview.serviceCards}
 				basePath="/seo"
 			/>
-			<Content data={seoOverview.content} imagePathPrefix="/seo/content" />
+			<Content
+				data={seoOverview.content}
+				imagePathPrefix="/seo/content"
+			/>
 			<Cta data={seoOverview.services} />
 			<Apart />
-			<Process2 data={seoOverview.services} processData={seoOverview.process} />
+			<Process2
+				data={seoOverview.services}
+				processData={seoOverview.process}
+			/>
 			<KeyBenefits data={seoOverview.keyBenefits} />
 			<Features data={seoOverview.features} />
 			<CaseStudy />
 			<Faq data={seoOverview.faq} />
 			<OtherServices />
-			<Blogs />
 			<TestimonalTwo />
 			<BookACall />
+			<Blogs />
 			<Footer />
 		</main>
 	)
 }
-
-

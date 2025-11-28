@@ -24,7 +24,18 @@ export default function SeoHero({ data }: SeoHeroProps) {
             className="space-y-6 max-w-xl mx-auto"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-black leading-tight font-cal-sans">
-              {data.heading}
+              {(() => {
+                const heading = data.heading;
+                const words = heading.split(/\s+/);
+                const firstWord = words[0] || "";
+                const restWords = words.slice(1).join(" ");
+                return (
+                  <>
+                    <span style={{ color: "#5D50EB" }}>{firstWord}</span>
+                    {restWords && <span> {restWords}</span>}
+                  </>
+                );
+              })()}
             </h1>
             <p className="text-lg md:text-xl text-black leading-relaxed">
               {data.subheading}
@@ -32,8 +43,8 @@ export default function SeoHero({ data }: SeoHeroProps) {
             <CustomButton
               text="Talk to our SEO expert"
               href="/contact"
-              textColor="black"
-              borderColor="black"
+              textColor="#5D50EB"
+              borderColor="#5D50EB"
               className="mt-6"
             />
           </motion.div>

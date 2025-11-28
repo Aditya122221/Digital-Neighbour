@@ -225,7 +225,7 @@ export default function Services({
 									className={`flex-1 px-4 py-4 text-base md:text-lg font-medium transition-all duration-300 whitespace-nowrap ${
 										activeTab ===
 										service.id
-											? "bg-black text-white rounded-t-3xl"
+											? "bg-[#5D50EB] text-white rounded-t-3xl"
 											: "bg-transparent text-blackbrown hover:border-b hover:border-blackbrown/50"
 									} ${
 										index ===
@@ -253,7 +253,7 @@ export default function Services({
 				{activeService && (
 					<motion.div
 						key={activeTab}
-						className={`bg-black p-8 md:p-12 ${
+						className={`bg-[#5D50EB] p-8 md:p-12 ${
 							activeIndex === 0
 								? "rounded-b-3xl rounded-tr-3xl"
 								: activeIndex ===
@@ -295,8 +295,8 @@ export default function Services({
 											activeService.link ||
 											"/contact"
 										}
-										textColor="black"
-										borderColor="black"
+										textColor="white"
+										borderColor="white"
 									/>
 								</div>
 							</div>
@@ -307,7 +307,7 @@ export default function Services({
 									"string" &&
 								activeService.image.trim() !==
 									"" && (
-									<div className="relative w-full h-[300px] md:h-[400px] rounded-2xl overflow-hidden bg-black p-4 flex items-center justify-center">
+									<div className="relative w-full h-[300px] md:h-[400px] rounded-2xl overflow-hidden bg-[#0e0e59] p-4 flex items-center justify-center">
 										<Image
 											src={
 												activeService.image
