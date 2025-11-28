@@ -1,5 +1,21 @@
 import seoData from "@/data/seo.json"
 import { getSeoServiceBySlug } from "@/lib/sanity-service-data"
+import { sanityFetch } from "@/sanity/lib/fetch"
+import { seoPageQuery } from "@/sanity/lib/queries"
+import { urlForImage } from "@/sanity/lib/image"
+
+// Helper function to get image URL from Sanity image object
+const getImageUrl = (image: any): string | undefined => {
+	if (!image) return undefined
+	if (image.asset?.url) {
+		return image.asset.url
+	}
+	try {
+		return urlForImage(image).url()
+	} catch {
+		return undefined
+	}
+}
 
 export interface SeoPageData {
 	hero?: Record<string, any>
@@ -205,9 +221,111 @@ export function mergeSeoPageData(
 	}
 }
 
+/**
+ * Transform Sanity SEO page data to match the expected format
+ */
+function transformSeoPageData(sanityData: any): SeoPageData | null {
+	if (!sanityData) {
+		return null
+	}
+
+	return {
+		hero: sanityData.hero
+			? {
+					heading: sanityData.hero.heading,
+					subheading: sanityData.hero.subheading,
+				}
+			: undefined,
+		form: sanityData.form
+			? {
+					heading: sanityData.form.heading,
+					content: sanityData.form.content,
+					subContent: sanityData.form.subContent,
+					cta: sanityData.form.cta,
+					formHeading: sanityData.form.formHeading,
+					buttonText: sanityData.form.buttonText,
+				}
+			: undefined,
+		introParagraph: sanityData.introParagraph
+			? {
+					heading: sanityData.introParagraph.heading,
+					problemStatement: sanityData.introParagraph.problemStatement,
+					valueProposition: sanityData.introParagraph.valueProposition,
+				}
+			: undefined,
+		painPoints: sanityData.painPoints
+			? {
+					heading: sanityData.painPoints.heading,
+					subheading: sanityData.painPoints.subheading,
+					painPoints: sanityData.painPoints.painPoints || [],
+				}
+			: undefined,
+		services: sanityData.services?.serviceName,
+		serviceCards: sanityData.services?.serviceCards?.map((card: any) => ({
+			id: card.id,
+			name: card.name,
+			title: card.title,
+			description: card.description,
+			image: card.image ? getImageUrl(card.image) : undefined,
+		})),
+		content: sanityData.content
+			? {
+					heading: sanityData.content.heading,
+					text1: sanityData.content.text1,
+					text2: sanityData.content.text2,
+					text3: sanityData.content.text3,
+					image: sanityData.content.image
+						? getImageUrl(sanityData.content.image)
+						: undefined,
+					alt: sanityData.content.alt,
+				}
+			: undefined,
+		process: sanityData.process
+			? {
+					steps: sanityData.process.steps || [],
+					content: sanityData.process.content || [],
+				}
+			: undefined,
+		keyBenefits: sanityData.keyBenefits
+			? {
+					heading: sanityData.keyBenefits.heading,
+					subheading: sanityData.keyBenefits.subheading,
+					benefits: sanityData.keyBenefits.benefits || [],
+				}
+			: undefined,
+		features: sanityData.features
+			? {
+					heading: sanityData.features.heading,
+					subheading: sanityData.features.subheading,
+					features: sanityData.features.features || [],
+				}
+			: undefined,
+		faq: sanityData.faq
+			? {
+					serviceName: sanityData.faq.serviceName,
+					heading: sanityData.faq.heading,
+					subheading: sanityData.faq.subheading,
+					faqs: sanityData.faq.faqs || [],
+				}
+			: undefined,
+	}
+}
+
 export async function loadSeoPageData(
 	slugKey: string
 ): Promise<SeoPageData | null> {
+	// Try to fetch from the new seoPage schema for any SEO service page
+	try {
+		const sanityData = await sanityFetch(seoPageQuery, { slug: slugKey })
+		if (sanityData) {
+			const transformedData = transformSeoPageData(sanityData)
+			return mergeSeoPageData(transformedData, slugKey)
+		}
+	} catch (error) {
+		// Silently fallback to existing service data
+	}
+
+	// Fallback to existing service data if not found in Sanity
 	const remoteData = await getSeoServiceBySlug(slugKey)
 	return mergeSeoPageData(remoteData, slugKey)
 }

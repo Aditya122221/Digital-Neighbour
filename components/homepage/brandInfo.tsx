@@ -2,6 +2,7 @@
 
 import { Sparkles, Target, TrendingUp, Users2 } from "lucide-react"
 import Image from "next/image"
+import CustomButton from "../core/button"
 
 const iconMap = {
 	Target,
@@ -145,47 +146,77 @@ export default function BrandInfo({ data }: BrandInfoProps) {
 						</div>
 
 						<div className="grid gap-6 md:grid-cols-2">
-							{data.differentiators.map(
-								(
-									{
+							{data.differentiators
+								.slice(0, 3)
+								.map(
+									({
 										id,
 										title,
 										description,
 										icon,
-									},
-									index
-								) => {
+									}) => {
+										const IconComponent =
+											iconMap[
+												(icon as IconName) ??
+													"Target"
+											] ??
+											Target
+
+										return (
+											<article
+												key={
+													id
+												}
+												className="flex flex-col gap-4 rounded-2xl bg-white p-6"
+											>
+												<div className="flex items-center gap-3 text-[#5D50EB]">
+													<IconComponent
+														className="h-5 w-5 text-[#5D50EB]"
+														aria-hidden="true"
+													/>
+													<h4 className="text-lg font-semibold text-[#5D50EB]">
+														{
+															title
+														}
+													</h4>
+												</div>
+												<p className="text-sm leading-relaxed text-black">
+													{
+														description
+													}
+												</p>
+											</article>
+										)
+									}
+								)}
+							{/* CTA button always in fourth position */}
+							<div
+								key={`cta-button`}
+								className="flex items-center justify-center w-full min-h-[200px] rounded-2xl bg-transparent p-6"
+							>
+								<CustomButton
+									text="Connect with Us"
+									href="/contact"
+									className="w-full max-w-md"
+								/>
+							</div>
+							{/* Render 4th differentiator if it exists */}
+							{data
+								.differentiators[3] &&
+								(() => {
+									const item =
+										data
+											.differentiators[3]
 									const IconComponent =
 										iconMap[
-											(icon as IconName) ??
+											(item.icon as IconName) ??
 												"Target"
 										] ??
 										Target
-
-									// Add image at the fourth position (index 3)
-									if (
-										index ===
-										3
-									) {
-										return (
-											<div
-												key={`image-${id}`}
-												className="relative w-full h-full min-h-[200px] rounded-2xl overflow-hidden"
-											>
-												<Image
-													src="/placeholder.jpg"
-													alt="Brand info illustration"
-													fill
-													className="object-cover"
-												/>
-											</div>
-										)
-									}
-
 									return (
 										<article
 											key={
-												id
+												item.id
 											}
 											className="flex flex-col gap-4 rounded-2xl bg-white p-6"
 										>
@@ -196,19 +227,18 @@ export default function BrandInfo({ data }: BrandInfoProps) {
 												/>
 												<h4 className="text-lg font-semibold text-[#5D50EB]">
 													{
-														title
+														item.title
 													}
 												</h4>
 											</div>
 											<p className="text-sm leading-relaxed text-black">
 												{
-													description
+													item.description
 												}
 											</p>
 										</article>
 									)
-								}
-							)}
+								})()}
 						</div>
 					</div>
 

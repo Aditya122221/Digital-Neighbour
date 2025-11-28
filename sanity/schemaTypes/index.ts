@@ -23,6 +23,8 @@ import { aboutOrigins } from "./about-origins"
 import { aboutValues } from "./about-values"
 import { aboutAchievements } from "./about-achievements"
 import { aboutTeam } from "./about-team"
+import { seoPage } from "./seo-page"
+import { paidAdsPage } from "./paid-ads-page"
 
 export const schemaTypes = [
 	seoSettings,
@@ -50,4 +52,6 @@ export const schemaTypes = [
 	aboutValues,
 	aboutAchievements,
 	aboutTeam,
+	seoPage,
+	paidAdsPage,
 ]

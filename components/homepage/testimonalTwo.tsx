@@ -96,7 +96,7 @@ export default function TestimonalTwo() {
 					<div
 						className="flex h-full flex-col justify-between rounded-[32px] p-8 bg-[#e9e5ff] md:p-12"
 						style={{
-							boxShadow: "8px 8px 0 0 #0e0e59",
+							boxShadow: "8px 8px 0 0 #5D50EB",
 						}}
 					>
 						<div className="flex items-center gap-4">
@@ -141,9 +141,9 @@ export default function TestimonalTwo() {
 					{secondary.map((testimonial) => (
 						<article
 							key={testimonial.id}
-							className="flex h-full flex-col justify-between rounded-[24px] p-6 bg-[#0e0e59]"
+							className="flex h-full flex-col justify-between rounded-[24px] p-6 bg-[#5D50EB]"
 							style={{
-								boxShadow: "8px 8px 0 0 black",
+								boxShadow: "-8px 0 0 0 black",
 							}}
 						>
 							<div className="flex items-center justify-between">

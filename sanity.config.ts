@@ -247,6 +247,8 @@ export default defineConfig({
 					...ABOUT_PAGE_SECTIONS.map(
 						({ schemaType }) => schemaType
 					),
+					"seoPage",
+					"paidAdsPage",
 				])
 
 				return S.list()
@@ -268,6 +270,20 @@ export default defineConfig({
 							"About Page",
 							ABOUT_PAGE_SECTIONS
 						),
+						S.listItem()
+							.title("SEO Service Pages")
+							.child(
+								S.documentTypeList("seoPage")
+									.title("SEO Service Pages")
+									.filter('_type == "seoPage"')
+							),
+						S.listItem()
+							.title("Paid Ads Service Pages")
+							.child(
+								S.documentTypeList("paidAdsPage")
+									.title("Paid Ads Service Pages")
+									.filter('_type == "paidAdsPage"')
+							),
 						...S.documentTypeListItems().filter(
 							(listItem) =>
 								!hiddenTypeIds.has(

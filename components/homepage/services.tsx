@@ -173,7 +173,7 @@ export default function Services({ data }: ServicesProps) {
 						{cards.map((card) => (
 							<div
 								key={card.title}
-								className="bg-[#0e0e59] rounded-3xl shadow-2xl md:h-180 h-100 overflow-hidden group relative"
+								className="bg-[#5D50EB] rounded-3xl shadow-2xl md:h-180 h-100 overflow-hidden group relative"
 							>
 								{/* Top part - Video */}
 								<div className="md:h-2/3 h-1/2">

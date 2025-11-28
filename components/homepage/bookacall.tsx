@@ -58,7 +58,7 @@ export default function BookACall() {
               No sales pitch, just a genuine conversation with our agency's director about your business.
             </p>
 
-            <CustomButton text="Book a call" href="/contact" textColor="black" borderColor="black" />
+            <CustomButton text="Book a call" href="/contact" textColor="black" borderColor="black" iconBG="#5D50EB" iconColor="white" />
           </div>
         </div>
       </div>
