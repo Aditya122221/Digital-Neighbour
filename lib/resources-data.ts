@@ -164,9 +164,9 @@ function normalizeDate(value?: string): string {
 
 export async function getResourcesHeroContent(): Promise<ResourceHeroContent> {
 	try {
-		const hero = await sanityFetch<SanityHeroRecord | null>(
-			resourcesPageContentQuery
-		)
+		const hero = await sanityFetch<SanityHeroRecord | null>({
+			query: resourcesPageContentQuery,
+		})
 		const normalized = normalizeHeroContent(hero)
 		if (normalized) {
 			return normalized
@@ -183,9 +183,9 @@ export async function getResourcesHeroContent(): Promise<ResourceHeroContent> {
 
 export async function getAllResources(): Promise<ResourceArticle[]> {
 	try {
-		const entries = await sanityFetch<SanityResourceRecord[]>(
-			resourceArticlesQuery
-		)
+		const entries = await sanityFetch<SanityResourceRecord[]>({
+			query: resourceArticlesQuery,
+		})
 		const normalized =
 			entries
 				?.map((entry) => normalizeArticle(entry))
@@ -211,10 +211,10 @@ export async function getResourceBySlug(
 	if (!slug) return undefined
 
 	try {
-		const entry = await sanityFetch<SanityResourceRecord | null>(
-			resourceArticleBySlugQuery,
-			{ slug }
-		)
+		const entry = await sanityFetch<SanityResourceRecord | null>({
+			query: resourceArticleBySlugQuery,
+			params: { slug },
+		})
 		const normalized = normalizeArticle(entry)
 		if (normalized) {
 			return normalized
@@ -263,7 +263,7 @@ function transformSanityData(sanityData: any): ResourcesPageData | null {
 
 export async function getResourcesPageData(): Promise<ResourcesPageData> {
 	try {
-		const sanityData = await sanityFetch(resourcesPageQuery);
+		const sanityData = await sanityFetch({ query: resourcesPageQuery });
 		const transformed = transformSanityData(sanityData);
 		if (transformed && transformed.metadata) {
 			return transformed;

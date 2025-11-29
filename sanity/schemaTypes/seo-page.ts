@@ -147,18 +147,6 @@ export const seoPage = defineType({
 			],
 		}),
 
-		// Default Hero Image (for main "seo" slug)
-		defineField({
-			name: "heroImage",
-			title: "Default Hero Image",
-			type: "image",
-			group: "hero",
-			description: "Default hero image used for all SEO service pages. Can be overridden in individual slug's hero section.",
-			options: {
-				hotspot: true,
-			},
-		}),
-
 		// Hero Section
 		defineField({
 			name: "hero",

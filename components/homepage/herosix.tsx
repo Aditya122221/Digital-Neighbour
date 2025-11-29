@@ -18,6 +18,7 @@ type HeroData = {
 		aucklandO?: string
 	}
 	buttonText?: string
+	buttonLink?: string
 }
 
 type AnimatedTextConfig = {
@@ -99,6 +100,7 @@ export default function HeroSix({ data }: HeroSixProps) {
 		trustedBy,
 		images,
 		buttonText = "Call Now",
+		buttonLink = "/contact",
 	} = data
 
 	// Parse heading to identify where images should be embedded
@@ -339,7 +341,7 @@ export default function HeroSix({ data }: HeroSixProps) {
 				>
 					<CustomButton
 						text={buttonText}
-						href="/contact"
+						href={buttonLink}
 						textColor="white"
 						borderColor="white"
 						iconBG="white"

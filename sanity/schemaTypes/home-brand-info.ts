@@ -16,6 +16,12 @@ export const homeBrandInfo = defineType({
 					type: "string",
 				}),
 				defineField({
+					name: "highlightWord",
+					title: "Word/Phrase to Highlight",
+					type: "string",
+					description: "Word or phrase in the heading to highlight (e.g., 'trust to grow')",
+				}),
+				defineField({
 					name: "subheading",
 					title: "Subheading",
 					type: "text",
@@ -100,6 +106,20 @@ export const homeBrandInfo = defineType({
 					],
 				}),
 			],
+		}),
+		defineField({
+			name: "buttonText",
+			title: "CTA Button Text",
+			type: "string",
+			description: "Text for the CTA button",
+			initialValue: "Connect with Us",
+		}),
+		defineField({
+			name: "buttonLink",
+			title: "CTA Button Link",
+			type: "string",
+			description: "URL or path for the button (e.g., /contact)",
+			initialValue: "/contact",
 		}),
 	],
 	preview: {

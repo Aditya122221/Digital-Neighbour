@@ -51,16 +51,16 @@ export default async function HomePage() {
 			</div>
 			{/* <Banner /> */}
 			<BrandInfo data={homeData.brandInfo} />
-			<BrandsMarquee />
+			<BrandsMarquee data={homeData.trustedBrands} />
 			{/* <RevealCursor /> */}
 			<Services data={homeData.services} />
 			<KeepYourStack data={homeData.keepYourStack} />
 			<CaseStudy />
 			<FeatureSection data={homeData.contentSection} />
-			<Apart />
-			<TestimonalTwo />
+			<Apart data={homeData.apart} />
+			<TestimonalTwo data={homeData.testimonials} />
 			<Process2 processData={homeData.process} />
-			<BookACall />
+			<BookACall data={homeData.bookACall} />
 			<Blogs />
 			<Footer />
 		</main>

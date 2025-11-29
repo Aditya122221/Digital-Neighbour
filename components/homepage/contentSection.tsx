@@ -36,27 +36,27 @@ export default function ContentSection({ data }: ContentSectionProps) {
 
 	const { heading, subheading, benefits = [] } = data
 
-	const highlightHeading = () => {
-		if (!heading) {
-			return null
-		}
+	const highlightHeading = (
+		heading: string,
+		highlightWord?: string
+	) => {
+		if (!heading) return null;
+		if (!highlightWord) return heading;
 
-		const highlightTarget = "impact"
-		const lowerHeading = heading.toLowerCase()
-		const highlightIndex = lowerHeading.indexOf(highlightTarget)
+		const lowerHeading = heading.toLowerCase();
+		const lowerHighlight = highlightWord.toLowerCase();
+		const highlightIndex = lowerHeading.indexOf(lowerHighlight);
 
 		if (highlightIndex === -1) {
-			return heading
+			return heading;
 		}
 
-		const before = heading.slice(0, highlightIndex)
+		const before = heading.slice(0, highlightIndex);
 		const highlighted = heading.slice(
 			highlightIndex,
-			highlightIndex + highlightTarget.length
-		)
-		const after = heading.slice(
-			highlightIndex + highlightTarget.length
-		)
+			highlightIndex + highlightWord.length
+		);
+		const after = heading.slice(highlightIndex + highlightWord.length);
 
 		return (
 			<>
@@ -69,15 +69,15 @@ export default function ContentSection({ data }: ContentSectionProps) {
 				</span>
 				{after}
 			</>
-		)
-	}
+		);
+	};
 
 	return (
 		<section className="bg-white py-20">
 			<div className="mx-auto flex max-w-6xl flex-col gap-12 px-6 lg:px-12">
 				<header className="text-center">
 					<h2 className="mt-8 text-4xl font-semibold leading-tight text-black md:text-5xl lg:text-6xl font-cal-sans">
-						{highlightHeading()}
+						{highlightHeading(heading, data.highlightWord)}
 					</h2>
 					<p className="mx-auto mt-6 max-w-2xl text-base text-black md:text-lg">
 						{subheading}

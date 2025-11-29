@@ -102,7 +102,7 @@ const projectMap = new Map(
 
 export async function getPortfolioHero(): Promise<PortfolioHeroContent> {
 	try {
-		const sanityData = await sanityFetch(portfolioPageQuery);
+		const sanityData = await sanityFetch({ query: portfolioPageQuery });
 		const transformed = transformSanityData(sanityData);
 		if (transformed?.hero?.title) {
 			return transformed.hero;
@@ -121,7 +121,7 @@ export async function getPortfolioHero(): Promise<PortfolioHeroContent> {
 
 export async function getPortfolioProjects(): Promise<PortfolioProject[]> {
 	try {
-		const sanityData = await sanityFetch(portfolioPageQuery);
+		const sanityData = await sanityFetch({ query: portfolioPageQuery });
 		const transformed = transformSanityData(sanityData);
 		if (transformed?.projects && transformed.projects.length > 0) {
 			return transformed.projects;
@@ -159,7 +159,7 @@ export async function getPortfolioProjectBySlug(
 
 export async function getPortfolioPageData(): Promise<PortfolioPageData> {
 	try {
-		const sanityData = await sanityFetch(portfolioPageQuery);
+		const sanityData = await sanityFetch({ query: portfolioPageQuery });
 		const transformed = transformSanityData(sanityData);
 		if (transformed && transformed.metadata) {
 			return transformed;

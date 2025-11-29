@@ -540,9 +540,9 @@ export async function getAboutPageData(): Promise<AboutPageData> {
   );
 
   try {
-    const sanityData = await sanityFetch<SanityAboutPageData | null>(
-      aboutPageQuery,
-    );
+    const sanityData = await sanityFetch<SanityAboutPageData | null>({
+      query: aboutPageQuery,
+    });
     return mergeAboutData(fallback, normalizeSanityData(sanityData));
   } catch (error) {
     console.error("Failed to fetch about page data from Sanity:", error);

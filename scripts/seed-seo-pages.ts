@@ -146,18 +146,6 @@ async function seedSeoPage(client: SanityClient, slug: string, pageData: any) {
 	try {
 		console.log(`\n🌱 Seeding SEO page: ${slug}`)
 
-		// Upload hero image if it exists in the path
-		// Check if there's a hero image path (default would be in public/seo/hero.webp or hero.png)
-		const defaultHeroImagePath = "/seo/hero.webp"
-		const heroImageRef =
-			slug === "seo"
-				? await uploadImageFromPath(
-						client,
-						defaultHeroImagePath,
-						"SEO Marketing Hero"
-					)
-				: undefined
-
 		// Upload content image if exists
 		// Handle both relative paths (e.g., "seo.png") and absolute paths (e.g., "/seo/content/seo.png")
 		let contentImagePath = undefined
@@ -186,7 +174,6 @@ async function seedSeoPage(client: SanityClient, slug: string, pageData: any) {
 			_id: `seoPage-${slug}`,
 			slug: createSlug(slug),
 			serviceName: pageData.services || "SEO Service",
-			...(heroImageRef && { heroImage: heroImageRef }),
 			hero: {
 				heading: pageData.hero?.heading || "",
 				subheading: pageData.hero?.subheading || "",

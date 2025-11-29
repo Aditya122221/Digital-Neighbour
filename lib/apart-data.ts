@@ -10,7 +10,7 @@ type ApartPageData = {
 export async function getApartPageData(): Promise<ApartPageData> {
   try {
     // Fetch fresh data from Sanity (no caching due to page-level dynamic config)
-    const sanityData = await sanityFetch<ApartPageData>(apartPageQuery);
+    const sanityData = await sanityFetch<ApartPageData>({ query: apartPageQuery });
     // Return Sanity data if it exists, even if arrays are empty
     if (sanityData) {
       return {

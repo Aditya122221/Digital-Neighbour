@@ -1,47 +1,69 @@
 import Marquee from "react-fast-marquee"
 
-export default function BrandsMarquee() {
-	const logos = [
-		{ name: "A1", path: "/topbrands/A1-Logo.png" },
-		{
-			name: "Balustrading Concepts",
-			path: "/topbrands/balustrading-concepts-logo.jpg.webp",
-		},
-		{
-			name: "Christchurch City Flowers",
-			path: "/topbrands/christchurchcityflowers-logo.webp",
-		},
-		{ name: "City Clean", path: "/topbrands/cityclean-logo.png" },
-		{ name: "CSG", path: "/topbrands/csg-logo.png" },
-		{ name: "Foodland", path: "/topbrands/foodland-logo.webp" },
-		{ name: "Krishna", path: "/topbrands/krishna-logo.jpg" },
-		{
-			name: "Little Climbers",
-			path: "/topbrands/littleclimbers-logo.webp",
-		},
-		{
-			name: "Mughal Kitchen",
-			path: "/topbrands/mughalkitchen-logo.jpg",
-		},
-		{ name: "PRA", path: "/topbrands/pra-logo.png" },
-		{
-			name: "Quality Care Dental",
-			path: "/topbrands/qualitycaredental.jpg",
-		},
-		{ name: "VP", path: "/topbrands/vp-logo.png" },
-	]
+const fallbackLogos = [
+	{ name: "A1", path: "/topbrands/A1-Logo.png" },
+	{
+		name: "Balustrading Concepts",
+		path: "/topbrands/balustrading-concepts-logo.jpg.webp",
+	},
+	{
+		name: "Christchurch City Flowers",
+		path: "/topbrands/christchurchcityflowers-logo.webp",
+	},
+	{ name: "City Clean", path: "/topbrands/cityclean-logo.png" },
+	{ name: "CSG", path: "/topbrands/csg-logo.png" },
+	{ name: "Foodland", path: "/topbrands/foodland-logo.webp" },
+	{ name: "Krishna", path: "/topbrands/krishna-logo.jpg" },
+	{
+		name: "Little Climbers",
+		path: "/topbrands/littleclimbers-logo.webp",
+	},
+	{
+		name: "Mughal Kitchen",
+		path: "/topbrands/mughalkitchen-logo.jpg",
+	},
+	{ name: "PRA", path: "/topbrands/pra-logo.png" },
+	{
+		name: "Quality Care Dental",
+		path: "/topbrands/qualitycaredental.jpg",
+	},
+	{ name: "VP", path: "/topbrands/vp-logo.png" },
+]
+
+type BrandsMarqueeProps = {
+	data?: {
+		heading?: string;
+		logos?: {
+			name?: string;
+			image?: string;
+		}[];
+	};
+}
+
+export default function BrandsMarquee({ data }: BrandsMarqueeProps) {
+	const logos = data?.logos && data.logos.length > 0
+		? data.logos.map((logo) => ({
+				name: logo.name || "",
+				path: logo.image || "",
+			}))
+		: fallbackLogos;
+
+	const heading = data?.heading || "Trusted by top brands";
 
 	return (
 		<section className="py-16 bg-[#e9e5ff] overflow-hidden">
 			<div className="px-6 lg:px-32">
 				<h2 className="text-4xl md:text-5xl font-regular text-center text-blackbrown mb-20 text-balance font-cal-sans tracking-wide">
-					Trusted by{" "}
-					<span className="relative inline-block">
-						<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
-						<span className="relative z-10 font-medium italic">
-							top brands
+					{heading.split("top brands")[0]}
+					{heading.includes("top brands") && (
+						<span className="relative inline-block">
+							<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
+							<span className="relative z-10 font-medium italic">
+								top brands
+							</span>
 						</span>
-					</span>
+					)}
+					{heading.split("top brands")[1]}
 				</h2>
 
 				<Marquee

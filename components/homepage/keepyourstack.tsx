@@ -21,10 +21,50 @@ type KeepYourStackProps = {
 	data?: KeepYourStackData
 }
 
+const highlightHeading = (
+	heading: string,
+	highlight?: string
+) => {
+	if (!heading) return null;
+	if (!highlight) return heading;
+
+	const lowerHeading = heading.toLowerCase();
+	const lowerHighlight = highlight.toLowerCase();
+	const highlightIndex = lowerHeading.indexOf(lowerHighlight);
+
+	if (highlightIndex === -1) {
+		return heading;
+	}
+
+	const before = heading.slice(0, highlightIndex);
+	const highlighted = heading.slice(
+		highlightIndex,
+		highlightIndex + highlight.length
+	);
+	const after = heading.slice(highlightIndex + highlight.length);
+
+	return (
+		<>
+			{before}
+			<span className="relative inline-block">
+				<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
+				<span className="relative z-10 font-medium italic">
+					{highlighted}
+				</span>
+			</span>
+			{after}
+		</>
+	);
+};
+
 export default function KeepYourStack({ data }: KeepYourStackProps) {
 	if (!data) {
 		return null
 	}
+
+	const heading = data.heading || "Keep your existing tech stack";
+	const highlight = data.highlightWord || data.highlight || "tech stack";
+	const description = data.description || "We work with your platforms, meaning we seamlessly slot into your team";
 
 	return (
 		<section className="bg-pink/20 py-20 px-6 overflow-hidden">
@@ -43,18 +83,10 @@ export default function KeepYourStack({ data }: KeepYourStackProps) {
 					}}
 				>
 					<h2 className="text-4xl md:text-6xl font-regular text-blackbrown mb-6 text-balance font-cal-sans tracking-wide">
-						Keep your existing{" "}
-						<span className="relative inline-block">
-							<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
-							<span className="relative z-10 font-medium italic">
-								tech stack
-							</span>
-						</span>
+						{highlightHeading(heading, highlight)}
 					</h2>
 					<p className="text-lg md:text-xl font-light text-blackbrown/80 max-w-2xl mx-auto text-pretty">
-						We work with your platforms,
-						meaning we seamlessly slot into
-						your team
+						{description}
 					</p>
 				</motion.div>
 

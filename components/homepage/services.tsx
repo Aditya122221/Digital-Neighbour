@@ -12,6 +12,8 @@ type ServiceCard = {
 type ServicesSection = {
 	heading: string
 	subheading: string
+	buttonText?: string
+	buttonLink?: string
 	rightCard: ServiceCard[]
 }
 
@@ -26,112 +28,69 @@ export default function Services({ data }: ServicesProps) {
 
 	const cards = Array.isArray(data.rightCard) ? data.rightCard : []
 
-	const highlightHeading = () => {
-		if (!data.heading) {
-			return null
-		}
+	const highlightHeading = (
+		heading: string,
+		highlightWord?: string
+	) => {
+		if (!heading) return null;
 
 		// Split by newline to handle line breaks
-		const lines = data.heading.split("\n")
+		const lines = heading.split("\n");
 
-		// Common important phrases and words to highlight (phrases first, then words)
-		const highlightPhrases = ["your business"]
-		const highlightWords = [
-			"services",
-			"growth",
-			"business",
-			"marketing",
-			"solutions",
-		]
+		if (!highlightWord) {
+			return (
+				<>
+					{lines.map((line, lineIndex) => (
+						<span key={lineIndex}>
+							{lineIndex > 0 && <br />}
+							{line}
+						</span>
+					))}
+				</>
+			);
+		}
+
+		const lowerHighlight = highlightWord.toLowerCase();
 
 		return (
 			<>
 				{lines.map((line, lineIndex) => {
-					const lowerHeading = line.toLowerCase()
-
-					// First check for phrases
-					let highlightIndex = -1
-					let highlightLength = 0
-					let highlightText = ""
-
-					for (const phrase of highlightPhrases) {
-						const index =
-							lowerHeading.indexOf(
-								phrase
-							)
-						if (index !== -1) {
-							highlightIndex = index
-							highlightLength =
-								phrase.length
-							highlightText = phrase
-							break
-						}
-					}
-
-					// If no phrase found, check for individual words
-					if (highlightIndex === -1) {
-						for (const word of highlightWords) {
-							const index =
-								lowerHeading.indexOf(
-									word
-								)
-							if (index !== -1) {
-								highlightIndex =
-									index
-								highlightLength =
-									word.length
-								highlightText =
-									word
-								break
-							}
-						}
-					}
+					const lowerHeading = line.toLowerCase();
+					const highlightIndex = lowerHeading.indexOf(lowerHighlight);
 
 					if (highlightIndex === -1) {
 						return (
 							<span key={lineIndex}>
-								{lineIndex >
-									0 && (
-									<br />
-								)}
+								{lineIndex > 0 && <br />}
 								{line}
 							</span>
-						)
+						);
 					}
 
-					const before = line.slice(
-						0,
-						highlightIndex
-					)
+					const before = line.slice(0, highlightIndex);
 					const highlighted = line.slice(
 						highlightIndex,
-						highlightIndex + highlightLength
-					)
-					const after = line.slice(
-						highlightIndex + highlightLength
-					)
+						highlightIndex + highlightWord.length
+					);
+					const after = line.slice(highlightIndex + highlightWord.length);
 
 					return (
 						<span key={lineIndex}>
-							{lineIndex > 0 && (
-								<br />
-							)}
+							{lineIndex > 0 && <br />}
 							{before}
 							<span className="relative inline-block">
 								<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow" />
 								<span className="relative z-10 font-semibold">
-									{
-										highlighted
-									}
+									{highlighted}
 								</span>
 							</span>
 							{after}
 						</span>
-					)
+					);
 				})}
 			</>
-		)
-	}
+		);
+	};
 
 	return (
 		<section className="bg-gradient-to-b from-pink/20 to-white">
@@ -159,7 +118,7 @@ export default function Services({ data }: ServicesProps) {
 									ease: "easeOut",
 								}}
 							>
-								{highlightHeading()}
+								{highlightHeading(data.heading, data.highlightWord)}
 							</motion.h2>
 							<motion.p
 								className="md:text-xl text-lg text-blackbrown font-light leading-relaxed max-w-lg"
@@ -206,8 +165,8 @@ export default function Services({ data }: ServicesProps) {
 								}}
 							>
 								<CustomButton
-									text="Contact Us"
-									href="/contact"
+									text={data.buttonText || "Contact Us"}
+									href={data.buttonLink || "/contact"}
 									textColor="black"
 									borderColor="black"
 								/>

@@ -13,6 +13,12 @@ export const homeHero = defineType({
 			validation: (Rule) => Rule.required(),
 		}),
 		defineField({
+			name: "highlightWord",
+			title: "Word/Phrase to Highlight",
+			type: "string",
+			description: "Word or phrase in the heading to highlight (e.g., 'effortless', 'design', 'auckland')",
+		}),
+		defineField({
 			name: "subheading",
 			title: "Subheading",
 			type: "text",
@@ -28,8 +34,15 @@ export const homeHero = defineType({
 			},
 		}),
 		defineField({
-			name: "images",
-			title: "Hero Images",
+			name: "trustedByText",
+			title: "Trusted By Text",
+			type: "string",
+			description: "Text displayed above the trusted by images",
+			initialValue: "Trusted by founders",
+		}),
+		defineField({
+			name: "topImages",
+			title: "Top Images (Trusted By Section)",
 			type: "array",
 			of: [
 				defineField({
@@ -48,7 +61,54 @@ export const homeHero = defineType({
 					],
 				}),
 			],
-			description: "Images for the hero section",
+			description: "Exactly 3 images for the 'Trusted By' section at the top",
+			validation: (Rule) =>
+				Rule.length(3).error("You must provide exactly 3 images"),
+		}),
+		defineField({
+			name: "inlineImages",
+			title: "Inline Images (Between Words)",
+			type: "array",
+			of: [
+				defineField({
+					type: "image",
+					name: "image",
+					options: {
+						hotspot: true,
+					},
+					fields: [
+						defineField({
+							name: "alt",
+							title: "Alt Text",
+							type: "string",
+							description: "Alternative text for the image",
+						}),
+						defineField({
+							name: "word",
+							title: "Associated Word",
+							type: "string",
+							description: "The word after which this image should appear (e.g., 'effortless', 'design', 'auckland')",
+						}),
+					],
+				}),
+			],
+			description: "Exactly 3 images that appear inline between words in the heading",
+			validation: (Rule) =>
+				Rule.length(3).error("You must provide exactly 3 images"),
+		}),
+		defineField({
+			name: "buttonText",
+			title: "Button Text",
+			type: "string",
+			description: "Text for the CTA button",
+			initialValue: "Call Now",
+		}),
+		defineField({
+			name: "buttonLink",
+			title: "Button Link",
+			type: "string",
+			description: "URL or path for the button (e.g., /contact)",
+			initialValue: "/contact",
 		}),
 	],
 	preview: {

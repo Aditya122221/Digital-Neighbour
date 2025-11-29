@@ -11,6 +11,18 @@ import {
   dataAnalyticsServiceByTitleQuery,
   industriesServiceByTitleQuery,
   professionalMarketingServiceByTitleQuery,
+  // New page queries
+  seoPageQuery,
+  paidAdsPageQuery,
+  socialMediaPageQuery,
+  contentMarketingPageQuery,
+  webDevelopmentPageQuery,
+  appDevelopmentPageQuery,
+  hostingItSecurityPageQuery,
+  aiAutomationPageQuery,
+  dataAnalyticsPageQuery,
+  industriesPageQuery,
+  professionalsMarketingPageQuery,
 } from "@/sanity/lib/queries";
 import { serviceFieldConfig } from "@/sanity/schemaTypes/serviceFieldConfig";
 
@@ -110,7 +122,7 @@ async function getServiceByTitle(
   }
 
   try {
-    const data = await sanityFetch(serviceConfig.query, { title });
+    const data = await sanityFetch({ query: serviceConfig.query, params: { title } });
     return data;
   } catch (error) {
     console.error(
@@ -209,14 +221,41 @@ export async function getProfessionalMarketingServiceBySlug(
   return getServiceBySlug("professionals", slug);
 }
 
+// Map service types to their new page queries
+const pageQueryMap: Record<string, string> = {
+  seo: seoPageQuery,
+  "paid-advertisement": paidAdsPageQuery,
+  "social-media-marketing": socialMediaPageQuery,
+  "content-marketing": contentMarketingPageQuery,
+  "web-development": webDevelopmentPageQuery,
+  "app-development": appDevelopmentPageQuery,
+  "hosting-it-security": hostingItSecurityPageQuery,
+  "ai-automation": aiAutomationPageQuery,
+  "data-analytics": dataAnalyticsPageQuery,
+  industries: industriesPageQuery,
+  professionals: professionalsMarketingPageQuery,
+};
+
 /**
  * Generic function to fetch service data from Sanity by slug
+ * First tries new page schema types, then falls back to old service types
  */
 export async function getServiceBySlug(
   serviceType: keyof typeof serviceTypeMap,
   slug: string
 ): Promise<any> {
-  // Try to get title from slug
+  // First, try fetching from new page schema types (seoPage, paidAdsPage, etc.)
+  const pageQuery = pageQueryMap[serviceType];
+  if (pageQuery) {
+    try {
+      const data = await sanityFetch({ query: pageQuery, params: { slug } });
+      if (data) return data;
+    } catch (error) {
+      // Silently continue to fallback
+    }
+  }
+
+  // Fallback to old service schema types
   const title = slugToTitle(slug);
 
   if (!title) {
@@ -224,7 +263,7 @@ export async function getServiceBySlug(
     return null;
   }
 
-  // Fetch from Sanity
+  // Fetch from Sanity using old schema types
   const sanityData = await getServiceByTitle(serviceType, title);
 
   return sanityData;

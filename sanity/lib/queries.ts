@@ -20,7 +20,11 @@ export const homePageQuery = `{
   "hero": *[_type == "homeHero"][0]{
     heading,
     subheading,
-    images[]{
+    buttonText,
+    buttonLink,
+    trustedByText,
+    highlightWord,
+    topImages[]{
       ...,
       asset->{
         _id,
@@ -28,11 +32,22 @@ export const homePageQuery = `{
         metadata
       },
       alt
+    },
+    inlineImages[]{
+      ...,
+      asset->{
+        _id,
+        url,
+        metadata
+      },
+      alt,
+      word
     }
   },
   "brandInfo": *[_type == "homeBrandInfo"][0]{
     main{
       heading,
+      highlightWord,
       subheading
     },
     differentiators[]{
@@ -49,11 +64,16 @@ export const homePageQuery = `{
         value,
         label
       }
-    }
+    },
+    buttonText,
+    buttonLink
   },
   "services": *[_type == "homeServices"][0]{
     heading,
+    highlightWord,
     subheading,
+    buttonText,
+    buttonLink,
     "rightCard": cards[]{
       title,
       subheading[],
@@ -68,6 +88,7 @@ export const homePageQuery = `{
   "keepYourStack": *[_type == "homeTechStack"][0]{
     heading,
     highlight,
+    highlightWord,
     description,
     logos[]{
       name,
@@ -85,6 +106,7 @@ export const homePageQuery = `{
   },
   "contentSection": *[_type == "homeContent"][0]{
     heading,
+    highlightWord,
     subheading,
     benefits[]{
       id,
@@ -333,14 +355,6 @@ export const seoPageQuery = `*[_type == "seoPage" && slug.current == $slug][0]{
     current
   },
   serviceName,
-  heroImage{
-    ...,
-    asset->{
-      _id,
-      url,
-      metadata
-    }
-  },
   seoSettings{
     title,
     description,
@@ -450,17 +464,6 @@ export const seoPageQuery = `*[_type == "seoPage" && slug.current == $slug][0]{
     faqs[]{
       q,
       a
-    }
-  }
-}`;
-
-export const seoDefaultHeroImageQuery = `*[_type == "seoPage" && slug.current == "seo"][0]{
-  heroImage{
-    ...,
-    asset->{
-      _id,
-      url,
-      metadata
     }
   }
 }`;
@@ -1844,6 +1847,143 @@ export const industriesServiceByTitleQuery = `*[_type == "industriesService" && 
     }
   }
 }`;
+
+// Generic page query template - can be reused for all page types
+const createPageQuery = (type: string) => `*[_type == "${type}" && slug.current == $slug][0]{
+  slug{
+    current
+  },
+  serviceName,
+  seoSettings{
+    title,
+    description,
+    keywords,
+    ogTitle,
+    ogDescription,
+    ogImage{
+      ...,
+      asset->{
+        _id,
+        url,
+        metadata
+      }
+    },
+    canonicalUrl
+  },
+  hero{
+    heading,
+    subheading,
+    image{
+      ...,
+      asset->{
+        _id,
+        url,
+        metadata
+      }
+    }
+  },
+  form{
+    heading,
+    content,
+    subContent,
+    cta,
+    formHeading,
+    buttonText
+  },
+  services,
+  serviceCards[]{
+    id,
+    name,
+    title,
+    description,
+    image{
+      ...,
+      asset->{
+        _id,
+        url,
+        metadata
+      }
+    },
+    link
+  },
+  process{
+    steps[],
+    content[]
+  },
+  strategic{
+    heading,
+    blocks[]{
+      icon,
+      title,
+      description
+    }
+  },
+  introParagraph{
+    heading,
+    problemStatement,
+    valueProposition
+  },
+  painPoints{
+    heading,
+    subheading,
+    painPoints[]{
+      problem,
+      solution
+    }
+  },
+  keyBenefits{
+    heading,
+    subheading,
+    benefits[]{
+      title,
+      description
+    }
+  },
+  features{
+    heading,
+    subheading,
+    features[]{
+      title,
+      description,
+      icon
+    }
+  },
+  content{
+    heading,
+    text1,
+    text2,
+    text3,
+    image{
+      ...,
+      asset->{
+        _id,
+        url,
+        metadata
+      }
+    },
+    alt
+  },
+  faq{
+    serviceName,
+    heading,
+    subheading,
+    faqs[]{
+      q,
+      a
+    }
+  }
+}`;
+
+// New page queries for all service page types
+export const socialMediaPageQuery = createPageQuery("socialMediaPage");
+export const contentMarketingPageQuery = createPageQuery("contentMarketingPage");
+export const webDevelopmentPageQuery = createPageQuery("webDevelopmentPage");
+export const appDevelopmentPageQuery = createPageQuery("appDevelopmentPage");
+export const hostingItSecurityPageQuery = createPageQuery("hostingItSecurityPage");
+export const aiAutomationPageQuery = createPageQuery("aiAutomationPage");
+export const dataAnalyticsPageQuery = createPageQuery("dataAnalyticsPage");
+export const industriesPageQuery = createPageQuery("industriesPage");
+export const professionalsMarketingPageQuery = createPageQuery("professionalsMarketingPage");
 
 export const professionalMarketingServiceByTitleQuery = `*[_type == "professionalMarketingService" && serviceName == $title][0]{
   _id,

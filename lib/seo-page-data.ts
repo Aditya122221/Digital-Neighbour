@@ -1,7 +1,7 @@
 import seoData from "@/data/seo.json"
 import { getSeoServiceBySlug } from "@/lib/sanity-service-data"
 import { sanityFetch } from "@/sanity/lib/fetch"
-import { seoPageQuery, seoDefaultHeroImageQuery } from "@/sanity/lib/queries"
+import { seoPageQuery } from "@/sanity/lib/queries"
 import { urlForImage } from "@/sanity/lib/image"
 
 // Helper function to get image URL from Sanity image object
@@ -237,12 +237,10 @@ function transformSeoPageData(sanityData: any): SeoPageData | null {
 		return null
 	}
 
-	// Determine hero image: use slug-specific override if available, otherwise use default
+	// Get hero image from hero section if available
 	const heroImage = sanityData.hero?.image
 		? getImageUrl(sanityData.hero.image)
-		: sanityData.heroImage
-			? getImageUrl(sanityData.heroImage)
-			: undefined
+		: undefined
 
 	return {
 		hero: sanityData.hero
@@ -330,40 +328,12 @@ function transformSeoPageData(sanityData: any): SeoPageData | null {
 export async function loadSeoPageData(
 	slugKey: string
 ): Promise<SeoPageData | null> {
-	// Fetch default hero image from the main "seo" slug
-	let defaultHeroImage: string | undefined = undefined
-	try {
-		const defaultSeoData = await sanityFetch(seoDefaultHeroImageQuery, {})
-		if (defaultSeoData?.heroImage) {
-			defaultHeroImage = getImageUrl(defaultSeoData.heroImage)
-		}
-	} catch (error) {
-		// Silently continue if we can't fetch default image
-	}
-
 	// Try to fetch from the new seoPage schema for any SEO service page
 	try {
-		const sanityData = await sanityFetch(seoPageQuery, { slug: slugKey })
+		const sanityData = await sanityFetch({ query: seoPageQuery, params: { slug: slugKey } })
 		if (sanityData) {
 			const transformedData = transformSeoPageData(sanityData)
-			
-			// If no image in transformed data, use the default hero image
-			if (!transformedData?.hero?.image && defaultHeroImage) {
-				if (transformedData.hero) {
-					transformedData.hero.image = defaultHeroImage
-				} else {
-					transformedData.hero = { image: defaultHeroImage } as any
-				}
-			}
-			
-			const mergedData = mergeSeoPageData(transformedData, slugKey)
-			
-			// Ensure default hero image is used if no override exists
-			if (mergedData?.hero && !mergedData.hero.image && defaultHeroImage) {
-				mergedData.hero.image = defaultHeroImage
-			}
-			
-			return mergedData
+			return mergeSeoPageData(transformedData, slugKey)
 		}
 	} catch (error) {
 		// Silently fallback to existing service data
@@ -371,13 +341,6 @@ export async function loadSeoPageData(
 
 	// Fallback to existing service data if not found in Sanity
 	const remoteData = await getSeoServiceBySlug(slugKey)
-	const mergedData = mergeSeoPageData(remoteData, slugKey)
-	
-	// Add default hero image if not present in merged data
-	if (mergedData?.hero && !mergedData.hero.image && defaultHeroImage) {
-		mergedData.hero.image = defaultHeroImage
-	}
-	
-	return mergedData
+	return mergeSeoPageData(remoteData, slugKey)
 }
 

@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 
-const testimonials = [
+const fallbackTestimonials = [
 	{
 		id: 1,
 		quote: "Smart design, smooth delivery, Franklin is great to work with.",
@@ -59,7 +59,35 @@ function getInitials(name: string) {
 		.toUpperCase()
 }
 
-export default function TestimonalTwo() {
+type TestimonalTwoProps = {
+	data?: {
+		eyebrow?: string;
+		heading?: string;
+		testimonials?: {
+			quote?: string;
+			author?: string;
+			position?: string;
+			number?: string;
+			image?: string;
+		}[];
+	};
+}
+
+export default function TestimonalTwo({ data }: TestimonalTwoProps) {
+	const testimonials = data?.testimonials && data.testimonials.length > 0
+		? data.testimonials.map((t, index) => ({
+				id: index + 1,
+				quote: t.quote || "",
+				author: t.author || "",
+				position: t.position || "",
+				number: t.number || `${String(index + 1).padStart(2, "0")}/${String(data.testimonials?.length || 5).padStart(2, "0")}`,
+				image: t.image || "/testimonalImage.avif",
+			}))
+		: fallbackTestimonials;
+
+	const eyebrow = data?.eyebrow || "Testimonials";
+	const heading = data?.heading || "Hear From Our Happy Clients";
+
 	const [featured, ...supporting] = testimonials
 	const secondary = supporting.slice(0, 3)
 
@@ -68,10 +96,10 @@ export default function TestimonalTwo() {
 			<div className="relative mx-auto flex flex-col gap-12">
 				<header className="mx-auto text-center">
 					<span className="inline-flex items-center justify-center rounded-full border border-yellow/50 bg-white px-4 py-1 text-sm font-medium uppercase tracking-[0.3em]">
-						Testimonials
+						{eyebrow}
 					</span>
 					<h2 className="mt-6 text-3xl font-semibold leading-tight md:text-4xl lg:text-5xl font-cal-sans">
-						Hear From Our Happy Clients
+						{heading}
 					</h2>
 				</header>
 

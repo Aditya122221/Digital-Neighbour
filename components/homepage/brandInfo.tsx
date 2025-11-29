@@ -36,6 +36,8 @@ type BrandInfoData = {
 		description: string
 		stats: Stat[]
 	}
+	buttonText?: string
+	buttonLink?: string
 }
 
 type BrandInfoProps = {
@@ -47,54 +49,27 @@ export default function BrandInfo({ data }: BrandInfoProps) {
 		return null
 	}
 
-	const highlightHeading = () => {
-		if (!data.main.heading) {
-			return null
-		}
+	const highlightHeading = (
+		heading: string,
+		highlightWord?: string
+	) => {
+		if (!heading) return null;
+		if (!highlightWord) return heading;
 
-		const highlightTarget = "trust to grow"
-		const lowerHeading = data.main.heading.toLowerCase()
-		const highlightIndex = lowerHeading.indexOf(highlightTarget)
+		const lowerHeading = heading.toLowerCase();
+		const lowerHighlight = highlightWord.toLowerCase();
+		const highlightIndex = lowerHeading.indexOf(lowerHighlight);
 
 		if (highlightIndex === -1) {
-			// Try alternative: "trust to go"
-			const altTarget = "trust to go"
-			const altIndex = lowerHeading.indexOf(altTarget)
-			if (altIndex === -1) {
-				return data.main.heading
-			}
-
-			const before = data.main.heading.slice(0, altIndex)
-			const highlighted = data.main.heading.slice(
-				altIndex,
-				altIndex + altTarget.length
-			)
-			const after = data.main.heading.slice(
-				altIndex + altTarget.length
-			)
-
-			return (
-				<>
-					{before}
-					<span className="relative inline-block">
-						<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow" />
-						<span className="relative z-10 font-semibold">
-							{highlighted}
-						</span>
-					</span>
-					{after}
-				</>
-			)
+			return heading;
 		}
 
-		const before = data.main.heading.slice(0, highlightIndex)
-		const highlighted = data.main.heading.slice(
+		const before = heading.slice(0, highlightIndex);
+		const highlighted = heading.slice(
 			highlightIndex,
-			highlightIndex + highlightTarget.length
-		)
-		const after = data.main.heading.slice(
-			highlightIndex + highlightTarget.length
-		)
+			highlightIndex + highlightWord.length
+		);
+		const after = heading.slice(highlightIndex + highlightWord.length);
 
 		return (
 			<>
@@ -107,15 +82,15 @@ export default function BrandInfo({ data }: BrandInfoProps) {
 				</span>
 				{after}
 			</>
-		)
-	}
+		);
+	};
 
 	return (
 		<section className="py-20">
 			<div className="mx-auto flex max-w-6xl flex-col gap-16 px-6 lg:px-12">
 				<header className="max-w-4xl mx-auto text-center space-y-6">
 					<h2 className="text-3xl font-semibold leading-tight md:text-4xl lg:text-5xl font-cal-sans">
-						{highlightHeading()}
+						{highlightHeading(data.main.heading, data.main.highlightWord)}
 					</h2>
 					<p className="text-base text-black/70 md:text-lg">
 						{data.main.subheading}
@@ -195,8 +170,8 @@ export default function BrandInfo({ data }: BrandInfoProps) {
 								className="flex items-center justify-center w-full min-h-[200px] rounded-2xl bg-transparent p-6"
 							>
 								<CustomButton
-									text="Connect with Us"
-									href="/contact"
+									text={data.buttonText || "Connect with Us"}
+									href={data.buttonLink || "/contact"}
 									className="w-full max-w-md"
 								/>
 							</div>

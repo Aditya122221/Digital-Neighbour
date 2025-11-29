@@ -4,7 +4,23 @@ import { useRef } from "react"
 import { motion, useScroll, useTransform, useSpring } from "framer-motion"
 import { useIsMobile } from "@/hooks/use-mobile"
 
-export default function ApartClient({ oursList, othersList }: { oursList: string[], othersList: string[] }) {
+type ApartClientProps = {
+	heading?: string;
+	tagline?: string;
+	oursTitle?: string;
+	othersTitle?: string;
+	oursList: string[];
+	othersList: string[];
+}
+
+export default function ApartClient({ 
+	heading: headingProp,
+	tagline: taglineProp,
+	oursTitle: oursTitleProp,
+	othersTitle: othersTitleProp,
+	oursList,
+	othersList 
+}: ApartClientProps) {
 	const isMobile = useIsMobile()
 	const sectionRef = useRef<HTMLDivElement | null>(null)
 	const { scrollYProgress } = useScroll({
@@ -12,11 +28,11 @@ export default function ApartClient({ oursList, othersList }: { oursList: string
 		offset: ["start start", "end end"],
 	})
 
-	const heading = "What sets us apart from others"
+	const heading = headingProp || "What sets us apart from others"
 	const highlightTarget = "apart"
-	const tagline = "We don't settle for average, and neither should you."
-	const oursTitle = "Digital Neighbour"
-	const othersTitle = "Other Agencies"
+	const tagline = taglineProp || "We don't settle for average, and neither should you."
+	const oursTitle = oursTitleProp || "Digital Neighbour"
+	const othersTitle = othersTitleProp || "Other Agencies"
 	const ours = oursList
 	const others = othersList
 

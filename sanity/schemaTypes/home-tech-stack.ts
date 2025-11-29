@@ -14,7 +14,13 @@ export const homeTechStack = defineType({
 			name: "highlight",
 			title: "Highlight",
 			type: "string",
-			description: "Highlighted text within the heading",
+			description: "Highlighted text within the heading (deprecated - use highlightWord instead)",
+		}),
+		defineField({
+			name: "highlightWord",
+			title: "Word/Phrase to Highlight",
+			type: "string",
+			description: "Word or phrase in the heading to highlight (e.g., 'tech stack')",
 		}),
 		defineField({
 			name: "description",
