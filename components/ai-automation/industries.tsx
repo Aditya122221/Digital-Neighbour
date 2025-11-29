@@ -22,10 +22,10 @@ interface Industry {
 }
 
 interface IndustriesProps {
-	data: {
-		heading: string
-		description: string
-		industries: Industry[]
+	data?: {
+		heading?: string
+		description?: string
+		industries?: Industry[]
 	}
 }
 
@@ -54,6 +54,11 @@ export default function Industries({ data }: IndustriesProps) {
 		return <Icon className="w-6 h-6 text-white" />
 	}
 
+	// Early return if data is missing or incomplete
+	if (!data || !data.heading || !data.industries || !Array.isArray(data.industries)) {
+		return null
+	}
+
 	// Split heading to highlight key words
 	const headingParts = data.heading.split("AI Solutions")
 	const beforeHighlight = headingParts[0]
@@ -78,7 +83,7 @@ export default function Industries({ data }: IndustriesProps) {
 							</h2>
 							<p className="text-base md:text-lg text-white/90 leading-relaxed">
 								{
-									data.description
+									data.description || ""
 								}
 							</p>
 						</div>

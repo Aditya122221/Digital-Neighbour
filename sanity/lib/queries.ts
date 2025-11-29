@@ -1809,7 +1809,31 @@ export const aiAutomationServiceByTitleQuery = `*[_type == "aiAutomationService"
   },
   hero{
     heading,
-    subheading
+    subheading,
+    defaultHeroImages[]{
+      ...,
+      asset->{
+        _id,
+        url,
+        metadata
+      }
+    },
+    heroImages[]{
+      ...,
+      asset->{
+        _id,
+        url,
+        metadata
+      }
+    },
+    image{
+      ...,
+      asset->{
+        _id,
+        url,
+        metadata
+      }
+    }
   },
   form{
     heading,
@@ -1917,7 +1941,31 @@ export const dataAnalyticsServiceByTitleQuery = `*[_type == "dataAnalyticsServic
   },
   hero{
     heading,
-    subheading
+    subheading,
+    defaultHeroImages[]{
+      ...,
+      asset->{
+        _id,
+        url,
+        metadata
+      }
+    },
+    heroImages[]{
+      ...,
+      asset->{
+        _id,
+        url,
+        metadata
+      }
+    },
+    image{
+      ...,
+      asset->{
+        _id,
+        url,
+        metadata
+      }
+    }
   },
   form{
     heading,

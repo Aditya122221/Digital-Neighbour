@@ -1,18 +1,83 @@
 "use client";
 
+import { useMemo } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { CustomButton } from "@/components/core/button";
 
+type ImageSource =
+  | string
+  | {
+      asset?: {
+        url?: string;
+      };
+      url?: string;
+    };
+
 interface DataAnalyticsHeroProps {
-  data: {
+  data?: {
     tagline?: string;
-    heading: string;
-    subheading: string;
+    heading?: string;
+    subheading?: string;
+    heroImages?: ImageSource[];
   };
+  defaultImages?: ImageSource[] | null;
 }
 
-export default function DataAnalyticsHero({ data }: DataAnalyticsHeroProps) {
+const FALLBACK_IMAGES = [
+  {
+    id: "hero-one",
+    image: "/dataanaly/heroOne.webp",
+    alt: "Data Analyst",
+  },
+  {
+    id: "hero-two",
+    image: "/dataanaly/heroTwo.webp",
+    alt: "User 1",
+  },
+  {
+    id: "hero-three",
+    image: "/dataanaly/heroThree.webp",
+    alt: "User 2",
+  },
+];
+
+const resolveImageUrl = (source?: ImageSource): string | undefined => {
+  if (!source) return undefined;
+  if (typeof source === "string") return source;
+  return source.asset?.url || source.url;
+};
+
+export default function DataAnalyticsHero({
+  data,
+  defaultImages,
+}: DataAnalyticsHeroProps) {
+  const heading = data?.heading || "Data & Analytics Services";
+  const subheading =
+    data?.subheading ||
+    "Transform your business with comprehensive data analytics and business intelligence solutions to unlock insights and drive growth.";
+
+  const images = useMemo(() => {
+    // Priority: page-specific images > default images > fallback images
+    const pageImages = data?.heroImages || [];
+    const defaultImgs = defaultImages || [];
+    const imagesToUse = pageImages.length > 0 ? pageImages : defaultImgs;
+
+    if (imagesToUse.length > 0) {
+      return imagesToUse.map((img, index) => {
+        const url = resolveImageUrl(img);
+        return {
+          id: FALLBACK_IMAGES[index]?.id || `hero-${index + 1}`,
+          image:
+            url || FALLBACK_IMAGES[index]?.image || FALLBACK_IMAGES[0].image,
+          alt: FALLBACK_IMAGES[index]?.alt || `Hero image ${index + 1}`,
+        };
+      });
+    }
+
+    return FALLBACK_IMAGES;
+  }, [data?.heroImages, defaultImages]);
+
   return (
     <section className="relative pt-24 md:pt-32 lg:pt-40 pb-16 md:pb-24 lg:pb-32 overflow-x-hidden bg-white">
       {/* Content */}
@@ -36,7 +101,10 @@ export default function DataAnalyticsHero({ data }: DataAnalyticsHeroProps) {
               }}
               className="text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight font-cal-sans text-black"
             >
-              <span style={{ color: '#5D50EB' }}>Data-Driven Intelligence:</span> {data.heading}
+              <span style={{ color: "#5D50EB" }}>
+                Data-Driven Intelligence:
+              </span>{" "}
+              {heading}
             </motion.h1>
 
             {/* Subtitle */}
@@ -56,7 +124,7 @@ export default function DataAnalyticsHero({ data }: DataAnalyticsHeroProps) {
               }}
               className="text-lg md:text-xl text-black leading-relaxed max-w-3xl mx-auto"
             >
-              {data.subheading}
+              {subheading}
             </motion.p>
 
             {/* CTA Buttons */}
@@ -117,8 +185,8 @@ export default function DataAnalyticsHero({ data }: DataAnalyticsHeroProps) {
             <div className="relative w-12 h-12 md:w-16 md:h-16">
               <div className="w-full h-full rounded-full overflow-hidden">
                 <Image
-                  src="/dataanaly/heroOne.webp"
-                  alt="Data Analyst"
+                  src={images[0]?.image || FALLBACK_IMAGES[0].image}
+                  alt={images[0]?.alt || FALLBACK_IMAGES[0].alt}
                   fill
                   className="object-cover"
                   style={{ borderRadius: "50%" }}
@@ -161,8 +229,8 @@ export default function DataAnalyticsHero({ data }: DataAnalyticsHeroProps) {
             <div className="relative w-12 h-12 md:w-16 md:h-16">
               <div className="w-full h-full rounded-full overflow-hidden">
                 <Image
-                  src="/dataanaly/heroTwo.webp"
-                  alt="User 1"
+                  src={images[1]?.image || FALLBACK_IMAGES[1].image}
+                  alt={images[1]?.alt || FALLBACK_IMAGES[1].alt}
                   fill
                   className="object-cover"
                   style={{ borderRadius: "50%" }}
@@ -204,8 +272,8 @@ export default function DataAnalyticsHero({ data }: DataAnalyticsHeroProps) {
             <div className="relative w-12 h-12 md:w-16 md:h-16">
               <div className="w-full h-full rounded-full overflow-hidden">
                 <Image
-                  src="/dataanaly/heroThree.webp"
-                  alt="User 2"
+                  src={images[2]?.image || FALLBACK_IMAGES[2].image}
+                  alt={images[2]?.alt || FALLBACK_IMAGES[2].alt}
                   fill
                   className="object-cover"
                   style={{ borderRadius: "50%" }}

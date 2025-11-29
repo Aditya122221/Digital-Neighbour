@@ -64,7 +64,7 @@ export async function generateMetadata({
     currentData?.hero?.subheading ??
     currentData?.introParagraph?.heading ??
     `Unlock insights with Digital Neighbour's ${humanizeSlug(
-      slug
+      slug,
     ).toLowerCase()} expertise.`;
 
   const path =
@@ -86,11 +86,20 @@ export default async function DataAnalyticsSlugPage({
     notFound();
   }
 
+  const rootDataPromise = getDataAnalyticsServiceBySlug("data-analytics");
+
+  const resolveDefaultHeroImages = async () => {
+    const rootData = await rootDataPromise;
+    return rootData?.hero?.defaultHeroImages || null;
+  };
+
   // Fetch from Sanity
   const currentData = await getDataAnalyticsServiceBySlug(params.slug);
   if (!currentData) {
     notFound();
   }
+
+  const defaultHeroImages = await resolveDefaultHeroImages();
 
   return (
     <main>
@@ -104,6 +113,7 @@ export default async function DataAnalyticsSlugPage({
                 "Transform your business with comprehensive data analytics and business intelligence solutions to unlock insights and drive growth.",
             }
           }
+          defaultImages={defaultHeroImages}
         />
       </div>
       <Form data={currentData?.form} />
@@ -125,8 +135,8 @@ export default async function DataAnalyticsSlugPage({
       />
       <KeyBenefits data={currentData?.keyBenefits} />
       <Features data={currentData?.features} />
-  < Faq data = { currentData?.faq } />
-  <OtherServices />
+      <Faq data={currentData?.faq} />
+      <OtherServices />
       <Cta data={currentData?.services} />
       <Footer />
     </main>

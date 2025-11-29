@@ -26,26 +26,29 @@ export const dynamic = "force-dynamic";
 export const revalidate = 0;
 
 export async function generateMetadata(): Promise<Metadata> {
-	const dataAnalyticsOverview = await getDataAnalyticsServiceBySlug("data-analytics");
-	const dataAnalyticsHeading =
-		dataAnalyticsOverview?.hero?.heading ?? "Data & Analytics Services";
-	const dataAnalyticsDescription =
-		dataAnalyticsOverview?.hero?.subheading ??
-		"Operationalise data, analytics, and business intelligence to deliver insights, automation, and growth with Digital Neighbour.";
+  const dataAnalyticsOverview =
+    await getDataAnalyticsServiceBySlug("data-analytics");
+  const dataAnalyticsHeading =
+    dataAnalyticsOverview?.hero?.heading ?? "Data & Analytics Services";
+  const dataAnalyticsDescription =
+    dataAnalyticsOverview?.hero?.subheading ??
+    "Operationalise data, analytics, and business intelligence to deliver insights, automation, and growth with Digital Neighbour.";
 
-	return buildMetadata({
-		title: dataAnalyticsHeading,
-		description: dataAnalyticsDescription,
-		path: "/data-analytics",
-	});
+  return buildMetadata({
+    title: dataAnalyticsHeading,
+    description: dataAnalyticsDescription,
+    path: "/data-analytics",
+  });
 }
 
 export default async function DataAnalyticsPage() {
   const currentData = await getDataAnalyticsServiceBySlug("data-analytics");
-  
+
   if (!currentData) {
     notFound();
   }
+
+  const defaultHeroImages = currentData?.hero?.defaultHeroImages || null;
 
   return (
     <main>
@@ -59,6 +62,7 @@ export default async function DataAnalyticsPage() {
                 "Transform your business with comprehensive data analytics and business intelligence solutions to unlock insights and drive growth.",
             }
           }
+          defaultImages={defaultHeroImages}
         />
       </div>
       <Form data={currentData?.form} />
@@ -80,8 +84,8 @@ export default async function DataAnalyticsPage() {
       />
       <KeyBenefits data={currentData?.keyBenefits} />
       <Features data={currentData?.features} />
-  <Faq data={ currentData?.faq } />
-  <OtherServices />
+      <Faq data={currentData?.faq} />
+      <OtherServices />
       <Cta data={currentData?.services} />
       <Footer />
     </main>
