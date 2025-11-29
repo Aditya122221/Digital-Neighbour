@@ -50,6 +50,9 @@ export default defineConfig({
 				const ABOUT_ACHIEVEMENTS_DOC_ID =
 					"aboutAchievements"
 				const ABOUT_TEAM_DOC_ID = "aboutTeam"
+				const SEO_SETTINGS_DOC_ID = "seoSettings"
+				const SITE_NAVBAR_DOC_ID = "siteNavbar"
+				const SITE_FOOTER_DOC_ID = "siteFooter"
 
 				// Helper to create singleton editor list items
 				const createSingletonEditor = (
@@ -101,6 +104,19 @@ export default defineConfig({
 									)
 								)
 						)
+
+				const SITE_SETTINGS_SECTIONS = [
+					{
+						title: "Header",
+						schemaType: "siteNavbar",
+						documentId: SITE_NAVBAR_DOC_ID,
+					},
+					{
+						title: "Footer",
+						schemaType: "siteFooter",
+						documentId: SITE_FOOTER_DOC_ID,
+					},
+				]
 
 				const HOME_PAGE_SECTIONS = [
 					{
@@ -235,6 +251,9 @@ export default defineConfig({
 				]
 
 				const hiddenTypeIds = new Set([
+					...SITE_SETTINGS_SECTIONS.map(
+						({ schemaType }) => schemaType
+					),
 					...HOME_PAGE_SECTIONS.map(
 						({ schemaType }) => schemaType
 					),
@@ -247,6 +266,7 @@ export default defineConfig({
 					...ABOUT_PAGE_SECTIONS.map(
 						({ schemaType }) => schemaType
 					),
+					"seoSettings",
 					"seoPage",
 					"paidAdsPage",
 					"socialMediaPage",
@@ -263,6 +283,15 @@ export default defineConfig({
 				return S.list()
 					.title("Content")
 					.items([
+						createSingletonEditor(
+							"SEO Site Settings",
+							"seoSettings",
+							SEO_SETTINGS_DOC_ID
+						),
+						buildSectionsList(
+							"Site Settings",
+							SITE_SETTINGS_SECTIONS
+						),
 						buildSectionsList(
 							"Home Page",
 							HOME_PAGE_SECTIONS
