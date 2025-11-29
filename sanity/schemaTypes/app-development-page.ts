@@ -60,7 +60,8 @@ export const appDevelopmentPage = defineType({
 			name: "serviceName",
 			title: "Service Name",
 			type: "string",
-			description: "Display name for this app development service (e.g., 'App Development', 'iOS App Development', 'Android App Development')",
+			description:
+				"Display name for this app development service (e.g., 'App Development', 'iOS App Development', 'Android App Development')",
 			group: "basic",
 			validation: (Rule) => Rule.required(),
 		}),
@@ -68,7 +69,8 @@ export const appDevelopmentPage = defineType({
 			name: "slug",
 			title: "Service Slug",
 			type: "slug",
-			description: "URL-friendly identifier (e.g., 'app-development', 'ios-app-development', 'android-app-development')",
+			description:
+				"URL-friendly identifier (e.g., 'app-development', 'ios-app-development', 'android-app-development')",
 			group: "basic",
 			options: {
 				source: "serviceName",
@@ -88,7 +90,8 @@ export const appDevelopmentPage = defineType({
 					name: "title",
 					title: "SEO Title",
 					type: "string",
-					description: "Title tag for SEO (typically 50-60 characters)",
+					description:
+						"Title tag for SEO (typically 50-60 characters)",
 					validation: (Rule) =>
 						Rule.max(60).warning(
 							"SEO titles are usually no more than 60 characters."
@@ -98,7 +101,8 @@ export const appDevelopmentPage = defineType({
 					name: "description",
 					title: "SEO Description",
 					type: "text",
-					description: "Meta description for SEO (typically 150-160 characters)",
+					description:
+						"Meta description for SEO (typically 150-160 characters)",
 					validation: (Rule) =>
 						Rule.max(160).warning(
 							"SEO descriptions are usually no more than 160 characters."
@@ -118,7 +122,8 @@ export const appDevelopmentPage = defineType({
 					name: "ogImage",
 					title: "Open Graph Image",
 					type: "image",
-					description: "Image for social media sharing (recommended: 1200x630px)",
+					description:
+						"Image for social media sharing (recommended: 1200x630px)",
 					options: {
 						hotspot: true,
 					},
@@ -127,19 +132,22 @@ export const appDevelopmentPage = defineType({
 					name: "ogTitle",
 					title: "Open Graph Title",
 					type: "string",
-					description: "Title for social media sharing",
+					description:
+						"Title for social media sharing",
 				}),
 				defineField({
 					name: "ogDescription",
 					title: "Open Graph Description",
 					type: "text",
-					description: "Description for social media sharing",
+					description:
+						"Description for social media sharing",
 				}),
 				defineField({
 					name: "canonicalUrl",
 					title: "Canonical URL",
 					type: "url",
-					description: "Canonical URL for this page",
+					description:
+						"Canonical URL for this page",
 				}),
 			],
 		}),
@@ -157,48 +165,47 @@ export const appDevelopmentPage = defineType({
 					type: "string",
 					validation: (Rule) => Rule.required(),
 				}),
-			defineField({
-				name: "subheading",
-				title: "Subheading",
-				type: "text",
-				validation: (Rule) => Rule.required(),
-			}),
-			defineField({
-				name: "defaultHeroImages",
-				title: "Default Hero Images",
-				type: "array",
-				description:
-					"Fallback hero images (5 images) used by other app development pages when they don't upload their own images.",
-				of: [{ type: "image", options: { hotspot: true } }],
-				validation: (Rule) => Rule.max(5),
-				hidden: ({ document }) =>
-					document?.slug?.current !== "app-development",
-			}),
-			defineField({
-				name: "heroImages",
-				title: "Hero Images",
-				type: "array",
-				description:
-					"Page-specific hero images for the slider (up to 5 images). If not provided, default images will be used.",
-				of: [{ type: "image", options: { hotspot: true } }],
-				validation: (Rule) => Rule.max(5),
-			}),
-			defineField({
-				name: "image",
-				title: "Hero Image",
-				type: "image",
-				options: { hotspot: true },
-				description: "Optional hero image",
-			}),
-			defineField({
-				name: "video",
-				title: "Hero Video",
-				type: "file",
-				options: {
-					accept: "video/*",
-				},
-				description: "Optional hero video file",
-			}),
+				defineField({
+					name: "subheading",
+					title: "Subheading",
+					type: "text",
+					validation: (Rule) => Rule.required(),
+				}),
+				defineField({
+					name: "defaultHeroImages",
+					title: "Default Hero Images",
+					type: "array",
+					description:
+						"Fallback hero images (5 images) used by other app development pages when they don't upload their own images.",
+					of: [
+						{
+							type: "image",
+							options: {
+								hotspot: true,
+							},
+						},
+					],
+					validation: (Rule) => Rule.max(5),
+					hidden: ({ document }) =>
+						document?.slug?.current !==
+						"app-development",
+				}),
+				defineField({
+					name: "heroImages",
+					title: "Hero Images",
+					type: "array",
+					description:
+						"Page-specific hero images for the slider (up to 5 images). If not provided, default images will be used.",
+					of: [
+						{
+							type: "image",
+							options: {
+								hotspot: true,
+							},
+						},
+					],
+					validation: (Rule) => Rule.max(5),
+				}),
 			],
 		}),
 
@@ -303,21 +310,30 @@ export const appDevelopmentPage = defineType({
 									title: "Problem",
 									type: "text",
 									rows: 4,
-									validation: (Rule) => Rule.required(),
+									validation: (
+										Rule
+									) =>
+										Rule.required(),
 								}),
 								defineField({
 									name: "solution",
 									title: "Solution",
 									type: "text",
 									rows: 5,
-									validation: (Rule) => Rule.required(),
+									validation: (
+										Rule
+									) =>
+										Rule.required(),
 								}),
 								defineField({
 									name: "image",
 									title: "Image",
 									type: "image",
-									options: { hotspot: true },
-									description: "Optional icon or image for this pain point",
+									options: {
+										hotspot: true,
+									},
+									description:
+										"Optional icon or image for this pain point",
 								}),
 							],
 							preview: {
@@ -326,10 +342,24 @@ export const appDevelopmentPage = defineType({
 									subtitle: "solution",
 									media: "image",
 								},
-								prepare({ title, subtitle, media }) {
+								prepare({
+									title,
+									subtitle,
+									media,
+								}) {
 									return {
-										title: title ? title.slice(0, 60) : "Pain Point",
-										subtitle: subtitle ? subtitle.slice(0, 60) : "",
+										title: title
+											? title.slice(
+													0,
+													60
+												)
+											: "Pain Point",
+										subtitle: subtitle
+											? subtitle.slice(
+													0,
+													60
+												)
+											: "",
 										media,
 									}
 								},
@@ -346,7 +376,8 @@ export const appDevelopmentPage = defineType({
 			title: "Service Name",
 			type: "string",
 			group: "services",
-			description: "Main service name (e.g., 'App Development', 'iOS App Development', 'Android App Development')",
+			description:
+				"Main service name (e.g., 'App Development', 'iOS App Development', 'Android App Development')",
 		}),
 		defineField({
 			name: "serviceCards",
@@ -361,19 +392,22 @@ export const appDevelopmentPage = defineType({
 							name: "id",
 							title: "ID",
 							type: "string",
-							validation: (Rule) => Rule.required(),
+							validation: (Rule) =>
+								Rule.required(),
 						}),
 						defineField({
 							name: "name",
 							title: "Name",
 							type: "string",
-							validation: (Rule) => Rule.required(),
+							validation: (Rule) =>
+								Rule.required(),
 						}),
 						defineField({
 							name: "title",
 							title: "Title",
 							type: "string",
-							validation: (Rule) => Rule.required(),
+							validation: (Rule) =>
+								Rule.required(),
 						}),
 						defineField({
 							name: "description",
@@ -385,7 +419,9 @@ export const appDevelopmentPage = defineType({
 							name: "image",
 							title: "Image",
 							type: "image",
-							options: { hotspot: true },
+							options: {
+								hotspot: true,
+							},
 						}),
 						defineField({
 							name: "video",
@@ -394,13 +430,15 @@ export const appDevelopmentPage = defineType({
 							options: {
 								accept: "video/*",
 							},
-							description: "Optional service card video",
+							description:
+								"Optional service card video",
 						}),
 						defineField({
 							name: "link",
 							title: "Link",
 							type: "string",
-							description: "URL path for this service card",
+							description:
+								"URL path for this service card",
 						}),
 					],
 					preview: {
@@ -409,10 +447,18 @@ export const appDevelopmentPage = defineType({
 							subtitle: "name",
 							media: "image",
 						},
-						prepare({ title, subtitle, media }) {
+						prepare({
+							title,
+							subtitle,
+							media,
+						}) {
 							return {
-								title: title || "Service Card",
-								subtitle: subtitle || "",
+								title:
+									title ||
+									"Service Card",
+								subtitle:
+									subtitle ||
+									"",
 								media,
 							}
 						},
@@ -486,14 +532,16 @@ export const appDevelopmentPage = defineType({
 					title: "Steps",
 					type: "array",
 					of: [{ type: "string" }],
-					description: "List of process step titles",
+					description:
+						"List of process step titles",
 				}),
 				defineField({
 					name: "content",
 					title: "Content",
 					type: "array",
 					of: [{ type: "text" }],
-					description: "Content for each process step",
+					description:
+						"Content for each process step",
 				}),
 			],
 		}),
@@ -528,27 +576,37 @@ export const appDevelopmentPage = defineType({
 									name: "title",
 									title: "Title",
 									type: "string",
-									validation: (Rule) => Rule.required(),
+									validation: (
+										Rule
+									) =>
+										Rule.required(),
 								}),
 								defineField({
 									name: "description",
 									title: "Description",
 									type: "text",
 									rows: 4,
-									validation: (Rule) => Rule.required(),
+									validation: (
+										Rule
+									) =>
+										Rule.required(),
 								}),
 								defineField({
 									name: "icon",
 									title: "Icon",
 									type: "string",
-									description: "Emoji or icon identifier",
+									description:
+										"Emoji or icon identifier",
 								}),
 								defineField({
 									name: "image",
 									title: "Image",
 									type: "image",
-									options: { hotspot: true },
-									description: "Optional benefit image",
+									options: {
+										hotspot: true,
+									},
+									description:
+										"Optional benefit image",
 								}),
 							],
 							preview: {
@@ -557,10 +615,21 @@ export const appDevelopmentPage = defineType({
 									subtitle: "description",
 									media: "image",
 								},
-								prepare({ title, subtitle, media }) {
+								prepare({
+									title,
+									subtitle,
+									media,
+								}) {
 									return {
-										title: title || "Benefit",
-										subtitle: subtitle ? subtitle.slice(0, 60) : "",
+										title:
+											title ||
+											"Benefit",
+										subtitle: subtitle
+											? subtitle.slice(
+													0,
+													60
+												)
+											: "",
 										media,
 									}
 								},
@@ -601,27 +670,37 @@ export const appDevelopmentPage = defineType({
 									name: "title",
 									title: "Title",
 									type: "string",
-									validation: (Rule) => Rule.required(),
+									validation: (
+										Rule
+									) =>
+										Rule.required(),
 								}),
 								defineField({
 									name: "description",
 									title: "Description",
 									type: "text",
 									rows: 4,
-									validation: (Rule) => Rule.required(),
+									validation: (
+										Rule
+									) =>
+										Rule.required(),
 								}),
 								defineField({
 									name: "icon",
 									title: "Icon",
 									type: "string",
-									description: "Emoji or icon identifier",
+									description:
+										"Emoji or icon identifier",
 								}),
 								defineField({
 									name: "image",
 									title: "Image",
 									type: "image",
-									options: { hotspot: true },
-									description: "Optional feature image",
+									options: {
+										hotspot: true,
+									},
+									description:
+										"Optional feature image",
 								}),
 								defineField({
 									name: "video",
@@ -630,7 +709,8 @@ export const appDevelopmentPage = defineType({
 									options: {
 										accept: "video/*",
 									},
-									description: "Optional feature video",
+									description:
+										"Optional feature video",
 								}),
 							],
 							preview: {
@@ -639,10 +719,21 @@ export const appDevelopmentPage = defineType({
 									subtitle: "description",
 									media: "image",
 								},
-								prepare({ title, subtitle, media }) {
+								prepare({
+									title,
+									subtitle,
+									media,
+								}) {
 									return {
-										title: title || "Feature",
-										subtitle: subtitle ? subtitle.slice(0, 60) : "",
+										title:
+											title ||
+											"Feature",
+										subtitle: subtitle
+											? subtitle.slice(
+													0,
+													60
+												)
+											: "",
 										media,
 									}
 								},
@@ -664,7 +755,8 @@ export const appDevelopmentPage = defineType({
 					name: "serviceName",
 					title: "Service Name",
 					type: "string",
-					description: "Service name for FAQ context",
+					description:
+						"Service name for FAQ context",
 				}),
 				defineField({
 					name: "faqs",
@@ -678,14 +770,20 @@ export const appDevelopmentPage = defineType({
 									name: "q",
 									title: "Question",
 									type: "string",
-									validation: (Rule) => Rule.required(),
+									validation: (
+										Rule
+									) =>
+										Rule.required(),
 								}),
 								defineField({
 									name: "a",
 									title: "Answer",
 									type: "text",
 									rows: 5,
-									validation: (Rule) => Rule.required(),
+									validation: (
+										Rule
+									) =>
+										Rule.required(),
 								}),
 							],
 							preview: {
@@ -693,10 +791,20 @@ export const appDevelopmentPage = defineType({
 									title: "q",
 									subtitle: "a",
 								},
-								prepare({ title, subtitle }) {
+								prepare({
+									title,
+									subtitle,
+								}) {
 									return {
-										title: title || "FAQ",
-										subtitle: subtitle ? subtitle.slice(0, 60) : "",
+										title:
+											title ||
+											"FAQ",
+										subtitle: subtitle
+											? subtitle.slice(
+													0,
+													60
+												)
+											: "",
 									}
 								},
 							},
@@ -713,10 +821,11 @@ export const appDevelopmentPage = defineType({
 		},
 		prepare({ title, subtitle }) {
 			return {
-				title: title || "Untitled App Development Service",
+				title:
+					title ||
+					"Untitled App Development Service",
 				subtitle: subtitle ? `/${subtitle}` : "No slug",
 			}
 		},
 	},
 })
-
