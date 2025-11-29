@@ -36,6 +36,15 @@ import { aiAutomationPage } from "./ai-automation-page"
 import { dataAnalyticsPage } from "./data-analytics-page"
 import { industriesPage } from "./industries-page"
 import { professionalsMarketingPage } from "./professionals-marketing-page"
+import { marketingAgencySettings } from "./marketing-agency-settings"
+import { marketingAgencyHero } from "./marketing-agency-hero"
+import { marketingAgencyForm } from "./marketing-agency-form"
+import { marketingAgencyIntro } from "./marketing-agency-intro"
+import { marketingAgencyPainPoints } from "./marketing-agency-pain-points"
+import { marketingAgencyProcess } from "./marketing-agency-process"
+import { marketingAgencyKeyBenefits } from "./marketing-agency-key-benefits"
+import { marketingAgencyFeatures } from "./marketing-agency-features"
+import { marketingAgencyFaq } from "./marketing-agency-faq"
 
 export const schemaTypes = [
 	seoSiteSettings,
@@ -76,4 +85,13 @@ export const schemaTypes = [
 	dataAnalyticsPage,
 	industriesPage,
 	professionalsMarketingPage,
+	marketingAgencySettings,
+	marketingAgencyHero,
+	marketingAgencyForm,
+	marketingAgencyIntro,
+	marketingAgencyPainPoints,
+	marketingAgencyProcess,
+	marketingAgencyKeyBenefits,
+	marketingAgencyFeatures,
+	marketingAgencyFaq,
 ]

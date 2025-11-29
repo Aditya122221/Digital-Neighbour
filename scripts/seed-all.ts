@@ -22,6 +22,7 @@ import resourcesData from "../data/resources.json"
 import aboutData from "../data/about.json"
 import apartData from "../data/apart.json"
 import caseData from "../data/case.json"
+import marketingAgencyData from "../data/marketing-agency.json"
 
 // Load environment variables
 dotenv.config({ path: resolve(process.cwd(), ".env.local") })
@@ -922,6 +923,135 @@ async function seedServicePages(
 }
 
 /**
+ * Seed Marketing Agency Page
+ */
+async function seedMarketingAgencyPage(client: SanityClient) {
+	console.log("🌱 Seeding Marketing Agency Page...")
+
+	const marketingData = (
+		marketingAgencyData as Record<string, any>
+	)["marketing-agency"]
+
+	if (!marketingData) {
+		console.log(
+			"⚠️ No marketing-agency key found in data/marketing-agency.json\n"
+		)
+		return
+	}
+
+	try {
+		await client.createOrReplace({
+			_type: "marketingAgencySettings",
+			_id: "marketingAgencySettings",
+			title:
+				marketingData.title ||
+				marketingData.hero?.heading ||
+				"Marketing Agency",
+			metadata: marketingData.metadata || "",
+			description: marketingData.description || "",
+			serviceLabel: marketingData.services || "Marketing Agency",
+		})
+
+		await client.createOrReplace({
+			_type: "marketingAgencyHero",
+			_id: "marketingAgencyHero",
+			heading: marketingData.hero?.heading || "",
+			subheading: marketingData.hero?.subheading || "",
+			ctaText: marketingData.hero?.ctaText || "",
+			ctaHref: marketingData.hero?.ctaHref || "",
+		})
+
+		await client.createOrReplace({
+			_type: "marketingAgencyForm",
+			_id: "marketingAgencyForm",
+			heading: marketingData.form?.heading || "",
+			content: marketingData.form?.content || "",
+			subContent: marketingData.form?.subContent || "",
+			cta: marketingData.form?.cta || "",
+			formHeading: marketingData.form?.formHeading || "",
+			buttonText: marketingData.form?.buttonText || "",
+		})
+
+		await client.createOrReplace({
+			_type: "marketingAgencyIntro",
+			_id: "marketingAgencyIntro",
+			heading: marketingData.introParagraph?.heading || "",
+			problemStatement: marketingData.introParagraph?.problemStatement || "",
+			valueProposition: marketingData.introParagraph?.valueProposition || "",
+		})
+
+		await client.createOrReplace({
+			_type: "marketingAgencyPainPoints",
+			_id: "marketingAgencyPainPoints",
+			heading: marketingData.painPoints?.heading || "",
+			subheading: marketingData.painPoints?.subheading || "",
+			items:
+				marketingData.painPoints?.painPoints?.map((item: any) => ({
+					problem: item.problem || "",
+					solution: item.solution || "",
+				})) || [],
+		})
+
+		await client.createOrReplace({
+			_type: "marketingAgencyProcess",
+			_id: "marketingAgencyProcess",
+			heading: marketingData.process?.heading || "",
+			steps: marketingData.process?.steps || [],
+			content: marketingData.process?.content || [],
+		})
+
+		const mapBenefits = (items: any[]) =>
+			items?.map((item) => ({
+				title: item.title || "",
+				description: item.description || "",
+				icon: item.icon || "",
+			})) || []
+
+		await client.createOrReplace({
+			_type: "marketingAgencyKeyBenefits",
+			_id: "marketingAgencyKeyBenefits",
+			heading: marketingData.keyBenefits?.heading || "",
+			subheading: marketingData.keyBenefits?.subheading || "",
+			benefits: mapBenefits(marketingData.keyBenefits?.benefits || []),
+			items: mapBenefits(marketingData.keyBenefits?.items || []),
+		})
+
+		await client.createOrReplace({
+			_type: "marketingAgencyFeatures",
+			_id: "marketingAgencyFeatures",
+			heading: marketingData.features?.heading || "",
+			subheading: marketingData.features?.subheading || "",
+			features:
+				marketingData.features?.features?.map((feature: any) => ({
+					title: feature.title || "",
+					description: feature.description || "",
+					icon: feature.icon || "",
+				})) || [],
+		})
+
+		await client.createOrReplace({
+			_type: "marketingAgencyFaq",
+			_id: "marketingAgencyFaq",
+			serviceName: marketingData.faq?.serviceName || "",
+			heading: marketingData.faq?.heading || "",
+			subheading: marketingData.faq?.subheading || "",
+			faqs:
+				marketingData.faq?.faqs?.map((faq: any) => ({
+					q: faq.q || "",
+					a: faq.a || "",
+				})) || [],
+		})
+
+		console.log("✅ Seeded Marketing Agency Page\n")
+	} catch (error: any) {
+		console.error(
+			"❌ Error seeding Marketing Agency Page:",
+			error.message || error
+		)
+	}
+}
+
+/**
  * Main seed function
  */
 async function seedAll() {
@@ -1010,6 +1140,7 @@ async function seedAll() {
 			professionalsMarketingData,
 			"professionalsMarketingPage"
 		)
+		await seedMarketingAgencyPage(client)
 
 		// Seed page sections
 		await seedHomePageSections(client)

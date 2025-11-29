@@ -1,6 +1,15 @@
 import { sanityFetch } from "@/sanity/lib/fetch";
 import { marketingAgencyPageQuery } from "@/sanity/lib/queries";
 
+type SanityFileReference = {
+  asset?: {
+    _id?: string;
+    url?: string;
+    metadata?: Record<string, unknown>;
+  };
+  url?: string;
+};
+
 type ImageWithIcon = {
   title?: string;
   description?: string;
@@ -15,6 +24,10 @@ export type MarketingAgencyPageData = {
   hero?: {
     heading?: string;
     subheading?: string;
+    ctaText?: string;
+    ctaHref?: string;
+    defaultHeroVideo?: SanityFileReference;
+    video?: SanityFileReference;
   };
   form?: {
     heading?: string;
@@ -60,6 +73,8 @@ export type MarketingAgencyPageData = {
   };
   faq?: {
     serviceName?: string;
+    heading?: string;
+    subheading?: string;
     faqs?: {
       q?: string;
       a?: string;
@@ -67,11 +82,108 @@ export type MarketingAgencyPageData = {
   };
 };
 
+type MarketingAgencySanityResponse = {
+  settings?: {
+    title?: string;
+    metadata?: string;
+    description?: string;
+    serviceLabel?: string;
+  };
+  hero?: MarketingAgencyPageData["hero"];
+  form?: MarketingAgencyPageData["form"];
+  introParagraph?: MarketingAgencyPageData["introParagraph"];
+  painPoints?: {
+    heading?: string;
+    subheading?: string;
+    items?: {
+      problem?: string;
+      solution?: string;
+    }[];
+  };
+  process?: MarketingAgencyPageData["process"];
+  keyBenefits?: MarketingAgencyPageData["keyBenefits"];
+  features?: MarketingAgencyPageData["features"];
+  faq?: MarketingAgencyPageData["faq"];
+};
+
+const mapFileReference = (
+  file?: SanityFileReference | null,
+): SanityFileReference | undefined => {
+  if (!file) {
+    return undefined;
+  }
+
+  const asset = file.asset
+    ? {
+        _id: file.asset._id,
+        url: file.asset.url,
+        metadata: file.asset.metadata,
+      }
+    : undefined;
+
+  return {
+    asset,
+    url: file.url ?? asset?.url,
+  };
+};
+
+function transformMarketingData(
+  data: MarketingAgencySanityResponse | null,
+): MarketingAgencyPageData | null {
+  if (!data) {
+    return null;
+  }
+
+  const hasContent =
+    data.hero?.heading ||
+    data.form?.heading ||
+    data.process?.steps?.length ||
+    data.keyBenefits?.benefits?.length ||
+    data.keyBenefits?.items?.length ||
+    data.features?.features?.length;
+
+  if (!hasContent) {
+    return null;
+  }
+
+  return {
+    title: data.settings?.title,
+    metadata: data.settings?.metadata,
+    description: data.settings?.description,
+    services: data.settings?.serviceLabel,
+    hero: data.hero
+      ? {
+          ...data.hero,
+          defaultHeroVideo: mapFileReference(data.hero.defaultHeroVideo),
+          video: mapFileReference(data.hero.video),
+        }
+      : undefined,
+    form: data.form,
+    introParagraph: data.introParagraph,
+    painPoints: data.painPoints
+      ? {
+          heading: data.painPoints.heading,
+          subheading: data.painPoints.subheading,
+          painPoints:
+            data.painPoints.items?.map((item) => ({
+              problem: item.problem,
+              solution: item.solution,
+            })) ?? [],
+        }
+      : undefined,
+    process: data.process,
+    keyBenefits: data.keyBenefits,
+    features: data.features,
+    faq: data.faq,
+  };
+}
+
 export async function getMarketingAgencyPage(): Promise<MarketingAgencyPageData | null> {
   try {
-    return await sanityFetch<MarketingAgencyPageData | null>(
-      marketingAgencyPageQuery,
-    );
+    const sanityData = await sanityFetch<MarketingAgencySanityResponse | null>({
+      query: marketingAgencyPageQuery,
+    });
+    return transformMarketingData(sanityData);
   } catch (error) {
     console.error(
       "Error fetching marketing agency page data from Sanity:",

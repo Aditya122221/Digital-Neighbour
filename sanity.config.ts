@@ -53,6 +53,24 @@ export default defineConfig({
 				const SEO_SETTINGS_DOC_ID = "seoSettings"
 				const SITE_NAVBAR_DOC_ID = "siteNavbar"
 				const SITE_FOOTER_DOC_ID = "siteFooter"
+				const MARKETING_SETTINGS_DOC_ID =
+					"marketingAgencySettings"
+				const MARKETING_HERO_DOC_ID =
+					"marketingAgencyHero"
+				const MARKETING_FORM_DOC_ID =
+					"marketingAgencyForm"
+				const MARKETING_INTRO_DOC_ID =
+					"marketingAgencyIntro"
+				const MARKETING_PAIN_POINTS_DOC_ID =
+					"marketingAgencyPainPoints"
+				const MARKETING_PROCESS_DOC_ID =
+					"marketingAgencyProcess"
+				const MARKETING_KEY_BENEFITS_DOC_ID =
+					"marketingAgencyKeyBenefits"
+				const MARKETING_FEATURES_DOC_ID =
+					"marketingAgencyFeatures"
+				const MARKETING_FAQ_DOC_ID =
+					"marketingAgencyFaq"
 
 				// Helper to create singleton editor list items
 				const createSingletonEditor = (
@@ -250,6 +268,54 @@ export default defineConfig({
 					},
 				]
 
+				const MARKETING_PAGE_SECTIONS = [
+					{
+						title: "SEO Setting",
+						schemaType: "marketingAgencySettings",
+						documentId: MARKETING_SETTINGS_DOC_ID,
+					},
+					{
+						title: "Hero Section",
+						schemaType: "marketingAgencyHero",
+						documentId: MARKETING_HERO_DOC_ID,
+					},
+					{
+						title: "Form Section",
+						schemaType: "marketingAgencyForm",
+						documentId: MARKETING_FORM_DOC_ID,
+					},
+					{
+						title: "Intro Paragraph",
+						schemaType: "marketingAgencyIntro",
+						documentId: MARKETING_INTRO_DOC_ID,
+					},
+					{
+						title: "Pain Points",
+						schemaType: "marketingAgencyPainPoints",
+						documentId: MARKETING_PAIN_POINTS_DOC_ID,
+					},
+					{
+						title: "Process",
+						schemaType: "marketingAgencyProcess",
+						documentId: MARKETING_PROCESS_DOC_ID,
+					},
+					{
+						title: "Key Benefits",
+						schemaType: "marketingAgencyKeyBenefits",
+						documentId: MARKETING_KEY_BENEFITS_DOC_ID,
+					},
+					{
+						title: "Features",
+						schemaType: "marketingAgencyFeatures",
+						documentId: MARKETING_FEATURES_DOC_ID,
+					},
+					{
+						title: "FAQ",
+						schemaType: "marketingAgencyFaq",
+						documentId: MARKETING_FAQ_DOC_ID,
+					},
+				]
+
 				const hiddenTypeIds = new Set([
 					...SITE_SETTINGS_SECTIONS.map(
 						({ schemaType }) => schemaType
@@ -264,6 +330,9 @@ export default defineConfig({
 						({ schemaType }) => schemaType
 					),
 					...ABOUT_PAGE_SECTIONS.map(
+						({ schemaType }) => schemaType
+					),
+					...MARKETING_PAGE_SECTIONS.map(
 						({ schemaType }) => schemaType
 					),
 					"seoSettings",
@@ -307,6 +376,10 @@ export default defineConfig({
 						buildSectionsList(
 							"About Page",
 							ABOUT_PAGE_SECTIONS
+						),
+						buildSectionsList(
+							"Marketing Agency Page",
+							MARKETING_PAGE_SECTIONS
 						),
 						S.listItem()
 							.title("SEO Service Pages")

@@ -112,7 +112,23 @@ function mergeMarketingData(
         ? remote.process.content
         : jsonMarketingData?.process?.content,
     },
-    keyBenefits: remote.keyBenefits ?? jsonMarketingData?.keyBenefits,
+    keyBenefits:
+      remote.keyBenefits || jsonMarketingData?.keyBenefits
+        ? {
+            heading:
+              remote.keyBenefits?.heading ??
+              jsonMarketingData?.keyBenefits?.heading,
+            subheading:
+              remote.keyBenefits?.subheading ??
+              jsonMarketingData?.keyBenefits?.subheading,
+            benefits: remote.keyBenefits?.benefits?.length
+              ? remote.keyBenefits.benefits
+              : jsonMarketingData?.keyBenefits?.benefits,
+            items: remote.keyBenefits?.items?.length
+              ? remote.keyBenefits.items
+              : jsonMarketingData?.keyBenefits?.items,
+          }
+        : undefined,
     features: {
       ...jsonMarketingData?.features,
       ...remote.features,

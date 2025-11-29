@@ -787,14 +787,20 @@ export const casePageQuery = `*[_type == "homeCaseStudy"][0]{
   }
 }`;
 
-export const marketingAgencyPageQuery = `*[_type == "marketingAgencyPage"][0]{
-  title,
-  metadata,
-  description,
-  hero{
+export const marketingAgencyPageQuery = `{
+  "settings": *[_type == "marketingAgencySettings"][0]{
+    title,
+    metadata,
+    description,
+    serviceLabel
+  },
+  "hero": *[_type == "marketingAgencyHero"][0]{
     heading,
     subheading,
+    ctaText,
+    ctaHref,
     defaultHeroVideo{
+      ...,
       asset->{
         _id,
         url,
@@ -803,6 +809,7 @@ export const marketingAgencyPageQuery = `*[_type == "marketingAgencyPage"][0]{
       url
     },
     video{
+      ...,
       asset->{
         _id,
         url,
@@ -811,7 +818,7 @@ export const marketingAgencyPageQuery = `*[_type == "marketingAgencyPage"][0]{
       url
     }
   },
-  form{
+  "form": *[_type == "marketingAgencyForm"][0]{
     heading,
     content,
     subContent,
@@ -819,26 +826,25 @@ export const marketingAgencyPageQuery = `*[_type == "marketingAgencyPage"][0]{
     formHeading,
     buttonText
   },
-  introParagraph{
+  "introParagraph": *[_type == "marketingAgencyIntro"][0]{
     heading,
     problemStatement,
     valueProposition
   },
-  painPoints{
+  "painPoints": *[_type == "marketingAgencyPainPoints"][0]{
     heading,
     subheading,
-    painPoints[]{
+    items[]{
       problem,
       solution
     }
   },
-  services,
-  process{
+  "process": *[_type == "marketingAgencyProcess"][0]{
     heading,
     steps[],
     content[]
   },
-  keyBenefits{
+  "keyBenefits": *[_type == "marketingAgencyKeyBenefits"][0]{
     heading,
     subheading,
     benefits[]{
@@ -868,7 +874,7 @@ export const marketingAgencyPageQuery = `*[_type == "marketingAgencyPage"][0]{
       }
     }
   },
-  features{
+  "features": *[_type == "marketingAgencyFeatures"][0]{
     heading,
     subheading,
     features[]{
@@ -877,8 +883,10 @@ export const marketingAgencyPageQuery = `*[_type == "marketingAgencyPage"][0]{
       icon
     }
   },
-  faq{
+  "faq": *[_type == "marketingAgencyFaq"][0]{
     serviceName,
+    heading,
+    subheading,
     faqs[]{
       q,
       a
