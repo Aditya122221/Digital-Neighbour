@@ -60,7 +60,9 @@ export async function generateMetadata({
   const { slug } = params;
 
   // Get base data from Sanity
-  const socialBaseData = await getSocialMediaServiceBySlug("social-media-marketing");
+  const socialBaseData = await getSocialMediaServiceBySlug(
+    "social-media-marketing",
+  );
   const socialBaseHeading =
     socialBaseData?.metadata ??
     socialBaseData?.hero?.heading ??
@@ -131,10 +133,18 @@ export default async function SocialMediaMarketingSlugPage({
   }
 
   // Fetch from Sanity
-  const currentData = await getSocialMediaServiceBySlug(params.slug);
+  const [rootSocialData, currentData] = await Promise.all([
+    getSocialMediaServiceBySlug("social-media-marketing"),
+    getSocialMediaServiceBySlug(params.slug),
+  ]);
   if (!currentData) {
     notFound();
   }
+
+  const defaultHeroVideo =
+    rootSocialData?.hero?.defaultHeroVideo?.asset?.url ||
+    rootSocialData?.hero?.defaultHeroVideo?.url ||
+    null;
 
   return (
     <main>
@@ -149,6 +159,7 @@ export default async function SocialMediaMarketingSlugPage({
               ctaText: "Market My Brand",
             }
           }
+          defaultVideoSrc={defaultHeroVideo}
         />
       </div>
       <Form data={currentData?.form} />

@@ -33,6 +33,7 @@ import Features from "@/components/commonSections/features";
 import KeyBenefits from "@/components/commonSections/keybenefits";
 import WhyWork from "@/components/social-media/whywork";
 import type { SocialServiceSlug } from "@/config/social-services";
+import { getSocialMediaServiceBySlug } from "@/lib/sanity-service-data";
 
 const slugAliases: Record<string, SocialServiceSlug> = {
   "social-media-management": "social-media-management",
@@ -155,6 +156,9 @@ export default async function SocialMediaLocationPage({
   params: Promise<{ slug: string; location: string }>;
 }) {
   const { slug: requestedSlug, location: requestedLocation } = await params;
+  const rootSocialPromise = getSocialMediaServiceBySlug(
+    "social-media-marketing",
+  );
 
   const canonicalSlug = resolveSocialSlug(requestedSlug);
 
@@ -206,6 +210,11 @@ export default async function SocialMediaLocationPage({
   const locationName =
     getLocationDisplayName(ensuredLocation) ?? ensuredLocation;
   const personalizedData = personalizeSeoData(localizedBase, locationName);
+  const rootSocialData = await rootSocialPromise;
+  const defaultHeroVideo =
+    rootSocialData?.hero?.defaultHeroVideo?.asset?.url ||
+    rootSocialData?.hero?.defaultHeroVideo?.url ||
+    null;
 
   return (
     <main>
@@ -220,6 +229,7 @@ export default async function SocialMediaLocationPage({
               ctaText: "Market My Brand",
             }
           }
+          defaultVideoSrc={defaultHeroVideo}
         />
       </div>
       <Form data={personalizedData?.form} />
