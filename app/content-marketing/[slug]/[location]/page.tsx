@@ -33,6 +33,7 @@ import Testimonials from "@/components/homepage/testimonials";
 import TestimonalTwo from "@/components/homepage/testimonalTwo";
 import BookACall from "@/components/homepage/bookacall";
 import type { ContentServiceSlug } from "@/config/content-services";
+import { getContentMarketingServiceBySlug } from "@/lib/sanity-service-data";
 
 export const LOCATION_ENABLED_CONTENT_SLUGS: ContentServiceSlug[] = [
   "content-marketing",
@@ -98,7 +99,8 @@ export async function generateMetadata({
   }
 
   const dataKey = getDataKeyForSlug(canonicalSlug);
-  const baseData = contentMarketingData[dataKey as keyof typeof contentMarketingData];
+  const baseData =
+    contentMarketingData[dataKey as keyof typeof contentMarketingData];
   if (!baseData) {
     return { title: "Page Not Found" };
   }
@@ -148,6 +150,8 @@ export default async function ContentMarketingLocationPage({
   params: Promise<{ slug: string; location: string }>;
 }) {
   const { slug: requestedSlug, location: requestedLocation } = await params;
+  const rootContentPromise =
+    getContentMarketingServiceBySlug("content-marketing");
 
   const canonicalSlug = resolveContentSlug(requestedSlug);
 
@@ -157,7 +161,8 @@ export default async function ContentMarketingLocationPage({
   }
 
   const dataKey = getDataKeyForSlug(canonicalSlug);
-  const baseData = contentMarketingData[dataKey as keyof typeof contentMarketingData];
+  const baseData =
+    contentMarketingData[dataKey as keyof typeof contentMarketingData];
   if (!baseData) {
     notFound();
   }
@@ -195,6 +200,11 @@ export default async function ContentMarketingLocationPage({
   const locationName =
     getLocationDisplayName(ensuredLocation) ?? ensuredLocation;
   const personalizedData = personalizeSeoData(localizedBase, locationName);
+  const rootContentData = await rootContentPromise;
+  const defaultHeroVideo =
+    rootContentData?.hero?.defaultHeroVideo?.asset?.url ||
+    rootContentData?.hero?.defaultHeroVideo?.url ||
+    null;
 
   return (
     <main>
@@ -208,6 +218,7 @@ export default async function ContentMarketingLocationPage({
                 "We create compelling content that drives engagement, builds authority, and converts visitors into customers.",
             }
           }
+          defaultVideoSrc={defaultHeroVideo}
         />
       </div>
       <Form data={personalizedData?.form} />

@@ -398,6 +398,14 @@ export const seoPageQuery = `*[_type == "seoPage" && slug.current == $slug][0]{
       },
       url
     },
+    bgVideo{
+      asset->{
+        _id,
+        url,
+        metadata
+      },
+      url
+    },
     video{
       asset->{
         _id,
@@ -892,7 +900,23 @@ export const seoServiceByTitleQuery = `*[_type == "seoService" && serviceName ==
   },
   hero{
     heading,
-    subheading
+    subheading,
+    defaultHeroVideo{
+      asset->{
+        _id,
+        url,
+        metadata
+      },
+      url
+    },
+    bgVideo{
+      asset->{
+        _id,
+        url,
+        metadata
+      },
+      url
+    }
   },
   form{
     heading,
@@ -1257,7 +1281,31 @@ export const contentMarketingServiceByTitleQuery = `*[_type == "contentMarketing
   },
   hero{
     heading,
-    subheading
+    subheading,
+    defaultHeroVideo{
+      asset->{
+        _id,
+        url,
+        metadata
+      },
+      url
+    },
+    bgVideo{
+      asset->{
+        _id,
+        url,
+        metadata
+      },
+      url
+    },
+    video{
+      asset->{
+        _id,
+        url,
+        metadata
+      },
+      url
+    }
   },
   form{
     heading,
@@ -2033,6 +2081,14 @@ const createPageQuery = (
       }
     },
     defaultHeroVideo{
+      asset->{
+        _id,
+        url,
+        metadata
+      },
+      url
+    },
+    bgVideo{
       asset->{
         _id,
         url,
