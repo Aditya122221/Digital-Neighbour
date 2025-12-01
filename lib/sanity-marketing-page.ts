@@ -65,11 +65,7 @@ export type MarketingAgencyPageData = {
   features?: {
     heading?: string;
     subheading?: string;
-    features?: {
-      title?: string;
-      description?: string;
-      icon?: string;
-    }[];
+    features?: ImageWithIcon[];
   };
   howFast?: {
     heading?: string;
@@ -184,8 +180,33 @@ function transformMarketingData(
         }
       : undefined,
     process: data.process,
-    keyBenefits: data.keyBenefits,
-    features: data.features,
+    keyBenefits: data.keyBenefits
+      ? {
+          ...data.keyBenefits,
+          benefits:
+            data.keyBenefits.benefits?.map((item) => ({
+              ...item,
+              image: item.image ? mapFileReference(item.image)?.url : undefined,
+            })) ?? [],
+          items:
+            data.keyBenefits.items?.map((item) => ({
+              ...item,
+              image: item.image ? mapFileReference(item.image)?.url : undefined,
+            })) ?? [],
+        }
+      : undefined,
+    features: data.features
+      ? {
+          ...data.features,
+          features:
+            data.features.features?.map((item) => ({
+              ...item,
+              image: item.image
+                ? mapFileReference(item.image)?.url
+                : undefined,
+            })) ?? [],
+        }
+      : undefined,
     faq: data.faq,
     howFast: data.howFast
       ? {

@@ -504,7 +504,15 @@ export const seoPageQuery = `*[_type == "seoPage" && slug.current == $slug][0]{
     features[]{
       title,
       description,
-      icon
+      icon,
+      image{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   faq{
@@ -619,7 +627,16 @@ export const paidAdsPageQuery = `*[_type == "paidAdsPage" && slug.current == $sl
     subheading,
     features[]{
       title,
-      description
+      description,
+      icon,
+      image{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   content{
@@ -903,7 +920,15 @@ export const marketingAgencyPageQuery = `{
     features[]{
       title,
       description,
-      icon
+      icon,
+      image{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   "howFast": *[_type == "marketingAgencyHowFast"][0]{
@@ -1046,7 +1071,15 @@ export const seoServiceByTitleQuery = `*[_type == "seoService" && serviceName ==
     features[]{
       title,
       description,
-      icon
+      icon,
+      image{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   faq{
@@ -1162,7 +1195,16 @@ export const paidAdsServiceByTitleQuery = `*[_type == "paidAdvertService" && ser
     subheading,
     features[]{
       title,
-      description
+      description,
+      icon,
+      image{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   content{
@@ -1286,7 +1328,15 @@ export const socialMediaServiceByTitleQuery = `*[_type == "socialMarketingServic
     features[]{
       title,
       description,
-      icon
+      icon,
+      image{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   content{
@@ -1418,7 +1468,15 @@ export const contentMarketingServiceByTitleQuery = `*[_type == "contentMarketing
     features[]{
       title,
       description,
-      icon
+      icon,
+      image{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   content{
@@ -1550,7 +1608,15 @@ export const webDevelopmentServiceByTitleQuery = `*[_type == "webDevelopmentServ
     features[]{
       title,
       description,
-      icon
+      icon,
+      image{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   content{
@@ -1682,7 +1748,15 @@ export const appDevelopmentServiceByTitleQuery = `*[_type == "appDevelopmentServ
     features[]{
       title,
       description,
-      icon
+      icon,
+      image{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   content{
@@ -1814,7 +1888,15 @@ export const hostingServiceByTitleQuery = `*[_type == "hostingService" && servic
     features[]{
       title,
       description,
-      icon
+      icon,
+      image{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   content{
@@ -1946,7 +2028,15 @@ export const aiAutomationServiceByTitleQuery = `*[_type == "aiAutomationService"
     features[]{
       title,
       description,
-      icon
+      icon,
+      image{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   content{
@@ -2078,7 +2168,15 @@ export const dataAnalyticsServiceByTitleQuery = `*[_type == "dataAnalyticsServic
     features[]{
       title,
       description,
-      icon
+      icon,
+      image{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   content{

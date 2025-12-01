@@ -513,6 +513,22 @@ export const paidAdsPage = defineType({
                   type: "text",
                   validation: (Rule) => Rule.required(),
                 }),
+                defineField({
+                  name: "icon",
+                  title: "Icon",
+                  type: "string",
+                  description: "Optional text or emoji icon",
+                }),
+                defineField({
+                  name: "image",
+                  title: "Icon Image",
+                  type: "image",
+                  options: {
+                    hotspot: true,
+                  },
+                  description:
+                    "Optional feature icon image. Shown in the UI instead of the text icon when set.",
+                }),
               ],
             },
           ],

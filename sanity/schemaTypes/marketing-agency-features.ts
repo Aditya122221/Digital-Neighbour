@@ -42,6 +42,18 @@ export const marketingAgencyFeatures = defineType({
 							name: "icon",
 							title: "Icon",
 							type: "string",
+							description:
+								"Optional emoji or text icon. For best results, upload an image below instead.",
+						}),
+						defineField({
+							name: "image",
+							title: "Icon Image",
+							type: "image",
+							options: {
+								hotspot: true,
+							},
+							description:
+								"Upload an icon image for this feature. This will be shown in the UI instead of the text icon.",
 						}),
 					],
 				}),

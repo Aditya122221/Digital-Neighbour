@@ -789,6 +789,16 @@ export const professionalsMarketingPage = defineType({
 									description:
 										"Optional icon identifier",
 								}),
+								defineField({
+									name: "image",
+									title: "Icon Image",
+									type: "image",
+									options: {
+										hotspot: true,
+									},
+									description:
+										"Optional feature icon image. Shown in the UI instead of the text icon when set.",
+								}),
 							],
 							preview: {
 								select: {

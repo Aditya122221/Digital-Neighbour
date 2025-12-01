@@ -1,11 +1,17 @@
 "use client"
 
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 interface Feature {
 	title: string
 	description: string
+	// Optional text/emoji icon (from JSON or legacy content)
 	icon?: string
+	// Optional uploaded icon image (Sanity image object or URL string)
+	// We keep this loose because different services can send either type.
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	image?: any
 }
 
 interface FeaturesProps {
@@ -17,6 +23,22 @@ interface FeaturesProps {
 }
 
 const defaultIcons = ["🤖", "⚡", "🧠", "📊", "🔄"]
+
+// Helper to safely resolve an image URL from either a string or a Sanity image object
+const getFeatureImageSrc = (image: Feature["image"]): string | undefined => {
+	if (!image) return undefined
+
+	if (typeof image === "string") {
+		return image
+	}
+
+	// Handle Sanity image object with populated asset
+	if (typeof image === "object" && image.asset && typeof image.asset.url === "string") {
+		return image.asset.url
+	}
+
+	return undefined
+}
 
 export default function Features({ data }: FeaturesProps) {
 	const fallbackFeatures: Feature[] = [
@@ -133,15 +155,33 @@ export default function Features({ data }: FeaturesProps) {
 									>
 										{/* Icon */}
 										<div className="relative">
-											<div className="w-20 h-20 rounded-full flex items-center justify-center bg-[#0e0e59]">
-												<span className="text-4xl">
-													{feature.icon
-														? feature.icon
-														: defaultIcons[
-																index %
-																	defaultIcons.length
-															]}
-												</span>
+											<div className="w-20 h-20 rounded-full flex items-center justify-center bg-[#0e0e59] overflow-hidden">
+												{(() => {
+													const imageSrc = getFeatureImageSrc(feature.image)
+
+													if (imageSrc) {
+														return (
+															<Image
+																src={imageSrc}
+																alt={feature.title}
+																width={80}
+																height={80}
+																className="w-full h-full object-cover"
+															/>
+														)
+													}
+
+													return (
+														<span className="text-4xl">
+															{feature.icon
+																? feature.icon
+																: defaultIcons[
+																		index %
+																			defaultIcons.length
+																	]}
+														</span>
+													)
+												})()}
 											</div>
 										</div>
 
@@ -201,16 +241,33 @@ export default function Features({ data }: FeaturesProps) {
 										>
 											{/* Icon */}
 											<div className="relative">
-												<div className="w-20 h-20 rounded-full flex items-center justify-center bg-[#0e0e59]">
-													<span className="text-4xl">
-														{feature.icon
-															? feature.icon
-															: defaultIcons[
-																	(index +
-																		3) %
-																		defaultIcons.length
-																]}
-													</span>
+												<div className="w-20 h-20 rounded-full flex items-center justify-center bg-[#0e0e59] overflow-hidden">
+													{(() => {
+														const imageSrc = getFeatureImageSrc(feature.image)
+
+														if (imageSrc) {
+															return (
+																<Image
+																	src={imageSrc}
+																	alt={feature.title}
+																	width={80}
+																	height={80}
+																	className="w-full h-full object-cover"
+																/>
+															)
+														}
+
+														return (
+															<span className="text-4xl">
+																{feature.icon
+																	? feature.icon
+																	: defaultIcons[
+																			(index + 3) %
+																				defaultIcons.length
+																		]}
+															</span>
+														)
+													})()}
 												</div>
 											</div>
 

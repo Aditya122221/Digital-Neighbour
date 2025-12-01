@@ -513,6 +513,16 @@ export const seoPage = defineType({
                   type: "string",
                   description: "Emoji or icon identifier",
                 }),
+                defineField({
+                  name: "image",
+                  title: "Icon Image",
+                  type: "image",
+                  options: {
+                    hotspot: true,
+                  },
+                  description:
+                    "Optional feature icon image. Shown in the UI instead of the text icon when set.",
+                }),
               ],
             },
           ],
