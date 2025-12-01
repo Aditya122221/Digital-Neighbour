@@ -162,6 +162,7 @@
   },
   "faq": {
     "serviceName": "Hosting & IT Security",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "Which hosting type is best for my business?",
@@ -349,6 +350,7 @@
   },
   "faq": {
     "serviceName": "Web Hosting",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "Which hosting plan is right for my website?",
@@ -536,6 +538,7 @@
   },
   "faq": {
     "serviceName": "WordPress Hosting",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "What makes your WordPress hosting different?",
@@ -723,6 +726,7 @@
   },
   "faq": {
     "serviceName": "Email Hosting",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "Can you migrate our existing emails to your hosting?",
@@ -910,6 +914,7 @@
   },
   "faq": {
     "serviceName": "Reseller Hosting",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "What is reseller hosting?",
@@ -1097,6 +1102,7 @@
   },
   "faq": {
     "serviceName": "Ecommerce Hosting",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "Which ecommerce platforms do you support?",
@@ -1284,6 +1290,7 @@
   },
   "faq": {
     "serviceName": "Dedicated Server Hosting",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "Who should choose dedicated server hosting?",
@@ -1471,6 +1478,7 @@
   },
   "faq": {
     "serviceName": "Windows Virtual Server Hosting",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "What operating systems are available for Windows virtual servers?",
@@ -1658,6 +1666,7 @@
   },
   "faq": {
     "serviceName": "Linux Server Hosting",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "Which Linux distributions do you support?",
@@ -1845,6 +1854,7 @@
   },
   "faq": {
     "serviceName": "VPS Hosting",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "What is VPS hosting and how is it different from shared hosting?",

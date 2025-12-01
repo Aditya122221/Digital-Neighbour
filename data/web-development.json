@@ -147,6 +147,7 @@
     },
     "faq": {
       "serviceName": "Web Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "How long does it take to build a website?",
@@ -319,6 +320,7 @@
     },
     "faq": {
       "serviceName": "Website Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "How long does website development take?",
@@ -491,6 +493,7 @@
     },
     "faq": {
       "serviceName": "Web App Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What's the difference between a website and a web application?",
@@ -663,6 +666,7 @@
     },
     "faq": {
       "serviceName": "eCommerce Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Which e-commerce platform is best for my business?",
@@ -835,6 +839,7 @@
     },
     "faq": {
       "serviceName": "Landing Page Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "How long does it take to build a landing page?",
@@ -1007,6 +1012,7 @@
     },
     "faq": {
       "serviceName": "Front-End Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What front-end frameworks do you use?",
@@ -1179,6 +1185,7 @@
     },
     "faq": {
       "serviceName": "Back-End Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What back-end technologies do you use?",
@@ -1321,6 +1328,7 @@
     },
     "faq": {
       "serviceName": "CMS Integration",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Which CMS platforms do you integrate?",
@@ -1493,6 +1501,7 @@
     },
     "faq": {
       "serviceName": "UI/UX Design",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What's the difference between UI and UX design?",
@@ -1665,6 +1674,7 @@
     },
     "faq": {
       "serviceName": "Custom Web Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "How is custom development different from using templates?",
@@ -1837,6 +1847,7 @@
     },
     "faq": {
       "serviceName": "Wix Website Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Why choose Wix over other website builders?",
@@ -2009,6 +2020,7 @@
     },
     "faq": {
       "serviceName": "React.js Website Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Why choose React.js for web development?",
@@ -2181,6 +2193,7 @@
     },
     "faq": {
       "serviceName": "WordPress Website Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Why choose WordPress for your website?",
@@ -2353,6 +2366,7 @@
     },
     "faq": {
       "serviceName": "WooCommerce Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Why choose WooCommerce for e-commerce?",
@@ -2525,6 +2539,7 @@
     },
     "faq": {
       "serviceName": "Magento Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Why choose Magento for enterprise e-commerce?",
@@ -2697,6 +2712,7 @@
     },
     "faq": {
       "serviceName": "Squarespace Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Why choose Squarespace for my website?",
@@ -2869,6 +2885,7 @@
     },
     "faq": {
       "serviceName": "Custom PHP Web Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Why choose PHP for web development?",
@@ -3041,6 +3058,7 @@
     },
     "faq": {
       "serviceName": "Next.js Web Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Why choose Next.js over plain React?",
@@ -3213,6 +3231,7 @@
     },
     "faq": {
       "serviceName": "Angular Web Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Why choose Angular for web development?",
@@ -3385,6 +3404,7 @@
     },
     "faq": {
       "serviceName": "Vue.js Web Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Why choose Vue.js for web development?",
@@ -3557,6 +3577,7 @@
     },
     "faq": {
       "serviceName": "Speed Optimization",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "How much can you improve my website speed?",
@@ -3729,6 +3750,7 @@
     },
     "faq": {
       "serviceName": "Portfolio Websites",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "How long does it take to build a portfolio website?",
@@ -3901,6 +3923,7 @@
     },
     "faq": {
       "serviceName": "Real Estate Websites",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What features should a real estate website have?",
@@ -4073,6 +4096,7 @@
     },
     "faq": {
       "serviceName": "Healthcare Websites",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Will my healthcare website be HIPAA compliant?",
@@ -4245,6 +4269,7 @@
     },
     "faq": {
       "serviceName": "Law Firm Websites",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What should a law firm website include?",
@@ -4417,6 +4442,7 @@
     },
     "faq": {
       "serviceName": "Education Websites",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What features should an education website have?",
@@ -4589,6 +4615,7 @@
     },
     "faq": {
       "serviceName": "NGO / Non-Profit Websites",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What features should a non-profit website have?",
@@ -4761,6 +4788,7 @@
     },
     "faq": {
       "serviceName": "Job Portal Websites",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What features should a job portal have?",
@@ -4933,6 +4961,7 @@
     },
     "faq": {
       "serviceName": "Directory Listing Websites",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What features should a directory website have?",
@@ -5105,6 +5134,7 @@
     },
     "faq": {
       "serviceName": "Multi-Vendor Marketplace Websites",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What features should a multi-vendor marketplace have?",

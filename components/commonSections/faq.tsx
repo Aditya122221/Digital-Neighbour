@@ -16,6 +16,7 @@ interface FaqItem {
 interface FaqProps {
 	data?: {
 		serviceName?: string
+		tagline?: string
 		faqs?: FaqItem[]
 	}
 }
@@ -54,6 +55,9 @@ const defaultFaqs: FaqItem[] = [
 export default function Faq({ data }: FaqProps) {
 	const faqs = data?.faqs || defaultFaqs
 	const serviceName = data?.serviceName || "SEO"
+	const tagline =
+		data?.tagline ||
+		"A quick intro to a complex, ever‑changing topic."
 	
 	// Determine font size based on service name length
 	const getServiceNameSize = (name: string) => {
@@ -97,9 +101,7 @@ export default function Faq({ data }: FaqProps) {
 							</span>
 						</h2>
 						<p className="text-lg text-blackbrown/80 max-w-xl">
-							A quick intro to a
-							complex, ever‑changing
-							topic.
+							{tagline}
 						</p>
 					</motion.div>
 

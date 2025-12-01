@@ -329,9 +329,9 @@ export const socialMediaPage = defineType({
 											"Pain Point",
 										subtitle: subtitle
 											? subtitle.slice(
-													0,
-													60
-												)
+												0,
+												60
+											)
 											: "",
 										media,
 									}
@@ -599,9 +599,9 @@ export const socialMediaPage = defineType({
 											"Benefit",
 										subtitle: subtitle
 											? subtitle.slice(
-													0,
-													60
-												)
+												0,
+												60
+											)
 											: "",
 										media,
 									}
@@ -703,9 +703,9 @@ export const socialMediaPage = defineType({
 											"Feature",
 										subtitle: subtitle
 											? subtitle.slice(
-													0,
-													60
-												)
+												0,
+												60
+											)
 											: "",
 										media,
 									}
@@ -730,6 +730,13 @@ export const socialMediaPage = defineType({
 					type: "string",
 					description:
 						"Service name for FAQ context",
+				}),
+				defineField({
+					name: "tagline",
+					title: "Tagline",
+					type: "string",
+					description:
+						"Short line shown under the FAQ heading",
 				}),
 				defineField({
 					name: "faqs",
@@ -774,9 +781,9 @@ export const socialMediaPage = defineType({
 											"FAQ",
 										subtitle: subtitle
 											? subtitle.slice(
-													0,
-													60
-												)
+												0,
+												60
+											)
 											: "",
 									}
 								},

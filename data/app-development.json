@@ -77,11 +77,31 @@
       "heading": "What You Get",
       "subheading": "Everything needed to build and launch successful apps.",
       "features": [
-        { "title": "Native & Cross-Platform Development", "description": "Build native iOS, Android, or cross-platform apps with React Native and Flutter for maximum reach.", "icon": "📱" },
-        { "title": "UI/UX Design", "description": "User-centered app design that creates intuitive, engaging experiences users love.", "icon": "🎨" },
-        { "title": "App Store Optimization", "description": "ASO strategies to maximize visibility, downloads, and rankings on App Store and Play Store.", "icon": "📈" },
-        { "title": "Performance Optimization", "description": "Optimize for speed, battery efficiency, and smooth 60fps performance across all devices.", "icon": "⚡" },
-        { "title": "Ongoing Maintenance", "description": "Comprehensive maintenance packages to keep your app updated, secure, and competitive.", "icon": "🛠️" }
+        {
+          "title": "Native & Cross-Platform Development",
+          "description": "Build native iOS, Android, or cross-platform apps with React Native and Flutter for maximum reach.",
+          "icon": "📱"
+        },
+        {
+          "title": "UI/UX Design",
+          "description": "User-centered app design that creates intuitive, engaging experiences users love.",
+          "icon": "🎨"
+        },
+        {
+          "title": "App Store Optimization",
+          "description": "ASO strategies to maximize visibility, downloads, and rankings on App Store and Play Store.",
+          "icon": "📈"
+        },
+        {
+          "title": "Performance Optimization",
+          "description": "Optimize for speed, battery efficiency, and smooth 60fps performance across all devices.",
+          "icon": "⚡"
+        },
+        {
+          "title": "Ongoing Maintenance",
+          "description": "Comprehensive maintenance packages to keep your app updated, secure, and competitive.",
+          "icon": "🛠️"
+        }
       ]
     },
     "services": "App Development",
@@ -133,6 +153,7 @@
     },
     "faq": {
       "serviceName": "App Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "How long does it take to build a app?",
@@ -219,11 +240,31 @@
       "heading": "iOS App Development Capabilities",
       "subheading": "Everything needed to build premium iOS apps.",
       "features": [
-        { "title": "Swift & SwiftUI Development", "description": "Modern iOS apps built with Swift and SwiftUI for faster development and maintainable code.", "icon": "💻" },
-        { "title": "Apple Ecosystem Integration", "description": "Seamless integration with iCloud, Apple Pay, HealthKit, ARKit, and other Apple services.", "icon": "🍎" },
-        { "title": "App Store Optimization", "description": "ASO strategies and App Store submission to maximize visibility and downloads.", "icon": "📈" },
-        { "title": "Premium UI/UX", "description": "iOS-native design following Apple Human Interface Guidelines for exceptional user experiences.", "icon": "🎨" },
-        { "title": "iOS Maintenance & Updates", "description": "Ongoing support to keep your iOS app current with new iOS versions and features.", "icon": "🔄" }
+        {
+          "title": "Swift & SwiftUI Development",
+          "description": "Modern iOS apps built with Swift and SwiftUI for faster development and maintainable code.",
+          "icon": "💻"
+        },
+        {
+          "title": "Apple Ecosystem Integration",
+          "description": "Seamless integration with iCloud, Apple Pay, HealthKit, ARKit, and other Apple services.",
+          "icon": "🍎"
+        },
+        {
+          "title": "App Store Optimization",
+          "description": "ASO strategies and App Store submission to maximize visibility and downloads.",
+          "icon": "📈"
+        },
+        {
+          "title": "Premium UI/UX",
+          "description": "iOS-native design following Apple Human Interface Guidelines for exceptional user experiences.",
+          "icon": "🎨"
+        },
+        {
+          "title": "iOS Maintenance & Updates",
+          "description": "Ongoing support to keep your iOS app current with new iOS versions and features.",
+          "icon": "🔄"
+        }
       ]
     },
     "form": {
@@ -291,6 +332,7 @@
     ],
     "faq": {
       "serviceName": "iOS App Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "How long does it take to develop an iOS app?",
@@ -377,11 +419,31 @@
       "heading": "Android App Development Capabilities",
       "subheading": "Everything needed to build high-performance Android apps.",
       "features": [
-        { "title": "Kotlin & Jetpack Compose", "description": "Modern Android apps built with Kotlin and Jetpack Compose for maintainable, scalable code.", "icon": "💻" },
-        { "title": "Device Compatibility", "description": "Universal compatibility across phones, tablets, foldables, and Android Auto devices.", "icon": "📱" },
-        { "title": "Play Store Optimization", "description": "ASO strategies and Play Store submission to maximize visibility and downloads.", "icon": "📈" },
-        { "title": "Material Design", "description": "Beautiful Android UIs following Material Design guidelines for consistent experiences.", "icon": "🎨" },
-        { "title": "Android Maintenance & Updates", "description": "Ongoing support to keep your Android app current with new Android versions and features.", "icon": "🔄" }
+        {
+          "title": "Kotlin & Jetpack Compose",
+          "description": "Modern Android apps built with Kotlin and Jetpack Compose for maintainable, scalable code.",
+          "icon": "💻"
+        },
+        {
+          "title": "Device Compatibility",
+          "description": "Universal compatibility across phones, tablets, foldables, and Android Auto devices.",
+          "icon": "📱"
+        },
+        {
+          "title": "Play Store Optimization",
+          "description": "ASO strategies and Play Store submission to maximize visibility and downloads.",
+          "icon": "📈"
+        },
+        {
+          "title": "Material Design",
+          "description": "Beautiful Android UIs following Material Design guidelines for consistent experiences.",
+          "icon": "🎨"
+        },
+        {
+          "title": "Android Maintenance & Updates",
+          "description": "Ongoing support to keep your Android app current with new Android versions and features.",
+          "icon": "🔄"
+        }
       ]
     },
     "form": {
@@ -449,6 +511,7 @@
     ],
     "faq": {
       "serviceName": "Android App Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "How long does it take to develop an Android app?",
@@ -535,11 +598,31 @@
       "heading": "React Native Development Capabilities",
       "subheading": "Everything needed to build cross-platform apps with React Native.",
       "features": [
-        { "title": "Cross-Platform Development", "description": "Single codebase that powers both iOS and Android apps with shared business logic.", "icon": "📱" },
-        { "title": "Native Module Integration", "description": "Seamless integration of native iOS and Android modules for platform-specific features.", "icon": "🔌" },
-        { "title": "Performance Optimization", "description": "Optimize React Native performance with code splitting, lazy loading, and native bridges.", "icon": "⚡" },
-        { "title": "Platform-Specific UI", "description": "iOS and Android feel native with platform-specific UI components and behaviors.", "icon": "🎨" },
-        { "title": "React Native Maintenance", "description": "Ongoing support to keep your React Native app updated and running smoothly.", "icon": "🛠️" }
+        {
+          "title": "Cross-Platform Development",
+          "description": "Single codebase that powers both iOS and Android apps with shared business logic.",
+          "icon": "📱"
+        },
+        {
+          "title": "Native Module Integration",
+          "description": "Seamless integration of native iOS and Android modules for platform-specific features.",
+          "icon": "🔌"
+        },
+        {
+          "title": "Performance Optimization",
+          "description": "Optimize React Native performance with code splitting, lazy loading, and native bridges.",
+          "icon": "⚡"
+        },
+        {
+          "title": "Platform-Specific UI",
+          "description": "iOS and Android feel native with platform-specific UI components and behaviors.",
+          "icon": "🎨"
+        },
+        {
+          "title": "React Native Maintenance",
+          "description": "Ongoing support to keep your React Native app updated and running smoothly.",
+          "icon": "🛠️"
+        }
       ]
     },
     "form": {
@@ -607,6 +690,7 @@
     ],
     "faq": {
       "serviceName": "React Native Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "How long does it take to build a React Native app?",
@@ -693,11 +777,31 @@
       "heading": "Flutter Development Capabilities",
       "subheading": "Everything needed to build beautiful, performant Flutter apps.",
       "features": [
-        { "title": "Pixel-Perfect UI", "description": "Stunning, pixel-perfect designs with Flutter's expressive widget system.", "icon": "🎨" },
-        { "title": "Hot Reload Development", "description": "Rapid development with hot reload for instant visual feedback and faster iterations.", "icon": "⚡" },
-        { "title": "Native Performance", "description": "True native performance with compiled Dart code delivering 60fps on both platforms.", "icon": "🚀" },
-        { "title": "Multi-Platform Support", "description": "Extend to web, desktop, and embedded devices from the same codebase.", "icon": "🌐" },
-        { "title": "Custom Animations", "description": "Rich animations and custom UI components that create engaging user experiences.", "icon": "✨" }
+        {
+          "title": "Pixel-Perfect UI",
+          "description": "Stunning, pixel-perfect designs with Flutter's expressive widget system.",
+          "icon": "🎨"
+        },
+        {
+          "title": "Hot Reload Development",
+          "description": "Rapid development with hot reload for instant visual feedback and faster iterations.",
+          "icon": "⚡"
+        },
+        {
+          "title": "Native Performance",
+          "description": "True native performance with compiled Dart code delivering 60fps on both platforms.",
+          "icon": "🚀"
+        },
+        {
+          "title": "Multi-Platform Support",
+          "description": "Extend to web, desktop, and embedded devices from the same codebase.",
+          "icon": "🌐"
+        },
+        {
+          "title": "Custom Animations",
+          "description": "Rich animations and custom UI components that create engaging user experiences.",
+          "icon": "✨"
+        }
       ]
     },
     "form": {
@@ -765,6 +869,7 @@
     ],
     "faq": {
       "serviceName": "Flutter Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "How long does it take to build a Flutter app?",
@@ -851,11 +956,31 @@
       "heading": "Software Development Capabilities",
       "subheading": "Everything needed to build custom software solutions.",
       "features": [
-        { "title": "Custom Architecture", "description": "Scalable software architecture designed for your specific business requirements.", "icon": "🏗️" },
-        { "title": "System Integration", "description": "Seamless integration with existing systems, databases, and third-party services.", "icon": "🔌" },
-        { "title": "Enterprise Solutions", "description": "Desktop applications and enterprise systems built to scale with your business.", "icon": "💼" },
-        { "title": "API Development", "description": "RESTful and GraphQL APIs for seamless communication between systems.", "icon": "📡" },
-        { "title": "Cloud Deployment", "description": "Deploy to AWS, Azure, or Google Cloud with scalable cloud infrastructure.", "icon": "☁️" }
+        {
+          "title": "Custom Architecture",
+          "description": "Scalable software architecture designed for your specific business requirements.",
+          "icon": "🏗️"
+        },
+        {
+          "title": "System Integration",
+          "description": "Seamless integration with existing systems, databases, and third-party services.",
+          "icon": "🔌"
+        },
+        {
+          "title": "Enterprise Solutions",
+          "description": "Desktop applications and enterprise systems built to scale with your business.",
+          "icon": "💼"
+        },
+        {
+          "title": "API Development",
+          "description": "RESTful and GraphQL APIs for seamless communication between systems.",
+          "icon": "📡"
+        },
+        {
+          "title": "Cloud Deployment",
+          "description": "Deploy to AWS, Azure, or Google Cloud with scalable cloud infrastructure.",
+          "icon": "☁️"
+        }
       ]
     },
     "form": {
@@ -923,6 +1048,7 @@
     },
     "faq": {
       "serviceName": "Software Development",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "How long does custom software development take?",
@@ -1009,11 +1135,31 @@
       "heading": "Progressive Web App Capabilities",
       "subheading": "Everything needed to build powerful PWAs.",
       "features": [
-        { "title": "Offline Functionality", "description": "Service workers and intelligent caching for reliable offline experiences.", "icon": "📴" },
-        { "title": "Push Notifications", "description": "Cross-platform push notifications that engage users even when the app isn't open.", "icon": "🔔" },
-        { "title": "App-Like Installation", "description": "Installable PWAs that appear on home screens without app store downloads.", "icon": "📲" },
-        { "title": "Universal Compatibility", "description": "One PWA works across desktop, mobile, and tablet platforms.", "icon": "🌐" },
-        { "title": "Fast Performance", "description": "Lightning-fast load times and smooth performance optimized for all devices.", "icon": "⚡" }
+        {
+          "title": "Offline Functionality",
+          "description": "Service workers and intelligent caching for reliable offline experiences.",
+          "icon": "📴"
+        },
+        {
+          "title": "Push Notifications",
+          "description": "Cross-platform push notifications that engage users even when the app isn't open.",
+          "icon": "🔔"
+        },
+        {
+          "title": "App-Like Installation",
+          "description": "Installable PWAs that appear on home screens without app store downloads.",
+          "icon": "📲"
+        },
+        {
+          "title": "Universal Compatibility",
+          "description": "One PWA works across desktop, mobile, and tablet platforms.",
+          "icon": "🌐"
+        },
+        {
+          "title": "Fast Performance",
+          "description": "Lightning-fast load times and smooth performance optimized for all devices.",
+          "icon": "⚡"
+        }
       ]
     },
     "form": {
@@ -1081,6 +1227,7 @@
     },
     "faq": {
       "serviceName": "Progressive Web Apps",
+      "tagline": "A quick intro to a complex, ever‑changing topic.!!!",
       "faqs": [
         {
           "q": "What are the benefits of PWAs over native apps?",

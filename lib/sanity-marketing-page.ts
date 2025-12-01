@@ -73,6 +73,7 @@ export type MarketingAgencyPageData = {
   };
   faq?: {
     serviceName?: string;
+    tagline?: string;
     heading?: string;
     subheading?: string;
     faqs?: {

@@ -100,6 +100,7 @@
     "services": "Professionals Marketing",
     "faq": {
       "serviceName": "Professionals Marketing",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "How do you generate qualified enquiries for professional services?",
@@ -225,6 +226,7 @@
   "services": "Real Estate Marketing",
   "faq": {
     "serviceName": "Real Estate Marketing",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "How do you generate qualified real estate leads?",
@@ -350,6 +352,7 @@
   "services": "Mortgage Broker Marketing",
   "faq": {
     "serviceName": "Mortgage Broker Marketing",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "How do you generate qualified mortgage leads?",
@@ -475,6 +478,7 @@
   "services": "Physiotherapists Marketing",
   "faq": {
     "serviceName": "Physiotherapists Marketing",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "How do you help physiotherapy clinics attract more patients?",
@@ -600,6 +604,7 @@
   "services": "Coaches Marketing Agency",
   "faq": {
     "serviceName": "Coaches Marketing Agency",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "How do you generate leads for coaches?",
@@ -725,6 +730,7 @@
   "services": "Law Firm Marketing",
   "faq": {
     "serviceName": "Law Firm Marketing",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "How do you generate qualified leads for law firms?",
@@ -850,6 +856,7 @@
   "services": "Accountant Marketing",
   "faq": {
     "serviceName": "Accountant Marketing",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "How do you help accounting firms generate leads?",
@@ -975,6 +982,7 @@
   "services": "Financial Advisor Marketing",
   "faq": {
     "serviceName": "Financial Advisor Marketing",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "How do you generate qualified leads for financial advisors?",
@@ -1100,6 +1108,7 @@
   "services": "Insurance Broker Marketing",
   "faq": {
     "serviceName": "Insurance Broker Marketing",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "How do you generate quality leads for insurance brokers?",
@@ -1225,6 +1234,7 @@
   "services": "Consulting Firm Marketing",
   "faq": {
     "serviceName": "Consulting Firm Marketing",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "How do you help consulting firms attract clients?",

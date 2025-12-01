@@ -161,6 +161,7 @@
     "services": "Industries",
     "faq": {
       "serviceName": "Industries",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Can you customize services for our industry?",
@@ -339,6 +340,7 @@
     "services": "Automotive Repair & Servicing Marketing Agency",
     "faq": {
       "serviceName": "Automotive Repair & Servicing Marketing Agency",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Do you work with small or multi-location auto shops?",
@@ -485,6 +487,7 @@
     "services": "Movers & Relocation Services Marketing Agency",
     "faq": {
       "serviceName": "Movers & Relocation Services Marketing Agency",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Do you work with both local and interstate movers?",
@@ -663,6 +666,7 @@
     "services": "Small Business Marketing Agency",
     "faq": {
       "serviceName": "Small Business Marketing Agency",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Do you work with all types of small businesses?",
@@ -841,6 +845,7 @@
     "services": "Medium Business Marketing Agency",
     "faq": {
       "serviceName": "Medium Business Marketing Agency",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Do you work with specific industries?",
@@ -1019,6 +1024,7 @@
     "services": "Enterprise Business Marketing Agency",
     "faq": {
       "serviceName": "Enterprise Business Marketing Agency",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Can you manage marketing for multiple brands or regions?",
@@ -1197,6 +1203,7 @@
     "services": "Architect Marketing",
     "faq": {
       "serviceName": "Architect Marketing",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Do you work with independent architects or large firms?",
@@ -1375,6 +1382,7 @@
     "services": "Recruitment Agency Marketing",
     "faq": {
       "serviceName": "Recruitment Agency Marketing",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Can you help with both client and candidate acquisition?",
@@ -1553,6 +1561,7 @@
     "services": "HR Marketing Agency",
     "faq": {
       "serviceName": "HR Marketing Agency",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Do you work with internal HR teams or agencies?",
@@ -1731,6 +1740,7 @@
     "services": "IT Marketing Agency",
     "faq": {
       "serviceName": "IT Marketing Agency",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Do you work with both B2B and B2C IT businesses?",

@@ -241,6 +241,7 @@
     ],
     "faq": {
       "serviceName": "AI & Automation",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What types of AI solutions do you offer?",
@@ -507,6 +508,7 @@
   ],
   "faq": {
     "serviceName": "AI Chatbots",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "What can AI chatbots do for my business?",
@@ -773,6 +775,7 @@
   ],
   "faq": {
     "serviceName": "AI Receptionists",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "What can an AI receptionist do?",
@@ -1033,6 +1036,7 @@
   ],
   "faq": {
     "serviceName": "Factory Automation",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "What types of factory automation solutions do you offer?",
@@ -1293,6 +1297,7 @@
   ],
   "faq": {
     "serviceName": "Social Media Automation",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "What social platforms can be automated?",
@@ -1553,6 +1558,7 @@
   ],
   "faq": {
     "serviceName": "Workflow Automation",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "What is workflow automation?",
@@ -1819,6 +1825,7 @@
   ],
   "faq": {
     "serviceName": "ERP Systems",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "What is an ERP system and how can it benefit my business?",
@@ -2085,6 +2092,7 @@
     ],
     "faq": {
       "serviceName": "Lead Follow-Up Agent",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "How does the AI Lead Follow-Up Agent work?",
@@ -2345,6 +2353,7 @@
   ],
   "faq": {
     "serviceName": "Customer Feedback Collector",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "What is a Customer Feedback Collector?",
@@ -2611,6 +2620,7 @@
   ],
   "faq": {
     "serviceName": "Automation Blogging",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "What is blogging automation?",

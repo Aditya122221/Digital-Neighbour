@@ -409,6 +409,7 @@
     },
     "faq": {
       "serviceName": "WordPress",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Why does my WordPress site need special SEO?",

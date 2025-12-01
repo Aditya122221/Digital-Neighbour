@@ -759,6 +759,13 @@ export const appDevelopmentPage = defineType({
 						"Service name for FAQ context",
 				}),
 				defineField({
+					name: "tagline",
+					title: "Tagline",
+					type: "string",
+					description:
+						"Short line shown under the FAQ heading",
+				}),
+				defineField({
 					name: "faqs",
 					title: "FAQs",
 					type: "array",

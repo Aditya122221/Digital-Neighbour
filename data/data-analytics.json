@@ -241,6 +241,7 @@
     ],
     "faq": {
       "serviceName": "Data & Analytics",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What types of data analytics solutions do you offer?",
@@ -501,6 +502,7 @@
   ],
   "faq": {
     "serviceName": "Conversion Rate Optimization",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "What is Conversion Rate Optimization (CRO)?",
@@ -767,6 +769,7 @@
   ],
   "faq": {
     "serviceName": "Call Tracking & Analytics",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "What is call tracking and how does it work?",
@@ -1033,6 +1036,7 @@
   ],
   "faq": {
     "serviceName": "Reporting & Dashboards",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "What platforms do you use for dashboards and reporting?",
@@ -1299,6 +1303,7 @@
   ],
   "faq": {
     "serviceName": "Google Analytics",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "What is GA4 and how is it different from Universal Analytics?",
@@ -1565,6 +1570,7 @@
   ],
   "faq": {
     "serviceName": "Google Tag Manager",
+    "tagline": "A quick intro to a complex, ever‑changing topic.",
     "faqs": [
       {
         "q": "What is Google Tag Manager used for?",

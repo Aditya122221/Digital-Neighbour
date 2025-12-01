@@ -534,14 +534,10 @@ export const seoPage = defineType({
           description: "Service name for FAQ context",
         }),
         defineField({
-          name: "heading",
-          title: "Heading",
+          name: "tagline",
+          title: "Tagline",
           type: "string",
-        }),
-        defineField({
-          name: "subheading",
-          title: "Subheading",
-          type: "text",
+          description: "Short line shown under the FAQ heading",
         }),
         defineField({
           name: "faqs",

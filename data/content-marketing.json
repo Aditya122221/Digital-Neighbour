@@ -144,6 +144,7 @@
     },
     "faq": {
       "serviceName": "Content Marketing",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "How quickly can I see results from content marketing?",
@@ -312,6 +313,7 @@
     },
     "faq": {
       "serviceName": "Content Strategy",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "How long does it take to develop a content strategy?",
@@ -480,6 +482,7 @@
     },
     "faq": {
       "serviceName": "Copywriting",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What types of copywriting do you provide?",
@@ -648,6 +651,7 @@
     },
     "faq": {
       "serviceName": "Graphic Designing",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What types of graphic design services do you provide?",
@@ -816,6 +820,7 @@
     },
     "faq": {
       "serviceName": "Video Editing",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What video editing software do you use?",
@@ -984,6 +989,7 @@
     },
     "faq": {
       "serviceName": "Photo Shoot",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What types of photo shoots do you provide?",
@@ -1152,6 +1158,7 @@
     },
     "faq": {
       "serviceName": "Video Shoot",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What types of video shoots do you provide?",
@@ -1320,6 +1327,7 @@
     },
     "faq": {
       "serviceName": "Infographic Design",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What types of infographics can you design?",
@@ -1488,6 +1496,7 @@
     },
     "faq": {
       "serviceName": "Website Copywriting",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What website pages do you write copy for?",
@@ -1656,6 +1665,7 @@
     },
     "faq": {
       "serviceName": "Sales Copywriting",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What types of sales copy do you write?",

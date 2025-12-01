@@ -1000,6 +1000,13 @@ export const dataAnalyticsPage = defineType({
 						"Service name used in FAQ context",
 				}),
 				defineField({
+					name: "tagline",
+					title: "Tagline",
+					type: "string",
+					description:
+						"Short line shown under the FAQ heading",
+				}),
+				defineField({
 					name: "faqs",
 					title: "FAQs",
 					type: "array",

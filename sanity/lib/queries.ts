@@ -509,8 +509,7 @@ export const seoPageQuery = `*[_type == "seoPage" && slug.current == $slug][0]{
   },
   faq{
     serviceName,
-    heading,
-    subheading,
+    tagline,
     faqs[]{
       q,
       a
@@ -640,6 +639,7 @@ export const paidAdsPageQuery = `*[_type == "paidAdsPage" && slug.current == $sl
   },
   faq{
     serviceName,
+    tagline,
     faqs[]{
       q,
       a
@@ -908,8 +908,7 @@ export const marketingAgencyPageQuery = `{
   },
   "faq": *[_type == "marketingAgencyFaq"][0]{
     serviceName,
-    heading,
-    subheading,
+    "tagline": text,
     faqs[]{
       q,
       a
@@ -1035,8 +1034,7 @@ export const seoServiceByTitleQuery = `*[_type == "seoService" && serviceName ==
   },
   faq{
     serviceName,
-    heading,
-    subheading,
+    tagline,
     faqs[]{
       q,
       a
@@ -2401,8 +2399,7 @@ const createPageQuery = (
   },
   faq{
     serviceName,
-    heading,
-    subheading,
+    tagline,
     faqs[]{
       q,
       a

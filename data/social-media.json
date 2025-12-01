@@ -113,6 +113,7 @@
     },
     "faq": {
       "serviceName": "Social Media",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "How do you measure success?",
@@ -361,6 +362,7 @@
     },
     "faq": {
       "serviceName": "Facebook Marketing",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Do you manage Facebook Groups?",
@@ -532,6 +534,7 @@
     },
     "faq": {
       "serviceName": "Instagram Marketing",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Do you edit Reels?",
@@ -703,6 +706,7 @@
     },
     "faq": {
       "serviceName": "LinkedIn Marketing",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Do you ghostwrite for executives?",
@@ -874,6 +878,7 @@
     },
     "faq": {
       "serviceName": "TikTok Marketing",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Do you work with creators?",
@@ -989,6 +994,7 @@
     },
     "faq": {
       "serviceName": "YouTube Community Marketing",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "Do you design thumbnails?",

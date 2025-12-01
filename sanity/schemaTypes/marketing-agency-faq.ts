@@ -11,13 +11,8 @@ export const marketingAgencyFaq = defineType({
 			type: "string",
 		}),
 		defineField({
-			name: "heading",
-			title: "Heading",
-			type: "string",
-		}),
-		defineField({
-			name: "subheading",
-			title: "Subheading",
+			name: "text",
+			title: "Tag Line",
 			type: "text",
 			rows: 3,
 		}),

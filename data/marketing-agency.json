@@ -106,6 +106,7 @@
     },
     "faq": {
       "serviceName": "Marketing Agency",
+      "tagline": "A quick intro to a complex, ever‑changing topic.",
       "faqs": [
         {
           "q": "What industries do you specialise in?",
