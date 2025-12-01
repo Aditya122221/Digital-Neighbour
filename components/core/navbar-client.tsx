@@ -379,7 +379,7 @@ export const NavbarClient: React.FC<{ data?: NavbarData | null }> = ({
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
               <div className="grid grid-cols-12 gap-6">
                 <div className="col-span-3">
-                  <div className="space-y-1 max-h-96 overflow-y-auto pr-1">
+                  <div className="space-y-2 max-h-96 overflow-y-auto pr-1">
                     {(megaMenuDataToUse[
                       activeCategory as keyof typeof megaMenuDataToUse
                     ]?.categories || []).map((category: any) => (
@@ -401,11 +401,11 @@ export const NavbarClient: React.FC<{ data?: NavbarData | null }> = ({
                 </div>
 
                 <div className="col-span-9">
-                  <div className="grid gap-4 grid-cols-4">
+                  <div className="flex justify-between gap-6 lg:gap-8">
                     {megaMenuDataToUse[
                       activeCategory as keyof typeof megaMenuDataToUse
                     ]?.columns?.map((column: any) => (
-                      <div key={column.title} className="space-y-2">
+                      <div key={column.title} className="space-y-2 flex-1">
                         {columnTitleToRoute[column.title] ? (
                           <Link
                             href={columnTitleToRoute[column.title]}
@@ -425,9 +425,20 @@ export const NavbarClient: React.FC<{ data?: NavbarData | null }> = ({
                               href={service.href || '#'}
                               className="flex items-center gap-2 p-1.5 rounded-lg transition-colors duration-200 group hover:bg-[#5D50EB]/10"
                             >
-                              <span className="text-xs text-gray-500">
-                                {service.icon || '*'}
-                              </span>
+                              {typeof service.icon === 'string' &&
+                              service.icon.startsWith('http') ? (
+                                <Image
+                                  src={service.icon}
+                                  alt={service.name}
+                                  width={16}
+                                  height={16}
+                                  className="w-4 h-4 object-contain flex-shrink-0"
+                                />
+                              ) : (
+                                <span className="text-xs text-gray-500">
+                                  {service.icon || '*'}
+                                </span>
+                              )}
                               <span className="text-sm text-gray-700 group-hover:text-[#5D50EB] transition-colors duration-200">
                                 {service.name}
                               </span>
@@ -528,9 +539,23 @@ export const NavbarClient: React.FC<{ data?: NavbarData | null }> = ({
                                                   setIsMenuOpen(false)
                                                 }
                                               >
-                                                <span className="text-xs">
-                                                  {service.icon || '*'}
-                                                </span>
+                                                {typeof service.icon ===
+                                                  'string' &&
+                                                service.icon.startsWith(
+                                                  'http',
+                                                ) ? (
+                                                  <Image
+                                                    src={service.icon}
+                                                    alt={service.name}
+                                                    width={16}
+                                                    height={16}
+                                                    className="w-4 h-4 object-contain"
+                                                  />
+                                                ) : (
+                                                  <span className="text-xs">
+                                                    {service.icon || '*'}
+                                                  </span>
+                                                )}
                                                 {service.name}
                                               </Link>
                                             ),

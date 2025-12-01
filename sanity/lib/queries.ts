@@ -2599,6 +2599,16 @@ export const navbarQuery = `*[_type == "siteNavbar" && _id == "siteNavbar"][0]{
 }`;
 
 export const footerQuery = `*[_type == "siteFooter" && _id == "siteFooter"][0]{
+  logo{
+    ...,
+    asset->{
+      _id,
+      url,
+      metadata
+    },
+    alt,
+    href
+  },
   backgroundVideo{
     asset->{
       _id,

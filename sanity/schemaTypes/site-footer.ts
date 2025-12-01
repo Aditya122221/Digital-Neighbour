@@ -6,6 +6,28 @@ export const siteFooter = defineType({
 	type: "document",
 	fields: [
 		defineField({
+			name: "logo",
+			title: "Logo",
+			type: "image",
+			options: {
+				hotspot: true,
+			},
+			fields: [
+				defineField({
+					name: "alt",
+					title: "Alt Text",
+					type: "string",
+					description: "Accessible description for the footer logo",
+				}),
+				defineField({
+					name: "href",
+					title: "Logo Link",
+					type: "string",
+					description: "Path the logo should link to (defaults to /)",
+				}),
+			],
+		}),
+		defineField({
 			name: "backgroundVideo",
 			title: "Background Video",
 			type: "file",

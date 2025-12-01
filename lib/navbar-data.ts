@@ -63,17 +63,15 @@ export async function getNavbarData(): Promise<NavbarData | null> {
 			tag: "navbar",
 		})
 
-		// Transform image URLs
+		// Transform logo image URL without forcing a square crop
 		if (data?.logo) {
 			data.logo = {
 				...data.logo,
 				asset: data.logo.asset
 					? {
 							...data.logo.asset,
-							url: urlForImage(data.logo)
-								.width(200)
-								.height(200)
-								.url(),
+							// Keep original aspect ratio and just constrain max width
+							url: urlForImage(data.logo).width(300).url(),
 						}
 					: undefined,
 			}

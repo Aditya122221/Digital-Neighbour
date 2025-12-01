@@ -46,6 +46,10 @@ export default async function Footer({ data }: { data?: FooterData | null }) {
 		footerData?.backgroundVideo?.asset?.url ||
 		footerData?.backgroundVideo?.url ||
 		"/footer-vid.mp4"
+	const logoUrl = footerData?.logo?.asset?.url || "/main-logo.png"
+	const logoHref = footerData?.logo?.href || "/"
+	const logoAlt = footerData?.logo?.alt || "Digital Neighbour Logo"
+
 	return (
 		<div className="bg-[#5D50EB] text-white relative overflow-hidden min-h-[700px]">
 			{/* Background Video */}
@@ -79,10 +83,10 @@ export default async function Footer({ data }: { data?: FooterData | null }) {
 						{/* Left Side - Logo and Main Content */}
 						<div className="space-y-8">
 							{/* Logo */}
-							<Link href="/" className="flex items-center">
+							<Link href={logoHref} className="flex items-center">
 								<Image
-									src="/main-logo.png"
-									alt="Digital Neighbour Logo"
+									src={logoUrl}
+									alt={logoAlt}
 									width={40}
 									height={40}
 									className="h-12 w-auto lg:h-14 brightness-0 invert transition-all duration-300"
