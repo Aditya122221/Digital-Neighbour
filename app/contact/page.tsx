@@ -59,7 +59,7 @@ export default function ContactPage() {
 							Let's{" "}
 							<span className="relative inline-block">
 								<span className="relative z-10">Collaborate</span>
-								<span className="absolute bottom-2 left-0 right-0 h-3/5 bg-yellow" />
+								<span className="absolute bottom-2 left-0 right-0 h-3/5 bg-yellow -skew-x-12" />
 							</span>{" "}
 							And Grow
 						</h1>

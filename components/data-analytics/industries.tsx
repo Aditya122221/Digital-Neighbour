@@ -78,7 +78,7 @@ export default function Industries({ data }: IndustriesProps) {
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white leading-tight font-cal-sans">
                 {beforeHighlight}
                 <span className="relative inline-block">
-                  <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-[#0e0e59]"></span>
+                  <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-[#0e0e59] -skew-x-12"></span>
                   <span className="relative z-10 font-medium italic">
                     Data Analytics Solutions
                   </span>

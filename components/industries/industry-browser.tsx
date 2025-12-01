@@ -86,7 +86,7 @@ export default function IndustryBrowserSection() {
 					<h2 className="mt-3 text-center text-4xl md:text-5xl lg:text-6xl font-cal-sans font-regular leading-tight text-blackbrown">
 						We&apos;re proud to serve the{" "}
 						<span className="relative inline-block">
-							<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
+							<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow -skew-x-12"></span>
 							<span className="relative z-10 font-medium italic">
 								home services
 							</span>

@@ -94,7 +94,7 @@ export default function Faq({ data }: FaqProps) {
 						<h2 className="text-4xl md:text-6xl font-regular text-blackbrown font-cal-sans leading-tight">
 							Learn more about{" "}
 							<span className={`relative inline-block ${getServiceNameSize(serviceName)}`}>
-								<span className="absolute bottom-1 left-0 right-0 h-[45%] bg-yellow -z-0"></span>
+								<span className="absolute bottom-1 left-0 right-0 h-[45%] bg-yellow -z-0 -skew-x-12"></span>
 								<span className="relative z-10 font-medium italic break-words inline-block">
 									{serviceName}.
 								</span>

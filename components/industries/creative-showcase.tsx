@@ -127,7 +127,7 @@ export default function CreativeShowcase({
 				<div className="mb-8 md:mb-12 text-center">
 					<h2 className="text-4xl md:text-5xl lg:text-6xl font-regular text-blackbrown leading-tight font-cal-sans">
 						<span className="relative inline-block">
-							<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
+							<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow -skew-x-12"></span>
 							<span className="relative z-10 font-medium italic">
 								{title}
 							</span>

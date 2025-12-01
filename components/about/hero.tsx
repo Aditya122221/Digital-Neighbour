@@ -42,7 +42,7 @@ const getHighlightSegments = (
 
 const HighlightWord = ({ text }: { text: string }) => (
 	<span className="relative inline-block">
-		<span className="absolute bottom-2 left-0 right-0 h-3/5 bg-[#ffbe11]" />
+		<span className="absolute bottom-2 left-0 right-0 h-3/5 bg-[#ffbe11] -skew-x-12" />
 		<span
 			className="relative z-10 font-medium italic"
 			style={{

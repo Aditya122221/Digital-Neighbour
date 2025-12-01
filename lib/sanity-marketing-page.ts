@@ -71,6 +71,16 @@ export type MarketingAgencyPageData = {
       icon?: string;
     }[];
   };
+  howFast?: {
+    heading?: string;
+    highlightWord?: string;
+    headline?: string;
+    principles?: {
+      title?: string;
+      description?: string;
+      icon?: SanityFileReference;
+    }[];
+  };
   faq?: {
     serviceName?: string;
     tagline?: string;
@@ -105,6 +115,7 @@ type MarketingAgencySanityResponse = {
   keyBenefits?: MarketingAgencyPageData["keyBenefits"];
   features?: MarketingAgencyPageData["features"];
   faq?: MarketingAgencyPageData["faq"];
+  howFast?: MarketingAgencyPageData["howFast"];
 };
 
 const mapFileReference = (
@@ -176,6 +187,19 @@ function transformMarketingData(
     keyBenefits: data.keyBenefits,
     features: data.features,
     faq: data.faq,
+    howFast: data.howFast
+      ? {
+          heading: data.howFast.heading,
+          highlightWord: data.howFast.highlightWord,
+          headline: data.howFast.headline,
+          principles:
+            data.howFast.principles?.map((item) => ({
+              title: item.title,
+              description: item.description,
+              icon: mapFileReference(item.icon),
+            })) ?? [],
+        }
+      : undefined,
   };
 }
 

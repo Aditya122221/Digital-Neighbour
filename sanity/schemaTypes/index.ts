@@ -45,6 +45,7 @@ import { marketingAgencyProcess } from "./marketing-agency-process"
 import { marketingAgencyKeyBenefits } from "./marketing-agency-key-benefits"
 import { marketingAgencyFeatures } from "./marketing-agency-features"
 import { marketingAgencyFaq } from "./marketing-agency-faq"
+import { marketingAgencyHowFast } from "./marketing-agency-howfast"
 
 export const schemaTypes = [
 	seoSiteSettings,
@@ -94,4 +95,5 @@ export const schemaTypes = [
 	marketingAgencyKeyBenefits,
 	marketingAgencyFeatures,
 	marketingAgencyFaq,
+	marketingAgencyHowFast,
 ]

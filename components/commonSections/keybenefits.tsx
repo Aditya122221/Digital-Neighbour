@@ -169,7 +169,7 @@ export default function KeyBenefits({ data }: KeyBenefitsProps) {
 												}
 												className="relative inline-block"
 											>
-												<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
+												<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow -skew-x-12"></span>
 												<span className="relative z-10 font-medium italic">
 													{
 														word

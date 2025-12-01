@@ -13,52 +13,83 @@ import {
 	Target,
 } from "lucide-react"
 
-type Principle = {
-	title: string
-	description: string
-	icon: LucideIcon
+type IconKey =
+	| "rocket"
+	| "target"
+	| "barChart"
+	| "refresh"
+	| "puzzle"
+	| "bot"
+
+const ICON_MAP: Record<IconKey, LucideIcon> = {
+	rocket: Rocket,
+	target: Target,
+	barChart: BarChart3,
+	refresh: RefreshCw,
+	puzzle: Puzzle,
+	bot: Bot,
 }
 
-const principles: Principle[] = [
+type RemotePrinciple = {
+	title?: string
+	description?: string
+	// When coming from Sanity, icon will be an uploaded image.
+	// When using defaults, we'll rely on iconKey.
+	icon?: {
+		url?: string
+	}
+	iconKey?: IconKey
+}
+
+const defaultPrinciples: RemotePrinciple[] = [
 	{
 		title: "We default to action",
 		description:
 			"You will never win by sitting still. Every day the incumbents of your industry are adding to their lead. We are focused on bringing simple, effective action to every recommendation we make.",
-		icon: Rocket,
+		iconKey: "rocket",
 	},
 	{
 		title: "We focus on the biggest return for time spent",
 		description:
 			"We use the 80/20 principle to make sure we're focusing on the 20% of actions that will yield 80% of your results, so we can have the greatest impact in the least amount of time.",
-		icon: Target,
+		iconKey: "target",
 	},
 	{
 		title: "We use data-led strategy",
 		description:
 			"We turn data into advantage - tracking, measuring, and optimising every channel so your marketing engine compounds results quarter after quarter.",
-		icon: BarChart3,
+		iconKey: "barChart",
 	},
 	{
 		title: "We reverse engineer what works",
 		description:
 			"We study market leaders, analyse past wins, and break down customer journeys to rebuild the plays that deliver predictable revenue growth.",
-		icon: RefreshCw,
+		iconKey: "refresh",
 	},
 	{
 		title: "We fill in the gaps",
 		description:
 			"We plug into your team wherever you need leverage—from strategy and creative to operations—so momentum never stalls.",
-		icon: Puzzle,
+		iconKey: "puzzle",
 	},
 	{
 		title: "We use proprietary AI tools & processes",
 		description:
 			"We combine human expertise with our AI systems to accelerate insights, automate execution, and uncover opportunities your competitors miss.",
-		icon: Bot,
+		iconKey: "bot",
 	},
 ]
 
-export default function MarketingHowFast() {
+type MarketingHowFastProps = {
+	data?: {
+		heading?: string
+		highlightWord?: string
+		headline?: string
+		principles?: RemotePrinciple[]
+	}
+}
+
+export default function MarketingHowFast({ data }: MarketingHowFastProps) {
 	const [expandedIndex, setExpandedIndex] = useState<number | null>(null)
 
 	const handleToggle = (index: number) => {
@@ -67,31 +98,79 @@ export default function MarketingHowFast() {
 		)
 	}
 
+	const headingText =
+		data?.heading || "How are we so fast?"
+	const highlightWord = data?.highlightWord
+
 	const headlineCopy =
+		data?.headline ||
 		"We help our SaaS clients grow quickly using a combination of principles, proprietary AI technology, and our own proven playbook of our top rated strategies and tactics that take a typically slow process and expedite it."
+
+	const items =
+		data?.principles && data.principles.length > 0
+			? data.principles
+			: defaultPrinciples
 
 	return (
 		<section className="relative bg-white py-24">
 			<div className="container mx-auto px-6 md:px-10 lg:px-16">
 				<div className="mx-auto max-w-3xl text-center">
 					<h2 className="text-4xl md:text-5xl lg:text-6xl font-cal-sans font-semibold text-black mb-8">
-						How are we so{" "}
-						<span className="relative inline-block">
-							<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
-							<span className="relative z-10">
-								fast?
-							</span>
-						</span>
+						{(() => {
+							if (
+								highlightWord &&
+								headingText.includes(
+									highlightWord
+								)
+							) {
+								const [before, after] =
+									headingText.split(
+										highlightWord
+									)
+								return (
+									<>
+										{before}
+										<span className="relative inline-block">
+											<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow -skew-x-12"></span>
+											<span className="relative z-10">
+												{
+													highlightWord
+												}
+											</span>
+										</span>
+										{after}
+									</>
+								)
+							}
+
+							return (
+								<span className="relative inline-block">
+									<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow -skew-x-12"></span>
+									<span className="relative z-10">
+										{headingText}
+									</span>
+								</span>
+							)
+						})()}
 					</h2>
 					<p className="mt-8 text-base leading-relaxed text-black md:text-lg">
 						{headlineCopy}
 					</p>
 				</div>
 				<div className="mt-16 grid gap-6 md:grid-cols-2 items-start">
-					{principles.map((item, index) => {
-						const Icon = item.icon
+					{items.map((item, index) => {
 						const isExpanded =
 							expandedIndex === index
+
+						// Prefer uploaded icon image; fall back to a Lucide icon if no image provided.
+						const IconComponent =
+							item.iconKey
+								? ICON_MAP[
+										item
+											.iconKey
+								  ]
+								: null
+
 						return (
 							<div
 								key={item.title}
@@ -135,8 +214,17 @@ export default function MarketingHowFast() {
 									/>
 								</div>
 								<div className="flex flex-col gap-6">
-									<div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#0e0e59] text-white">
-										<Icon className="h-6 w-6" />
+									<div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#0e0e59] text-white overflow-hidden">
+										{item.icon?.url ? (
+											// eslint-disable-next-line @next/next/no-img-element
+											<img
+												src={item.icon.url}
+												alt={item.title || "Principle icon"}
+												className="h-6 w-6 object-contain"
+											/>
+										) : IconComponent ? (
+											<IconComponent className="h-6 w-6" />
+										) : null}
 									</div>
 									<div className="space-y-3">
 										<h3 className="text-xl font-semibold text-black">
@@ -169,3 +257,5 @@ export default function MarketingHowFast() {
 		</section>
 	)
 }
+
+

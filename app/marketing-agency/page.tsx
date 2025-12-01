@@ -9,7 +9,7 @@ import PainPoints from "@/components/commonSections/painpoints";
 import Services from "@/components/homepage/services";
 import Cta from "@/components/commonSections/cta";
 import Apart from "@/components/homepage/apart";
-import HowFast from "@/components/marketing/howfast";
+import HowFast from "./howfast";
 import Process2 from "@/components/homepage/process2";
 import KeyBenefits from "@/components/commonSections/keybenefits";
 import Features from "@/components/commonSections/features";
@@ -115,19 +115,19 @@ function mergeMarketingData(
     keyBenefits:
       remote.keyBenefits || jsonMarketingData?.keyBenefits
         ? {
-            heading:
-              remote.keyBenefits?.heading ??
-              jsonMarketingData?.keyBenefits?.heading,
-            subheading:
-              remote.keyBenefits?.subheading ??
-              jsonMarketingData?.keyBenefits?.subheading,
-            benefits: remote.keyBenefits?.benefits?.length
-              ? remote.keyBenefits.benefits
-              : jsonMarketingData?.keyBenefits?.benefits,
-            items: remote.keyBenefits?.items?.length
-              ? remote.keyBenefits.items
-              : jsonMarketingData?.keyBenefits?.items,
-          }
+          heading:
+            remote.keyBenefits?.heading ??
+            jsonMarketingData?.keyBenefits?.heading,
+          subheading:
+            remote.keyBenefits?.subheading ??
+            jsonMarketingData?.keyBenefits?.subheading,
+          benefits: remote.keyBenefits?.benefits?.length
+            ? remote.keyBenefits.benefits
+            : jsonMarketingData?.keyBenefits?.benefits,
+          items: remote.keyBenefits?.items?.length
+            ? remote.keyBenefits.items
+            : jsonMarketingData?.keyBenefits?.items,
+        }
         : undefined,
     features: {
       ...jsonMarketingData?.features,
@@ -182,7 +182,7 @@ export default async function MarketingAgencyPage() {
       <PainPoints data={marketingData?.painPoints} />
       <Apart />
       <BrandsMarquee />
-      <HowFast />
+      <HowFast data={marketingData?.howFast} />
       <Process2
         data={marketingData?.services}
         processData={marketingData?.process}

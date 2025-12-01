@@ -71,6 +71,8 @@ export default defineConfig({
 					"marketingAgencyFeatures"
 				const MARKETING_FAQ_DOC_ID =
 					"marketingAgencyFaq"
+				const MARKETING_HOW_FAST_DOC_ID =
+					"marketingAgencyHowFast"
 
 				// Helper to create singleton editor list items
 				const createSingletonEditor = (
@@ -313,6 +315,11 @@ export default defineConfig({
 						title: "FAQ",
 						schemaType: "marketingAgencyFaq",
 						documentId: MARKETING_FAQ_DOC_ID,
+					},
+					{
+						title: "How Fast Section",
+						schemaType: "marketingAgencyHowFast",
+						documentId: MARKETING_HOW_FAST_DOC_ID,
 					},
 				]
 

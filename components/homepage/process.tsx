@@ -90,8 +90,8 @@ export default function Process() {
         {/* Header */}
         <div className="text-center max-w-4xl mx-auto mb-20">
           <h2 className="text-4xl md:text-6xl font-bold text-black mb-4">
-            Our <span className="relative inline-block">
-              <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow"></span>
+            Our             <span className="relative inline-block">
+              <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow -skew-x-12"></span>
               <span className="relative z-10 font-semibold italic">agile process</span>
             </span>
           </h2>

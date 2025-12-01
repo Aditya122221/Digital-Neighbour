@@ -906,6 +906,23 @@ export const marketingAgencyPageQuery = `{
       icon
     }
   },
+  "howFast": *[_type == "marketingAgencyHowFast"][0]{
+    heading,
+    highlightWord,
+    headline,
+    principles[]{
+      title,
+      description,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
+    }
+  },
   "faq": *[_type == "marketingAgencyFaq"][0]{
     serviceName,
     "tagline": text,
