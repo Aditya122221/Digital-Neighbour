@@ -583,9 +583,11 @@ export const industriesPage = defineType({
 								defineField({
 									name: "icon",
 									title: "Icon",
-									type: "string",
-									description:
-										"Optional icon identifier",
+									type: "image",
+									options: {
+										hotspot: true,
+									},
+									description: "Icon image",
 								}),
 								defineField({
 									name: "image",
@@ -674,19 +676,11 @@ export const industriesPage = defineType({
 								defineField({
 									name: "icon",
 									title: "Icon",
-									type: "string",
-									description:
-										"Optional icon identifier",
-								}),
-								defineField({
-									name: "image",
-									title: "Icon Image",
 									type: "image",
 									options: {
 										hotspot: true,
 									},
-									description:
-										"Optional feature icon image. Shown in the UI instead of the text icon when set.",
+									description: "Icon image",
 								}),
 							],
 							preview: {

@@ -9,13 +9,28 @@ interface ContentProps {
 		text1: string
 		text2: string
 		text3: string
-		image: string
-		alt: string
+		image?: string
+		alt?: string
 	}
 	imagePathPrefix?: string
 }
 
 export default function Content({ data, imagePathPrefix = "/seo/content" }: ContentProps) {
+	// Determine the image source: if it's already a full URL, use it directly; otherwise use pathPrefix
+	const getImageSrc = () => {
+		if (!data?.image) {
+			return `${imagePathPrefix}/seo.png`
+		}
+		
+		// Check if it's already a full URL (from Sanity CDN)
+		if (data.image.startsWith("http://") || data.image.startsWith("https://")) {
+			return data.image
+		}
+		
+		// Otherwise, prepend the path prefix
+		return `${imagePathPrefix}/${data.image}`
+	}
+
 	return (
 		<section className="py-20 px-6 bg-gradient-to-b from-pink/20 to-white" style={{overflowX: "hidden"}}>
 			<div className="container max-w-7xl mx-auto">
@@ -35,7 +50,7 @@ export default function Content({ data, imagePathPrefix = "/seo/content" }: Cont
 						className="relative w-full h-[400px] md:h-[500px]"
 					>
 						<Image
-							src={`${imagePathPrefix}/${data?.image || "seo.png"}`}
+							src={getImageSrc()}
 							alt={data?.alt || "Marketing illustration"}
 							fill
 							className="object-contain"

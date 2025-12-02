@@ -14,12 +14,6 @@ const benefitFields = [
 		rows: 4,
 	}),
 	defineField({
-		name: "icon",
-		title: "Icon",
-		type: "string",
-		description: "Emoji or icon identifier.",
-	}),
-	defineField({
 		name: "image",
 		title: "Image",
 		type: "image",
@@ -44,14 +38,8 @@ export const marketingAgencyKeyBenefits = defineType({
 			rows: 3,
 		}),
 		defineField({
-			name: "benefits",
-			title: "Benefits",
-			type: "array",
-			of: [{ type: "object", fields: benefitFields }],
-		}),
-		defineField({
 			name: "items",
-			title: "Legacy Items",
+			title: "Benifits",
 			type: "array",
 			description:
 				"Optional second list for legacy JSON structure. Use if you need an alternate display.",

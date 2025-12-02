@@ -101,10 +101,27 @@ function normalizeKeyBenefits(
       ? remote.items
       : undefined;
 
+  // Transform items to ensure icon fields are safe - filter out emoji strings as icons are now image upload type
+  const transformBenefits = (items: any[]) => {
+    if (!items) return items;
+    return items.map((item: any) => {
+      const safeItem = { ...item };
+      // Remove emoji string icons (legacy JSON data) - icons should be image uploads now
+      if (safeItem.icon && typeof safeItem.icon === "string") {
+        // If it's not a URL, it's likely an emoji - remove it since we use image uploads now
+        if (!safeItem.icon.startsWith("http://") && !safeItem.icon.startsWith("https://")) {
+          delete safeItem.icon;
+        }
+      }
+      return safeItem;
+    });
+  };
+
+  const finalItems = pickArray(remoteItems, fallbackItems);
   return {
     ...(fallback ?? {}),
     ...(remote ?? {}),
-    benefits: pickArray(remoteItems, fallbackItems),
+    benefits: finalItems ? transformBenefits(finalItems) : undefined,
   };
 }
 
@@ -127,10 +144,27 @@ function normalizeFeatures(
       ? remote.items
       : undefined;
 
+  // Transform items to ensure icon fields are safe - filter out emoji strings as icons are now image upload type
+  const transformFeatures = (items: any[]) => {
+    if (!items) return items;
+    return items.map((item: any) => {
+      const safeItem = { ...item };
+      // Remove emoji string icons (legacy JSON data) - icons should be image uploads now
+      if (safeItem.icon && typeof safeItem.icon === "string") {
+        // If it's not a URL, it's likely an emoji - remove it since we use image uploads now
+        if (!safeItem.icon.startsWith("http://") && !safeItem.icon.startsWith("https://")) {
+          delete safeItem.icon;
+        }
+      }
+      return safeItem;
+    });
+  };
+
+  const finalItems = pickArray(remoteItems, fallbackItems);
   return {
     ...(fallback ?? {}),
     ...(remote ?? {}),
-    features: pickArray(remoteItems, fallbackItems),
+    features: finalItems ? transformFeatures(finalItems) : undefined,
   };
 }
 
@@ -313,14 +347,52 @@ function transformSeoPageData(sanityData: any): SeoPageData | null {
       ? {
           heading: sanityData.keyBenefits.heading,
           subheading: sanityData.keyBenefits.subheading,
-          benefits: sanityData.keyBenefits.benefits || [],
+          benefits: (sanityData.keyBenefits.benefits || []).map((benefit: any) => {
+            // Handle icon: if it's an image object, convert to URL; if it's a string (emoji or URL), keep as is
+            let iconValue: string | undefined = undefined;
+            if (benefit.icon) {
+              if (typeof benefit.icon === "string") {
+                // If it's already a URL string, use it; otherwise it's an emoji which we'll keep
+                iconValue = benefit.icon;
+              } else {
+                // It's an image object, convert to URL
+                iconValue = getImageUrl(benefit.icon);
+              }
+            }
+            
+            return {
+              title: benefit.title,
+              description: benefit.description,
+              icon: iconValue,
+              image: benefit.image ? getImageUrl(benefit.image) : undefined,
+            };
+          }),
         }
       : undefined,
     features: sanityData.features
       ? {
           heading: sanityData.features.heading,
           subheading: sanityData.features.subheading,
-          features: sanityData.features.features || [],
+          features: (sanityData.features.features || []).map((feature: any) => {
+            // Handle icon: if it's an image object, convert to URL; if it's a string (emoji or URL), keep as is
+            let iconValue: string | undefined = undefined;
+            if (feature.icon) {
+              if (typeof feature.icon === "string") {
+                // If it's already a URL string, use it; otherwise it's an emoji which we'll keep
+                iconValue = feature.icon;
+              } else {
+                // It's an image object, convert to URL
+                iconValue = getImageUrl(feature.icon);
+              }
+            }
+            
+            return {
+              title: feature.title,
+              description: feature.description,
+              icon: iconValue,
+              image: feature.image ? getImageUrl(feature.image) : undefined,
+            };
+          }),
         }
       : undefined,
     faq: sanityData.faq

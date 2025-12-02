@@ -321,7 +321,7 @@ export const webDevelopmentPage = defineType({
 								select: {
 									title: "title",
 									subtitle: "description",
-									media: "image",
+									media: "icon",
 								},
 								prepare({
 									title,
@@ -572,9 +572,11 @@ export const webDevelopmentPage = defineType({
 								defineField({
 									name: "icon",
 									title: "Icon",
-									type: "string",
-									description:
-										"Emoji or icon identifier",
+									type: "image",
+									options: {
+										hotspot: true,
+									},
+									description: "Icon image for the benefit",
 								}),
 								defineField({
 									name: "image",
@@ -591,7 +593,7 @@ export const webDevelopmentPage = defineType({
 								select: {
 									title: "title",
 									subtitle: "description",
-									media: "image",
+									media: "icon",
 								},
 								prepare({
 									title,
@@ -666,36 +668,18 @@ export const webDevelopmentPage = defineType({
 								defineField({
 									name: "icon",
 									title: "Icon",
-									type: "string",
-									description:
-										"Emoji or icon identifier",
-								}),
-								defineField({
-									name: "image",
-									title: "Image",
 									type: "image",
 									options: {
 										hotspot: true,
 									},
-									description:
-										"Optional feature image",
-								}),
-								defineField({
-									name: "video",
-									title: "Video",
-									type: "file",
-									options: {
-										accept: "video/*",
-									},
-									description:
-										"Optional feature video",
+									description: "Icon image",
 								}),
 							],
 							preview: {
 								select: {
 									title: "title",
 									subtitle: "description",
-									media: "image",
+									media: "icon",
 								},
 								prepare({
 									title,

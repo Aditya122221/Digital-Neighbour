@@ -341,8 +341,11 @@ export const paidAdsPage = defineType({
                 defineField({
                   name: "icon",
                   title: "Icon",
-                  type: "string",
-                  description: "Emoji or icon identifier",
+                  type: "image",
+                  options: {
+                    hotspot: true,
+                  },
+                  description: "Icon image",
                 }),
                 defineField({
                   name: "title",
@@ -516,18 +519,11 @@ export const paidAdsPage = defineType({
                 defineField({
                   name: "icon",
                   title: "Icon",
-                  type: "string",
-                  description: "Optional text or emoji icon",
-                }),
-                defineField({
-                  name: "image",
-                  title: "Icon Image",
                   type: "image",
                   options: {
                     hotspot: true,
                   },
-                  description:
-                    "Optional feature icon image. Shown in the UI instead of the text icon when set.",
+                  description: "Icon image",
                 }),
               ],
             },

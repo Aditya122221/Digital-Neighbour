@@ -6,7 +6,7 @@ import Image from "next/image"
 interface Benefit {
 	title: string
 	description: string
-	icon?: string
+	icon?: string | { url?: string; asset?: any }
 	image?: string
 }
 
@@ -259,19 +259,41 @@ export default function KeyBenefits({ data }: KeyBenefitsProps) {
 										/>
 									</div>
 								) : (
-									<div className="w-16 h-16 !rounded-none md:!rounded-xl bg-[#0e0e59] flex items-center justify-center mb-4 text-white">
-										{benefit.icon ? (
-											<span className="text-3xl">
-												{
-													benefit.icon
-												}
-											</span>
-										) : (
-											defaultIcons[
-												index %
-													defaultIcons.length
-											]
-										)}
+									<div className="w-16 h-16 !rounded-none md:!rounded-xl bg-[#0e0e59] flex items-center justify-center mb-4 text-white overflow-hidden">
+										{(() => {
+											// Handle icon: could be string (emoji/URL) or image object
+											if (!benefit.icon) {
+												return defaultIcons[index % defaultIcons.length]
+											}
+
+											// Safely extract icon value
+											let iconValue: string | undefined = undefined;
+											if (typeof benefit.icon === "string") {
+												iconValue = benefit.icon;
+											} else if (benefit.icon && typeof benefit.icon === "object") {
+												iconValue = benefit.icon?.url || benefit.icon?.asset?.url;
+											}
+
+											if (!iconValue || typeof iconValue !== "string") {
+												return defaultIcons[index % defaultIcons.length];
+											}
+
+											// Check if it's a URL (starts with http/https)
+											if (iconValue.startsWith("http://") || iconValue.startsWith("https://")) {
+												return (
+													<Image
+														src={iconValue}
+														alt={benefit.title}
+														width={64}
+														height={64}
+														className="w-full h-full object-contain"
+													/>
+												);
+											}
+
+											// Otherwise, treat as emoji/text string - ensure it's rendered as text content
+											return <span className="text-3xl">{String(iconValue)}</span>;
+										})()}
 									</div>
 								)}
 							</div>

@@ -39,13 +39,6 @@ export const marketingAgencyFeatures = defineType({
 							rows: 4,
 						}),
 						defineField({
-							name: "icon",
-							title: "Icon",
-							type: "string",
-							description:
-								"Optional emoji or text icon. For best results, upload an image below instead.",
-						}),
-						defineField({
 							name: "image",
 							title: "Icon Image",
 							type: "image",
