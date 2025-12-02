@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound, redirect } from "next/navigation";
+import { notFound } from "next/navigation";
 
 import {
   ensureLocationForService,
@@ -175,13 +175,6 @@ export default async function SeoLocationPage({
 
   if (!ensuredLocation) {
     notFound();
-  }
-
-  if (
-    requestedSlug !== canonicalSlug ||
-    normalizeLocationSlug(requestedLocation) !== ensuredLocation
-  ) {
-    redirect(`/seo/${canonicalSlug}/${ensuredLocation}`);
   }
 
   let localizedBase;

@@ -3,36 +3,69 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
 
+interface ContentData {
+	heading?: string
+	text1?: string
+	text2?: string
+	text3?: string
+	image?:
+		| string
+		| {
+				url?: string
+				asset?: { url?: string }
+				// Allow any extra Sanity fields without being strict here
+				[key: string]: unknown
+		  }
+	alt?: string
+}
+
 interface ContentProps {
-	data?: {
-		heading: string
-		text1: string
-		text2: string
-		text3: string
-		image?: string
-		alt?: string
-	}
+	data?: ContentData
 	imagePathPrefix?: string
 }
 
 export default function Content({ data, imagePathPrefix = "/seo/content" }: ContentProps) {
-	// Determine the image source: if it's already a full URL, use it directly; otherwise use pathPrefix
+	// Determine the image source: handle strings and Sanity image objects safely
 	const getImageSrc = () => {
+		const fallback = `${imagePathPrefix}/seo.png`
+
 		if (!data?.image) {
-			return `${imagePathPrefix}/seo.png`
+			return fallback
 		}
-		
-		// Check if it's already a full URL (from Sanity CDN)
-		if (data.image.startsWith("http://") || data.image.startsWith("https://")) {
-			return data.image
+
+		// If image is a string (local path or full URL)
+		if (typeof data.image === "string") {
+			const image = data.image
+
+			// Full URL (e.g. Sanity CDN)
+			if (image.startsWith("http://") || image.startsWith("https://")) {
+				return image
+			}
+
+			// Already a rooted path
+			if (image.startsWith("/")) {
+				return image
+			}
+
+			// Otherwise, prepend the path prefix
+			return `${imagePathPrefix}/${image}`
 		}
-		
-		// Otherwise, prepend the path prefix
-		return `${imagePathPrefix}/${data.image}`
+
+		// If image is a Sanity-style object, try to resolve URL
+		if (typeof data.image === "object" && data.image !== null) {
+			const maybeUrl =
+				(data.image as any).url || (data.image as any).asset?.url
+
+			if (typeof maybeUrl === "string" && maybeUrl.length > 0) {
+				return maybeUrl
+			}
+		}
+
+		return fallback
 	}
 
 	return (
-		<section className="py-20 px-6 bg-gradient-to-b from-pink/20 to-white" style={{overflowX: "hidden"}}>
+		<section className="py-20 px-6 bg-gradient-to-b from-pink/20 to-white" style={{ overflowX: "hidden" }}>
 			<div className="container max-w-7xl mx-auto">
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 					{/* Left side - Image */}
