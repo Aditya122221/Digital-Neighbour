@@ -139,8 +139,9 @@ export default async function IndustryServicePage({
       }
     : undefined;
 
-  // Fetch default hero video from the main industries entry
+  // Fetch shared data from the main industries entry (slug: "industries")
   const rootIndustriesPromise = getIndustriesServiceBySlug("industries");
+
   const resolveDefaultHeroVideo = async () => {
     const rootData = await rootIndustriesPromise;
     return (
@@ -151,6 +152,14 @@ export default async function IndustryServicePage({
   };
 
   const defaultHeroVideo = await resolveDefaultHeroVideo();
+
+  const rootIndustriesData = await rootIndustriesPromise;
+  const creativeShowcase = rootIndustriesData?.creativeShowcase
+    ? rootIndustriesData.creativeShowcase
+    : currentData?.creativeShowcase;
+  const industryBrowser = rootIndustriesData?.industryBrowser
+    ? rootIndustriesData.industryBrowser
+    : currentData?.industryBrowser;
 
   return (
     <main>
@@ -165,9 +174,18 @@ export default async function IndustryServicePage({
       <BrandsMarquee />
       <IntroParagraph data={introData} />
       <PainPoints data={painData} />
-      <IndustryBrowserSection />
+      <IndustryBrowserSection
+        heading={industryBrowser?.heading}
+        highlightWord={industryBrowser?.highlightWord}
+        items={industryBrowser?.items}
+      />
       <Content data={currentData?.content} imagePathPrefix="/seo/content" />
-      <CreativeShowcase speedMsPerLoop={5500} />
+      <CreativeShowcase
+        title={creativeShowcase?.title}
+        highlightWord={creativeShowcase?.highlightWord}
+        images={creativeShowcase?.images}
+        speedMsPerLoop={5500}
+      />
       <CaseStudy />
       <Process2 data={"industries"} processData={compatibleProcess} />
       <KeyBenefits data={benefitsData} />

@@ -17,13 +17,7 @@ export const hostingItSecurityPage = defineType({
 	name: "hostingItSecurityPage",
 	title: "Hosting & IT Security Service Page",
 	type: "document",
-	groups: [
-		...commonGroups,
-		{
-			name: "premiumCloudServices",
-			title: "Premium Cloud Services",
-		},
-	],
+	groups: [...commonGroups],
 	fields: [
 		// Basic Info
 		defineField({
@@ -105,16 +99,6 @@ export const hostingItSecurityPage = defineType({
 		// Pain Points
 		painPointsField(),
 
-		// Services
-		defineField({
-			name: "services",
-			title: "Service Name",
-			type: "string",
-			group: "services",
-			description:
-				"Main service name (e.g., 'Hosting & IT Security')",
-		}),
-
 		// Content Section
 		contentSectionField(),
 
@@ -123,7 +107,7 @@ export const hostingItSecurityPage = defineType({
 			name: "premiumCloudServices",
 			title: "Premium Cloud Services",
 			type: "object",
-			group: "premiumCloudServices",
+			group: "services",
 			fields: [
 				defineField({
 					name: "title",

@@ -18,10 +18,6 @@ export const professionalsMarketingPage = defineType({
 	type: "document",
 	groups: [
 		...commonGroups,
-		{
-			name: "premiumCloudServices",
-			title: "Premium Cloud Services",
-		},
 	],
 	fields: [
 		// Basic Info
@@ -176,7 +172,7 @@ export const professionalsMarketingPage = defineType({
 			name: "premiumCloudServices",
 			title: "Premium Cloud Services",
 			type: "object",
-			group: "premiumCloudServices",
+			group: "services",
 			fields: [
 				defineField({
 					name: "title",

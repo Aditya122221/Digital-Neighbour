@@ -692,6 +692,20 @@ export const paidAdsPageQuery = `*[_type == "paidAdsPage" && slug.current == $sl
     },
     alt
   },
+  creativeShowcase{
+    title,
+    highlightWord,
+    "images": images[].asset->url
+  },
+  industryBrowser{
+    heading,
+    highlightWord,
+    items[]{
+      label,
+      "iconUrl": icon.asset->url,
+      "imageUrl": image.asset->url
+    }
+  },
   faq{
     serviceName,
     tagline,
