@@ -443,11 +443,13 @@ export const seoPageQuery = `*[_type == "seoPage" && slug.current == $slug][0]{
   },
   introParagraph{
     heading,
+    highlightWord,
     problemStatement,
     valueProposition
   },
   painPoints{
     heading,
+    highlightWord,
     subheading,
     painPoints[]{
       problem,
@@ -492,19 +494,36 @@ export const seoPageQuery = `*[_type == "seoPage" && slug.current == $slug][0]{
   },
   keyBenefits{
     heading,
+    highlightWord,
     subheading,
     benefits[]{
       title,
-      description
+      description,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   features{
     heading,
+    highlightWord,
     subheading,
     features[]{
       title,
       description,
-      icon,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      },
       image{
         ...,
         asset->{
@@ -603,11 +622,13 @@ export const paidAdsPageQuery = `*[_type == "paidAdsPage" && slug.current == $sl
   },
   introParagraph{
     heading,
+    highlightWord,
     problemStatement,
     valueProposition
   },
   painPoints{
     heading,
+    highlightWord,
     subheading,
     painPoints[]{
       problem,
@@ -616,19 +637,36 @@ export const paidAdsPageQuery = `*[_type == "paidAdsPage" && slug.current == $sl
   },
   keyBenefits{
     heading,
+    highlightWord,
     subheading,
     benefits[]{
       title,
-      description
+      description,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   features{
     heading,
+    highlightWord,
     subheading,
     features[]{
       title,
       description,
-      icon,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      },
       image{
         ...,
         asset->{
@@ -868,11 +906,13 @@ export const marketingAgencyPageQuery = `{
   },
   "introParagraph": *[_type == "marketingAgencyIntro"][0]{
     heading,
+    highlightWord,
     problemStatement,
     valueProposition
   },
   "painPoints": *[_type == "marketingAgencyPainPoints"][0]{
     heading,
+    highlightWord,
     subheading,
     items[]{
       problem,
@@ -886,11 +926,19 @@ export const marketingAgencyPageQuery = `{
   },
   "keyBenefits": *[_type == "marketingAgencyKeyBenefits"][0]{
     heading,
+    highlightWord,
     subheading,
     benefits[]{
       title,
       description,
-      icon,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      },
       image{
         ...,
         asset->{
@@ -903,7 +951,14 @@ export const marketingAgencyPageQuery = `{
     items[]{
       title,
       description,
-      icon,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      },
       image{
         ...,
         asset->{
@@ -916,11 +971,19 @@ export const marketingAgencyPageQuery = `{
   },
   "features": *[_type == "marketingAgencyFeatures"][0]{
     heading,
+    highlightWord,
     subheading,
     features[]{
       title,
       description,
-      icon,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      },
       image{
         ...,
         asset->{
@@ -1010,11 +1073,13 @@ export const seoServiceByTitleQuery = `*[_type == "seoService" && serviceName ==
   },
   introParagraph{
     heading,
+    highlightWord,
     problemStatement,
     valueProposition
   },
   painPoints{
     heading,
+    highlightWord,
     subheading,
     painPoints[]{
       problem,
@@ -1059,19 +1124,36 @@ export const seoServiceByTitleQuery = `*[_type == "seoService" && serviceName ==
   },
   keyBenefits{
     heading,
+    highlightWord,
     subheading,
     benefits[]{
       title,
-      description
+      description,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   features{
     heading,
+    highlightWord,
     subheading,
     features[]{
       title,
       description,
-      icon,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      },
       image{
         ...,
         asset->{
@@ -1143,11 +1225,13 @@ export const paidAdsServiceByTitleQuery = `*[_type == "paidAdvertService" && ser
   },
   introParagraph{
     heading,
+    highlightWord,
     problemStatement,
     valueProposition
   },
   painPoints{
     heading,
+    highlightWord,
     subheading,
     painPoints[]{
       problem,
@@ -1184,19 +1268,36 @@ export const paidAdsServiceByTitleQuery = `*[_type == "paidAdvertService" && ser
   },
   keyBenefits{
     heading,
+    highlightWord,
     subheading,
     benefits[]{
       title,
-      description
+      description,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   features{
     heading,
+    highlightWord,
     subheading,
     features[]{
       title,
       description,
-      icon,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      },
       image{
         ...,
         asset->{
@@ -1283,11 +1384,13 @@ export const socialMediaServiceByTitleQuery = `*[_type == "socialMarketingServic
   },
   introParagraph{
     heading,
+    highlightWord,
     problemStatement,
     valueProposition
   },
   painPoints{
     heading,
+    highlightWord,
     subheading,
     painPoints[]{
       problem,
@@ -1316,19 +1419,36 @@ export const socialMediaServiceByTitleQuery = `*[_type == "socialMarketingServic
   },
   keyBenefits{
     heading,
+    highlightWord,
     subheading,
     benefits[]{
       title,
-      description
+      description,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   features{
     heading,
+    highlightWord,
     subheading,
     features[]{
       title,
       description,
-      icon,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      },
       image{
         ...,
         asset->{
@@ -1423,11 +1543,13 @@ export const contentMarketingServiceByTitleQuery = `*[_type == "contentMarketing
   },
   introParagraph{
     heading,
+    highlightWord,
     problemStatement,
     valueProposition
   },
   painPoints{
     heading,
+    highlightWord,
     subheading,
     painPoints[]{
       problem,
@@ -1456,19 +1578,36 @@ export const contentMarketingServiceByTitleQuery = `*[_type == "contentMarketing
   },
   keyBenefits{
     heading,
+    highlightWord,
     subheading,
     benefits[]{
       title,
-      description
+      description,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   features{
     heading,
+    highlightWord,
     subheading,
     features[]{
       title,
       description,
-      icon,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      },
       image{
         ...,
         asset->{
@@ -1563,11 +1702,13 @@ export const webDevelopmentServiceByTitleQuery = `*[_type == "webDevelopmentServ
   },
   introParagraph{
     heading,
+    highlightWord,
     problemStatement,
     valueProposition
   },
   painPoints{
     heading,
+    highlightWord,
     subheading,
     painPoints[]{
       problem,
@@ -1596,19 +1737,36 @@ export const webDevelopmentServiceByTitleQuery = `*[_type == "webDevelopmentServ
   },
   keyBenefits{
     heading,
+    highlightWord,
     subheading,
     benefits[]{
       title,
-      description
+      description,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   features{
     heading,
+    highlightWord,
     subheading,
     features[]{
       title,
       description,
-      icon,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      },
       image{
         ...,
         asset->{
@@ -1703,11 +1861,13 @@ export const appDevelopmentServiceByTitleQuery = `*[_type == "appDevelopmentServ
   },
   introParagraph{
     heading,
+    highlightWord,
     problemStatement,
     valueProposition
   },
   painPoints{
     heading,
+    highlightWord,
     subheading,
     painPoints[]{
       problem,
@@ -1736,19 +1896,36 @@ export const appDevelopmentServiceByTitleQuery = `*[_type == "appDevelopmentServ
   },
   keyBenefits{
     heading,
+    highlightWord,
     subheading,
     benefits[]{
       title,
-      description
+      description,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   features{
     heading,
+    highlightWord,
     subheading,
     features[]{
       title,
       description,
-      icon,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      },
       image{
         ...,
         asset->{
@@ -1843,11 +2020,13 @@ export const hostingServiceByTitleQuery = `*[_type == "hostingService" && servic
   },
   introParagraph{
     heading,
+    highlightWord,
     problemStatement,
     valueProposition
   },
   painPoints{
     heading,
+    highlightWord,
     subheading,
     painPoints[]{
       problem,
@@ -1876,19 +2055,36 @@ export const hostingServiceByTitleQuery = `*[_type == "hostingService" && servic
   },
   keyBenefits{
     heading,
+    highlightWord,
     subheading,
     benefits[]{
       title,
-      description
+      description,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   features{
     heading,
+    highlightWord,
     subheading,
     features[]{
       title,
       description,
-      icon,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      },
       image{
         ...,
         asset->{
@@ -1983,11 +2179,13 @@ export const aiAutomationServiceByTitleQuery = `*[_type == "aiAutomationService"
   },
   introParagraph{
     heading,
+    highlightWord,
     problemStatement,
     valueProposition
   },
   painPoints{
     heading,
+    highlightWord,
     subheading,
     painPoints[]{
       problem,
@@ -2016,19 +2214,36 @@ export const aiAutomationServiceByTitleQuery = `*[_type == "aiAutomationService"
   },
   keyBenefits{
     heading,
+    highlightWord,
     subheading,
     benefits[]{
       title,
-      description
+      description,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   features{
     heading,
+    highlightWord,
     subheading,
     features[]{
       title,
       description,
-      icon,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      },
       image{
         ...,
         asset->{
@@ -2123,11 +2338,13 @@ export const dataAnalyticsServiceByTitleQuery = `*[_type == "dataAnalyticsServic
   },
   introParagraph{
     heading,
+    highlightWord,
     problemStatement,
     valueProposition
   },
   painPoints{
     heading,
+    highlightWord,
     subheading,
     painPoints[]{
       problem,
@@ -2156,19 +2373,36 @@ export const dataAnalyticsServiceByTitleQuery = `*[_type == "dataAnalyticsServic
   },
   keyBenefits{
     heading,
+    highlightWord,
     subheading,
     benefits[]{
       title,
-      description
+      description,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   features{
     heading,
+    highlightWord,
     subheading,
     features[]{
       title,
       description,
-      icon,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      },
       image{
         ...,
         asset->{
@@ -2275,11 +2509,13 @@ export const industriesServiceByTitleQuery = `*[_type == "industriesService" && 
   },
   introParagraph{
     heading,
+    highlightWord,
     problemStatement,
     valueProposition
   },
   painPoints{
     heading,
+    highlightWord,
     subheading,
     painPoints[]{
       problem,
@@ -2308,14 +2544,24 @@ export const industriesServiceByTitleQuery = `*[_type == "industriesService" && 
   },
   keyBenefits{
     heading,
+    highlightWord,
     subheading,
     benefits[]{
       title,
-      description
+      description,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   features{
     heading,
+    highlightWord,
     subheading,
     features[]{
       title,
@@ -2469,11 +2715,13 @@ const createPageQuery = (
   },
   introParagraph{
     heading,
+    highlightWord,
     problemStatement,
     valueProposition
   },
   painPoints{
     heading,
+    highlightWord,
     subheading,
     painPoints[]{
       problem,
@@ -2482,14 +2730,24 @@ const createPageQuery = (
   },
   keyBenefits{
     heading,
+    highlightWord,
     subheading,
     benefits[]{
       title,
-      description
+      description,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   features{
     heading,
+    highlightWord,
     subheading,
     features[]{
       title,
@@ -2611,11 +2869,13 @@ export const professionalMarketingServiceByTitleQuery = `*[_type == "professiona
   },
   introParagraph{
     heading,
+    highlightWord,
     problemStatement,
     valueProposition
   },
   painPoints{
     heading,
+    highlightWord,
     subheading,
     painPoints[]{
       problem,
@@ -2644,14 +2904,24 @@ export const professionalMarketingServiceByTitleQuery = `*[_type == "professiona
   },
   keyBenefits{
     heading,
+    highlightWord,
     subheading,
     benefits[]{
       title,
-      description
+      description,
+      icon{
+        ...,
+        asset->{
+          _id,
+          url,
+          metadata
+        }
+      }
     }
   },
   features{
     heading,
+    highlightWord,
     subheading,
     features[]{
       title,

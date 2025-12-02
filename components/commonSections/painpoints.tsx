@@ -11,6 +11,7 @@ interface PainPoint {
 interface PainPointsProps {
 	data?: {
 		heading?: string
+		highlightWord?: string
 		subheading?: string
 		painPoints?: PainPoint[]
 	}
@@ -40,102 +41,44 @@ export default function PainPoints({ data }: PainPointsProps) {
 					{data.heading && (
 						<h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-regular text-blackbrown leading-tight font-cal-sans mb-4 md:mb-6">
 							{(() => {
-								const heading =
-									data.heading
-								// Find words that should be highlighted (like "Challenges", "Problems", etc.)
-								const highlightWords =
-									[
-										"Challenges",
-										"Problems",
-										"Issues",
-										"Pain Points",
-									]
-								const words =
-									heading.split(
-										" "
-									)
-								let result = []
+								const heading = data.heading
+								const highlightWord = data.highlightWord
 
-								for (
-									let i = 0;
-									i <
-									words.length;
-									i++
-								) {
-									const word =
-										words[
-											i
-										].replace(
-											/[.,;:!?]/g,
-											""
-										)
-									const punctuation =
-										words[
-											i
-										].replace(
-											word,
-											""
-										)
-
-									if (
-										highlightWords.some(
-											(
-												hw
-											) =>
-												word
-													.toLowerCase()
-													.includes(
-														hw.toLowerCase()
-													)
-										)
-									) {
-										result.push(
-											<span
-												key={
-													i
-												}
-												className="relative inline-block"
-											>
-												<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow -skew-x-12"></span>
-												<span className="relative z-10 font-medium italic">
-													{
-														word
-													}
-													{
-														punctuation
-													}
-												</span>
-											</span>
-										)
-									} else {
-										result.push(
-											<span
-												key={
-													i
-												}
-											>
-												{
-													words[
-														i
-													]
-												}
-											</span>
-										)
-									}
-									if (
-										i <
-										words.length -
-											1
-									)
-										result.push(
-											" "
-										)
+								if (!highlightWord) {
+									return heading
 								}
 
-								return result.length >
-									0
-									? result
-									: heading
+								const lowerHeading = heading.toLowerCase()
+								const lowerHighlight = highlightWord.toLowerCase()
+								const highlightIndex = lowerHeading.indexOf(
+									lowerHighlight
+								)
+
+								if (highlightIndex === -1) {
+									return heading
+								}
+
+								const before = heading.slice(0, highlightIndex)
+								const highlighted = heading.slice(
+									highlightIndex,
+									highlightIndex + highlightWord.length
+								)
+								const after = heading.slice(
+									highlightIndex + highlightWord.length
+								)
+
+								return (
+									<>
+										{before}
+										<span className="relative inline-block">
+											<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow -skew-x-12"></span>
+											<span className="relative z-10 font-medium italic">
+												{highlighted}
+											</span>
+										</span>
+										{after}
+									</>
+								)
 							})()}
 						</h2>
 					)}

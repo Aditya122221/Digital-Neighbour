@@ -2,20 +2,73 @@
 
 import { motion } from "framer-motion"
 import Image from "next/image"
+import { urlForImage } from "@/sanity/lib/image"
 
 interface Benefit {
 	title: string
 	description: string
-	icon?: string | { url?: string; asset?: any }
+	// Optional icon - can be emoji/text string, URL string, or Sanity image object
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	icon?: string | any
 	image?: string
 }
 
 interface KeyBenefitsProps {
 	data?: {
 		heading?: string
+		highlightWord?: string
 		subheading?: string
 		benefits?: Benefit[]
 	}
+}
+
+// Helper to safely resolve an image URL from icon field
+// Handles: URL strings, Sanity image objects, emoji/text strings
+const getBenefitIconSrc = (icon: Benefit["icon"]): string | undefined => {
+	if (!icon) return undefined
+
+	// Check if icon is a URL string (from transformed data)
+	if (typeof icon === "string") {
+		// Check if it's a URL (starts with http/https)
+		if (icon.startsWith("http://") || icon.startsWith("https://")) {
+			return icon
+		}
+		// Otherwise, it's likely an emoji/text icon, skip it
+		return undefined
+	}
+
+	// Check if icon is a Sanity image object
+	if (typeof icon === "object") {
+		try {
+			// Check if it looks like a Sanity image object
+			if (
+				icon._type === "image" ||
+				icon.asset ||
+				icon.asset?.url
+			) {
+				return urlForImage(icon).url()
+			}
+		} catch (error) {
+			console.warn("Failed to resolve icon image URL:", error)
+		}
+	}
+
+	return undefined
+}
+
+// Helper to check if icon is an emoji/text (not an image)
+const isEmojiOrTextIcon = (icon: Benefit["icon"]): boolean => {
+	if (!icon) return false
+	if (typeof icon === "string") {
+		// If it's a URL, it's not an emoji
+		if (icon.startsWith("http://") || icon.startsWith("https://")) {
+			return false
+		}
+		// Otherwise, treat as emoji/text
+		return true
+	}
+	// If it's an object, it's not an emoji
+	return false
 }
 
 const defaultIcons = [
@@ -117,98 +170,44 @@ export default function KeyBenefits({ data }: KeyBenefitsProps) {
 					{data.heading && (
 						<h2 className="text-4xl md:text-5xl lg:text-6xl font-regular text-blackbrown leading-tight font-cal-sans mb-4">
 							{(() => {
-								const heading =
-									data.heading
-								// Highlight "Benefits", "Advantages", or "Outcomes"
-								const highlightWords =
-									[
-										"Benefits",
-										"Advantages",
-										"Outcomes",
-									]
-								const words =
-									heading.split(
-										" "
-									)
-								let result = []
+								const heading = data.heading
+								const highlightWord = data.highlightWord
 
-								for (
-									let i = 0;
-									i <
-									words.length;
-									i++
-								) {
-									const word =
-										words[
-											i
-										].replace(
-											/[.,;:!?]/g,
-											""
-										)
-									const punctuation =
-										words[
-											i
-										].replace(
-											word,
-											""
-										)
-
-									if (
-										highlightWords.some(
-											(
-												hw
-											) =>
-												word.toLowerCase() ===
-												hw.toLowerCase()
-										)
-									) {
-										result.push(
-											<span
-												key={
-													i
-												}
-												className="relative inline-block"
-											>
-												<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow -skew-x-12"></span>
-												<span className="relative z-10 font-medium italic">
-													{
-														word
-													}
-													{
-														punctuation
-													}
-												</span>
-											</span>
-										)
-									} else {
-										result.push(
-											<span
-												key={
-													i
-												}
-											>
-												{
-													words[
-														i
-													]
-												}
-											</span>
-										)
-									}
-									if (
-										i <
-										words.length -
-											1
-									)
-										result.push(
-											" "
-										)
+								if (!highlightWord) {
+									return heading
 								}
 
-								return result.length >
-									0
-									? result
-									: heading
+								const lowerHeading = heading.toLowerCase()
+								const lowerHighlight = highlightWord.toLowerCase()
+								const highlightIndex = lowerHeading.indexOf(
+									lowerHighlight
+								)
+
+								if (highlightIndex === -1) {
+									return heading
+								}
+
+								const before = heading.slice(0, highlightIndex)
+								const highlighted = heading.slice(
+									highlightIndex,
+									highlightIndex + highlightWord.length
+								)
+								const after = heading.slice(
+									highlightIndex + highlightWord.length
+								)
+
+								return (
+									<>
+										{before}
+										<span className="relative inline-block">
+											<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow -skew-x-12"></span>
+											<span className="relative z-10 font-medium italic">
+												{highlighted}
+											</span>
+										</span>
+										{after}
+									</>
+								)
 							})()}
 						</h2>
 					)}
@@ -261,38 +260,32 @@ export default function KeyBenefits({ data }: KeyBenefitsProps) {
 								) : (
 									<div className="w-16 h-16 !rounded-none md:!rounded-xl bg-[#0e0e59] flex items-center justify-center mb-4 text-white overflow-hidden">
 										{(() => {
-											// Handle icon: could be string (emoji/URL) or image object
-											if (!benefit.icon) {
-												return defaultIcons[index % defaultIcons.length]
-											}
+											const imageSrc = getBenefitIconSrc(benefit.icon)
 
-											// Safely extract icon value
-											let iconValue: string | undefined = undefined;
-											if (typeof benefit.icon === "string") {
-												iconValue = benefit.icon;
-											} else if (benefit.icon && typeof benefit.icon === "object") {
-												iconValue = benefit.icon?.url || benefit.icon?.asset?.url;
-											}
-
-											if (!iconValue || typeof iconValue !== "string") {
-												return defaultIcons[index % defaultIcons.length];
-											}
-
-											// Check if it's a URL (starts with http/https)
-											if (iconValue.startsWith("http://") || iconValue.startsWith("https://")) {
+											// If we have an image URL, render the image
+											if (imageSrc) {
 												return (
 													<Image
-														src={iconValue}
+														src={imageSrc}
 														alt={benefit.title}
 														width={64}
 														height={64}
 														className="w-full h-full object-contain"
 													/>
-												);
+												)
 											}
 
-											// Otherwise, treat as emoji/text string - ensure it's rendered as text content
-											return <span className="text-3xl">{String(iconValue)}</span>;
+											// Check if icon is emoji/text
+											if (isEmojiOrTextIcon(benefit.icon)) {
+												return (
+													<span className="text-3xl">
+														{String(benefit.icon)}
+													</span>
+												)
+											}
+
+											// Fallback to default SVG icon
+											return defaultIcons[index % defaultIcons.length]
 										})()}
 									</div>
 								)}

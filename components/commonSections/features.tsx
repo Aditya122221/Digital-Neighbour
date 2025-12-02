@@ -2,14 +2,15 @@
 
 import { motion } from "framer-motion"
 import Image from "next/image"
+import { urlForImage } from "@/sanity/lib/image"
 
 interface Feature {
 	title: string
 	description: string
-	// Optional text/emoji icon (from JSON or legacy content)
-	icon?: string
-	// Optional uploaded icon image (Sanity image object or URL string)
-	// We keep this loose because different services can send either type.
+	// Optional icon - can be emoji/text string, URL string, or Sanity image object
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	icon?: string | any
+	// Optional uploaded icon image (Sanity image object or URL string) - for backward compatibility
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	image?: any
 }
@@ -17,6 +18,7 @@ interface Feature {
 interface FeaturesProps {
 	data?: {
 		heading?: string
+		highlightWord?: string
 		subheading?: string
 		features?: Feature[]
 	}
@@ -24,20 +26,82 @@ interface FeaturesProps {
 
 const defaultIcons = ["🤖", "⚡", "🧠", "📊", "🔄"]
 
-// Helper to safely resolve an image URL from either a string or a Sanity image object
-const getFeatureImageSrc = (image: Feature["image"]): string | undefined => {
-	if (!image) return undefined
-
-	if (typeof image === "string") {
-		return image
+// Helper to safely resolve an image URL from icon or image field
+// Handles: URL strings, Sanity image objects, emoji/text strings
+const getFeatureImageSrc = (feature: Feature): string | undefined => {
+	// First, check if icon is a URL string (from transformed data)
+	if (feature.icon && typeof feature.icon === "string") {
+		// Check if it's a URL (starts with http/https)
+		if (
+			feature.icon.startsWith("http://") ||
+			feature.icon.startsWith("https://")
+		) {
+			return feature.icon
+		}
+		// Otherwise, it's likely an emoji/text icon, skip it
 	}
 
-	// Handle Sanity image object with populated asset
-	if (typeof image === "object" && image.asset && typeof image.asset.url === "string") {
-		return image.asset.url
+	// Check if icon is a Sanity image object
+	if (feature.icon && typeof feature.icon === "object") {
+		try {
+			// Check if it looks like a Sanity image object
+			if (
+				feature.icon._type === "image" ||
+				feature.icon.asset ||
+				(feature.icon.asset?.url)
+			) {
+				return urlForImage(feature.icon).url()
+			}
+		} catch (error) {
+			console.warn("Failed to resolve icon image URL:", error)
+		}
+	}
+
+	// Fallback: check image field (for backward compatibility)
+	if (feature.image) {
+		if (typeof feature.image === "string") {
+			return feature.image
+		}
+
+		if (typeof feature.image === "object") {
+			try {
+				// Check if it looks like a Sanity image object
+				if (
+					feature.image._type === "image" ||
+					feature.image.asset ||
+					(feature.image.asset?.url)
+				) {
+					return urlForImage(feature.image).url()
+				}
+				// Fallback to direct URL if available
+				if (feature.image.asset?.url) {
+					return feature.image.asset.url
+				}
+			} catch (error) {
+				console.warn("Failed to resolve image URL:", error)
+			}
+		}
 	}
 
 	return undefined
+}
+
+// Helper to check if icon is an emoji/text (not an image)
+const isEmojiOrTextIcon = (icon: Feature["icon"]): boolean => {
+	if (!icon) return false
+	if (typeof icon === "string") {
+		// If it's a URL, it's not an emoji
+		if (
+			icon.startsWith("http://") ||
+			icon.startsWith("https://")
+		) {
+			return false
+		}
+		// Otherwise, treat as emoji/text
+		return true
+	}
+	// If it's an object, it's not an emoji
+	return false
 }
 
 export default function Features({ data }: FeaturesProps) {
@@ -103,7 +167,46 @@ export default function Features({ data }: FeaturesProps) {
 				>
 					{data?.heading && (
 						<h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight font-cal-sans mb-4 text-black">
-							{data.heading}
+							{(() => {
+								const heading = data.heading
+								const highlightWord = data.highlightWord
+
+								if (!highlightWord) {
+									return heading
+								}
+
+								const lowerHeading = heading.toLowerCase()
+								const lowerHighlight = highlightWord.toLowerCase()
+								const highlightIndex = lowerHeading.indexOf(
+									lowerHighlight
+								)
+
+								if (highlightIndex === -1) {
+									return heading
+								}
+
+								const before = heading.slice(0, highlightIndex)
+								const highlighted = heading.slice(
+									highlightIndex,
+									highlightIndex + highlightWord.length
+								)
+								const after = heading.slice(
+									highlightIndex + highlightWord.length
+								)
+
+								return (
+									<>
+										{before}
+										<span className="relative inline-block">
+											<span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow -skew-x-12"></span>
+											<span className="relative z-10 font-medium italic">
+												{highlighted}
+											</span>
+										</span>
+										{after}
+									</>
+								)
+							})()}
 						</h2>
 					)}
 					{data?.subheading && (
@@ -157,7 +260,7 @@ export default function Features({ data }: FeaturesProps) {
 										<div className="relative">
 											<div className="w-20 h-20 rounded-full flex items-center justify-center bg-[#0e0e59] overflow-hidden">
 												{(() => {
-													const imageSrc = getFeatureImageSrc(feature.image)
+													const imageSrc = getFeatureImageSrc(feature)
 
 													if (imageSrc) {
 														return (
@@ -171,14 +274,24 @@ export default function Features({ data }: FeaturesProps) {
 														)
 													}
 
+													// Check if icon is emoji/text
+													if (isEmojiOrTextIcon(feature.icon)) {
+														return (
+															<span className="text-4xl">
+																{feature.icon}
+															</span>
+														)
+													}
+
+													// Fallback to default emoji
 													return (
 														<span className="text-4xl">
-															{feature.icon
-																? feature.icon
-																: defaultIcons[
-																		index %
-																			defaultIcons.length
-																	]}
+															{
+																defaultIcons[
+																	index %
+																		defaultIcons.length
+																]
+															}
 														</span>
 													)
 												})()}
@@ -243,7 +356,7 @@ export default function Features({ data }: FeaturesProps) {
 											<div className="relative">
 												<div className="w-20 h-20 rounded-full flex items-center justify-center bg-[#0e0e59] overflow-hidden">
 													{(() => {
-														const imageSrc = getFeatureImageSrc(feature.image)
+														const imageSrc = getFeatureImageSrc(feature)
 
 														if (imageSrc) {
 															return (
@@ -257,14 +370,24 @@ export default function Features({ data }: FeaturesProps) {
 															)
 														}
 
+														// Check if icon is emoji/text
+														if (isEmojiOrTextIcon(feature.icon)) {
+															return (
+																<span className="text-4xl">
+																	{feature.icon}
+																</span>
+															)
+														}
+
+														// Fallback to default emoji
 														return (
 															<span className="text-4xl">
-																{feature.icon
-																	? feature.icon
-																	: defaultIcons[
-																			(index + 3) %
-																				defaultIcons.length
-																		]}
+																{
+																	defaultIcons[
+																		(index + 3) %
+																			defaultIcons.length
+																	]
+																}
 															</span>
 														)
 													})()}

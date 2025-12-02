@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 interface IntroParagraphProps {
   data?: {
     heading?: string;
+    highlightWord?: string;
     problemStatement?: string;
     valueProposition?: string;
   };
@@ -32,60 +33,41 @@ export default function IntroParagraph({ data }: IntroParagraphProps) {
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-regular text-blackbrown leading-tight font-cal-sans mb-6">
               {(() => {
                 const heading = data.heading;
-                // Find and highlight key words like "Challenge", "Problem", "Dilemma", etc.
-                const highlightWords = [
-                  "Challenge",
-                  "Challenges",
-                  "Problem",
-                  "Problems",
-                  "Dilemma",
-                  "Issue",
-                  "Issues",
-                  "Missing Out",
-                ];
-                const words = heading.split(/(\s+)/);
-                let result = [];
+                const highlightWord = data.highlightWord;
 
-                for (let i = 0; i < words.length; i++) {
-                  const word = words[i].trim();
-                  if (!word) {
-                    result.push(words[i]);
-                    continue;
-                  }
-
-                  const cleanWord = word.replace(/[.,;:!?]/g, "");
-                  const punctuation = word.replace(cleanWord, "");
-
-                  if (
-                    highlightWords.some(
-                      (hw) =>
-                        cleanWord.toLowerCase() === hw.toLowerCase() ||
-                        cleanWord.toLowerCase().includes(hw.toLowerCase()),
-                    )
-                  ) {
-                    result.push(
-                      <span key={i} className="relative inline-block">
-                        <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow -skew-x-12"></span>
-                        <span className="relative z-10 font-medium italic">
-                          {cleanWord}
-                          {punctuation}
-                        </span>
-                      </span>,
-                    );
-                  } else {
-                    result.push(<span key={i}>{word}</span>);
-                  }
-                  if (
-                    i < words.length - 1 &&
-                    words[i + 1] &&
-                    words[i + 1].trim() === ""
-                  ) {
-                    result.push(words[i + 1]);
-                    i++;
-                  }
+                if (!highlightWord) {
+                  return heading;
                 }
 
-                return result.length > 0 ? result : heading;
+                const lowerHeading = heading.toLowerCase();
+                const lowerHighlight = highlightWord.toLowerCase();
+                const highlightIndex = lowerHeading.indexOf(lowerHighlight);
+
+                if (highlightIndex === -1) {
+                  return heading;
+                }
+
+                const before = heading.slice(0, highlightIndex);
+                const highlighted = heading.slice(
+                  highlightIndex,
+                  highlightIndex + highlightWord.length
+                );
+                const after = heading.slice(
+                  highlightIndex + highlightWord.length
+                );
+
+                return (
+                  <>
+                    {before}
+                    <span className="relative inline-block">
+                      <span className="absolute bottom-1 left-0 right-0 h-2/4 bg-yellow -skew-x-12"></span>
+                      <span className="relative z-10 font-medium italic">
+                        {highlighted}
+                      </span>
+                    </span>
+                    {after}
+                  </>
+                );
               })()}
             </h2>
           )}

@@ -37,6 +37,12 @@ export const formField = (group: string = "form") =>
 				title: "Button Text",
 				type: "string",
 			}),
+			defineField({
+				name: "buttonLink",
+				title: "Button Link",
+				type: "string",
+				description: "URL or path for the button (e.g., /contact)",
+			}),
 		],
 	})
 

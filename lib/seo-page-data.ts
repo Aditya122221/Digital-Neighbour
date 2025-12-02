@@ -306,6 +306,7 @@ function transformSeoPageData(sanityData: any): SeoPageData | null {
     introParagraph: sanityData.introParagraph
       ? {
           heading: sanityData.introParagraph.heading,
+          highlightWord: sanityData.introParagraph.highlightWord,
           problemStatement: sanityData.introParagraph.problemStatement,
           valueProposition: sanityData.introParagraph.valueProposition,
         }
@@ -313,6 +314,7 @@ function transformSeoPageData(sanityData: any): SeoPageData | null {
     painPoints: sanityData.painPoints
       ? {
           heading: sanityData.painPoints.heading,
+          highlightWord: sanityData.painPoints.highlightWord,
           subheading: sanityData.painPoints.subheading,
           painPoints: sanityData.painPoints.painPoints || [],
         }
@@ -346,6 +348,7 @@ function transformSeoPageData(sanityData: any): SeoPageData | null {
     keyBenefits: sanityData.keyBenefits
       ? {
           heading: sanityData.keyBenefits.heading,
+          highlightWord: sanityData.keyBenefits.highlightWord,
           subheading: sanityData.keyBenefits.subheading,
           benefits: (sanityData.keyBenefits.benefits || []).map((benefit: any) => {
             // Handle icon: if it's an image object, convert to URL; if it's a string (emoji or URL), keep as is
@@ -372,6 +375,7 @@ function transformSeoPageData(sanityData: any): SeoPageData | null {
     features: sanityData.features
       ? {
           heading: sanityData.features.heading,
+          highlightWord: sanityData.features.highlightWord,
           subheading: sanityData.features.subheading,
           features: (sanityData.features.features || []).map((feature: any) => {
             // Handle icon: if it's an image object, convert to URL; if it's a string (emoji or URL), keep as is

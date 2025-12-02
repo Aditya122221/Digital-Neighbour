@@ -13,6 +13,13 @@ export const introParagraphField = (group: string = "introParagraph") =>
 				type: "string",
 			}),
 			defineField({
+				name: "highlightWord",
+				title: "Word/Phrase to Highlight",
+				type: "string",
+				description:
+					"Word or phrase in the heading to highlight (e.g., 'Challenge', 'Problem', 'Dilemma')",
+			}),
+			defineField({
 				name: "problemStatement",
 				title: "Problem Statement",
 				type: "text",

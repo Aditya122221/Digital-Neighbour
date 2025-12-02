@@ -13,6 +13,13 @@ export const featuresField = (group: string = "features") =>
 				type: "string",
 			}),
 			defineField({
+				name: "highlightWord",
+				title: "Word/Phrase to Highlight",
+				type: "string",
+				description:
+					"Word or phrase in the heading to highlight (e.g., 'Features', 'Benefits', 'Advantages')",
+			}),
+			defineField({
 				name: "subheading",
 				title: "Subheading",
 				type: "text",
