@@ -1,4 +1,12 @@
 import { defineField, defineType } from "sanity"
+import {
+	featuresField,
+	faqField,
+	formField,
+	processField,
+	seoSettingsField,
+	commonGroups,
+} from "./common"
 
 export const socialMediaPage = defineType({
 	name: "socialMediaPage",
