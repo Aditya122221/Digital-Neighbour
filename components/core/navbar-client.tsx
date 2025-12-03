@@ -149,6 +149,7 @@ export const NavbarClient: React.FC<{ data?: NavbarData | null }> = ({
           })),
           columns: category.columns.map((col) => ({
             title: col.title,
+            href: col.href,
             services: col.services.map((service) => ({
               name: service.label,
                 icon: service.icon?.asset?.url || service.emoji || '*',
@@ -169,6 +170,7 @@ export const NavbarClient: React.FC<{ data?: NavbarData | null }> = ({
     'Content Marketing': '/content-marketing',
     'Web Development': '/web-development',
     'App Development': '/app-development',
+    'Hosting, IT & Security': '/hosting-it-security',
   };
 
   const toggleMenu = () => {
@@ -404,11 +406,13 @@ export const NavbarClient: React.FC<{ data?: NavbarData | null }> = ({
                   <div className="flex justify-between gap-6 lg:gap-8">
                     {megaMenuDataToUse[
                       activeCategory as keyof typeof megaMenuDataToUse
-                    ]?.columns?.map((column: any) => (
+                    ]?.columns?.map((column: any) => {
+                      const columnHref = column.href || columnTitleToRoute[column.title];
+                      return (
                       <div key={column.title} className="space-y-2 flex-1">
-                        {columnTitleToRoute[column.title] ? (
+                        {columnHref ? (
                           <Link
-                            href={columnTitleToRoute[column.title]}
+                            href={columnHref}
                             className="text-base font-semibold text-gray-900 mb-2 block hover:text-[#5D50EB] transition-colors duration-200"
                           >
                             {column.title}
@@ -446,7 +450,8 @@ export const NavbarClient: React.FC<{ data?: NavbarData | null }> = ({
                           ))}
                         </div>
                       </div>
-                    ))}
+                      );
+                    })}
                   </div>
                 </div>
               </div>
@@ -508,10 +513,22 @@ export const NavbarClient: React.FC<{ data?: NavbarData | null }> = ({
                                 <div className="ml-4 space-y-2">
                                   {megaMenuDataToUse[
                                     categoryKey as keyof typeof megaMenuDataToUse
-                                  ]?.columns?.map((column: any) => (
+                                  ]?.columns?.map((column: any) => {
+                                    const columnHref = column.href || columnTitleToRoute[column.title];
+                                    return (
                                     <div key={column.title}>
                                       <div className="w-full flex items-center justify-between px-2 py-2 text-gray-300 hover:text-white transition-colors duration-200 rounded-md font-medium text-xs">
-                                          <span>{column.title}</span>
+                                          {columnHref ? (
+                                            <Link
+                                              href={columnHref}
+                                              className="flex-1 hover:text-white transition-colors duration-200"
+                                              onClick={() => setIsMenuOpen(false)}
+                                            >
+                                              {column.title}
+                                            </Link>
+                                          ) : (
+                                            <span>{column.title}</span>
+                                          )}
                                         <button
                                           onClick={() =>
                                             handleMobileColumnToggle(
@@ -563,7 +580,8 @@ export const NavbarClient: React.FC<{ data?: NavbarData | null }> = ({
                                         </div>
                                       )}
                                     </div>
-                                  ))}
+                                    );
+                                  })}
                                 </div>
                               )}
                             </div>
