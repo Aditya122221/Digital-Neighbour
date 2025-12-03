@@ -346,6 +346,11 @@ export const contactPageQuery = `{
       text,
       termsLink,
       privacyLink
+    },
+    thankYouMessage{
+      title,
+      message,
+      subMessage
     }
   }
 }`;

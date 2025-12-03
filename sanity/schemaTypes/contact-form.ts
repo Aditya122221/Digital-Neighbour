@@ -167,6 +167,35 @@ export const contactForm = defineType({
 				}),
 			],
 		}),
+		defineField({
+			name: "thankYouMessage",
+			title: "Thank You Message",
+			type: "object",
+			description: "Message displayed after successful form submission",
+			fields: [
+				defineField({
+					name: "title",
+					title: "Title",
+					type: "string",
+					description: "Main heading for the thank you message",
+					initialValue: "Thank You! 🎉",
+				}),
+				defineField({
+					name: "message",
+					title: "Message",
+					type: "text",
+					description: "Thank you message content",
+					rows: 4,
+				}),
+				defineField({
+					name: "subMessage",
+					title: "Sub Message",
+					type: "text",
+					description: "Additional text below the main message (optional)",
+					rows: 3,
+				}),
+			],
+		}),
 	],
 	preview: {
 		select: {

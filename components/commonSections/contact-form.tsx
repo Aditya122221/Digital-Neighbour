@@ -40,6 +40,11 @@ interface FormData {
 		termsLink?: string
 		privacyLink?: string
 	}
+	thankYouMessage?: {
+		title?: string
+		message?: string
+		subMessage?: string
+	}
 }
 
 interface ContactFormProps {
@@ -52,6 +57,7 @@ export default function ContactForm({ formData }: ContactFormProps) {
 	const [errors, setErrors] = useState<Record<string, string>>({})
 	const [isSubmitting, setIsSubmitting] = useState(false)
 	const [submitError, setSubmitError] = useState<string | null>(null)
+	const [submitSuccess, setSubmitSuccess] = useState(false)
 
 	const validateField = (field: FormField, value: string | undefined): string | null => {
 		// Handle required validation
@@ -117,7 +123,7 @@ export default function ContactForm({ formData }: ContactFormProps) {
 		return null
 	}
 
-	const handleChange = (
+		const handleChange = (
 		fieldId: string,
 		value: string,
 		field: FormField,
@@ -131,6 +137,11 @@ export default function ContactForm({ formData }: ContactFormProps) {
 				delete newErrors[fieldId]
 				return newErrors
 			})
+		}
+
+		// Clear success message when user starts typing
+		if (submitSuccess) {
+			setSubmitSuccess(false)
 		}
 	}
 
@@ -189,12 +200,15 @@ export default function ContactForm({ formData }: ContactFormProps) {
 				throw new Error(data.error || "Failed to submit form")
 			}
 
-			// Clear form values
-			setFormValues({})
+			// Show success message immediately
+			setSubmitSuccess(true)
+			setSubmitError(null)
+			setIsSubmitting(false)
 
-			// Redirect to contact page with success parameter
-			router.push("/contact?success=true")
-			router.refresh()
+			// Clear form values after showing success
+			setTimeout(() => {
+				setFormValues({})
+			}, 300)
 		} catch (error: any) {
 			console.error("Error submitting form:", error)
 			setSubmitError(
@@ -309,9 +323,72 @@ export default function ContactForm({ formData }: ContactFormProps) {
 		groupedFields.push(currentGroup)
 	}
 
+	// Thank you message content from Sanity or default
+	const thankYouTitle = formData.thankYouMessage?.title || "Thank You! 🎉"
+	const thankYouMessageText = formData.thankYouMessage?.message || "Your message has been sent successfully. We'll get back to you soon!"
+	const thankYouSubMessage = formData.thankYouMessage?.subMessage || ""
+
 	return (
-		<div className="rounded-xl bg-white p-8 shadow-lg">
-			<form onSubmit={handleSubmit} className="space-y-6">
+		<div className="rounded-xl bg-white p-8 shadow-lg relative overflow-hidden">
+			{/* Success Message Overlay - Replaces the form */}
+			{submitSuccess && (
+				<div
+					data-success-message
+					className="absolute inset-0 z-50 flex items-center justify-center bg-white rounded-xl p-8 animate-fade-in"
+					style={{
+						animation: "fadeIn 0.5s ease-in-out",
+					}}
+				>
+					<div className="text-center max-w-md w-full">
+						{/* Success Icon */}
+						<div className="mb-6 flex justify-center">
+							<div className="relative">
+								<div className="w-20 h-20 bg-gradient-to-br from-[#5D50EB] to-[#0e0e59] rounded-full flex items-center justify-center shadow-lg transform transition-transform duration-300 hover:scale-110">
+									<svg
+										className="h-10 w-10 text-white"
+										fill="none"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="3"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+									>
+										<path d="M5 13l4 4L19 7" />
+									</svg>
+								</div>
+								{/* Animated rings */}
+								<div className="absolute inset-0 rounded-full border-4 border-[#5D50EB] opacity-20 animate-ping"></div>
+								<div className="absolute inset-0 rounded-full border-4 border-[#5D50EB] opacity-10 animate-pulse"></div>
+							</div>
+						</div>
+
+						{/* Title */}
+						<h3 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-[#5D50EB] to-[#0e0e59] bg-clip-text text-transparent mb-4">
+							{thankYouTitle}
+						</h3>
+
+						{/* Message */}
+						<p className="text-lg text-gray-700 leading-relaxed mb-4">
+							{thankYouMessageText}
+						</p>
+
+						{/* Sub Message */}
+						{thankYouSubMessage && (
+							<p className="text-base text-gray-600 leading-relaxed">
+								{thankYouSubMessage}
+							</p>
+						)}
+					</div>
+				</div>
+			)}
+
+			{/* Form - Hidden when success is shown */}
+			<form
+				onSubmit={handleSubmit}
+				className={`space-y-6 transition-opacity duration-500 ${
+					submitSuccess ? "opacity-0 pointer-events-none" : "opacity-100"
+				}`}
+			>
 				{groupedFields.map((group, groupIndex) => {
 					const firstField = group[0]
 					if (group.length > 1 && firstField.gridCols) {
@@ -358,6 +435,20 @@ export default function ContactForm({ formData }: ContactFormProps) {
 					</button>
 				</div>
 			</form>
+
+			{/* Add CSS animation for fade-in */}
+			<style jsx>{`
+				@keyframes fadeIn {
+					from {
+						opacity: 0;
+						transform: translateY(20px);
+					}
+					to {
+						opacity: 1;
+						transform: translateY(0);
+					}
+				}
+			`}</style>
 		</div>
 	)
 }

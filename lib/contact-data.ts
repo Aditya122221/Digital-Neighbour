@@ -56,6 +56,11 @@ type ContactPageData = {
 			termsLink?: string;
 			privacyLink?: string;
 		};
+		thankYouMessage?: {
+			title?: string;
+			message?: string;
+			subMessage?: string;
+		};
 	};
 };
 
@@ -147,6 +152,13 @@ function transformSanityData(sanityData: any): ContactPageData | null {
 						privacyLink: formDoc.disclaimer.privacyLink || "/privacy",
 					}
 				: undefined,
+			thankYouMessage: formDoc.thankYouMessage
+				? {
+						title: formDoc.thankYouMessage.title || "Thank You! 🎉",
+						message: formDoc.thankYouMessage.message || "",
+						subMessage: formDoc.thankYouMessage.subMessage || "",
+					}
+				: undefined,
 		},
 	};
 }
@@ -184,7 +196,11 @@ export async function getContactPageData(): Promise<ContactPageData> {
 					presenter: transformed.hero?.presenter || contactDataJson.hero.presenter,
 					benefits: transformed.hero?.benefits || contactDataJson.hero.benefits,
 				},
-				form: transformed.form || contactDataJson.form,
+				form: {
+					...contactDataJson.form,
+					...transformed.form,
+					thankYouMessage: transformed.form?.thankYouMessage || contactDataJson.form?.thankYouMessage,
+				},
 			};
 		}
 	} catch (error) {
