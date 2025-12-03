@@ -11,9 +11,12 @@ export default function CaseStudyClient({
 	caseStudiesList: any[]
 }) {
 	const [currentIndex, setCurrentIndex] = useState(0)
-	const [hoveredCard, setHoveredCard] = useState<number | null>(null)
+	const [hoveredCard, setHoveredCard] = useState<string | null>(null)
+	const [hoveredStudyId, setHoveredStudyId] = useState<number | null>(
+		null
+	)
 	const [currentImageIndex, setCurrentImageIndex] = useState<{
-		[key: number]: number
+		[key: string]: number
 	}>({})
 
 	const caseStudies = caseStudiesList || []
@@ -35,24 +38,36 @@ export default function CaseStudyClient({
 		)
 	}
 
-	const handleMouseEnter = (cardId: number) => {
-		setHoveredCard(cardId)
-		setCurrentImageIndex((prev) => ({ ...prev, [cardId]: 0 }))
+	const handleMouseEnter = (cardUniqueId: string, studyId: number) => {
+		setHoveredCard(cardUniqueId)
+		setHoveredStudyId(studyId)
+		setCurrentImageIndex((prev) => ({ ...prev, [cardUniqueId]: 0 }))
 	}
 
-	const handleMouseLeave = (cardId: number) => {
+	const handleMouseLeave = (cardUniqueId: string, studyId: number) => {
 		setHoveredCard(null)
-		setCurrentImageIndex((prev) => ({ ...prev, [cardId]: 0 }))
+		setHoveredStudyId(null)
+		// Reset image index for this specific card
+		setCurrentImageIndex((prev) => {
+			const newState = { ...prev }
+			delete newState[cardUniqueId]
+			return newState
+		})
 	}
 
 	// Auto-cycle images when hovering
 	useEffect(() => {
-		if (hoveredCard !== null) {
-			const interval = setInterval(() => {
-				const study = caseStudies.find(
-					(s) => s.id === hoveredCard
-				)
-				if (study) {
+		if (hoveredCard !== null && hoveredStudyId !== null) {
+			const study = caseStudies.find(
+				(s) => s.id === hoveredStudyId
+			)
+			// Only cycle if there are multiple images
+			if (
+				study &&
+				study.bgImages &&
+				study.bgImages.length > 1
+			) {
+				const interval = setInterval(() => {
 					setCurrentImageIndex((prev) => ({
 						...prev,
 						[hoveredCard]:
@@ -61,12 +76,12 @@ export default function CaseStudyClient({
 								1) %
 							study.bgImages.length,
 					}))
-				}
-			}, 1000) // Change image every 1 second
+				}, 1000) // Change image every 1 second
 
-			return () => clearInterval(interval)
+				return () => clearInterval(interval)
+			}
 		}
-	}, [hoveredCard, caseStudies])
+	}, [hoveredCard, hoveredStudyId, caseStudies])
 
 	const getVisibleCards = () => {
 		if (!caseStudies || caseStudies.length === 0) {
@@ -106,34 +121,58 @@ export default function CaseStudyClient({
 				<div className="flex gap-6 mb-8 overflow-hidden">
 					{getVisibleCards().map(
 						(study, index) => {
-							const currentImgIndex =
+							const cardUniqueId = `${study.id}-${currentIndex}-${index}`
+							const imageCount =
+								study.bgImages
+									?.length ||
+								0
+							const rawImgIndex =
 								currentImageIndex[
-									study.id
+									cardUniqueId
 								] || 0
+							// Ensure index is within bounds
+							const currentImgIndex =
+								imageCount > 0
+									? rawImgIndex %
+										imageCount
+									: 0
 							const currentBgImage =
-								study.bgImages[
+								study
+									.bgImages?.[
 									currentImgIndex
-								]
+								] ||
+								study
+									.bgImages?.[0]
+							const isHovered =
+								hoveredCard ===
+								cardUniqueId
 
 							return (
 								<div
-									key={`${study.id}-${currentIndex}-${index}`}
+									key={
+										cardUniqueId
+									}
 									className={`
-                flex-shrink-0 basis-full sm:basis-[calc((100%_-_1.5rem)/2)] lg:basis-[calc((100%_-_3rem)/3)] h-[36rem] rounded-4xl p-6 relative flex flex-col group
+                flex-shrink-0 basis-full sm:basis-[calc((100%_-_1.5rem)/2)] lg:basis-[calc((100%_-_3rem)/3)] h-[36rem] rounded-4xl p-6 relative flex flex-col
                 ${study.textColor}
                 transition-all duration-500 ease-in-out
                 bg-cover bg-center bg-no-repeat
               `}
 									style={{
-										backgroundImage: `url(${currentBgImage})`,
+										backgroundImage:
+											currentBgImage
+												? `url(${currentBgImage})`
+												: "none",
 									}}
 									onMouseEnter={() =>
 										handleMouseEnter(
+											cardUniqueId,
 											study.id
 										)
 									}
 									onMouseLeave={() =>
 										handleMouseLeave(
+											cardUniqueId,
 											study.id
 										)
 									}
@@ -148,7 +187,11 @@ export default function CaseStudyClient({
 											</h3>
 											<div className="bg-[#0e0e59] rounded-full p-2 flex items-center justify-center">
 												<ArrowUpRight
-													className="w-6 h-6 text-white transition-transform duration-300 ease-in-out group-hover:rotate-45"
+													className={`w-6 h-6 text-white transition-transform duration-300 ease-in-out ${
+														isHovered
+															? "rotate-45"
+															: ""
+													}`}
 													strokeWidth={
 														2.5
 													}
@@ -158,39 +201,41 @@ export default function CaseStudyClient({
 									</div>
 
 									{/* Hover Overlay with Metrics */}
-									<div className="absolute inset-0 bg-[#5D50EB]/80 backdrop-blur-sm rounded-4xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out z-10">
-										<div className="text-center px-6">
-											<div className="grid grid-cols-1 gap-8">
-												{study.metrics.map(
-													(
-														metric: {
-															number: string
-															text: string
-														},
-														index: number
-													) => (
-														<div
-															key={
-																index
-															}
-															className="text-center"
-														>
-															<div className="text-4xl md:text-5xl font-bold text-white mb-2">
-																{
-																	metric.number
+									{isHovered && (
+										<div className="absolute inset-0 bg-[#5D50EB]/80 backdrop-blur-sm rounded-4xl flex items-center justify-center opacity-100 transition-opacity duration-300 ease-in-out z-10">
+											<div className="text-center px-6">
+												<div className="grid grid-cols-1 gap-8">
+													{study.metrics.map(
+														(
+															metric: {
+																number: string
+																text: string
+															},
+															index: number
+														) => (
+															<div
+																key={
+																	index
 																}
+																className="text-center"
+															>
+																<div className="text-4xl md:text-5xl font-bold text-white mb-2">
+																	{
+																		metric.number
+																	}
+																</div>
+																<div className="text-lg md:text-xl text-white/80 font-light capitalize">
+																	{
+																		metric.text
+																	}
+																</div>
 															</div>
-															<div className="text-lg md:text-xl text-white/80 font-light capitalize">
-																{
-																	metric.text
-																}
-															</div>
-														</div>
-													)
-												)}
+														)
+													)}
+												</div>
 											</div>
 										</div>
-									</div>
+									)}
 
 									{/* Services Tags - Bottom of card */}
 									<div className="mt-auto relative z-5">
