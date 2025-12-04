@@ -151,21 +151,23 @@ export async function generateMetadata({
         ? "social-media-marketing"
         : canonicalSlug,
     );
+    const serviceDataAny = serviceData as any;
+    const baseDataAny = baseData as any;
     const fallbackTitle =
-      serviceData.seoSettings?.title?.trim() ||
-      serviceData.hero?.heading ||
-      baseData?.hero?.heading ||
+      serviceDataAny.seoSettings?.title?.trim() ||
+      serviceDataAny.hero?.heading ||
+      baseDataAny?.hero?.heading ||
       serviceLabel;
     const fallbackDescription =
-      serviceData.seoSettings?.description?.trim() ||
-      serviceData.hero?.subheading ||
-      baseData?.hero?.subheading ||
-      serviceData.description ||
-      baseData?.description ||
+      serviceDataAny.seoSettings?.description?.trim() ||
+      serviceDataAny.hero?.subheading ||
+      baseDataAny?.hero?.subheading ||
+      serviceDataAny.description ||
+      baseDataAny?.description ||
       `Partner with Digital Neighbour for ${serviceLabel}.`;
 
     return buildLocationMetadataFromSeoSettings({
-      seoSettings: serviceData.seoSettings,
+      seoSettings: serviceDataAny.seoSettings,
       fallbackTitle,
       fallbackDescription,
       path: canonicalPath,

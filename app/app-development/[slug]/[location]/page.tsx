@@ -58,7 +58,7 @@ const canonicalToDataKey: Record<AppServiceSlug, keyof typeof appDevData> = {
   "ios-app-development": "ios-app-development",
   "android-app-development": "android-app-development",
   "react-native-development": "react-native-development",
-  "flutter-app-development": "flutter-app-development",
+  "flutter-app-development": "flutter-development",
   "software-development": "software-development",
   "progressive-web-apps": "progressive-web-apps",
 };
@@ -135,21 +135,23 @@ export async function generateMetadata({
 
   if (serviceData) {
     const serviceLabel = humanizeSlug(canonicalSlug);
+    const serviceDataAny = serviceData as any;
+    const baseDataAny = baseData as any;
     const fallbackTitle =
-      serviceData.seoSettings?.title?.trim() ||
-      serviceData.hero?.heading ||
-      baseData?.hero?.heading ||
+      serviceDataAny.seoSettings?.title?.trim() ||
+      serviceDataAny.hero?.heading ||
+      baseDataAny?.hero?.heading ||
       serviceLabel;
     const fallbackDescription =
-      serviceData.seoSettings?.description?.trim() ||
-      serviceData.hero?.subheading ||
-      baseData?.hero?.subheading ||
-      serviceData.description ||
-      baseData?.description ||
+      serviceDataAny.seoSettings?.description?.trim() ||
+      serviceDataAny.hero?.subheading ||
+      baseDataAny?.hero?.subheading ||
+      serviceDataAny.description ||
+      baseDataAny?.description ||
       `Partner with Digital Neighbour for ${serviceLabel}.`;
 
     return buildLocationMetadataFromSeoSettings({
-      seoSettings: serviceData.seoSettings,
+      seoSettings: serviceDataAny.seoSettings,
       fallbackTitle,
       fallbackDescription,
       path: canonicalPath,

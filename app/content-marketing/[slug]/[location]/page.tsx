@@ -15,7 +15,6 @@ import {
   buildLocationMetadataFromSeoSettings,
   humanizeSlug,
 } from "@/lib/site-metadata";
-import { getContentMarketingServiceBySlug } from "@/lib/sanity-service-data";
 import contentMarketingData from "@/data/content-marketing.json";
 import ContentMarketingHero from "@/components/content-marketing/hero";
 import IntroParagraph from "@/components/commonSections/introparagraph";
@@ -56,17 +55,17 @@ const slugAliases: Record<string, ContentServiceSlug> = {
   graphicdesign: "graphic-designing",
 };
 
-const canonicalToDataKey: Record<
+const canonicalToDataKey: Partial<Record<
   ContentServiceSlug,
   keyof typeof contentMarketingData
-> = {
+>> = {
   "content-marketing": "content-marketing",
   "content-strategy": "content-strategy",
   copywriting: "copywriting",
   "email-marketing": "email-marketing",
   "graphic-designing": "graphic-designing",
-  "content-production": "content-production",
-  "content-distribution": "content-distribution",
+  "content-production": "content-marketing", // fallback
+  "content-distribution": "content-marketing", // fallback
 };
 
 function resolveContentSlug(requestedSlug: string): ContentServiceSlug | null {
@@ -142,21 +141,23 @@ export async function generateMetadata({
 
   if (serviceData) {
     const serviceLabel = humanizeSlug(canonicalSlug);
+    const serviceDataAny = serviceData as any;
+    const baseDataAny = baseData as any;
     const fallbackTitle =
-      serviceData.seoSettings?.title?.trim() ||
-      serviceData.hero?.heading ||
-      baseData?.hero?.heading ||
+      serviceDataAny.seoSettings?.title?.trim() ||
+      serviceDataAny.hero?.heading ||
+      baseDataAny?.hero?.heading ||
       serviceLabel;
     const fallbackDescription =
-      serviceData.seoSettings?.description?.trim() ||
-      serviceData.hero?.subheading ||
-      baseData?.hero?.subheading ||
-      serviceData.description ||
-      baseData?.description ||
+      serviceDataAny.seoSettings?.description?.trim() ||
+      serviceDataAny.hero?.subheading ||
+      baseDataAny?.hero?.subheading ||
+      serviceDataAny.description ||
+      baseDataAny?.description ||
       `Partner with Digital Neighbour for ${serviceLabel}.`;
 
     return buildLocationMetadataFromSeoSettings({
-      seoSettings: serviceData.seoSettings,
+      seoSettings: serviceDataAny.seoSettings,
       fallbackTitle,
       fallbackDescription,
       path: canonicalPath,
